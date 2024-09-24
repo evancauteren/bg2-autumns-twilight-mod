@@ -1,0 +1,16 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@200146)  // ~Parece que las arañas han derrumbado la entrada. Es imposible atravesar los escombros en la oscuridad.~
+END
+
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,14702)  // ~Estáis demasiado lejos como para poder usarlo.~
+END
+

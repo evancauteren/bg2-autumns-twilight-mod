@@ -1,0 +1,44 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  PartyHasItem("P_FTALI2")  
+THEN
+  RESPONSE #100
+    SaveGame(0)
+    DisplayString(Myself,@200133)  // ~El Talismán de Dreach-naga ilumina tu camino. Ahora, las tinieblas ya no son un problema para llegar al reino de los reptiles.~
+    StartCutSceneMode()
+    //CreateVisualEffectObject("SPDIMNDR",Player1)
+    Wait(4)
+    FadeToColor([20.0],0)
+    Wait(1)
+    //PlaySound("PORTAL2")
+    Wait(2)
+    ActionOverride(Player1,LeaveAreaLUAPanic("P_FAR8","",[330.350],SE))
+    ActionOverride(Player1,LeaveAreaLUA("P_FAR8","",[330.350],SE))
+    ActionOverride(Player2,LeaveAreaLUA("P_FAR8","",[365.328],SE))
+    ActionOverride(Player3,LeaveAreaLUA("P_FAR8","",[403.300],SE))
+    ActionOverride(Player4,LeaveAreaLUA("P_FAR8","",[368.276],SE))
+    ActionOverride(Player5,LeaveAreaLUA("P_FAR8","",[328.299],SE))
+    ActionOverride(Player6,LeaveAreaLUA("P_FAR8","",[297.323],SE))
+    MultiPlayerSync()
+    EndCutSceneMode()
+    FadeFromColor([20.0],0)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  !PartyHasItem("P_FTALI2")  
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@200134)  // ~La oscuridad de la cueva te abruma. Es imposible atravesarla. Tendrás que buscar la forma de continuar o buscar otro camino.~
+END
+
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,14702)  // ~Estáis demasiado lejos como para poder usarlo.~
+END
+

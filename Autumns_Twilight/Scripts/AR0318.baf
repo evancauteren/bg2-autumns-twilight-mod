@@ -1,0 +1,198 @@
+IF
+Global("P_MatutSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("p_matut",[633.427],3)  
+SetGlobal("P_MatutSpawn","GLOBAL",1)
+SetGlobal("P_Dusk_Mathyus_Enc","LOCALS",0)
+Continue()
+END
+
+// Script de Michelson test
+IF
+Global("P_MichelSpawn2","GLOBAL",0)
+Global("P_DuskMatMission1","GLOBAL",4)
+THEN
+RESPONSE #100
+CreateCreature("p_michel",[694.439],3)  
+SetGlobal("P_MichelSpawn2","GLOBAL",1)
+//SetGlobal("P_Dusk_Michel_Enc","LOCALS",1)
+Continue()
+END
+
+IF
+Global("P_DemoleSpawn2","GLOBAL",0)
+Global("P_DuskMatMission2","GLOBAL",2)
+THEN
+RESPONSE #100
+CreateCreature("p_demole",[697.435],3)  
+SetGlobal("P_DemoleSpawn2","GLOBAL",1)
+Continue()
+END
+
+// parche para destruir Orbe Teleportador
+IF
+PartyHasItem("p_orbet1")
+Global("P_DuskMatMission3","GLOBAL",9)
+Global("P_DuskOrbeT1_DestroyPatch","GLOBAL",0)
+THEN
+RESPONSE #100
+TakePartyItem ("p_orbet1")
+DestroyItem ("p_orbet1")
+SetGlobal("P_DuskOrbeT1_DestroyPatch","GLOBAL",1)
+END
+
+
+
+IF
+Global("P_DanctianSpawn1","GLOBAL",0)
+Global("P_DanctianAppear","GLOBAL",3)
+THEN
+RESPONSE #100
+ForceSpellPoint([633.427],ZOMBIE_SICKNESS)
+ForceSpellPoint([697.435],ZOMBIE_SICKNESS)
+ForceSpellPoint([694.439],ZOMBIE_SICKNESS)
+CreateCreature("p_dancti",[694.439],3)  
+SetGlobal("P_DanctianSpawn1","GLOBAL",1)
+Continue()
+END
+
+// MISSION FINAL MICHELSON
+IF
+  Global("P_DuskDemoleMISSION","GLOBAL",3)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal("P_DuskDemoleMISSION","GLOBAL",4)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+    Wait(1)
+	ActionOverride(Player1,LeaveAreaLUA("AR1506","",[553.1229],NW))
+    ActionOverride(Player2,LeaveAreaLUA("AR1506","",[645.1241],NW))
+    ActionOverride(Player3,LeaveAreaLUA("AR1506","",[763.1229],NW))
+    ActionOverride(Player4,LeaveAreaLUA("AR1506","",[543.1317],NW))
+    ActionOverride(Player5,LeaveAreaLUA("AR1506","",[635.1317],NW))
+    ActionOverride(Player6,LeaveAreaLUA("AR1506","",[752.1308],NW))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END
+
+
+// MISSION FINAL DANCTIAN
+IF
+  Global("P_DuskDanctialMISSION","GLOBAL",3)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal("P_DuskDanctialMISSION","GLOBAL",4)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+    Wait(1)
+	ActionOverride(Player1,LeaveAreaLUA("AR1506","",[553.1229],NW))
+    ActionOverride(Player2,LeaveAreaLUA("AR1506","",[645.1241],NW))
+    ActionOverride(Player3,LeaveAreaLUA("AR1506","",[763.1229],NW))
+    ActionOverride(Player4,LeaveAreaLUA("AR1506","",[543.1317],NW))
+    ActionOverride(Player5,LeaveAreaLUA("AR1506","",[635.1317],NW))
+    ActionOverride(Player6,LeaveAreaLUA("AR1506","",[752.1308],NW))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END
+
+// MISSION FINAL DUSK GOOD -> TELEPORT TRUE SPIRIT
+IF
+  Global("P_DuskDemoleMISSION","GLOBAL",5)
+  Global("P_DuskDemoleTELEPORTMF_CEL","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal("P_DuskDemoleTELEPORTMF_CEL","GLOBAL",1)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+    Wait(1)
+	ActionOverride(Player1,LeaveAreaLUA("AR2601","",[612.470],NW))
+    ActionOverride(Player2,LeaveAreaLUA("AR2601","",[572.473],NW))
+    ActionOverride(Player3,LeaveAreaLUA("AR2601","",[569.506],NW))
+    ActionOverride(Player4,LeaveAreaLUA("AR2601","",[519.510],NW))
+    ActionOverride(Player5,LeaveAreaLUA("AR2601","",[533.550],NW))
+    ActionOverride(Player6,LeaveAreaLUA("AR2601","",[480.546],NW))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END
+
+
+// MISSION FINAL DUSK EVIL -> TELEPORT TRUE SPIRIT
+IF
+  Global("P_DuskDanctialMISSION","GLOBAL",5)
+  Global("P_DuskDanctialTELEPORTMF_CEL","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal("P_DuskDanctialTELEPORTMF_CEL","GLOBAL",1)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+    Wait(1)
+	ActionOverride(Player1,LeaveAreaLUA("AR1509","",[730.660],NW))
+    ActionOverride(Player2,LeaveAreaLUA("AR1509","",[784.637],NW))
+    ActionOverride(Player3,LeaveAreaLUA("AR1509","",[840.610],NW))
+    ActionOverride(Player4,LeaveAreaLUA("AR1509","",[773.672],NW))
+    ActionOverride(Player5,LeaveAreaLUA("AR1509","",[829.647],NW))
+    ActionOverride(Player6,LeaveAreaLUA("AR1509","",[885.622],NW))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END

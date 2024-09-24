@@ -1,0 +1,33 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200044)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global ("P_Gorm1stAttack","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+	AttackReevaluate(NearestEnemyOf(Myself),15)
+	SetGlobal ("P_Gorm1stAttack","GLOBAL",1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+
+IF
+AreaCheck("P_FAR4")
+Global("P_Fall_Kitoch_Charname","GLOBAL",8)
+THEN
+RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+

@@ -1,0 +1,23 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200326)
+END
+
+
+IF
+AreaCheck("P_2601")
+Global("P_FallGemAR2601","GLOBAL",1)
+Global("P_GerTalk01","GLOBAL",0)
+CombatCounter(0)
+THEN
+RESPONSE #100
+ClearAllActions()
+StartCutSceneMode()
+StartDialogueNoSet(Player1)
+SetGlobal ("P_GerTalk01","GLOBAL",1)
+ClearAllActions()
+EndCutSceneMode()
+Continue()
+END

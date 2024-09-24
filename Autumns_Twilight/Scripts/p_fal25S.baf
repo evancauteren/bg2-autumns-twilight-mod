@@ -1,0 +1,135 @@
+// Hotkey configurable
+IF
+HotKey(K)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+StartCutScene("P_FallF")
+END
+
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+Wait (6)
+SetGlobal("P_Fall_UpdateK","GLOBAL",0)
+END
+
+// Fall talks immediately when summoned.
+IF
+Global("P_FallSummoned","GLOBAL",1)
+Global("P_FallSummoned1stTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_FallSummoned1stTalk","GLOBAL",1)
+StartDialogueNoSet([PC])
+Wait(1)
+END
+
+// Erasing FamiliarSpell
+IF
+InParty(Myself)
+Global ("P_Fall25EraseFamiliarSpell","GLOBAL",0)
+THEN
+RESPONSE #100
+  CreateItem ("p_fremo1",1,1,0)   
+  UseItem ("p_fremo1", Myself)
+  DestroyItem ("p_fremo1")
+  SetGlobal ("P_Fall25EraseFamiliarSpell","GLOBAL",1)
+END
+
+
+IF
+  InParty(Myself)
+  Global("P_FallEstablishingPartyIN","GLOBAL",0)
+THEN
+  RESPONSE #100
+	SetGlobal("P_FallEstablishingPartyIN","GLOBAL",1)
+END
+
+
+// ToB Conversations - Timer
+IF 
+InParty(Myself)
+Global("P_FallTalkToB","GLOBAL",0)
+// Gemystara es rescatada
+Global("P_FallGemAR2601","GLOBAL",6)
+// Kakuto es convocado
+Global ("P_Fall_KakutoSummoningIA","GLOBAL",4)
+// Voragor es convocado
+Global("P_Fall_SP1_2","GLOBAL",3)
+// Kitochi es convocado
+Global("P_Fall_SP2_1","GLOBAL",3)
+// Tabitha es convocada
+Global("P_Fall_SP3_2","GLOBAL",3)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_FallTimerToB","GLOBAL",1800) //1800
+SetGlobal("P_FallTalkToB","GLOBAL",1)
+END
+
+// ToB Conversations - Timer Expirado
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_FallTimerToB","GLOBAL")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+OR(3)
+Global("P_FallTalkToB","GLOBAL",1)
+Global("P_FallGemAR2601","GLOBAL",6)
+Global ("P_Fall_KakutoSummoningIA","GLOBAL",4)
+THEN
+RESPONSE #100
+IncrementGlobal("P_FallTalkToB","GLOBAL",1)
+END
+
+// Inicio conversations y music
+IF
+InParty(Myself)
+Global("P_FallGemAR2601","GLOBAL",6)
+Global ("P_Fall_KakutoSummoningIA","GLOBAL",4)
+!AreaType(DUNGEON)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+OR(1)
+Global("P_FallTalkToB","GLOBAL",2)
+THEN
+RESPONSE #100
+PlaySong(4443)
+//PlaySound("P_FallN")
+StartDialogueNoSet(Player1)
+END
+
+
+// Parche EET
+IF
+  InParty(Myself)
+  Global("P_FallEstablishingDLGJ","GLOBAL",0)
+THEN
+  RESPONSE #100
+    //Dialogue(Player1)
+    //ChangeAIScript("",DEFAULT)
+    SetDialog("P_FAL25J")
+	SetGlobal("P_FallEstablishingDLGJ","GLOBAL",1)
+	SetGlobal("P_FallEstablishingDLGP","GLOBAL",0)
+END
+
+IF
+  !InParty(Myself)
+  Global("P_FallEstablishingPartyIN","GLOBAL",1)
+  Global("P_FallEstablishingDLGP","GLOBAL",0)
+THEN
+  RESPONSE #100
+    //Dialogue(Player1)
+    //ChangeAIScript("",DEFAULT)
+    SetDialog("P_Fall25")
+	SetGlobal("P_FallEstablishingDLGP","GLOBAL",1)
+	SetGlobal("P_FallEstablishingDLGJ","GLOBAL",0)
+END
+

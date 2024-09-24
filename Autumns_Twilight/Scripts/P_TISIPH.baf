@@ -1,0 +1,82 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200265)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HasItem("p_fitisc",Myself)
+THEN
+  RESPONSE #100
+    UseItem("p_fitisc",Myself)
+    DestroyItem("p_fitisc")
+END
+
+// Después del 1er diálogo de Cho, Tisiphone habla:
+IF
+Global("P_FMeetingCho","GLOBAL",5)
+Global("P_TisiphoneTalk1","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(1)
+ActionOverride(Player1,JumpToPoint([574.357]))
+ActionOverride(Player1,Wait(1))
+/*ActionOverride(Player2,JumpToPoint([625.350]))
+ActionOverride(Player2,Wait(1))
+ActionOverride(Player3,JumpToPoint([680.374]))
+ActionOverride(Player3,Wait(1))
+ActionOverride(Player4,JumpToPoint([721.387]))
+ActionOverride(Player4,Wait(1))
+ActionOverride(Player5,JumpToPoint([764.397]))
+ActionOverride(Player5,Wait(1))
+ActionOverride(Player6,JumpToPoint([818.413]))
+ActionOverride(Player6,Wait(1))*/
+ActionOverride(Player1,MoveToPoint([574.357]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player2,MoveToPoint([625.350]))
+ActionOverride(Player2,Wait(1))
+ActionOverride(Player3,MoveToPoint([680.374]))
+ActionOverride(Player3,Wait(1))
+ActionOverride(Player4,MoveToPoint([721.387]))
+ActionOverride(Player4,Wait(1))
+ActionOverride(Player5,MoveToPoint([764.397]))
+ActionOverride(Player5,Wait(1))
+ActionOverride(Player6,MoveToPoint([818.413]))
+ActionOverride(Player6,Wait(1))
+Wait(4)
+EndCutSceneMode()
+StartDialogNoSet(Player1)
+SetGlobal("P_TisiphoneTalk1","GLOBAL",5)
+Wait(1)
+END
+
+IF
+Global ("P_FMeetingTis","GLOBAL",1)
+Global ("P_TisiphoneAttCho","GLOBAL",0)
+AreaCheck("P_FA13")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+ActionOverride("P_CHO", FaceObject ("P_TISIPH"))
+Wait(1)
+AttackOneRound("P_CHO")
+SetGlobal ("P_TisiphoneAttCho","GLOBAL",1)
+ActionOverride("P_CHO", CreateItem ("P_DREAM2",1,2,1))
+ActionOverride("P_CHO",EquipItem("P_DREAM2"))
+//XEquipItem("P_DREAM2","P_CHO",BELT,EQUIP)
+/*
+ActionOverride("P_CHO", CreateItem ("P_DREAM",1,2,1))
+ActionOverride("P_CHO", UseItem ("P_DREAM", Myself))
+ActionOverride("P_CHO", DestroyItem ("P_DREAM"))
+*/
+SmallWait (6)
+FaceObject(Player1)
+SmallWait (1)
+EndCutSceneMode()
+Continue()
+StartDialogueNoSet(Player1)
+END
+

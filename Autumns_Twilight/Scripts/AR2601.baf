@@ -1,0 +1,86 @@
+// Espíritu verdadero de Celine
+IF
+Global("P_DuskDemoleMISSION","GLOBAL",5)
+Global("P_CelineSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("DrizztEncounter","GLOBAL",1)
+CreateCreature("p_matut",[500.296],15)  
+CreateCreature("p_demole",[456.321],15)  
+CreateCreature("p_michel",[496.355],15)  
+Wait(7)
+//CreateVisualEffect("SPDIMNDR",[1174.720])
+CreateVisualEffect("SPBASEWT",[729.205])
+Wait(1)
+CreateCreature("p_celin",[729.205],15)  
+SetGlobal("P_CelineSpawn","GLOBAL",1)
+Wait(4)
+EndCutSceneMode()
+Continue()
+END
+
+
+// Celine gone
+IF
+Global("P_CelineSpawn","GLOBAL",2)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(2)
+  SetGlobal("P_CelineSpawn","GLOBAL",3)
+  CreateVisualEffect("SPBASEWT",[729.205])
+  Wait(1)
+  ActionOverride("p_celin",DestroySelf())
+  CreateVisualEffect("SPHEALIN",[729.205])
+  Wait(2)
+  EndCutSceneMode()
+  Continue()
+END
+
+
+
+// Regreso a Guarida de Mathyus
+
+IF
+  Global("P_CelineSpawn","GLOBAL",4)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal("P_CelineSpawn","GLOBAL",5)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+	CreateVisualEffect("SPHEALIN",[1076.861])
+	CreateVisualEffect("SPHEALIN",[869.868])
+	CreateVisualEffect("SPHEALIN",[994.941])
+	CreateVisualEffect("SPHEALIN",[988.740])
+	Wait(1)
+    ActionOverride("p_michel",DestroySelf())
+	ActionOverride("p_matut",DestroySelf())
+    ActionOverride("p_demole",DestroySelf())
+    Wait(1)
+   // LeaveAreaLUAPanic("AR0020","",[585.608],NW)
+   // LeaveAreaLUA("AR0020","",[585.608],NW)
+	ActionOverride(Player1,LeaveAreaLUA("P_AR14","",[774.881],NW))
+    ActionOverride(Player2,LeaveAreaLUA("P_AR14","",[818.890],NW))
+    ActionOverride(Player3,LeaveAreaLUA("P_AR14","",[730.892],NW))
+    ActionOverride(Player4,LeaveAreaLUA("P_AR14","",[728.943],NW))
+    ActionOverride(Player5,LeaveAreaLUA("P_AR14","",[828.943],NW))
+    ActionOverride(Player6,LeaveAreaLUA("P_AR14","",[771.960],NW))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END

@@ -1,0 +1,126 @@
+IF
+  Global ("P_LiphixTalk1","GLOBAL",1)
+  Global ("P_Fall_Final_Mission_InitP_FAR7","GLOBAL",0)
+THEN
+  RESPONSE #100
+	// Se desactivan viejas Travelling Regions
+    TriggerActivation("P_ftr1_ff6",FALSE)
+	// Se activan nuevas Travelling Regions
+    TriggerActivation("P_ftr1_ff6b",TRUE) // Debe estar check Deactivated en DLTC
+    SetGlobal ("P_Fall_Final_Mission_InitP_FAR7","GLOBAL",1)	
+END
+
+// SPAWN CHO
+IF
+Global("P_ChoAwake","GLOBAL",3)
+Global("P_AttackedCho","GLOBAL",0)
+Global("P_ChoSpawnPFAR5","GLOBAL",0)
+!Exists("p_cho")
+!Dead("p_cho")
+THEN
+RESPONSE #100
+CreateCreature("p_choc",[101.362],SW)
+SetGlobal("P_ChoSpawnPFAR5","GLOBAL",1)
+END
+
+IF
+Global("P_ChoccDestroyPatchPFAR5","GLOBAL",0)
+Global("P_ChoccStay","GLOBAL",1)
+!Dead("p_cho")
+THEN
+RESPONSE #100
+ActionOverride("p_cho",DestroySelf())
+SetGlobal("P_ChoccDestroyPatchPFAR5","GLOBAL",1)
+END
+
+
+IF
+Global("P_PhillipeSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_PHILLI",[2027.1100],SW)
+SetGlobal("P_PhillipeSpawn","GLOBAL",1)
+END
+
+
+// Meter arañas luego de obtener la linterna (FLAG)
+/*
+IF
+Global("P_PhillipeSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_PHILLI",[2027.1100],SW)
+SetGlobal("P_PhillipeSpawn","GLOBAL",1)
+END
+*/
+
+
+// Spiders
+IF
+Global ("P_LiphixTalk1","GLOBAL",1)
+Global ("P_M4F5_SpawnEnemies","GLOBAL",0)
+THEN
+RESPONSE #100
+SmallWait (1)
+// CreateVisualEffect("SPCLOUD3",[954.316]) 
+Wait (1)
+CreateCreature("p_weavfr",[1719.984],4)
+CreateCreature("p_weavcd",[448.954],4)
+CreateCreature("p_weavac",[1100.327],4)  
+CreateCreature("p_weavth",[2034.424],4) 
+
+
+CreateCreature("p_centip",[1931.419],4)
+CreateCreature("p_spgi1",[1961.381],4)  
+CreateCreature("p_sphu1",[1982.334],4)
+CreateCreature("p_etter1",[1992.457],4) 
+CreateCreature("p_spwr1",[2057.502],4) 
+CreateCreature("p_spph1",[2105.452],4)
+
+CreateCreature("p_centip",[1030.410],4)
+CreateCreature("p_spgi1",[1006.371],4)  
+CreateCreature("p_sphu1",[1041.310],4)
+CreateCreature("p_etter1",[1212.383],4) 
+CreateCreature("p_spwr1",[1218.317],4) 
+CreateCreature("p_spph1",[1163.267],4)
+
+CreateCreature("p_centip",[280.822],4)
+CreateCreature("p_spgi1",[280.857],4)  
+CreateCreature("p_sphu1",[326.909],4)
+CreateCreature("p_etter1",[444.929],4) 
+CreateCreature("p_spwr1",[535.874],4) 
+CreateCreature("p_spph1",[647.827],4)
+
+CreateCreature("p_centip",[1565.1013],4)
+CreateCreature("p_spgi1",[1621.949],4)  
+CreateCreature("p_sphu1",[1651.887],4)
+CreateCreature("p_etter1",[1791.897],4) 
+CreateCreature("p_spwr1",[1820.934],4) 
+CreateCreature("p_spph1",[1875.1004],4)
+
+//mutantes
+CreateCreature("SPIDSM02",[990.861],N)
+CreateCreature("SPIDSM02",[1019.828],N)
+CreateCreature("SPIDSM02",[1005.787],S)
+CreateCreature("SPIDSM02",[1017.751],NE)
+CreateCreature("SPIDSM02",[1058.736],NW)
+CreateCreature("SPIDSM02",[1074.775],E)
+CreateCreature("SPIDSM02",[1070.816],W)
+CreateCreature("SPIDSM02",[1068.863],N)
+CreateCreature("SPIDSM02",[1117.849],N)
+CreateCreature("SPIDSM02",[1119.812],N)
+CreateCreature("SPIDSM02",[1120.767],S)
+CreateCreature("SPIDSM02",[1114.730],N)
+CreateCreature("SPIDSM02",[1159.710],N)
+CreateCreature("SPIDSM02",[1170.746],SW)
+CreateCreature("SPIDSM02",[1177.775],N)
+CreateCreature("SPIDSM02",[1177.805],NE)
+CreateCreature("SPIDSM02",[1178.837],N)
+CreateCreature("SPIDSM02",[1230.807],NW)
+CreateCreature("SPIDSM02",[1229.765],N)
+CreateCreature("SPIDSM02",[1222.712],S)
+
+
+SetGlobal("P_M4F5_SpawnEnemies","GLOBAL",1)
+Continue()
+END

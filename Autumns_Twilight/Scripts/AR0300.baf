@@ -1,0 +1,11 @@
+// Script de Michelson test
+IF
+Global("P_MichelSpawn","GLOBAL",0)
+Global("P_DuskMatMission1","GLOBAL",2)
+THEN
+RESPONSE #100
+CreateCreature("p_michel",[3460.1990],6)
+SetGlobal("P_MichelSpawn","GLOBAL",1)
+Continue()
+END
+

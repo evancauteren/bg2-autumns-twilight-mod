@@ -1,0 +1,89 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    Shout(500)
+END
+
+IF
+  Heard([ANYONE],20)
+  InMyGroup(LastHeardBy(Myself))
+  !HaveAnySpells()
+THEN
+  RESPONSE #100
+    EquipRanged()
+    AttackReevaluate(LastAttackerOf(LastHeardBy(Myself)),30)
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  OR(3)
+    Allegiance(Myself,GOODBUTBLUE)
+    Allegiance(Myself,NEUTRAL)
+    Allegiance(Myself,EVILBUTBLUE)
+THEN
+  RESPONSE #100
+    Shout(500)
+    Enemy()
+END
+
+IF
+  HitBy([GOODCUTOFF],CRUSHING)
+THEN
+  RESPONSE #100
+    Shout(500)
+    Continue()
+END
+
+IF
+  See([GOODCUTOFF])
+  Allegiance(Myself,ENEMY)
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    Shout(500)
+    Continue()
+END
+
+IF
+  Heard([ANYONE],20)
+  InMyGroup(LastHeardBy(Myself))
+  !Class(Myself,INNOCENT)
+  OR(2)
+    Allegiance(Myself,GOODBUTBLUE)
+    Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+    MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+  Heard([ANYONE],20)
+  InMyGroup(LastHeardBy(Myself))
+  OR(2)
+    Allegiance(Myself,GOODBUTBLUE)
+    Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  Heard([ANYONE],20)
+  InMyGroup(LastHeardBy(Myself))
+  !Class(Myself,INNOCENT)
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    MoveToObject(LastHeardBy(Myself))
+    Continue()
+END
+
+IF
+  HitBy(Myself,CRUSHING)
+THEN
+  RESPONSE #100
+    RunAwayFrom(NearestEnemyOf(Myself),15)
+END
+

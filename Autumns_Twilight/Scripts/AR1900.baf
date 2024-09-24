@@ -1,0 +1,41 @@
+IF
+Global("P_AcrullSpawnGrove","GLOBAL",0)
+Global("P_Fall_Kitoch_Charname","GLOBAL",6)
+THEN
+RESPONSE #100
+CreateCreature("p_acrull",[177.408],S)
+SetGlobal("P_AcrullSpawnGrove","GLOBAL",1)
+END
+
+IF
+  Global("P_Fall_Kitoch_Charname_TELEPORT1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal("P_Fall_Kitoch_Charname_TELEPORT1","GLOBAL",2)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+	Wait(1)
+	ActionOverride(Player1,LeaveAreaLUA("P_FAR4","",[506.430],N))
+    ActionOverride(Player2,LeaveAreaLUA("P_FAR4","",[505.391],N))
+    ActionOverride(Player3,LeaveAreaLUA("P_FAR4","",[562.428],N))
+    ActionOverride(Player4,LeaveAreaLUA("P_FAR4","",[537.477],N))
+    ActionOverride(Player5,LeaveAreaLUA("P_FAR4","",[470.471],N))
+    ActionOverride(Player6,LeaveAreaLUA("P_FAR4","",[439.423],N))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END

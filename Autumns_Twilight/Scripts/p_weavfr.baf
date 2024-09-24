@@ -1,0 +1,123 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200267)
+END
+
+/*
+IF
+AreaCheck("AR1514")
+Global ("P_FallMission2","GLOBAL",8)
+Global ("P_FallMeso1stEnc","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(1)
+EndCutSceneMode()
+Continue()
+SetGlobal ("P_FallMeso1stEnc","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+*/
+
+/*IF
+  HPLT(Myself,21)
+  Global ("P_WeaverFireNearestDead1","GLOBAL",0)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(1)
+  ApplySpell(Myself,HEAL_NO_VISUAL)
+  SetGlobal ("P_WeaverFireNearestDead1","GLOBAL",1)
+  EndCutSceneMode()
+  Continue()
+  StartDialogueNoSet(Player1)
+END
+*/
+
+IF
+  Global("P_SpiderFire001","LOCALS",0)
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),7)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_FIRE_STORM)
+    ForceSpell(NearestEnemyOf(Myself),RED_FIREBALL)
+END
+// WIZARD_WEB
+IF
+  See(NearestEnemyOf(Myself))
+  !Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #10
+    ForceSpell(Player1,WIZARD_INCENDIARY_CLOUD)
+    ForceSpell(Player1,WIZARD_FIREBALL)
+  RESPONSE #10
+    ForceSpell(Player2,WIZARD_INCENDIARY_CLOUD)
+    ForceSpell(Player2,WIZARD_SUN_FIRE)
+  RESPONSE #10
+    ForceSpell(Player3,WIZARD_INCENDIARY_CLOUD)
+    ForceSpell(Player3,WIZARD_METEOR_SWARM)
+  RESPONSE #10
+    ForceSpell(Player4,WIZARD_INCENDIARY_CLOUD)
+    ForceSpell(Player4,WIZARD_FIRE_SHIELD_RED)
+  RESPONSE #10
+    ForceSpell(Player5,WIZARD_INCENDIARY_CLOUD)
+    ForceSpell(Player5,FIREDRAKE_DAMAGE)
+  RESPONSE #10
+    ForceSpell(Player6,WIZARD_INCENDIARY_CLOUD)
+    ForceSpell(Player6,WIZARD_DELAYED_BLAST_FIREBALL)
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+    SetGlobal("P_SpiderFire001","LOCALS",1)
+END
+
+IF
+  Global("P_SpiderFire002","LOCALS",0)
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #10
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_FIREBALL)
+  RESPONSE #10
+    ForceSpell(SecondNearestEnemyOf(Myself),WIZARD_SUN_FIRE)
+  RESPONSE #10
+    ForceSpell(ThirdNearestEnemyOf(Myself),WIZARD_METEOR_SWARM)
+  RESPONSE #10
+    ForceSpell(FourthNearestEnemyOf(Myself),WIZARD_FIRE_SHIELD_RED)
+  RESPONSE #10
+    ForceSpell(FifthNearestEnemyOf(Myself),FIREDRAKE_DAMAGE)
+  RESPONSE #10
+    ForceSpell(SixthNearestEnemyOf(Myself),WIZARD_DELAYED_BLAST_FIREBALL)
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+	    SetGlobal("P_SpiderFire002","LOCALS",1)
+
+END
+
+/*IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Global ("P_FallMesothelNearestDead1","GLOBAL",0)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+*/
+
+IF
+  ActionListEmpty()
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  ActionListEmpty()
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END

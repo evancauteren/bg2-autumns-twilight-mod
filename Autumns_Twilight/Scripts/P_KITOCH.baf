@@ -1,0 +1,144 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200036)
+END
+
+IF
+InParty("P_Fall")
+See("P_Fall")
+Global("P_Fall_Kitoch_Talk","LOCALS",0)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Kitoch_Talk","LOCALS",1)
+END
+
+IF
+See("P_Fall")
+InParty("P_Fall")
+See("P_KAKUTO")
+!StateCheck("P_Fall",STATE_SLEEPING)
+AreaCheck("P_FAR2")
+Global ("P_FallMission3","GLOBAL",4)
+Global ("P_FallKitochToKakut","GLOBAL",0)
+THEN
+  RESPONSE #100
+  Wait (6)
+  StartDialogueNoSet(Player1)
+END
+
+// 1st Talk - Dungeon
+IF
+InParty("P_Fall")
+See("P_Fall")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!AreaCheck("AR0511")
+!AreaCheck("P_FAR1")
+!AreaCheck("P_FAR2")
+!AreaCheck("P_FAR3")
+CombatCounter(0)
+!See([ENEMY])
+AreaType(DUNGEON)
+Global("P_Fall_Kitoch_Charname","GLOBAL",0)
+THEN
+  RESPONSE #100
+  SmallWait (1)
+  SetGlobal("P_Fall_Kitoch_Charname","GLOBAL",1)
+END
+
+// 2nd Talk - Tavern
+
+IF
+InParty("P_Fall")
+See("P_Fall")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("P_Fall_Kitoch_Charname","GLOBAL",2)
+OR(9)
+AreaCheck("AR0313")
+AreaCheck("AR0314")
+AreaCheck("AR0406")
+AreaCheck("AR0704")
+AreaCheck("AR0709")
+AreaCheck("AR0509")
+AreaCheck("AR0513")
+AreaCheck("AR0515")
+AreaCheck("AR0021")
+THEN
+  RESPONSE #100
+  SmallWait (1)
+  SetGlobal("P_Fall_Kitoch_Charname","GLOBAL",3)
+END
+
+// 3rd Talk - Forest
+
+IF
+InParty("P_Fall")
+See("P_Fall")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("P_Fall_Kitoch_Charname","GLOBAL",4)
+AreaType(FOREST)
+THEN
+  RESPONSE #100
+  SmallWait (1)
+  SetGlobal("P_Fall_Kitoch_Charname","GLOBAL",5)
+END
+
+
+// Kitochi Music
+IF
+InParty("P_Fall")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+//AreaType(DUNGEON)
+OR(3)
+Global("P_Fall_Kitoch_Charname","GLOBAL",1)
+Global("P_Fall_Kitoch_Charname","GLOBAL",3)
+Global("P_Fall_Kitoch_Charname","GLOBAL",5)
+THEN
+RESPONSE #100
+PlaySong (4444)
+//PlaySound ("P_FallE")
+StartDialogueNoSet(Player1)
+END
+
+IF
+See("P_Fall")
+InParty("P_Fall")
+!StateCheck("P_Fall",STATE_SLEEPING)
+AreaCheck("P_FAR4")
+Global ("P_Fall_Kitoch_Charname","GLOBAL",7)
+THEN
+  RESPONSE #100
+  Wait (3)
+  StartDialogueNoSet(Player1)
+END
+
+// Kitochi habla sobre Gorm (Kitochi Vive)
+IF
+  //InParty(Myself)
+  Global ("P_FallAboutGormsDeath_KitAlive","GLOBAL",0)
+  AreaCheck("P_FAR4")
+  Dead("P_GORM")
+  PartyHasItem("p_hgormu")
+  CombatCounter(0)
+  See("P_Fall")
+THEN
+  RESPONSE #100
+  SetGlobal ("P_FallAboutGormsDeath_KitAlive","GLOBAL",1)
+  StartDialogNoSet(Player1)
+END

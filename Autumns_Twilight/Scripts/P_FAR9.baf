@@ -1,0 +1,9 @@
+IF
+Global("P_PhillipeF9Spawn","GLOBAL",0)
+Global ("P_CharAttackPhillipe","GLOBAL",0)
+Global ("P_FMeetingPhillipe","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("P_PHILLI",[235.214],S)
+SetGlobal("P_PhillipeF9Spawn","GLOBAL",1)
+END

@@ -1,0 +1,373 @@
+// Aerie
+
+@0    = ~*Starrt Aerie lange an*~
+@1    = ~Dusk! Ich habe es gesehen! W-warum starrst du mich so eindringlich an?~
+@2    = ~Es tut mir leid, wenn ich dich unbehaglich gemacht habe, Aerie... I-Ich dachte nur daran, dass du mich an...~
+@3    = ~Oh, wow! Der große Dusk stottert? *kichert*~
+@4    = ~(Verdammt...) Lach nur, so viel du willst.~
+@5    = ~Und du bist rot geworden! *lacht* Oh, es tut mir leid, Dusk. Ich wollte mich nicht über dich lustig machen. Sag mir, an wen erinnere ich dich?~
+@6    = ~*lächelt* Vielleicht erzähle ich es dir ein anderes Mal, Kleine. Für jetzt sollten wir unsere Reise fortsetzen.~
+
+// Aerie - GUT
+
+@1005    = ~Aerie, erinnerst du dich, als du mich gefragt hast, an wen du mich erinnerst?~
+@1006    = ~Dusk, natürlich erinnere ich mich. Du warst rot wie eine Tomate! *kichert*~
+@1007    = ~*hustet* Ja, na ja... Du erinnerst mich an eine Elfe aus Shilmist namens Celine.~
+@1008    = ~Celine? Das ist ein schöner Name. Erzähl mir von ihr.~
+@1009    = ~Sie war eine furchtlose Kriegerin, geschickt mit dem Bogen. Aber du erinnerst mich nicht wegen deiner körperlichen Stärke an sie, die dir offensichtlich fehlt.~
+@1010    = ~Hey! (Hm... na ja, es stimmt schon, dass ich mehr trainieren sollte)~
+@1011    = ~Schäme dich nicht dafür, Aerie. Du bist intelligent und gütig, und das sind die Eigenschaften, die mich an Celine erinnern.~
+@1012    = ~Oh, ich verstehe. Und sag mir, Dusk... Hast du sie lange nicht gesehen?~
+@1013    = ~...~
+@1014    = ~Zu lange... länger, als mir lieb ist... Manchmal träume ich von ihr. Eines Tages... eines Tages werde ich sie wiedersehen.~
+@1015    = ~Wir sollten unsere Reise fortsetzen. Du weißt, wie <CHARNAME> wird, wenn wir uns beim Plaudern ablenken lassen.~
+@1016    = ~So sei es, Dusk. Aber ich freue mich darauf, mehr von ihr zu hören.~
+@1017    = ~Vielleicht, Aerie. Vielleicht...~
+
+// Aerie - BÖSE
+
+@1018    = ~...~
+@1019    = ~Dusk! Du siehst mich schon wieder an... aber... deine Augen sind anders als vorher...~
+@1020    = ~Du erinnerst mich an Celine, Aerie. Aber du bist nicht so stark wie sie... deine Weltsicht wird dich ins Verderben führen.~
+@1021    = ~W-wovon redest du, Dusk?~
+@1022    = ~Du bist intelligent, das ist deine Stärke. Aber du bist auch gütig und naiv... und das wird dein Untergang sein.~
+@1023    = ~N-nun, ich habe nicht nach deiner Meinung gefragt, weißt du? Ich bin, wer ich bin, und ich mag es, so zu sein.~
+@1024    = ~Ich gebe dir keine Schuld, Kleine. Es ist einfacher, an die guten Absichten der anderen zu glauben. Aber die Wahrheit ist, wir alle haben einen inneren Dämon, der im Schatten lauert und nur darauf wartet, die Kontrolle zu übernehmen.~
+@1025    = ~*zittert* D-Dusk, ich verstehe nicht... so warst du früher nicht. Jetzt... sehe ich keinen Funken mehr in deinen Augen... I-Ich spüre nur noch Kälte in deinen Worten.~
+@1026    = ~Ich habe die Dinge nie so klar gesehen wie jetzt. Du brauchst dir keine Sorgen um mich zu machen. Ich bin stärker als je zuvor.~
+@1027    = ~Stärke ist nicht alles... Ich verstehe nicht, warum du so bist, Dusk... Ich verstehe es nicht.~
+@1028    = ~Es gibt nichts zu verstehen, Aerie. Ich glaube immer noch, dass deine Güte dein Untergang sein wird... aber das wird nicht geschehen, solange ich in deiner Nähe bin.~
+@1029    = ~Du kannst es dir leisten, naiv zu sein. Und wenn Gefahr droht, werde ich sie mit Blut und Gewalt aufhalten.~
+@1030    = ~I-Ich brauche nicht, dass du für mich tötest, Dusk! N-nicht alles muss in Gewalt und Mord enden.~
+@1031    = ~Aber es ist wahr, Kleine... Die Welt, in der wir leben, wurde mit Blut und Gewalt geschmiedet. Und so wird es bleiben, bis Sonne und Sterne erlöschen... So wird es immer sein...~
+
+// Anomen
+
+@7    = ~Ich muss sagen, Anomen... es beruhigt mich etwas, dass Tethyr nicht gegen Amn in den Krieg gezogen ist... Ich hätte dich nicht als Feind auf dem Schlachtfeld haben wollen.~
+@8    = ~Der Frieden zwischen den beiden Nationen scheint zu halten. Aber ich verstehe, was du meinst. Ich hätte auch niemanden bekämpfen wollen, der für das Richtige kämpft.~
+@9    = ~Oder getötet werden, nicht wahr?~
+@10   = ~Ha ha! Du bist ziemlich frech, junger Mann. Vielleicht sollten wir es testen und sehen, was passiert. Obwohl für mich das Ergebnis klar ist.~
+@11   = ~Vielleicht, Anomen. Vielleicht... Aber etwas sagt mir, dass du keine andere Wahl hättest, als auf die Gebete von Helm zurückzugreifen, denn das Ergebnis könnte nicht so klar sein, wie du denkst...~
+
+// Anomen - BÖSE
+
+@1000    = ~Du solltest deine Einstellung verbessern, Mönch. Du weißt nie, wann du die falsche Person triffst...~
+@1001    = ~Was-? Junge! Solche Unverschämtheit könnte dich teuer zu stehen kommen. Ich-~
+@1002    = ~Was du? Denkst du, ich sollte Angst vor dir haben, nur weil du ständig von deinen Heldentaten prahlst? Ich habe dich im Kampf gesehen... und du bist nichts Besonderes.~
+@1003   = ~Wenn es nicht darum ginge, dass ich für <CHARNAME> hier bin, versichere ich dir, dass ich dir schon längst eine Lektion erteilt hätte.~
+@1004   = ~Hah! Ich würde bezahlen, um zu sehen, wie du das versuchst, Mönch...~
+
+// Cernd
+
+@12   = ~Dusk, ich konnte nicht umhin zu bemerken, dass du eine tiefe Wertschätzung für die Natur hast. Aber du wirkst eher wie ein Stadtmensch.~
+@13   = ~Ich habe eine besondere Liebe für die elfischen Bräuche. Vielleicht meinst du das.~
+@14   = ~Natürlich haben Elfen eine besondere Verbindung zu Wäldern und Tieren, aber das ist nichts, was nur ihnen gehört.~
+@899   = ~Die Menschen waren jahrtausendelang primitiv, sogar vor den Elfen. Unser Bewusstsein für das Dasein war nicht so entwickelt wie das unserer elfischen Brüder, aber wir hatten etwas Angeborenes, das sie auch besitzen.~
+@15   = ~Eine Verbindung zur Erde, zu den Meeren und zum Himmel. Sinne, die wir einst hatten und mit der Zeit verloren haben.~
+@901   = ~Und jetzt sind wir im Netz des Daseins gefangen, zusammen mit Pflanzen und Tieren sowie anderen empfindungsfähigen Wesen.~
+@16   = ~Wahr. Deshalb tun einige Menschen ihr Bestes, um diese Sinne wiederzuerlangen, trotz unserer kurzen Existenz.~
+@17   = ~Eine kurze Existenz, wie das Licht einer Sternschnuppe, die den Himmel durchquert und in der Nacht verschwindet, wie die Tränen eines Kindes.~
+@18   = ~Es ist wirklich ein Vergnügen, mit jemandem zu sprechen, der diese Dinge versteht, Dusk. Ich bin froh, dass wir zusammen reisen.~
+@902   = ~Das Vergnügen ist ganz meinerseits, Cernd.~
+
+// Edwin
+
+@19   = ~Ich warne dich, Magier! Du musst vorsichtiger mit deinen Zaubern sein.~
+@20   = ~Sprichst du mit mir, kleiner Mann? Wie wagst du es, das von mir zu verlangen! Fürchtest du vielleicht, „aus Versehen“ von einem Feuerball getroffen zu werden?~
+@21   = ~Verwechsle mich nicht, Odesseiron. Ich fürchte deine Zauber nicht. Ich spreche von den Unschuldigen, die Opfer deiner Rücksichtslosigkeit werden könnten.~
+@22   = ~Du verstehst nicht das Ausmaß des Schadens, den du verursachen kannst.~
+@23   = ~Verstehen? (Was redet dieser Affe da?) Hmpf! Hör zu, Blechmann, ich weiß genau, was ich tue. Ich-~
+@24   = ~Das ist alles, was ich dazu zu sagen habe. Ich bin froh, dass wir das geklärt haben.~
+@25   = ~W-Was?! (Hat dieser unverschämte Kerl mich unterbrochen?)~
+@1032 = ~Hmpf! (Vielleicht sollte ich es doch ausprobieren und einen Feuerball auf ihn werfen, um zu sehen, ob er ihm widersteht...)~
+
+// EDWIN 2
+
+@113  = ~Mit der Zeit muss ich zugeben, Edwin, deine Fähigkeiten sind außergewöhnlich...~
+@114  = ~(Hm... der Affe gibt endlich meine Überlegenheit zu.) Natürlich! Edwin Odesseiron ist der Schrecken der Schwertküste, Dusk. Vergiss das nicht.~
+@115  = ~Allerdings... gibt es etwas, das für mich nicht ganz stimmig ist...~
+@116  = ~*räuspert sich* Was insinuiert du da? (Warum sieht er mich mit diesen nichtssagenden Augen an? Verdammt, vielleicht kennt er mein Geheimnis.)~
+@117  = ~Jahrelang habe ich viele Magier bekämpft, Beschwörer, Transmutatoren, Nekromanten... aber keiner kommt dir in Bezug auf Schnelligkeit und die Aussprache deiner Zauber gleich...~
+@118  = ~Nun, natürlich, das ist mir angeboren. Was erwartest du von jemandem, der so geschickt ist-~
+@119  = ~Warum bedeckst du dein Amulett so verdächtig, mein lieber Edwin? Du brauchst dir keine Sorgen machen... Ich bin kein Dieb... Ich habe kein Interesse an deinen Fähigkeiten- äh, ich meine: deinem Amulett. *lächelt*~
+@120  = ~(Verdammt, er macht sich über mich lustig... vielleicht sollte ich sein Ableben beschleunigen...) Du solltest deine Augen besser auf etwas anderes richten, Stöckchen... Du willst meine... Fähigkeiten nicht herausfordern...~
+
+// Haer'Dalis
+
+@26   = ~Hallo, weiße Nachtigall! Hast du Lust, dass wir eine Serenade anstimmen? Du wirkst zwar wie ein Krieger, aber mein Herz sagt mir, dass du auch ein Poet bist.~
+@27   = ~Weiße Nachtigall?~
+@28   = ~Gefällt es dir nicht? Du klingst für mich wie eine weiße Nachtigall, Herr. Aber wenn dir das nicht gefällt, erinnert mich auch ein Ziegenmelker an dich.~
+@1033   = ~Würdest du es vorziehen, dass ich dich Ziegenmelker nenne, Herr?~
+@29   = ~Hmm... ich glaube, ich bevorzuge „weiße Nachtigall“.~
+@30   = ~Dann sei es die weiße Nachtigall! Göttliche Krähen und traurige Nachtigallen. Diese Gruppe ist wirklich eine bunte Truppe.~
+@1034   = ~Und... was sagst du? Es ist eine gute Zeit, um am Leben zu sein! Sollen wir mit der Serenade beginnen?~
+@31   = ~*räuspert sich* Vielleicht... vielleicht ein anderes Mal, mein Freund.~
+
+// Haer'Dalis - BÖSE
+
+@1035   = ~Wer hätte das gedacht? Die weiße Nachtigall hat sich in einen großen und furchterregenden roten Habicht verwandelt.~
+@1036   = ~Sprichst du mit mir, Barde? Ich sehe, du bist immer noch mit diesem Vogelkram beschäftigt.~
+@1037   = ~Natürlich! Ein roter Habicht ist doch viel interessanter als eine weiße Nachtigall, nicht wahr?~
+@1038   = ~Obwohl es nicht zu leugnen ist, dass der Gesang der weißen Nachtigall schöner ist.~
+@1039   = ~Es ist mir egal, wie du mich nennst, Tiefling. Fang einfach nicht an zu singen. Ich bin nicht in der Stimmung.~
+@1040   = ~Nun, Humor scheint etwas zu sein, das der rote Habicht nicht besitzt, im Gegensatz zur weißen Nachtigall.~
+@1041   = ~Mach noch eine Vogelanalogie, und deine Zunge wird Hundefutter sein.~
+@1042   = ~Wow! Guter Humor scheint sich definitiv auch gewandelt zu haben...~
+
+// Imoen
+
+@32   = ~Hmmm... wie seltsam! Ich dachte, ich hätte meine Tüte Kekse hier gelassen.~
+@33   = ~Bist du dir sicher? Hier gibt es viele Nagetiere, vielleicht hat ein Hamster sie sich ausgeliehen.~
+@1043 = ~Hey, Boo möchte wissen, warum du ihn anstarrst!~
+@34   = ~Ausgeliehen? Nun, ich denke nicht-... Hey... warte mal. Du hast Krümel auf deinen Wangen!~
+@35   = ~Was?! Dusk, es ist unhöflich, die Wangen einer Dame anzustarren.~
+@36   = ~Unhöflich? Oh, tut mir leid. Ich... ~
+@1044 = ~Hey, versuch nicht, dich da rauszureden, junge Dame! Wenn du meine Kekse so sehr wolltest, hättest du einfach fragen müssen.~
+@37   = ~Oh, wirklich? Nun, danke, Dusk. (Ich schätze, es macht ihm nichts aus, dass ich mir auch seine Süßigkeitentasche geliehen habe.)~
+
+// Imoen 2
+
+@121  = ~Imoen, ist der Apfel lecker?~
+@122  = ~Hmm... *kaut* Ja, ist er! *kaut*~
+@123  = ~Das ist großartig! Besonders, da ich einen genau so in meinem Rucksack hatte... und jetzt kann ich ihn nicht finden.~
+@124  = ~Oh, Dusk... *kaut* Du solltest vorsichtiger mit deinem Essen sein...~
+@126  = ~Falls ein Hamster oder eine Maus kommt und es stiehlt, richtig?~
+@127  = ~Hehe... Das wollte ich genau sagen. Bist du böse auf mich, Dusk? Oh... sag mir nicht... du verdächtigst mich!~
+@128  = ~(Verdammtes A) Ich kann sie nicht tadeln, wenn sie dieses verlassene Kätzchen-Gesicht macht.) Hm... Nein, nein, Imoen... es ist nur, dass ich ein bisschen hungrig war und ich-~
+@129  = ~Oh, nun, warum hast du das nicht früher gesagt! Nimm etwas, Dusk.~
+@1082 = ~(Hä? Aber da ist nur noch der Kern übrig...) Nun, danke, Imoen... *seufzt*~
+
+// Jaheira
+
+@38   = ~Dusk, ich sehe etwas in deinen Augen. Eine Art Verlangen. Oder irre ich mich?~
+@39   = ~Vielleicht siehst du etwas in mir, das auch mit dir identifiziert, Jaheira.~
+@40   = ~Du hast auch jemanden Geliebten verloren, nicht wahr? Ich habe dieses Gespräch nicht begonnen, um über Einzelheiten zu sprechen, Dusk... es ist nur, dass...~
+@44   = ~Ich verstehe, Jaheira. Manchmal ist es schwer, über solche Situationen zu reden. Besonders für uns, die selten ausdrücken, was wir fühlen.~
+@45   = ~Nicht wenigstens in Worten... ich denke, wir drücken zu viel aus, mein Freund. Sei es beim Wandern oder auf dem Schlachtfeld.~
+@46   = ~Das stimmt, meine Dame. Und wir müssen weiter voranschreiten, richtig? Egal was... weiter voranschreiten...~
+@41   = ~Für die Gefallenen.~
+@1045 = ~Für die Gefallenen...~
+
+// Jan
+
+@47   = ~Hey, großer Kerl!~
+@48   = ~Großer Kerl?~
+@49   = ~Ich habe gesehen, wie du meine Rüben-Tüte angestarrt hast. Zuhause ist das immer ein Gesprächsthema.~
+@50   = ~Deine Tüte von was?~
+@51   = ~Einmal hat Onkel Gerhardt die Kartoffeltüte drei Tage lang angestarrt. Für einen Moment dachten wir, er wäre auf Diät, weil er nur starrte und nicht essen oder kochen wollte, und Ma Jansen erlaubt das nicht. Also beschloss Ma am vierten Tag, ihn auf die Schulter zu klopfen, um ihn zum Arbeiten in der Küche zu bringen. In diesem Moment sprang er drei Meter hoch. Es stellte sich heraus, dass er eingeschlafen war. Er hatte mit Tränken experimentiert, die mit Kröten-Schweiß und Zwiebelsaft gemischt waren, zusammen mit ein paar gnomischen Beschwörungen. Zuerst hatte er richtig Angst, aber dann stellte er fest, dass das Getränk nicht funktionierte.~
+@52   = ~Ähm... ich weiß nicht, ob ich fragen sollte, warum es nicht funktioniert hat...~
+@53   = ~Nun, Dusk, das ist offensichtlich. So ein Trank soll dich mit offenen Augen fünf Tage lang schlafen lassen, nicht vier. Bei dem heiligen Hintern eines Affen, Dusk. Ich kann nicht den ganzen Tag zur Verfügung stehen, um dir Dinge beizubringen. Du musst reifen und den Wert von gnomischen Tränken lernen, besonders wenn wir von Onkel Gerhardt sprechen.~
+@1046 = ~Ähm... Natürlich, Jan. Ich werde das im Hinterkopf behalten.~
+@1047 = ~So ist es, großer Mann, so ist es. Es war mir ein Vergnügen, mit dir Geschäfte zu machen. Beim nächsten Mal, wenn du weitermachen möchtest, schau dir einfach meine Rüben-Tüte noch einmal an, ja?~
+@1048 = ~Oh, keine Sorge, Gnom. Schließlich ist deine Rüben-Tüte immer da... gut sichtbar...~
+
+// Keldorn
+
+@54   = ~Deine Fähigkeiten auf dem Schlachtfeld sind bewundernswert, junger Mann. Und du kämpfst mit Ehre. Wenn ich jünger wäre, würde ich dich als Schüler nehmen, um dich zu einem würdigen Ritter des Edlen Ordens zu machen.~
+@55   = ~Sir Keldorn, es ist eine Ehre, an deiner Seite zu kämpfen. Ich hätte das Angebot gerne angenommen. Aber das Leben wollte, dass sich unsere Wege später als früher kreuzen.~
+@56   = ~Es ist wahr, lieber Freund. Deine Pflicht gegenüber Tethyr und Cormyr ist bewundernswert. Aber ich muss fragen, warum hast du deine Positionen niedergelegt?~
+@57   = ~Jahrelang haben wir gegen die Kräfte der Zhentarim gekämpft. Jahrelang haben wir Widerstand geleistet. Und um die Sache noch schlimmer zu machen, wuchsen die Spannungen mit Amn.~
+@58   = ~Mit der Hilfe der Elfen von Weldath konnten wir hier Beziehungen aufbauen, trotz dessen, was sie sagen mögen.~
+@59   = ~Aber... wie du vielleicht weißt, profitieren einige Schurken vom Krieg... und wir hatten mehrere Gegner im Schatten, die wir ertragen mussten... nicht ohne Verluste...~
+@60   = ~Ich verstehe, Dusk... ich schätze, dass du in einem dieser Gefechte jemanden Geliebten verloren hast.~
+@61   = ~Das ist richtig... und es ist etwas, worüber ich lieber nicht sprechen würde. Nachdem ich meine Mission erfüllt hatte... bin ich einfach gegangen... und das Schicksal wollte, dass Athkatla der Ort ist, wo ich <CHARNAME> und Irenicus begegnete.~
+@1049 = ~Und der Rest ist Geschichte, mein Herr...~
+@62   = ~Ich verstehe... Dusk, ich werde mich bemühen, an deiner Seite zu stehen und dir alle mögliche Hilfe zu bieten. Deine persönlichen Wünsche mögen unklar sein, aber zumindest ist dein Herz lobenswert.~
+@1050 = ~Es wird eine große Ehre sein, Sir Keldorn.~
+
+// KORGAN
+
+@63   = ~Ich hatte noch nie das Vergnügen, an der Seite eines Zwerges zu kämpfen. Ich muss sagen, du enttäuschst deine Krieger-Rasse nicht, Korgan.~
+@64   = ~Har har har! Danke, dürrer Kerl. Ich muss sagen, du machst dich auch nicht schlecht, obwohl du einen Stock handhabst.~
+@65   = ~Heh! Wenn das von dir kommt, ist das ein Kompliment, dicke Beine.~
+@66   = ~Aye! Ich habe gesehen, wie du es genießt, diese ekelhaften Magier aufzuschlitzen. Mein Lieblingsteil ist, wenn du dieses Bastardschwert benutzt. Eine Bastardwaffe für einen geschickten Bastard.~
+@67   = ~Das Schwert ist eine meiner Lieblingswaffen. Obwohl ich den Wert des Stabes verstehe und sein zertrümmernder Schaden tödlich ist.~
+@68   = ~Bah! Es gibt nichts Besseres als eine gute Axt. Wir könnten weiter darüber reden, was oder wer besser ist, oder wir könnten uns ein paar Biere holen und sehen, ob wir ein paar süße weibliche Zwergenscharen antreffen.~
+@1051 = ~Ich denke, ich werde die Bier-Option wählen. Und wir können auf dem Weg frische Luft genießen.~
+
+// MAZZY
+
+@69   = ~Lady Fentan, ich möchte meine große Bewunderung für deinen Mut auf dem Schlachtfeld ausdrücken. Es ist eine Ehre, an deiner Seite zu kämpfen.~
+@70   = ~Lady? Du schmeichelst mir, Dusk. Aber du kannst mich Mazzy nennen, wie es all meine Freunde tun.~
+@71   = ~Sehr gut, dann ist es Mazzy.~
+@72   = ~Du bist ziemlich gehorsam! Du würdest ein großartiger Knappen machen.~
+@73   = ~Ein Knappen? Denkst du nicht, ich würde nach etwas Höherem streben?~
+@1052 = ~Hmpf, tut mir leid, ich wollte dich nicht beleidigen, als ich "höher" sagte.~
+@74   = ~Nun, nun! Diese Höflichkeit verschwindet schnell, wenn du bequem wirst. Das gefällt mir, Dusk. Das gefällt mir.~
+
+// MINSC
+
+@75   = ~Minsc, deine Willenskraft überrascht mich. Was ist dein Geheimnis?~
+@76   = ~Hmmm... solche Fragen werden besser von einem weiseren Mann beantwortet, nicht wahr, Boo?~
+@77   = ~Boo sagt, dass Minsc seine Willenskraft aus dem Wunsch schöpft, böse Ärsche zu treten.~
+@78   = ~Ah... Boo, hm? Du hast einen sehr mutigen Hamster da.~
+@79   = ~Boo ist nicht mein Haustier, Dusk. Er ist mein Freund. Er ist ein riesiger Weltraumhamster. Trotz seiner Größe ist er sehr agil.~
+@80   = ~(Nun, er sieht für mich nicht sehr riesig aus.)~
+@81   = ~Boo fragt, worüber du murmelst, guter Dusk.~
+@82   = ~Ähm... dass Boo so stark aussieht, dass ich nicht möchte, dass er auf meine Augen losgeht.~
+@83   = ~Oh, mach dir keine Sorgen, Dusk! Mit Boo haben wir gesehen, dass du ein gutes Herz hast und wir werden Kampfgefährten sein, solange wir zusammen reisen.~
+@84   = ~Ich freue mich, das zu hören.~
+
+// Minsc 2
+
+@140  = ~Minsc, ich habe diese Ingwerplätzchen für unseren gemeinsamen Freund, Boo.~
+@141  = ~Oh, ruhig, Boo! Minsc hat Boo selten so aufgeregt gesehen. Ich kann seine Kraft kaum bändigen.~
+@142  = ~*Hamster quiekt*~ [p_squeak]
+@143  = ~Wow! Offensichtlich ist er ein Ingwerfanatiker geworden, findest du nicht?~
+@144  = ~Boo, beruhige dich! Denk daran, dass du auf Diät bist.~
+@145  = ~*Hamster knurrt*~ [p_squeak]
+@146  = ~Ha! Unser pelziger Gefährte hat ganz schön Temperament.~
+@147  = ~Dusk, Minsc schätzt, dass du an uns gedacht hast. Aber beim nächsten Mal, denk daran, dass Boo mit einem Bauch voller Ingwerplätzchen nicht so agil sein wird.~
+@148  = ~Richtig, richtig. Ich werde das im Hinterkopf behalten. Vielleicht wird es beim nächsten Mal ein Apfel.~
+@149  = ~Ja! Das wird ihm Energie geben und ihn nicht so... *flüstert* pummelig machen. Aber... vielen Dank, großer Dusk. Boo ist dir sehr dankbar. Er würde etwas sagen, wenn er nicht mehrere Plätzchen in seiner Wange verstaut hätte.~
+@150  = ~Kein Problem, Minsc. *flüstert* Boo, wann immer du für ein paar Stunden von deiner Diät abweichen möchtest, weißt du, wo du mich findest.~
+
+// NALIA
+
+@85   = ~Dusk, <CHARNAME> hat mir erzählt, dass ihr euch in der Waukeen's Promenade getroffen habt, stimmt das?~
+@86   = ~Lady De'Arnise, fragst du also nach mir und belästigst unseren Nachfahren von Bhaal?~
+@87   = ~*räuspert sich* Entschuldige, Dusk. Ich wollte nicht eindringen--~
+@88   = ~Ha! Es tut mir leid, Nalia. Ich habe nur gescherzt. Es stört mich überhaupt nicht, wenn du nach meinen Angelegenheiten fragst. Im schlimmsten Fall würdest du eine Ablehnung von mir bekommen.~
+@89   = ~Du bist ziemlich frech! Aber wenn ich deine Unverschämtheit beiseite lasse, werde ich deinen Rat annehmen und fragen. Was hast du dort gemacht?~
+@90   = ~Nachdem ich... meinen Dienst in Tethyr beendet hatte, beschloss ich, ins Land der Händler zu kommen. Ich hätte nach Trademeet gehen können, aber aus irgendeinem Grund zog Athkatla meine Aufmerksamkeit auf sich.~
+@1053   = ~Ich muss gestehen, dass der Handel mich interessiert. Ein einfaches Leben, das ich eines Tages anstreben könnte.~
+@1055   = ~Wirklich? Ich hätte dich nicht für einen Händler gehalten, Dusk. Du scheinst mehr wie ein...~
+@1056   = ~Krieger? Ritter?~
+@1057   = ~Ich wollte sagen Stallbursche.~
+@1058   = ~Verdammtes, Lady De'Arnise! Du hast meinen Stolz direkt getroffen.~
+@1059   = ~Du hast es dir verdient, weil du versucht hast, clever zu sein, mein Freund. Aber wenigstens warst du ehrlich in deiner Antwort.~
+
+// Valygar
+
+@91   = ~Dusk, ich habe dich eine Weile beobachtet. Ich würde dich gerne etwas fragen, wenn du nichts dagegen hast.~
+@92   = ~Sag mir, mein Freund, wie kann ich dir helfen?~
+@93   = ~Dein... Zustand, als Wizard Slayer... interessiert mich. Ich verstehe, dass du einige Zeit mit dem Training verbracht hast... Zauber widerstehen zu können, ist natürlich etwas Formidables, aber ich frage mich, wie du es geschafft hast?~
+@94   = ~Hmm... ich sehe, wo du hinwillst, Valygar... ich weiß, dass du kein Narr bist und dass du die Fakten über Magie nicht ignorierst... ich weiß, dass du weißt, dass Wizard Slayers, die NICHT in den Stämmen des Nordens trainiert wurden, oft... dunkle Absichten haben.~
+@95   = ~Ich weiß, Dusk... deshalb frage ich dich: wie ist es möglich, dass du ein Verteidiger der Gerechtigkeit bist, wenn du von einer bösen Sekte ausgebildet wurdest?~
+@1060   = ~Verwechsle meine Fragen nicht mit Bosheit, denn ich habe die Klarheit des Urteils, um zu wissen, dass du kein Betrüger bist... es ist nur so, dass...~
+@96   = ~Du bist neugierig, eh? Wie jeder... Zauberer...~
+@97   = ~Eine faire und wohlverdiente Aussage, fürchte ich.~
+@98   = ~Meine Absicht war nicht, dich zu beleidigen, mein Freund. Ich weiß, dass du Magie verabscheust, ebenso wie ich. Deshalb kann ich auch erkennen, dass du viele Dinge mit denen gemein hast, die du so sehr hasst...~
+@1061   = ~„Man muss vorsichtig sein, wenn man Feinde auswählt... denn man neigt dazu, wie sie zu werden“, sagte ein weiser Mann.~
+@1062   = ~Wir werden später wieder darüber sprechen, Valygar... aber nicht jetzt... nicht jetzt...~
+@1063   = ~Es ist nur fair, glaube ich. Wir setzen das zu einem anderen Zeitpunkt fort, Dusk.~
+
+// Valygar 2
+
+@130  = ~Bist du immer noch daran interessiert zu wissen, wie ich in dieser "bösen Sekte" gelandet bin, Valygar?~
+@131  = ~Nun... ja, tatsächlich interessiert es mich, Dusk. Bist du bereit zu reden?~
+@132  = ~Solange du bereit bist zuzuhören, mein Freund.~
+@133  = ~Dusk, ich habe ein offenes Ohr.~
+@134  = ~Hm... gewiss... ich habe nicht immer Magie verachtet, weißt du? Es war nicht, bis ein treuloser Zauberer jemanden nahm, den ich... geschätzt habe.~
+@135  = ~Ich hörte Gerüchte über eine Armee, die von einem Aasimar in der Nähe von Baldur's Gate geschmiedet wurde. Wie du vielleicht weißt, haben Aasimar aufgrund ihrer göttlichen Herkunft eine angeborene Resistenz gegen Magie, also nahm ich an, dass es Wizard Slayers geben würde, die bereit waren, für sie zu kämpfen. Wizard Slayers, die von ihr ausgebildet wurden, vielleicht mit dieser angeborenen arkanen Resistenz ausgestattet.~
+@136  = ~Ich bin mir nicht sicher, was mit diesem Aasimar passiert ist, aber als ich ankam, waren sie und ihre Armee verschwunden... Doch durch das Verhören der Einheimischen hörte ich Gerüchte über eine Armee im Süden, die im Dunkeln der Felder der Toten lauerte, südwestlich der Schlangenhügel.~
+@137  = ~Nach einigen Wochen fand ich sie. Sie waren nichts anderes als eine Gruppe von Söldnern, die aus der Armee von Dragonspear desertiert waren. Aber dort waren Wizard Slayers... und ich überzeugte sie, mich zu akzeptieren, nachdem ich einige Kampfnachweise gegen ein paar Schläger gewonnen hatte.~
+@1064  = ~Ich bewies meinen Wert und sie akzeptierten mich. Das erste, was ich tun musste, war, mit ihrem Anführer zu sprechen, einem Magier namens Snake Eyes. Er war ein menschlicher Wahrsager, mit dem ich viele... besondere... Lesungen hatte.~
+@138  = ~Besonders?~
+@139  = ~Ja... Der Wahrsager las meine Vergangenheit. Er entdeckte meinen königlichen Stammbaum und sah, wie meine Vorfahren gegen die dunklen Kräfte von Aumvor kämpften. Er sah in mir einen gutturalen Hass auf Magie, aber er konnte meine wahren Absichten nicht lesen.~
+@1065  = ~Deine wahren... Absichten?~
+@1066  = ~Hm... es wird etwas spät, Valygar. Wie wäre es, wenn wir das ein anderes Mal fortsetzen? Ich verspreche, meine Geschichte später zu beenden.~
+@1067  = ~In der Tat, Dusk, in der Tat... ich nehme dich beim Wort.~
+
+// Valygar 3
+@171  = ~Dusk, ich glaube, es ist eine angemessene Zeit seit unserem letzten Gespräch vergangen, oder nicht?~
+@172  = ~In der Tat, Valygar. Ich werde meine Geschichte beenden...~
+@173  = ~Wie ich bereits erwähnt habe, hatte Snake Eyes mehrere Sitzungen mit mir. Seine Spezialität war die Divinationsschule, also konnte er durch bestimmte... Beschwörungen in meine Vergangenheit eintauchen. Er sagte nicht mehr, als er bereits wusste, denn seine wahre Absicht war es, einen Blick auf meine Absichten zu erhaschen, verstehst du?~
+@174  = ~Ich verstehe. Deine wahre Absicht war es, deinen natürlichen Widerstand gegen Magie zu verbessern, um Rache an den Zauberern zu nehmen, die ihre Macht missbrauchen, richtig? Meine Frage ist... wie hast du Snake Eyes getäuscht?~
+@175  = ~Mein Verlangen nach Rache war zu groß... so sehr, dass es overshadowte, was ich anschließend mit ihnen, den Söldnern des Tals, vorhatte.~
+@176  = ~Snake Eyes konzentrierte sich mehr auf meine arkane Vergangenheit als auf meine zukünftigen vergeblichen Bemühungen, das zu nutzen, was ich durch angeborenen magischen Widerstand gewinnen würde. Aber er war kein Narr... es war ihm egal, ob ich lebte oder starb, also waren seine... Methoden, um diesen Widerstand in mir zu wecken, nicht zurückhaltend.~
+@177  = ~Ich habe einen leichten Verdacht, wie die Wizard Slayers im Norden, in den barbarischen Stämmen, ausgebildet wurden... Ist es das, was ich denke?~
+@1068  = ~Ja: Snake Eyes benutzte Beschwörungen gegen mich. Er sprach allerlei Zauber und ging dann zum Kleriker des Lagers, um mich zu heilen.~
+@1069  = ~Ich war unzählige Male dem Tod nahe... aber mein Ziel hielt mich fest.~
+@1070  = ~Nach ein paar Monaten verstand ich, wie die meisten Zauber funktionierten... zumindest auf einer grundlegenden Ebene. Und als ich dieses Wissen erlangte, führte ich die nächste Phase meines Plans aus.~
+@1071  = ~Was ist passiert?~
+@1072  = ~Ich tötete sie alle...~
+@1073  = ~Ich sehe, dass du mich für meine Taten nicht beurteilst... warum?~
+@1074  = ~Nun, Dusk... ich denke, sie haben es verdient. Ich weiß, wie Söldner handeln, und die Sekten, die Wizard Slayers ausbilden, haben keine guten Absichten. Sie suchen nur nach Tod und Eroberung. Du wusstest es und hast es sicherlich erlebt... Und vielleicht musstest du sogar Dinge tun, die du nicht tun wolltest.~
+@1075  = ~Du hast recht... Viele Male konnte ich bestimmten "Verpflichtungen" des Lagers ausweichen. Schließlich war ich zu sehr auf mein Hauptziel fokussiert. Und als ich es schließlich erreicht habe, habe ich meine Rache an ihnen bekommen.~
+@1076  = ~Snake Eyes war überrascht... aber als ich ihn konfrontierte, stellte ich am Ende fest, dass er wusste, dass ich so handeln würde.~
+@1077  = ~Naja, ich habe nicht zu viel darüber nachgedacht. Ich fügte ihm einen tödlichen Schlag zu und widerstand sogar einer seiner Beschwörungen. Das war sein Ende. Und auch der Beginn meiner Erlösung.~
+@1078  = ~Ich machte mich auf den Weg nach Athkatla, weil ich wusste, dass die große Stadt nach Korruption stinkt und ich mein neues Wissen nutzen konnte, um denen in Not zu helfen.~
+@1079  = ~Dann geschah das, was wir alle auf der Waukeen's Promenade wissen. Irenicus, <CHARNAME>, Imoen. Der Rest... ist Geschichte.~
+@1080  = ~Es war interessant, Dusk. Danke, dass du mir das erzählt hast. Ich hoffe, wir können diesem ganzen Hunt gegen Irenicus ein Ende setzen... ich denke, gemeinsam können wir <CHARNAME> gut zur Seite stehen.~
+@1081  = ~Ich denke das Gleiche, Valygar... ich denke das Gleiche...~
+
+
+// VICONIA
+
+@99   = ~Während der Nächte nehme ich deinen Blick wahr, Viconia... gibt es etwas, das ich wissen sollte?~
+@100  = ~Wirklich, abbil? Es könnte nur Lust sein, denkst du nicht?~
+@101  = ~Hm. Ich denke, du versteckst deine wahren Absichten, Drow. Doch das stört mich nicht. Deine Angelegenheiten sind nur deine Sache.~
+@102  = ~Du hast recht, kleiner Mann. Obwohl du meine Worte nicht so leicht nehmen solltest. Vielleicht beobachte ich dich nachts, weil ich den Wunsch habe, dein Blut zwischen meinen Fingern zu spüren. Ich wollte schon immer einen Wizard Slayer kosten.~
+@103  = ~Sollte ich mich bedroht fühlen? Nun, ich denke nicht... Ich nehme in deinen Worten keinen Hass wahr.~
+@104  = ~Vielleicht nicht, rivvil... aber zweifle nicht daran, dass es sich jederzeit ändern könnte... Für jetzt... genieße einfach, wenn du meinen Blick auf deinem Körper spürst. Du hast nichts zu verlieren... noch...~
+
+
+// Viconia 2
+
+@151  = ~Ich habe das für dich mitgebracht.~
+@152  = ~W-was machst du, rivvil? Was ist das? Es ist... es ist eine Brosche.~
+@153  = ~Das ist richtig... sie repräsentiert den Mond... oder zumindest seine dunkle Seite.~
+@154  = ~Aber... warum?~
+@155  = ~Weil wir Freunde sind. Freunde geben sich normalerweise Geschenke. Und es schien, als wäre es lange her, dass dir jemand etwas geschenkt hat.~
+@156  = ~W-well, ich brauche niemanden, der mir etwas schenkt, rivvil... Wenn ich etwas will, nehme ich es einfach.~
+@157  = ~Aber sag mir... ist das, woran du in den letzten Nächten gearbeitet hast?~
+@1083  = ~*räuspert sich* Nun, ja. Es hilft mir, mich abzulenken.~
+@1084  = ~Du hättest es nicht tun sollen, Dummkopf... Ich brauche nicht der Grund für deine Ablenkungen zu sein.~
+@1085  = ~Dennoch... danke. Für einen rivvil hast du sicherlich Geschick im Holzschnitzen.~
+@1086  = ~Nenn es nicht, Viconia. Ob es dir gefällt oder nicht, du schmiedest Freundschaften in dieser Allianz. Und Freunde tun solche Dinge. Für einander da sein.~
+@1087  = ~...~
+@1088  = ~Ich werde über deine Worte nachdenken, abbil. Für jetzt lass mich in Ruhe.~
+@1089  = ~Sehr gut, Vicky. *grinst*~
+@1090  = ~Verschone dein Glück, rivvil. Glücklicherweise werde ich das durchgehen lassen, nur weil ich dein... Geschenk gemocht habe.~
+
+
+// YOSHIMO
+
+@105  = ~Ich hasse es, es zuzugeben, Yoshimo... aber du bist ganz schön geheimnisvoll.~
+@106  = ~Ein Geheimnis, sagst du? Geheimnisse schimmern zur Mittagszeit wie Sterne, selbst wenn du sie nicht wegen der Sonne sehen kannst. Ich hoffe, du sprichst mit guten Absichten über den guten Yoshimo, mein Freund.~
+@1091  = ~Es ist mir egal, ob ich dich beleidige, Dieb. Ich nehme wahr, dass du oft mit Zweifeln handelst, obwohl deine Haltung etwas anderes zeigt.~
+@107  = ~Oh, ich wollte dich nicht beleidigen, Gefährte. Es ist nur, dass ich wahrnehme, dass du oft mit Zweifeln handelst, obwohl deine Haltung etwas anderes zeigt.~
+@108  = ~Zweifel sind natürlich, selbst bei denen, die übermäßiges Vertrauen haben. Ich selbst habe gesehen, dass du Zweifel hast, Dusk. Was denkst du darüber?~
+@109  = ~Sicherlich bist du intelligent... versuchst die Aufmerksamkeit auf den Empfänger zu lenken... Aber ich nehme an, du hast deine Geheimnisse, so wie ich meine habe.~
+@110  = ~Nun, ja... jeder Krieger, der auf dem Schlachtfeld zu viel gesehen hat, hat sie... und sie offenbaren sich manchmal nur im Wachen des Schlafes.~
+@111  = ~In Träumen, huh? Nun, ich nehme an, wir sollten sogar beim Träumen vorsichtig sein... damit uns die Wahrheit nicht überrascht, denkst du nicht?~
+@112  = ~Yoshimo wird von niemandem oder nichts überrascht, meine liebe Dusk. Es ist immer Yoshimo, der andere überrascht...~
+
+// FALL 
+
+@178  = ~Fall, ich verstehe, dass du mit einer Armbrust geschickt bist... aber wenn ein Gegner mit einer Nahkampfwaffe auf dich zustürzt, solltest du dich zurückziehen. Du hättest einen körperlichen Nachteil, und dein Leben wäre in Gefahr.~
+@179  = ~Warum beharrst du darauf, mir Befehle zu erteilen, Mann? Ich weiß sehr gut, dass du der Erste sein wirst, der mir zu Hilfe kommt, wenn das passiert.~
+@180  = ~Ich werde nicht immer für dich da sein, Fall. Wenn ich dir diesen Rat gebe, ist es zu deinem eigenen Wohl.~
+@181  = ~Warum sagst du so etwas, Dusk? Es gibt keinen Grund, so pessimistisch zu sein. Das Leben ist nicht so grausam, wie du immer sagst.~
+@182  = ~Wie ich immer sage? Was meinst du damit?~
+@183  = ~*mit tiefer Stimme* „Denk daran: Niemand trifft dich so hart wie das Leben selbst.“~
+@184  = ~*lacht* Klingt sehr düster. Warum schaust du mich so an? Hat dir mein Eindruck von „Dusk, der Ernsthafte“ nicht gefallen?~
+@185  = ~Lass uns weitermachen.~
+@186  = ~Okay, okay... und übrigens: Ich werde deinen Rat befolgen. Danke, dass du immer an vorderster Front stehst, Dusk.~
+@187  = ~Und vergiss nicht, dass ich möchte, dass dein Aufenthalt bei uns lang ist: Meine Armbrust und ich werden dafür sorgen.~
+@188  = ~Gut zu wissen.~
+
+@189  = ~Ich habe mich immer noch nicht entschieden, Dusk: Ich weiß nicht, ob du mit diesem Aussehen jünger oder älter wirkst.~
+@190  = ~Nun... ich fühle mich weder jünger noch älter. Warum fragst du, Fall?~
+@191  = ~Nun, sicherlich hast du nach deiner... „Absorption“ der gereinigten Kugel verändert. Obwohl ich jetzt, wo ich darüber nachdenke, nicht so viel.~
+@192  = ~Meine Wölfe verehren dich. Nicht, dass sie das vorher nicht getan hätten, aber jetzt ist es, als ob sie eine tiefere Verbindung zur Natur in dir spüren.~
+@193  = ~Ich denke, das ist das Werk der Kugel, Fall. Dass Daren und Sinna es spüren, bestätigt es umso mehr.~
+@194  = ~Und was deine Beobachtung angeht... ich glaube, ich fühle mich älter. Ich weiß nicht, ob mein Aussehen das zeigt oder nicht... aber sicherlich hat die Kugel einen Teil meiner Lebensenergie verbraucht.~
+@195  = ~Oh... verstehe.~
+@196  = ~*lächelt* Kopf hoch, Fall. Wir haben noch viel Zeit. Wenn das vorbei ist, können wir zusammen durch Shilmista reisen, wenn du möchtest.~
+@197  = ~Wirklich? Es gibt nichts, was ich mehr möchte, Dusk. Es ist ein Versprechen.~
+@198  = ~Es ist ein Versprechen.~
+
+@199  = ~Du hast mich eine Weile aus der Ferne beobachtet, Fall. Wenn du etwas zu sagen hast, sag es einfach.~
+@200  = ~*schluckt* Ähm... Nein, ich habe dich nicht beobachtet... Du musst dich irren.~
+@201  = ~Ich bin nicht dumm, Mädchen. Hast du Angst vor mir?~
+@202  = ~Ich bin kein Mädchen, Dusk! Und nein, ich habe keine Angst vor dir! Es ist nur so, dass... du dich verändert hast...~
+@203  = ~Das stimmt. Jetzt trage ich eine Macht in mir, die größer ist als zuvor. So ist die Macht des Pandämoniums.~
+@204  = ~Als ob das von Bedeutung wäre. Macht? Der Dusk, den ich kannte, hat Macht nie priorisiert. Der Dusk, den ich kannte, war freundlich. Vielleicht ein bisschen ernst, aber sein Herz hielt Freundlichkeit.~
+@205  = ~Aber jetzt... ist es, als ob...~
+@206  = ~Als ob sie nicht existiert? Es liegt daran, dass der Dusk, den du erwähnst, nicht mehr existiert. Es bin nur ich.~
+@207  = ~Ich glaube nicht, dass das wahr ist, Dusk... trotz deiner veränderten Persönlichkeit und Erscheinung... fühle ich, dass du immer noch du bist...~
+@208  = ~Innerhalb der Dunkelheit, die du ausstrahlst... fühle ich, dass der Dusk, den ich kannte, immer noch existiert.~
+@209  = ~Vielleicht, Fall, vielleicht...~
+@210  = ~Wir sollten besser weitermachen.~

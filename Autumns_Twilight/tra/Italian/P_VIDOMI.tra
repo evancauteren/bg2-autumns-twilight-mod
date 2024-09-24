@@ -1,0 +1,350 @@
+@0    = ~Entrate, mortali, nel mio Enclave. La luce scarlatta della Dama Severa vi accoglie. Il mio nome è Vidomina e vi do il benvenuto.~
+@1    = ~La tua essenza... non è quella di un mortale comune. Chi sei?~
+@2    = ~Sono <CHARNAME>, discendente di Bhaal. Veniamo da Athkatla in cerca della madre di Fall. Puoi aiutarci, mia dama?~
+@3    = ~Sono <CHARNAME> e tu, sei un mostro! Preparati, lich. La tua malvagia esistenza finisce qui!~
+@4    = ~Il mio nome non è affar tuo, strega. Non mi fido dei non morti.~
+@5    = ~Sono <CHARNAME>. Credo che questo sia tutto ciò che devi sapere, per ora.~
+@6    = ~Se ti riferisci alla tua discendenza divina, mi dispiace dirti che non è un segreto qui a Rachnidra.~
+@7    = ~Capisco. Una dichiarazione che in tempi passati mi avrebbe sorpreso. Ma mi dispiace dirti che il tuo lignaggio è qualcosa di già noto qui, a Rachnidra.~
+@8    = ~Se ti chiedi il perché, la risposta è semplice. Mesothel, uno dei comandanti della Regina Araña, ha fatto incursioni nel Piano Materiale qualche dekkan fa. Sa molto su di voi, <CHARNAME>. Anche sui suoi attuali compagni.~
+@9    = ~Ultimamente, però, le forze aracnoidi sono... scomparse.~
+@10   = ~È vero. Quando siamo arrivati non abbiamo incontrato nessuna araña nemica. Cosa è successo a loro?~
+@11   = ~Forse sono state sconfitte da quei Dreach-naga che tu menzioni.~
+@12   = ~Abbiamo solo incontrato un uomo-ratto chiamato Phillipe. Ci ha detto che tu potresti aiutarci.~
+@13   = ~L'unico ostacolo per arrivare qui sono stati un gruppo di non morti. Infatti, quella che vedi lì mi sembra molto familiare.~
+@14   = ~Buona osservazione, mortale. Ma ne parleremo fra un attimo.~
+@15   = ~No, i rettili non hanno trovato il modo di estirpare le forze dell'Oscura e, a questo ritmo, dubito che lo faranno. Ma ne parleremo più tardi.~
+@16   = ~Ah, la piccola creatura umanoide. So a chi ti riferisci. Nonostante sia innocuo, ha dimostrato una grande abilità nel superare le forze aracnoidi e rettili.~
+@17   = ~So che hai incontrato anche le mie forze guardian. Infatti, porti con te il mio talismano, altrimenti non saresti stato in grado di entrare qui. Come vedi, le forze con cui hai combattuto sono qui, come quella che vedi lì.~
+@18   = ~Tamika è una delle mie guerriere più forti. E sì, quei non morti sono i custodi del mio Enclave, <CHARNAME>. Ma non devi preoccuparti di loro. Non vi attaccheranno, così come voi non potete danneggiarli qui.~
+@19   = ~L'Enclave è protetto da un potente incantesimo di Wee Jas. Non potrete danneggiarci e noi non vi danneggiamo. Qui potrete riposare e persino commerciare.~
+@20   = ~Per riposare potrete parlare con Nimbus. Tamika gestisce un piccolo negozio di vari artefatti, mentre Xsi potrà curarvi e fornirvi informazioni su Rachnidra e Dreach-naga.~
+@21   = ~Purtroppo avrete bisogno di oro per la maggior parte delle transazioni. Usiamo questo materiale per rafforzare la protezione dell'Enclave contro le forze esterne. Anche se se avete oggetti da vendere, saranno utili.~
+@22   = ~La cosa importante qui è la seguente: se volete trovare la strega di Evereska, dovrete entrare nella tana della Regina Araña. La troverete a est delle caverne aracnoidi.~
+@23   = ~Non è possibile accedere a quel luogo. È quasi come se una forza ci impedisse il passaggio.~
+@24   = ~Non ci stai mandando alla nostra morte, vero? Qualcosa mi dice che tutte le arañas si trovano lì.~
+@25   = ~Come possiamo entrare? Penso che tu sappia bene quanto sia inaccessibile.~
+@26   = ~È molto probabile che i suoi scagnozzi più potenti si trovino lì, <CHARNAME>. Credimi... non è nel mio interesse la tua distruzione né quella dei tuoi alleati.~
+@27   = ~La verità è che non potrai entrare nei suoi appartamenti a meno che non si verifichi una condizione e cioè che hai bisogno del sangue di una creatura della regalità. Antica e potente.~
+@28   = ~Dovrai trovare Tisiphone, la Regina di Dreach-naga.~
+@29   = ~Perché, Vidomina? Come fai a sapere che questo sarà sufficiente per penetrare nell'oscurità di quella caverna?~
+@30   = ~Capito. Dove posso trovarla?~
+@31   = ~Non esiste un'altra via? Non era mia intenzione coinvolgermi in questa guerra abissale.~
+@32   = ~Per anni abbiamo visto come le incursioni dei rettili siano fallite contro le arañas. Per quanto ci abbiano provato, non sono riusciti a attraversare l'oscurità delle caverne.~
+@33   = ~Mi dispiace dirlo, <CHARNAME>, ma non esiste un'altra via. Con quello che ho da raccontarti dovrai comprendere il perché.~
+@34   = ~Prima di dirti questo, devi ascoltare il mio avvertimento e il perché devi farlo:~
+@35   = ~Vi è chiaro?~
+@36   = ~Come entreremo in Dreach-naga? Non abbiamo nessuna di quelle pietre e non possiamo avanzare oltre questo recinto.~
+@37   = ~Vidomina, come ci aiuterai?~
+@38   = ~Cosa ottieni da tutto questo?~
+@39   = ~Wee Jas ci insegna che la magia è la chiave di tutte le cose e che l'abbellimento personale è un dovere. Se Morgrath conquista questo strato dell'Abisso, otterrà il potere sufficiente per raggiungere il Piano Materiale. Se ciò accade... la vita e la magia potrebbero giungere alla fine.~
+@40   = ~Abbiamo giurato di restare qui e fare tutto il possibile per evitare che ciò accada. Ma, al di fuori di questo recinto, non abbiamo ottenuto molto. Rachnidra e Dreach-naga hanno cercato di distruggerci e non ci è rimasta altra scelta che restare qui e cercare di impedire che nessuno dei due schieramenti prevalga. Ma è tempo di andare, <CHARNAME>:~
+@41   = ~Vi fornirò un talismano che... "abbiamo ottenuto" dai rettili. Con esso potrete entrare nelle terre di Dreach-naga. Ricordate: avrò bisogno del sangue o del cuore della Regina Medusa affinché io possa preparare un artefatto che vi permetterà di invadere la tana della Regina Araña.~
+@42   = ~Nel frattempo, sarete i benvenuti qui per riposare o commerciare. Potete parlare con i miei bambini se lo desiderate. Tobias si occuperà di voi se desiderate riposare qualche ora qui. Se desiderate parlare con me, sarò più che felice di servirvi.~
+
+@43  = ~Non fu fino all'arrivo della strega selu'taar che le cose cambiarono.~
+@44  = ~Poi madre seppe come superare quell'ostacolo. Lo vedi, <CHARNAME>? Madre è molto potente.~
+@45  = ~Credo che lei fosse sempre consapevole che i miei bambini la seguivano e non fece nulla al riguardo.~
+@46  = ~Osservammo come incursioni, furtivamente, nelle terre dei rettili.~
+@47  = ~Arrivò fino al trono di Tisiphone e con un pugnale magico le inflisse una ferita. L'arma rimase immersa nel sangue della Regina e così, la selu'taar scomparve in una nuvola arcana.~
+@48  = ~Con nostra sorpresa, il sangue sul pugnale disperse le ombre della caverna orientale e lì vedemmo per l'ultima volta la selu'taar.~
+@49  = ~Giorni dopo, i ragni sembrarono scomparire da Rachnidra. Questo, certamente, ci confonde e preoccupa.~
+@50  = ~Presto scoprirai che esplorare Dreach-naga non sarà così facile come sembra. L'Abisso può essere un luogo traditore e confuso.~
+@51  = ~Dopo l'attacco, Tisiphone ordinò di attivare le Pietre Guardiane delle diverse regioni. Per proseguire, non avrai altra scelta se non ottenere queste Pietre Guardiane.~
+@52  = ~Abbiamo scoperto che sono in possesso dei diversi comandanti di Tisiphone, quindi dovrai sconfiggerli per arrivare al trono.~
+
+@53  = ~Ora dobbiamo parlare di ciò che ci riguarda: la selu'taar.~
+@54  = ~Sai che fine ha fatto, Vidomina?~
+@55  = ~Non molto tempo fa, una potente forza arcana giunse nelle grotte aracnidi. Xsi, il mio sacerdote mago, ha riconosciuto la magia come quella di Evereska, il Regno Nascosto degli elfi.~
+@56  = ~La strega tenne a bada le legioni della Regina Ragno e fu persino in grado di penetrare nel suo cubicolo.~
+@57  = ~I piani della regina aracnide erano invadere Faerûn. Infatti, lo tentò molti anni fa.~
+@58  = ~Un'incursione di creature aracnidi attaccò la mia terra natale, Imnescar.~
+@59  = ~Ma tale incursione fu fermata dagli abitanti della superficie, lo so, piccola.~
+@60  = ~Perché, Vidomina? Mi sono chiesto questo per anni. Qual è l'obiettivo di Morgrath?~
+@61  = ~Ah, vedo che il suo nome ti è stato rivelato. Morgrath. Sì. È la Regina Ragno. L'artefice di una forza colossale chiamata Shyntquarra.~
+@62  = ~Non sono sicura del suo obiettivo, mia cara. Ma è certo che la Regina Ragno da secoli invade e conquista strati abissali.~
+@63  = ~Non sorprende che vari demoni e mostri cerchino di conquistare il Piano Materiale e l'obiettivo di solito non è più complesso della distruzione assoluta.~
+
+@64  = ~So molto su Rachnidra e su Dreach-naga. Ti aiuteremo il più possibile per porre fine a questa guerra.~
+@65  = ~Mi aspettavo... mi aspettavo di trovare mia madre... ma tu non sei lei. Dreach-naga?, guerra? Strega, a cosa ti riferisci?~
+@66  = ~Puoi chiamarmi Vidomina, piccola. Per quanto riguarda la tua domanda, teoricamente, questo luogo non è sempre stato Rachnidra. Secoli fa, tutto questo strato dell'Abisso apparteneva al Regno di Dreach-naga.~
+@67  = ~Un giorno, le forze di La Oscura, la chiamata Regina Morgrath, arrivarono e iniziarono a devastare la civiltà rettile, al punto che quasi la portarono all'estinzione.~
+@68  = ~Dreach-naga oppose una forte resistenza, poiché non è un regno debole. Con l'aiuto del campione Rask'tar Krathiss e del Generale Cho'Nuja, i ragni sono stati tenuti a bada per molti anni.~
+
+@69  = ~Mi dispiace dirti che il tuo segreto non è custodito qui a Rachnidra, figlio di Bhaal.~ ~Mi dispiace dirti che il tuo segreto non è custodito qui a Rachnidra, figlia di Bhaal.~
+
+@70  = ~Saluti, viaggiatori dell'aldilà. Sono qui per servirvi.~
+@71  = ~Non conosco Wee Jas. Chi è questa dea che adori?~
+@72  = ~Cosa si suppone sia quel marmotta? Non posso fare a meno di notare che è... vestita.~
+@73  = ~Ancora, con chi devo parlare se ho bisogno di commerciare o riposare?~
+@74  = ~Vengo da Flanaess, non da Faerûn, quindi è naturale che tu non abbia sentito parlare della mia Dama.~
+@75  = ~Spero che tu possa cambiare ciò. Il nostro destino è anche nelle tue mani, figlio di Bhaal.~ ~Spero che tu possa cambiare ciò. Il nostro destino è anche nelle tue mani, figlia di Bhaal.~
+@76  = ~Ah, ti riferisci a Tobias. È una marmotta estremamente intelligente e servizievole. Probabilmente è dovuto a un incantesimo di protezione che lanciò su di lui quando lo trovammo.~
+@77  = ~Non so da quanto tempo sia con noi, ma sono passati già diversi anni. Ha superato il tempo di vita che le marmotte solitamente hanno, di sicuro. Il tempo nell'Abisso è molto strano.~
+@78  = ~Potresti averlo osservato quando sei arrivato, ma i ragni si nutrono di carne. Utilizzano i loro ragni fase per viaggiare attraverso i piani e portare prede che divorano in modo crudele.~ ~Potresti averlo osservato quando sei arrivata, ma i ragni si nutrono di carne. Utilizzano i loro ragni fase per viaggiare attraverso i piani e portare prede che divorano in modo crudele.~
+
+@79  = ~*Tobias si scuote sentendo il racconto.*~
+@80  = ~Tobias, come lo chiamiamo, è stata l'unica creatura che riuscì ad avvicinarsi all'Enclave. Nimbus lo salvò e lo portò con sé prima che fosse raggiunto da Mesothel.~
+@81  = ~La Dama Severa è la custode dei morti e ha il controllo sul transito delle anime. Anche se è una dea della morte, non è malvagia; piuttosto, si concentra sull'ordine e sul rispetto per i morti.~
+@82  = ~È una dea della magia e viene venerata come la patrona dei maghi e degli stregoni. Valuta la conoscenza arcana e lo studio delle arti magiche. Rappresenta la legge e l'ordine. I suoi seguaci apprezzano la disciplina, il rispetto per le tradizioni e le gerarchie stabilite.~
+@83  = ~Capisco che la morte vivente non sia vista come una forza naturale da dove vieni, ma Wee Jas rispetta la Necromanzia purché sia fatta con rispetto e controllo. Come immaginerai, richiede una grande disciplina e concentrazione di potere.~
+@84  = ~I miei bambini non furono costretti a vivere nella morte vivente, ma fu piuttosto un accordo reciproco. Accettarono di aiutarmi fino a quando non troveremo il modo di fermare Morgrath.~
+@85  = ~Ma sono anche consapevoli che non potremo mai tornare ai nostri piani rispettivi. Per ora, sia Faerûn che Flanaess, qualsiasi opzione che non sia l'Abisso sarà utile...~
+@86  = ~Come sono immuni qui? Hai detto che non possono subire danni. Perché non attirare i ragni qui e sconfiggerli?~
+@87  = ~L'immunità è causata dall'artefatto che vedi dietro di me. Ci sono voluti decenni per finirlo e ho depositato in esso gran parte del mio potere.~
+@88  = ~L'unica opzione è portare la lotta al trono di Morgrath. Ma per farlo, prima deve cadere Tisiphone.~
+@89  = ~Quando arrivai qui ero già una potente lich. Non sono sicura del perché fossi uno degli obiettivi di Mesothel. Ma è molto probabile che seguisse gli ordini della sua Regina madre.~
+@90  = ~Il fatto che sia ossessionata dal potere arcano mi ha convinta che intende impossessarsi del potere di diversi maghi per portare le sue schiere nel Piano Materiale e liberare tutto il suo Shyntquarra.~
+
+@91  = ~Ti chiedi perché non attirare gli ragni qui... La ragione è piuttosto semplice: gli ragni sanno che l'Enclave è una trappola mortale per loro. Quindi faranno di tutto per evitarlo.~
+@92  = ~Per ora non ho dubbi, Vidomina. Addio.~
+@93  = ~Che la Strega Rubina protegga i tuoi passi, figlio di Bhaal.~ ~Che la Strega Rubina protegga i tuoi passi, figlia di Bhaal.~
+
+@94  = ~Mia Dama, ho trovato il Rifugio di Phillipe, l'uomo-ratto. Pensi di poterlo accogliere nel tuo Enclave?~
+@95  = ~Ah, capisco. Hai trovato il suo piccolo rifugio in Dreach-naga. È incredibile che sia riuscito a trovare un angolo sicuro in una terra così ostile, non credi?~
+@96  = ~Conosco molto bene la sua storia, <CHARNAME>. La sua famiglia fu annientata da una delle creature più potenti che abbia mai conosciuto. Skel'Tharant.~
+@97  = ~Che il piccolo sia sopravvissuto a quell'incontro è, di per sé, un'impresa notevole.~
+@98  = ~Ho tentato di avvicinarlo e offrirgli quanto hai richiesto. Ma è molto... codardo. La sola presenza di alcuni dei miei bambini lo spaventa a morte.~
+@99  = ~Hai compiuto un gesto degno, <CHARNAME>. Ti darò questo talismano da consegnare. Dì a Phillipe che con esso potrà entrare nel nostro Enclave. E che non deve temerci.~
+
+@100 = ~Finalmente, siete tornati!~
+@101 = ~Il Cuore di Tisiphone, Regina di Dreach-naga. <CHARNAME>, con questo potrò infondere una potente Lanterna che vi permetterà di accedere al suo Rifugio Aracnide.~
+@102 = ~Ma in realtà posso andare anche oltre. Posso rafforzare il potere dell'Enclave e rimandarvi al vostro piano. Ma per farlo dovrete prima eliminare Morgrath.~
+@103 = ~Vedete, la Ragnatela della Regina Demone non è solo fisica, ma attraversa anche i piani abissali. Anche se riuscirò ad ottenere il potere necessario per aprire un portale tra i piani, la soglia di tale portale non potrà essere attraversata a meno che quella Ragnatela non cessi di esistere.~
+@104 = ~Pertanto, Morgrath deve essere eliminata.~
+@105 = ~Chiaro. Eliminando il demone, potremo tornare a casa.~
+@106 = ~C'è qualcos'altro che vuoi dire? I tuoi... "occhi" brillano più del solito.~
+@107 = ~Non è tutto, <CHARNAME>. C'è qualcosa che dovresti sapere.~
+@108 = ~Skel'Tharant. Il suo Campione. Se non lo uccidi prima di entrare nel Rifugio della Regina, lei lo invocherà e la battaglia finale sarà molto più complicata.~
+@109 = ~Pensavo che i suoi figli non potessero essere uccisi permanentemente. Perché dovrebbe essere diverso con questa creatura?~
+@110 = ~Skel'Tharant non è un figlio di Morgrath. È una creatura antica, forse tanto antica quanto la stessa Morgrath. È un incubo forgiato nelle ombre più profonde dell'Abisso.~
+@111 = ~Per secoli si è nutrito di demoni, fino a quando incontrò Morgrath e questa gli offrì una dieta più... allettante.~
+@112 = ~Da allora, Mesothel ha provveduto a offrire sacrifici vivi alle stanze di Skel'Tharant. Un'incredibile quantità di creature sono morte nelle sue fauci.~
+@113 = ~Grazie al Cuore di Tisiphone, posso infondere una gemma magica che illuminerà il tuo cammino verso le sue stanze. Troverai la Tana di Skel'Tharant nei tunnel sud-occidentali delle Grotte Aracnidi.~
+
+@114 = ~Devo avvertirti... Skel'Tharant è implacabile. Per qualcosa è il Campione di Rachnidra. Sconfiggerlo non sarà facile e dovrai essere persistente nei tuoi combattimenti.~
+@115 = ~Studierò un po' di più sui misteri di Dreach-naga, poiché potremmo trovare qualcosa nella saggezza dei rettili che ci permetta di ottenere un vantaggio in questa lotta.~
+@116 = ~Ma non posso promettere che troverò risposte favorevoli...~
+@117 = ~Per ora, inizierò a infondere la Lanterna, <CHARNAME>. Approfitta per riposarti e parla con i miei figli se lo desideri. In poche ore, l'artefatto sarà pronto.~
+@118 = ~Sto ancora lavorando sulla Lanterna, <CHARNAME>. Torna più tardi, per favore.~
+@119 = ~<CHARNAME>, la Lanterna di Dreach-naga è pronta.~
+@120 = ~Fai attenzione. La lotta finale è vicina e sarà allora che la Regina utilizzerà tutto il suo potere per raggiungere il suo scopo. Ricorda che i suoi appartamenti si trovano nelle caverne orientali dei Tunnel Aracnidi. Io continuerò a lavorare sull'incantesimo per riportarvi a casa e pregherò Wee Jas affinché la tua missione abbia successo.~
+@121 = ~Generale Cho'Nuja? Vedo che accompagni <CHARNAME>. E a sua volta portano il Cuore della Regina Tisiphone. Percepisco una profonda tristezza nei tuoi occhi. Mi dispiace che la guerra sia dovuta arrivare a questi estremi.~
+@122 = ~Finalmente ci conosciamo, Strega. Quindi sei stata tu a inviare il semidio a distruggere la mia casa.~
+@123 = ~Attento, uomo-lagarto. Se non vuoi perdere la testa, ti rivolgerai alla mia Signora in modo più rispettoso.~
+@124 = ~Basta, mia cara Tamika. Il risentimento del Generale è comprensibile. Ma questa è una conversazione tra lui e me.~
+@125 = ~Quello che dici è vero, Generale. Sono stata io a dare l'incarico a <CHARNAME> di eliminare Tisiphone.~
+@126 = ~Allora lo ammetti?~
+@127 = ~Sì. Qual è il prezzo per mettere fine a una guerra abissale? Due Regine.~
+@128 = ~Sai bene quanto sia potente il ragno. Creature come Mesothel o Skel'Tharant non fermeranno la loro malvagità qui a Dreach-naga. No, Generale. Estenderanno la loro oscurità attraverso l'oscurità del cosmo, percorrendo un destino funesto attraverso le ragnatele demoniache tessute dalla Legione invisibile.~
+@129 = ~È vero che per arrivare al Rifugio della Regina Ragno è necessario il sangue di una creatura reale dell'Abisso. La selu'taar ne ha avuto solo un po' per arrivarci.~
+@130 = ~Ma è vero che per far attraversare l'uscita a <CHARNAME> è necessaria una quantità maggiore.~
+@131 = ~Alcuni dei miei protetti, come Xsi, credono che fosse possibile ragionare con la nazione di Dreach-naga. E in un certo senso aveva ragione. Il semplice fatto che tu sia qui e non stia usando le tue potenti artigli per distruggere l'Enclave è una prova di ciò.~
+@132 = ~Ma dimmi, Generale Cho'Nuja. Pensi che la tua Regina sarebbe stata disposta a sacrificarsi per il bene del suo Regno?~
+@133 = ~Io... Credo di no...~
+@134 = ~La verità è che la mia Regina stava perdendo la sanità mentale, poco a poco. Alcuni incolpavano la creatura arcana, quella che tu chiami selu'taar.~
+@135 = ~Ma è vero che, come uno dei suoi guerrieri più vicini, posso dire che non era così.~
+@136 = ~Eravamo destinati a perdere questa guerra. Gli ragni avrebbero consumato la nostra palude e poi avrebbero usato il nostro antico potere per ascendere ad altri piani. Lo so... è solo la prima volta che lo dico ad alta voce.~
+@137 = ~Per anni ho addestrato i miei soldati, ho forgiato i loro corpi e menti per fare di Dreach-naga una nazione brillante nell'oscurità infinita dell'Abisso.~
+@138 = ~Tutto ciò è andato perduto.~
+@139 = ~No, Generale. Il fatto che tu sia qui con <CHARNAME> mi dice che c'è ancora speranza. Dreach-naga non è caduta invano, poiché il suo sacrificio ci permetterà di sconfiggere Morgrath.~
+@140 = ~Spero che tu abbia ragione, mia Dama.~
+@141 = ~Qui sei benvenuto, Generale. Riposati mentre parlo con <CHARNAME>.~
+@142 = ~Mia Dama, pensi che mia madre sia ancora viva?~
+@143 = ~La selu'taar è ancora viva, mia bambina. Ma devo essere sincera: la sua forza vitale sta diminuendo col passare del tempo.~
+@144 = ~La caduta di Dreach-naga sembra aver accresciuto i poteri di Morgrath. Non ha più restrizioni nella conquista di questo piano. Non avete altra scelta che sconfiggerla prima che vi intrappoli nella sua ragnatela demoniaca.~
+@145 = ~Faremo tutto il possibile, Vidomina. Abbi fiducia!~
+@146 = ~Confido che lo farete, Fall di Imnescar. Ora lasciami spiegare perché dovete eliminare Morgrath per tornare al vostro piano:~
+
+@147 = ~Fall, il tuo potere è aumentato da quando sei arrivata. C'è un'aura in te che non riesco a comprendere del tutto.~
+@148 = ~Che hai già raggiunto tale potere senza nemmeno rendertene conto.~
+@149 = ~Mia Dama, a cosa ti riferisci?~
+@150 = ~Per arrivare fin qui, hai fatto un sacrificio sulla tua forza vitale, non è vero?~
+@151 = ~Beh... sì. Per raggiungere il Tempio in cui Alendir ha aperto un portale per qui, abbiamo avuto un incontro con un scarabeo rinoceronte della Valle del Vento Gelato.~
+@152 = ~E cosa è successo?~
+@153 = ~Siamo riusciti a comunicare con lo scarabeo grazie alle creature del Piano Astrale. Per rompere le catene arcane che lo tenevano legato all'ingresso del Tempio, ho scelto di sacrificare parte della mia energia.~
+@154 = ~Non voglio sembrare crudele con quello che sto per dire, ma non potevano eliminare la creatura? Ucciderla avrebbe evitato che tu facessi tale sacrificio.~
+@155 = ~È vero... ucciderlo era un'opzione. Ma non potevo permetterlo. Non è il volere del Padre Quercia. Non è ciò che mio padre mi ha insegnato.~
+@156 = ~Cerco di onorare la Natura nel miglior modo possibile. So che non sono stata perfetta e ho fallito molte volte. Ma ho fatto ciò che ritenevo giusto. Non me ne pento.~
+@157 = ~Capisco. La creatura che hai salvato, l'hai inviata al Piano Astrale, vero?~
+@158 = ~Hai ragione.~
+@159 = ~Sono sicura che lo scarabeo ti stima molto, Fall. Perché non hai provato a convocarlo per aiutarti nelle tue missioni?~
+@160 = ~Erhm... *si gratta la testa* Non so come fare. Anche se sono riuscita a stabilire un legame con tutte le mie convocazioni e fare in modo che la loro venuta dal Piano Astrale sia consistente, con Kakuto non ci sono riuscita.~
+@161 = ~È una creatura molto potente. Credo che ci voglia un grande potere per poterla chiamare.~
+@162 = ~È vero, mia cara. Ma c'è qualcosa che non sai.~
+@163 = ~Cosa?~
+@164 = ~Esatto, piccola. Hmm. Cerca di non chiamarlo qui poiché non abbiamo molto... spazio. Spero che tu faccia buon uso della tua nuova abilità, Fall di Imnescar.~
+
+@165 = ~Piccolo Phillipe. Lo scontro con Skel'Tharant è inevitabile. Non devi temere per <CHARNAME>. La sua capacità supera quella di molti mortali. Inoltre, credo di aver trovato il modo per eliminare il fattore rigenerativo di Skel'Tharant.~
+@166 = ~L'hai scoperto, Vidomina? Per favore, ascolto.~
+@167 = ~Secondo quanto ho potuto scoprire nel corso degli anni, Skel'Tharant ha una capacità di guarigione eccezionale durante i combattimenti. È una creatura antica e misteriosa, ma non sfugge alle indagini che ho condotto qui nell'Enclave.~
+@168 = ~Posso creare una sorta di olio che impedirà alle ferite di Skel'Tharant di rigenerarsi rapidamente. Questo dovrebbe facilitare il combattimento in modo significativo.~
+@169 = ~Puoi darmelo? Ho intenzione di affrontarlo prima di andare al Rifugio di Morgrath.~
+@170 = ~Sfortunatamente, il processo richiederà più tempo del previsto. Ma posso fare in modo che ti venga consegnato una volta che sarai arrivato al suo Nido. Qui entri in gioco tu, piccolo Phillipe.~
+@171 = ~Se riesco a completare la preparazione dell'olio, è vitale che tu lo porti a <CHARNAME> mentre si sta confrontando con Skel'Tharant. La creatura è molto astuta e probabilmente utilizzerà qualche trucco per proteggersi dall'olio. Ma se è nel calore del combattimento, potresti consegnarglielo per usarlo contro la bestia.~
+@172 = ~I miei bambini non possono allontanarsi troppo dall'Enclave, a causa del legame arcano che abbiamo con il luogo. E non posso inviare Tobias con l'olio poiché è troppo piccolo e non credo abbia la forza necessaria per trasportare tale artefatto.~
+@173 = ~Temo che tu sia la nostra unica speranza, piccolo Phillipe.~
+@174 = ~Mi dispiace, <CHARNAME>. Non credo che tu possa contare sul mio aiuto nella tua lotta contro Skel'Tharant. Lasciamo in pace Phillipe. Ha sofferto abbastanza.~
+@175 = ~È una buona notizia, piccolo Phillipe! <CHARNAME>, devi affrontare Skel'Tharant nel suo Nido a sud-ovest delle caverne aracnidi. Cercherò di avere tutto pronto affinché Phillipe possa andare in tuo aiuto.~
+@176 = ~Ma ne parleremo più avanti. Il tuo compagno mi incuriosisce...~
+
+@177 = ~Sono <CHARNAME>, discendente di Bhaal. Veniamo da Athkatla in cerca di un antico male che minaccia le nostre terre.~
+@178 = ~Sono <CHARNAME>, un semidio. Veniamo da Athkatla in cerca di un antico male e di tutte le ricompense che tale ricerca potrebbe generare.~
+
+@179 = ~Ce l'hai fatta! Il Campione di Rachnidra, Skel'Tharant, è morto!~
+@180 = ~Lo scontro con Morgrath si avvicina sempre di più, <CHARNAME>. Dov'è Phillipe?~
+@181 = ~Mi dispiace, Vidomina. Phillipe si è sacrificato. Si è lanciato in un attacco contro Skel'Tharant usando l'Olio che hai preparato. L'attacco gli ha causato gravi danni e ha bloccato il suo fattore rigenerativo. Purtroppo, Phillipe non è sopravvissuto.~
+@182 = ~Ho cercato di avvertire Phillipe di consegnarmi l'Olio così che potessi usarlo contro Skel'Tharant. Ma quel sciocco ha preferito lanciarsi contro il nemico. È morto, anche se ha inflitto gravi ferite a Skel'Tharant.~
+@183 = ~È... sfortunato. Ma da quello che mi racconti, il piccolo è riuscito a superare la sua paura. Finalmente ha potuto vendicare i suoi fratelli caduti.~
+@184 = ~Anche se... non posso fare a meno di sentire tristezza per la sua morte. L'Abisso può essere un luogo molto crudele e il sentimento di disperazione è più comune di quanto si desideri.~
+@185 = ~Credo di poterlo riportare in vita, ma prima: Morgrath deve essere sconfitta. La sua influenza è sempre più forte e il potere dell'Enclave si sta indebolendo. <CHARNAME>, hai recuperato qualcosa dal corpo di Skel'Tharant? Specificamente le sue ghiandole.~
+@186 = ~Sì. Ho ottenuto queste ghiandole di bebilith. Puoi fare qualcosa con esse?~
+@187 = ~No, Vidomina. Forse dovrei tornare e vedere se trovo qualcosa nel suo Nido.~
+@188 = ~Va bene. Vai con cautela, <CHARNAME>. Lo scontro finale è vicino e Morgrath non esiterà a ucciderti se ne avrà l'opportunità.~
+@189 = ~Interessante, <CHARNAME>. Questo servirà a rafforzare il potere dell'Enclave. Ti offro questo anello, caro. Sono sicura che ti sarà utile nei tuoi futuri combattimenti.~ ~Interessante, <CHARNAME>. Questo servirà a rafforzare il potere dell'Enclave. Ti offro questo anello, cara. Sono sicura che ti sarà utile nei tuoi futuri combattimenti.~
+@190 = ~Hai recuperato qualcos'altro?~
+@191 = ~Sì. Questo è il suo cuore. Si può fare qualcosa con esso?~
+@192 = ~No, Vidomina. Forse dovrei tornare e vedere se trovo qualcosa nel suo Nido.~
+@193 = ~Capisco. Sì, posso usarlo per aumentare il potere dell'Enclave. Non avremo più bisogno di così tanto oro, quindi possiamo dispensarne. Ti sembra una ricompensa adeguata di 15.000 monete d'oro?~
+@194 = ~Sì, Vidomina, è più che accettabile.~
+@195 = ~No, Strega, non ne vale la pena. Mi è costato molto sconfiggere la bestia per ottenere solo oro in cambio.~
+@196 = ~Non puoi potenziare una delle mie armi con il cuore del bebilith, Vidomina?~
+@197 = ~Capisco. Se cambi idea, sarò qui.~
+@198 = ~Grazie, <CHARNAME>. L'oro è già a tua disposizione. Farò buon uso di questo cuore, te lo assicuro.~
+@199 = ~Potrei provarci. Quale artefatto hai in mente?~
+@200 = ~Mi piacerebbe migliorare questa spada lunga: Diastro.~
+@201 = ~Mi piacerebbe migliorare questa katana: Furia Celeste.~
+@202 = ~Mi piacerebbe migliorare questa alabarda: Oleaggio.~
+@203 = ~Mi piacerebbe migliorare questo mandoblo fatto di argento Githyanki.~
+@204 = ~Mi piacerebbe migliorare questa spada lunga: La Livellatrice.~
+@205 = ~Ho cambiato idea. Credo che preferisco l'oro, Vidomina.~
+@206 = ~Non l'ho ancora deciso, Vidomina. Per ora andrò a riposarmi e poi ti dirò cosa decido al riguardo.~
+@207 = ~Va bene. Per favore, consegnami il cuore e la spada.~
+@208 = ~Wee Jas mi ha fornito la conoscenza per l'imbuizione delle armi magiche. Il cuore di Skel'Tharant irradia un potere incredibile.~
+@209 = ~Spero che tu faccia buon uso del tuo nuovo artefatto, <CHARNAME>. Anche se so che lo farai.~
+@210 = ~Va bene. Per favore, consegnami il cuore e la spada.~
+@211 = ~Wee Jas mi ha fornito la conoscenza per l'imbuizione delle armi magiche. Il cuore di Skel'Tharant irradia un potere incredibile.~
+@212 = ~Va bene. Per favore, consegnami il cuore e l'alabarda.~
+@213 = ~Lo scontro con Morgrath si avvicina sempre di più. <CHARNAME>, hai recuperato qualcosa dal corpo di Skel'Tharant? Specificamente le sue ghiandole.~
+@214 = ~Ho ottenuto queste ghiandole di bebilith. Puoi fare qualcosa con esse?~
+@215 = ~Ho il cuore di Skel'Tharant. Si può fare qualcosa con esso?~
+
+@216 = ~Ti riferisci a Phillipe? Sì, Generale Cho'Nuja. Posso riportare indietro Phillipe per volontà di Wee Jas. Grazie a te e a <CHARNAME>.~
+@217 = ~Parte del potere di Skel'Tharant ora giace nel nucleo di potere dell'Enclave. Questo grazie al fatto che siete riusciti a ucciderlo e a portarmi composti del corpo mortale del bebilith.~
+@218 = ~Tuttavia, so che non lo chiedi per pura curiosità, Generale. Cosa vuoi sapere veramente?~
+@219 = ~Capisco. E cosa succederà quando Tisiphone vorrà vendicarsi di noi? La tua Regina non era conosciuta per la sua clemenza. Credo che tu, più di chiunque altro, dovresti saperlo.~
+@220 = ~Molto bene, Generale. <CHARNAME>, hai qualcosa che sia appartenuto ai comandanti di Dreach-naga?~
+@221 = ~Sì, ho alcune annotazioni che sono riuscito a recuperare dai loro corpi. Eccole.~
+@222 = ~Sì, questo andrà bene, almeno in principio. Generale, queste annotazioni hanno una connotazione intrinseca con te. Ma non è sufficiente per riportarli in vita.~
+@223 = ~Sì, questi composti sarebbero più che sufficienti per eseguire ora il mio incantesimo. <CHARNAME>, saresti disposto a consegnarli? So che l'arma di Tisiphone è potente e che la testa di una idra può avere un valore altissimo in oro.~
+@224 = ~Va bene, Vidomina. Consegnerei ciò che chiedi.~
+@225 = ~Ho lottato duramente per ottenere queste ricompense. Quello che chiedete non è qualcosa che sono disposto a pagare.~
+@226 = ~Hai fatto qualcosa di nobile, <CHARNAME>. E intelligente. Se il Generale Cho'Nuja riuscirà a convincere i suoi soldati a combattere con noi, la battaglia finale contro Morgrath potrebbe piegarsi a nostro favore. Ora procederò a eseguire il sortilegio. Osserva il potere della Strega Rubina:~
+@227 = ~Capisco, <CHARNAME>. Mi dispiace, Generale. Ti consegno le annotazioni dei tuoi soldati. So cosa farai dopo.~
+@228 = ~Cos'altro necessita, mia Signora?~
+@229 = ~Non è facile chiedere, ma avrò bisogno di alcuni composti di potere significativo per eseguire il mio incantesimo di resurrezione.~
+@230 = ~Qualcosa appartenente a Tisiphone. Qualcosa appartenente a Rask'tar Krathiss.~
+@231 = ~Capisco. <CHARNAME> ha ottenuto il Tridente della mia Regina, così come una delle teste di Rask'tar. La decisione: appartiene a lui.~ ~Capisco. <CHARNAME> ha ottenuto il Tridente della mia Regina, così come una delle teste di Rask'tar. La decisione: appartiene a lei.~
+@232 = ~Forse posso convincerla...~
+@233 = ~Anche se volessi, lord Generale, non potrei riportarla in vita. Non almeno Tisiphone o il suo campione, Rask'tar Krathiss. Erano creature potenti e antiche e richiederebbe un potere maggiore di quello che possiedo per riportarli indietro.~
+@234 = ~Io... capisco...~
+@235 = ~Tuttavia, si potrebbe fare qualcosa con i tuoi comandanti.~
+@236 = ~Mia Signora, cosa succederebbe se i laghi si rivoltassero contro di noi?~
+@237 = ~Questo non succederà. I miei comandanti seguiranno i miei ordini. Saremo alleati dell'Enclave e di <CHARNAME>.~
+@238 = ~Mia Signora, ho ottenuto queste squame dalla bestia delle paludi, l'idra di Dreach-naga. Pensi che possiamo farne uso?~
+@239 = ~Sconfiggere Rask'tar Krathiss non deve essere stato un compito facile. Non era una creatura malvagia, ma sono sicura che avrebbe fatto di tutto per impedire che attaccassero il Trono di Tisiphone. Capisco che non hai avuto altra scelta che ucciderlo.~
+@240 = ~Il potere che emana è considerevole. Posso immettere una corazza di squame e ottenere un nuovo artefatto da essa. Utilizzare il corpo di Rask'tar, per così dire, dovrebbe essere un simbolo di vendetta di Dreach-naga verso Rachnidra.~
+@241 = ~Ecco qui, <CHARNAME>. Usala con saggezza e impiega il suo potere contro l'Oscurità di Morgrath.~
+@242 = ~Selu'taar Gemystara. Sono Vidomina di Greyhawk e sono venuta in tuo aiuto.~
+@243 = ~Ho percepito la scomparsa dell'energia di Morgrath nella Trama, insieme a un'esplosione di energia arcana e divina. Non avevo mai assistito a tale potere, mortale.~
+@244 = ~Molto bene. <CHARNAME>, quando sarai pronto, parla con me e torneremo a Faerûn.~ ~Molto bene. <CHARNAME>, quando sarai pronta, parla con me e torneremo a Faerûn.~
+@245 = ~Tu sei... la Dama dell'Enclave...~
+@246 = ~Sì, cara. Io... ora posso vedere il risultato del tuo sacrificio.~
+@247 = ~Sacrificio? Vidomina, di cosa stai parlando?~
+@248 = ~Madre, cosa sta succedendo?~
+@249 = ~Andrà tutto bene, Fall. Mia Signora... usciamo da questo piano... p-per favore, portaci a Faerûn.~
+@250 = ~...~
+@251 = ~<CHARNAME>, siete pronti per tornare a casa?~
+@252 = ~Non ancora, Vidomina.~
+@253 = ~Sì, Vidomina. Andiamo via di qui il prima possibile.~
+@254 = ~Sbrigati, <CHARNAME>. Non so quanto tempo possa resistere ancora Gemystara.~
+@255 = ~Wee Jas, guida la mia mano. È il momento di abbandonare l'Abisso...~
+@256 = ~Credo che una parte di te lo sappia, Gemystara.~
+@257 = ~Il tuo cuore è caldo, piccola. Ma il ciclo della vita include la morte. Dalla perdita otteniamo saggezza e dalla saggezza la luce necessaria per combattere la paura. Ora presta attenzione! Qualcuno a voi noto si sta avvicinando...~
+@258 = ~Sì... Lo so.~
+@259 = ~Mamma, cosa sta succedendo? Dove siamo?~
+@260 = ~Tir na Og... siamo nella Foresta Profonda, il Regno di Silvanus.~
+@261 = ~Ora comprendo la sensazione di nostalgia nel mio cuore. Come siamo arrivati qui?~
+@262 = ~Ho usato gran parte del mio potere per portarci qui. Piccola Fall, tua madre sta morendo.~
+@263 = ~No... non è possibile. Mamma, ti abbiamo salvata... abbiamo sconfitto Morgrath. Non siamo più nell'Abisso... come? Perché?~
+@264 = ~Ho usato quasi tutta la mia forza vitale per scacciare Morgrath... per riportarla nell'Oscurità dove appartiene.~
+@265 = ~Figlia... mi dispiace.~
+@266 = ~Portarla fuori da questo piano significherà la sua morte, Fall. Per questo Tir na Og mi è sembrato il luogo più indicato per portare la selu'taar che ha permesso la nostra fuga dall'Abisso.~
+@267 = ~No... No! Non posso accettarlo... abbiamo fatto troppa strada perché tutto finisca così. Mamma...~
+@268 = ~È il minimo che potessi fare, piccola Fall. Andiamo, è tempo di andare ad Athkatla.~
+@269 = ~Finalmente siamo arrivati ad Athkatla.~
+@270 = ~<CHARNAME>, mi dispiace di non poter essere di grande aiuto nella tua lotta contro colui che opprime le terre elfiche.~
+
+@271 = ~Non preoccuparti, Vidomina. Il fatto che ci hai portati qui è più che sufficiente. Ho accresciuto il mio potere grazie all'esperienza ottenuta nel mio viaggio abissale.~
+@272 = ~Peccato, Vidomina. Non mi dispiacerebbe avere il tuo aiuto nella lotta contro Irenicus.~
+@273 = ~Detto ciò, caro, potrebbe darsi che alcuni degli amici che abbiamo forgiato a Rachnidra e Dreach-naga abbiano qualcosa da dirti. Ho portato tutte le creature viventi che non sono state né vittime né alleate delle ragnatele. Inoltre, i miei figli e io resteremo ancora un po', quindi se hai bisogno di qualcosa, non devi fare altro che parlarci.~
+@274 = ~<CHARNAME>, è un piacere vedere che sei arrivato sano e salvo qui.~ ~<CHARNAME>, è un piacere vedere che sei arrivata sana e salva qui.~
+@275 = ~Mia Dama, grazie per tutto quello che hai fatto. Anche se... mi dispiace che madre non sia riuscita a salvarsi.~
+@276 = ~Tuttavia, la tristezza non mi sopraffà. Ho questo sentimento nel petto, una nostalgia. Mi sento speranzosa per il futuro.~
+@277 = ~Fall, sei cresciuta enormemente. Sento che anch'io lo sono. Non è facile fare amici nell'Abisso, ma voi fate parte di ciò che è prezioso per me.~
+@278 = ~Greyhawk, casa mia, è lontana. Faerûn sarà la mia casa finché non troverò il modo di tornare. I miei figli mi accompagneranno, se lo desiderano, naturalmente.~
+@279 = ~Caro Phillipe, ti ho resuscitato e portato ad Athkatla. Morgraht e Skel'Tharant sono stati sconfitti e persino tu hai avuto un ruolo in questo. Inoltre, sei parte della mia famiglia. Resuscitarti mi è sembrato un premio adeguato ai tuoi sforzi.~
+@280 = ~Chi è l'incantatrice di Evereska?~
+@281 = ~Una mortale che ha attraversato il velo dell'Abisso in cerca della Regina Ragno. Poco dopo il suo arrivo, le ragnatele sono scomparse da Rachnidra. Potrebbe essere lei la soluzione alla Legione invisibile. L'ultima volta che se ne è saputo, era entrata nella Tana della Regina.~
+@282 = ~Purtroppo, l'elfa selu'taar che ha contribuito alla distruzione di Morgrath non è sopravvissuta.~
+@283 = ~Gemystara, era il suo nome, ha usato gran parte del suo potere e della sua energia vitale per esiliare Morgrath da quel piano abissale.~
+@284 = ~Ho lasciato il suo spirito nei boschi di Tir na Og, sotto il manto divino del Padre Quercia. Ella potrà finalmente riposare in pace.~
+
+@285 = ~È stato opera mia. Tempo fa sono riuscita a contattare Mystra. Alendir, eri un selu'taar potente, caduto in disgrazia agli occhi della Dama dei Misteri. Tuttavia, i tuoi sforzi hanno impedito un'invasione di questi piani, sia da parte di Icelock che di Morgrath. Ho potuto utilizzare parte del potere del mio Enclave, e con l'aiuto della tua Signora, sei tornato in vita.~
+@286 = ~<CHARNAME>.~
+@287 = ~Cosa?~
+@288 = ~E io che c'entro in questo?~
+@289 = ~Alendir, <CHARNAME> è stato direttamente coinvolto nei tuoi ultimi atti. Senza il suo intervento, non avresti affrontato Icelock. Questo è ciò che ha portato Mystra a permettere la tua rinascita nel Piano Materiale.~
+
+@290 = ~Fall... non vedo Fall...~
+@291 = ~Mia figlia... è caduta in battaglia, mia Dama. Io... non ho potuto fare nulla al riguardo.~
+@292 = ~Non permettere che la tristezza inondi il tuo cuore. Non sempre la morte è la fine di tutte le cose.~
+@293 = ~Fall può essere riportata in vita da <CHARNAME> o proseguire il suo cammino nelle praterie del Padre Quercia.~
+@294 = ~Morgrath ha fallito nel suo piano. Quello che avete fatto qui è di grande importanza. Fall sarebbe orgogliosa, selu'taar Gemystara.~
+@295 = ~Capisco...~
+
+@310039  = ~Dreach-naga: Il cuore di Tisiphone
+
+Siamo arrivati all’Enclave di Vidomina, una liche strega di Wee Jas. Nonostante la sua natura di non-morto, né Vidomina né i suoi scagnozzi hanno mostrato ostilità verso di noi. Anzi, ci hanno fornito informazioni importanti su una guerra abissale tra due regni: Dreach-naga e Rachnidra. Apparentemente, questa guerra va avanti da anni con sanguinosi scontri tra rettili e ragni. Dobbiamo intervenire in questa guerra arrivando agli alloggi di Tisiphone, la Regina dei Rettili. Abbiamo bisogno del suo sangue o del suo cuore per accedere agli appartamenti di Morgrath. Vidomina ha detto che ragionare con la Medusa sarà impossibile, quindi ha consigliato di eliminarla e tornare all’Enclave.~
+
+@310043  = ~Phillipe: Una casa per il topo
+
+Ho parlato a Vidomina del desiderio di Phillipe di avere una nuova casa. Con mia sorpresa, anche lei aveva lo stesso desiderio, ma i suoi tentativi di avvicinarsi all’uomo-ratto erano falliti a causa della paura che questi aveva dei non-morti. Mi ha consegnato un talismano da dargli affinché possa entrare nell’Enclave. Ora devo andare al Rifugio con questo talismano e dare la buona notizia a Phillipe.~
+
+@310059  = ~Dreach-naga: Il Cuore di Tisiphone
+
+Finalmente siamo tornati all'Enclave di Vidomina con il Cuore di Tisiphone. Vidomina ci ha detto che potrà forgiare una Lanterna dalla sangue del Cuore della Medusa. Con essa potremo entrare nel Covile della Regina Ragno. Per ora, dovremo aspettare alcune ore finché la lich non completerà gli incantesimi. Dovremmo approfittare di questo tempo per commerciare e riposare.~
+
+@310060  = ~Dreach-naga: Il Cuore di Tisiphone
+
+Vidomina ha usato il Cuore di Tisiphone per forgiare la Lanterna di Dreach-naga. Useremo la sua luce per penetrare negli appartamenti della Regina Ragno e porre fine a questa guerra abissale.~
+
+@310061  = ~Skel'Tharant: Campione di Rachnidra
+
+Vidomina ci ha consigliato di eliminare il Campione di Rachnidra prima del nostro incontro finale con Morgrath. La lich crede che sconfiggere il mostro renderà il combattimento contro la Regina dei Ragni meno pericoloso, poiché lasciarlo in vita farà sì che, una volta arrivati al Covile di Morgrath, egli venga evocato come alleato nella battaglia. Vidomina ha creato una Fluorite magica che illuminerà il nostro cammino verso il Covile di Skel'Tharant, situato nelle grotte sud-occidentali dei Tunnel Aracnidi.~
+
+@310062  = ~Skel'Tharant: Campione di Rachnidra
+
+Vidomina ha commentato che conosce un metodo per indebolire Skel'Tharant durante il combattimento, ma per farlo avremmo bisogno dell'aiuto di Phillipe, l'uomo-ratto. Sono riuscito a convincerlo ad aiutarci, quindi Vidomina gli darà una sorta di olio magico che Phillipe ci consegnerà mentre siamo in mezzo al combattimento contro Skel'Tharant. Gli effetti dell'olio dovrebbero causare una grave ferita alla bestia, provocando danni irreparabili alle sue capacità rigenerative. Spero che Vidomina abbia ragione. E spero che Phillipe non ci deluda.~
+
+@310063  = ~Skel'Tharant: Campione di Rachnidra
+
+Skel'Tharant è stato sconfitto e Morgrath non potrà più contare sul suo aiuto nella battaglia finale.~
+
+@310068  = ~Rachnidra: le Fosse della Ragnatela Demoniaca
+
+Abbiamo combattuto contro Morgrath e i suoi scagnozzi nel suo Covile Abissale. La Regina Ragno sembrava stesse per riprendersi, ma Gemystara ha utilizzato gran parte del suo potere per scacciarla da questo strato abissale. Alla sua morte fisica, Vidomina è apparsa e sarebbe disposta a riportarci a Faerûn una volta che parliamo con lei.~
+
+@310069  = ~Rachnidra: le Fosse della Ragnatela Demoniaca
+
+Siamo finalmente tornati ad Athkatla, grazie all'ultima frazione di potere del nucleo dell'Enclave di Vidomina. Il portale per Rachnidra non funziona più e il risultato della nostra avventura è una vittoria contro Morgrath, la Regina dei Ragni.~

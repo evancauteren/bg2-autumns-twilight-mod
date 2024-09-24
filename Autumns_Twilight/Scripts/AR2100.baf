@@ -1,0 +1,44 @@
+IF
+Global("p_Dusk_Anthagar_Spawn","GLOBAL",0)
+Global("P_Dusk_FINAL_MISION_TRIGGER","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("p_antha2",[1316.3097],1)  
+SetGlobal("p_Dusk_Anthagar_Spawn","GLOBAL",1)
+Continue()
+END
+
+IF
+Global ("P_Dusk_Anthagar_Summon","GLOBAL",1)
+Global ("P_Dusk_Anthagar_SummonACT","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(2)
+ForceSpellPoint([1180.3088],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1238.3158],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1342.3176],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[1180.3088])
+CreateVisualEffect("SPDIMNDR",[1238.3158])
+CreateVisualEffect("SPDIMNDR",[1342.3176])
+Wait (2)
+CreateCreature("p_veneno",[1180.3088],4)  
+CreateCreature("p_muerte",[1238.3158],4)  
+CreateCreature("p_destru",[1342.3176],4)  
+SetGlobal ("P_Dusk_Anthagar_SummonACT","GLOBAL",1)
+Wait (2)
+EndCutSceneMode()
+Continue()
+END
+
+IF
+Global ("P_Dusk_Anthagar_Summon","GLOBAL",2)
+Global ("P_Dusk_Anthagar_CUT","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(3)
+SetGlobal ("P_Dusk_Anthagar_CUT","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END

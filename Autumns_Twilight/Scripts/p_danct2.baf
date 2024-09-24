@@ -1,0 +1,65 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@400416)
+END
+
+IF
+See("P_Dusk")
+Global("P_Dusk_Danctian2_TalkBegin","GLOBAL",0)
+THEN
+  RESPONSE #100
+  Wait (3)
+  SetGlobal("P_Dusk_Danctian2_TalkBegin","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+See("P_Dusk")
+Global("P_Dusk_AR1506_Danct2_SPAWN","GLOBAL",1)
+THEN
+  RESPONSE #100
+  Wait (1)
+  SetGlobal("P_Dusk_AR1506_Danct2_SPAWN","GLOBAL",2)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+See("P_Dusk")
+Global("P_Dusk_Danc_Multi","GLOBAL",1)
+Global("P_Dusk_Danctian2_TalkBegin2","GLOBAL",0)
+THEN
+  RESPONSE #100
+  Wait (5)
+  SetGlobal("P_Dusk_Danctian2_TalkBegin2","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+See("P_Dusk")
+Global("P_DUSK_PUKI_SUMMON_FM","GLOBAL",2)
+Global("P_Dusk_Danctian2_TalkBegin3","GLOBAL",0)
+THEN
+  RESPONSE #100
+  Wait (2)
+  SetGlobal("P_Dusk_Danctian2_TalkBegin3","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+Global("P_DuskDanctiFinalSpawn","GLOBAL",1)
+Global("P_Dusk_Danctian2_TalkBegin4","GLOBAL",0)
+THEN
+  RESPONSE #100
+  Wait (2)
+  SetGlobal("P_Dusk_Danctian2_TalkBegin4","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),1)
+END

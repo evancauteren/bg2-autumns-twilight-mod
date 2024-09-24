@@ -1,0 +1,69 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200175)
+END
+
+// VER LOS STRINGHEAD
+IF
+AreaCheck("P_F12B")
+Global("P_ChoccTalk1","GLOBAL",3)
+PartyHasItem("P_FTALI5")
+See(Player1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself, @200281)
+SetGlobal ("P_ChoccTalk1","GLOBAL",4)
+Continue()
+END
+
+IF
+AreaCheck("P_FA8B")
+Global ("P_ChoccTalk1","GLOBAL",5)
+Global ("P_MorgrathTalk3","GLOBAL",1)
+Global ("P_FallMorgrathHurt1","GLOBAL",0)
+CombatCounter(0)
+PartyHasItem("P_FTALI2")
+See(Player1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself, @200283)
+SetGlobal ("P_ChoccTalk1","GLOBAL",6)
+Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("P_FHasteCho","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("P_FHasteCho","LOCALS",1)
+    ForceSpell(Myself,WIZARD_IMPROVED_HASTE)
+END
+
+IF
+Global("P_ChoCTimer","GLOBAL",0)
+AreaCheck("P_FA16")
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_ChoFireTimer","GLOBAL",300)
+SetGlobal("P_ChoCTimer","GLOBAL",1)
+END
+
+IF
+RealGlobalTimerExpired("P_ChoFireTimer","GLOBAL")
+AreaCheck("P_FA16")
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_ChoFireTimer","GLOBAL",300)
+UseItem("p_fifirc",Myself)
+SetGlobal("P_ChoCTimer","GLOBAL",0)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END

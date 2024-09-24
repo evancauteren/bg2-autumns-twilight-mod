@@ -1,0 +1,129 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200278)
+END
+
+IF
+AreaCheck("P_FA8B")
+Global("P_LiphixTalk1","GLOBAL",0)
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF
+AreaCheck("P_F12B")
+Global("P_LiphixThief","GLOBAL",0)
+Global("P_FallMeso2ndEnc","GLOBAL",1)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait (2)
+CreateVisualEffectObject ("SPMIRROI",Myself)
+SmallWait (2)
+CreateVisualEffect ("SPMIRROI",[755.1874])
+JumpToPoint ([755.1874])
+Wait (3)
+CreateVisualEffect ("SPMIRROI",[755.1874])
+CreateVisualEffect ("SPMIRROI",[854.1651])
+JumpToPoint ([854.1651])
+TakePartyItem("P_FTALI1")
+DestroyItem("P_FTALI1")
+TakePartyItem("P_FTALI2")
+DestroyItem("P_FTALI2")
+TakePartyItem("P_FTALI3") 
+DestroyItem("P_FTALI3")  
+TakePartyItem("P_FTALI4")  
+DestroyItem("P_FTALI4") 
+TakePartyItem("P_FTALI5")
+DestroyItem("P_FTALI5") 
+Wait (3)
+SetGlobal("P_LiphixThief","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END
+
+// METER PARCHE PARA ELIMINAR OBJETOS SI EL PLAYER LOS TIRA AL SUELO EN EL BAF DEL AREA
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),7)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_TELEPORT_FIELD)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+	AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #10
+    ForceSpell(Player1,WIZARD_WEB)
+    ForceSpell(Player1,WIZARD_FIREBALL)
+  RESPONSE #10
+    ForceSpell(Player2,WIZARD_WEB)
+    ForceSpell(Player2,WIZARD_SUN_FIRE)
+  RESPONSE #10
+    ForceSpell(Player3,WIZARD_WEB)
+    ForceSpell(Player3,WIZARD_METEOR_SWARM)
+  RESPONSE #10
+    ForceSpell(Player4,WIZARD_WEB)
+    ForceSpell(Player4,WIZARD_FIRE_SHIELD_RED)
+  RESPONSE #10
+    ForceSpell(Player5,WIZARD_WEB)
+    ForceSpell(Player5,FIREDRAKE_DAMAGE)
+  RESPONSE #10
+    ForceSpell(Player6,WIZARD_WEB)
+    ForceSpell(Player6,WIZARD_DELAYED_BLAST_FIREBALL)
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #10
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_DELAYED_BLAST_FIREBALL)
+  RESPONSE #10
+    ForceSpell(SecondNearestEnemyOf(Myself),FIREDRAKE_DAMAGE)
+  RESPONSE #10
+    ForceSpell(ThirdNearestEnemyOf(Myself),WIZARD_FIRE_SHIELD_RED)
+  RESPONSE #10
+    ForceSpell(FourthNearestEnemyOf(Myself),WIZARD_METEOR_SWARM)
+  RESPONSE #10
+    ForceSpell(FifthNearestEnemyOf(Myself),WIZARD_SUN_FIRE)
+  RESPONSE #10
+    ForceSpell(SixthNearestEnemyOf(Myself),WIZARD_FIREBALL)
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  ActionListEmpty()
+  Global ("P_LiphixNearestDead1","GLOBAL",0)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  ActionListEmpty()
+  Global ("P_LiphixNearestDead1","GLOBAL",0)
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END

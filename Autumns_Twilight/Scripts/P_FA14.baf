@@ -1,0 +1,84 @@
+// SPAWN CHO
+IF
+Global("P_ChoAwake","GLOBAL",3)
+Global("P_AttackedCho","GLOBAL",0)
+Global("P_ChoSpawnPFA14","GLOBAL",0)
+!Exists("p_cho")
+!Dead("p_cho")
+THEN
+RESPONSE #100
+CreateCreature("p_choc",[548.307],S)
+SetGlobal("P_ChoSpawnPFA14","GLOBAL",1)
+END
+
+IF
+Global("P_ChoccDestroyPatchPFA14","GLOBAL",0)
+Exists("p_cho")
+OR(2)
+Global("P_ChoccStay","GLOBAL",1)
+Dead("p_cho")
+THEN
+RESPONSE #100
+ActionOverride("p_cho",DestroySelf())
+SetGlobal("P_ChoccDestroyPatchPFA14","GLOBAL",1)
+END
+
+// Spiders
+IF
+Global ("P_F14_SpawnEnemies","GLOBAL",0)
+THEN
+RESPONSE #100
+SmallWait (1)
+// CreateVisualEffect("SPCLOUD3",[954.316]) 
+Wait (1)
+CreateCreature("p_weavfr",[1459.2354],4)
+CreateCreature("p_weavcd",[1500.1960],4)
+CreateCreature("p_weavac",[428.1582],4)  
+CreateCreature("p_weavth",[537.997],4) 
+
+
+CreateCreature("SPIDSM02",[463.933],4)
+CreateCreature("p_spgi1",[563.931],4)  
+CreateCreature("p_sphu1",[568.1039],4)
+CreateCreature("p_etter1",[515.1119],4) 
+CreateCreature("p_spwr1",[548.1150],4) 
+CreateCreature("p_spph1",[628.1150],4)
+
+CreateCreature("SPIDSM02",[346.1639],4)
+CreateCreature("p_spgi1",[395.1625],4)  
+CreateCreature("p_sphu1",[506.1607],4)
+CreateCreature("p_etter1",[437.1579],4) 
+CreateCreature("p_spwr1",[374.1540],4) 
+CreateCreature("p_spph1",[338.1488],4)
+
+CreateCreature("SPIDSM02",[1247.1989],4)
+CreateCreature("p_spgi1",[1271.1955],4)  
+CreateCreature("p_sphu1",[1378.1925],4)
+CreateCreature("p_etter1",[1331.1983],4) 
+CreateCreature("p_spwr1",[1411.2003],4) 
+CreateCreature("p_spph1",[1446.1941],4)
+
+CreateCreature("SPIDSM02",[1569.2544],4)
+CreateCreature("p_spgi1",[1620.2519],4)  
+CreateCreature("p_sphu1",[1669.2474],4)
+CreateCreature("p_etter1",[1374.2439],4) 
+CreateCreature("p_spwr1",[1414.2364],4) 
+CreateCreature("p_spph1",[1481.2340],4)
+
+//centipedes
+CreateCreature("p_centip",[972.2475],N)
+CreateCreature("p_centip",[1008.2458],N)
+CreateCreature("p_centip",[1057.2450],S)
+CreateCreature("p_centip",[1110.2451],NE)
+CreateCreature("p_centip",[1109.2416],NW)
+CreateCreature("p_centip",[1074.2408],E)
+CreateCreature("p_centip",[1024.2406],W)
+CreateCreature("p_centip",[984.2419],N)
+CreateCreature("p_centip",[1050.2361],N)
+CreateCreature("p_centip",[1081.2357],N)
+CreateCreature("p_centip",[1089.2312],S)
+CreateCreature("p_centip",[1059.2300],N)
+
+SetGlobal("P_F14_SpawnEnemies","GLOBAL",1)
+Continue()
+END

@@ -1,0 +1,9 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId("p_michel")
+StartDialogueNoSet(Player1)
+EndCutSceneMode()
+
+END

@@ -1,0 +1,175 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200147)
+END
+
+IF
+AreaCheck("P_FA6B")
+Global("P_FallMeso3rdEnc","GLOBAL",0)
+Global("P_MesoTalk1","GLOBAL",0)
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(1)
+EndCutSceneMode()
+Continue()
+SetGlobal ("P_FallMeso3rdEnc","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF
+AreaCheck("P_F12B")
+Global("P_FallMeso2ndEnc","GLOBAL",0)
+Global("P_MesoTalk1","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(1)
+EndCutSceneMode()
+Continue()
+SetGlobal ("P_MesoTalk1","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF
+AreaCheck("P_F12B")
+Global("P_LiphixThief","GLOBAL",1)
+Global("P_MesoTalk1","GLOBAL",1)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(1)
+EndCutSceneMode()
+Continue()
+SetGlobal ("P_MesoTalk1","GLOBAL",2)
+StartDialogueNoSet(Player1)
+END
+
+IF
+AreaCheck("AR1514")
+//Global ("P_FallMission2","GLOBAL",8)
+Global ("P_FallMeso1stEnc","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(1)
+EndCutSceneMode()
+Continue()
+SetGlobal ("P_FallMeso1stEnc","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF
+  HPLT(Myself,21)
+  Global ("P_FallMesothelNearestDead1","GLOBAL",0)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(1)
+  ApplySpell(Myself,HEAL_NO_VISUAL)
+  SetGlobal ("P_FallMesothelNearestDead1","GLOBAL",1)
+  EndCutSceneMode()
+  Continue()
+  StartDialogueNoSet(Player1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),7)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_INSECT_PLAGUE)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_GREASE)
+	ForceSpell(NearestEnemyOf(Myself),PHASE_SPIDER_TELEPORT)
+	AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #10
+    ForceSpell(Player1,PHASE_SPIDER_TELEPORT)
+    ForceSpell(Player1,WIZARD_WEB)
+  RESPONSE #10
+    ForceSpell(Player2,PHASE_SPIDER_TELEPORT)
+    ForceSpell(Player2,WIZARD_WEB)
+  RESPONSE #10
+    ForceSpell(Player3,PHASE_SPIDER_TELEPORT)
+    ForceSpell(Player3,WIZARD_WEB)
+  RESPONSE #10
+    ForceSpell(Player4,PHASE_SPIDER_TELEPORT)
+    ForceSpell(Player4,WIZARD_WEB)
+  RESPONSE #10
+    ForceSpell(Player5,PHASE_SPIDER_TELEPORT)
+    ForceSpell(Player5,WIZARD_WEB)
+  RESPONSE #10
+    ForceSpell(Player6,PHASE_SPIDER_TELEPORT)
+    ForceSpell(Player6,WIZARD_WEB)
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #10
+    ForceSpell(NearestEnemyOf(Myself),PHASE_SPIDER_TELEPORT)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+
+  RESPONSE #10
+    ForceSpell(SecondNearestEnemyOf(Myself),PHASE_SPIDER_TELEPORT)
+    ForceSpell(SecondNearestEnemyOf(Myself),WIZARD_WEB)
+  RESPONSE #10
+    ForceSpell(ThirdNearestEnemyOf(Myself),PHASE_SPIDER_TELEPORT)
+    ForceSpell(ThirdNearestEnemyOf(Myself),WIZARD_WEB)
+  RESPONSE #10
+    ForceSpell(FourthNearestEnemyOf(Myself),PHASE_SPIDER_TELEPORT)
+    ForceSpell(FourthNearestEnemyOf(Myself),WIZARD_WEB)
+  RESPONSE #10
+    ForceSpell(FifthNearestEnemyOf(Myself),PHASE_SPIDER_TELEPORT)
+    ForceSpell(FifthNearestEnemyOf(Myself),WIZARD_WEB)
+  RESPONSE #10
+    ForceSpell(SixthNearestEnemyOf(Myself),PHASE_SPIDER_TELEPORT)
+    ForceSpell(SixthNearestEnemyOf(Myself),WIZARD_WEB)
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Global ("P_FallMesothelNearestDead1","GLOBAL",0)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  ActionListEmpty()
+  Global ("P_FallMesothelNearestDead1","GLOBAL",0)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  ActionListEmpty()
+  Global ("P_FallMesothelNearestDead1","GLOBAL",0)
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END

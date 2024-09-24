@@ -1,0 +1,141 @@
+//Cho Spawn
+IF
+Global("P_ChoAwake","GLOBAL",3)
+Global("P_AttackedCho","GLOBAL",0)
+Global("P_ChoSpawnP10B","GLOBAL",0)
+!Dead("p_cho")
+THEN
+RESPONSE #100
+CreateCreature("p_choc",[805.319],SW)
+SetGlobal("P_ChoSpawnP10B","GLOBAL",1)
+END
+
+IF
+Global("P_ChoccDestroyPatchPF10B","GLOBAL",0)
+Exists("p_cho")
+OR(2)
+Global("P_ChoccStay","GLOBAL",1)
+Dead("p_cho")
+THEN
+RESPONSE #100
+ActionOverride("p_cho",DestroySelf())
+SetGlobal("P_ChoccDestroyPatchPF10B","GLOBAL",1)
+END
+
+
+//Kankra Spawn
+IF
+Global("p_kankraF10BSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+// Arthrom
+Wait(2)
+CreateCreature("p_kankra",[492.539],NE)
+Continue()
+SetGlobal("p_kankraF10BSpawn","GLOBAL",1)
+END
+
+// Spiders
+IF
+Global ("P_M4F10B_SpawnEnemies","GLOBAL",0)
+OR(1)
+Allegiance ("p_kankra",ENEMY)
+THEN
+RESPONSE #100
+ActionOverride("p_kankra",DestroyItem("INVULNER"))
+ActionOverride("p_kankra",DestroyItem("IMMUNE10"))
+ActionOverride("p_kankra",DestroyItem("MINHP1"))
+SmallWait (1)
+CreateVisualEffect("SPCLOUD3",[490.679])
+CreateVisualEffect("SPCLOUD3",[305.365])
+CreateVisualEffect("SPCLOUD3",[824.574])  
+CreateVisualEffect("SPCLOUD3",[498.295])
+CreateVisualEffect("SPCLOUD3",[309.534]) 
+CreateVisualEffect("SPCLOUD3",[601.629])  
+CreateVisualEffect("SPCLOUD3",[719.635]) 
+CreateVisualEffect("SPCLOUD3",[473.300])
+//centipedes
+CreateVisualEffect("SPCLOUD3",[889.822])
+CreateVisualEffect("SPCLOUD3",[924.847])
+CreateVisualEffect("SPCLOUD3",[969.880])  
+CreateVisualEffect("SPCLOUD3",[1024.860])
+CreateVisualEffect("SPCLOUD3",[1061.828]) 
+CreateVisualEffect("SPCLOUD3",[1093.802])  
+CreateVisualEffect("SPCLOUD3",[1042.770]) 
+CreateVisualEffect("SPCLOUD3",[985.790])
+CreateVisualEffect("SPCLOUD3",[959.817]) 
+CreateVisualEffect("SPCLOUD3",[931.776])
+// CreateVisualEffect("SPCLOUD3",[954.316]) 
+Wait (1)
+CreateCreature("p_weavth",[490.679],4)
+CreateCreature("p_weavth",[305.365],4)
+CreateCreature("p_spgi1",[824.574],4)  
+CreateCreature("p_sphu1",[498.295],4)
+CreateCreature("p_etter1",[309.534],4) 
+CreateCreature("p_etter1",[601.629],4)  
+CreateCreature("p_spwr1",[719.635],4) 
+CreateCreature("p_spph1",[473.300],4)
+// Centipedes
+CreateCreature("p_centip",[889.822],4)
+CreateCreature("p_centip",[924.847],4)
+CreateCreature("p_centip",[969.880],4)  
+CreateCreature("p_centip",[1024.860],4)
+CreateCreature("p_centip",[1061.828],4) 
+CreateCreature("p_centip",[1093.802],4)  
+CreateCreature("p_centip",[1042.770],4) 
+CreateCreature("p_centip",[985.790],4)
+CreateCreature("p_centip",[959.817],4) 
+CreateCreature("p_centip",[931.776],4)
+SetGlobal("P_M4F10B_SpawnEnemies","GLOBAL",1)
+Continue()
+END
+
+// The Queen
+IF
+Global ("P_MorgrathSpawnPF10B","GLOBAL",0)
+PartyHasItem("P_FTALI3")
+CombatCounter(0)
+THEN
+RESPONSE #100
+Wait (1)
+StartCutSceneMode()
+ActionOverride(Player1,MoveToPoint([374.584]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player1,Face(NE))
+ActionOverride(Player2,MoveToPoint([459.624]))
+ActionOverride(Player2,Wait(1))
+ActionOverride(Player3,MoveToPoint([551.616]))
+ActionOverride(Player3,Wait(1))
+ActionOverride(Player4,MoveToPoint([624.569]))
+ActionOverride(Player4,Wait(1))
+ActionOverride(Player5,MoveToPoint([630.505]))
+ActionOverride(Player5,Wait(1))
+ActionOverride(Player6,MoveToPoint([551.448]))
+ActionOverride(Player6,Wait(1))
+ActionOverride("P_CHO",MoveToPoint([424.445]))
+ActionOverride("P_CHO",Wait(1))
+ActionOverride("P_CHO",Face(NE))
+Wait(4)
+ScreenShake([20.20],10)
+Wait(4)
+MoveViewPoint([492.539],INSTANT)
+CreateVisualEffect ("SPGENHLA",[492.539])
+PlaySound ("CAS_P06")
+ScreenShake([20.20],10)
+//ActionOverride(Player1,CreateItem("p_morrng",1,2,1))
+PlaySound ("CAS_P06")
+ActionOverride(Player1,UseItemPoint("p_morrng",[492.539],1))
+CreateVisualEffect ("SPGENHLA",[492.539])
+//ActionOverride(Player1,DestroyItem("p_morrng"))
+Wait(3)
+ActionOverride("P_MORGRA", Face(SW))
+ActionOverride(Player2, FaceObject("P_MORGRA"))
+ActionOverride(Player3, FaceObject("P_MORGRA"))
+ActionOverride(Player4, FaceObject("P_MORGRA"))
+ActionOverride(Player5, FaceObject("P_MORGRA"))
+ActionOverride(Player6, FaceObject("P_MORGRA"))
+Wait(3)
+SetGlobal("P_MorgrathSpawnPF10B","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END

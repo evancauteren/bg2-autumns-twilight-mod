@@ -1,0 +1,59 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200045)
+END
+
+IF
+  HitBy([ANYONE],FIRE)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,ICE_GOLEM_STEAM)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+
+IF
+AreaCheck("P_FAR3")
+Global("P_FallMission3","GLOBAL",5)
+THEN
+RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+IF
+Global ("P_FallM3_AlendirEnemy","GLOBAL",1)
+AreaCheck("P_FAR3")
+THEN
+RESPONSE #100
+  Enemy()
+END
+
+IF
+Global ("P_FallM3_AlendirAllied","GLOBAL",1)
+Global ("P_FallM3_AlendirVsIcelock","GLOBAL",0)
+AreaCheck("P_FAR3")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+ActionOverride("P_Alen2", AttackOneRound ("P_Iceloc"))
+Wait(1)
+AttackOneRound("P_ALEN2")
+//ActionOverride("P_Alen2", AttackOneRound ("P_Iceloc"))
+//AttackOneRound("P_ALEN2")
+SetGlobal ("P_FallM3_AlendirVsIcelock","GLOBAL",1)
+ActionOverride("P_Alen2", ChangeAnimationNoEffect("P_ALEN2B"))
+SmallWait (1)
+FaceObject(Player1)
+EndCutSceneMode()
+Continue()
+StartDialogueNoSet(Player1)
+END
+

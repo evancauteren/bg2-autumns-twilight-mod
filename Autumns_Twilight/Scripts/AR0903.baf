@@ -1,0 +1,39 @@
+IF
+Global("P_FalonSpawn2","GLOBAL",0)
+Global("P_DuskFalonObtieneNuevoHogar","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("p_falon",[741.1338],6)  
+SetGlobal("P_FalonSpawn2","GLOBAL",1)
+Continue()
+END
+
+IF
+Global("P_CufaTimaSpawn2","GLOBAL",0)
+Global("P_DuskFalonObtieneNuevoHogar","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("p_cufati",[1804.1607],6)  
+SetGlobal("P_CufaTimaSpawn2","GLOBAL",1)
+Continue()
+END
+
+IF
+Global("P_CocoSpawn2","GLOBAL",0)
+Global("P_DuskFalonObtieneNuevoHogar","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("p_coco",[360.1041],6)  
+SetGlobal("P_CocoSpawn2","GLOBAL",1)
+Continue()
+END
+
+IF
+Global("P_ZibenSpawn2","GLOBAL",0)
+Global ("P_DuskFalonObtieneNuevoHogar","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("p_ziben",[1668.366],6)  
+SetGlobal("P_ZibenSpawn2","GLOBAL",1)
+Continue()
+END

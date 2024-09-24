@@ -1,0 +1,104 @@
+IF
+Global("P_GormSpawn","GLOBAL",0)
+Global("P_Fall_Kitoch_Charname","GLOBAL",8)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+MoveViewPoint([499.328],INSTANT)
+CreateVisualEffect("SPCLOUD3",[495.280])
+//ForceSpellPoint([756.283],WIZARD_DIMENSION_DOOR)
+Wait(1)
+CreateCreature("p_gorm",[495.280],S)
+Wait(2)
+ActionOverride("p_gorm",FaceObject("P_KITOCH"))
+ActionOverride("P_KITOCH",FaceObject("p_gorm"))
+SetGlobal("P_GormSpawn","GLOBAL",1)
+Wait(1)
+EndCutSceneMode()
+Continue()
+END
+
+IF
+Global ("P_FallKQ_SpawnEnemies","GLOBAL",0)
+OR(2)
+Allegiance ("p_gorm",ENEMY)
+Global ("P_Fall_Kitoch_Charname","GLOBAL",10)
+THEN
+RESPONSE #100
+SmallWait (1)
+CreateVisualEffect("SPCLOUD3",[359.283])  
+CreateVisualEffect("SPCLOUD3",[623.283])  
+CreateVisualEffect("SPCLOUD3",[251.360])
+CreateVisualEffect("SPCLOUD3",[252.473]) 
+CreateVisualEffect("SPCLOUD3",[708.465])  
+CreateVisualEffect("SPCLOUD3",[755.350])  
+CreateVisualEffect("SPCLOUD3",[847.412])
+CreateVisualEffect("SPCLOUD3",[132.412]) 
+CreateVisualEffect("SPCLOUD3",[626.576])
+CreateVisualEffect("SPCLOUD3",[379.584]) 
+CreateVisualEffect("SPCLOUD3",[94.427])
+CreateVisualEffect("SPCLOUD3",[868.431]) 
+CreateVisualEffect("SPCLOUD3",[722.295])
+CreateVisualEffect("SPCLOUD3",[278.315]) 
+Wait (1)
+CreateCreature("CARRIO",[359.283],4)  
+CreateCreature("CARRIO",[623.283],4)  
+CreateCreature("CARRIO",[251.360],4)
+CreateCreature("CARRIO",[252.473],4) 
+CreateCreature("CARRIO",[708.465],4)  
+CreateCreature("CARRIO",[755.350],4)  
+CreateCreature("CARRIO",[847.412],4)
+CreateCreature("CARRIO",[132.412],4) 
+CreateCreature("CARRIO",[626.576],4)
+CreateCreature("CARRIO",[379.584],4) 
+CreateCreature("CARRIO",[94.427],4)
+CreateCreature("CARRIO",[868.431],4) 
+CreateCreature("CARRIO",[722.295],4)
+CreateCreature("CARRIO",[278.315],4) 
+SetGlobal("P_FallKQ_SpawnEnemies","GLOBAL",1)
+Continue()
+END
+
+
+IF
+  Global("P_FallAboutGormsDeath_KitAlive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal("P_FallAboutGormsDeath_KitAlive","GLOBAL",3)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+	Wait(1)
+	ActionOverride(Player1,LeaveAreaLUA("AR1900","",[292.434],N))
+    ActionOverride(Player2,LeaveAreaLUA("AR1900","",[188.436],N))
+    ActionOverride(Player3,LeaveAreaLUA("AR1900","",[182.461],N))
+    ActionOverride(Player4,LeaveAreaLUA("AR1900","",[150.468],N))
+    ActionOverride(Player5,LeaveAreaLUA("AR1900","",[150.495],N))
+    ActionOverride(Player6,LeaveAreaLUA("AR1900","",[103.497],N))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END
+
+IF
+Global("P_GormIsDead","GLOBAL",0)
+OR (2)
+Dead ("P_GORM")
+PartyHasItem ("P_HGORMU")
+THEN
+  RESPONSE #100
+	SetGlobal("P_GormIsDead","GLOBAL",1)
+END

@@ -1,0 +1,196 @@
+// Epílogos para Dusk
+
+
+// DUSK - Epílogo 1 -> Neutral Dusk - Mercader
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Dusk")
+Global("P_Dusk_IS_NEUTRAL_TOB","GLOBAL",1)
+Global("P_Dusk_NEUTRAL_CORMYR_KNIGHT","GLOBAL",0)
+Global("P_DuskBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskBio","GLOBAL",1)
+TextScreen("P_Dus01")
+SmallWait(1)
+Continue()
+END
+
+// DUSK - Epílogo 2 -> Neutral Dusk - Dragon Purple Knight
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Dusk")
+Global("P_Dusk_IS_NEUTRAL_TOB","GLOBAL",1)
+Global("P_Dusk_NEUTRAL_CORMYR_KNIGHT","GLOBAL",1)
+Global("P_DuskBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskBio","GLOBAL",1)
+TextScreen("P_Dus02")
+SmallWait(1)
+Continue()
+END
+
+// DUSK - Epílogo 3 -> Good Dusk - Mielikki's Church
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Dusk")
+Global("P_Dusk_IS_GOOD_TOB","GLOBAL",1)
+Global("P_Dusk_GOOD_BELLFAME","GLOBAL",0)
+Global("P_Dusk_GOOD_ALABARZA_DEATH","GLOBAL",0)
+Global("P_DuskBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskBio","GLOBAL",1)
+TextScreen("P_Dus03")
+SmallWait(1)
+Continue()
+END
+
+// DUSK - Epílogo 4 -> Good Dusk - Alabarza's Death
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Dusk")
+Global("P_Dusk_IS_GOOD_TOB","GLOBAL",1)
+Global("P_Dusk_GOOD_BELLFAME","GLOBAL",0)
+Global("P_Dusk_GOOD_ALABARZA_DEATH","GLOBAL",1)
+Global("P_DuskBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskBio","GLOBAL",1)
+TextScreen("P_Dus04")
+SmallWait(1)
+Continue()
+END
+
+// DUSK - Epílogo 5 -> Good Dusk - Bellfame's War
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Dusk")
+Global("P_Dusk_IS_GOOD_TOB","GLOBAL",1)
+Global("P_Dusk_GOOD_BELLFAME","GLOBAL",1)
+Global("P_Dusk_GOOD_ALABARZA_DEATH","GLOBAL",0)
+Global("P_DuskBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskBio","GLOBAL",1)
+TextScreen("P_Dus05")
+SmallWait(1)
+Continue()
+END
+
+// DUSK - Epílogo 6 -> Evil Dusk - Sothillis's Hunter
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Dusk")
+Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)
+Global("P_Dusk_EVIL_REDEMPTION","GLOBAL",0)
+Global("P_DuskBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskBio","GLOBAL",1)
+TextScreen("P_Dus06")
+SmallWait(1)
+Continue()
+END
+
+// DUSK - Epílogo 7 -> Evil Dusk - Dusk Redemption
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Dusk")
+Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)
+Global("P_Dusk_EVIL_REDEMPTION","GLOBAL",1)
+Global("P_DuskBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskBio","GLOBAL",1)
+TextScreen("P_Dus07")
+SmallWait(1)
+Continue()
+END
+
+
+// FALL - Epílogo 1 -> Basic Ending (Unfinished Questline and Refuse Talk in ToB)
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Fall")
+Global("P_Fall_JOURNEY_TO_EVERESKA","GLOBAL",0)
+Global("P_FallBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_FallBio","GLOBAL",1)
+TextScreen("P_Fal01")
+SmallWait(1)
+Continue()
+END
+
+// FALL - Epílogo 2 -> Canon Ending (Finished Questline and Talk in ToB)
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Fall")
+Global("P_Fall_JOURNEY_TO_EVERESKA","GLOBAL",1)
+Global("P_FallBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_FallBio","GLOBAL",1)
+TextScreen("P_Fal02")
+SmallWait(1)
+Continue()
+END
+
+// CHON - Epílogo 1 -> Basic Ending (Unfinished Questline and Refuse Talk in ToB)
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Chon")
+Global("P_ChonFINDING_HIS_DESTINY","GLOBAL",0)
+Global("P_ChonBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_ChonBio","GLOBAL",1)
+TextScreen("P_Cho01")
+SmallWait(1)
+Continue()
+END
+
+// CHON - Epílogo 2 -> Canon Ending (OK Talk in ToB)
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Chon")
+Global("P_ChonFINDING_HIS_DESTINY","GLOBAL",1)
+Global("P_ChonBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_ChonBio","GLOBAL",1)
+TextScreen("P_Cho02")
+SmallWait(1)
+Continue()
+END
+
+// ALEN - Epílogo 1 -> Basic Ending (Unfinished Questline and Refuse Talk in ToB)
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Alen")
+Global("P_AlenFINDING_HIS_DESTINY","GLOBAL",0)
+Global("P_AlenBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_AlenBio","GLOBAL",1)
+TextScreen("P_Ale01")
+SmallWait(1)
+Continue()
+END
+
+// ALEN - Epílogo 1 -> Canon Ending (OK Talk in ToB)
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Alen")
+Global("P_AlenFINDING_HIS_DESTINY","GLOBAL",1)
+Global("P_AlenBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_AlenBio","GLOBAL",1)
+TextScreen("P_Ale02")
+SmallWait(1)
+Continue()
+END
+

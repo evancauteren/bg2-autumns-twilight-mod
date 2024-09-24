@@ -1,0 +1,26 @@
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_Dusk_Celine_TalkBegin","GLOBAL",0)
+Global("P_DUSK_IS_GOOD","GLOBAL",1)
+THEN
+  RESPONSE #100
+	PlaySong (2227)
+	//PlaySound ("P_DuskY")
+	SetGlobal("P_Dusk_Celine_TalkBegin","GLOBAL",1)
+	StartDialogueNoSet(Player1)
+END
+
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_Dusk_Celine_TalkBegin","GLOBAL",0)
+Global("P_DUSK_IS_EVIL","GLOBAL",1)
+THEN
+  RESPONSE #100
+	PlaySong (2226)
+	//PlaySound ("P_DuskX")
+	SetGlobal("P_Dusk_Celine_TalkBegin","GLOBAL",1)
+	StartDialogueNoSet(Player1)
+END

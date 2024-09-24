@@ -1,0 +1,65 @@
+IF
+Global("P_TamikaF6Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_TAMIKA",[896.755],SW)
+SetGlobal("P_TamikaF6Spawn","GLOBAL",1)
+END
+
+IF
+Global("P_XsiF6Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_XSI",[853.327],NW)
+SetGlobal("P_XsiF6Spawn","GLOBAL",1)
+END
+
+IF
+Global("P_NimbusSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_NIMBUS",[243.778],E)
+SetGlobal("P_NimbusSpawn","GLOBAL",1)
+END
+
+IF
+Global("P_SpectresSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("p_fugua1",[915.330],E)
+CreateCreature("p_fugua2",[862.367],W)
+CreateCreature("p_fugua1",[804.364],N)
+CreateCreature("p_fugua2",[771.336],S)
+
+CreateCreature("p_fugua1",[916.721],E)
+CreateCreature("p_fugua2",[839.771],W)
+CreateCreature("p_fugua1",[851.729],S)
+CreateCreature("p_fugua2",[792.738],N)
+
+CreateCreature("p_fugua1",[306.797],E)
+CreateCreature("p_fugua2",[299.748],W)
+CreateCreature("p_fugua1",[263.731],S)
+CreateCreature("p_fugua2",[207.753],N)
+SetGlobal("P_SpectresSpawn","GLOBAL",1)
+END
+
+// Creación del Talismán del Muerto Viviente
+IF
+  Global ("P_UndeadTalismanCreated","GLOBAL",0)
+  PartyHasItem("p_fragm1")
+  PartyHasItem("p_fragm2")
+  PartyHasItem("p_fragm3")
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(1)
+  TakePartyItem("p_fragm1")
+  TakePartyItem("p_fragm2")
+  TakePartyItem("p_fragm3")
+  ActionOverride(Player1, CreateItem ("P_FTALI1",1,2,1))
+  SetGlobal ("P_UndeadTalismanCreated","GLOBAL",1)
+  ActionOverride(Player1, DisplayStringHead(Myself,@200132))
+  EndCutSceneMode()
+  Continue()
+END
+

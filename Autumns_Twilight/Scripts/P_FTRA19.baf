@@ -1,0 +1,44 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  PartyHasItem("P_FTALI3")  
+THEN
+  RESPONSE #100
+    SaveGame(0)
+    DisplayString(Myself,@200136)  // ~La Piedra Guarda de Qyl'tar ahora permite el paso hacia la siguiente zona, iluminando tu camino.~
+    StartCutSceneMode()
+    //CreateVisualEffectObject("SPDIMNDR",Player1)
+    Wait(4)
+    FadeToColor([20.0],0)
+    Wait(1)
+    //PlaySound("PORTAL2")
+    Wait(2)
+    ActionOverride(Player1,LeaveAreaLUAPanic("P_FA8B","",[1506.567],SW))
+    ActionOverride(Player1,LeaveAreaLUA("P_FA8B","",[1506.567],SW))
+    ActionOverride(Player2,LeaveAreaLUA("P_FA8B","",[1545.589],SW))
+    ActionOverride(Player3,LeaveAreaLUA("P_FA8B","",[1596.617],SW))
+    ActionOverride(Player4,LeaveAreaLUA("P_FA8B","",[1617.564],SW))
+    ActionOverride(Player5,LeaveAreaLUA("P_FA8B","",[1565.547],SW))
+    ActionOverride(Player6,LeaveAreaLUA("P_FA8B","",[1514.531],SW))
+    MultiPlayerSync()
+    EndCutSceneMode()
+    FadeFromColor([20.0],0)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  !PartyHasItem("P_FTALI3")  
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@200134)  // ~La oscuridad de la cueva te abruma. Es imposible atravesarla. Tendrás que buscar la forma de continuar o buscar otro camino.~
+END
+
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,14702)  // ~Estáis demasiado lejos como para poder usarlo.~
+END
+

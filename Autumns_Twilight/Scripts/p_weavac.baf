@@ -1,0 +1,121 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200270)
+END
+
+/*
+IF
+AreaCheck("AR1514")
+Global ("P_FallMission2","GLOBAL",8)
+Global ("P_FallMeso1stEnc","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(1)
+EndCutSceneMode()
+Continue()
+SetGlobal ("P_FallMeso1stEnc","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+*/
+
+/*IF
+  HPLT(Myself,21)
+  Global ("P_WeaverFireNearestDead1","GLOBAL",0)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(1)
+  ApplySpell(Myself,HEAL_NO_VISUAL)
+  SetGlobal ("P_WeaverFireNearestDead1","GLOBAL",1)
+  EndCutSceneMode()
+  Continue()
+  StartDialogueNoSet(Player1)
+END
+*/
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),7)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),POISONOUS_CLOUD)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_CHAOS)
+	AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #10
+    ForceSpell(Player1,POISONOUS_CLOUD)
+    ForceSpell(Player1,WIZARD_CLOUDKILL)
+  RESPONSE #10
+    ForceSpell(Player2,POISONOUS_CLOUD)
+    ForceSpell(Player2,TRAP_ARROW_ACID)
+  RESPONSE #10
+    ForceSpell(Player3,POISONOUS_CLOUD)
+    ForceSpell(Player3,WIZARD_MELF_ACID_ARROW)
+  RESPONSE #10
+    ForceSpell(Player4,POISONOUS_CLOUD)
+    ForceSpell(Player4,MIMIC_ACID)
+  RESPONSE #10
+    ForceSpell(Player5,POISONOUS_CLOUD)
+    ForceSpell(Player5,BLACK_DRAGON_BREATH)
+  RESPONSE #10
+    ForceSpell(Player6,POISONOUS_CLOUD)
+    ForceSpell(Player6,SHADOW_DRAGON_SHADOWS)
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #10
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_CLOUDKILL)
+  RESPONSE #10
+    ForceSpell(SecondNearestEnemyOf(Myself),TRAP_ARROW_ACID)
+  RESPONSE #10
+    ForceSpell(ThirdNearestEnemyOf(Myself),WIZARD_MELF_ACID_ARROW)
+  RESPONSE #10
+    ForceSpell(FourthNearestEnemyOf(Myself),MIMIC_ACID)
+  RESPONSE #10
+    ForceSpell(FifthNearestEnemyOf(Myself),BLACK_DRAGON_BREATH)
+  RESPONSE #10
+    ForceSpell(SixthNearestEnemyOf(Myself),SHADOW_DRAGON_SHADOWS)
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+/*IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Global ("P_FallMesothelNearestDead1","GLOBAL",0)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+*/
+
+IF
+  ActionListEmpty()
+  Global ("P_WeaverAcidNearestDead1","GLOBAL",0)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  ActionListEmpty()
+  Global ("P_WeaverAcidNearestDead1","GLOBAL",0)
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END

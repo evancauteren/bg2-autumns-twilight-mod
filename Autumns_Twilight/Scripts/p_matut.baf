@@ -1,0 +1,81 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@400304)
+END
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_Dusk_Mathyus_Enc","LOCALS",0)
+!AreaCheck("AR2601")
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+// TestMusic
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_DuskDemoleMISSION","GLOBAL",1)
+!AreaCheck("AR2601")
+THEN
+RESPONSE #100
+Wait (3)
+PlaySong (2225)
+//PlaySound ("P_DuskT")
+StartDialogueNoSet(Player1)
+END
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_Dusk_Mathyus_Enc","LOCALS",1)
+Global("P_DuskMatMission1","GLOBAL",4)
+!AreaCheck("AR2601")
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_DuskMatMission2","GLOBAL",2)
+Global("P_DemoleSpawn2","GLOBAL",1)
+!AreaCheck("AR2601")
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_DuskMatMission3","GLOBAL",2)
+!AreaCheck("AR2601")
+THEN
+  RESPONSE #100
+  Wait (2)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+Global("P_DuskDemoleMISSION","GLOBAL",4)
+!AreaCheck("AR2601")
+THEN
+  RESPONSE #100
+  Wait (2)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+Global("P_CelineSpawn","GLOBAL",5)
+!AreaCheck("AR2601")
+THEN
+  RESPONSE #100
+  Wait (5)
+  StartDialogueNoSet(Player1)
+END

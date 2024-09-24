@@ -1,0 +1,45 @@
+IF
+Global("P_KalandaSpawn","GLOBAL",0)
+OR(2)
+Global("P_DUSK_IS_EVIL","GLOBAL",1)
+Global("P_DUSK_IS_GOOD","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("p_kalan2",[1797.455],4)  
+SetGlobal("P_KalandaSpawn","GLOBAL",1)
+Continue()
+END
+
+IF
+Global ("P_Dusk_Kalanda_Summon","GLOBAL",1)
+Global ("P_Dusk_Kalanda_SummonACT","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(2)
+ForceSpellPoint([1738.411],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1850.479],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[1738.411])
+CreateVisualEffect("SPDIMNDR",[1850.479])
+Wait (2)
+CreateCreature("p_mephit",[1738.411],4)  
+CreateCreature("p_worg",[1850.479],4)  
+SetGlobal ("P_Dusk_Kalanda_SummonACT","GLOBAL",1)
+Wait (2)
+EndCutSceneMode()
+Continue()
+END
+
+
+IF
+Global ("P_Dusk_Kalanda_Summon","GLOBAL",2)
+Global ("P_Dusk_Kalanda_CUT","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(3)
+SetGlobal ("P_Dusk_Kalanda_CUT","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END
+

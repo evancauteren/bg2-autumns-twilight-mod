@@ -1,0 +1,172 @@
+@0=~<CHARNAME>, at last we meet...~
+@1=~I am Morgrath, Queen of Rachnidra. My influence has begun to spread in Dreach-naga. This is just the precursor to what you will see in the Material Plane.~
+@2=~Morgrath... you were foolish to present yourself to me. Prepare to die!~
+@3=~Monster, what are you doing here? I have defeated many of your kind. It is only a matter of time before you are finally defeated.~
+@4=~You are as you are in my dreams. A being, like me, who has left a trail of corpses in their wake. We are not so different, <CHARNAME>.~
+@5=~I needed to see you. Few creatures have been able to oppose my dreams. You are one of them.~
+@6=~Yes, you have slain many of my sons and daughters. What kind of mother would I be if I did not care about them?~
+@7=~Those who have died by your hand will be revived in my Realm, which is eternal. But it pains me to see them destroyed.~
+@8=~Your strength will be my entertainment from now on, <CHARNAME>. Come, it's time for you to face me.~
+@9=~*her eyes seem lifeless*~
+@10=~Ah, I see you have arrived as well...~
+@11=~You... are Morgrath.~
+@12=~And you, Fall, are the daughter of the selu'taar. Your mother is in my chambers, did you know?~
+@13=~I-I know. Give her to me! If you do, I will consider not killing you.~
+@14=~You are just a whelp. Totally incapable of understanding the grand scheme. For eons I have awaited this moment.~
+@15=~That you are here, Fall, is only because I have allowed it.~
+@16=~Your mother discovered it. Then that Frostmaster. That's why they've tried so hard to prevent you from coming here.~
+@17=~But their influence does not compare to mine. That is why you are here. Because they have failed and I have ensured that my plans march flawless, like the fall of acidic rain upon the demonic webs of the Abyss.~
+@18=~<CHARNAME> and you are mere pawns and your souls hang by the thread of destiny that I have woven over millennia.~
+@19=~Neither <CHARNAME> nor I are pawns! We have achieved the impossible more times than I can remember. Many ancient beings have underestimated us and now they lie destroyed, their essence lost in time.~
+@20=~You are no different! You are just... a bit bigger than the rest. Another monster, an enemy of Nature, to be eradicated.~
+@21=~A similar speech to that of that human who fell so many years ago in Imnescar, right? Gerwulf, your father.~
+@22=~His spirit lies within you. Your mother's bravery lies within you. And the time when all of that extinguishes approaches.~
+@23=~That remains to be seen.~
+@24=~Enough talking with you, half-elf.~
+@25=~And you are wrong about my death... You are wrong, Morgrath! If I fall, I will not fall surrounded by enemies. If I fall, it will be fighting for my home!~
+@26=~Inspiring, General. I wish I did not have to kill you. I might leave you alive and take you as food for my champion, Skel'Tharant. He might enjoy devouring your flesh.~
+@27=~As for you, spawn of Bhaal.~
+@28=~Ah, let me deal with you another time. Now my interest is on this lizard-man. General Cho'Nuja, unlike my children, I must say I am not surprised to see you fighting alongside these Faerûn inhabitants.~
+@29=~You...~
+@30=~You wanted to meet me. Now you have. You will die alone, surrounded by the creatures that destroyed your home. But I know you know. I know a part of you feels it.~
+@31=~I...~
+@32=~But enough. Let me return my attention to <CHARNAME>.~
+@33=~No. You are mistaken. <CHARNAME> is not a bloodthirsty creature. It is not a creature thirsty for war. It is capable of forgiveness. It has done so with me.~
+@34=~Your reputation precedes you. But this is not my full power. You will notice how, with each of our encounters, my strength increases. We will meet again soon, <CHARNAME>. Very soon.~
+
+
+// 2nd Encounter
+@35=~Your cunning is unmatched, <CHARNAME>.~
+@36=~Would you like to be of my progeny? Under my yoke, you will never die.~
+@37=~And what am I supposed to do? Allow you to turn me into a drider? That will never happen.~
+@38=~I do not make deals with monsters. Especially not with someone as evil as you.~
+@39=~I think you are afraid. In your desperation, you seek an escape with me, because I know you know I can interfere with your plans.~
+@40=~I do not know fear, <CHARNAME>. And I do not know defeat.~
+@41=~It is a pity. Your refusal leaves me no choice but to fight you once again.~
+@42=~If only you had been born a spider...~
+@43=~That also goes for you, daughter of Gemystara. Would you not consider being my daughter? I could transform you into a drider. Your power would be that of a demigoddess. Together, we would conquer planes. Our enemies would be a feast we would enjoy in the Webs of Rachnidra.~
+@44=~I would rather die a thousand times than have anything to do with you, Morgrath.~
+@45=~Be careful what you wish for, little mortal. I occasionally grant wishes... I might grant yours.~
+@46=~Are you trying to recruit allies, Morgrath? You are afraid, aren't you? You know <CHARNAME> can get in your way. Yes. You know.~
+@47=~General, your audacity increases with each encounter. If only you had had that bravery before, perhaps Dreach-naga would not have been destroyed.~
+@48=~You will be punished for what you have done. Your time is coming.~
+@49=~You mean the time of my victory. And you speak of punishment? I am not your Queen, Cho'Nuja. I do not try to kill those who serve me because they have failed.~
+@50=~I am more merciful than Tisiphone. And I know you know that. Even if you do not want to admit it.~
+@51=~Loyal even in death. As I said before, General: Inspiring.~
+@52=~But enough. <CHARNAME> is who interests me.~
+@53=~But enough with you, female. <CHARNAME> is who interests me.~
+@54=~Very well. Your fighting ability rivals my best soldiers. I haven't had this much fun in centuries. We will meet again soon, <CHARNAME>.~
+@55=~Do not dare speak of my Queen, monster!~
+
+// 3rd Encounter
+@56=~This is becoming a habit, don't you think, <CHARNAME>?~
+@57=~What do you think of the statue my children have made of me? I think it was a good idea to diminish the hope of the lizardfolk. It has worked perfectly. I think they erred in its size. In that respect, it does not do me justice.~
+@58=~I think it is a horrible statue. It is a shame the lizardfolk did not manage to demolish it in time.~
+@59=~I do not care. You have come again to be defeated, haven't you? Come, it's time to bleed, Queen.~
+@60=~And yet it will be the beacon of my power in this layer of the Abyss. A symbol of the beginning of my Reign over the planes where my mighty web will extend.~
+@61=~Enough talk. It is time for our battle.~
+@62=~It will be a testament to your downfall, Morgrath. Perhaps no one will be able to bring it down... but there will be no one left to worship it. You will die. All of your kind will die.~
+@63=~You are the living testament to Dreach-naga, General Cho'Nuja. The last of your line. The proof of a dying nation. We will get to that. Wait and see.~
+@64=~A small victory for you, <CHARNAME>. Remember that it is not the one who wins many battles that is important... but the one who wins the war. Go to the Enclave. The end of the war is approaching...~
+
+
+// FINAL BATTLE
+// POSIBILIDAD 1 -> CHO/FALL/VID
+
+@65=~Finally... they have fallen into my web...~
+@66=~Fall and <CHARNAME>. It was only a matter of time before our final encounter occurred. Everything is going according to my plans.~
+@67=~Do you expect us to believe you wanted this? I have defeated you more than once. I know you know your end is near.~
+@68=~"According to your plans"? Explain yourself, Morgrath.~
+@69=~You are a fool if you think you have seen the full extent of my power, <CHARNAME>. Soon you will understand my words.~
+@70=~Dreach-naga no longer exists, and as a result, my power has increased significantly. Only the selu'taar sorceress was preventing my true emergence from this wasteland.~
+@71=~"True emergence"? What are you talking about? I defeated you in Dreach-naga. You didn't exactly seem trapped.~
+@72=~Although the selu'taar had me confined, I was able to project myself into Dreach-naga. All thanks to the assassination of Tisiphone. Something I could not have achieved without your involvement, of course.~
+@73=~In the absence of my children, the logical step was to destroy Dreach-naga. Something <CHARNAME> achieved with power and grace. None of this would have been possible without you.~
+@74=~No, I didn't know any of this, monster. I would never aid someone of your ilk.~
+@75=~You don't have to thank me, Morgrath, since soon your corpse will adorn your own Lair.~
+@76=~Your plan has amounted to nothing. If you die here, it will be the end of everything.~
+@77=~But you have done it. From the moment you stepped into Rachnidra, you became my puppet. But it is time to cut the strings. It is time to settle the score. As you mortals say: "It's time to reap what we have sown."~
+@78=~Your threats are inconsequential. It is time to settle the score. As you mortals say: "It's time to reap what we have sown."~
+@79=~The end will only be the beginning, <CHARNAME>. It is time to settle the score. As you mortals say: "It's time to reap what we have sown."~
+@80=~Are you ready?~
+@81=~My name is Legion... because we are many...~
+@82=~My hamster, <CHARNAME>, Fall, and I defend Nature! Evil monsters threatening to destroy all we love have no place for forgiveness. You, Queen of Spiders, I present to you my sword! Sword, I present to you the Queen of Spiders!~
+@83=~Quayle has taught me much about compassion, as well as the dogma of Baervan. But today we have no choice but to fight without quarter. No mercy for the demons that are enemies of life!~
+@84=~<CHARNAME>, Fall... We are facing one of the most important battles in these strange lands. For Torm, I will give my life if necessary to eradicate this evil!~
+@85=~I have lost Patrick to the coming of dark shadows. I will not allow it to happen again! Bravery and intelligence will be needed to triumph here, <CHARNAME>. Come, friends, it is time to fight!~
+@86=~Helm, grant me strength. Today our honor will not be tarnished! For all that is sacred, demon, today you will fall here.~
+@87=~The weak will not be prey for these creatures. I will not allow it! Everything within my power will be used to help in the victory.~
+@88=~You are an affront to Silvanus, Morgrath. Today, with the power Nature grants me, you will be banished. For the fallen!~
+@89=~Even in the deepest darkness of the Abyss, the light of a firefly can break through the blackness. We will be fireflies in the coming struggle, and your darkness, Morgrath, will be defeated!~
+@90=~You have exterminated many lineages, Morgrath. Well, here you have the last of the Corthala! Do you want to end another lineage? Come, come for me!~
+@91=~Even your existence is an affront to someone as despicable as Lolth. You are no different, "velkyn." Your shadows will not rival Shar's. Oloth plyn!~
+@92=~As interesting (and repugnant) as I found the spiders, it is time to deal with them. I have learned what I needed from them, and Edwin Odesseiron is ready to show his power (Yes, fire will do. Lots of fire).~
+@93=~It was high time for battle and blood! All this abyssal nonsense was testing my patience to the horns. Die!~
+@94=~All this could have been avoided if you had listened to my advice about spiders, a patented invention by Ma Jansen. You know, the Spectacular Jansen Anti-Spider Trumpet. It was imbued by Uncle Gerhart, and if you played the right notes, you could make the spiders flee like rats. Why didn't I bring it, you ask? Well, Ma Jansen does not lend her things, not since the time I "borrowed" her cooking utensils to make a turnip juice potion for reducing the bumps on my knuckles. It was worth it, but now I see the consequences of my actions.~
+@95=~Our steps echo like the bravery facing the terror of the ancient spider. Come, my raven, together we will forge a melody of hope and light in this abyssal shadow.~
+@96=~Do you think Winthrop would believe we are about to fight an ancient evil in a psychedelic Lair in the Abyss? I wouldn't believe it either, <CHARNAME>. I hope to tell our dear Puffguts about this someday.~
+@97=~My experience dealing with these kinds of enemies is not lacking. It is time to show this filth what a Black Guard can do.~
+@98=~My fist will represent the light of the sun in this sinister place. Selûne, guide my hand!~
+@99=~My wild magic will wreak havoc here! *whisper* Did that sound threatening? Do you notice the spider legs trembling in fear? Well, it doesn't matter. I guess we'll find out soon.~
+
+
+
+@100=~Spider blood is something I would only use to throw into a dump. Come, insects, I will show you what I am capable of.~
+@101=~(GROWL) *shows its claws and moves its legs violently, firmly positioning itself on the ground, ready to charge at its enemies*~
+@102=~Commanders, we are the last survivors of Dreach-naga. Let the glory of our nation be embedded in this battle! Honor and death!~
+@103=~Honor and death! For the Marshes. For Rask'tar Krathiss.~
+@104=~Qyl'tar, fight carefully. Don't leave your back exposed!~
+@105=~Does little Vreshnak want to give advice to the great Qyl'tar? Don't worry. I can take care of my back and yours as well.~
+@106=~Qyl'tar should worry about Kankra. Kankra knows that Qyl'tar is smart enough to think of it.~
+@107=~Ah, good Kankra. Perhaps our paths will cross in this battle. It will be a pleasure to fight with the smartest enemy in Rachnidra!~
+@108=~Is Kankra smart? It's a joke, isn't it?~
+@109=~I think they're serious, Liphix. Anyway, don't worry about them. Focus on me. This time you won't escape my sword.~
+@110=~It will be a pleasure, Vreshnak. This time there is no place to run. As my mother said: Life or death, there are no other alternatives.~
+@111=~Very well, brothers. It is time to represent Wee Jas in this battle.~
+@112=~Brothers? You're going to make my heart beat again, dear Tamika.~
+@113=~Enough with the sentimentality. Xsi will show what he is capable of. We will teach these enemies how to embrace death properly.~
+@114=~Mother, we will not disappoint you.~
+@115=~From the moment their feet touched this sacred land, their bodies and souls were put at the mercy of the Judgment of the Mother of Darkness. Morgrath, the Legion that cannot be seen, condemns you to death. You have been blessed with great honor. Embrace it.~
+@116=~You will pay for this, demon.~
+@117=~Don't make me laugh, General. If you want a culprit, you have one by your side.~ ~Don't make me laugh, General. If you want a culprit, you have one by your side.~
+@118=~I will not fall into your traps. You will not make me turn against <CHARNAME>. My commanders and I are here to battle.~
+@119=~To die in battle, you mean.~
+@120=~That remains to be seen, vermin.~
+@121=~Captain, don't waste energy fighting my brother. If you want to fight someone, it will be me.~
+@122=~Arthrom... today will be the last time you are reborn.~
+@123=~The odds are against you. Rachnidra will prevail.~
+@124=~Be that as it may, you are here. The selu'taar is running out of energy... and the essence of the demigod will give me enough power to break this captivity and thus take over this entire abyssal layer.~ ~Be that as it may, you are here. The selu'taar is running out of energy... and the essence of the demigoddess will give me enough power to break this captivity and thus take over this entire abyssal layer.~
+@125=~The first thing I will do is destroy the Witch's Enclave. The lich's impertinence has reached the limit of my patience. Her bones will adorn the ruins of Dreach-naga while the shadow of my Shyntquarra spreads throughout this nation.~
+@126=~It won't be so easy, Morgrath. We are here to battle in the name of our lady, Vidomina.~
+@127=~You spiders are so hideous. Ending your ugliness is a duty we have in the name of all that is beautiful.~
+@128=~When I arrived here, you arachnids made me flee like a rat. Now here I am with powerful allies. Death gives revenge.~
+@129=~So the Witch has sent her children to die. Interesting. My children will take care of you, you will see.~
+
+
+
+@130=~You won't succeed, Morgrath. We have come a long way, and we will not die here. Your evil ends here and now!~
+@131=~Little one, I have heard that speech so many times from pompous adventurers, and let me tell you that all of them have ended up in the jaws of my children.~
+@132=~Morgrath... let my daughter go. This... is between you and me.~
+@133=~Mother, no!~
+@134=~Selu'taar, your plan has failed miserably. The only creature you were truly trying to protect has come to my web. You will witness her body being torn apart, piece by piece. The sorrow that will overwhelm you will be so great that madness will be a welcome gift.~
+@135=~Plan? Mother, what is she talking about?~
+@136=~I... I...~
+@137=~I cannot harm your mother, girl. She has cast a powerful spell that prevents me from reaching her while binding me to this lair. As long as the selu'taar is alive, neither she nor I can leave this place, so we are bound to the Abyss.~
+@138=~But her plan has a flaw... and that is that the selu'taar is a mortal. The passage of time will only weaken her power. Perhaps destroying Dreach-naga could circumvent this Confinement spell. And indeed, that is happening.~
+@139=~The Frostmaster, the other selu'taar, discovered my plans. I suppose his attempt to prevent them from reaching Rachnidra failed and only helped increase my power.~
+@140=~I knew you would get here. It was a matter of time. My son, Mesothel, has been informing me of <CHARNAME>'s progress across Faerûn.~
+@141=~That's why I decided to withdraw my children from the Abyss, hiding them in the shadows. I knew that the Enclave Witch would help them, as her desire to escape the Abyss was also used to my advantage.~
+@142=~Morgrath!~
+@143=~Life or death, there are no other alternatives.~
+@144=~Mother, don't worry: I will save you. Morgrath! The time of your downfall has come. In the name of Imnescar and Father Oak. In the name of the fallen explorers. In the name of my father, Gerwulf! Your wicked existence ends here. To battle!~
+@145=~No, selu'taar. I cannot be destroyed. I cannot die. I am eternal. <CHARNAME> does not have the arcane power to expel me from this abyssal layer.~
+@146=~<CHARNAME>. It was only a matter of time before our final encounter occurred. Everything is going according to my plans.~
+@147=~Kankra is ready to show Mother his love for her.~
+@148=~As my mother said: Life or death, there are no other alternatives.~
+@149=~The destruction of Dreach-naga was thanks to you, <CHARNAME>. It is because of you that I will reach the Material Plane... and the destruction of your kind will be inevitable.~
+@150=~The plan of this selu'taar has failed miserably.~
+@151=~She has cast a powerful spell that prevents me from reaching her while binding me to that lair. As long as the selu'taar is alive, neither she nor I can leave this place, so we are bound to the Abyss.~
+@152=~I knew you would get here. It was a matter of time. My son, Mesothel, has been informing me of <CHARNAME>'s progress across Faerûn.~
+
+@153 = ~We won't let you invade Faerûn, monster. It's time to fight! The enemy will show no mercy... and neither will we!~
+@154 = ~Vermin exist to be crushed. These might be a bit oversized... but their fate will be the same. It's time to spill some blood!~

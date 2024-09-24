@@ -1,0 +1,50 @@
+IF
+Global("P_ReptilesF12Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+//Cho'Nuja
+CreateCreature("P_CHO",[746.1878],NE)
+//Rask'tar Krathiss
+CreateCreature("P_RASK",[1515.1121],S)
+// Jaculis
+CreateCreature("p_fser1",[2116.1275],S)
+CreateCreature("p_fser1",[2146.1221],SE)
+CreateCreature("p_fser1",[2219.1228],SW)
+CreateCreature("p_fser1",[2291.1261],N)
+CreateCreature("p_fser1",[2243.1301],NE)
+CreateCreature("p_fser1",[2176.1280],NW)
+CreateCreature("p_fser1",[2607.1271],E)
+CreateCreature("p_fser1",[2693.1231],W)
+// Basiliscos
+CreateCreature("p_fbas1",[2507.589],S)
+CreateCreature("p_fbas1",[2258.603],SE)
+CreateCreature("p_fbas1",[2261.461],SW)
+CreateCreature("p_fbas1",[1235.458],N)
+CreateCreature("p_fbas1",[1451.519],NE)
+CreateCreature("p_fbas1",[401.1478],NW)
+// Boas
+CreateCreature("p_fboa1",[834.992],S)
+CreateCreature("p_fboa1",[902.972],SE)
+CreateCreature("p_fboa1",[828.887],SW)
+CreateCreature("p_fboa1",[914.833],N)
+CreateCreature("p_fboa1",[994.818],NE)
+CreateCreature("p_fboa1",[947.879],NW)
+// Varios
+CreateCreature("p_fyuac1",[2022.839],S)
+CreateCreature("p_fyuac2",[1477.465],SE)
+CreateCreature("p_flizc1",[838.1292],SW)
+CreateCreature("p_flizc2",[1441.1601],N)
+CreateCreature("p_flizc3",[1034.1720],NE)
+CreateCreature("p_flizc1",[1997.805],NW)
+SetGlobal("P_ReptilesF12Spawn","GLOBAL",1)
+END
+
+IF
+Dead("P_RASK")
+Global("P_IsRaskDead","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride ("P_RASK", DestroySelf())
+SetGlobal("P_IsRaskDead","GLOBAL",1)
+Continue()
+END

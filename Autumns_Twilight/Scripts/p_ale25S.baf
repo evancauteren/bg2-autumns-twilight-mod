@@ -1,0 +1,164 @@
+// Hotkey configurable
+IF
+HotKey(K)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+StartCutScene("P_AlenF")
+END
+
+IF
+Global("P_Alen_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+Wait (6)
+SetGlobal("P_Alen_UpdateK","GLOBAL",0)
+END
+
+// Alen talks immediately when summoned.
+IF
+Global("P_AlenSummoned","GLOBAL",1)
+Global("P_AlenSummoned1stTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_AlenSummoned1stTalk","GLOBAL",1)
+StartDialogueNoSet([PC])
+Wait(1)
+END
+
+
+IF
+  InParty(Myself)
+  Global("P_AlenEstablishingPartyIN","GLOBAL",0)
+THEN
+  RESPONSE #100
+	SetGlobal("P_AlenEstablishingPartyIN","GLOBAL",1)
+END
+
+
+// ToB Conversations - Timer
+IF 
+InParty(Myself)
+Global("P_AlenTalkToB","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_AlenTimerToB","GLOBAL",60) //2000
+SetGlobal("P_AlenTalkToB","GLOBAL",1)
+END
+
+
+// ToB Conversations - Timer Expirado
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_AlenTimerToB","GLOBAL")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("P_AlenTalkToB","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_AlenTalkToB","GLOBAL",1)
+END
+
+// Inicio conversations y music
+IF
+InParty(Myself)
+!AreaType(DUNGEON)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+OR(2)
+Global("P_AlenTalkToB","GLOBAL",2)
+Global("P_AlenTalkToB","GLOBAL",4)
+THEN
+RESPONSE #100
+PlaySong(4444)
+//PlaySound("P_AlenN")
+StartDialogueNoSet(Player1)
+END
+
+// ToB Conversations - Timer 2
+IF 
+InParty(Myself)
+Global("P_AlenTalkToB","GLOBAL",3)
+Global("P_AlenTalkToB_Timer2","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_AlenTimerToB","GLOBAL",60) //3600
+SetGlobal("P_AlenTalkToB_Timer2","GLOBAL",1)
+END
+
+
+// ToB Conversations - Timer Expirado
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_AlenTimerToB","GLOBAL")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("P_AlenTalkToB_Timer2","GLOBAL",1)
+Global("P_AlenTalkToB","GLOBAL",3)
+THEN
+RESPONSE #100
+IncrementGlobal("P_AlenTalkToB","GLOBAL",1)
+END
+
+
+
+// PARCHE EET
+IF
+  InParty(Myself)
+  Global("P_AlenEstablishingDLGJ","GLOBAL",0)
+THEN
+  RESPONSE #100
+    //Dialogue(Player1)
+    //ChangeAIScript("",DEFAULT)
+    SetDialog("P_ALE25J")
+	SetGlobal("P_AlenEstablishingDLGJ","GLOBAL",1)
+	SetGlobal("P_AlenEstablishingDLGP","GLOBAL",0)
+END
+
+IF
+  !InParty(Myself)
+  Global("P_AlenEstablishingPartyIN","GLOBAL",1)
+  Global("P_AlenEstablishingDLGP","GLOBAL",0)
+THEN
+  RESPONSE #100
+    //Dialogue(Player1)
+    //ChangeAIScript("",DEFAULT)
+    SetDialog("P_Alen25")
+	SetGlobal("P_AlenEstablishingDLGP","GLOBAL",1)
+	SetGlobal("P_AlenEstablishingDLGJ","GLOBAL",0)
+END
+
+
+// FURIA por muerte de Fall
+IF
+  InParty("P_Fall") 
+  !Dead("P_Fall")
+  Global("P_AlenFuryP_Fall","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_AlenFuryP_Fall","GLOBAL",0)
+END
+
+IF
+  IfValidForPartyDialogue(Myself)
+  Global("P_AlenFuryP_Fall","GLOBAL",0)
+  Dead("P_Fall")
+  Global("P_AlenP_Fall1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_AlenFuryP_Fall","GLOBAL",1)
+    DisplayStringHead(Myself,@700042)
+	ReallyForceSpellRES("P_SW05",LastAttackerOf("P_Fall"))
+	ReallyForceSpellRES("P_SW04",LastAttackerOf("P_Fall"))
+	ReallyForceSpellRES("P_SW06",LastAttackerOf("P_Fall"))
+	//Attack(LastAttackerOf("P_Fall"))
+END

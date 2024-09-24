@@ -1,0 +1,781 @@
+@0    = ~C'era una volta una balestriera esperta.
+Suo padre cadde al confine della sua casa
+quando un mostro a otto zampe attaccò senza pietà.
+Lei prese il suo retaggio e i suoi dardi letali
+volano come il veleno dei suoi rivali fatali.
+Ora deve terminare ciò che i suoi nemici hanno iniziato,
+e portare la sua famiglia alla pace che hanno sempre cercato.~
+@1    = ~C-c-come... come sai questo? Gnomo! Parla...~
+@2    = ~Salve, mia signora. Sono la Madame Nin, e sono qui per assicurarmi che la tua compagnia sia piacevole. Sei interessata?~
+@3    = ~Compagnia? Di cosa stai parlando, signora? M-meglio, allontanati da me.~
+@4    = ~Allora... desideri compagnia per questa notte?~
+@5    = ~Ti ho già detto di no!~
+@6    = ~Fall, la Signora delle Bestie. Il tuo viaggio ha significato una crescita personale e sei pronta al tuo fianco.~
+@7    = ~Fall, questa non è la tua battaglia. Puoi restare qui se lo desideri.~
+@8    = ~Abbiamo passato molto, Fall. Puoi tornare nei boschi se lo desideri.~
+@9    = ~Sei pronta a seguirci? Ti ho bisogno al mio fianco per vincere.~
+@10   = ~Non avrei mai creduto di vedere le cose che ho visto durante il nostro viaggio insieme, <CHARNAME>. È il momento di recuperare la tua anima. Andiamo a prendere Irenicus!~
+@12   = ~Sento... un po' di pena per lo gnomo. Le derisioni che ha ricevuto hanno scatenato tutta questa follia... Ma... il suo comportamento non giustifica tutto ciò.~
+@13   = ~Ha uno spirito combattivo. Mi piace. Credo che sarebbe una buona compagna.~
+@14   = ~Dobbiamo fare qualcosa, <CHARNAME>! Quello che sta succedendo qui è inconcepibile.~
+@15   = ~Abbiamo ancora del lavoro da fare. Non avrei mai pensato di avere l'opportunità di fare del bene in questo modo quando sono arrivato a Athkatla, <CHARNAME>. Sarà un onore combattere al tuo fianco.~
+@16   = ~Beh, spero che Hendak si occupi di fare in modo che qualcosa del genere non accada di nuovo.~
+@17   = ~Bastardo! Uccidere i bisognosi... per un... ¿crudele esperimento?~
+@18   = ~È ingiusto, <CHARNAME>. Dobbiamo fare qualcosa!~
+@20   = ~Sorride troppo per ispirare fiducia.~
+@21   = ~Definitivamente questo tizio è il ladro più sgradevole che abbia conosciuto.~
+@23   = ~Beh, correggimi se sbaglio, lady Fall, ma non mi sembra che tu abbia conosciuto molti.~
+@24   = ~Hm... buon punto, Yoshimo. Anche così, mantengo la mia posizione.~
+@25   = ~Dobbiamo continuare ad uccidere gente, per di più per questo maniaco? <CHARNAME>, la situazione sta peggiorando sempre di più.~
+@26   = ~Questo suonerà strano, ma non sentirai lamentele da parte mia nel dover uccidere quel mentecatto.~
+@27   = ~Non avevo mai sentito di accettare qualcosa senza sapere di cosa si tratta. Immagina se ti avessi detto qualcosa del genere quando ci siamo conosciuti, <CHARNAME>.~
+@28   = ~Tutto il suo essere emana la più impura antinaturalità. Non mi fido di lei. Anche se se decidi di seguirla, anche io lo farò.~
+@29   = ~Incontreremo uno dei capi di Athkatla? Wow, non avrei mai immaginato di arrivare a questo quando sono arrivato in città...~
+@30   = ~Faldorn deve cadere! Sono sicura che tu puoi sconfiggerla, Cernd.~
+@31   = ~Faldorn deve cadere! Sono sicura che tu puoi sconfiggerla, Jaheira.~
+@32   = ~Cosa intendi dire con questo? Non dirmi che è una direttiva per... togliersi gli occhi?~
+@33   = ~Abominio! Finalmente la giustizia ti ha raggiunto. Cadrai per i tuoi crimini!~
+@34   = ~Ho conosciuto elfi testardi... e vivono per secoli. Ma non ho mai visto una creatura così testarda come te!~
+@35   = ~Rejiek! Qui a Caravasar... È la nostra opportunità di finire ciò che non abbiamo potuto ad Athkatla.~
+@36   = ~È vero che la mia voce non è di esperienza, <CHARNAME>. Ma non credo che questi orchi siano i responsabili di quello che succede qui.~
+@37   = ~Mai... mai avrei creduto di essere così felice di fuggire da una battaglia. Non che sia codardo, <CHARNAME>. È solo che non siamo pronti per questo... confronto.~
+@38   = ~I tuoi crimini finiscono qui, malvagio drago! Come rappresentante di Imnescar, darò il massimo nella battaglia.~
+@39   = ~Per essere un capo ladro, ha molto di politico. È difficile che mantenga una promessa.~
+@41   = ~Sei accerchiata e ti permetti di insultarci. Sei a un passo dall'essere distrutta, vampira!~
+@42   = ~C-c-cosa? Io-Yoshimo? Non può essere vero... No...~
+@43   = ~Se Bodhi farà questo, è perché ha una miriade di trappole preparate per noi. Potrei spararle da qui! Ma... non so se funzionerebbe...~
+@44   = ~Avere l'alleanza degli stregoni torturati è stata la decisione giusta, <CHARNAME>. Così avremo una possibilità di sconfiggere Irenicus.~
+@45   = ~Ancora stai cercando di ingannarci? Lasciami inviare Daren a mordere il suo posteriore, <CHARNAME>, per favore.~
+@46   = ~È saggio fidarsi della parola di questo re pazzo? È molto probabile che dimentichi che ci conosce e cerchi di mangiarci!~
+@48  = ~Per i vigneti di Imnescar! <CHARNAME>, tale tradimento è imperdonabile... No... non riesco a concepirlo... I nostri sentieri arrivano fino a qui! Spero di non vederti mai più...~
+@49  = ~*inghiotte* Esistono creature così belle nell'Underdark? Splendido...~
+@50  = ~*brontolio* Ero più che a posto con il mio aspetto. Ma capisco che dobbiamo sopportare questo per un bene più grande.~
+@51  = ~*sospiro* Questa tortura sembra non avere fine...~
+@52  = ~Siamo sempre più vicini a sconfiggere quella demoniaca una volta per tutte, <CHARNAME>. Avanziamo con cautela.~
+@47  = ~Ah! Sei stato superato in numero e in... ¿Q-qué?~
+@53  = ~Questo è perfetto... sono morto e sono andato all'inferno? Così male ho fatto le cose in vita? Oh, aspetta... mi sembra che sia opera tua, <CHARNAME>.~
+@54  = ~La battaglia finale è arrivata, Irenicus. Abbiamo viaggiato instancabilmente per arrivare a questo momento. E dovrai restituire ciò che hai sottratto a <CHARNAME>! Preparati. Per Imnescar!~
+@55  = ~Il tuo amore per la tua famiglia è incondizionato, giovane semielfa. Ma attenzione, un'ombra misteriosa, minacciosa e oscura, vi circonda tutti. Il tuo amore può essere la tua rovina e sta a te decidere se rischiare la tua anima per esso.~
+@56  = ~Se c'è qualcosa per cui vale la pena morire, mia dama, è per amore. Accetterò il mio destino, qualunque esso sia.~
+
+
+// T1
+
+@129  = ~Quindi, <CHARNAME>, quanto sei coinvolto nell'incidente al Passo?~
+@130  = ~Non credo sia stato un caso che tutto sia esploso e che tu sia comparso così, senza alcun segno di preoccupazione.~
+@131  = ~In effetti, il mago responsabile è il mio nemico, Fall. Quel maledetto ha rapito la mia amica d'infanzia, Imoen.~
+@132  = ~In realtà, è stato un caso, Fall. Non ho nulla a che fare con quanto successo al Passo.~
+@133  = ~Fall, non è il momento di parlare.~
+@134  = ~Non sei un <PRO_RACE> molto loquace, vero?~ ~Non sei una <PRO_RACE> molto loquace, vero?~
+@135  = ~Va bene. Non vi disturberò (per ora).~
+@136  = ~Hm. Lasciami pensare...~
+@137  = ~Ho già pensato! E qualcosa mi dice che non sei del tutto sincero con me, eh?~ ~Ho già pensato! E qualcosa mi dice che non sei del tutto sincera con me, eh?~
+@138  = ~Va bene, Fall. Ve lo dirò: il mago responsabile è il mio nemico. Ha rapito la mia amica Imoen e per questo lo sto cacciando.~
+@139  = ~Potrebbe essere che non sia dell'umore per parlare, non credi?~
+@140  = ~La tua amica, eh? Capisco. Questo è motivo più che sufficiente per dargli la caccia.~
+@141  = ~Puoi star sicuro che farò tutto ciò che posso per aiutarti.~
+@142  = ~E tu? Sei un po' lontano da Imnescar.~
+@143  = ~Grazie, Fall. È meglio che continuiamo il nostro viaggio.~
+@144  = ~Questo... è vero.~
+@145  = ~È passato un tempo prudente e sento di potermi fidare di te.~
+@146  = ~Credo di avertelo già detto, ma mia madre è una potente strega.~
+@147  = ~È una selu'taar, una alta elfa di Evereska... anche se ha lasciato la sua casa molto tempo fa.~
+@148  = ~Evereska? Vuoi che creda che le tue origini risalgano al Regno Nascosto?~
+@149  = ~Questo spiegherebbe l'origine artigianale della tua tunica.~
+@150  = ~Beh, tutti veniamo da qualche parte, non credi?~
+@151  = ~Sì e no. Mia madre ha appreso molto del suo arte nella città elfica, ma ha confezionato la tunica nella nostra vera casa.~
+@152  = ~Ricorda che io sono nata a Imnescar, un piccolo villaggio a sud-ovest di Amn.~
+@153  = ~Siamo famosi per la nostra agricoltura, sai? Arance, mele, pere, limoni.~
+@154  = ~Sono sicura che ti piacerebbe una torta fatta con le nostre fragole.~
+@155  = ~Imnescar è bellissima... era bellissima.~
+@156  = ~Era? Cosa intendi dire, Fall?~
+@157  = ~Alcuni anni fa, un esercito di bestie ci ha invasi. È stata una strage.~
+@158  = ~Ragni. Ragni giganti, ragni spada, ragni fase. Venivano a dozzine e dozzine. Le loro ragnatele hanno coperto i raccolti e gran parte del bosco è andata perduta.~
+@159  = ~La magia di mia madre sembrava... sembrava essere contrastata da qualche forza soprannaturale.~
+@160  = ~Saremmo morti se non fosse stato per mio padre.~
+@161  = ~Era un grande guerriero di Crimmor. Cresciuto nei boschi come arciere esploratore. Il suo nome era Gerwulf.~
+@162  = ~Quando i ragni hanno iniziato ad attaccare, lui e un gruppo di esploratori ci hanno difeso. Ma... alla fine... sono caduti avvelenati dagli aracnidi.~
+@163  = ~Da allora, mia madre ed io abbiamo vagato per Amn per un po'.~
+@164  = ~Basta dire che... mia madre è scomparsa, <CHARNAME>.~
+@165  = ~Una mattina mi sono svegliata e lei non c'era. Non aveva lasciato alcuna traccia.~
+@166  = ~Cosa ti fa pensare che sia scomparsa? Potrebbe semplicemente essersi stancata di te.~
+@167  = ~Hai detto che tua madre è una potente strega. Potrebbe essere scomparsa volontariamente.~
+@168  = ~Non è divertente, <CHARNAME>.~
+@169  = ~Sì, ma non credo sia così, <CHARNAME>.~
+@170  = ~No, sono sicura che sia successo qualcosa di brutto.~
+@171  = ~Non mi fermerò finché non scoprirò la verità... *sospiro* Basta per oggi, mio <LADYLORD>. È meglio che continuiamo.~
+@172  = ~<CHARNAME>! Vuoi sentire delle mie avventure nella Foresta di Tethyr?~
+@173  = ~Va bene, Fall. Raccontami dei tuoi viaggi in Tethyr.~
+@174  = ~È successo dopo la tua fuga da Imnescar? Sì, mi interessa.~
+@175  = ~È necessario? Abbiamo questioni da sistemare.~
+@176  = ~Hmpf! Bene. Ma è ora che tu conosca Alendir, <CHARNAME>.~
+@177  = ~Mi ha detto di incontrarlo dopo qualche giorno. Beh, sono passati giorni e credo che tu abbia guadagnato la mia fiducia per presentarti a lui.~
+@178  = ~Come ti ho detto, mia madre è scomparsa e lui sta facendo tutto il possibile per scoprire dove si trova. Lo troveremo al piano superiore della locanda delle Cinque Brocche, nel Distretto del Ponte.~
+
+@179  = ~Così è, <CHARNAME>.~
+@180  = ~Dopo l'attacco degli ragni, mia madre ed io fuggimmo verso i boschi di Tethyr.~
+@181  = ~Qualunque cosa abbia bloccato la magia di mia madre, ora non esiste più. Grazie al Padre Quercia per questo, visto che ci sono molti pericoli nella boscaglia.~
+
+@182  = ~Koboldi, licantropi, orchi, troll. Molti mostri abitano nelle ombre delle foglie e molti li abbiamo combattuti mia madre ed io.~
+@183  = ~*schiarimento della gola* Beh, la verità è che gran parte del lavoro è stato fatto da mia madre. Solo qualche anno dopo ho ripreso il mio addestramento con la balestra.~
+@184  = ~Attraversammo i boschi settentrionali fino a raggiungere Brost. La Villa dei Funghi, sai?~
+@185  = ~Il nome non è molto sbagliato. Hanno una grande varietà di funghi e champignon. Anche pesche. Molto deliziose.~
+@186  = ~Guarda l'orario, Fall. *sbadiglio falso* Credo sia ora di riposarsi un po', non credi?~
+@187  = ~Tu e tua madre foste ben accolte a Brost?~
+@188  = ~Sì! Nella Villa dei Funghi, ciò che conta di più è il commercio. (Questo, e i funghi, ovviamente) Vedrai, lì convivono umani, halfling, mezzelfi.~
+@189  = ~Inoltre, rendono omaggio a Mielikki e a Silvanus. Il druido locale ci ha accolto molto bene.~
+@190  = ~Acrull Scudonordico è il leader del culto di Silvanus in quella regione. È un potente chierico umano e guida diversi druidi ed esploratori.~
+@191  = ~Conoscemmo anche un mago umano di Calimshan chiamato Hakamir ibn Alix.~
+@192  = ~Una delle prime cose che fece mia madre fu trattare il problema di Imnescar in privato con loro.~
+@193  = ~Questi umani non erano gente comune, <CHARNAME>. Tuttavia, né il chierico né il mago riuscirono a svelare il mistero dell'attacco al mio paese natale.~
+@194  = ~Il tempo passò e non fu fino all'arrivo di Alendir... E parlando di Alendir... sarà meglio che lui stesso ti racconti il resto della storia.~
+@195  = ~Finalmente potrò conoscere questo tale Alendir, Fall?~
+
+@196  = ~<CHARNAME>, ti ho mai parlato di come ho conosciuto Daren e Sinna?~
+@197  = ~Non credo, Fall. Come li hai conosciuti?~
+@198  = ~No, Fall. Anche se non abbiamo molto tempo. Abbiamo questioni in sospeso da affrontare.~
+@199  = ~Capisco... Suppongo che sarà per un'altra volta, vero? È meglio che continuiamo con questi affari.~
+@200  = ~I boschi di Imnescar ospitano molti animali, ma una delle razze più numerose è quella dei lupi.~
+@201  = ~È passato molto tempo da quando gli esploratori sono riusciti a creare un legame con i lupini.~
+@202  = ~Mia madre, addirittura, riuscì a creare un legame con il piano astrale dove poté ospitare alcune anime di animali per proteggerle per tutta l'eternità.~
+@203  = ~Ti riferisci alle convocazioni? Dici che alcune creature del nostro mondo ora vivono nel piano Astrale, è così?~
+@204  = ~La verità è che non ti seguo, Fall. Potresti spiegarti meglio?~
+@205  = ~È molto interessante. Pensi che potremmo continuare questa chiacchierata in un altro momento? Abbiamo questioni da trattare.~
+@206  = ~Ci sono incantesimi che permettono al lanciador di viaggiare tra i piani. L'Astrale tra essi.~
+@207  = ~Ovviamente, è molto pericoloso. Se non fai attenzione, puoi rimanere bloccato lì per sempre!~
+@208  = ~Bene, non voglio divagare. Ti stavo parlando di Daren e Sinna.~
+@209  = ~Quando ero una bambina, Padre li salvò da una banda di cacciatori quando erano appena dei cuccioli di lupo. 
+Evidentemente, divennero miei amici.~
+@210  = ~I tre siamo cresciuti a Imnescar e prima o poi, i cuccioli di lupo divennero i potenti lupi che conosci.~
+@211  = ~Mia madre mostrò un grande interesse e lanciava costantemente incantesimi di protezione su di loro.~
+@212  = ~...~
+@213  = ~Che succede, Fall? Sei rimasta in silenzio all'improvviso.~
+@214  = ~Accidenti, finalmente sei rimasta senza parole, eh?~
+@215  = ~Mi dispiace, <CHARNAME>. È solo che... in questa parte arriva l'attacco al mio villaggio.~
+@216  = ~Gli ragni...~
+@217  = ~Daren e Sinna furono i primi a notare la presenza degli aracnidi.~
+@218  = ~Si lanciarono nell'oscurità del bosco avvisando gli esploratori. Tuttavia, mio padre li chiamò immediatamente.~
+@219  = ~Sapeva che i ragni possedevano un veleno mortale e che i miei lupi sarebbero caduti in pochi secondi.~
+@220  = ~Non mi preoccupai in quel momento perché sapevo che mia madre avrebbe semplicemente lanciato un incantesimo di protezione contro il veleno.~
+@221  = ~Ma... come ti ho detto prima... la sua magia non funzionava.~
+@222  = ~E allora, cosa è successo ai lupi? Voglio dire, posso vedere che stanno bene.~
+@223  = ~Molto interessante, Fall. Ma è tardi. È meglio che rimandiamo a un altro giorno. Ci sono affari da sbrigare.~
+@224  = ~Mio padre chiamò i lupi per proteggermi. Obbedirono.~
+@225  = ~Tuttavia, gli ragni erano numerosi.~
+@226  = ~Uno a uno, gli esploratori caddero. Un ragno gigante si scagliò su di me, ma prima che mi attaccasse con i suoi artigli, Daren lo distrusse con le sue zanne.~
+@227  = ~Cercai mia madre e fuggimmo. Il cammino era libero, ma dalle ombre emerse un ragno fase pronto ad attaccarci.~
+@228  = ~Sinna, come un lampo, abbatté il ragno con la sua mandibola fulminante.~
+@229  = ~Il resto della storia... preferisco dettagliarla un'altra volta, se lo desideri, ovviamente.~
+@230  = ~Andiamo... continuiamo il nostro viaggio.~
+
+// spell 1_1
+
+@231  = ~Scusa se interrompo il nostro viaggio, <CHARNAME>, ma credo di aver fatto dei progressi nei miei studi sulla gemma di Voragor.~
+@232  = ~La gemma di chi?~
+@233  = ~Studii? Pensavo che il tuo unico interesse fosse mangiare bacche e frutta.~
+@234  = ~Eccellente! Raccontami dei tuoi progressi.~
+@235  = ~Voragor! Non te lo ricordi? Il basilisco antico che abbiamo incontrato nelle caverne di Umar.~
+@236  = ~Ehi! Potrei mangiare molto... ma mi nutro in modo sano!~
+@237  = ~*schiarisce la voce* Come dicevo, ho fatto progressi nelle mie ricerche sulla gemma.~
+@238  = ~Il druido che l’ha infusa aveva una grande conoscenza del Piano Astrale e credo di poter approfondire ulteriormente.~
+@239  = ~Ricordi che ti ho parlato di Daren e Sinna che combattevano ragni a Imnescar? Ebbene... entrambi sono stati avvelenati durante la lotta.~
+@240  = ~Mia madre e io ce ne siamo accorte quando siamo state abbastanza lontane da casa.~
+@241  = ~Eravamo alla frontiera dei Dientecilli quando Sinna ha iniziato a rallentare. Pensammo fosse stanchezza...~
+@242  = ~Ma poco dopo, anche Daren ha seguito il suo esempio.~
+@243  = ~Eravamo ancora troppo sconvolte per tutto quello che avevamo passato. Così tanto che ci siamo accorte appena che i lupi stavano morendo...~
+@244  = ~Avevo perso mio padre... avevo perso la mia casa... e ora stavo perdendo i miei amici.~
+@245  = ~Ho abbracciato disperatamente entrambi mentre piangevo a dirotto... quando all’improvviso iniziai a percepire un’aura potente.~
+@246  = ~Mia madre era entrata in trance: in concentrazione assoluta stava evocando un grande portale.~
+@247  = ~"La mia piccola Caraneth" disse, "prendi la mia mano mentre abbracci ancora i tuoi fratelli del bosco." Sorpresa, obbedii.~
+@248  = ~In quel momento, tutto divenne grigio e argentato. Sentii l’odore della pioggia riempirmi i polmoni.~
+@249  = ~La percezione del tempo mi era sconosciuta; sentivo che erano passati mesi. Quando aprii gli occhi e tornai al terreno arido delle montagne, capii che erano passati solo pochi secondi.~
+@250  = ~Allora... mi accorsi che Daren e Sinna erano scomparsi.~
+@251  = ~Mia madre comprese la mia preoccupazione e prima che potessi dire una parola mi disse: "Non devi temere, mia bambina. Daren e Sinna ora fanno parte del Piano Astrale."~
+@252  = ~"Là, il veleno che hanno contratto nel Piano Primordiale non avrà più effetto su di loro. Col tempo, guariranno anche le ferite che hanno subito qui."~
+@253  = ~"Non invecchieranno, né soffriranno la fame." Ancora... ricordo le sue parole con nostalgia e considerazione.~
+@254  = ~*tossisce* Bene, credo che sia sufficiente per oggi. Ricorda la mia storia, <CHARNAME>! Spero che la prossima volta che parleremo di questo, il mistero della gemma sarà risolto.~
+
+
+// spell 1_2
+
+@255  = ~<CHARNAME>! Per Silvanus... Ce l'ho fatta, ce l'ho fatta!~
+@256  = ~Fall! Di cosa stai parlando?~
+@257  = ~Donna, mi hai quasi fatto morire dal spavento!~
+@258  = ~Oh, mi dispiace, <CHARNAME>. Non volevo gridare così forte.~
+@259  = ~Sono riuscita a imparare dalla gemma del basilisco.~
+@260  = ~Per farti capire a cosa mi riferisco, devo raccontarti come ho imparato a riportare Daren e Sinna dal Piano Astrale.~
+@261  = ~Molto bene, ti ascolto.~
+@262  = ~È necessario? Non sono dell'umore giusto per storie.~
+@263  = ~Hmpf! Sempre così cortese... Va bene, te lo perdi...~
+@264  = ~Come ti ho già narrato, Daren e Sinna si trovavano nel Piano Astrale, tutto grazie al potere di mia madre.~
+@265  = ~"Tu sei mia figlia. Il mio sangue. Puoi apprendere questo se ti impegni davvero. Il cammino non sarà facile."~
+@266  = ~Fu allora che nei mesi successivi mi insegnò alcuni rituali arcani. Mi disse che la mia affinità innata con la natura mi avrebbe dato la possibilità di comprendere e apprendere questo potere.~
+@267  = ~Daren e Sinna sono come miei fratelli. Fanno parte della mia famiglia e la mia connessione con loro servirebbe da ponte d’argento tra il Piano Astrale e il Piano Primordiale.~
+@268  = ~Per farti capire, <CHARNAME>, le mie abilità innate come Dama delle Bestie mi hanno permesso di apprendere questo e così ora posso chiamare Daren e Sinna per assistermi in questo mondo.~
+@269  = ~Capisco questo. Ma non capisco il legame tra tutto ciò che mi racconti e il basilisco.~
+@270  = ~Ti stai dilungando di nuovo, Fall. Vai dritta al punto.~
+@271  = ~Continua, per favore.~
+@272  = ~Oh, è vero. *si gratta la testa* Non so perché mi ci vuole tanto tempo per spiegare queste cose...~
+@273  = ~Quello che voglio dire è che posso evocare Voragor.~
+@274  = ~Puoi convocare il grande basilisco?~
+@275  = ~Cosa? Fall, come puoi essere sicura che quel rettile non tenterà di ucciderci non appena lo evocherai?~
+@276  = ~<CHARNAME>, non devi preoccuparti per questo. Lascia che ti spieghi.~
+@277  = ~Posso evocare e comandare Voragor a volontà. Tutto grazie alla gemma, che... che sta scomparendo mentre parliamo.~
+@278  = ~Vedi, la gemma era un possesso prezioso per Voragor e parte del suo amuleto. Grazie a questo, sono riuscita a stabilire una connessione mentale e spirituale con lui.~
+@279  = ~Fino a poco tempo fa, avevo deciso di portare Voragor nel Piano Astrale usando gli insegnamenti di mia madre.~
+@280  = ~Lo vedrai con i tuoi occhi, <CHARNAME>. Ora ho la capacità di evocare Voragor.~
+@281  = ~Quando lo evocherò, vedrai che può ancora comunicare con noi, poiché ha ancora con sé l'amuleto del druido.~
+@282  = ~Sono sicura che Voragor ci aiuterà molto nelle nostre ricerche. Lo vedrai.~
+
+//t4
+
+@283  = ~<CHARNAME>, ti piacerebbe sentire parlare di mio padre?~
+@284  = ~Sì, Fall. Mi piacerebbe ascoltare la sua storia.~
+@285  = ~Mi dispiace, Fall. Ma ora non abbiamo molto tempo.~
+@286  = ~Oh, capisco. Va bene, <CHARNAME>.~
+@287  = ~Mio padre è il mio eroe. Era un grande guerriero di Crimmor che servì la sua guardia quando era molto giovane.~
+@288  = ~Col passare del tempo, seguì il richiamo della natura e protese le foreste di Imnescar per anni.~
+@289  = ~Non so se l'ho detto, ma era un umano.~
+@290  = ~Capisco. Questo spiegherebbe l'origine del tuo lignaggio.~
+@291  = ~Come ha conosciuto tua madre? Mi risulta che sia un'elfa selu'taar di Evereska.~
+@292  = ~Esatto. Come vedrai, sono una mezzelfa. Ho ereditato il colore dei capelli da lui.~
+@293  = ~Conobbe mia madre molti anni fa, proprio nelle foreste di Imnescar.~
+@294  = ~Unirono le forze nella guerra contro i goblin dei Dientecilli. La balestra di mio padre e la magia di mia madre scacciarono i mostri nelle profondità delle montagne.~
+@295  = ~Il popolo di Imnescar, che presto sarebbe diventato la loro casa, esultò per i loro nomi. Erano molto amati.~
+@296  = ~È una storia bella, Fall.~
+@297  = ~Interessante. Oh, guarda quanto è tardi! È meglio che continuiamo il nostro viaggio, Fall.~
+@298  = ~Veramente. Quando ero bambina, tutti si aspettavano che seguisse le orme di mia madre. Sai, nell'arte di Mystra.~
+@299  = ~Ma la verità è che ammiravo troppo mio padre. Aveva un amore senza pari per la foresta e i suoi animali.~
+@300  = ~Spesso mi allontanavo dai miei doveri per seguirlo nei suoi allenamenti nei vallate.~
+@301  = ~Lui se ne accorgeva, ovviamente. Comprendendo presto che non sarebbe stato facile dissuadermi dai miei desideri, iniziò a insegnarmi il combattimento, il furtivo e la tracciatura.~
+@302  = ~Costruì la mia prima balestra leggera e ci allenammo nella precisione dei tiri per un numero incalcolabile di pomeriggi.~
+@303  = ~Mi istruisce anche nella dottrina del Padre Quercia, Silvanus. Mia madre non era molto convinta di questo, ma amava anche mio padre, quindi alla fine cedette.~
+@304  = ~Ricorderò sempre con affetto quei tempi.~
+@305  = ~Tuo padre sarebbe orgoglioso di te, Fall.~
+@306  = ~Hai finito finalmente? Per gli dei, pensavo non ti saresti mai zittita.~
+@307  = ~Grazie per le tue parole, <CHARNAME>. E grazie per avermi ascoltata.~
+@308  = ~<CHARNAME>! A volte... a volte puoi essere molto crudele...~
+@309  = ~Ben presto si innamorarono e formarono una famiglia.~
+
+@310  = ~<CHARNAME>, hai qualche minuto per parlare? Si tratta di Alendir.~
+@311  = ~Perché vorresti sprecare il tuo tempo parlando di quel vecchio amaro, Fall?~
+@312  = ~Alendir? Dimmi, Fall. C'è qualcosa che ti preoccupa?~
+@313  = ~Amaro? Sì, suppongo che sia una buona descrizione per lui.~
+@314  = ~La verità è che c'è qualcosa su di lui che mi infastidisce.~
+@315  = ~Hai sentito come ha parlato di mio padre? Eppure non ha lo stesso atteggiamento verso mia madre.~
+@316  = ~Penso che abbia a che fare con il fatto che entrambi provengono da Evereska. Entrambi sono alti elfi di Cormanthyr. Vedi, <CHARNAME>, non ci sono molti selu'taar al giorno d'oggi.~
+@317  = ~Forse è questa la ragione del suo atteggiamento aspro verso tutto ciò che non è legato al Regno Nascosto.~
+@318  = ~Probabilmente. Non gli darei troppa attenzione. Non credo ne valga la pena.~
+@319  = ~Sai qualcosa di più su di lui? Qualcosa che spieghi perché è così con gli altri.~
+@320  = ~Potrebbe non valere la pena, mio caro amico, ma non sono riuscita a smettere di pensare al nostro ultimo incontro.~
+@321  = ~Se c'è qualcosa che posso dirti su Alendir è questo.~
+@322  = ~Come ho già detto, lui e mia madre provengono da Evereska. Per molti anni hanno mantenuto una grande amicizia.~
+@323  = ~Qualche decennio fa, Alendir si ossessionò con un incantesimo arcano di caratteristiche epiche.~
+@324  = ~Alcuni saggi, tra cui mia madre, gli consigliarono di non proseguire con il processo poiché poteva comportare risultati funesti.~
+@325  = ~Non conosco i dettagli del rituale che tentò di eseguire, ma il fatto è che Alendir riuscì ad avere un successo parziale nella sua ricerca.~
+@326  = ~Successo parziale? Cosa vuoi dire?~
+@327  = ~Beh... per anni fu ossessionato dal Gelo. Era convinto di poter diventare un Maestro della Gelo attraverso rituali estremamente pericolosi.~
+@328  = ~Mia madre non entrò nei dettagli, ma mi disse che alla fine lui ci riuscì.~
+@329  = ~Ma non tutto andò come sperava.~
+@330  = ~Hai visto la decrepitezza di Alendir? Per farti capire, è più giovane di mia madre.~
+@331  = ~Ma mia madre sembra giovane come me...~
+@332  = ~Il rituale che trasformò Alendir in un Maestro della Gelo consumò la sua giovinezza.~
+@333  = ~Accidenti, e io pensavo che fosse un elfo anziano.~
+@334  = ~Bisogna fare molta attenzione quando si trattano rituali arcani.~
+@335  = ~Alendir è un elfo anziano, <CHARNAME>. Dopotutto, è un selu'taar. Solo che ora... lo sembra veramente.~
+@336  = ~Chiesi a mia madre se fosse questa la ragione della sua costante amarezza.~
+@337  = ~Ma mi disse di no.~
+@338  = ~Quando eravamo a Brost, Alendir si rivolse a noi. Ero solo una bambina, quindi mi tenevano fuori da tali conversazioni.~
+@339  = ~Ma avevo anche un udito acuto, quindi riuscivo a intrufolarmi e avvicinarmi il più possibile ai loro incontri.~
+@340  = ~Sembrerebbe che ci fosse stato un punto di rottura nella loro amicizia quando madre lasciò Evereska.~
+@341  = ~E sospetto che non gli piacesse nemmeno che avesse avuto una figlia con mio padre. Come immaginerai, non ha la migliore opinione sugli umani.~
+@342  = ~*tossisce* Comunque, credo di essermi dilungata ancora una volta. Grazie per avermi ascoltata, <CHARNAME>. Credo sia ora di andare a vedere Alendir. È ora che mi dica dove si trova mia madre.~
+
+// SP Kitochi
+
+@343  = ~<CHARNAME>, ho trovato il modo di evocare Kitochi.~
+@344  = ~Chi?~
+@345  = ~E perché dovremmo evocare quel gatto puzzolente?~
+@346  = ~Capisco, Fall. Raccontami come ci sei riuscita.~
+@347  = ~Kitochi! Il gatto fatato che hai incontrato alla locanda delle Cinque Boccali.~
+@348  = ~<CHARNAME>! Non essere così rude con il povero Kitochi.~ ~<CHARNAME>! Non essere così rude con il povero Kitochi.~
+@349  = ~Vedi, il gatto fatato ora si trova nel Piano Astrale insieme a Daren e Sinna.~
+@350  = ~Ma non è stato sempre così...~
+@351  = ~Ho conosciuto Kitochi a Imnescar. Faceva parte della Guardia degli Esploratori del Bosco.~
+@352  = ~Credo che tu abbia notato quanto è malandato.~
+@353  = ~Sì, l'ho notato.~
+@354  = ~Ti riferisci al fatto che cerca di nascondere la sua bruttezza con un cappellino? Me ne sono accorta.~
+@355  = ~*corrisponde alla voce* Sì, beh. Era presente durante l'attacco delle ragnatele. Ha combattuto valorosamente insieme agli esploratori.~
+@356  = ~Ma in realtà Kitochi non è molto abile nel combattimento ravvicinato. Eppure... ha combattuto fino alla fine.~
+@357  = ~Anche quando è stato avvelenato.~
+@358  = ~Come fa a essere ancora vivo? Mi hai detto quanto è mortale il veleno di quelle oscure ragnatele.~
+@359  = ~Il suo esploratore lo ha curato prima di morire.~
+@360  = ~Kitochi era l'animale compagno di un esploratore? Pensavo che le creature fatate fossero troppo orgogliose per essere la mascotte di qualcuno.~
+@361  = ~*sbadiglio* Stiamo ancora parlando di gatti? Scusa, stavo per addormentarmi.~
+@362  = ~*sospiro* Oh cielo, <CHARNAME>. A volte puoi essere davvero idiota.~ ~*sospiro* Oh cielo, <CHARNAME>. A volte puoi essere davvero idiota.~
+@363  = ~Vedi, il suo esploratore era un elfo di Wéldazh chiamato Aeris. Non so come abbia conosciuto il nostro gatto. Quello che so è che avevano una grande amicizia.~
+@364  = ~Non conosco i dettagli della morte di Aeris, ma forse Kitochi potrebbe condividerli con te.~
+@365  = ~Ora ho la capacità di evocarlo!~
+@366  = ~Kitochi è un grande esploratore. Ha anche la capacità di diventare invisibile e di mettere trappole.~
+@367  = ~Non credo che sia efficace nel combattimento ravvicinato, ma è qualcosa di cui puoi parlare con lui se lo desideri.~
+@368  = ~Compagno animale? Capisco. Continua, per favore.~
+
+@369  = ~Ho svelato il mistero di Malar, <CHARNAME>. Tabitha sarà salvata da questo piano.~
+@370  = ~Fall, chi è Malar?~
+@371  = ~Finalmente. Mi restituirai la mia armatura? È costata dei soldi, sai.~
+@372  = ~È una buona notizia, Fall. Raccontami di più.~
+@373  = ~Ugh! <CHARNAME>, non presti mai attenzione a quello che dico. Malar è il Dio dei Cacciatori, la divinità di Ivor, il compagno esploratore di Tabitha.~
+@374  = ~(Che tirchia!) *corrisponde alla voce* Sì, <CHARNAME>, ti restituirò l'armatura. Ora ti dirò ciò che sono riuscita a scoprire.~ ~(Che tirchia!) *corrisponde alla voce* Sì, <CHARNAME>, ti restituirò l'armatura. Ora ti dirò ciò che sono riuscita a scoprire.~
+@375  = ~Malar, come forse ho già accennato, sostiene la violenza sfrenata e la brutalità nella natura. I suoi seguaci sono noti per la loro crudeltà e per compiere rituali violenti e sacrifici in suo nome.~
+@376  = ~Questo spiegherebbe perché Ivor tratti con gente come Lehtinan. Potrebbe aver visto l'opportunità di mettere alla prova i suoi animali contro i gladiatori del fosso.~
+@377  = ~Esaminare l'armatura di pelliccia di Aeger mi ha dato una prospettiva sui fatti accaduti secoli fa quando l'orso gigante cacciava nelle terre della Costa della Spada.~
+@378  = ~L'orso gigante terrorizzava quelle terre, è vero. Ma era nel suo sangue distruttivo. La natura può essere brutale e spietata.~
+@379  = ~Non approvo tale comportamento poiché può distruggere l'equilibrio che il Padre del Bosco cerca di mantenere. Ma capisco che a volte solo attraverso la violenza si può raggiungere tale obiettivo.~
+@380  = ~La relazione tra Malar e Silvanus su Faerûn è complessa e segnata dal conflitto a causa delle loro differenze fondamentali su come dovrebbe essere trattata e vista la natura.~
+@381  = ~Non mi piace l'idea di comprare la pelle di un animale, <CHARNAME>. Ma penso che sia l'unico modo per completare il rituale di Tabitha.~
+
+// TABITHA 1
+@382  = ~Questo... sta diventando più complicato di quanto pensassi.~
+@383  = ~Fall, di cosa stai parlando?~
+@384  = ~Sto cercando di portare Tabitha nel Piano Astrale. La statuetta di Malar è l'oggetto che Ivor mi ha dato.~
+@385  = ~Lo so, Fall. Ero presente quando è successo tutto questo. Dimmi, perché ti sta causando difficoltà?~
+@386  = ~Chi sono Ivor, Tabitha, Malar? Non conosco nessuno di loro.~
+@387  = ~Potrebbe essere troppo per te. Dovresti rilassarti un po', Fall.~
+@388  = ~Non posso rilassarmi, <CHARNAME>. Ho fatto una promessa e intendo mantenerla.~
+@389  = ~<CHARNAME>! Non presti mai attenzione alle mie cose. Ivor è il Signore delle Bestie che tradì Lehtinan nella Corona di Rame. Tabitha è la sua leoparda che sto cercando di portare nel Piano Astrale. E Malar è il Dio dei Cacciatori, una divinità di esploratori e alcuni druidi, ma è crudele e implacabile.~
+@390  = ~Il rituale che sto eseguendo non è così semplice. Ho bisogno della visione di una creatura altrettanto implacabile quanto Malar.~
+@391  = ~Mia madre mi ha insegnato a percepire i ricordi e i sentimenti degli animali che hanno vissuto e sono morti in questa terra.~
+@392  = ~Tabitha è legata a Ivor, che è un esploratore fedele alle credenze di Malar.~
+@393  = ~Io... non sono capace di vederlo. Di sentirlo. Silvanus mi dà forza e posso entrare in sintonia con Mystra, tutto ciò grazie alle credenze dei miei genitori.~
+@394  = ~Potrei anche riuscirci con Mielikki, perché non è molto diversa dal Padre Rovere.~
+@395  = ~Ma Malar... È il Dio del Sangue. La violenza è intrinseca nei suoi seguaci. Anche in alcune creature selvagge come gli animali del bosco.~
+@396  = ~Capisco. E dove va a finire questa storia, Fall?~
+@397  = ~Io... è difficile per me chiederlo, ma penso di sapere come salvare Tabitha dai cacciatori di taglie.~
+@398  = ~Ho sentito parlare di una bestia assetata di sangue che esisteva molti inverni fa.~
+@399  = ~Era Aeger, un orso gigante invulnerabile al fuoco e al freddo, persino all'acido.~
+@400  = ~Per anni terrorizzò la Costa della Spada.~
+@401  = ~Ci vollero circa 200 contadini armati per abbatterlo.~
+@402  = ~Ne sopravvissero molto pochi...~
+@403  = ~Il punto è che i contadini trasformarono la sua pelle in alcune armature, le quali, si dice, abbiano quelle proprietà di resistenza elementale.~
+@404  = ~Aeger era un cacciatore nato e sono sicura che Malar fosse molto soddisfatto della sua caccia agli uomini.~
+@405  = ~Se riusciremo a ottenere una di quelle armature, credo che potrò comprendere uno dei guerrieri più selvaggi di Malar e ciò sarà sufficiente per portare Tabitha nel Piano Astrale attraverso il legame che forgerò con la divinità del suo esploratore.~
+@406  = ~Ne ho vista una al Mercato dell'Avventuriero quando frequentavo il Passeggio, ad Athkatla.~
+@407  = ~Non mi piace l'idea di comprare la pelle di un animale, <CHARNAME>. Ma penso che sia l'unico modo per completare il rituale di Tabitha.~
+
+@408  = ~Tabitha... ora sei al sicuro. Spero che il tuo padrone, Ivor, lo sia altrettanto.~
+
+// Quest e interacciones
+@3000  = ~Grazie, <CHARNAME>. Potresti trovare un modo per risparmiare risorse. Anche se prima dovremo... *sospiro* raccogliere quelle 7500 monete d'oro.~
+@3001  = ~<CHARNAME>, per favore. Questo va oltre il materiale. Ho deciso di liberare quegli animali. Intendo farlo!~
+@3003  = ~E allora? Con il tuo aiuto sarà più facile. Che ne dici?~
+@3004  = ~Va bene, va bene. Raccoglierò la somma necessaria e poi parlerò con Andrew Oliva.~
+@3005  = ~No, Fall. Non intendo spendere soldi per questo. È una perdita di tempo.~
+@3006  = ~Sei insensibile! Nessuno... nessuno dovrebbe vivere rinchiuso per il divertimento degli altri.~
+@3007  = ~Non puoi vederlo... Forse un giorno lo farai... Ma io non sarò lì per vederlo.~
+@3008  = ~Addio, <CHARNAME>. Dubito che le nostre strade si incroceranno di nuovo.~
+@3009  = ~Nessuno merita di essere rinchiuso per il divertimento degli altri...~
+@3010  = ~Credo che Fall abbia ragione, <CHARNAME>. Dobbiamo onorare la madre terra e restituire queste bestie alla natura.~
+@3011  = ~La balestriera ha ragione! È nostro dovere fare del bene e questa missione lo richiede. Bubù pensa come me!~
+@3012  = ~Non mi piace l'idea di spendere così tanti soldi, <CHARNAME>. Sono sicuro che ne avremo bisogno in futuro. Parliamo di una somma considerevole.~
+@3013  = ~Andrew! Non essere scortese. I miei nuovi amici non hanno provocato nulla.~
+@3014  = ~Inoltre, sono qui per presentarti a <CHARNAME>. Da lui verrà la soluzione al problema che ti ho posto.~ ~Inoltre, sono qui per presentarti a <CHARNAME>. Da lei verrà la soluzione al problema che ti ho posto.~
+@3015  = ~Che?! S-sei un impertinente, Andrew. Questo non era l'accordo!~
+@3016  = ~*schiarisce la voce* Va bene, Andrew. È meglio che tu mantenga la tua parte dell'accordo. Non credo che tu voglia affrontare l'ira di Alendir.~
+@3017  = ~Oh, <CHARNAME>, Alendir è un mio amico. Un potente elfo selu'taar che è venuto ad aiutarmi nella mia ricerca.~
+@3018  = ~Quando sarà il momento giusto, avrai modo di conoscerlo.~
+@3019  = ~Per ora, grazie per avermi aiutato con gli animali del circo, buon <CHARNAME>.~
+@3020  = ~Promesso è debito: ecco la gemma. Puoi venderla, recupererai parte dell'oro che abbiamo speso qui.~
+@3021  = ~Oppure puoi conservarla. Ho sentito che può servire come ingrediente per la creazione di potenti oggetti magici.~
+@3022  = ~Grazie, Fall. Con questo è più che sufficiente.~
+@3023  = ~Questo non copre le spese, ragazza. Spero che tu sia in grado di compensarmi in qualche modo.~
+@3024  = ~Mi fa piacere saperlo, <CHARNAME>. Ora, continuiamo il nostro viaggio.~
+@3025  = ~Ehi! La mia dolce presenza non è una compensazione sufficiente?~
+@3026  = ~*tossisce* Bene, diciamo che metterò a tua disposizione la mia balestra, <CHARNAME>.~
+@3027  = ~Col tempo, vedrai che il mio aiuto sarà utile nelle tue imprese.~
+@3028  = ~Te lo assicuro. *Alza il pugno in segno di forza*~
+@3029  = ~È finita! Questo... questo è inconcepibile. Non posso sopportarlo più! Spero... spero che le nostre strade non si incrocino mai più!~
+@3030    = ~Che?! A-Alendir, come lo sapevi?~
+@3031    = ~Come è possibile, anziano? Parla!~
+@3032    = ~Non so di cosa stia parlando, buon uomo.~
+@3033    = ~È vero, Alendir. Ma mi piacerebbe sapere come fai a saperlo.~
+@3034    = ~Non ho mai affrontato un basilisco, <CHARNAME>. Spero... spero di essere all'altezza della ricerca.~
+@3035    = ~C-cosa? Non posso crederci... Non riesco a sentirti!~
+@3036    = ~Anziano! Hai esagerato. Dovresti scusarti con Fall.~
+@3037    = ~Fall, dammi solo le indicazioni e ti porterò la sua testa su un vassoio d'argento.~
+@3038    = ~Alendir, credo che le tue dichiarazioni siano ingiuste. Anche se chiaramente hai reagito. Perché?~
+@3039    = ~È strano... Alendir è andato via.~
+@3040    = ~Kitochi! Alendir è andato via? Per favore, dimmi che sai dove si trova.~
+@3041    = ~Fall, ti rendi conto che stai parlando con un gatto che indossa un cappello ridicolo, vero?~
+@3042    = ~Kitochi!~
+@3043    = ~Quindi conosci un gatto parlante. Non so perché non mi sorprenda...~
+@3044    = ~Fall, ti dispiacerebbe condividere come fa questo felino puzzolente a sapere della mia discendenza?~
+@3045    = ~<CHARNAME>, Kitochi non è un gatto comune. È un gatto fatato.~
+@3046    = ~Un che? Qualunque cosa sia, è piuttosto scortese.~
+@3047    = ~È troppo brutto per essere un gatto fatato.~
+@3048    = ~Non sapevo che i gatti fatati puzzassero di urina.~
+@3049    = ~Basta entrambi! Per Silvanus, non farmi arrabbiare.~
+@3050    = ~Mi dispiace, Fall.~
+@3051    = ~È stato lui a iniziare.~
+@3052    = ~*schiarisce la voce* Bene. Ora torniamo a noi. <CHARNAME>, mi dispiace non averti parlato prima di Kitochi.~
+@3053    = ~In realtà, Kitochi è stato tutto il tempo qui con Alendir, anche se quest'ultimo non lo sapeva.~
+@3054    = ~Quindi il fatto che sappia della tua discendenza è perché ha ascoltato tutte le nostre conversazioni.~
+@3055    = ~Fall, credi davvero che possa crederci? Ricorderei di vedere un gatto con un cappello in questo posto.~
+@3056    = ~Allora come spieghi il fatto che non l'abbiamo visto?~
+@3057    = ~È vero. Ho ordinato a Kitochi di sorvegliare Alendir nel caso succedesse qualcosa di strano.~
+@3058    = ~E qualcosa di strano è successo. Hai fatto bene a incaricarmi di questo compito.~
+@3059    = ~Ah! Vedi, <CHARNAME>? Sono molto intelligente.~
+@3060    = ~*tossisce* Bene, buon Kitochi. Raccontaci.~
+@3061    = ~Non fino a quando il tale <CHARNAME> non si scuserà per aver detto che il mio cappello è ridicolo.~
+@3062    = ~Oh, dai, Kitochi. Non l'ha detto sul serio.~ ~Oh, dai, Kitochi. Non l'ha detto sul serio.~
+@3063    = ~Sì, l'ho detto sul serio.~
+@3064    = ~Va bene, va bene, gatto. Mi scuso per aver insultato il tuo cappello.~
+@3065    = ~Addio, Kitochi... Grazie.~
+@3066    = ~Addio, Kitochi... Spero che ci rivedremo.~
+@3067    = ~Per Silvanus... questa... creatura sembra bloccare completamente l'ingresso. Non capisco.~
+@3068    = ~Non sembra nemmeno disposto ad attaccarci. Potrebbe... potrebbe non essere qui per propria volontà.~
+@3069    = ~<CHARNAME>, sarà meglio che proviamo a usare le nostre evocazioni. Forse uno dei nostri amici del Piano Astrale sa cosa fare.~
+@3070    = ~In caso contrario, credo che l'unico modo per procedere sia... eliminare la creatura. Non vorrei arrivare a quel punto.~
+
+// TABITHA
+@3071    = ~Sento la vita di diverse creature qui.~
+@3072    = ~Eh? Non vi riconosco. Chi siete?~
+@3073    = ~Queste gabbie... contengono animali. Perché?~
+@3074    = ~Ah, un'elfa. Questi sono i miei animali e combattono nel fosso. Se la cavano abbastanza bene...~
+@3075    = ~È inconcepibile! Come è possibile che un elfo permetta questo? Come esploratrice di Imnescar-~
+@3076    = ~Imnescar? Capisco. Elfa, conosci Gerwulf? Era un soldato di Crimmor.~
+@3077    = ~C-come conosci il suo nome? Sei un schiavista. Non vedo come tu possa conoscere mio padre.~
+@3078    = ~Sei la figlia di Gerwulf? Per Malar... allora sei una mezzelfa.~
+@3079    = ~Malar? Ora capisco. I suoi seguaci sono crudeli. Questo spiega perché fai quello che fai.~
+@3080    = ~Ragazza! Chi sei tu per giudicarmi? Osate insultarmi, non solo a me ma anche alla mia divinità!~
+@3081    = ~Anche se... tuo padre non era molto d'accordo con il Dogma del Dio del Sangue.~
+@3082    = ~Hai quel fuoco, anche caratteristico in lui.~
+@3083    = ~Come... come lo conosci? Mio padre non avrebbe mai avuto rapporti con schiavisti.~
+@3084    = ~Basta! Tuo padre ed io eravamo amici. Anche con le nostre differenze.~
+@3085    = ~La sua morte è stata una grande perdita per le foreste meridionali. Gerwulf, Aeris, Mephala... molti grandi esploratori e druidi sono caduti il giorno in cui le ragnatele hanno attaccato.~
+@3086    = ~Non sono uno schiavista! Sono il Signore delle Bestie di questo fosso.~
+@3087    = ~Ho una fiducia suprema nei miei animali. Non mi importa che debbano uccidere i gladiatori.~
+@3088    = ~Dovresti preoccupartene. I gladiatori sono schiavi senza opzioni. E siamo venuti a liberarli!~
+@3089    = ~Capisco... Sei venuta a cercare la mia chiave per aprire le celle.~
+@3090    = ~Cosa ti fa pensare che tu possa sconfiggere Lehtinan?~
+@3091    = ~Conto sull'alleanza di <CHARNAME> e sulla forza di Silvanus. I miei lupi Daren e Sinna combatteranno per me.~
+@3092    = ~Sei figlia di tuo padre... D'accordo, ragazza.~
+@3093    = ~Non devo lealtà a Lehtinan. Per me, puoi ucciderlo. Ti darò la mia chiave e porterò via i miei animali con me.~
+@3094    = ~Come ti chiami, figlia di Gerwulf?~
+@3095    = ~Mi chiamo Fall.~
+@3096    = ~Fall... prendi questo arco. Spero ti aiuti nella tua impresa.~
+@3097    = ~Ah! Non avrei mai pensato di trovare qui la figlia dell'umano di Crimmor. Quando Lehtinan sarà morto ti cercherò, Fall.~
+@3098    = ~D-d'accordo. Aspetta, qual è il tuo nome?~
+@3099    = ~Sono Ivor. E questa è la mia amica, Tabitha. È bella, vero?~
+@3100    = ~A presto, Fall. Tabitha ed io ti auguriamo buona fortuna nella tua caccia. Che Malar ti dia la forza per raggiungere la tua preda!~
+@3101    = ~Addio, Ivor. Addio, Tabitha... Andiamo, <CHARNAME>. Abbiamo già la chiave per liberare i gladiatori.~
+
+@3102    = ~Di nuovo tu...~
+@3103    = ~Ah, figlia di Gerwulf, vedo che ti ricordi ancora di me. Sono-~
+@3104    = ~Ivor, sì, lo ricordo. Cosa è successo al resto dei tuoi animali?~
+@3105    = ~Sono riuscito a portarli nelle foreste meridionali. Ho dovuto 'convincere' un paio di soldati amniani a farci uscire dalle porte della città.~
+@3106    = ~Ma non importa. Sono venuto a cercarti, Fall.~
+@3107    = ~Perché?, cosa stai cercando? Non credo di essere particolarmente in buoni rapporti con un seguace di Malar che, devo aggiungere, è uno schiavista.~
+@3108    = ~Hmpf. Pensavo che avessimo superato quest'argomento.~
+@3109    = ~Inoltre, Lehtinan è morto, lo so. Forse non mi hai visto, ma Tabitha ed io abbiamo annientato diversi dei suoi scagnozzi quando abbiamo abbandonato il recinto degli schiavi.~
+@3110    = ~E allora? Cerchi una ricompensa per questo?~
+@3111    = ~No, cerco di mettere in salvo Tabitha e solo tu puoi farlo.~
+@3112    = ~*Gli occhi penetranti del felino si fissano su quelli di Fall.*~
+@3113    = ~P-perché? È la tua compagna animale. Non vedo come possa separarsi da te.~
+@3114    = ~Questo... è vero. Ma devo farlo. Quando ho fatto l'accordo con Lehtinan non sapevo in cosa mi stavo cacciando.~
+@3115    = ~Può darsi che tu l'abbia ucciso, ma il mondo della schiavitù è vasto e abbondante qui ad Athkatla.~
+@3116    = ~So che i bastardi hanno messo una taglia sulla mia testa. Se io cado, è probabile che anche Tabitha... e non voglio che accada.~
+@3117    = ~E perché pensi che io possa risolvere questo problema, Ivor?~
+@3118    = ~So che tua madre, la selu'taar di Evereska di cui parlava tanto tuo padre, è capace di creare un legame tra questo piano e l'Astrale.~
+@3119    = ~Se parli con lei, potrebbe essere in grado di portare Tabitha lì e salvarla da un destino funesto per colpa mia.~
+@3120    = ~Ah... capisco. Mi dispiace dire che mia madre è scomparsa. Da giorni la cerco... non ho ancora risposte sul suo dove si trovi.~
+@3121    = ~Questo è... davvero triste. Io... pensavo che potresti aiutarmi con questo.~
+@3122    = ~E credo di poterlo fare, Ivor. Mia madre mi ha insegnato un rituale per stabilire il legame di cui parli.~
+@3123    = ~Posso farlo. Posso salvare Tabitha.~
+@3124    = ~Lo... farai? Per i denti di Malar... sono profondamente grato... e anche Tabitha.~
+@3125    = ~*Lo sguardo di Tabitha si distoglie verso Ivor mentre chiude lentamente gli occhi sotto le sue carezze.*~
+@3126    = ~Tuttavia, ho bisogno di qualcosa che possa collegarmi a lei. Hai qualche oggetto che le appartiene?~
+@3127    = ~Lo so, lo so. Sapevo che mi avresti chiesto qualcosa del genere, Fall. Ho questa statuetta scolpita da me. È un po'... macchiata con il sangue di entrambi.~
+@3128    = ~Ehm, sì. Questo sarà sufficiente.~
+@3129    = ~So come funziona, Fall. So che è molto probabile che non vedrò mai più la mia amica. Ma è qualcosa con cui posso vivere.~
+@3130    = ~Viverai per sempre, Tabitha. Caccerai eternamente nei piani oltre. Cerca sempre di catturare la tua preda. Onora Malar.~
+@3131    = ~*Gli occhi del grande felino si fissano su quelli di Ivor e poi si spostano su Fall.*~
+@3132    = ~Quando stabilirai il legame, Tabitha scomparirà da questo piano... il che significa che sarai in grado di chiamarla al tuo fianco, giusto?~
+@3133    = ~Esatto, Ivor. Avrò la capacità di chiamarla quando voglio... potrà anche seguire i miei ordini. Sei ancora sicuro di volerlo fare?~
+@3134    = ~Ah! Certo che sì, ragazza. Inoltre, a Tabitha piaci. Se riesci a completare la tua missione, sono sicuro che la nostra amica sarà più che disposta a combattere al tuo fianco.~
+@3135    = ~Cerca... cerca solo di essere gentile con lei, ok?~
+@3136    = ~Lo farò, Ivor. Lo prometto.~
+@3137    = ~Sei degna figlia di tuo padre. Addio, Fall. Andiamo, Tabitha, godiamoci i nostri ultimi momenti insieme. Magari riusciremo anche a scannare qualche schiavista!~
+@3138    = ~*Gli artigli di Tabitha si preparano alle parole di Ivor.*~
+@3139    = ~Addio... Spero di essere all'altezza di questa impresa. Andiamo, <CHARNAME>. Continuiamo.~
+
+@3140    = ~Ce l'abbiamo! <CHARNAME>, rimarrò con lei per poterla esaminare. Non credo che ci vorrà molto tempo. Ti restituirò il suo corpo appena avrò finito le mie ricerche. Sono sicura che questo aiuterà a portare Tabitha nel Piano Astrale.~
+
+//KAKUTO QUEST
+@3141    = ~Stai tranquillo, Daren! <CHARNAME>, non credo che Daren sia la risposta. Il suo atteggiamento sembra aggressivo verso lo scarabeo.~
+@3142    = ~Sinna, stai bene? <CHARNAME>, non credo che Sinna possa (o voglia) comunicare con la creatura. Dobbiamo trovare un'altra soluzione.~
+@3143    = ~Tabitha, no! *sospiro* È stata una fortuna. No, <CHARNAME>. Tabitha vuole solo combattere. Non credo sia la risposta. Meglio optare per un'altra soluzione.~
+@3144    = ~Voragor! Per favore, dimmi che sai come comunicarti con questo scarabeo.~
+@3145    = ~Certo che posso, Fall. In effetti, una delle prime cose che mi ha detto è stato il suo nome.~
+@3146    = ~Fermati, <CHARNAME>! Non credo che sia questo il caso.~
+@3147    = ~Il nostro 'amico' deve avergli fatto qualcosa.~
+@3148    = ~Voragor, puoi scoprire cosa gli ha fatto?~
+@3149    = ~Cosa ti ha fatto quel tal Alendir, Kakuto?~
+@3150    = ~*La creatura emette un sottile stridore e la caverna sembra riempirsi di un profondo lamento.*~
+@3151    = ~Capisco. A quanto pare, l'elfo lo ha convocato e lanciato un potente incantesimo di legatura.~
+@3152    = ~Kakuto non può lasciare il suo posto a meno che non muoia.~
+
+@3153    = ~Vuoi dire... che per andare avanti dobbiamo ucciderlo?~
+@3154    = ~Avete sentito, compagni. Esibite le armi! Dobbiamo porre fine alla sofferenza di questa patetica creatura.~
+@3155    = ~Forse c'è un modo per liberarlo dalle sue catene, Fall.~
+@3156    = ~N-no. Non voglio doverlo uccidere, <CHARNAME>.~
+@3157    = ~Voragor, pensi che si possa fare qualcosa al riguardo?~
+@3158    = ~Le mie conoscenze non sono così vaste, ragazza. Tuttavia, Kakuto potrebbe sapere qualcosa.~
+@3159    = ~Kakuto, hai idea di come possiamo spezzare le tue catene invisibili?~
+@3160    = ~*Kakuto sembra restare immobile per alcuni secondi.*~
+@3161    = ~*I suoi occhi sembrano posarsi su Fall e emette un tipo di stridore lamentoso.*~
+@3162    = ~Capisco...~
+@3163    = ~Voragor, cosa ha detto?~
+@3164    = ~*sussurro* Solo la morte può liberarlo.~
+@3165    = ~Anche se mi viene in mente un modo in cui potremmo liberarlo da tali catene.~
+@3166    = ~Un sacrificio di qualcuno amato dal creatore dell'incantesimo. Il tal Alendir, posso immaginare, è una persona cara a te. Immagino che tu faccia parte del suo cerchio di persone amate.~
+@3167    = ~Per qualcuno... amato? Mi chiedo: che tipo di sacrificio?~
+@3168    = ~Forza, destrezza e vitalità, ragazza.~
+@3169    = ~Se sei disposta a sacrificare qualcosa di così importante, allora Kakuto potrebbe essere libero.~
+@3170    = ~Ma... cosa farà una volta libero?~
+@3171    = ~Non credo che sarà ben accolto per le strade di Athkatla. Lo daranno la caccia!~
+@3172    = ~Allora, come me, mandalo nel Piano Astrale.~
+@3173    = ~Se sacrifichi una parte della tua energia vitale per rompere l'incantesimo, allora sarai legata a Kakuto e potrai inviarlo nel Piano Astrale.~
+@3174    = ~Hai fiducia nel tuo potere, Fall?~
+@3175    = ~Mia madre... mia madre mi ha insegnato bene l'arte della convocazione.~
+@3176    = ~Sono la Signora delle Bestie e ho fiducia nel mio potere.~
+@3177    = ~Kakuto! Sacrificherò parte della mia forza, parte della mia destrezza e parte della mia vitalità per salvarti.~
+@3178    = ~*Lo scarabeo sembra comprendere le parole di Fall. Dopo alcuni secondi, abbassa la testa, obbediente e sottomesso, verso la semielfa.*~
+@3179    = ~*Con delicatezza, Fall si avvicina a Kakuto.*~
+@3180    = ~*Posa la mano su di lui e lo accarezza* Non avere paura, buon Kakuto.~
+@3181    = ~Nel Piano Astrale sarai al sicuro. Lì vivono i miei amici animali e potrai essere con loro.~
+@3182    = ~Non sarai mai più solo.~
+@3183    = ~*Gli occhi di Kakuto brillano all'ascoltare la voce di Fall.*~
+@3184    = ~*Pochi secondi dopo, una luce dorata lo avvolge per poi scomparire.*~
+@3185    = ~Addio, amico... Spero di rivederti.~
+
+@3193    = ~È una buona idea. Ricorda di chiamare le mie evocazioni e interagire con esse, <CHARNAME>. Se sono vicine allo scarabeo, potremmo ottenere una risposta.~
+
+@3194    = ~Kitochi, per andare avanti dobbiamo far allontanare questa creatura dal varco.~
+@3195    = ~Conosci un modo per comunicare con essa?~
+@3196    = ~In effetti, sì. Il suo nome è Kakuto. Non è sicuro di come sia stato trascinato fuori dalla sua caverna nella Valle del Vento Gelido.~
+@3197    = ~Ma senza dubbio, l'elfo amareggiato è stato coinvolto in questo evento.~
+@3198    = ~Alendir...~
+@3199    = ~*Al sentire il nome 'Alendir', lo scarabeo sembra contorcersi di rabbia.*~
+@3200    = ~Sai come rompere le tue catene, Kakuto?~
+@3201    = ~Capisco. Kakuto non può lasciare il suo posto a meno che non muoia.~
+@3202    = ~Kitochi, pensi che si possa fare qualcosa al riguardo?~
+@3203    = ~Certamente. Devi portarlo nel Piano Astrale, proprio come hai fatto con me.~
+@3204    = ~Non capisco... non ho alcun legame con questa creatura. Non capisco come potrei farlo.~
+@3205    = ~Lo so. Mi conosci da anni e capisci che abbiamo un legame che ha permesso che ti portassi nel Piano Astrale.~
+@3206    = ~Ma c'è un modo per farlo con questo incantesimo lanciato dall'elfo amareggiato.~
+@3207    = ~Il sortilegio può essere spezzato se qualcuno amato dal mago compie un importante sacrificio.~
+@3208    = ~Non capisco... non ho alcun legame con questa creatura. Non capisco come potrei farlo.~
+@3209    = ~Forza, destrezza e vitalità, boccona.~
+@3210    = ~Un sacrificio di tale calibro spezzerà le catene di Kakuto e lui sarà libero.~
+@3211    = ~E non è necessario che me lo dica: so che uno scarabeo rinoceronte grande come una casa sarebbe strano per le strade di Amn.~
+@3212    = ~Ma fare tale sacrificio ti permetterà di stabilire un legame di sangue con lui.~
+@3213    = ~Immediatamente potrai portarlo nel Piano Astrale. Anche dopo un lungo periodo, potresti riuscire a riportarlo indietro come evocazione.~
+@3214    = ~Vedi, piaci al gigantone, boccona. La tua determinazione a non volerlo uccidere potrebbe aver avuto qualcosa a che fare.~
+@3215    = ~Allora, sei disposta a farlo? Devi avere una fede ferrea nel tuo potere. Pensi di poter riuscire?~
+
+@3216    = ~Non volevo... non volevo arrivare a questo, <CHARNAME>. Ma fatto è fatto. Dobbiamo continuare. Alendir deve essere vicino.~
+@3217    = ~Alendir, che cosa sta succedendo? Parla con noi!~
+@3218    = ~Di cosa stai parlando, Alendir? Sai... sai dove si trova mia madre, vero? Dimmi! Dimmi dove posso trovarla. Per favore...~
+@3219    = ~Per favore...~
+@3220    = ~Gemystara non si trova in questo piano. Lei... è al di là del nostro raggiungimento.~
+@3221    = ~Capisco. Sei la figlia della selu'taar. Perché vuoi consegnare questo piano all'Oscura?~
+@3222    = ~Non conosco alcuna Oscura, golem. Voglio solo indietro mia madre. Ho percorso una lunga strada per arrivare fin qui!~
+@3223    = ~Mortali. Stupidi. Selu'taar Alendir, se davvero ti chiami Maestro della Ghiacciata, mi aiuterai a distruggere questi intrusi.~
+@3224    = ~La loro carne sarà l'offerta necessaria per impedire l'invasione dell'Oscura in questo piano.~
+
+@3225    = ~Alendir...~
+
+@3226    = ~E ora cosa facciamo, Fall? Il posto si sta riempiendo di scagnozzi del tale Icelock.~
+@3227    = ~È ora di combattere! Fall, finiamo con questo.~
+@3228    = ~Non abbiamo altra scelta...~
+@3229    = ~Usciremo da questa situazione combattendo, <CHARNAME>.~
+@3230    = ~Sì! Minsc sostiene con fervore questa mozione! Golem, sentirai la furia infuocata del roditore. Avanti, Boo!~
+@3231    = ~Sono d'accordo, Fall. Per i nostri amici, combatteremo.~
+@3232    = ~La tua ricerca ci ha portato al tempio empio di Cryonax, piccola Fall. Non c'è dubbio: Torm ci ha guidati per porre fine alla sua malvagità. La mia spada è tua.~
+@3233    = ~Riconosco una trappola quando la vedo e ci siamo caduti dentro, <CHARNAME>. Tuttavia, non esiste ancora una trappola così buona da catturare Yoshimo. Usciremo da questa con l'acciaio!~
+@3234    = ~Mi sono confrontato con il male del freddo, privo del calore del sangue nelle vene. Per Arvoreen, oggi non sarà il nostro sangue a essere versato.~
+@3235    = ~Per Helm, non cadrò oggi in queste fredde terre sotterranee. Per l'Ordine: è ora di combattere!~
+@3236    = ~Dobbiamo salvare Athkatla da questa abominazione fredda, <CHARNAME>. A qualunque costo!~
+@3237    = ~Il freddo di queste creature è un'abominazione e un affronto all'equilibrio. Nemmeno la civiltà merita tale punizione. Combatteremo fino alla fine!~
+@3238    = ~L'inverno è parte del ciclo naturale di questo mondo. La proposta di un eterno glaciale va contro tutti i disegni della natura. L'inverno è temporaneo e te lo dimostreremo, Icelock.~
+@3239    = ~Il mago non era una delle mie persone preferite, ma ha certamente cercato di fermare questa follia. Farò del mio meglio per salvarlo, Fall.~
+@3240    = ~L'unica cosa eterna è l'oscurità di Shar, dobluth. La tua stupidità arriva fino a qui.~
+@3241    = ~Il tale 'Maestro della Ghiacciata' si è rivelato un imbroglione. Tuttavia, se sconfiggiamo quel golem di ghiaccio, potremmo estrarre qualcosa di utile da lui. Finalmente sentiranno come il fuoco dei miei incantesimi scioglie il loro gelido essere!~
+@3242    = ~Non mi ero mai confrontato con un dannato golem di ghiaccio, <CHARNAME>. Quindi lascialo a me e al mio ascia. Vedi come lo taglio a cubetti di ghiaccio.~
+@3243    = ~Bene, sembra che non avremo altra scelta che uscire di qui a morsi, giusto? Questo mi ricorda di quando-~
+@3244    = ~Non è il momento migliore per questo, Jan.~
+@3245    = ~Hmpf, d'accordo, d'accordo, Fallie. Lascia che carichi la mia balestra e mi porti un paio di salamandre, va bene?~
+@3246    = ~Riconosco una creatura di un altro piano quando la vedo. E questo gigante di ghiaccio è una di esse. Cryonax è il nome del suo signore e se arriva in questo piano, la gente di Faerûn sarà in gravi problemi.~
+@3247    = ~Cielo, non mi piace il freddo. Non voglio più stare qui, quindi se dobbiamo combattere, è meglio farlo in fretta, non credete?~
+@3248    = ~Un golem di ghiaccio... rivale interessante. Lascialo a me, <CHARNAME>. Sarà una buona offerta per la mia spada.~
+@3249    = ~Il sole brilla al di là degli angoli oscuri e freddi del tuo tempio, creatura. Finché ciò accade, la tua vittoria sarà impossibile.~
+@3250    = ~È un buon momento per lanciare i miei incantesimi di fuoco. Almeno spero che accada.~
+@3251    = ~Non c'è candore nel mio corpo, ma comunque non condivido i desideri di questa creatura gelida. Sarai distrutto nelle ombre di questo luogo.~
+@3252    = ~(Sbuffo, dispiaciuto).~
+@3253    = ~Non sono molto sicura di cosa dici, Wilson. Ma si nota che non ti piace il freddo di questo posto. Andiamo, è ora di combattere, mio buon orso.~
+@3254    = ~Sono il guardiano di Cryonax, il Principe del Gelido Crudele. Icelock farà di voi una buona offerta per il mio signore.~
+@3255    = ~Icelock... Per Imnescar: cadrai!~
+
+@3256    = ~Alendir... dobbiamo fare qualcosa per le tue ferite. Resisti, per favore. Non morire.~
+
+@3257    = ~<CHARNAME> ha ragione, Alendir. Ora devi conservare le energie. Aspetta che ti curiamo.~
+@3258    = ~Basta, <CHARNAME>.~
+@3260    = ~Alendir... dobbiamo fare qualcosa per le tue ferite. Resisti, per favore. Non morire.~
+
+@3261    = ~Alendir... Alendir è morto.~
+@3262    = ~Questa Rosa di Ghiaccio... è bellissima... Non so perché mi faccia piangere.~
+@3263    = ~Quando si scioglierà... so che significherà che sarò pronta per ciò che sta per arrivare.~
+@3264    = ~<CHARNAME>... spero di poter contare su di te quando arriverà il momento.~
+@3265    = ~Per il momento... posso solo dire grazie. Grazie per essere stata lì per me. Sei una delle persone più importanti nella mia vita. Spero... spero che lo sappia, <CHARNAME>.~
+@3266    = ~Sono sempre disposta a parlare se <CHARNAME> non lo vuole, sai?~
+@3267    = ~Boccona, ti ho ascoltata parlare per settimane quando eravamo nella Villa dei Funghi. Hai occupato circa 6 delle mie vite con le tue storie.~
+@3268    = ~Gatto esagerato. D'accordo, vi lascerò a te e a <CHARNAME> per parlare.~
+@3269    = ~Ah, è vero, non credi? Molto bene, di cosa parleremo?~
+@3270    = ~Boccona, questo è tra <CHARNAME> e me. Potresti lasciarci un po' di spazio? Grazie.~
+@3271    = ~Hmpf. Bene. Godetevi la vostra chiacchierata senza di me. Sono sicura che qualcuno vorrà ascoltare le mie avventure a Tethyr.~
+@3272    = ~Bene, non è necessario che mi scacci, so che non mi vuoi in queste conversazioni con <CHARNAME>.~
+@3273    = ~No, Fall. In realtà, resta. Anche tu devi partecipare a questo.~
+@3274    = ~Ah, sì? Dimmi, Kitochi, perché è così?~
+@3275    = ~Acrull! È sempre un piacere vederti. Anche se devo dire che non avrei mai immaginato che stessi complottando un piano segreto con un felino di cattivo umore.~
+@3276    = ~Questa è una cosa che dovrai discutere con lui, cara Fall. Per ora, posso solo darti le indicazioni su ciò che dobbiamo fare adesso.~
+@3277    = ~Sono esausta... <CHARNAME>, so che non è il miglior posto... ma riposiamoci e convochiamo Kitochi. Poi, credo che potremo andarcene.~
+@3278    = ~Sono esausta... <CHARNAME>, so che non è il miglior posto... ma riposiamoci e convochiamo Kitochi. Poi, credo che potremo andarcene.~
+@3279    = ~Kitochi, stai bene?~
+
+@3280    = ~Sì, Acrull... Gorm è morto. Kitochi ha ottenuto vendetta su Aeris. Abbiamo vinto.~
+
+// First Mesothel encounter
+@3281    = ~*grido soffocato* C-che cosa significa questo? Chi sei?~
+
+@3282    = ~A-Alendir? Per Evereska... Alendir, sei tu?~
+@3283    = ~Capisco, <CHARNAME>. Ma dovrai anche comprendere che non posso più rimandare questo. Tu hai la tua missione, io ho la mia. Se non intendi aiutarmi, non ho altra scelta che intraprendere questo viaggio da sola. Addio. Forse, un giorno, i nostri cammini si incroceranno di nuovo.~
+
+@3284    = ~Rivedere Alendir è stato strano... <CHARNAME>, la Rosa di Ghiaccio si è sciolta. Quando lo ritieni opportuno, andiamo verso la stanza di Icelock, il golem di ghiaccio. Il portale verso Rachnidra dovrebbe essere aperto.~
+
+@3285    = ~Siamo arrivati? Siamo a Rachnidra. Ho la sensazione... di un'oscurità in agguato. Un male imminente.~
+@3286    = ~Vidomina, <CHARNAME> è discendente di Bhaal.~
+@3287    = ~Fall! Per Candelero, perché diavolo racconti il mio segreto a estranei?~
+@3288    = ~Dillo più forte, Fall! Credo che quel marsupiale non ti abbia sentita.~
+@3289    = ~Non abbiamo più tempo per misteri, <CHARNAME>. Il cammino fino a qui è stato lungo ed estenuante. Il mio istinto mi dice che Vidomina non è un essere malvagio. Credo che non abbiamo altra scelta che fidarci di lei.~
+@3290    = ~Non farai una cosa del genere, <CHARNAME>! Non solo abbiamo l'opportunità di evitare un combattimento inutile, ma abbiamo anche la possibilità di avvicinarci a madre. Non permetterò che tu faccia sciocchezze!~
+@3291    = ~Ehm... beh, io...~
+@3292    = ~Cieli, Fall. Perché non racconti il mio segreto visto che ci siamo?~
+@3293    = ~*sospiro* Mi dispiace, <CHARNAME>. Non intendevo esplodere così. È solo che credo che Vidomina possa essere di aiuto. Se puoi parlarle del tuo 'segreto', potrebbe aiutarci nella nostra ricerca.~
+@3294    = ~Va bene, Fall. Lo farò per te. Vidomina, sono <CHARNAME>, discendente di Bhaal, il Dio dell'Omicidio.~
+@3295    = ~Non ho motivo di parlare dei miei segreti in qualcosa che non mi concerne, Fall.~
+@3296    = ~Cho'Nuja, stiamo cercando di salvare mia madre. Lei ha cercato di fermare la Regina Ragno, e Tisiphone è l'unica che può aiutarci a raggiungerla.~
+@3297    = ~Vidomina! Avevi ragione. Posso... posso chiamare Kakuto!~
+
+@3298    = ~Mamma...? Madre!~
+@3299    = ~Madre... Madre! Siamo venuti a salvarti...~
+@3300    = ~<CHARNAME>, Vidomina... grazie per questo.~
+@3301    = ~Alendir? Sei... Alendir? Non sembri... non sembri come l'Alendir che ricordo.~
+@3302    = ~¡Dusk?! No... non capisco... ¡Cosa hai fatto?!~
+@3303    = ~¡Dusk! Sono immensamente felice che tu abbia deciso di aiutare Falon e la sua tribù. Spero che riusciremo a trovare loro la casa che tanto desiderano.~
+@3304    = ~Ma che cagnolino adorabile!~
+@3305    = ~Ciao, Demoli! Come stai? Dimmi, quel elfo scheletrico con capelli verdi ti nutre bene?~
+@3306    = ~(Demoli muove la coda alle parole di Fall, mostrando gioia nel vederla)~
+@3307    = ~Demolitore! Come stai? Sei ben nutrito. Penso addirittura che tu sia ingrassato.~
+@3308    = ~(Demoli gira su se stesso, mostrando felicità alla presenza di Fall)~
+
+@3309    = ~Sarebbe una stupidità compiere un atto di tale portata, <CHARNAME>. La natura non ha colpa dell'ambizione di questo mezzorco presuntuoso!~
+@3311    = ~No... <CHARNAME>! Come hai potuto? In onore... in onore dei miei principi, devo sconfiggerti per ciò che hai fatto. Pagherai per ciò che hai fatto!~
+@3312    = ~Cosa hai fatto?! Non sono mai stato così sbagliato riguardo a una persona. Meriti di morire per ciò che hai fatto!~
+@3313    = ~Hakamir!, Acrull! Cosa ci fate qui? Pensavo foste a Brost. È successo qualcosa di grave?~
+
+@3314    = ~<CHARNAME>, questo non resterà impunito. Traffico di schiavi così liberamente per le strade? È ora di far pagare questi sporchi schiavisti.~
+@3315    = ~Non permetterò che vi portino via, signore. Per Imnescar che attaccherò questi schiavisti! Spero che tu mi aiuti, <CHARNAME>.~
+
+@3316    = ~D-Dusk? No... Cosa hai fatto?~
+@3317    = ~Tu! Ti ho visto aggirarti qui. Non sei benvenuto nella nostra civiltà, demone. Via! Via di qui!~
+@3318    = ~*sospiro* Ancora questo tizio. Andiamo, <CHARNAME>, ignoriamolo semplicemente.~
+
+// Dusk Crossmod
+@4000    = ~Ammetto che non mi è mai piaciuto vedere quelle gabbie. Sono d'accordo con Fall su questo.~
+@4001    = ~Il denaro va e viene, <CHARNAME>. Capisco che ne abbiamo bisogno, ma possiamo sempre trovare il modo di guadagnarne di più.~
+@4002    = ~Non sapevo che le torte di miele fossero un alimento leggero. Ho visto come te ne divoravi diverse porzioni in pochi secondi.~
+@4003    = ~*sussurro* Silenzio, Dusk! Sto parlando con <CHARNAME> dei miei studi, non della mia dieta, sai?~
+
+@4004    = ~È il momento di combattere, compagni! Lottate per ciò che desiderate di più. Io combatterò in nome di Cormyr!~
+@4005    = ~Una creatura dei piani del Freddo... Non merita di esistere nel nostro Piano, <CHARNAME>. Lasciami ridurla in cubetti di ghiaccio con la mia spada!~
+
+
+
+// JOURNAL ENTRIES
+@310002 = ~Fall: Animali in gabbia
+
+Abbiamo parlato con Andrew Oliva, un impiegato del circo disposto a liberare gli animali in gabbia per l'esorbitante somma di 7500 pezzi d'oro. Quando avremo raccolto tale somma, dovremmo parlare di nuovo con lui per chiudere la questione una volta per tutte. Potrebbe anche essere possibile convincerlo a ridurre il prezzo, risparmiandoci così una bella quantità di monete.~
+
+@310003 = ~Fall: Animali in gabbia
+
+Mi sono rifiutato di pagare per il riscatto degli animali in gabbia. Questo ha provocato la rabbia di Fall e se ne è andata dal gruppo. Beh, almeno mi sono risparmiato una bella somma d'oro.~
+
+@310004 = ~Fall: Animali in gabbia
+
+Abbiamo pagato Andrew per liberare gli animali del circo il prima possibile. Anche se sembrava che Andrew ci avrebbe truffato, quando Fall ha menzionato un certo Alendir, lui ha ripreso il trattato e promesso che, in meno di un giorno, gli animali non sarebbero più stati nelle gabbie, ma liberi nei boschi meridionali di Amn. Tutto è andato bene, anche se mi chiedo: chi è Alendir?~
+
+@310005 = ~Fall: Il rituale di Alendir
+
+Dopo una breve conversazione con Fall, mi ha detto che è ora di incontrare Alendir. Secondo Fall, Alendir potrebbe avere informazioni importanti sul luogo dove si trova sua madre. Potremo trovare l'elfo al piano superiore della Locanda delle Cinque Anfore nel Distretto del Ponte.~
+
+@310006 = ~Fall: Il rituale di Alendir
+
+Ho incontrato Alendir, un elfo Selu'taar di Evereska. È un anziano con una personalità piuttosto scontrosa e, sorprendentemente, sapeva del mio lignaggio divino. Ci ha incaricato di cercare un Grande Basilisco nelle grotte delle Colline di Umar. Poiché la creatura rimane nascosta, ci ha dato una strana gemma arancione che farà uscire il basilisco dal suo nascondiglio. Dobbiamo eliminare qualsiasi nemico incontriamo lì.~
+
+@310010 = ~Fall: Il Maestro del Gelo
+
+Fall crede che sia giunto il momento di tornare da Alendir per ottenere risposte sul luogo dove si trova Gemystara, sua madre. La Dama delle Bestie ci ha raccontato poco sul passato di Alendir e, a quanto pare, l'elfo ha acquisito un grande potere diventando Maestro del Gelo, ma a costo della sua gioventù elfica. Fall sospetta anche del suo atteggiamento nei confronti della sua famiglia, sia del disprezzo verso suo padre sia delle sue vere intenzioni con sua madre. Per ora, dobbiamo dirigerci verso il piano superiore delle Cinque Anfore nel Distretto del Ponte per incontrarlo.~
+
+@310011 = ~Fall: Il Maestro del Gelo
+
+Siamo tornati alla locanda delle Cinque Anfore, ma Alendir non era lì. Al suo posto c'era Kitochi, un gatto feérico che era stato compagno di battaglia degli esploratori nell'attacco a Imnescar. Kitochi ci ha informato che Alendir è riuscito a eseguire il rituale, ma ciò che ha scoperto lo ha profondamente turbato. Per questo motivo, Alendir si è ritirato nelle fogne dei Quartieri Bassifondi, entrando dall'ingresso della taverna La Corona di Rame. Nelle fogne, Kitochi ha indicato che possiamo seguirlo se ci dirigiamo verso est, attraverso il passaggio dove si trovano spesso dei koboldi. Tuttavia, per andare oltre, Kitochi ci ha detto che avremo bisogno della chiave per superare il muro invisibile lì. La chiave è una frase che recita: "Nel sussurro del vento gelido, si trova il cammino." Dopo averci dato le informazioni necessarie, Kitochi è scomparso, non senza chiedere a Fall di non evocarlo più, poiché... apparentemente, l'ho offeso troppo.~
+
+@310012 = ~Fall: Il Maestro del Gelo
+
+Siamo tornati alla locanda delle Cinque Anfore, ma Alendir non era lì. Al suo posto c'era Kitochi, un gatto feérico che era stato compagno di battaglia degli esploratori nell'attacco a Imnescar. Kitochi ci ha informato che Alendir è riuscito a eseguire il rituale, ma ciò che ha scoperto lo ha profondamente turbato. Per questo motivo, Alendir si è ritirato nelle fogne dei Quartieri Bassifondi, entrando dall'ingresso della taverna La Corona di Rame. Nelle fogne, Kitochi ha indicato che possiamo seguirlo se ci dirigiamo verso est, attraverso il passaggio dove si trovano spesso dei koboldi. Tuttavia, per andare oltre, Kitochi ci ha detto che avremo bisogno della chiave per superare il muro invisibile lì. La chiave è una frase che recita: "Nel sussurro del vento gelido, si trova il cammino." Dopo averci dato le informazioni necessarie, Kitochi ha detto a Fall che era pronto per essere una delle sue evocazioni. Ha anche detto che potrebbe parlargli se lo desiderasse. Potrebbe avere qualcosa di interessante da raccontare.~
+
+@310013 = ~Fall: Il Maestro del Gelo
+
+Seguendo le tracce di Alendir, ci siamo imbattuti in un gigantesco scarabeo rinoceronte. Stranamente, non sembra essere una creatura ostile, ma impedisce anche il passaggio alla stanza successiva. Senza altre idee, Fall ha consigliato di chiamare le sue evocazioni speciali e di interagire di nuovo con la creatura gigante. Se con questo non riusciamo a risolvere, temo che non avremo altre opzioni che attaccarla.~
+
+@310014 = ~Fall: Tabitha, guerriera di Malar
+
+Fall è riuscita a convincere il Signore delle Bestie ad aiutarci nella ricerca della liberazione degli schiavi nella Corona di Rame. Apparentemente, l'elfo conosceva il padre di Fall quando Imnescar è caduta. L'amicizia con suo padre è stata di vitale importanza per ottenere la sua alleanza. Ivor, come si è presentato, cercherà Fall una volta che Lehtinan sarà morto.~
+
+@310015 = ~Fall: Tabitha, guerriera di Malar
+
+Ivor ci ha trovati dopo aver saputo della morte di Lehtinan. Ci ha detto che i trafficanti di schiavi di Athkatla hanno messo una taglia sulla sua testa a causa del suo tradimento alla Corona di Rame. Il Signore delle Bestie teme per la vita della sua compagna animale, Tabitha, e ha cercato Fall per eseguire un rituale che permetta di portarla nel Piano Astrale per tenerla al sicuro. Fall ha accettato e ora porta con sé una statuetta di Malar che dovrà studiare per riuscire a portare la leopardo nel Piano Astrale insieme al resto delle sue evocazioni.~
+
+@310016 = ~Fall: Tabitha, guerriera di Malar
+
+Fall mi ha detto che per completare il rituale di Tabitha deve procurarsi l'armatura di un potente orso gigante chiamato Aeger. Crede che la creatura fosse la campionessa del Dio del Sangue, Malar, e che esaminandola sarà in grado di portare la leopardo nel Piano Astrale. Potremmo trovarla al Mercato dell'Avventuriero, al Passeggio di Athkatla.~
+
+@310017 = ~Fall: Tabitha, guerriera di Malar
+
+Abbiamo ottenuto un'armatura fatta con le pelli di Aeger. Fall la utilizzerà per il suo studio e per proseguire nel rituale per portare Tabitha nel Piano Astrale. Secondo le sue parole, non dovrebbe volerci molto per svelarne i misteri.~
+
+@310018 = ~Fall: Tabitha, guerriera di Malar
+
+Fall è riuscita a portare Tabitha nel Piano Astrale. Da ora in poi, la Dama delle Bestie dovrebbe essere in grado di evocarla come una delle sue evocazioni. Senza dubbio, può essere un'abilità speciale molto utile.~
+
+@310019 = ~Fall: Il Maestro del Gelo
+
+Fall è riuscita a risolvere la questione dello scarabeo gigante, una creatura imponente chiamata Kakuto. Grazie alle sue evocazioni speciali, la Dama delle Bestie è riuscita a portare Kakuto nel Piano Astrale, sebbene abbia dovuto sacrificare parte della sua energia vitale. Ora, il cammino è libero per seguire Alendir.~
+
+@310020 = ~Fall: Il Maestro del Gelo
+
+Lo scarabeo gigante è stato distrutto. Fall ha espresso il suo dispiacere, ma anche la sua determinazione a continuare e trovare Alendir. Ora il cammino è libero, dovremmo procedere.~
+
+@310035  = ~Rachnidra: le Fosse della Ragnatela Demoniaca
+
+Una proiezione di Alendir è apparsa indicando che la Rosa di Gelo stava per sciogliersi, il che significava che il portale verso Rachnidra si sarebbe aperto. Tuttavia, ha detto che tale portale era solo un’entrata verso l’Abisso e che non ci sarebbe stata possibilità di ritorno oltre il suo varco. Ho deciso di non proseguire con questa ricerca a causa dei grandi rischi che comporta. Dopotutto, devo ancora affrontare Irenicus e gli elfi. Per questo motivo, Fall mi ha abbandonato, visibilmente delusa dalla mia decisione.~

@@ -1,0 +1,812 @@
+// Hotkey configurable
+IF
+HotKey(K)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+StartCutScene("P_FallF")
+END
+
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+Wait (6)
+SetGlobal("P_Fall_UpdateK","GLOBAL",0)
+END
+
+//Patch Gorm's Head
+IF
+InParty(Myself)
+Global ("P_FallPatchGormHead","GLOBAL",0)
+PartyHasItem("p_hgormu")
+PartyHasItem("p_hgorms")
+THEN
+RESPONSE #100
+TakePartyItem("p_hgormu") 
+DestroyItem("p_hgormu")
+SetGlobal ("P_FallPatchGormHead","GLOBAL",1)
+END
+
+//P_AR14
+IF
+InParty(Myself)
+Global ("P_FallMetBrostFriends","GLOBAL",0)
+Global ("P_FallMetBrostFriendsAR14TLK","GLOBAL",0)
+AreaCheck("P_AR14")
+See("P_HAKAM")
+See("P_ACRULL")
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+SetGlobal ("P_FallMetBrostFriendsAR14TLK","GLOBAL",1)
+END
+
+
+// Erasing FamiliarSpell
+IF
+InParty(Myself)
+Global ("P_FallEraseFamiliarSpell","GLOBAL",0)
+OR (2)
+Global ("P_FallMission1","GLOBAL",1)
+HaveSpell(BEASTMASTER_FIND_FAMILIAR)
+THEN
+RESPONSE #100
+  CreateItem ("p_fremo1",1,1,0)   
+  UseItem ("p_fremo1", Myself)
+  DestroyItem ("p_fremo1")
+  SetGlobal ("P_FallEraseFamiliarSpell","GLOBAL",1)
+END
+
+//Patch Kakuto Loss Stats
+IF
+InParty(Myself)
+Global ("P_FallPatchKakutoLossStats","GLOBAL",0)
+PartyHasItem("p_fcur1")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+UseItem("p_fcur1", Myself)
+DestroyItem("p_fcur1")
+SetGlobal ("P_FallPatchKakutoLossStats","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END
+
+
+// Fall leave do to Low Reputation (3)
+// NOTA, armas el diálogo en el P_FALLJ
+IF
+  InParty(Myself)
+  ReputationLT(Player1,3)
+  Global("P_FallLeaves","GLOBAL",0)
+  CombatCounter(0)
+  See(Player1)
+THEN
+  RESPONSE #100
+  SetGlobal ("P_FallLeaves","GLOBAL",1)
+  StartDialogNoSet(Player1)
+END
+
+// Fall se va si CHARNAME mata a Hendak a pedido de Lehtinan
+IF
+  InParty(Myself)
+  AreaCheck("AR0406")
+  Global ("P_FallLeavesHendakEnemy","GLOBAL",0)
+  Global("SlavingJerk","GLOBAL",1)
+  !Dead("Lehtinan")
+  See("HENDAK")
+  See(Player1)
+  Allegiance("HENDAK", ENEMY)
+THEN
+  RESPONSE #100
+  Wait(1)
+  SetGlobal ("P_FallLeavesHendakEnemy","GLOBAL",1)
+  LeaveParty() 
+  DisplayStringHead(Myself,@600044)
+  Enemy ()
+END
+
+// Fall se va si CHARNAME envenena el pozo de los druidas
+IF
+  InParty(Myself)
+  AreaCheck("AR1901")
+  Global("GrovePoisoned","GLOBAL",1)
+  Global("P_FallLeavesGrovePoisoned","GLOBAL",0)
+  See(Player1)
+THEN
+  RESPONSE #100
+  Wait(3)
+  SetGlobal ("P_FallLeavesGrovePoisoned","GLOBAL",1)
+  LeaveParty() 
+  DisplayStringHead(Myself,@600041)
+  Enemy ()
+END
+
+// Variables para las MISSIONS
+// Mission 1
+// Termina en
+// Global("P_FallMission1","GLOBAL",4)
+// Global("P_FallMission1","GLOBAL",9)
+
+// Mission 2
+// Termina en
+// Global ("P_FallMission2","GLOBAL",8)
+
+
+
+// Si en la party se encuentra Fall, entonces setea el Timer y el Global en 1
+IF 
+InParty(Myself)
+Global("P_FallTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_FallTimer","GLOBAL",60) // TTT 2000
+SetGlobal("P_FallTalk","GLOBAL",1)
+END
+
+
+// TIEMPOS DE D&D&
+// 4200	8 game hours
+// 525	1ghr
+// 60	10ming
+// 6	1ming
+
+//   <<<   1 asalto es 1 min de juego (ming) = 6 segundos	>>>	
+// 10 asaltos = 1 turno (1 min = 60 seg)					
+
+// ***************************************************************
+
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_FallTimer","GLOBAL")
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)
+Global("P_FallTalk","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_FallTalk","GLOBAL",1)
+END
+
+// TIMER P_Fall_T2
+IF 
+InParty(Myself) 	
+Global("P_FallMission1","GLOBAL",4) // Mission 1 Completada
+Global("P_Fall_T2","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_FallTimer","GLOBAL",60) // TTT 1800
+SetGlobal("P_Fall_T2","GLOBAL",1)  
+END
+
+// P_Fall_T2
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_FallTimer","GLOBAL")
+Global("P_FallMission1","GLOBAL",4)
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)
+Global("P_Fall_T2","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Fall_T2","GLOBAL",1)
+END
+
+//T3
+
+// TIMER P_Fall_T3
+IF 
+InParty(Myself) 	
+Global("P_Fall_T2","GLOBAL",3) // Talk2 realizada
+Global("P_Fall_T3","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_FallTimer","GLOBAL",60) // TTT 3600
+SetGlobal("P_Fall_T3","GLOBAL",1)  
+END
+
+// P_Fall_T3
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_FallTimer","GLOBAL")
+Global("P_Fall_T2","GLOBAL",3)
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)
+Global("P_Fall_T3","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Fall_T3","GLOBAL",1)
+END
+
+
+//SP1_1 Voragor
+
+// TIMER P_Fall_SP1_1
+IF 
+InParty(Myself) 	
+PartyHasItem("p_basgem") // Fall YA tiene la gema de Voragor
+Global("P_Fall_SP1_1","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_FallTimerSP","GLOBAL",60) // TTT 3600
+SetGlobal("P_Fall_SP1_1","GLOBAL",1)  
+END
+
+// P_Fall_SP1_1
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_FallTimerSP","GLOBAL")
+PartyHasItem("p_basgem") // Fall YA tiene la gema de Voragor
+Global ("P_Fall_WolvesSubject","GLOBAL",1) // Fall debe haber hablado sobre sus lobos para que esto funcione
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+//!AreaType(DUNGEON)
+Global("P_Fall_SP1_1","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Fall_SP1_1","GLOBAL",1)
+END
+
+//SP1_2 Voragor
+
+// TIMER P_Fall_SP1_2
+IF 
+InParty(Myself) 	
+PartyHasItem("p_basgem") // Fall YA tiene la gema de Voragor
+Global("P_Fall_SP1_1","GLOBAL",3)
+Global("P_Fall_SP1_2","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_FallTimerSP","GLOBAL",60) // TTT 3600
+SetGlobal("P_Fall_SP1_2","GLOBAL",1)  
+END
+
+// P_Fall_SP1_2
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_FallTimerSP","GLOBAL")
+PartyHasItem("p_basgem") // Fall YA tiene la gema de Voragor
+Global("P_Fall_SP1_1","GLOBAL",3)
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+//!AreaType(DUNGEON)
+Global("P_Fall_SP1_2","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Fall_SP1_2","GLOBAL",1)
+END
+
+
+//T4
+
+// TIMER P_Fall_T4
+IF 
+InParty(Myself) 	
+Global("P_Fall_T3","GLOBAL",3) // Talk3 realizada
+Global("P_Fall_T4","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_FallTimer","GLOBAL",60) // TTT 3600
+SetGlobal("P_Fall_T4","GLOBAL",1)  
+END
+
+// P_Fall_T4
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_FallTimer","GLOBAL")
+Global("P_Fall_T3","GLOBAL",3)
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)
+Global("P_Fall_T4","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Fall_T4","GLOBAL",1)
+END
+
+
+//T5
+
+// TIMER P_Fall_T5
+IF 
+InParty(Myself)
+Global ("P_FallMission2","GLOBAL",8)
+Global("P_Fall_T4","GLOBAL",3) // Talk3 realizada
+Global("P_Fall_T5","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_FallTimer","GLOBAL",60) // TTT 2200
+SetGlobal("P_Fall_T5","GLOBAL",1)  
+END
+
+// P_Fall_T5
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_FallTimer","GLOBAL")
+Global ("P_FallMission2","GLOBAL",8)
+Global("P_Fall_T4","GLOBAL",3)
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)
+!AreaCheck("AR0511")
+Global("P_Fall_T5","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Fall_T5","GLOBAL",1)
+END
+
+//SP2_1 Kitochi
+
+// TIMER P_Fall_SP2_1
+IF 
+InParty(Myself)
+Global("P_Fall_Kitochi_Stay","GLOBAL",1)
+Global("P_Fall_SP2_1","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_FallTimerSP","GLOBAL",60) // TTT 3600
+SetGlobal("P_Fall_SP2_1","GLOBAL",1)  
+END
+
+// P_Fall_SP2_1
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_FallTimerSP","GLOBAL")
+Global("P_Fall_Kitochi_Stay","GLOBAL",1)
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+//!AreaType(DUNGEON)
+Global("P_Fall_SP2_1","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Fall_SP2_1","GLOBAL",1)
+END
+
+//SP3_1 Tabitha
+
+// TIMER P_Fall_SP3_1
+IF 
+InParty(Myself)
+PartyHasItem ("P_MALAR") // Fall tiene la estatuilla de Ivor
+Global("P_Fall_SP3_1","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_FallTimerSP","GLOBAL",60) // TTT 3600
+SetGlobal("P_Fall_SP3_1","GLOBAL",1)  
+END
+
+// P_Fall_SP3_1
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_FallTimerSP","GLOBAL")
+PartyHasItem ("P_MALAR") // Fall tiene la estatuilla de Ivor
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+//!AreaType(DUNGEON)
+Global("P_Fall_SP3_1","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Fall_SP3_1","GLOBAL",1)
+END
+
+
+// TIMER P_Fall_SP3_2 AEGER is obtained
+IF 
+InParty(Myself)
+PartyHasItem ("P_MALAR") // Fall tiene la estatuilla de Ivor
+Global("P_Fall_Aeger_Obtained","GLOBAL",1)
+Global("P_Fall_SP3_1","GLOBAL",3)
+Global("P_Fall_SP3_2","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_FallTimerSP","GLOBAL",60) // TTT 800
+SetGlobal("P_Fall_SP3_2","GLOBAL",1)  
+END
+
+// P_Fall_SP3_2 AEGER's Hide Study
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_FallTimerSP","GLOBAL")
+PartyHasItem ("P_MALAR") // Fall tiene la estatuilla de Ivor
+Global("P_Fall_Aeger_Obtained","GLOBAL",1)
+//PartyHasItem ("LEAT20") // Party has Aeger's Hide
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+//!AreaType(DUNGEON)
+Global("P_Fall_SP3_2","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Fall_SP3_2","GLOBAL",1)
+END
+
+// AEGER's Hide obtained -> DIALOG START
+IF
+InParty(Myself)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+//!AreaType(DUNGEON)
+PartyHasItem ("LEAT20") // Party has Aeger's Hide
+Global("P_Fall_SP3_1","GLOBAL",3)
+Global("P_Fall_SP3_AEGER","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_Fall_SP3_AEGER","GLOBAL",1)
+Wait(1)
+StartDialogueNoSet(Player1)
+END
+
+// Fall Music Story
+IF
+InParty(Myself)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)
+OR(5)                                    
+Global("P_FallTalk","GLOBAL",2)
+Global("P_Fall_T2","GLOBAL",2)
+Global("P_Fall_T3","GLOBAL",2)
+Global("P_Fall_T4","GLOBAL",2)
+Global("P_Fall_T5","GLOBAL",2)
+THEN
+RESPONSE #100
+PlaySong (4443)
+//PlaySound ("P_FallG")
+StartDialogueNoSet(Player1)
+END
+
+// Fall Music Spell
+IF
+InParty(Myself)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+//!AreaType(DUNGEON)
+OR(5)
+Global("P_Fall_SP1_1","GLOBAL",2)
+Global("P_Fall_SP1_2","GLOBAL",2)
+Global("P_Fall_SP2_1","GLOBAL",2)
+Global("P_Fall_SP3_1","GLOBAL",2)
+Global("P_Fall_SP3_2","GLOBAL",2)
+THEN
+RESPONSE #100
+PlaySong (4442)
+//PlaySound ("P_FallE")
+StartDialogueNoSet(Player1)
+END
+
+
+
+// Talk Tabitha's Beastmaster
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See ("BEAST")
+AreaCheck("AR0406")
+Global("SlavingJerk","GLOBAL",0)
+Global("P_FallTabitha1st","GLOBAL",0)
+Global("P_FallTabitha1st_SC","GLOBAL",0)
+THEN
+RESPONSE #100
+  SetGlobal ("P_FallTabitha1st_SC","GLOBAL",1)
+  //ActionOverride("BEAST",SetNumTimesTalkedTo(2))
+  StartDialogueNoSet(Player1)
+  ActionOverride("BEAST",SetName(@200048))  
+END
+
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!AreaCheck("AR0406")
+Dead("LEHTINAN")
+Global("P_FallTabitha1st_SC","GLOBAL",1)
+Global("P_FallTabitha_P_Beast_Creat","GLOBAL",0)
+THEN
+RESPONSE #100
+  SetGlobal ("P_FallTabitha_P_Beast_Creat","GLOBAL",1)
+  CreateCreatureObject ("P_BEAST", Myself,0,0,0)
+  //CreateCreatureObjectDoor("p_valata","p_dusk",0,0,0) 
+  CreateCreatureObject ("P_TABIT", Myself,0,0,0)
+  Wait(1)
+  ActionOverride("P_BEAST",FaceObject("P_Fall"))
+  ActionOverride("P_TABIT",FaceObject("P_Fall"))
+  Continue()
+END
+
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See ("P_BEAST")
+See ("P_TABIT")
+!AreaCheck("AR0406")
+Dead("LEHTINAN")
+Global ("P_FallTabitha_P_Beast_Creat","GLOBAL",1)
+Global("P_FallTabitha1st_SC","GLOBAL",1)
+THEN
+RESPONSE #100
+  SetGlobal ("P_FallTabitha1st_SC","GLOBAL",2)  
+  StartDialogueNoSet(Player1)
+END
+
+IF
+InParty(Myself)
+AreaCheck("P_FAR2")
+Dead("P_KAKUTO")
+Global ("P_FallKakuto_Died","GLOBAL",0)
+THEN
+RESPONSE #100
+  SetGlobal ("P_FallKakuto_Died","GLOBAL",1)  
+  StartDialogueNoSet(Player1)
+END
+
+// Fall habla sobre la muerte de Alendir
+IF
+  InParty(Myself)
+  Global ("P_FallMission3","GLOBAL",9)
+  Global ("P_FallAboutAlendir","GLOBAL",0)
+  !AreaCheck("P_FAR1")
+  !AreaCheck("P_FAR2")
+  !AreaCheck("P_FAR3")
+  !AreaCheck("AR0404")
+  !AreaCheck("AR0405")
+  !AreaCheck("AR0406")
+  PartyHasItem("p_ficero")
+  CombatCounter(0)
+  See(Player1)
+THEN
+  RESPONSE #100
+  SetGlobal ("P_FallAboutAlendir","GLOBAL",1)
+  StartDialogNoSet(Player1)
+END
+
+
+
+// Fall habla sobre Gorm (Kitochi Muere)
+IF
+  InParty(Myself)
+  Global ("P_FallAboutGormsDeath","GLOBAL",0)
+  AreaCheck("P_FAR4")
+  Dead("P_GORM")
+  PartyHasItem("p_hgormu")
+  CombatCounter(0)
+  See(Player1)
+  Dead("P_KITOCH")
+THEN
+  RESPONSE #100
+  SetGlobal ("P_FallAboutGormsDeath","GLOBAL",1)
+  StartDialogNoSet(Player1)
+END
+
+// Fall in the Underdark
+IF
+InParty(Myself) 
+Global("P_Fall_in_Underdark","GLOBAL",0)	
+AreaCheck("AR2100")
+THEN
+RESPONSE #100
+SetGlobal("P_Fall_in_Underdark","GLOBAL",1)
+END
+
+
+// Aparición del espíritu de Alendir
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global("P_Fall_in_Underdark","GLOBAL",1)
+Global("P_Fall_T5","GLOBAL",3)
+Global("P_FallAboutAlendir","GLOBAL",2)
+Global ("P_Fall_Final_Mission_Init","GLOBAL",0)
+PartyHasItem("p_ficero") //AGREGAR ITEM DE LA ROSA DE HIELO
+OR (13)
+AreaCheck("AR0020")
+AreaCheck("AR0400")
+AreaCheck("AR0700")
+AreaCheck("AR0500")
+AreaCheck("AR1000")
+AreaCheck("AR2000")
+AreaCheck("AR1900")
+AreaCheck("AR1200")
+AreaCheck("AR1100")
+AreaCheck("AR1700")
+AreaCheck("AR2600")
+AreaCheck("AR1800")
+AreaCheck("AR0900")
+THEN
+RESPONSE #100
+  Wait(2)
+  StartCutSceneMode()
+  Wait(2)  
+  CreateCreatureObjectDoor("p_alengh","p_fall",0,0,0) //AGREGAR ALENDIR GHOST
+  Wait(5)
+  EndCutSceneMode()
+  SetGlobal ("P_Fall_Final_Mission_Init","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+
+// Fall habla sobre el viaje de ida hacia Rachnidra
+IF
+  InParty(Myself)
+  Global ("P_Fall_Final_Mission","GLOBAL",1)
+  Global ("P_FallAboutRachnidra1","GLOBAL",0)
+  !PartyHasItem("p_ficero")
+  CombatCounter(0)
+  See(Player1)
+THEN
+  RESPONSE #100
+  Wait(4)
+  SetGlobal ("P_FallAboutRachnidra1","GLOBAL",1)
+  StartDialogNoSet(Player1)
+END
+
+// Fall aprende a invocar a Kakuto
+IF
+  InParty(Myself)
+  Global ("P_Fall_KakutoSummoningIA","GLOBAL",2)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  SetGlobal ("P_Fall_KakutoSummoningIA","GLOBAL",3)
+  ReallyForceSpellRES("p_kakut",Myself) 
+  //CreateItem ("p_kakut",1,2,1)
+  //GiveItem("p_kakut", "P_Fall")
+  //UseItem ("p_kakut", Myself) 
+  //DestroyItem ("p_kakut")
+  Wait(4)
+  DisplayStringHead(Myself,@200284)
+  Wait(2)
+  StartDialogNoSet(Player1)
+  EndCutSceneMode()
+END
+
+// Fall en el Cubil de Morgrath
+IF
+InParty(Myself) 
+Global("P_FallInFinalBattle_PA16","GLOBAL",0)	
+AreaCheck("P_FA16")
+THEN
+RESPONSE #100
+SetGlobal("P_FallInFinalBattle_PA16","GLOBAL",1)
+END
+
+// Fall ve a su madre en PA16
+IF
+InParty(Myself) 
+Global("P_FallInFinalBattle_PA16","GLOBAL",2)
+AreaCheck("P_FA16")
+THEN
+RESPONSE #100
+SetGlobal("P_FallInFinalBattle_PA16","GLOBAL",3)
+StartDialogNoSet(Player1)
+END
+
+// Fall Final Scene
+IF
+InParty(Myself) 
+Global("P_FallGemAR2601","GLOBAL",3)
+AreaCheck("P_2601")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("P_FallGemAR2601","GLOBAL",4)
+StartDialogNoSet(Player1)
+EndCutSceneMode()
+Continue()
+END
+
+// FURIA por muerte de Fall
+IF
+  InParty("P_Dusk") 
+  !Dead("P_Dusk")
+  Global("P_FallFuryP_Dusk","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_FallFuryP_Dusk","GLOBAL",0)
+END
+
+IF
+  IfValidForPartyDialogue(Myself)
+  Global("P_FallFuryP_Dusk","GLOBAL",0)
+  Dead("P_Dusk")
+THEN
+  RESPONSE #100
+    SetGlobal("P_FallFuryP_Dusk","GLOBAL",1)
+    DisplayStringHead(Myself,@700044)
+	Attack(LastAttackerOf("P_Dusk"))
+END
+
+
+/*
+// Creación del Talismán del Muerto Viviente
+IF
+  Global ("P_Fall_UndeadTalismanCreated","GLOBAL",0)
+  PartyHasItem("p_fragm1")
+  PartyHasItem("p_fragm2")
+  PartyHasItem("p_fragm3")
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(1)
+  TakePartyItem("p_fragm1")
+  TakePartyItem("p_fragm2")
+  TakePartyItem("p_fragm3")
+  DestroyItem("p_fragm1")
+  DestroyItem("p_fragm2")
+  DestroyItem("p_fragm3")
+  CreateItem ("P_FTALI1",1,2,1)
+  SetGlobal ("P_Fall_UndeadTalismanCreated","GLOBAL",1)
+  DisplayStringHead(Myself,@200132)
+  EndCutSceneMode()
+  Continue()
+END
+*/
+
+
+/*IF
+InParty(Myself)
+//See("P_KAKUTO")
+Global("P_FallTabitha_KakutQuest","GLOBAL",0)
+AreaCheck("P_FAR2")
+OR (2)
+See ("P_TABIT")
+InMyArea ("P_TABIT")
+THEN
+RESPONSE #100
+  SetGlobal ("P_FallTabitha_KakutQuest","GLOBAL",1) 
+END
+*/
+
+/*
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!See ("P_TABIT")
+AreaCheck("P_FAR2")
+Global("P_FallTabitha_KakutQuest","GLOBAL",1)
+THEN
+RESPONSE #100
+  SetGlobal ("P_FallTabitha_KakutQuest","GLOBAL",0) 
+END
+*/

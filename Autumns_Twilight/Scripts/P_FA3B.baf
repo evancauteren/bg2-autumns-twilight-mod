@@ -1,0 +1,76 @@
+// Patch Without Fall Final Quest
+IF
+Global ("P_OpenPortal_PFA3B","GLOBAL",1)
+Global ("P_PatchOpenPortal_PFA3B","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_Fall_Final_Mission","GLOBAL",1)
+SetGlobal ("P_PatchOpenPortal_PFA3B","GLOBAL",1)
+END
+
+// Vidomina Spawn
+IF
+Global("P_VidominaSpawnP_FA3B","GLOBAL",0)
+Global ("P_MorgrathSpawnPF16","GLOBAL",10)
+THEN
+RESPONSE #100
+CreateCreature("p_vidomi",[857.243],SW)
+SetGlobal("P_VidominaSpawnP_FA3B","GLOBAL",1)
+END
+
+// Vidomina's Children
+IF
+Global("P_VidominaChildrenSpawnP_FA3B","GLOBAL",0)
+Global("P_VidominaSpawnP_FA3B","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("p_tamik2",[935.267],SW)
+CreateCreature("p_nimbu2",[788.229],SE)
+CreateCreature("p_xsi2",[463.350],E)
+CreateCreature("p_tobias",[879.254],SW)
+SetGlobal("P_VidominaChildrenSpawnP_FA3B","GLOBAL",1)
+END
+
+// CHO
+IF
+Global("P_ChoSpawnPFA16","GLOBAL",1)
+Global("P_ChoSpawnP_FA3B","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("p_chon",[941.340],W)
+SetGlobal("P_ChoSpawnP_FA3B","GLOBAL",1)
+END
+
+// REVIVAL FRIENDS
+IF
+Global("P_ChoCommandersSpawnPFA16","GLOBAL",1)
+Global("P_ChoCommandersSpawnPFA3B","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_VRESH",[984.509],W)
+CreateCreature("P_QYL",[950.545],W)
+CreateCreature("P_GASS",[419.410],E)
+SetGlobal("P_ChoCommandersSpawnPFA3B","GLOBAL",1)
+END
+
+// Young Alendir
+IF
+Global("P_FallM3_AlendirAllied","GLOBAL",1)
+Global ("P_MorgrathSpawnPF16","GLOBAL",10)
+Global ("P_FallGemAR2601","GLOBAL",6)
+Global ("P_YoungAlendirSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("p_alen",[714.273],SE)
+SetGlobal("P_YoungAlendirSpawn","GLOBAL",1)
+END
+
+// Phillipe
+IF
+Global ("P_FMissionPhillipe","GLOBAL",3)
+Global ("P_PhillipeSpawnPF3B","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_phill3",[759.265],SW)
+SetGlobal("P_PhillipeSpawnPF3B","GLOBAL",1)
+END

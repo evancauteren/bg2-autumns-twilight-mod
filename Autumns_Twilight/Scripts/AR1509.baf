@@ -1,0 +1,127 @@
+//EVIL
+IF
+Global("P_DuskDanctialMISSION","GLOBAL",5)
+THEN
+RESPONSE #100
+ActionOverride("elemep01",DestroySelf())
+ActionOverride("eleoty01",DestroySelf())
+ActionOverride("elemep02",DestroySelf())
+ActionOverride("elemep03",DestroySelf())
+ActionOverride("elemep04",DestroySelf())
+ActionOverride("elemep05",DestroySelf())
+ActionOverride("elemep06",DestroySelf())
+ActionOverride("elemep07",DestroySelf())
+ActionOverride("elemep08",DestroySelf())
+ActionOverride("ELEARB03",DestroySelf())
+ActionOverride("ICMYC01",DestroySelf())
+ActionOverride("ICMYC01",DestroySelf())
+ActionOverride("ICMYC02",DestroySelf())
+SetGlobal("ArbiterSpawn","AR1509",2)
+Continue()
+END
+
+//EDITAAAAR
+// Espíritu verdadero de Celine
+IF
+Global("P_DuskDanctialMISSION","GLOBAL",5)
+Global("P_CelineSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+CreateCreature("p_dancti",[455.625],15)  
+Wait(7)
+//CreateVisualEffect("SPDIMNDR",[1174.720])
+CreateVisualEffect("SPBASEWT",[574.435])
+Wait(1)
+CreateCreature("p_celin",[574.435],15)  
+SetGlobal("P_CelineSpawn","GLOBAL",1)
+Wait(4)
+EndCutSceneMode()
+Continue()
+END
+
+
+// Celine gone
+IF
+Global("P_CelineSpawn","GLOBAL",2)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(2)
+  SetGlobal("P_CelineSpawn","GLOBAL",3)
+  CreateVisualEffect("SPBASEWT",[574.435])
+  Wait(1)
+  ActionOverride("p_celin",DestroySelf())
+  CreateVisualEffect("SPHEALIN",[574.435])
+  Wait(2)
+  EndCutSceneMode()
+  Continue()
+END
+
+
+
+// Regreso a Guarida de Mathyus
+
+IF
+  Global("P_CelineSpawn","GLOBAL",4)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal("P_CelineSpawn","GLOBAL",5)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+	CreateVisualEffect("SPHEALIN",[1076.861])
+	CreateVisualEffect("SPHEALIN",[869.868])
+	CreateVisualEffect("SPHEALIN",[994.941])
+	CreateVisualEffect("SPHEALIN",[988.740])
+	Wait(1)
+    ActionOverride("p_michel",DestroySelf())
+	ActionOverride("p_matut",DestroySelf())
+    ActionOverride("p_demole",DestroySelf())
+    Wait(1)
+   // LeaveAreaLUAPanic("AR0020","",[585.608],NW)
+   // LeaveAreaLUA("AR0020","",[585.608],NW)
+	ActionOverride(Player1,LeaveAreaLUA("P_AR14","",[774.881],NW))
+    ActionOverride(Player2,LeaveAreaLUA("P_AR14","",[818.890],NW))
+    ActionOverride(Player3,LeaveAreaLUA("P_AR14","",[730.892],NW))
+    ActionOverride(Player4,LeaveAreaLUA("P_AR14","",[728.943],NW))
+    ActionOverride(Player5,LeaveAreaLUA("P_AR14","",[828.943],NW))
+    ActionOverride(Player6,LeaveAreaLUA("P_AR14","",[771.960],NW))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END
+
+
+IF
+  Dead("elemep01")  // ~Méfit de cieno~
+  Dead("eleoty01")  // ~Otyugh mayor~
+  NumDeadGT("elemep02",1)
+  Global("ArbiterSpawn","AR1509",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ArbiterSpawn","AR1509",1)
+    CreateCreature("ELEARB03",[397.345],E)  // ~Aparición~
+END
+
+IF
+CombatCounter(0)
+Global("ArbiterSpawn","AR1509",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ArbiterSpawn","AR1509",1)
+    CreateCreature("ELEARB03",[397.345],E)  // ~Aparición~
+END

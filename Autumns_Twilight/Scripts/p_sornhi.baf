@@ -1,0 +1,51 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@400326)
+END
+
+IF
+  Global ("P_Dusk_Mat2_hypno","GLOBAL",2)
+  Global ("P_Dusk_Sornhi_enem","GLOBAL",0)
+THEN
+  RESPONSE #100
+	SetGlobal ("P_Dusk_Sornhi_enem","GLOBAL",1)
+	Enemy()
+	Continue()
+END
+
+IF
+  Global ("P_Dusk_Danc_Multi","GLOBAL",2)
+  Global ("P_Dusk_Sornhi_enem","GLOBAL",0)
+THEN
+  RESPONSE #100
+	SetGlobal ("P_Dusk_Sornhi_enem","GLOBAL",1)
+	Enemy()
+	Continue()
+END
+
+IF
+!Allegiance(Myself, ENEMY)
+OR(7)
+Allegiance("p_valata", ENEMY)
+Allegiance("p_kaland", ENEMY)
+Allegiance("p_kalan2", ENEMY)
+Allegiance("p_anthag", ENEMY)
+Allegiance("p_antha2", ENEMY)
+Allegiance("p_dempid", ENEMY)
+Allegiance("p_matu2", ENEMY)
+THEN
+RESPONSE #100
+  Enemy()
+END
+
+IF
+  !Allegiance(Myself, ENEMY)
+  ActionListEmpty()
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Enemy()
+	AttackReevaluate(NearestEnemyOf(Myself),45)
+END

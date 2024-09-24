@@ -1,0 +1,450 @@
+//EVIL
+
+@0 = ~Libero... finalmente...~
+@1 = ~Ardusk Aldant e <CHARNAME>. Vi devo la mia lealtà...~
+@2 = ~Un Demone Ombra?! Dusk, stai all'erta! Dobbiamo sconfiggerlo.~
+@3 = ~Per Candelero! Ma chi diavolo sei?~
+@4 = ~Non devi temere per me, figlio di Bhaal. Non credo di essere la prima creatura non ostile che incontri. Come Ardusk, la mia lealtà sarà con te finché lui ti accompagna.~ ~Non devi temere per me, figlia di Bhaal. Non credo di essere la prima creatura non ostile che incontri. Come Ardusk, la mia lealtà sarà con te finché lui ti accompagna.~
+@5 = ~Il mio nome è Danctian Shadow. Il mio cognome potrebbe sembrare ridondante, ma è così che, per quanto ricordo, mi chiamano.~
+@6 = ~Per un breve periodo sono stato usato come canale tra Pandemonio e questo piano. L'Ordine dei Maghi che sta inseguendo Ardusk è interessato anche a stabilire un contatto diretto con il Piano dell'Energia Negativa.~
+@7 = ~Percepisco che è legato alla Necromanzia, data la specializzazione del loro leader.~
+@8 = ~Non capisco perché ci stai raccontando tutto questo. Stai cercando di guadagnare la nostra fiducia?~
+@9 = ~Appari dal nulla e la tua energia demoniaca è troppo evidente. Dammi una buona ragione per non distruggerti qui e ora.~
+@10 = ~Non c'è bisogno di violenza qui e ora, figlio di Bhaal. Non ho intenzione di attaccarti.~
+@11 = ~Se confidi in Ardusk, puoi confidare anche in me. Sono legato alla sua volontà, poiché... ho preso parte della sua energia vitale per potermi materializzare in questo piano.~
+@12 = ~Ma basta con le spiegazioni... Vedo che hai una domanda particolare, mortale, non è vero?~
+@13 = ~Che utilità avrai per noi? Almeno il leprechaun era utile per creare oggetti.~
+@15 = ~Ho assorbito il potere della creatura magica. Posso manipolare il suo potere di creazione con un notevole miglioramento. Avete ancora il libro delle ricette? Posso forgiare quegli artefatti senza bisogno di oro, anche se gli altri ingredienti sono ancora necessari.~
+@17 = ~Infatti, vedo che hai ottenuto una spedizione da Cormyr dal tuo recente... scontro con Alabaster. Ci sarà molto utile, vedrai.~
+
+
+@18 = ~Posso forgiare artefatti speciali per voi. Anche qualcosa di... personalizzato per i tuoi compagni, figlio di Bhaal.~ ~Posso forgiare artefatti speciali per voi. Anche qualcosa di... personalizzato per i tuoi compagni, figlia di Bhaal.~
+@19 = ~È vero, <CHARNAME>. Il demone oscuro è, per ora, un'estensione di me stesso. Tuttavia, rimarrà qui, ad Athkatla.~
+@20 = ~La verità è che... Danctian doveva possedermi per adempiere alla volontà dei Maghi che abbiamo incontrato.~
+@21 = ~Non è stato fino a quando uno dei Maghi ha commesso un errore.~
+@22 = ~Valatar ha evocato un demone abissale, anche lui dal mio piano.~
+@23 = ~Affrontandovi, il contatto dell'essenza dell'orbe scarlatto su Ardusk mi ha permesso di comunicare chiaramente con lui.~
+@24 = ~Mentre avanzavamo verso il covo di Alabarza, ho continuato la mia conversazione con Danctian. Nella mia mente.~
+@25 = ~Mi ha detto che dovevo sconfiggere Alabarza e tornare qui, nel covo di Mathyus e Michelson.~
+@26 = ~La proposta era quella di essere il condotto del suo potere, in modo da poter assorbire l'energia vitale degli shilmisti.~
+@27 = ~In cambio, mi avrebbe donato un potere al di là di ogni immaginazione.~
+@28 = ~Ero consapevole del possibile tradimento, <CHARNAME>. Ma ho pensato che fosse qualcosa che avremmo potuto gestire senza problemi, se fosse stato necessario.~
+@29 = ~Figlio di Bhaal, come vedrai, Ardusk ha una fede immensa in te. È disposto a morire per te. Chiede solo che tu lo accompagni nella sua vendetta.~ ~Figlia di Bhaal, come vedrai, Ardusk ha una fede immensa in te. È disposto a morire per te. Chiede solo che tu lo accompagni nella sua vendetta.~
+@30 = ~Per te, uomo del Nord... ho preparato questa pozione speciale. Aumenterà notevolmente le tue capacità mentali. Potresti persino diventare un canale divino per la divinità a cui servi.~
+@31 = ~Hmm... Boo ha i suoi dubbi su di te, creatura. Ma se <CHARNAME> e Dusk confidano in te, allora Minsc farà lo stesso.~
+@32 = ~Non temere, fanciulla. Ardusk ti stima molto, quindi ho fatto questo appositamente per te.~
+@33 = ~È... un emblema di Baervan? Hmm... g-grazie, suppongo... (Dusk, sei sicuro di questo?)~
+
+
+
+@34 = ~Vedo che non hai molta fiducia in me, paladino. Posso vedere chiaramente il tuo desiderio di trapassarmi con la tua spada, così come il male innato che esiste nell'umanità.~
+@35 = ~Hai ragione, mostro. L'unico motivo per cui non ti attacco è perché, stranamente, non percepisco la tua intenzione di farci del male.~
+@36 = ~Ma sappi che ti estirperò da questa terra, in nome di Torm, se le tue intenzioni sono malvagie.~
+@37 = ~Il male è relativo, sir Keldorn Levafuoco. Potrei cercare vendetta contro tutta la tua razza per ciò che mi hanno fatto... eppure, il mio potere è contenuto per rispetto verso Ardusk e <CHARNAME>.~
+@38 = ~Ma basta con le chiacchiere... i tuoi compagni ti stimano molto... per questo ho preparato questo per te. Sono sicuro che saprai trovargli un'utilità, anche per i tuoi fini personali.~
+@39 = ~Va bene, creatura. Giovane Dusk, spero che tu ne prenda responsabilità... sia lui... sia lei... o qualunque cosa sia questa ombra demoniaca.~
+@40 = ~Le tue faccende mi interessano poco, mortale. Puoi stare tranquillo che non mi metterò sulla tua strada. Anzi, voglio che tu raggiunga la meta... il più velocemente possibile. Questa katana servirà bene ai tuoi scopi oscuri...~
+@41 = ~Hm... Yoshimo di solito non rimane senza parole... ma sembra che questo Danctian ci sia riuscito. Comunque, grazie per la katana...~
+@42 = ~Non preoccuparti per me, valoroso halfling. Ti assicuro che non ho cattive intenzioni nei tuoi confronti. So che hai avuto un'esperienza... sfortunata con quelli della mia razza.~
+@43 = ~"Sfortunata" è una parola troppo gentile, demone. Se fosse per me, eradicerei tutti della tua razza da questa terra.~
+@44 = ~Un nobile ideale, lady Fentan. Credo che questo possa aiutarti nella tua impresa. Forse, un giorno, il tuo cammino ti porterà a... cercare... di eradicarmi. Spero che tu cambi idea quando arriverà quel momento...~
+@45 = ~Sarà difficile... Tuttavia, grazie per l'oggetto (stai certo che dovrò scoprire di cosa si tratta prima di usarlo...).~
+@46 = ~Per Helm! Non avvicinarti a me, creatura...~
+@47 = ~Perché lo dici, erede di Delryn? Non è per paura che non vuoi che mi avvicini... o sì?~
+
+
+@48 = ~Immondo demone! Non ho paura di te... ma nemmeno ti distruggerò. Per semplice rispetto verso <CHARNAME> e Dusk.~
+@49 = ~Lo so, monaco... ed è per questo che ho portato questa spada per te...~
+@50 = ~Una spada...? Per gli dèi... ha l'emblema della mia famiglia... Come...?~
+@51 = ~Ve l'ho detto... il mio potere trascende questo piano... e persino il tempo. Quella spada può essere impugnata solo da qualcuno del sangue Delryn. Confido che le darai un buon uso, mortale.~
+@52 = ~Hmpf... non ho bisogno di una spada per dimostrare il mio valore... Tuttavia, accetterò il tuo dono, demone.~
+@53 = ~La tua famiglia ha avuto un destino funesto, mortale. Tuttavia, confido che questo simbolo possa servire all'ultima erede di De'Arnise.~
+@54 = ~C-cosa? Da dove hai preso questo, creatura? Ha... ha l'emblema della mia famiglia... inoltre... mi sembra così familiare... *gola* G-grazie, suppongo...~
+@55 = ~Non ne parli molto, ma so che nomini il suo nome a bassa voce molte notti, mezzaelfa. Questa è la mia ricompensa per te, per aver aiutato Dusk nella sua impresa.~
+@56 = ~Il simbolo di Mystra? Chiederei come lo hai saputo... ma suppongo che la risposta sarebbe qualcosa... di confuso. Comunque, grazie.~
+@57 = ~Ah, sì... quest'Orbe è estremamente potente. Le conoscenze che ho... recentemente acquisito mi hanno permesso di forgiarlo. Mortale, dovresti averlo tu.~
+@58 = ~Percepisco una calma tempesta in quest'orbe, come se in esso fosse contenuto il sogno di una farfalla. Sebbene la tua origine innaturale mi inquieta, hai avuto la saggezza sufficiente per creare un'opera così piccola e perfetta. Sei strano, Danctian. Seguirò da vicino il tuo operato su questo piano e vedrò come influenzerà il Grande Equilibrio.~
+@59 = ~Va bene, druido. Puoi star sicuro... non è mia intenzione intromettermi negli affari preordinati di questa terra.~
+@60 = ~Cosa abbiamo qui? Un mortale che rinnega la sua famiglia. È qualcosa di strano in uno di discendenza nobile.~
+@61 = ~E cosa ne sai tu della discendenza nobile degli uomini su questo piano?~
+@62 = ~Ti sorprenderebbe ciò che si può imparare osservando dalla disperazione di un pozzo. Sebbene i miei ricordi passati non siano del tutto chiari, le esperienze su questo piano materiale non mi sono estranee.~
+
+
+
+@63 = ~Hai avuto una brutta esperienza con le creature del Piano Negativo, a causa della corruzione arcana dei tuoi antenati. Ti assicuro che il Pandemonium è strettamente legato a ciò.~
+@64 = ~Non mi interessano le tue storie, Danctian. Sai che non ti distruggo per rispetto verso Dusk.~
+@65 = ~Lo so, mortale, lo so. Forse questo placherà le acque tra di noi. E, al contempo, ti offrirà una maggiore chiarezza sulla tua famiglia.~
+@66 = ~Questi pergamene... hanno il sigillo della mia famiglia. *rimane per un istante dubbioso, poi si schiarisce la voce* Mediterò su di esse, se dovrei usarle o meno, Danctian.~
+@67 = ~So che lo farai, giovane mortale...~
+@68 = ~Ecco, ecco... una seguace di Shar. Per strano che possa sembrare, la tua presenza qui non mi sorprende, drow. Poiché hai aiutato Ardusk nella sua impresa, ho preparato qualcosa di speciale per te.~
+@69 = ~Un simbolo di Shar? Percepisco un potere strano in esso. Sì... questo sarà utile...~
+@70 = ~Credo che tu sappia che questo tomo è per te, mortale. Non è vero?~
+@71 = ~Sì, creatura. Edwin Odesseiron merita il potere di questo tomo per aver messo le sue grandi abilità al servizio di quest'uomo insignificante. (Sì, direi che lo merita più di quanto pensi...)~
+@72 = ~Oh, sì... vedo lo splendore nei tuoi occhi, guerriero. Sai che questo è per te. So che taglierai molte vite con esso...~
+@73 = ~Ah! Sai davvero come scegliere i colori per un'ascia, demone. E hai ragione... taglierò il maggior numero di teste possibile con questo, capisci?~
+@74 = ~Sono sicuro che hai una storia per questo, piccolo mortale. Questa pozione è per te.~
+@75 = ~Oh, una pozione gnomica! Mi ricorda quando mia zia Gertrudis è stata catturata dalla guardia di Amn per contrabbando di bevande energetiche. Uno potrebbe pensare: "Cosa c'è di male nelle bevande energetiche?" Bene, io dico che niente. Anche se potrebbero aver imprigionato mia zia per gli effetti collaterali delle sue bevande. Credo che facessero crescere i peli sui denti. In ogni caso, questa pozione sembra ottima. Non vedo l'ora di provarla.~
+
+
+
+@76 = ~Se c'è qualcuno che comprende i viaggi interplanari, quello sei tu, vero, tiefling? Confido che ne farai buon uso.~
+@77 = ~Oh, queste rune mi risultano familiari... Non saprei come ringraziarti, corvo incorporeo! C'è musica nel tuo piano? Potrei comporre una o due canzoni per te.~
+@78 = ~Ardusk, per te ho questo: la gemma del Drago Porpora. Con essa possiamo potenziare la Spada della Disruzione o l'Armatura di Cormyr, dipende da ciò che scegli. È evidente che devi avere uno dei due artefatti, giusto?~
+@79 = ~Bene, Danctian. Quando arriverà il momento, sono sicuro che <CHARNAME> mi aiuterà a fare la scelta giusta.~
+@80 = ~Ah, capisco, Ardusk... hai portato con te la mano di Alabarza... Hai fatto come ti ho indicato. Bene, bene...~
+@81 = ~Così è. Cosa farai con essa?~
+@82 = ~In un certo senso è solo un trofeo della tua vittoria. Posso forgiare alcune piccole gemme potenti che potrebbero esserti utili nel tuo viaggio. Probabilmente ne hai trovate qualcuna lungo il cammino.~
+@83 = ~Ti concederanno un'abilità chiamata Guerriero d'Acciaio. È molto simile a un incantesimo druidico chiamato Pelle di Ferro, ma migliore, poiché non devi lanciarlo. È un'abilità che acquisirai. Chiunque abbia una natura guerriera può farne uso.~
+@84 = ~Per quanto riguarda te, figlio di Bhaal, possiamo fare una delle varie cose: Posso ricompensarti con una buona quantità di oro e alcuni tomi speciali che sono riuscito a raccogliere. Centomila monete d'oro e sei tomi magici per migliorare le tue abilità. Questa sarebbe un'opzione.~ ~Per quanto riguarda te, figlia di Bhaal, possiamo fare una delle varie cose: Posso ricompensarti con una buona quantità di oro e alcuni tomi speciali che sono riuscito a raccogliere. Centomila monete d'oro e sei tomi magici per migliorare le tue abilità. Questa sarebbe un'opzione.~
+
+
+
+@85 = ~Puoi anche optare per vari oggetti magici che posso recuperare dal carico. Tra di essi avresti una katana, due ninja-to, un'armatura e una gemma magica. Tutti questi oggetti magici possono essere tuoi.~
+@86 = ~E come ultima opzione, una potente spada leggendaria. Si chiama Mugenjin ed è l'arma perfetta per chi è destinato all'Assassinio. Poiché non l'ho ancora forgiata, posso farti scegliere che tipo di arma sarà: una spada lunga, una katana, una scimitarra o una spadone. Tuttavia, devi tenere presente che l'arma non potrà essere impugnata da coloro che si attengono alla legge.~
+@87 = ~Molto bene, allora, figlio di Bhaal! Cosa sceglierai?~ ~Molto bene, allora, figlia di Bhaal! Cosa sceglierai?~
+@88 = ~In realtà, Danctian, centomila monete d'oro e quei tomi non suonano male. Scelgo quella opzione.~
+@89 = ~Niente batte un bel numero di oggetti magici, demone. Preferisco quella scelta piuttosto che qualsiasi altra cosa.~
+@90 = ~La spada leggendaria, Danctian.~
+@91 = ~Eccellente scelta, mio <LADYLORD>. Ancora una volta, vi congratulo per ciò che avete realizzato qui e vi ringrazio per la mia liberazione. Vi assicuro che non ve ne pentirete. Sarò qui nel caso abbiate bisogno di forgiare qualche artefatto. E Ardusk... se avrò novità sull'Ordine che ti perseguita, ti cercherò personalmente... nell'ombra...~
+@92 = ~Che tipo di arma desideri ottenere?~
+@93 = ~Una spada lunga.~
+@94 = ~Una katana.~
+@95 = ~Una scimitarra.~
+@96 = ~Un spadone.~
+
+
+@97 = ~Hm... ho cambiato idea. Preferisco scegliere qualcos'altro.~
+@98 = ~Ti saluto, mortale. Sei venuto per forgiare qualche artefatto? Mi assicurerò di ottenere un risultato efficiente, soprattutto per coloro che sono vicini ad Ardusk. E ricorda... l'uso dei miei poteri non richiede oro.~
+@99 = ~Non siamo ancora riusciti a raccogliere ciò che serve, Danctian.~
+@100 = ~Capisco. Sarò qui nel caso abbiate bisogno di me. Vi aspetterò... nell'ombra...~
+@101 = ~Danctian, abbiamo ottenuto ciò che serve per potenziare la spada di Dusk.~
+@102 = ~È una grande notizia, mortale. Quindi, procedo?~
+@103 = ~Certamente.~
+@104 = ~Non ancora, Danctian. Forse più avanti.~
+
+  // Espada de Disrupción
+
+@105 = ~Va bene. Vedrai che la mia creazione non ha niente da invidiare a quella creatura magica di Shilmista.~
+@106 = ~Ardusk, consegnami la tua spada. Utilizzerò i miei poteri per potenziarla notevolmente.~
+@107 = ~Te lo assicuro, Ardusk... sarai soddisfatto dei risultati. Ora... Da parte!~
+@108 = ~(Sembra che il rituale sia terminato e il demone sembri impassibile di fronte a tale evento)~
+@109 = ~Il rituale è terminato, mortale.~
+@110 = ~Come è andato tutto, Danctian?~
+@111 = ~La Spada di Disruzione cormyreana è stata forgiata. È un miglioramento notevole, Ardusk. Sono sicuro che saprai apprezzarla.~
+@112 = ~Ho fatto ciò che mi è stato chiesto. Sappiate dove trovarmi se avete bisogno che forgi un altro artefatto, mortali. A presto.~
+
+  // Defensa de Cormyr
+
+@113 = ~Danctian, abbiamo ottenuto tutto il necessario per migliorare l'armatura di Dusk.~
+@114 = ~Ardusk, consegnami la tua armatura. Utilizzerò i miei poteri per potenziarla notevolmente.~
+@115 = ~La Difesa di Cormyr è stata forgiata. È un miglioramento notevole, Ardusk. Sono sicuro che saprai apprezzarla.~
+
+// Bracciali di Pietra di Difesa
+
+@116 = ~Danctian, abbiamo ottenuto tutto il necessario per creare i Bracciali di Pietra di Difesa.~
+@117 = ~Te lo assicuro, mortale... sarai soddisfatto dei risultati. Ora... Da parte!~ ~Te lo assicuro, mortale... sarai soddisfatta dei risultati. Ora... Da parte!~
+@118 = ~I Bracciali di Pietra di Difesa sono stati forgiati. Sono sicuro che saprai apprezzarli, mortale.~
+
+// Tuono Cremisi
+
+@119 = ~Danctian, abbiamo ottenuto tutto il necessario per creare il martello: Tuono Cremisi.~
+@120 = ~Il potente Tuono Cremisi è stato forgiato. Sono sicuro che saprai apprezzarlo, mortale.~
+
+
+
+  // Fuego Salvaje
+
+@121 = ~Danctian, abbiamo ottenuto tutto il necessario per creare l'armatura Fiamma Selvaggia.~
+@122 = ~Fiamma Selvaggia è stata forgiata. Sono sicuro che saprai apprezzarla, mortale.~
+
+// Venom Strike
+
+@123 = ~Danctian, abbiamo ottenuto tutto il necessario per creare il maglio Colpo di Veleno.~
+@124 = ~Il maglio Colpo di Veleno è stato forgiato. Sono sicuro che saprai apprezzarlo, mortale.~
+
+// Zanna di Larloch
+
+@125 = ~Danctian, abbiamo ottenuto tutto il necessario per forgiare la Zanna di Larloch.~
+@126 = ~La Zanna di Larloch è stata forgiata. Sono sicuro che saprai apprezzarla, mortale.~
+
+// Vortice dell'Abisso
+
+@127 = ~Danctian, abbiamo ottenuto tutto il necessario per forgiare il Vortice dell'Abisso.~
+@128 = ~Il Vortice dell'Abisso è stato forgiato. Sono sicuro che saprai apprezzarlo, mortale.~
+
+  // Vengadora Real
+
+@129 = ~Danctian, abbiamo ottenuto gli artefatti del Duca Benork.~
+@130 = ~Hmm... interessante. La creatura magica di Shilmista aveva l'ultimo artefatto del defunto Benork. Ora, l'Avvolgitrice Reale è nelle mie mani.~
+@131 = ~Non è stato facile ottenere tutti gli artefatti, Danctian. Ci consegnerai l'ultima parte dell'Insieme dell'Assassino di Maghi?~
+@132 = ~Nulla mi darebbe più piacere che vedere l'Insieme dell'Assassino di Maghi completo nelle tue mani, mia <LADYLORD>. Dopotutto, tu e Ardusk avete collaborato nella mia liberazione dal Pandemonium.~
+@133 = ~Avete compiuto l'impensabile, mortali. Oggi avete compiuto un passo più vicino nella vostra giusta ricerca di accumulare potere. Come il velo della notte cade inexorabilmente sulla luce, così sarà l'acciaio che brandite nelle vostre mani sul cuore del nemico...~
+
+// Ametista del Drago Porpora
+
+@134 = ~Danctian, vogliamo forgiare qualcosa con l'Ametista del Drago Porpora.~
+@135 = ~Ah, capisco... bene, mortale. Cosa forgeremo con essa?~
+@136 = ~Miglioreremo l'armatura, Danctian: Difesa di Cormyr.~
+@137 = ~Miglioreremo l'arma, Danctian: la Spada di Disruzione.~
+
+// Salus
+
+@138 = ~D'accordo, mortale. Otterrai un'armatura leggendaria combinandola con il potere dell'Ametista. Ora, fatti da parte e sii testimone di ciò...~
+@139 = ~Salus è stata forgiata. È l'apice difensivo per un Assassino di Maghi, mia <LADYLORD>. Solo Ardusk può indossarla.~
+@140 = ~Per Cormyr, Danctian. Hai fatto un lavoro incredibile. L'armatura sembra più leggera, ma non per questo meno resistente rispetto alla sua versione precedente... Salus è un'armatura squisita...~
+
+  // Rex
+
+@141 = ~D'accordo, mortale. Otterrai una spada leggendaria combinandola con il potere dell'Ametista. Ora, fatti da parte e sii testimone di ciò...~
+@142 = ~Rex è stata forgiata. È l'apice offensivo per un Assassino di Maghi, mia <LADYLORD>. Solo Ardusk può brandirla.~
+@143 = ~Finalmente! Osserva, <CHARNAME>. Userò Rex per uccidere in tuo nome. Sarà il mio strumento di vendetta... Vedrai, mio caro amico... i nostri nemici tremeranno vedendoci arrivare... ma non potranno fare nulla... Nemmeno... scappare...~ ~Finalmente! Osserva, <CHARNAME>. Userò Rex per uccidere in tuo nome. Sarà il mio strumento di vendetta... Vedrai, mia potente amica... i nostri nemici tremeranno vedendoci arrivare... ma non potranno fare nulla... Nemmeno... scappare...~
+
+// M3 FINAL SIN p_restos
+
+@144 = ~Ancora una volta, vi congratulo per ciò che avete realizzato qui e vi ringrazio per la mia liberazione. Vi assicuro che non ve ne pentirete. Sarò qui nel caso in cui abbiate bisogno di forgiare un artefatto. E Dusk... se avrò notizie sull'Ordine che ti persegue, ti cercherò personalmente... nell'ombra...~
+
+@145 = ~Ardusk... <CHARNAME>...~
+@146 = ~Dobbiamo parlare... una questione di estrema importanza vi riguarda... entrambi...~
+@147 = ~Danctian! Da dove sei spuntato? Perdizioni, come ci hai trovato?~
+@148 = ~Come ti ho già detto in precedenza, tu e io abbiamo una connessione a causa del... sacrificio che hai fatto per liberarmi.~
+@149 = ~*rabbrividisce* Suona così... inquietante...~
+@150 = ~Capisco... bene, per me non c'è problema nel parlare. Vedremo cosa ha da dire <CHARNAME>.~
+@151 = ~Ebbene, <CHARNAME>? Potrebbe risultare vantaggioso per tutti noi...~
+
+
+
+@152 = ~Beneficio come... tesori? Sono tutto orecchi, Danctian.~ ~Beneficio come... tesori? Sono tutta orecchi, Danctian.~
+@153 = ~Non mi ispiri fiducia, demone. Ma ti ascolterò, per ora...~
+@154 = ~Non mi interessa ciò che vendi, creatura. Ritorna nell'ombra da cui sei uscito.~
+@155 = ~Ti ascolterò, Danctian. Parla liberamente.~
+@156 = ~Ti assicuro che non nascondo intenzioni perverse nei vostri confronti.~
+@157 = ~Almeno dovresti rifletterci... poiché è direttamente legato alla Cripta Dimenticata.~
+@158 = ~Questo non è il posto migliore per parlare... Venite nel rifugio che un tempo apparteneva agli Shilmisti nel Porto di Athkatla. Là parleremo... della Cripta Dimenticata...~
+@159 = ~C-che? Danctian, di cosa stai parlando?~
+@160 = ~Vi dirò tutto quando ci incontreremo di nuovo... Ricordate: Porto di Athkatla, nel nascondiglio che un tempo apparteneva all'elfo di Shilmista.~
+@161 = ~Ah... la discendente di Bhaal, sorella di <CHARNAME>. È un grande onore servire anche a te.~
+@162 = ~Hm... non so se posso dire che questo mi faccia sentire al sicuro, signore delle ombre.~
+@163 = ~Stai tranquilla, non ho cattive intenzioni nei tuoi confronti. In effetti, questo tomo divino è per te.~
+@164 = ~Un tomo divino? Beh... grazie, suppongo. (Dusk, sul serio hai liberato questa creatura di proposito?)~
+
+@165 = ~Capisco... quindi, cosa devo forgiare per te?~
+
+@166 = ~Sono venuti alla mia chiamata. Bene, bene...~
+@167 = ~<CHARNAME>, non vedo Ardusk con te. È meglio che torni da lui per parlare della Cripta Dimenticata.~
+@168 = ~Va bene, Danctian. Tornerò da Dusk.~
+@169 = ~Va bene, Danctian. Anche se prima vorrei vedere se possiamo forgiare qualcosa.~
+@170 = ~D'accordo, <CHARNAME>. Ti aspetterò... nell'ombra.~
+@171 = ~Ardusk, il negromante chiamato Anthagar ha contattato.~
+@172 = ~E questo consiste, semplicemente, nel rispondere alla sua chiamata.~
+@173 = ~Procederò a riassumere ciò che sta accadendo, figlio di Bhaal.~ ~Procederò a riassumere ciò che sta accadendo, figlia di Bhaal.~
+@174 = ~Ardusk ha... ragione. Che tu voglia far parte di quell'Ordine o che tu voglia distruggerlo, lui deve dare il consenso per viaggiare attraverso l'orbe nefasto.~
+@175 = ~Molto bene, Danctian. Ottenere un grande potere attraverso l'Ordine dei Maghi non suona affatto male.~
+@176 = ~Quello che la Cripta Dimenticata sta pianificando è vile e osceno. Dobbiamo fermarli al più presto.~
+@177 = ~Devo pensarci su. Non ho ancora deciso cosa fare.~
+@178 = ~Agirò man mano che procedo nella missione. Quando potremo parlare con loro, deciderò lì.~
+@179 = ~Sarà come desideri, <CHARNAME>. Quando saranno pronti, devi solo chiedermi di attivare l'orbe e ti porterò in quel luogo. Fino ad allora, ti aspetterò...~
+@180 = ~L'Ordine dei Maghi che vi ha messo alla prova sta pianificando un imminente massacro nelle nazioni di Tethyr e Amn.~
+@181 = ~La Cripta Dimenticata rende omaggio a Velsharún, il Signore della Morte Vivente.~
+
+
+@182 = ~L'umano chiamato Anthagar pianifica, probabilmente, di ottenere l'immortalità attraverso un potente rituale.~
+@183 = ~È qui che entrano in gioco l'inviato di Cormyr e l'abominio dell'Assassinio.~
+@184 = ~Non so se ti interessa ciò che il nostro "amico" Anthagar sta pianificando, <CHARNAME>.~
+@185 = ~La verità è che non credo possa realizzare il rituale (almeno per ora) senza il nostro consenso.~
+@186 = ~Che tu voglia allearvi con loro o meno, a me non importa. Ma andare lì richiederà la mia presenza. Questo non è negoziabile.~
+@187 = ~(Lo sguardo privo di vita di Danctian sembra perdersi per un istante sul viso di Dusk)~
+@188 = ~(Dopo alcuni secondi, i suoi globi scarlatti si concentrano su di te)~
+@189 = ~Interessante... finalmente ha fatto contatto con te. Raccontami tutto.~
+@190 = ~Quello che ci aspettavamo. Intende che <CHARNAME> e tu vi uniate al suo piano di conquista e distruzione.~
+@191 = ~È riuscito a consegnarmi un orbe nefasto che funge da teletrasporto.~
+@192 = ~La sua Ordine si troverà in una sorta di... terreno neutro.~
+@193 = ~Il mago non manca di perspicacia e i suoi dubbi ti mettono alla prova per l'ultima volta.~
+@194 = ~<CHARNAME>, non vedo Ardusk con te. È meglio che torni da lui se vuoi che utilizzi l'orbe nefasto del Negromante.~
+@195 = ~Bene... siete pronti per partire? Vi consiglio di essere ben preparati prima dell'incontro.~
+@196 = ~Siamo pronti, Danctian. Attiva l'orbe!~
+@197 = ~Molto bene... l'Orbe nefasto sarà attivato. Che la forza del Pandemonium vi benedica!~
+
+
+@198 = ~Sarà come desideri, <CHARNAME>. Quando sarete pronti, basterà chiedermi di attivare l'orbe e vi porterò in quel luogo. A proposito... Ardusk...~
+@199 = ~Vedo che hai ancora la Spada Cremisi. Il cuore del demone abissale l'ha resa più forte, sì.~
+@200 = ~Ora vi lascio liberi di prepararvi per il viaggio attraverso l'Orbe Nefasto. Parlate nuovamente con me quando siete pronti...~
+@201 = ~Così è, Danctian. Perché lo chiedi? I tuoi globi brillano più del solito.~
+@202 = ~È finalmente giunto il momento... Se mi consegni la Spada Cremisi, potrò risvegliarvi un grande potere. Sarà molto utile nel luogo verso cui ci dirigiamo...~
+@203 = ~Capisco... eccola quindi.~
+@204 = ~Mi sorprende la fede cieca che hai in quel demone, abbil. Potrebbe infilzarti la spada alle spalle...~
+@205 = ~Hmpf! Consegni così facilmente la tua arma? Io non farei mai una cosa del genere con la mia ascia. Korgan Hachasangrienta tiene la sua ascia come destino nelle sue mani e in nessun'altra. E il suo taglio... nel cranio dei suoi nemici.~
+@206 = ~La tua fede sarà ricompensata, Ardusk Aldant...~
+@207 = ~Perché dalla furia cremisi dei fiumi sanguinari del Pandemonio nascerà lo strumento di vendetta dell'Assassino di Maghi.~
+@208 = ~Per Cormyr... il taglio è ancora più splendente... Cosa significa questo?~
+@209 = ~Ira...~
+@210 = ~Ira?~
+@211 = ~È il vero nome dell'arma, Ardusk. Ed è destinata a stare nelle tue mani.~
+@212 = ~I vostri nemici tremeranno... e saranno uccisi nel nome delle ombre.~
+@213 = ~<CHARNAME>, siamo tornati al tuo piano.~
+@214 = ~È stato... un viaggio interessante, Danctian.~
+
+
+
+@215 = ~Ardusk Aldant è caduto in battaglia. La sua vendetta è stata compiuta e la sua anima, se non tornerà a questo piano, sarà trovata da me, poiché è legata alla mia essenza ed è mia volontà.~
+@216 = ~Il Pandemonium diventerà la sua nuova dimora e vivrà nell'ombra per molto tempo.~
+@217 = ~Non devi preoccuparti per il suo... benessere, <CHARNAME>. Anche se fossi in grado di resuscitarlo, posso assicurarti che alla fine del suo cammino si troverebbe nell'oscurità delle mie terre.~
+@218 = ~Perché il cormyreano ha legato il suo sangue al mio e siamo destinati a condividere lo stesso destino.~
+@219 = ~Il mio lavoro qui è terminato... Mi riunirò nel mio piano... Ti lascio questa cospicua somma di oro, <CHARNAME>. Sono sicuro che ti sarà utile nella tua lotta contro Irenicus. Auguro fortuna a te e ai tuoi cari... e terrore ai tuoi nemici. Addio, figlio di Bhaal!~ ~Il mio lavoro qui è terminato... Mi riunirò nel mio piano... Ti lascio questa cospicua somma di oro, <CHARNAME>. Sono sicuro che ti sarà utile nella tua lotta contro Irenicus. Auguro fortuna a te e ai tuoi cari... e terrore ai tuoi nemici. Addio, figlia di Bhaal!~
+
+
+
+@220 = ~La tua vendetta è completa, Ardusk Aldant. La Cripta Dimenticata è stata distrutta.~
+@221 = ~Così è, Ardusk. Preparati, perché ti porterò su un piano distante...~
+@222 = ~Così... è...~
+@223 = ~Anthagar possedeva un talismano di Mellifleur, un oggetto imbuto dagli stessi dei nell'Era dei Disordini.~
+@224 = ~Posso canalizzare parte del suo potere e richiamarlo per alcuni istanti.~
+@225 = ~Cosa hai detto? ... Richiamarlo? Intendi...~
+@226 = ~Siamo tornati ad Athkatla.~
+@227 = ~Suppongo che ciò che abbiamo visto fosse... reale...~
+@228 = ~Hai ragione. Non credo che a Mielikki sia piaciuto molto che io abbia invaso la sua... preziosa Radura.~
+@229 = ~Perché l'hai fatto, Danctian?~
+@230 = ~Credo che tu lo sappia tanto bene quanto me, Ardusk.~
+@231 = ~Dopotutto, le nostre anime sono legate.~
+@232 = ~In un certo senso, il percorso che hai intrapreso è stato per giungere a questo momento.~
+@233 = ~Vedere Celine... anche solo per l'ultima volta.~
+@234 = ~...~
+@235 = ~In ogni caso... Ti ha lasciato molto su cui riflettere.~
+@236 = ~Ancora adesso percepisco le sue parole risuonare nella tua mente, come quelle campane che ti richiamavano al tempio di Tymora quando eri solo un bambino.~
+@237 = ~Percepisco che continueranno a risuonare anche se riesci a portare a termine il tuo viaggio con <CHARNAME>.~
+@238 = ~Hmpf... Sei sempre stato così loquace, Danctian? Non mi ero reso conto di quanto fossi fastidioso.~
+@239 = ~Capisco. Mi scuso, Ardusk.~
+@240 = ~Ora è giunto il momento del premio, <CHARNAME>. Spero che l'oro ti soddisfi.~
+@241 = ~L'oro è sempre benvenuto, Danctian.~
+@242 = ~Non è necessario, Danctian. Abbiamo ottenuto una buona ricompensa distruggendo quella Cripta Dimenticata.~
+@243 = ~Naturalmente, questi pezzi metallici ingialliti non hanno valore per me. Sono tutti tuoi, <CHARNAME>.~
+
+
+@244 = ~75.000 monete d'oro. Spero che sia una quantità adeguata.~
+@245 = ~È una buona somma, Danctian. Se non c'è altro...~
+@246 = ~C'è qualcos'altro, Ardusk. Prenderò Ira, se mi dai il permesso.~
+@247 = ~Ma cosa diavolo...~
+@248 = ~Ricordi il Simbolo di Mellifleur di Anthagar? Ecco qui.~
+@249 = ~*Il simbolo diventa rossastro mentre contemporaneamente gli orbi scarlatti di Danctian brillano incessantemente.*~
+@250 = ~*Dopo alcuni secondi, Ira, la spada di Dusk, si solleva e sembra fondersi con il simbolo di Mellifleur.*~
+@251 = ~Danctian, cosa hai fatto?~
+@252 = ~Prendi di nuovo Ira, Ardusk. Ho risvegliato tutto il suo potere con i residui dei tuoi nemici.~
+@253 = ~Capisco...~
+@254 = ~Ira Tenax. Il vero potere dell'orbe scarlatta.~
+@255 = ~Hai ragione.~
+@256 = ~Ira Tenax è il culmine dei tuoi viaggi ad Amn. Non l'avresti raggiunto senza <CHARNAME>.~
+@257 = ~Lo so, Danctian. Ecco perché la impugnerò... e aiuterò <CHARNAME> a distruggere Irenicus. In nome della vendetta.~
+@258 = ~Il Pandemonium lo desidera così e la sua forza vi accompagnerà nel vostro viaggio verso Suldanessellar. Ricordate anche che sarò qui se avete bisogno di forgiare un artefatto...~
+@259 = ~Non c'è nient'altro, tranne Irenicus.~
+@260 = ~Se volete fermarlo, dovete recarvi nella terra degli elfi, perché lì porterà a termine i suoi piani finali.~
+@261 = ~Se tenete a questo piano, dovrete usare tutte le vostre forze per fermarlo.~
+@262 = ~*Danctian osserva il gruppo per alcuni istanti.*~
+
+
+
+@484 = ~Ah, Guardia Nera. Il tuo cammino di violenza e vendetta è benvenuto nei principi del Pandemonium. Stimo che gli Artigli della Lama Notturna ti saranno utili.~
+@485 = ~Puoi starne certo, demone.~
+
+@486 = ~Il monaco dell'Anima Solare... Posso solo immaginare il tuo dispiacere nel considerare l'idea di ricevere aiuto dalle Ombre. Ma Shar non è il mio signore... No, solo il Caos. Prendi questa pozione di luce. Sarà un piacere liberarmene.~
+@487 = ~Non mi fido di te, demone. Ma se <CHARNAME> e Dusk lo fanno... Allora accetterò. Vedremo poi se deciderò di usarla o no...~
+
+@488 = ~Che meraviglia osservare i tuoi incantesimi selvaggi, mezzaelfa! Questa pozione ti servirà per i tuoi scopi. Segui la via del Caos.~
+@489 = ~Segui la via del ca... Cosa intendi? Ehm... beh, grazie suppongo. Ha un aroma molto... particolare.~
+
+@490 = ~Qualcuno come te non ha bisogno di molta assistenza, vero, vampira? Tuttavia, questo potrebbe essere apprezzato da qualcuno come te. Seguirò la tua strada dalle Ombre.~
+@491 = ~Fai quello che vuoi, Danctian. Prenderò ciò che offri, poiché percepisco un dolce aroma e una promessa di potere in esso.~
+
+@492 = ~Wilson, creatura della natura selvaggia. Ho qualcosa per te che potrebbe piacerti. Nutriti e diventa più potente che mai.~
+@493 = ~(Grugnito).~ [BBEAR09]
+@494 = ~Hai altro? Queste... sono tutte quelle che ho, ma ti assicuro che sazieranno la tua fame.~
+@263 = ~(Sgomento)~ [BBEAR04]
+
+
+@495 = ~Ah, la Dama delle Bestie. Semielefa, per te ho questo: un artefatto forgiato dai selu'taar stessi. Spero che ti sia utile.~
+@496 = ~G-grazie, Danctian. Non so ancora come sentirmi al riguardo... su di te. Ma se Dusk e <CHARNAME> ripongono fiducia in te, anche io lo farò.~
+
+@497 = ~*sussurro* Adesso?~
+@498 = ~*sussurro* Mh... è una creatura innaturale... ma non sembra del tutto... innaturale... Attendiamo ancora un momento, mio buon amico.~
+@499 = ~*sussurro* Acrull? Forse dovremmo--~
+@500 = ~Non dovete preoccuparvi per me, calishita. Vi assicuro, non sono un affronto alla Natura né un pericolo per voi.~
+@501 = ~Ma presumo che tu, Acrull Scudonordico, lo abbia già intuito.~
+@502 = ~S-sì... È vero. Hakamir, Mathyus e i loro compagni non si trovano... morti... Non come noi comprendiamo.~
+@503 = ~Me lo vuoi spiegare? Sto vedendo i loro maledetti cadaveri mentre parliamo!~
+@504 = ~Sì... lo farò più tardi... Per ora, lasciamo che continuino a parlare.~
+@505 = ~Saggio da parte tua, druido. Come ti ho detto, possono rimanere qui e continuare i loro affari con <CHARNAME>. Se proseguono così, il loro obiettivo di salvare Brost sarà sempre più vicino. Per ora, continuerò la mia conversazione con Ardusk e <CHARNAME>. Scusatemi.~
+@506 = ~Hai fatto questo... per potere? Sei stato capace di tradire i tuoi amici... Dusk, come hai potuto?~
+@507 = ~Non mi aspetto che tu capisca, Fall. Erano loro o io. Mathyus aveva già deciso di uccidermi una volta che Alabarza non fosse più esistito.~
+@508 = ~Io, semplicemente, mi sono anticipata a lui.~
+@509 = ~Non credo... non credo che tu abbia fatto la cosa giusta.~
+@510 = ~Forse un giorno lo capirai, Fall.~
+@511 = ~Ne dubito, Dusk... davvero lo dubito...~
+
+
+@210034 = ~Dusk Aldant: La Vendetta della Prima Spada
+
+Dopo il sorprendente omicidio degli abitanti di Shilmista, è apparso nel complesso un demone ombroso: Danctian Shadow. La creatura ha indicato di provenire da Pandemonio e la sua origine deriva dall'Orb Scarlatto che Sornhil sapeva consegnare a Dusk. Da qualche tempo, aveva sussurrato un piano all'orecchio del cormireano, che ci ha svelato di recente. La liberazione del demone e l'omicidio degli abitanti di Shilmista. Ora abbiamo l'alleanza di Danctian per un futuro confronto contro l'Ordine misterioso dei Maghi che sta dando la caccia a Dusk. Solo il tempo dirà se la decisione del nostro Cacciatore di Stregoni è stata quella giusta.~
+
+@210035 = ~Dusk Aldant: L'Ordine dei Maghi
+
+Dusk ha raccontato gli eventi che lo hanno portato a diventare il Cacciatore di Stregoni. Apparentemente, un negromante di nome Anthagar era responsabile di aver lanciato una maledizione che alla fine ha consumato la vita di sua moglie, Celine. Nonostante Dusk abbia fatto tutto il possibile per cercare di salvare sua moglie, ha fallito nel suo intento. Ha solo la speranza di trovare Anthagar e il suo Ordine un giorno.~
+
+@210036 = ~Dusk Aldant: L'Ordine dei Maghi
+
+Abbiamo incrociato il cammino di Kalanda, il Trasmutatore, a BrynnLaw. Apparentemente, ci stava aspettando per metterci alla prova, evocando un paio di creature deboli prima di trasformarle in mostruosi assetati di sangue. Cosa vogliono questi maghi da Dusk e da me? Ancora non lo sappiamo. Ma ho la sensazione che non sarà l'ultima volta che sentiremo parlare di loro.~
+
+@210037 = ~Dusk Aldant: L'Ordine dei Maghi
+
+Finalmente abbiamo incontrato colui che si cela dietro tutti gli attacchi arcani a Dusk e al nostro gruppo: Anthagar, il Negromante. Afferma di essere il leader di un ordine di maghi chiamato la Cripta Dimenticata, un sinistro culto dedicato al semidio Velsharoon, il Signore dell'Imorte. Non sappiamo ancora qual è il suo obiettivo finale nei nostri confronti. Per ora, dobbiamo superare ancora una volta gli ostacoli che ci mette davanti.~
+
+@210038 = ~Dusk Aldant: L'Ordine dei Maghi
+
+Finalmente abbiamo incontrato colui che si cela dietro tutti gli attacchi arcani a Dusk e al nostro gruppo: Anthagar, il Negromante. Afferma di essere il leader di un ordine di maghi chiamato la Cripta Dimenticata, un sinistro culto dedicato al semidio Velsharoon, il Signore dell'Imorte. Non sappiamo ancora qual è il suo obiettivo finale. Per ora, dobbiamo sopravvivere all'incontro fatidico che ha preparato per noi, poiché ci considera una minaccia per i suoi piani futuri.~
+
+@210039 = ~Dusk Aldant: L'Ordine dei Maghi
+
+Danctian è apparso dalle ombre per contattarci. Dice di avere qualcosa da offrirci che sarà vantaggioso per il gruppo ed è correlato all'ordine dei maghi della Cripta Dimenticata. Senza dubbio, ciò è direttamente collegato all'apparizione di Anthagar e degli altri stregoni. Per ulteriori informazioni, dobbiamo recarci alla casa abbandonata a nord-ovest del Porto di Athkatla.~
+
+@210040 = ~Dusk Aldant: L'Ordine dei Maghi
+
+Demolisher è apparso per contattarci, portando con sé una nota scritta da Mathyus Davis. Dusk l'ha letta, informandoci dell'apparizione di Anthagar ad Athkatla. Apparentemente, ha consegnato una misteriosa pietra, probabilmente per il teletrasporto, ai nostri amici di Shilmist. Dobbiamo recarci al covo di Mathyus e Michelson nel Porto di Athkatla per ulteriori informazioni.~
+
+@210041 = ~Dusk Aldant: L'Ordine dei Maghi
+
+Abbiamo raggiunto il nascondiglio di Mathyus e ci ha aggiornato sulla situazione attuale. In effetti, l'orbe che Anthagar ha consegnato a Mathyus e Michelson è nelle mani degli Shilmist e serve come ponte per il luogo della battaglia finale. Avremo l'aiuto di Mathyus e Demolisher. Dobbiamo solo parlare all'elfo quando siamo pronti a partire.~
+
+@210045 = ~Dusk Aldant: L'Ordine dei Maghi
+
+L'orbe maledetto di Anthagar ci ha portati in un luogo strano. Non sembra che siamo in una nota località del piano materiale, ma piuttosto in una sorta di tasca arcana dalla quale non possiamo sfuggire fino a quando non affrontiamo la Cripta Dimenticata. Non abbiamo notizie di Mathyus o Demolisher. Spero che arrivino in tempo per la battaglia.~
+
+@210043 = ~Dusk Aldant: L'Ordine dei Maghi
+
+Siamo arrivati al nascondiglio di Danctian. Ci ha informato che Anthagar, il Necromante, ha preso contatto con lui. La cosa strana è che Dusk sembrava esserne consapevole. Potrebbero comunicare a distanza, poiché sembrano essere collegati in qualche modo. In ogni caso, ci ha informato che la Cripta Dimenticata pianifica un massacro a Faerûn per ottenere l'immortalità. Ma hanno bisogno di me e Dusk per realizzare questo piano. Quando saremo pronti per un tale incontro, dobbiamo solamente parlare con Danctian e chiedergli di portarci lì.~
+
+@210044 = ~Dusk Aldant: L'Ordine dei Maghi
+
+L'orbe maledetto di Anthagar ci ha portati in un luogo strano. Non sembra che siamo in una nota località del piano materiale, ma piuttosto in una sorta di tasca arcana dalla quale non possiamo sfuggire fino a quando non affrontiamo la Cripta Dimenticata. Dovremmo esplorare un po', ma senza trascurare la preparazione per qualsiasi eventualità...~
+
+@210045 = ~Dusk Aldant: L'Ordine dei Maghi
+
+L'orbe oscuro di Anthagar ci ha portati in un luogo strano. Non sembra che ci troviamo in una nota località del piano materiale, ma piuttosto in una sorta di tasca arcana dalla quale non possiamo sfuggire fino a quando non affrontiamo la Cripta Dimenticata. Non abbiamo notizie di Mathyus o Demolisher. Spero che arrivino in tempo per la battaglia.~
+
+
+// FINAL MISSION GOOD PATH
+@210046 = ~Dusk Aldant: L'Ordine dei Maghi
+
+La Cripta Dimenticata è stata sconfitta. Nel processo, abbiamo dovuto affrontare Mathyus, che era stato incantato dall'Ordine dei Magi di Anthagar. Non avevamo altra scelta se non ucciderlo, insieme al resto dell'Ordine. Tuttavia, alla fine della battaglia, dopo aver recuperato il Simbolo di Velsharoon e il corpo dell'elfo Shilmist, Michelson è comparso. Il folletto ha resuscitato il suo amico e ci ha riportati ad Athkatla. Con Mathyus riportato in vita e tutti gli altri al sicuro, siamo stati teletrasportati in una sorta di foresta dove Dusk ha potuto vedere sua moglie Celine per l'ultima volta.
+
+Infine, tornati al rifugio di Mathyus, siamo stati ricompensati con oro e affidati alla missione di sconfiggere Irenicus e salvare gli elfi di Suldanessellar. Inoltre, possiamo sempre contare sui guardiani di Shilmista nel caso volessimo forgiare qualsiasi artefatto dalla lista di Michelson.~
+
+@210047 = ~Dusk Aldant: L'Ordine dei Maghi
+
+La Cripta Dimenticata è stata sconfitta. Nel processo, abbiamo dovuto affrontare Mathyus, che era stato incantato dall'Ordine dei Magi di Anthagar. Non avevamo scelta se non ucciderlo, insieme al resto dell'Ordine. Tuttavia, dopo la battaglia e il recupero del Simbolo di Velsharoon e del corpo dell'elfo Shilmist, Michelson è comparso. Il folletto ha resuscitato il suo amico e ci ha riportati ad Athkatla. Anche se Mathyus è stato riportato in vita, ha capito che Dusk era caduto in battaglia. Gli Shilmist hanno pianto la sua perdita, ma sono stati confortati dal fatto che gli alleati di Velsharoon sono caduti nell'oblio e i loro piani sono stati sventati, qualcosa che Dusk avrebbe voluto anche a costo della propria vita. Ha menzionato che Celine è stata finalmente vendicata e siamo stati ricompensati con oro, oltre ad essere affidati alla missione di sconfiggere Irenicus e salvare gli elfi di Suldanessellar. Inoltre, possiamo sempre contare sui guardiani di Shilmista se vogliamo forgiare qualsiasi artefatto dalla lista di Michelson.~
+
+@210048 = ~Dusk Aldant: L'Ordine dei Maghi
+
+La Cripta Dimenticata è stata sconfitta. Dusk ha ingannato Anthagar, facendogli credere che si sarebbe alleato con lui per resuscitare Velsharoon, il Demigod della Necromanzia, noto anche come Mellifleur. L'Ordine dei Maghi ha attaccato con ferocia e, sebbene siamo riusciti a vincere, Dusk è caduto in combattimento.
+Danctian, il demone oscuro di Pandemonium, ci ha riportati ad Athkatla e ci ha lasciato una buona quantità di oro. Dopo di ciò, si è congedato dal nostro piano. Suppongo che sia tornato nelle ombre a cui appartiene.~
+
+@210049 = ~Dusk Aldant: L'Ordine dei Maghi
+
+La Cripta Dimenticata è stata sconfitta. Dusk ha ingannato Anthagar, facendogli credere che si sarebbe alleato con lui per resuscitare Velsharoon, il Demigod della Necromanzia, noto anche come Mellifleur. L'Ordine dei Maghi ha attaccato con ferocia, ma nonostante ciò siamo riusciti a vincere.
+Dopo la vittoria, Danctian, il demone oscuro di Pandemonium, ci ha portati in una strana terra desolata dove è riuscito a portare lo spirito della moglie di Dusk, Celine. Lì hanno avuto un'ultima conversazione in cui la mezz'elfa ha deplorato il cammino intrapreso da suo marito. Dusk, nonostante cercasse di nasconderlo, è stato profondamente scosso dalle sue parole. Sono certo che ciò influenzerà il suo futuro, anche se non ne è consapevole.~

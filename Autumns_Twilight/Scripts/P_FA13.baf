@@ -1,0 +1,126 @@
+IF
+  Global ("P_BSIDES_Init","GLOBAL",0)
+  PartyHasItem("P_FCORA1")
+  OR(3)
+  Global("P_ChoAwake","GLOBAL",2)
+  Global ("P_LetChoDie","GLOBAL",1)
+  Global("P_ChoAwake","GLOBAL",0)
+THEN
+  RESPONSE #100
+	// Se desactivan viejas Travelling Regions
+    TriggerActivation("P_f13tr1",FALSE)
+    TriggerActivation("P_f13tr2",FALSE)
+	// Se activan nuevas Travelling Regions
+    TriggerActivation("P_ftrrega12b",TRUE) // Debe estar check Deactivated en DLTC
+    TriggerActivation("P_ftrrega12b2",TRUE)
+    SetGlobal ("P_BSIDES_Init","GLOBAL",1)
+END
+
+IF
+Global("P_ReptilesF13Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+//Tisiphone
+CreateCreature("P_TISIPH",[403.436],SE)
+//Cho'Nuja
+CreateCreature("P_CHO",[474.417],E)
+//Capitán Gassthon
+CreateCreature("P_GASS",[274.479],E)
+SetGlobal("P_ReptilesF13Spawn","GLOBAL",1)
+END
+
+IF
+Global ("P_FallM4F13_SpawnEnemies","GLOBAL",0)
+OR(2)
+Allegiance ("P_TISIPH",ENEMY)
+Allegiance ("P_GASS",ENEMY)
+THEN
+RESPONSE #100
+SmallWait (1)
+ActionOverride("P_GASS", Enemy())
+CreateVisualEffect("SPCLOUD3",[275.611])  
+CreateVisualEffect("SPCLOUD3",[574.577])  
+CreateVisualEffect("SPCLOUD3",[726.401])
+CreateVisualEffect("SPCLOUD3",[919.439]) 
+CreateVisualEffect("SPCLOUD3",[955.286])  
+CreateVisualEffect("SPCLOUD3",[430.726]) 
+CreateVisualEffect("SPCLOUD3",[872.514])
+CreateVisualEffect("SPCLOUD3",[220.478]) 
+// CreateVisualEffect("SPCLOUD3",[954.316]) 
+Wait (1)
+CreateCreature("p_flizc2",[275.611],4)  
+CreateCreature("p_fyuac2",[574.577],4)  
+CreateCreature("p_fboa1",[726.401],4)
+CreateCreature("p_fser1",[919.439],4) 
+CreateCreature("p_fbas1",[955.286],4)  
+CreateCreature("p_flizc3",[430.726],4) 
+CreateCreature("p_fyuac1",[872.514],4)
+CreateCreature("p_flizc1",[220.478],4) 
+ActionOverride("P_TISIPH",DestroyItem("INVULNER"))
+ActionOverride("P_TISIPH",DestroyItem("IMMUNE10"))
+ActionOverride("P_TISIPH",DestroyItem("MINHP1"))
+ActionOverride("P_GASS",DestroyItem("INVULNER"))
+ActionOverride("P_GASS",DestroyItem("IMMUNE10"))
+ActionOverride("P_GASS",DestroyItem("MINHP1"))
+SetGlobal("P_FallM4F13_SpawnEnemies","GLOBAL",1)
+Continue()
+END
+
+IF
+Global ("P_ReleaseTheHydra","GLOBAL",1)
+THEN
+RESPONSE #100
+SmallWait (1)
+CreateVisualEffect("SPCLOUD3",[756.706])
+Wait (1)
+CreateCreature("p_rask",[756.706],4)  
+SetGlobal("P_ReleaseTheHydra","GLOBAL",2)
+Continue()
+END
+
+IF
+Global ("P_ChoAwake","GLOBAL",0)
+Global ("P_FMeetingCho","GLOBAL",7)
+Global ("P_SearchSalmuera","GLOBAL",2)
+CombatCounter (0)
+!See([ENEMY])
+Dead("P_RASK")
+Dead("P_TISIPH")
+Dead("P_GASS")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait (1)
+ActionOverride("P_CHO",DestroyItem("P_DREAM2"))
+SmallWait (1)
+CreateVisualEffectObject ("SPHEALIN","P_CHO")
+CreateVisualEffectObject ("SPBASEWT","P_CHO")
+ActionOverride("P_CHO",SwingOnce())
+Wait (3)
+SetGlobal("P_ChoAwake","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END
+
+IF
+Global ("P_ChoAwake","GLOBAL",0)
+Global ("P_SearchSalmuera","GLOBAL",1)
+Global ("P_FMeetingCho","GLOBAL",6)
+Global("P_ChoTimer","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_ChoWoundTimer","GLOBAL",10)
+SetGlobal("P_ChoTimer","GLOBAL",1)
+END
+
+IF
+RealGlobalTimerExpired("P_ChoWoundTimer","GLOBAL")
+Global ("P_ChoAwake","GLOBAL",0)
+Global ("P_SearchSalmuera","GLOBAL",1)
+Global ("P_FMeetingCho","GLOBAL",6)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_ChoWoundTimer","GLOBAL",10)
+ActionOverride("P_CHO",EquipItem("P_DREAM2"))
+SetGlobal("P_ChoTimer","GLOBAL",0)
+END

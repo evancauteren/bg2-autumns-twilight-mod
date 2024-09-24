@@ -1,0 +1,36 @@
+IF
+Global("P_ChoF11Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_CHO",[694.429],SW)
+SetGlobal("P_ChoF11Spawn","GLOBAL",1)
+END
+
+IF
+Global ("P_FallM4F11_SpawnEnemies","GLOBAL",0)
+OR(1)
+Allegiance ("P_CHO",ENEMY)
+THEN
+RESPONSE #100
+SmallWait (1)
+CreateVisualEffect("SPCLOUD3",[852.556])  
+CreateVisualEffect("SPCLOUD3",[536.331])  
+CreateVisualEffect("SPCLOUD3",[615.713])
+CreateVisualEffect("SPCLOUD3",[238.498]) 
+CreateVisualEffect("SPCLOUD3",[767.652])  
+CreateVisualEffect("SPCLOUD3",[365.387]) 
+CreateVisualEffect("SPCLOUD3",[592.385])
+CreateVisualEffect("SPCLOUD3",[765.501]) 
+// CreateVisualEffect("SPCLOUD3",[954.316]) 
+Wait (1)
+CreateCreature("p_flizc2",[852.556],4)  
+CreateCreature("p_fyuac2",[536.331],4)  
+CreateCreature("p_fboa1",[615.713],4)
+CreateCreature("p_fser1",[238.498],4) 
+CreateCreature("p_fbas1",[767.652],4)  
+CreateCreature("p_flizc3",[365.387],4) 
+CreateCreature("p_fyuac1",[592.385],4)
+CreateCreature("p_flizc1",[765.501],4) 
+SetGlobal("P_FallM4F11_SpawnEnemies","GLOBAL",1)
+Continue()
+END

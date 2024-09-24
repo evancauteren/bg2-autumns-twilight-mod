@@ -1,0 +1,378 @@
+// Aerie
+
+@0    = ~*Stares at Aerie for a long time*~
+@1    = ~Dusk! I saw you! W-why are you staring at me so intently?~
+@2    = ~I'm sorry if I made you uncomfortable, Aerie... I-It's just that you remind m-me of...~
+@3    = ~Oh, wow! The great Dusk stuttering? *giggles*~
+@4    = ~(Darn...) Go ahead, laugh all you want.~
+@5    = ~And you've blushed! *laughs* Oh, I'm sorry, Dusk. I didn't mean to make fun of you. Tell me, who do I remind you of?~
+@6    = ~*smiles* Maybe I'll tell you some other time, little one. For now, let's continue with the journey.~
+
+// Aerie - GOOD
+
+@1005    = ~Aerie, do you remember when you asked me who you reminded me of?~
+@1006    = ~Dusk, of course I remember. You had turned as red as a tomato! *giggles*~
+@1007    = ~*coughs* Yes, well... You remind me of an elf from Shilmist named Celine.~
+@1008    = ~Celine? It's a beautiful name. Tell me about her.~
+@1009    = ~She was a fierce warrior, skilled in the use of the bow. But you don't remind me of her because of your physical strength, which you clearly lack.~
+@1010    = ~Hey! (Hm... well, it's true that I should exercise more)~
+@1011    = ~Don't be ashamed of that, Aerie. You are intelligent and kind, and those are the characteristics that remind me of Celine.~
+@1012    = ~Oh, I see. And tell me, Dusk... Have you not seen her for a long time?~
+@1013    = ~...~
+@1014    = ~Too long... more than I would like... Sometimes I dream of her. Someday... someday I will see her again.~
+@1015    = ~We better continue the journey. You know how <CHARNAME> gets if we get distracted chatting.~
+@1016    = ~So be it, Dusk. But I look forward to hearing more about her from you.~
+@1017    = ~Perhaps, Aerie. Perhaps...~
+
+// Aerie - EVIL
+
+@1018    = ~...~
+@1019    = ~Dusk! You're looking at me again... but... your eyes are different than before...~
+@1020    = ~You remind me of Celine, Aerie. But you are not as strong as she was... the view you have of the world will lead you to your doom.~
+@1021    = ~Wh-what are you talking about, Dusk?~
+@1022    = ~You are intelligent, which is a strength in you. But you are also kind and naive... and that will lead you to ruin.~
+@1023    = ~W-well, I didn't ask for your opinion, you know? I am who I am, and I like b-being that way.~
+@1024    = ~I don't blame you, little one. It's easier to believe in the good intentions of others. But the truth is, we all have an inner demon, lurking in the shadows, waiting to take control.~
+@1025    = ~*shivers* D-Dusk, I don't understand... you weren't like this before. Now... you no longer have a sparkle in your eyes... I-I only perceive coldness in your words.~
+@1026    = ~I've never seen things so clearly as I do now. You don't have to worry about me. I'm stronger than ever.~
+@1027    = ~Strength isn't everything... I don't understand why you're like this, Dusk... I don't understand.~
+@1028    = ~There's nothing to understand, Aerie. I still think that your kindness will be your downfall... but it won't be so while I'm around.~
+@1029    = ~You can afford to be naive. And if danger threatens you, I will stop it with blood and violence.~
+@1030    = ~I-I don't need you to kill for me, Dusk! N-not everything needs to end in violence and murder.~
+@1031    = ~But it is true, little one... The world we live in was forged with blood and violence. And it will be so until the sun and stars lose their shine... It will always be so...~
+
+// Anomen
+
+@7    = ~I must say, Anomen... it gives me some peace of mind that Tethyr has not gone to war against Amn... I wouldn't have wanted to have you as an enemy on the battlefield.~
+@8    = ~The peace between both nations seems to be holding. However, I understand what you mean. I wouldn't want to have to dispatch someone who fights for what is right either.~
+@9    = ~Or to be dispatched, wouldn't it?~
+@10   = ~Ha ha! You are quite sassy, young man. Perhaps we should put it to the test and see what happens. Although for me, the outcome is obvious.~
+@11   = ~Perhaps, Anomen. Perhaps... But something tells me that you would have no other choice but to turn to the prayers of Helm, because the outcome may not be as obvious as you think...~
+
+// Anomen - EVIL
+
+@1000    = ~You should improve your attitude, monk. You never know when you will cross paths with the wrong person...~
+@1001    = ~What-? Boy! Such insolence may cost you dearly. I-~
+@1002    = ~You what? Do you think I should be afraid of you just because you constantly bark about your exploits? I've seen you in combat... and you're certainly nothing special.~
+@1003   = ~If it weren't for the fact that I'm here for <CHARNAME>, I assure you that I would have given you a lesson or two by now.~
+@1004   = ~Hah! I would pay to see you try, monk...~
+
+
+// Cernd
+
+@12   = ~Dusk, I couldn't help but notice that you have a deep appreciation for nature. However, you seem more like a city man.~
+@13   = ~I have a special love for elven customs. Maybe that's what you mean.~
+@14   = ~Certainly, elves have a special connection with forests and animals, but it's not something that's exclusively theirs.~
+@899   = ~Humans have been primitive for millennia, even before the elves. Our consciousness of existence wasn't developed like that of our elven brethren, but we had something innate that they also have.~
+@15   = ~A connection with the earth, seas, and skies. Senses we had and lost with the passage of time.~
+@901   = ~And now we're trapped in the web of existence, alongside plants and animals, as well as other sentient beings.~
+@16   = ~True. That's why some humans do their best to regain those senses, despite our short existence.~
+@17   = ~A short existence, like the light of a shooting star that crosses the firmament and is lost in the night, like the tears of a child.~
+@18   = ~It's truly a pleasure to talk with someone who understands these things, Dusk. I'm glad we can travel together.~
+@902 = ~The pleasure is mine, Cernd.~
+
+// Edwin
+
+@19   = ~I warn you, mage! You must be more careful with your spells.~
+@20   = ~Are you talking to me, little man? How dare you demand that of me! Perhaps you fear "accidentally" being hit by a fireball?~
+@21   = ~Do not mistake me, Odesseiron. I do not fear your spells. I am referring to the innocents who may fall victim to your recklessness.~
+@22   = ~You have no understanding of the extent and damage you are capable of causing.~
+@23   = ~Understanding? (What is this primate talking about?) Hmpf! Look, tin man, I know exactly what I'm doing. I-~
+@24   = ~That is all I have to say to you. I'm glad we've cleared things up.~
+@25   = ~Wh-What?! (Did this impertinent man interrupt me?)~
+@1032 = ~Hmpf! (Perhaps I will try, after all, throwing a fireball at him to see if he can resist it...)~
+
+// EDWIN 2
+
+@113  = ~Over time, Edwin, I must admit that your skills are exceptional...~
+@114  = ~(Hm... the primate finally admits my superiority) Well, of course! Edwin Odesseiron is the terror of the Sword Coast, Dusk. Don't forget it.~
+@115  = ~However... there's something that doesn't add up for me...~
+@116  = ~*ahem* What are you insinuating? (Why is he looking at me with those frivolous eyes? Damn it, maybe he knows my secret)~
+@117  = ~For years I've faced many mages, summoners, transmuters, necromancers... but no one compares to you in terms of speed and vocalization of spells...~
+@118  = ~Well, of course, it's innate in me. You can't expect anything else from someone as skillful--~
+@119  = ~Why do you cover your amulet so suspiciously, my dear Edwin? You shouldn't worry about me... I'm not a thief... I have no interest in your skills- erm, I mean: amulet.  *smiles*~
+@120  = ~(Damn it, he's mocking me... maybe I should speed up his departure as soon as possible...) You better put your eyes on something else, stick man... You don't want to test my... skills..~
+
+
+//HaerDalis
+
+@26   = ~Hello, white canary! Are you in the mood for us to sing a serenade? Besides seeming to be a warrior, my heart tells me you're also a poet.~
+@27   = ~White canary?~
+@28   = ~Don't like it? You sound like a white canary? to me, lord. But, if you don't like that, the other bird you remind me of is a nightjar.~
+@1033   = ~Would you prefer me to call you nightjar, lord?~
+@29   = ~Hmmm... I think I prefer "white canary".~
+@30   = ~Then white canary it is! Divine crows and sad canaries. This party is quite the motley crew.~
+@1034   = ~And... what do you say? It's a good time to be alive! Shall we start the serenade?~
+@31   = ~*coughs* Maybe... maybe another time, my friend.~
+
+//HaerDalis EVIL
+
+@1035   = ~Who would have thought? The white canary has mutated into a great and terrible red hawk.~
+@1036   = ~Are you talking to me, bard? I see you're still with those bird nonsense.~
+@1037   = ~Of course! A red hawk is certainly more interesting than a white canary, don't you think?~
+@1038   = ~Although, it's undeniable that the white canary's song is prettier.~
+@1039   = ~I don't care what you call me, tiefling. Just don't start singing. I'm not in the mood.~
+@1040   = ~Well, humor is something that the red hawk doesn't seem to possess, unlike a white canary.~
+@1041   = ~Make another bird analogy and your tongue will be dog food.~
+@1042   = ~Wow! Good humor is definitely something that has also mutated...~
+
+// Imoen
+
+@32   = ~Hmmm... how strange! I thought I had left my bag of cookies here.~
+@33   = ~Are you sure? There are many rodents around here, maybe a hamster borrowed it.~
+@1043 = ~Hey, Boo wants to know why you're staring at him!~
+@34   = ~Borrowed it? Well, I don't think-... Hey... wait a minute. You have crumbs on your cheeks!~
+@35   = ~What?! Dusk, it's impolite to stare at a lady's cheeks.~
+@36   = ~Impolite? Oh, sorry. I... ~
+@1044   = ~Hey, don't try to get out of this, young lady! If you wanted my cookies so much, all you had to do was ask.~
+@37   = ~Oh, really? Well, thanks, Dusk. (I guess he won't mind that I borrowed his bag of candy too.)~
+
+
+// Imoen 2
+
+@121  = ~Imoen, is that apple delicious?~
+@122  = ~Hmm... *chewing* Yes it is! *chewing*~
+@123  = ~That's great! Especially since I had one exactly like it in my backpack... and now I can't find it.~
+@124  = ~Oh, Dusk... *chewing* You should be more careful with your food...~
+@126  = ~In case a hamster or a mouse comes and steals it, right?~
+@127  = ~Hehe... That's exactly what I was going to say. Are you mad at me, Dusk? Oh... don't tell me... you suspect, me!~
+@128  = ~(Darn it, I can't scold her when she makes that abandoned kitten face) Hm... No, no, Imoen... it's just that I was a little hungry and I-~
+@129  = ~Oh, well why didn't you say so earlier! Have some, Dusk.~
+@1082 = ~(Huh? But there's only the core left...) Well, thanks, Imoen... *sigh*~
+
+// Jaheira
+
+@38   = ~Dusk, I see something in your eyes. A kind of desire. Or am I mistaken?~
+@39   = ~You may see something in me that also identifies with you, Jaheira.~
+@40   = ~You've lost someone dear as well, haven't you? I didn't start this conversation to speak of details, Dusk... it's just that...~
+@44   = ~I understand, Jaheira. Sometimes it's hard to talk about these situations. Especially for us, who seldom express what we feel.~
+@45   = ~Not at least in words... I think we express too much, my friend. Be it on a hike or on the battlefield.~
+@46   = ~That's right, my lady. And we must keep moving forward, right? No matter what... keep moving forward...~
+@41   = ~For the fallen.~
+@1045 = ~For the fallen...~
+
+
+// Jan
+
+@47   = ~Hey, big guy!~
+@48   = ~Big guy?~
+@49   = ~I saw you eyeing my turnip bag. At home, that's always a topic of conversation.~
+@50   = ~Your bag of what?~
+@51   = ~Once, Uncle Gerhardt stared at the potato bag for three straight days. For a moment, we thought he was on a diet because he just kept staring and didn't want to eat or cook, and Ma Jansen doesn't allow that. So on the fourth day, Ma decided to tap him on the shoulder to put him to work in the kitchen. At that moment, he jumped three meters. Turns out, he was asleep. He had been doing experiments with potions mixed with toad sweat and onion juice, along with a couple of gnome incantations. At first, he was really scared, but then he realized that the potion didn't work.~
+@52   = ~Um... I don't know if I should ask why it didn't work...~
+@53   = ~Well, Dusk, it's obvious. That kind of potion is supposed to put you to sleep with your eyes open for five days, not four. By the sacred butt of a monkey, Dusk. I can't be available all day to teach you things. You have to mature and learn the value of gnome potions, especially if we're talking about Uncle Gerhardt.~
+@1046 = ~Um... Certainly, Jan. I'll keep that in mind.~
+@1047 = ~That's the way, big man, that's the way. It's been a pleasure doing business with you. Next time, if you want to continue, just take another look at my turnip bag, yes?~
+@1048 = ~Oh, don't worry, gnome. After all, your turnip bag is always there... in plain sight...~
+
+// Keldorn
+
+@54   = ~Your battlefield skills are admirable, young man. And you fight with honor. If I were younger, I would take you as a pupil to make you a worthy knight of the Noble Order.~
+@55   = ~Sir Keldorn, it is an honor to fight by your side. I would have gladly accepted the offer. But life has wanted our paths to cross later than sooner.~
+@56   = ~It's true, dear friend. Your duty to Tethyr and Cormyr is admirable. But I must ask, why have you resigned from your positions?~
+@57   = ~For years we have fought against the forces of the Zhentarim. For years we have resisted. And to make matters worse, tensions with Amn were growing.~
+@58   = ~With the help of the elves of Weldath, we managed to forge relationships here, despite what they may say.~
+@59   = ~But... as you may know, some villains benefit from war... and we have had several opponents in the shadows that we had to endure... not without losses...~
+@60   = ~I understand, Dusk... I can estimate that you have lost someone dear in one of those skirmishes.~
+@61   = ~That's right... and it's something I'd rather not talk about. After fulfilling my mission... I simply walked away... and fate has wanted Athkatla to be the place where I met <CHARNAME> and Irenicus.~
+@1049   = ~And the rest is history, my lord...~
+@62   = ~YI see... Dusk, I will endeavor to stand by your side and provide you with all the possible help. Your personal desires may not be clear, but at least your heart is commendable.~
+@1050 = ~It will be a great honor, Sir Keldorn.~
+
+// KORGAN
+
+@63   = ~I've never had the pleasure of fighting alongside a dwarf before. I must say, you don't disappoint your warrior race, Korgan.~
+@64   = ~Har har har! Thanks, scrawny. I must say, ye don't do too bad yerself, even though ye handle a stick.~
+@65   = ~Heh! Coming from you, that's a compliment, fat legs.~
+@66   = ~Aye! I've seen how ye enjoy gutting those disgusting mages. My favorite part is when ye use that bastard sword. A bastard weapon for a skillful bastard.~
+@67   = ~The sword is one of my favorite weapons. Although I understand the value of the quarterstaff and its crushing damage is deadly.~
+@68   = ~Bah! There's nothing like a good axe. We could keep talking about what or who is better, or we could grab some beers and see if we come across any sweet female dwarf ass.~
+@1051 = ~I think I'll go with the beer option. And we can enjoy some fresh air along the way.~
+
+// MAZZY
+
+@69   = ~Lady Fentan, let me express my great admiration for your bravery on the battlefield. It is an honor to fight by your side.~
+@70   = ~Lady? You flatter me, Dusk. But you can call me Mazzy, like all my friends do.~
+@71   = ~Very well, Mazzy it is then.~
+@72   = ~You are quite obedient! You would make a great squire.~
+@73   = ~A squire? Don't you think I would aim for something higher?~
+@1052   = ~Hmpf, sorry, I didn't mean to offend you when I said "higher."~
+@74   = ~Well, well! That courtesy disappears quickly when you become comfortable. I like that, Dusk. I like that.~
+
+// MINSC
+
+@75   = ~Minsc, your willpower surprises me. What's your secret?~
+@76   = ~Hmmm... those questions are better answered by a wise man, isn't that right, Boo?~
+@77   = ~Boo says that Minsc gets his willpower from a desire to kick evil butts.~
+@78   = ~Ah... Boo, huh? You have a very brave hamster there.~
+@79   = ~Boo is not my pet, Dusk. He's my friend. He's a giant space hamster. Despite being giant, he's very agile.~
+@80   = ~(Well, he doesn't look very giant to me)~
+@81   = ~Boo asks what you're muttering about, good Dusk.~
+@82   = ~Um... that Boo looks so strong that I wouldn't want him to go for my eyes.~
+@83   = ~Oh, don't worry, Dusk! With Boo, we've seen that you have a good heart and we'll be battle comrades for as long as we travel together.~
+@84   = ~I'm glad to hear that.~
+
+// Minsc 2
+
+@140  = ~Minsc, I have these ginger cookies for our mutual friend, Boo.~
+@141  = ~Oh, easy there, Boo! Minsc has rarely seen Boo so excited. I can hardly contain his strength.~
+@142  = ~*Hamster squeak*~ [p_squeak]
+@143  = ~Wow! Clearly, he's become a ginger fanatic, don't you think?~
+@144  = ~Boo, calm down! Remember, you're on a diet.~
+@145  = ~*Hamster growl*~ [p_squeak]
+@146  = ~Ha! Our furry companion has quite the temper.~
+@147  = ~Dusk, Minsc appreciates you thinking of us. But next time, remember that Boo won't be as agile with a belly full of ginger cookies.~
+@148  = ~Right, right. I'll keep that in mind. Maybe an apple will do next time.~
+@149  = ~Yes! That will give him energy and won't make him so... *whisper* chubby. But... thank you very much, great Dusk. Boo is very grateful. He'd say something if he hadn't stored several cookies in his cheek.~
+@150  = ~No problem, Minsc. *whisper* Boo, whenever you want to sneak away from your diet for a few hours, you know where to find me.~
+
+
+// NALIA
+
+@85   = ~Dusk, <CHARNAME> told me that you met in the Waukeen's Promenade, is that correct?~
+@86   = ~Lady De'Arnise, so you are asking about me, bothering our descendant of Bhaal?~
+@87   = ~*coughs* Sorry, Dusk. I didn't mean to intrude--~
+@88   = ~Ha! I'm sorry, Nalia. I was just teasing. I don't mind at all if you ask about my affairs. At worst, you would get a refusal from me.~
+@89   = ~You are quite cheeky! But setting aside your impudence, I will take your advice and ask. What were you doing there?~
+@90   = ~After I... ended my services in Tethyr, I decided to come to the land of merchants. I could have gone to Trademeet, but for some reason, Athkatla caught my attention.~
+@1053   = ~I must confess that commerce is something that interests me. A simple life that I may one day pursue.~
+@1055   = ~Really? I didn't take you for a merchant, Dusk. You seem more like a...~
+@1056   = ~Warrior? Knight?~
+@1057   = ~I was going to say stable boy.~
+@1058   = ~Darn it, Lady De'Arnise! You hit my pride right on the spot.~
+@1059   = ~You deserved it for trying to be clever, man. But at least you were honest in your answer.~
+
+// Valygar
+
+@91   = ~Dusk, I've been observing you for a while. I'd like to ask you something, if you don't mind.~
+@92   = ~Tell me, my friend, what can I help you with?~
+@93   = ~Your... condition, as a Wizard Slayer... intrigues me. I understand that you have spent some time training... Resisting spells naturally is something formidable, but I wonder, how did you manage it?~
+@94   = ~Hmm... I see where you're going, Valygar... I know you're not a fool and that you're not ignorant of facts related to magic... I know that you know that Wizard Slayers who have NOT been trained in the tribes of the North often have... dark intentions.~
+@95   = ~I know, Dusk... that's why I ask you: how is it possible that you're a defender of justice when you've been trained by an evil sect?~
+@1060   = ~Don't confuse my questioning with malice, for I have the clarity of judgment to know that you're not a fraud... it's just that...~
+@96   = ~You're curious, eh? Like any... sorcerer...~
+@97   = ~A fair and well-deserved statement, I'm afraid.~
+@98   = ~My intention wasn't to offend you, my friend. I know you abhor magic, as much if not more than I do. That's why I can also identify that you have many things in common with those you hate so much...~
+@1061   = ~"One must be careful when choosing enemies... because one tends to become like them", said a wise man.~
+@1062   = ~We'll talk about this again in due time, Valygar... but not now... not now...~
+@1063   = ~It's only fair, I believe. We'll continue this at another time, Dusk.~
+
+
+// Valygar 2
+
+@130  = ~Are you still interested in knowing how I ended up in that "evil sect," Valygar?~
+@131  = ~Well... yes, actually, I am interested in knowing, Dusk. Are you willing to talk?~
+@132  = ~As long as you're willing to listen, my friend.~
+@133  = ~Dusk, I'm all ears.~
+@134  = ~Hm... certainly... I didn't always detest magic, you know? It wasn't until a treacherous wizard took someone I... valued.~
+@135  = ~I heard rumors of an army forged by an aasimar in the vicinity of Baldur's Gate. As you may know, aasimar have an innate resistance to magic due to their divine heritage, so I assumed there would be Wizard Slayers willing to fight for her. Wizard Slayers trained by her, imbued, perhaps, with that innate arcane resistance.~
+@136  = ~I'm not sure what happened to that aasimar, but when I arrived, she and her army had vanished... However, by interrogating the locals, I heard rumors of an army in the south, lurking in the darkness of the Fields of the Dead, southwest of the Serpent Hills.~
+@137  = ~After a few weeks, I found them. They were nothing more than a party of mercenaries who had deserted from the army of Dragonspear. But there were Wizard Slayers there... and I convinced them to accept me, after having to emerge victorious from some combat trials with some thugs.~
+@1064  = ~I proved my worth and they accepted me. The first thing I had to do was speak with their leader, a mage named Snake Eyes. He was a human diviner, with whom I had many... particular... readings.~
+@138  = ~Particular?~
+@139  = ~Yes... The diviner read my past. He discovered my royal descent and saw how my ancestors fought against the dark forces of Aumvor. He saw in me a guttural hatred for magic, but he couldn't read my true intentions.~
+@1065  = ~Your true... intentions?~
+@1066  = ~Hm... it's getting a bit late, Valygar. How about we continue this another time? I promise to finish my story later on.~
+@1067  = ~Indeed, Dusk, indeed... I'll take you at your word.~
+
+// Valygar 3
+
+@171  = ~Dusk, I believe it's been a reasonable amount of time since our last conversation, don't you think?~
+@172  = ~Indeed, Valygar. I'll finish my story...~
+@173  = ~As I mentioned before, Snake Eyes had several sessions with me. His specialty was the divination school, so he was able to delve into my past through certain... conjurations. He didn't say more than what he already knew because his real intention was to glimpse what my intention was, do you understand?~
+@174  = ~I understand. Your real intention was to improve your natural resistance to magic to get revenge on the wizards who abuse their power, am I right? My question is... how did you deceive Snake Eyes?~
+@175  = ~My desire for revenge was too great... so much so that it overshadowed what I intended to do afterwards with them, with the mercenaries of the valley.~
+@176  = ~Snake Eyes focused more on my arcane past than on my future futile efforts to make use of what I would gain from innate magical resistance. But he was no fool... he didn't care if I lived or died, so his... methods to awaken that resistance in me were not restrained.~
+@177  = ~I have a slight suspicion of how Wizard Slayers were trained in the north, in the barbarian tribes... Is it what I think it is?~
+@1068  = ~Yes: Snake Eyes used conjurations against me. He cast all sorts of spells and then went to the camp's cleric to heal me.~
+@1069  = ~I was near death countless times... but my purpose kept me steadfast.~
+@1070  = ~After a few months, I understood how most of the spells worked... at least in a basic way. And it was when I obtained this knowledge that I executed the next phase of my plan.~
+@1071  = ~What happened?~
+@1072  = ~I killed them all...~
+@1073  = ~I see that you don't judge me for my actions... why?~
+@1074  = ~Well, Dusk... I think they deserved it. I know how mercenaries act, and the sects that train Wizard Slayers don't have good intentions. They only seek death and conquest. You knew it and surely experienced it... And maybe you even had to do things you didn't want to do.~
+@1075  = ~You're right... Many times I could avoid certain "obligations" to the camp. After all, I was too focused on my main purpose. And when I finally achieved it, I finally got my revenge against them.~
+@1076  = ~Snake Eyes was surprised... but when I confronted him, in the end, I realized that he knew I would act that way.~
+@1077  = ~Anyway, I didn't think too much about it. I dealt him a deadly blow and even resisted one of his conjurations. That was his end. And also the beginning of my redemption.~
+@1078  = ~I made my way to Athkatla because I knew the great city stank of corruption and I could use my new knowledge to help those in need.~
+@1079  = ~Then, what we all know happened on the Waukeen's Promenade. Irenicus, <CHARNAME>, Imoen. The rest... is history.~
+@1080  = ~It's been interesting, Dusk. Thanks for telling me this. I hope we can bring closure to this entire hunt against Irenicus... I think together, we can give <CHARNAME> a good hand.~
+@1081  = ~I think the same, Valygar... I think the same...~
+
+
+// VICONIA
+
+@99   = ~During the nights I perceive your gaze, Viconia... is there something I should know?~
+@100  = ~Really, abbil? It might just be lust, don't you think?~
+@101  = ~Hm. I think you hide your true intentions, drow. However, it's not something that bothers me. Your affairs are only your concern.~
+@102  = ~You're right about that, little man. Although, you shouldn't take my words so lightly. I might be observing you at night because I desire to feel your blood between my fingers. I always wanted to taste a Wizard Slayer.~
+@103  = ~Should I feel threatened? Well, I don't think so... I don't perceive any hatred in your words.~
+@104  = ~Maybe not, rivvil... but don't doubt that it could change at any moment... For now... just enjoy when you feel my gaze on your body. You have nothing to lose... yet...~
+
+// Viconia 2
+
+@151  = ~I brought this for you.~
+@152  = ~W-what are you doing, rivvil? What is this? It's... it's a brooch.~
+@153  = ~That's right... it represents the Moon... or at least, its dark side.~
+@154  = ~But... why?~
+@155  = ~Because we're friends. Friends tend to give each other gifts. And it seemed like it's been a long time since anyone gave you anything.~
+@156  = ~W-well, I don't need anyone to give me anything, rivvil... If I want something, I just take it.~
+@157  = ~But tell me... is this what you've been working on the past few nights?~
+@1083  = ~*coughs* Well, yes. It helps me distract myself.~
+@1084  = ~You shouldn't have done it, fool... I don't need to be the reason for your distractions.~
+@1085  = ~However... thank you. For a rivvil, you certainly have skill in carving wood.~
+@1086  = ~Don't mention it, Viconia. Whether you like it or not, you're forging friendships in this alliance. And friends do things like this. Be there for you.~
+@1087  = ~...~
+@1088  = ~I'll think about your words, abbil. For now, leave me alone.~
+@1089  = ~Very well, Vicky. *smirks*~
+@1090  = ~Don't push your luck, rivvil. Luckily for you, I'll let that slide, just because I liked your... gift.~
+
+// YOSHIMO
+
+@105  = ~I hate to admit it, Yoshimo... but you're quite the mystery.~
+@106  = ~A mystery, you say? Mysteries shimmer at noon like stars, even if you cannot see them for the sun. I hope you speak of good Yoshimo with good intentions, my friend.~
+@1091  = ~I don't care if I offend you, thief. I perceive that you often act with doubt, despite your attitude showing otherwise.~
+@107  = ~Oh, I didn't mean to offend you, companion. It's just that I perceive that you often act with doubt, despite your attitude showing otherwise.~
+@108  = ~Doubts are natural, even in those who have excessive confidence. I myself have seen that you doubt, Dusk. What do you think about that?~
+@109  = ~Certainly, you are intelligent... trying to divert attention by posing it on the receiver... But I suppose you have your secrets, just as I have mine.~
+@110  = ~Well, yes... every warrior who has seen too much on the battlefield has them... and they only sometimes reveal themselves in the wakefulness of sleep.~
+@111  = ~In dreams, huh? Well, I suppose we should be careful even when we dream... lest the truth catches us off guard, don't you think?~
+@112  = ~Yoshimo won't be surprised by anyone or anything, my dear Dusk. It's always Yoshimo who surprises others...~
+
+// FALL 
+
+@178  = ~Fall, I understand you're skilled with a crossbow... but if an opponent lunges at you with a melee weapon, you should retreat. You'd be at a physical disadvantage, and your life would be in danger.~
+@179  = ~Why do you insist on giving me orders, man? I know very well that if that happens, you'll be the first to come to my defense.~
+@180  = ~I won't always be there for you, Fall. If I give you this advice, it's for your own good.~
+@181  = ~Why do you say such things, Dusk? There's no need to be so pessimistic. Life isn't as cruel as you always say.~
+@182  = ~As I always say? What do you mean?~
+@183  = ~*in a deep voice* "Remember: no one will hit you as hard as life itself."~
+@184  = ~*chuckles* Sounds very grim. Why are you looking at me like that? Didn't you like my "Dusk, the serious" impression?~
+@185  = ~Let's keep going.~
+@186  = ~All right, all right... and by the way: I'll heed your advice. Thanks for always being on the front lines, Dusk.~
+@187  = ~And keep in mind that I intend for your stay with us to be long: my crossbow and I will take care of that.~
+@188  = ~Good to know.~
+
+@189  = ~I still haven't decided, Dusk: I don't know if you look younger or older with that appearance.~
+@190  = ~Well... I don't feel either younger or older. Why do you ask, Fall?~
+@191  = ~Well, certainly, after your... "absorption" of the purified orb, you've changed. Although not so much now that I think about it.~
+@192  = ~My wolves adore you. Not that they didn't before, but now it's as if they sense in you a deeper connection to nature.~
+@193  = ~I think it's the work of the orb, Fall. That Daren and Sinna sense it confirms it even more.~
+@194  = ~And regarding your observation... I think I feel older. I don't know if my appearance shows it or not... but certainly, the orb has consumed part of my vital energy.~
+@195  = ~Oh... I see.~
+@196  = ~*smiles* Cheer up, Fall. We still have plenty of time. When this is over, we can travel together through Shilmista, if you wish.~
+@197  = ~Really? There's nothing I'd like more, Dusk. It's a promise.~
+@198  = ~It's a promise.~
+
+@199  = ~You've been watching me from a distance for quite a while, Fall. If you have something to say, just say it.~
+@200  = ~*gulps* Um... No, I haven't been watching you... You must be mistaken.~
+@201  = ~I'm not stupid, girl. Do you fear me?~
+@202  = ~I'm not a girl, Dusk! And no, I don't fear you! It's just that... you've changed...~
+@203  = ~That's right. Now I harbor a power greater than before. Such is the power of Pandemonium.~
+@204  = ~As if that mattered. Power? The Dusk I knew never prioritized power. The Dusk I knew was kind. A bit serious, perhaps, but his heart held kindness.~
+@205  = ~But now... it's as if...~
+@206  = ~As if it didn't exist? It's because the Dusk you mention no longer exists. It's just me.~
+@207  = ~I don't think that's true, Dusk... despite your personality and appearance having changed... I feel that you're still you...~
+@208  = ~Within that darkness you emanate... I feel that the Dusk I knew still exists.~
+@209  = ~Perhaps, Fall, perhaps...~
+@210  = ~We'd better keep going.~

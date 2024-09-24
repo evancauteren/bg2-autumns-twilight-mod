@@ -1,0 +1,203 @@
+@0    = ~Tell me about Dusk.~
+@1    = ~A son of Cormyr who traveled south to prevent a war. His homeland awaits his return after countless heroic stories during his travels through Amn and his journeys with <CHARNAME>.~
+@2    = ~Do they await my return? Perhaps... perhaps someday I will return...~
+@3    = ~He has acted with justice on behalf of the nations of Cormyr and Shilmista. His loyalty to foreign nations such as Amn and Tethyr echoes throughout the forest and the city. The forest elves await him as a hero, as do countless friends in Athkatla, such as the Noble Order of the Radiant Heart.~
+@4    = ~It's good to know I'll be welcomed in many places after my journey with you, <CHARNAME>. Perhaps you can accompany me...~
+@1000    = ~The cruel acts of Dusk have reached the ears of all the arcane in Amn. Many fear falling prey to his ambitions or suddenly becoming the target of some unpredictable revenge. The Knights already consider him a fallen paladin, and the orcs tremble at the mere mention of his name.~
+@1001    = ~Such is the result of my travels with you, <CHARNAME>. What we have achieved with our power has finally been recognized.~
+
+@5    = ~I trust that you will do what you must with the new power you are to acquire, <CHARNAME>. No one deserves it more than you.~
+@46   = ~This depraved one again... don't you think it's time to teach him a lesson, <CHARNAME>?~
+@47   = ~Hmm... we should be careful, <CHARNAME>. I sense a strange energy from this individual.~
+@48   = ~Why do you take an interest in this, woman?~
+@49   = ~I think we have faced more dangerous challenges, woman. You underestimate <CHARNAME> at your peril.~
+@50   = ~What has happened to Saradush?~
+@52   = ~It seems that someone is always waiting for you in this world, <CHARNAME>. What a reputation you've earned.~
+@53   = ~If you act like a dog, you'll die like one. Prepare yourself!~
+@54   = ~Monks have always seemed like strange specimens to me. I can't tell if he's truly an evil man or not.~
+@55   = ~So she was behind it all... damn it...~
+@56   = ~I don't think it's a coincidence that this is happening just as we arrive, <CHARNAME>. We must be careful.~
+@57   = ~Will we trust the blasphemies of a demon? Although... I'm not sure we have many other options...~
+@58   = ~Neither do I... what this little filth is saying makes sense. Most end up drunk on power, and that leads to their downfall.~
+@60   = ~<CHARNAME>! Be alert. There is a... supernatural force here, ancient and almost arcane. I don't understand why we can't see it... but it's here...~
+@61   = ~Coward. We should finish him, <CHARNAME>. Revenge demands it.~
+@7    = ~A deception unworthy of Helm, cleric... I'm not sure we should let something like this slide...~
+// ToB Conversations
+
+@62   = ~So this is your... pocket plane, isn't it, <CHARNAME>?~
+@63   = ~Well... yes, Dusk. It's not exactly a luxurious inn, but at least we can rest peacefully here.~
+@64   = ~t could be worse, Dusk. Better get used to it.~
+
+@67   = ~I'm not in the mood for talking, Dusk. There are more important matters to focus on.~
+@68   = ~So be it, <CHARNAME>. I won't bother you.~
+
+@71   = ~Ha! I'm not complaining, my friend. It's all that's happened since... Irenicus.~
+@72   = ~Your path is clear: you must survive the struggle for the Throne of Bhaal and I'll help you in whatever way I can.~
+@73   = ~But... what then? Maybe you have it all figured out. Or maybe not. What I can tell you is that I'm not sure what I'll do.~
+@74   = ~Why do you say that? I thought you wanted to start your own business on the Waukeen's Promenade in Athkatla.~
+@75   = ~Honestly, I can't tell you what to do, Dusk. Find yourself another advisor.~
+
+@78   = ~It's possible... but I feel like I still have many personal matters to resolve.~
+@79   = ~What do you mean?~
+@80   = ~I don't think we have time for this, Dusk.~
+@81   = ~I'm talking about my home: Cormyr. I left there with a mission that I couldn't fulfill. I couldn't protect those under my command, nor my loved ones.~
+@82   = ~My training as a Wizard Slayer was aimed at taking down a guild of sorcerers.~
+@83   = ~But that never happened. Perhaps... maybe I should focus on it once I finish my business with you.~
+@84   = ~It's possible, Dusk. You mentioned Cormyr. Do you think they will welcome you back with open arms?~
+@85   = ~I don't know, Dusk. The original plan of being a merchant in Athkatla sounds like a safer bet.~
+
+@87   = ~I don't know, <CHARNAME>. I miss my home... but my honor has been tarnished by my inability to protect my soldiers.~
+@88   = ~I should have fallen with my brothers in arms when we were ambushed on the Giant Plains.~
+@89   = ~Do you think so? To tell the truth, it doesn't sound too bad, does it? I am... tired of walking the path of war.~
+@90   = ~Your words are always a comfort to my heart, <CHARNAME>. You have clarified my troubled mind.~
+@91   = ~Come on... your destiny awaits us.~
+@92   = ~I should have... fallen many times... But here I am, next to a demigod.~ ~I should have... fallen many times... But here I am, next to a demigoddess.~
+@93   = ~That ambush wasn't your doing, Dusk. It's time for you to stop blaming yourself for it.~
+@94   = ~I don't think I'm the right person for this conversation, Dusk. Apologies.~
+@95   = ~Maybe... maybe you're right, <CHARNAME>.~
+@96   = ~Verily, Dusk. Besides, Irenicus has been defeated and we saved Suldanessallar in the process. That should serve to restore your honor, don't you think?~
+
+@97   = ~It's true, my friend. Once our journey ends, I'll put my affairs in order.~
+@98   = ~It's time to stop living in the past. For the first time... I see hope in the future.~
+@99   = ~Gratitude, <CHARNAME>. You don't know how much you've helped me.~
+@100  = ~Come on, let's continue with the journey.~
+@101  = ~I've thought about returning to Shilmista after this. Maybe Mathyus will accompany me.~
+@102  = ~It seems like a good idea, Dusk. What will you do there?~
+@103  = ~I don't think we have time for this conversation, Dusk. We have a lot of work to do.~
+@104  = ~Well... my relationship with the elves is good. Maybe I'll learn a little more about Mielikki. Some questions about my future after you remain uncertain.~
+@105  = ~What do you mean? Is there something from the past that still troubles you?~
+@106  = ~What do you mean? You spend a lot of time looking at the Ring of the Forest of Mir. Are you still thinking about your conversations with Bellfame?~
+@107  = ~Hm... I'm certain you'll be able to resolve it on your own, Dusk. Let's continue.~
+@108  = ~Well... yes. I've been thinking about Alabarza, <CHARNAME>.~
+@109  = ~The half-orc who wiped out your detachment? That's a response I didn't expect.~
+@110  = ~Why, Dusk? Your enemy has been dead for a good while now.~
+@111  = ~"I know, I know, <CHARNAME>. However, his last words still echo in my mind.~
+
+@112  = ~His clan was tricked by Anthagar, the Necromancer, to attack us. He was defeated and even killed by us.~
+@113  = ~But... I can't help thinking about his punishment at the hands of his own god: Gruumsh.~
+@114  = ~His eternal punishment is just, Dusk. Your revenge was also just.~
+@115  = ~Why do you have doubts? I feel like, for some reason, you pity him.~
+@116  = ~The feud between Alabarza and I was personal. A war between the Knights of my Order and the Humanoids of his clan.~
+@117  = ~As we were at war, both he and I sought alliances for the sole purpose of destroying each other.~
+@118  = ~He sought out the transmuter elf, Kalanda.~
+@119  = ~The dogma of Gruumsh dictates an eternal hatred towards elves.~
+@120  = ~And on the other hand, I sought you, a child of Bhaal.~
+@121  = ~Alabarza broke that dogma by using Kalanda's magical trickery.~
+@122  = ~I'm not sure if compassion is the right word, <CHARNAME>. But I think eternal punishment is excessive.~
+@123  = ~I think his punishment is just, Dusk. Alabarza was a villain and his ultimate fate: deserved.~
+@124  = ~I understand what you mean, Dusk. But... can you do anything about it?~
+@125  = ~It may be so, <CHARNAME>. However, I believe that even a villain of Alabarza's caliber can redeem himself.~
+@126  = ~*sigh* Despite everything, I don't think anything can be done about it. The issue of Faer�n's deities is still something that overwhelms me.~
+@127  = ~Simply put... I needed to get the topic out of my mind. Giving voice to our inner thoughts often brings us back to reality and the impossibility of many things.~
+
+
+@128  = ~But if there's one thing I've learned from you, my good friend, it's that nothing is impossible.~
+@129  = ~Thank you for listening to me. We should continue on our journey now.~
+@130  = ~Well... yes, actually. I've had the opportunity to have several conversations with her.~
+@131  = ~Mostly about complex matters, like time and the Lady of the Forest.~
+@132  = ~Yeah, sure. "Time".~
+@133  = ~Are you sure that's all it is? I'm not blind, Dusk.~
+@134  = ~*coughs* Are you implying that there's... a romance between her and me?~
+@135  = ~I don't know... to be honest, I have a good relationship with her, <CHARNAME>.~
+@136  = ~As you may recall, she intervened in our battle against Alabarza and has taught me a lot about other planes of existence.~
+@137  = ~There's a certain situation she's tried to explain to me more than once, about how she ended up trapped in the Ring of the Forest.~
+@138  = ~She spoke about a battle in Mir... but that battle hasn't happened yet. It's supposed to occur in about a year's time.~
+@139  = ~See? That's why you shouldn't talk to summonings. They say nonsense.~
+@140  = ~Well, nymphs are magical creatures. Michelson gave us that ring, so I wouldn't be surprised if it's true.~
+@141  = ~It could be a delusion. But I don't think so.~
+
+@142  = ~It's true that Bellfame, like Michelson, is a magical creature. Its laws escape our understanding.~
+@143  = ~So I wouldn't be surprised if the war event in the Forest of Mir really happens in a year.~
+@144  = ~Wow... I've been thinking about this for a long time, but saying it out loud has made me reflect a little more on Bellfame.~
+@145  = ~Thanks for listening, <CHARNAME>. Talking to you always clears my mind.~
+@146  = ~<CHARNAME>, do you have a few minutes? I've been thinking, and I think you're the only one who can advise me on... my musings.~
+@147  = ~Do you mean your wife's last words?~
+@148  = ~We don't have time for this, Dusk. Maybe later, yes?~
+@149  = ~I don't think I'm asking for too much, but if that's your answer... So be it.~
+@150  = ~Not just her words... she... seemed to despise me. As if she... hated me.~
+@151  = ~I'm more powerful than I ever dreamed, <CHARNAME>. Even the power of Pandemonium gives me the ability to accomplish feats that few mortals are capable of achieving.~
+@152  = ~I could have resurrected her... I could have pluck her from that wretched, arboreal space.~
+@153  = ~But... she rejected me... she even seemed willing to fight me... Why?~
+@154  = ~Well... you've changed a lot since I met you, Dusk. I think that event is due to the mysterious Orb that the Enchanter gave you, do you remember?~
+@155  = ~Tree-huggers are like that, Dusk. A bunch of cowards. I don't understand why you're concerned about it.~
+@156  = ~Ehrm... I don't think it's any of my business, Dusk. It's better if you leave me out of this or we can talk about it another time...~
+@157  = ~While I agree with that statement... I don't think it's a valid reason. No... It must be...~
+
+@158  = ~The scarlet orb of Sornhil. No, not Sornhil... Anthagar, the Necromancer.~
+@159  = ~He was the puppet master of it all, <CHARNAME>. Despite having killed him... I still feel his influence on my destiny.~
+@160  = ~Why? Why do I have this feeling of discomfort? I have a sensation that my actions were orchestrated solely for someone else's amusement.~
+@161  = ~As if we're not the masters of our own fate... we're the result of a cruel joke. A joke destined to repeat itself, over and over.~
+@162  = ~Mathyus, Michelson, Demolisher... Why did I kill them? They were my friends... Did I do it... for power?~
+@163  = ~Ah, those idiots. I had forgotten about them.~
+@164  = ~Ah, the guardians of Shilmista. I remember being surprised by your final decision regarding their fate.~
+@165  = ~Are you going to get sentimental? That's my cue to exit this conversation.~
+@166  = ~They may have been idiots... but the truth is that I betrayed them.~
+@167  = ~I needed their life energy to break Danctian's bonds and allow his power to seep into this plane.~
+@168  = ~Now that time has passed and I understand my power better, there is the possibility of... bringing the Shilmists back.~
+@169  = ~You plan to resurrect them? I've grown used to their absence, Dusk. Besides, if I hear Michelson's laugh again, I swear I'll declare war on you.~
+@170  = ~Do you think something like that would redeem you? You're being a bit naive, it seems to me.~
+@171  = ~I'm tired of this conversation, Dusk. Too much talk. I don't want to hear anymore.~
+
+@172  = ~The idea has taken hold in my mind, it's true. But don't worry, <CHARNAME>. If I were to do it, I would do it when our travels together have ended.~
+@173  = ~I was hoping... to obtain some redemption... I think I could do something like that for my wife.~
+@174  = ~However... I'm not sure if it's enough. This... darkness inside of me... it just keeps growing stronger and stronger.~
+@175  = ~As if little by little... I'm forgetting what it means to be human. Maybe something like that will happen to you, <CHARNAME>. I've been watching you all this time.~
+@176  = ~What you were... since we left Athkatla... you've changed, too much.~
+@177  = ~*clears throat* I'm not trying to give you a sermon or anything. I just needed to make these abstractions real. We should continue.~
+
+@178 = ~I didn't want... to bring this up, <CHARNAME>. But... the battle against the Tethyrian soldiers still has me shaken.~
+@179 = ~I find that hard to believe. It wasn't a skirmish that placed us in a difficult predicament. It seems strange coming from you.~
+@180 = ~Why do you say that, Dusk? Does it have to do with your past as a peacemaker, yes?~
+@181 = ~It's not the time for whining, Dusk. We have more important matters to attend to.~
+@182 = ~*sigh* Very well, <CHARNAME>. Let's continue.~
+@183 = ~It's not related to the combat itself. Many of those soldiers... were trying to do the same thing I did years ago. Maintain peace.~
+@184 = ~I don't know what will be said about us in detail... The Tethyrian commander didn't want to listen to us... I guess he never would.~
+@185 = ~It's unfair that this had to happen.~
+
+@186 = ~Many things are unfair, Dusk. That's how the world is. It's better to get used to that idea.~
+@187 = ~It may be unfair. But I believe it's our duty to make things right. We did everything we could to avoid the skirmish, Dusk.~
+@188 = ~A rather cold reasoning, my comrade. Perhaps time has made us... tougher.~
+@189 = ~You're correct. You bear a heavy legacy, my friend. Not many understand what you're trying to do.~
+@190 = ~Those who don't understand it, fear you. The previous skirmish is proof of that, now I realize.~
+@191 = ~Not many are capable of seeing the value you possess, <CHARNAME>. But I do. I trust you.~
+@192 = ~*clears throat* Well, I think we've talked enough. It's better if we continue.~
+@193 = ~That's right. Tethyr welcomed me with open arms. Zaranda is the epitome of honor and wisdom...~
+@194 = ~What happened in Saradush... it was terrible. We tried to prevent it, didn't we?~
+
+@195 = ~Stupid Tethyrians... fouls. What were they thinking? They deserved... they deserved to die.~
+@196 = ~What are you muttering, Dusk? Are you talking about the skirmish at the Oasis?~
+@197 = ~Ah, have you gone mad, huh? It's something I feared. It often happens to those who talk to themselves.~
+@198 = ~I don't want to hear any complaints about anything, Dusk. If you're about to whine about something, it's better to keep it to yourself.~
+@199 = ~Insolent. I'm not crying. I'm not complaining. And I don't need your ear for this. We better continue with our affairs.~
+@200 = ~If you can call that a skirmish, <CHARNAME>. It was more of a massacre. Those fouls... never stood a chance.~
+@201 = ~Never stood a chance...~
+@202 = ~I'm surprised you feel pity for them, Dusk. Tethyr brought it upon themselves. Those who stand in our way will pay.~
+@203 = ~Do you feel bad for having killed them, Dusk? If it makes you feel better, I believe the skirmish was inevitable.~
+
+@204 = ~Long is the list of corpses that can confirm that, Bhaalspawn. Long is the list...~
+@205 = ~Saradush. Tethyr... cemeteries grow as we advance.~
+@206 = ~Sometimes I wonder... if I will ever witness the end of this.~
+@207 = ~I feel bothered. Cleaning the blood of a young soldier off the edge of my sword? It wasn't worth the effort.~
+@208 = ~I understand we had no other choice. The stupid Zaranda doesn't listen to reason.~
+@209 = ~Sending warriors, veterans, and squires to the slaughter over mere rumors?~
+@210 = ~I tell you, <CHARNAME>... Queens and kings no longer fight their own battles. They let the young ones do it for them.~
+@211 = ~Power is an enticing sword. But if you want to decapitate others, at least the one wielding it should be able to fend for themselves.~
+@212 = ~Bah! We better continue. The dead are dead.~
+@213 = ~Very funny, <CHARNAME>.~
+@214 = ~And no, I haven't gone mad. I've been thinking about our skirmish at the Oasis.~
+@215 = ~If you can call that a skirmish. It was more of a massacre. Those fouls... never stood a chance.~
+
+
+
+@20000  = ~But, what the he--?~
+@20001  = ~Who do you think you are, dog? I knew it, <CHARNAME>. The 'royalty' of Tethyr shows its threads.~
+@20002  = ~Tell me, little man, are Zaranda and Haedrak no longer participating in their own battles? It would be interesting to see them on the battlefield...~
+@20003  = ~You scoundrel! How dare you defile the names of our rulers with your filthy mouth! Soldiers, finish them off!~
+@20004  = ~For Cormyr! <CHARNAME> was not guilty of the destruction of Saradush. It was the work of the Fire Giants!~
+@20005  = ~It is known that the Bhaalspawn work together for the conquest of this land. <CHARNAME> is a descendant of Bhaal... it doesn't matter what you say, Cormyrian.~
+@20006  = ~Damn it... *whisper* It seems we have no choice but to face them, <CHARNAME>. I didn't want it to come to this... the Tethyrians are allies of Cormyr...~
+@20007  = ~It... it might be possible that when all this is over, the ties can be re-forged...~
+@20008  = ~*sigh*~
+
+@20009  = ~You bastard, you will die for your perversion. Prepare to die!~
+@20010  = ~Do you think I'll let you continue with your perversion, you wretch?! Creatures, even those that come from the Ethereal Plane, should not be subject to anyone's training. You will die here and now!~

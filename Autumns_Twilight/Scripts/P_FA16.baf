@@ -1,0 +1,497 @@
+// CHO
+IF
+Global("P_ChoAwake","GLOBAL",3)
+Global("P_AttackedCho","GLOBAL",0)
+Global("P_ChoSpawnPFA16","GLOBAL",0)
+Global("P_ChoccStay","GLOBAL",0)
+!Global("P_ChocRevivalFriends","GLOBAL",9)
+!Exists("p_cho")
+!Dead("p_cho")
+THEN
+RESPONSE #100
+CreateCreature("p_choc3",[559.630],NE)
+SetGlobal("P_ChoSpawnPFA16","GLOBAL",1)
+END
+
+// REVIVAL FRIENDS
+IF
+Global("P_ChocRevivalFriends","GLOBAL",5)
+Global("P_ChoCommandersSpawnPFA16","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("p_vresh2",[605.554],W)
+CreateCreature("p_qyl2",[684.504],W)
+CreateCreature("p_gass2",[793.434],SE)
+SetGlobal("P_ChoCommandersSpawnPFA16","GLOBAL",1)
+END
+
+// GEMB
+IF
+Global("P_GemBSpawnPFA16","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreatureImpassable("p_gemb",[911.619],S)
+SetGlobal("P_GemBSpawnPFA16","GLOBAL",1)
+END
+
+//RECORDAR QUITAR MINHP1 EN FA16 EN LOS BAFS DE LOS ALIADOS O EN LOS DLGS
+
+// Vidomina's children
+IF
+Global("P_VidominaSkelGlands","GLOBAL",1)
+Global("P_VidominasArmy","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("p_tamik3",[1225.593],W)
+CreateCreature("p_xsi3",[1196.685],W)
+CreateCreature("p_nimbu3",[1150.755],NW)
+SetGlobal("P_VidominasArmy","GLOBAL",1)
+END
+
+
+// The Queen
+IF
+Global ("P_MorgrathAppear_PA16","GLOBAL",1)
+Global ("P_MorgrathSpawnPF16","GLOBAL",0)
+THEN
+RESPONSE #100
+ClearAllActions()
+Wait (1)
+StartCutSceneMode()
+ActionOverride(Player1,MoveToPoint([939.512]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player1,Face(E))
+ActionOverride(Player2,MoveToPoint([1049.555]))
+ActionOverride(Player2,Wait(1))
+ActionOverride(Player2,Face(NE))
+ActionOverride(Player3,MoveToPoint([809.473]))
+ActionOverride(Player3,Wait(1))
+ActionOverride(Player3,Face(E))
+ActionOverride(Player4,MoveToPoint([1158.615]))
+ActionOverride(Player4,Wait(1))
+ActionOverride(Player4,Face(N))
+ActionOverride(Player5,MoveToPoint([1241.721]))
+ActionOverride(Player5,Wait(1))
+ActionOverride(Player5,Face(N))
+ActionOverride(Player6,MoveToPoint([693.528]))
+ActionOverride(Player6,Wait(1))
+ActionOverride(Player6,Face(N))
+ActionOverride("P_CHO",MoveToPoint([814.545]))
+ActionOverride("P_CHO",Wait(1))
+ActionOverride("P_CHO",Face(NE))
+ActionOverride("P_FALL",MoveToPoint([970.561]))
+ActionOverride("P_FALL",Wait(1))
+ActionOverride("P_FALL",Face(N))
+Wait(4)
+ScreenShake([20.20],10)
+Wait(4)
+MoveViewPoint([1032.383],INSTANT)
+CreateVisualEffect ("SPGENHLA",[1032.383])
+PlaySound ("CAS_P06")
+ScreenShake([20.20],10)
+PlaySound ("CAS_P06")
+Wait(1)
+CreateVisualEffect ("SPSUMGTE",[1032.383])
+Wait(6)
+ScreenShake([20.20],10)
+CreateCreature("p_morgr2",[1032.383],SW)
+Wait(3)
+//ActionOverride("p_morgra", Face(S))
+ActionOverride("p_vresh", Face(NW))
+ActionOverride("p_qyl", Face(NW))
+ActionOverride("p_gass", Face(NW))
+CreateVisualEffect("SPPORTAL",[762.358])
+CreateVisualEffect("SPPORTAL",[685.403])
+CreateVisualEffect("SPPORTAL",[608.467])  
+CreateVisualEffect("SPPORTAL",[529.529])
+// CreateVisualEffect("SPCLOUD3",[954.316]) 
+Wait (1)
+CreateCreature("p_mes3",[762.358],SE)
+CreateCreature("p_liphi2",[685.403],SE)
+CreateCreature("p_arthr2",[608.467],SE)  
+CreateCreature("p_kankr2",[529.529],SE)
+Wait(4)
+SetGlobal("P_MorgrathSpawnPF16","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END
+
+
+// The Champion --> CHEQUEAR
+IF
+Global ("P_MorgrathAppear_PA16","GLOBAL",1)
+Global ("P_SkelSpawnPF16","GLOBAL",0)
+Global("P_SkelIsDead","GLOBAL",0)
+THEN
+RESPONSE #100
+Wait(4)
+ScreenShake([20.20],10)
+CreateVisualEffect ("SPGENHLA",[1210.454])
+PlaySound ("CAS_P06")
+ScreenShake([20.20],10)
+PlaySound ("CAS_P06")
+Wait(1)
+CreateVisualEffect ("SPSUMGTE",[1210.454])
+Wait(6)
+ScreenShake([20.20],10)
+CreateCreature("p_skel2",[1210.454],SW)
+Wait(3)
+ActionOverride("p_skel2", Face(SW))
+Wait(3)
+SetGlobal("P_SkelSpawnPF16","GLOBAL",1)
+Continue()
+END
+
+
+// Gorm Que aparezca por flag luego de la conversación
+IF
+Global ("P_MorgrathSpawnPF16","GLOBAL",3)
+Global ("P_GormSpawnPF16","GLOBAL",0)
+!Dead("P_GORM")
+THEN
+RESPONSE #100
+CreateVisualEffect("SPCLOUD3",[1303.504]) 
+CreateCreature("P_GORM2",[1303.504],SW) 
+SetGlobal("P_GormSpawnPF16","GLOBAL",1)
+Continue()
+END
+
+// Spiders
+IF
+Global ("P_FA16SpidersSpawn","GLOBAL",0)
+Global ("P_MorgrathSpawnPF16","GLOBAL",3)
+OR (6)
+Allegiance ("p_morgra",ENEMY)
+Allegiance ("p_skel",ENEMY)
+Allegiance ("p_meso",ENEMY)
+Allegiance ("p_arthro",ENEMY)
+Allegiance ("P_kankra",ENEMY)
+Allegiance ("P_liphix",ENEMY)
+THEN
+RESPONSE #100
+ChangeEnemyAlly("p_morgra",ENEMY)
+ChangeEnemyAlly("p_skel",ENEMY)
+ChangeEnemyAlly("p_meso",ENEMY)
+ChangeEnemyAlly("p_arthro",ENEMY)
+ChangeEnemyAlly("P_kankra",ENEMY)
+ChangeEnemyAlly("P_liphix",ENEMY)
+
+// TEJEDORAS
+CreateVisualEffect("SPPORTAL",[935.858])  
+CreateVisualEffect("SPPORTAL",[637.219])  
+CreateVisualEffect("SPPORTAL",[1277.703])
+CreateVisualEffect("SPPORTAL",[826.499])
+// CreateVisualEffect("SPCLOUD3",[1020.511]) 
+CreateCreature("p_weavfr",[935.858],4)  
+CreateCreature("p_weavcd",[637.219],4)  
+CreateCreature("p_weavac",[1277.703],4)
+CreateCreature("p_weavth",[826.499],4)
+// Spiders
+CreateVisualEffect("SPCLOUD3",[1353.687])
+CreateVisualEffect("SPCLOUD3",[1356.647])  
+CreateVisualEffect("SPCLOUD3",[1366.579])
+CreateVisualEffect("SPCLOUD3",[1298.675]) 
+CreateVisualEffect("SPCLOUD3",[1298.617]) 
+CreateVisualEffect("SPCLOUD3",[1292.561])
+
+CreateCreature("SPIDSM02",[1353.687],4)
+CreateCreature("p_spgi1",[1356.647],4)  
+CreateCreature("p_sphu1",[1366.579],4)
+CreateCreature("p_etter1",[1298.675],4) 
+CreateCreature("p_spwr1",[1298.617],4) 
+CreateCreature("p_spph1",[1292.561],4)
+
+// Centipedes
+
+CreateVisualEffect("SPCLOUD3",[945.964])
+CreateVisualEffect("SPCLOUD3",[553.825])
+CreateVisualEffect("SPCLOUD3",[1315.823])
+CreateVisualEffect("SPCLOUD3",[1364.546])
+CreateVisualEffect("SPCLOUD3",[838.272])
+CreateVisualEffect("SPCLOUD3",[496.464])
+
+CreateCreature("p_centip",[945.964],N)
+CreateCreature("p_centip",[553.825],N)
+CreateCreature("p_centip",[1315.823],S)
+CreateCreature("p_centip",[1364.546],NE)
+CreateCreature("p_centip",[838.272],NW)
+CreateCreature("p_centip",[496.464],E)
+
+SetGlobal ("P_FA16SpidersSpawn","GLOBAL",1)
+END
+
+
+
+
+// Morgrath Muerte
+
+IF
+Global ("P_MorgrathSpawnPF16","GLOBAL",3)
+HPLT("p_morgra",30)
+Dead("P_SKEL")
+THEN
+RESPONSE #100
+ClearAllActions()
+StartCutSceneMode()
+ChangeEnemyAlly("p_morgra",NEUTRAL)
+MoveViewObject ("p_morgra",INSTANT)
+Wait (3)
+ScreenShake([20.20],10)
+Wait(2)
+DisplayStringHead("p_morgra", @200323)
+Wait (3)
+ScreenShake([20.20],10)
+Wait(2)
+ActionOverride(Player1, JumpToPoint([911.619]))
+MoveViewObject ("p_gem",INSTANT)
+DisplayStringHead("p_gem", @200324)
+Wait (3)
+ScreenShake([20.20],10)
+Wait(2)
+CreateVisualEffectObject("SPBASEWT","p_gem")
+Wait(1)
+CreateVisualEffectObject("SPHEALIN","p_gem")
+ActionOverride("p_gem",DestroySelf())
+CreateCreatureObjectEffect("p_gem","SPBASEWT","p_morgra")
+Wait(4)
+SetGlobal("P_MorgrathSpawnPF16","GLOBAL",4)
+ChangeEnemyAlly("p_morgra",NEUTRAL)
+ClearAllActions()
+EndCutSceneMode()
+Continue()
+END
+
+
+
+IF
+Global("P_MorgrathSpawnPF16","GLOBAL",5)
+THEN
+RESPONSE #100
+ClearAllActions()
+StartCutSceneMode()
+ChangeEnemyAlly("p_morgra",NEUTRAL)
+MoveViewObject ("p_morgra",INSTANT)
+Wait (3)
+ActionOverride("P_GEM",ForceSpell(Myself, CLERIC_AID))
+CreateVisualEffectObject("SPGENHLA","P_GEM")
+CreateVisualEffectObject("SPBASEWT","p_gem")
+Wait(2)
+DisplayStringHead("p_morgra", @200325)
+ActionOverride("p_morgra",DestroyItem("MINHP20"))
+Wait (3)
+ScreenShake([20.20],10)
+Wait(2)
+CreateVisualEffectObject("SPGENHLA","p_morgra")
+CreateVisualEffectObject("SPFLAST2","p_morgra")
+CreateVisualEffectObject("SPFLSRIN","p_morgra")
+ScreenShake([20.20],10)
+Wait (3)
+Kill("p_morgra")
+ChangeEnemyAlly("p_gem",NEUTRAL)
+CreateVisualEffectObject("SPHEALIN","p_gem")
+Wait(3)
+SetGlobal("P_MorgrathSpawnPF16","GLOBAL",6)
+ClearAllActions()
+EndCutSceneMode()
+Continue()
+END
+
+
+
+IF
+Global("P_MorgrathIsDead","GLOBAL",0)
+Dead("p_morgra")
+THEN
+RESPONSE #100
+ClearAllActions()
+Kill("SPIDSM02")
+Kill("p_spgi1")
+Kill("p_sphu1")
+Kill("p_sphu1")
+Kill("p_etter1")
+Kill("p_spwr1")
+Kill("p_spph1")
+Kill("p_centip")
+Kill("p_meso")
+Kill("p_arthro")
+Kill("P_kankra")
+Kill("P_liphix")
+Kill("p_weavfr")
+Kill("p_weavac")
+Kill("p_weavcd")
+Kill("p_weavth")
+SetGlobal("P_MorgrathIsDead","GLOBAL",1)
+END
+
+IF
+Global("P_MorgrathSpawnPF16","GLOBAL",7)
+Global("P_VIDOSpawnPFA16","GLOBAL",0)
+THEN
+RESPONSE #100
+ClearAllActions()
+StartCutSceneMode()
+MoveViewObject ("p_gem",INSTANT)
+Wait (3)
+CreateCreatureObjectEffect("p_vidomi","SPDIMNDR","p_gem")
+Wait(3)
+SetGlobal("P_VIDOSpawnPFA16","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END
+
+
+// Hacia el Bosque del Padre Roble
+IF
+Global("P_FallFinalSceneSoA1","GLOBAL",2) 
+Global ("P_MorgrathSpawnPF16","GLOBAL",9)
+THEN
+RESPONSE #100
+   	SetGlobal ("P_MorgrathSpawnPF16","GLOBAL",10)
+	SetGlobal("P_FallFinalSceneSoA1","GLOBAL",3) 
+    CutSceneId(Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+    Wait(1)
+	ActionOverride(Player1,LeaveAreaLUA("P_2601","",[612.470],NW))
+    ActionOverride(Player2,LeaveAreaLUA("P_2601","",[572.473],NW))
+    ActionOverride(Player3,LeaveAreaLUA("P_2601","",[569.506],NW))
+    ActionOverride(Player4,LeaveAreaLUA("P_2601","",[519.510],NW))
+    ActionOverride(Player5,LeaveAreaLUA("P_2601","",[533.550],NW))
+    ActionOverride(Player6,LeaveAreaLUA("P_2601","",[480.546],NW))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+	Wait(5)
+    EndCutSceneMode()
+END
+
+// Hacia Athkatla
+IF
+Global("P_FallFinalSceneSoA1","GLOBAL",0) 
+Global ("P_MorgrathSpawnPF16","GLOBAL",9)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal ("P_MorgrathSpawnPF16","GLOBAL",10)
+	//SetGlobal("P_FallGemAR2601","GLOBAL",6)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+	CreateVisualEffectObject("SPHEALIN",Player1)
+	CreateVisualEffectObject("SPHEALIN",Player2)
+	CreateVisualEffectObject("SPHEALIN",Player3)
+	CreateVisualEffectObject("SPHEALIN",Player4)
+	CreateVisualEffectObject("SPHEALIN",Player5)
+	CreateVisualEffectObject("SPHEALIN",Player6)
+	Wait(1)
+    ActionOverride("p_vidomi",DestroySelf())
+    Wait(1)
+   // LeaveAreaLUAPanic("AR0020","",[585.608],NW)
+   // LeaveAreaLUA("AR0020","",[585.608],NW)
+	ActionOverride(Player1,LeaveAreaLUA("P_FA3B","",[783.382],NE))
+    ActionOverride(Player2,LeaveAreaLUA("P_FA3B","",[716.381],NE))
+    ActionOverride(Player3,LeaveAreaLUA("P_FA3B","",[809.411],NE))
+    ActionOverride(Player4,LeaveAreaLUA("P_FA3B","",[859.427],NE))
+    ActionOverride(Player5,LeaveAreaLUA("P_FA3B","",[660.380],NE))
+    ActionOverride(Player6,LeaveAreaLUA("P_FA3B","",[728.430],NE))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END
+
+
+// Fall en Morgrath's Lair
+IF
+InParty("P_Fall")
+Global("P_FallInFinalBattle","GLOBAL",0) 
+THEN
+  RESPONSE #100
+    SetGlobal("P_FallInFinalBattle","GLOBAL",1)
+END
+
+IF
+Global("P_FallInFinalBattle","GLOBAL",1)
+Global("P_FallDiedInFinalBattle","GLOBAL",0)
+Dead("P_Fall")
+THEN
+  RESPONSE #100
+    SetGlobal("P_FallDiedInFinalBattle","GLOBAL",1)
+END
+
+IF
+Global("P_FallDiedInFinalBattle","GLOBAL",1)
+!Dead("P_Fall")
+THEN
+  RESPONSE #100
+    SetGlobal("P_FallDiedInFinalBattle","GLOBAL",0)
+END
+
+// Patch: Fall es revivida para que el evento los lleve al Bosque del Padre Roble
+
+IF
+Global("P_FallFinalSceneSoA1","GLOBAL",0)
+!Dead("P_Fall")
+Global("P_FallDiedInFinalBattle","GLOBAL",0)
+Global("P_FallInFinalBattle","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_FallFinalSceneSoA1","GLOBAL",1)
+END
+
+
+
+/* Se quitan algunas arañas del combate
+
+CreateVisualEffect("SPCLOUD3",[653.831])
+CreateVisualEffect("SPCLOUD3",[618.798])  
+CreateVisualEffect("SPCLOUD3",[568.769])
+CreateVisualEffect("SPCLOUD3",[510.809]) 
+CreateVisualEffect("SPCLOUD3",[535.840]) 
+CreateVisualEffect("SPCLOUD3",[577.880])
+
+CreateCreature("SPIDSM02",[653.831],4)
+CreateCreature("p_spgi1",[618.798],4)  
+CreateCreature("p_sphu1",[568.769],4)
+CreateCreature("p_etter1",[510.809],4) 
+CreateCreature("p_spwr1",[535.840],4) 
+CreateCreature("p_spph1",[577.880],4)
+
+CreateVisualEffect("SPCLOUD3",[880.276])
+CreateVisualEffect("SPCLOUD3",[921.289])  
+CreateVisualEffect("SPCLOUD3",[977.307])
+CreateVisualEffect("SPCLOUD3",[1034.330]) 
+CreateVisualEffect("SPCLOUD3",[1098.360]) 
+CreateVisualEffect("SPCLOUD3",[1176.390])
+
+CreateCreature("SPIDSM02",[880.276],4)
+CreateCreature("p_spgi1",[921.289],4)  
+CreateCreature("p_sphu1",[977.307],4)
+CreateCreature("p_etter1",[1034.330],4) 
+CreateCreature("p_spwr1",[1098.360],4) 
+CreateCreature("p_spph1",[1176.390],4)
+
+
+*/

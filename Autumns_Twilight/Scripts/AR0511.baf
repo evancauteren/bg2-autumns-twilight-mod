@@ -1,0 +1,31 @@
+IF
+Global("P_AlendirSpawn","GLOBAL",0)
+Global("P_FallMission2","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("P_alendi",[1076.155],3)  
+SetGlobal("P_AlendirSpawn","GLOBAL",1)
+Continue()
+END
+
+IF
+Global("P_Fall_T5","GLOBAL",3)
+Global("P_FallAlendirGone","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride ("P_alendi", DestroySelf())
+SetGlobal("P_FallAlendirGone","GLOBAL",1)
+Continue()
+END
+
+IF
+Global("P_KitochiSpawn","GLOBAL",0)
+Global("P_Fall_T5","GLOBAL",3)
+THEN
+RESPONSE #100
+//ActionOverride ("P_alendi", DestroySelf())
+CreateCreature("P_kitoch",[1076.155],3)  
+SetGlobal("P_KitochiSpawn","GLOBAL",1)
+Continue()
+END
+

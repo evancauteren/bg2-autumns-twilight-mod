@@ -1,0 +1,8 @@
+// Mielikki's Dusk Symbol
+IF
+    HasItem("CDHLYSYM","P_Dusk")  // No such index
+THEN
+    RESPONSE #100
+        ApplySpellRES("CDHLYSY2","P_Dusk")  // No. Los djinn estamos subyugados por un geas perpetuo, magia poderosa que nos impide desobedecerle. De no ser así, lo habríamos matado hace mucho tiempo.
+        ActionOverride("P_Dusk",TransformItem("CDHLYSYM","p_gdring"))  // No such index
+END

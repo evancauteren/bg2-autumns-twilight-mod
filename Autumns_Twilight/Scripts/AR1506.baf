@@ -1,0 +1,505 @@
+//KILL THE TROLLS
+IF
+Global("P_DuskKillTheTrolls","GLOBAL",0)
+THEN
+RESPONSE #100
+    ActionOverride("eletro01",Kill(Myself))
+    ActionOverride("eletro02",Kill(Myself))
+    ActionOverride("eletro03",Kill(Myself))
+    ActionOverride("trolsp01",Kill(Myself))
+    ActionOverride("trolsp02",Kill(Myself))
+	SetGlobal ("P_DuskKillTheTrolls","GLOBAL",1)
+Continue()
+END
+
+// GOOD
+IF
+Global("P_DuskDemoleMISSION","GLOBAL",4)
+THEN
+RESPONSE #100
+ActionOverride("ELEARB01",DestroySelf())
+ActionOverride("ELEARB02",DestroySelf())
+ActionOverride("ELEARB03",DestroySelf())
+ActionOverride("ELEARB04",DestroySelf())
+ActionOverride("ELEARB05",DestroySelf())
+ActionOverride("ELEARB06",DestroySelf())
+ActionOverride("ELEARB07",DestroySelf())
+ActionOverride("ELEARB08",DestroySelf())
+ActionOverride("ELEARB09",DestroySelf())
+ActionOverride("ELEARB10",DestroySelf())
+ActionOverride("ELEARB11",DestroySelf())
+ActionOverride("eletro01",DestroySelf())
+ActionOverride("eletro02",DestroySelf())
+ActionOverride("eletro03",DestroySelf())
+ActionOverride("trolsp01",DestroySelf())
+ActionOverride("trolsp02",DestroySelf())
+Continue()
+END
+
+//EVIL
+IF
+Global("P_DuskDanctialMISSION","GLOBAL",4)
+THEN
+RESPONSE #100
+ActionOverride("ELEARB01",DestroySelf())
+ActionOverride("ELEARB02",DestroySelf())
+ActionOverride("ELEARB03",DestroySelf())
+ActionOverride("ELEARB04",DestroySelf())
+ActionOverride("ELEARB05",DestroySelf())
+ActionOverride("ELEARB06",DestroySelf())
+ActionOverride("ELEARB07",DestroySelf())
+ActionOverride("ELEARB08",DestroySelf())
+ActionOverride("ELEARB09",DestroySelf())
+ActionOverride("ELEARB10",DestroySelf())
+ActionOverride("ELEARB11",DestroySelf())
+ActionOverride("eletro01",DestroySelf())
+ActionOverride("eletro02",DestroySelf())
+ActionOverride("eletro03",DestroySelf())
+ActionOverride("trolsp01",DestroySelf())
+ActionOverride("trolsp02",DestroySelf())
+Continue()
+END
+
+//EVIL (Creación de Danctian)
+IF
+Global("P_DuskDanctialMISSION","GLOBAL",4)
+Global("P_DanctianGhostSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("p_danct2",[1058.785],4)  
+SetGlobal("P_DanctianGhostSpawn","GLOBAL",1)
+Continue()
+END
+
+//EVIL -> MoveToPoint
+IF
+Global("P_Dusk_Danctian2_TalkBegin","GLOBAL",2)
+Global("P_Dusk_AR1506_MAGESG_SPAWN","GLOBAL",0)
+//PENSAR!!!
+Global("P_Dusk_Danc_Multi","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(2)
+ActionOverride(Player1,MoveToPoint([989.871]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player2,MoveToPoint([1008.846]))
+ActionOverride(Player2,Wait(1))
+ActionOverride(Player3,MoveToPoint([1030.904]))
+ActionOverride(Player3,Wait(1))
+ActionOverride(Player4,MoveToPoint([937.833]))
+ActionOverride(Player4,Wait(1))
+ActionOverride(Player5,MoveToPoint([915.894]))
+ActionOverride(Player5,Wait(1))
+ActionOverride(Player6,MoveToPoint([963.920]))
+ActionOverride(Player6,Wait(1))
+ForceSpellPoint([1174.720],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([964.656],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1099.678],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1274.781],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[1174.720])
+CreateVisualEffect("SPDIMNDR",[964.656])
+CreateVisualEffect("SPDIMNDR",[1099.678])
+CreateVisualEffect("SPDIMNDR",[1274.781])
+Wait (2)
+CreateCreature("p_sornhi",[964.656],4)  
+CreateCreature("p_valata",[1274.781],4)  
+CreateCreature("p_kaland",[1099.678],4)
+CreateCreature("p_anthag",[1174.720],4)  
+Wait (1)
+SetGlobal ("P_Dusk_AR1506_MAGESG_SPAWN","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END
+
+//EVIL CREAR A DANCTIAN 2
+IF
+Global ("P_Dusk_AR1506_MAGESG_SPAWN","GLOBAL",2)
+Global ("P_DUSK_IS_GOOD","GLOBAL",0)
+Global("P_Dusk_AR1506_Danct2_SPAWN","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(2)
+CreateCreature("p_danct2",[1123.764],12)
+SetGlobal ("P_Dusk_AR1506_Danct2_SPAWN","GLOBAL",1)
+Wait (4)
+EndCutSceneMode()
+Continue()
+END
+
+//EVIL CREAR A DANCTIAN REPLICAS
+IF
+Global("P_Dusk_Danc_Multi","GLOBAL",1)
+Global ("P_DUSK_IS_GOOD","GLOBAL",0)
+Global("P_Dusk_AR1506_DANCTI_REPLICAS","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(2)
+//CREAMOS A 4 DANCTIANS
+ForceSpellPoint([915.733],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[915.733])
+CreateCreature("p_danct3",[915.733],4)
+ForceSpellPoint([1006.772],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[1006.772])
+CreateCreature("p_danct3",[1006.772],4)
+ForceSpellPoint([1093.822],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[1061.809])
+CreateCreature("p_danct3",[1061.809],4)
+ForceSpellPoint([1158.877],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[1158.877])
+CreateCreature("p_danct3",[1158.877],4)
+SetGlobal ("P_Dusk_AR1506_DANCTI_REPLICAS","GLOBAL",1)
+Wait (4)
+EndCutSceneMode()
+Continue()
+END
+
+//EVIL CREAR A PUKI -> P_DUSK_PUKI_SUMMON_FM
+IF
+Global ("P_DUSK_PUKI_SUMMON_FM","GLOBAL",1)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(2)
+//CREAMOS A p_dempid
+ForceSpellPoint([717.709],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[717.709])
+Wait (2)
+CreateCreature("p_dempid",[717.709],1)
+SetGlobal ("P_DUSK_PUKI_SUMMON_FM","GLOBAL",2)
+Wait (4)
+EndCutSceneMode()
+Continue()
+END
+
+
+//EVIL ALIADOS DE LA CRIPTA OLVIDADA
+IF
+Global ("P_Dusk_Danc_Multi","GLOBAL",2)
+Global ("P_DUSK_IS_GOOD","GLOBAL",0)
+Global("P_Dusk_AR1506_EVALLIES_SPAWN","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal ("P_Dusk_AR1506_EVALLIES_SPAWN","GLOBAL",1)
+Wait(2)
+// VENENO, MUERTE y DESTRUCCIÓN
+ForceSpellPoint([1052.977],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1112.921],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1173.869],WIZARD_DIMENSION_DOOR)
+// GLABREZU y T'NARRI
+ForceSpellPoint([779.924],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([894.995],WIZARD_DIMENSION_DOOR)
+// SOLDADO DE AMN (x2) y ESCOLTA ENCAPUCHADO
+ForceSpellPoint([868.701],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1011.709],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([938.704],WIZARD_DIMENSION_DOOR)
+// VENENO, MUERTE y DESTRUCCIÓN
+CreateVisualEffect("SPDIMNDR",[1052.977])
+CreateVisualEffect("SPDIMNDR",[1112.921])
+CreateVisualEffect("SPDIMNDR",[1173.869])
+// GLABREZU y T'NARRI
+CreateVisualEffect("SPDIMNDR",[779.924])
+CreateVisualEffect("SPDIMNDR",[894.995])
+// SOLDADO DE AMN (x2) y ESCOLTA ENCAPUCHADO
+CreateVisualEffect("SPDIMNDR",[868.701])
+CreateVisualEffect("SPDIMNDR",[1011.709])
+CreateVisualEffect("SPDIMNDR",[938.704])
+Wait (2)
+// VENENO, MUERTE y DESTRUCCIÓN
+CreateCreature("p_veneno",[1052.977],4)  
+CreateCreature("p_muert2",[1112.921],4)  
+CreateCreature("p_destru",[1173.869],4)  
+// GLABREZU y T'NARRI
+CreateCreature("p_dempi2",[779.924],4)  
+CreateCreature("p_dempi3",[894.995],4)  
+// SOLDADO DE AMN (x2) y ESCOLTA ENCAPUCHADO
+CreateCreature("p_soldie",[868.701],4)  
+CreateCreature("p_soldie",[1011.709],4)  
+CreateCreature("p_amnmag",[938.704],4)  
+SetGlobal ("P_Dusk_AR1506_EVALLIES_SPAWN","GLOBAL",1)
+Wait (4)
+EndCutSceneMode()
+Continue()
+END
+
+// EVIL -> Aparición de DANCTIAN
+IF
+AreaCheck("AR1506")
+CombatCounter(0)
+!See([ENEMY])
+PartyHasItem("p_simvel")
+//PartyHasItem("p_matcor")
+Global("P_Dusk_IS_EVIL","GLOBAL",1)
+Global("P_DuskDanctiFinalSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+ActionOverride(Player1,MoveToPoint([1061.809]))
+Wait(3)
+SetGlobal("P_DuskDanctiFinalSpawn","GLOBAL",1)
+ForceSpellPoint([1123.764],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[1123.764])
+Wait(3)
+CreateCreature("p_danct2",[1123.764],1)
+//CreateCreature("p_demole",[1010.860],1)
+Wait(1)
+EndCutSceneMode()
+Continue()
+END
+
+// EVIL -> Regreso a Athkatla
+IF
+  Global("P_DuskDanctiFinalSpawn","GLOBAL",3)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal("P_DuskDanctiFinalSpawn","GLOBAL",4)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+	CreateVisualEffect("SPHEALIN",[1076.861])
+	CreateVisualEffect("SPHEALIN",[869.868])
+	CreateVisualEffect("SPHEALIN",[994.941])
+	CreateVisualEffect("SPHEALIN",[988.740])
+	Wait(1)
+    ActionOverride("p_danct2",DestroySelf())
+    Wait(1)
+   // LeaveAreaLUAPanic("AR0020","",[585.608],NW)
+   // LeaveAreaLUA("AR0020","",[585.608],NW)
+	ActionOverride(Player1,LeaveAreaLUA("P_AR14","",[774.881],NW))
+    ActionOverride(Player2,LeaveAreaLUA("P_AR14","",[818.890],NW))
+    ActionOverride(Player3,LeaveAreaLUA("P_AR14","",[730.892],NW))
+    ActionOverride(Player4,LeaveAreaLUA("P_AR14","",[728.943],NW))
+    ActionOverride(Player5,LeaveAreaLUA("P_AR14","",[828.943],NW))
+    ActionOverride(Player6,LeaveAreaLUA("P_AR14","",[771.960],NW))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END
+
+///////////------------------------------------------
+///////////------------------------------------------
+///////////------------------------------------------
+
+//GOOD (Creación del Espíritu falso de Celine)
+IF
+Global("P_DuskDemoleMISSION","GLOBAL",4)
+Global("P_CelineGhostSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("p_celgh",[1058.785],4)  
+SetGlobal("P_CelineGhostSpawn","GLOBAL",1)
+Continue()
+END
+
+//GOOD -> MoveToPoint
+IF
+Global("P_Dusk_Celine_Ghost_TalkBegin","GLOBAL",2)
+Global("P_Dusk_AR1506_MAGESG_SPAWN","GLOBAL",0)
+Global("P_Dusk_Mat2_hypno","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(2)
+ActionOverride(Player1,MoveToPoint([989.871]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player2,MoveToPoint([1008.846]))
+ActionOverride(Player2,Wait(1))
+ActionOverride(Player3,MoveToPoint([1030.904]))
+ActionOverride(Player3,Wait(1))
+ActionOverride(Player4,MoveToPoint([937.833]))
+ActionOverride(Player4,Wait(1))
+ActionOverride(Player5,MoveToPoint([915.894]))
+ActionOverride(Player5,Wait(1))
+ActionOverride(Player6,MoveToPoint([963.920]))
+ActionOverride(Player6,Wait(1))
+ForceSpellPoint([1174.720],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([964.656],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1099.678],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1274.781],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[1174.720])
+CreateVisualEffect("SPDIMNDR",[964.656])
+CreateVisualEffect("SPDIMNDR",[1099.678])
+CreateVisualEffect("SPDIMNDR",[1274.781])
+Wait (2)
+CreateCreature("p_sornhi",[964.656],4)  
+CreateCreature("p_valata",[1274.781],4)  
+CreateCreature("p_kaland",[1099.678],4)
+CreateCreature("p_anthag",[1174.720],4)  
+Wait (1)
+SetGlobal ("P_Dusk_AR1506_MAGESG_SPAWN","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END
+
+//GOOD CREAR A MATHYUS
+IF
+Global ("P_Dusk_AR1506_MAGESG_SPAWN","GLOBAL",2)
+Global ("P_DUSK_IS_GOOD","GLOBAL",1)
+Global("P_Dusk_AR1506_MATHYUS_SPAWN","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(2)
+ForceSpellPoint([1123.764],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[1123.764])
+CreateCreature("p_matu2",[1123.764],4)
+SetGlobal ("P_Dusk_AR1506_MATHYUS_SPAWN","GLOBAL",1)
+Wait (4)
+EndCutSceneMode()
+Continue()
+END
+
+//GOOD CREAR A DEMOLEDOR
+IF
+Global("P_Dusk_Mat2_hypno","GLOBAL",1)
+Global ("P_DUSK_IS_GOOD","GLOBAL",1)
+Global("P_Dusk_AR1506_DEMOLE_SPAWN","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(2)
+ForceSpellPoint([1061.809],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[1061.809])
+CreateCreature("p_demol2",[1061.809],4)
+SetGlobal ("P_Dusk_AR1506_DEMOLE_SPAWN","GLOBAL",1)
+Wait (4)
+EndCutSceneMode()
+Continue()
+END
+
+//GOOD ALIADOS DE LA CRIPTA OLVIDADA
+IF
+Global ("P_Dusk_Mat2_hypno","GLOBAL",2)
+Global ("P_DUSK_IS_GOOD","GLOBAL",1)
+Global("P_Dusk_AR1506_EVALLIES_SPAWN","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal ("P_Dusk_AR1506_EVALLIES_SPAWN","GLOBAL",1)
+Wait(2)
+// VENENO, MUERTE y DESTRUCCIÓN
+ForceSpellPoint([1052.977],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1112.921],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1173.869],WIZARD_DIMENSION_DOOR)
+// GLABREZU y T'NARRI
+ForceSpellPoint([779.924],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([894.995],WIZARD_DIMENSION_DOOR)
+// SOLDADO DE AMN (x2) y ESCOLTA ENCAPUCHADO
+ForceSpellPoint([868.701],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([1011.709],WIZARD_DIMENSION_DOOR)
+ForceSpellPoint([938.704],WIZARD_DIMENSION_DOOR)
+// VENENO, MUERTE y DESTRUCCIÓN
+CreateVisualEffect("SPDIMNDR",[1052.977])
+CreateVisualEffect("SPDIMNDR",[1112.921])
+CreateVisualEffect("SPDIMNDR",[1173.869])
+// GLABREZU y T'NARRI
+CreateVisualEffect("SPDIMNDR",[779.924])
+CreateVisualEffect("SPDIMNDR",[894.995])
+// SOLDADO DE AMN (x2) y ESCOLTA ENCAPUCHADO
+CreateVisualEffect("SPDIMNDR",[868.701])
+CreateVisualEffect("SPDIMNDR",[1011.709])
+CreateVisualEffect("SPDIMNDR",[938.704])
+Wait (2)
+// VENENO, MUERTE y DESTRUCCIÓN
+CreateCreature("p_veneno",[1052.977],4)  
+CreateCreature("p_muert2",[1112.921],4)  
+CreateCreature("p_destru",[1173.869],4)  
+// GLABREZU y T'NARRI
+CreateCreature("p_dempi2",[779.924],4)  
+CreateCreature("p_dempi3",[894.995],4)  
+// SOLDADO DE AMN (x2) y ESCOLTA ENCAPUCHADO
+CreateCreature("p_soldie",[868.701],4)  
+CreateCreature("p_soldie",[1011.709],4)  
+CreateCreature("p_amnmag",[938.704],4)  
+SetGlobal ("P_Dusk_AR1506_EVALLIES_SPAWN","GLOBAL",1)
+Wait (4)
+EndCutSceneMode()
+Continue()
+END
+
+// GOOD -> Aparición de MICHEL
+IF
+AreaCheck("AR1506")
+CombatCounter(0)
+!See([ENEMY])
+PartyHasItem("p_simvel")
+PartyHasItem("p_matcor")
+Global("P_DUSK_IS_GOOD","GLOBAL",1)
+Global("P_DuskMichelFinalSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+ActionOverride(Player1,MoveToPoint([1061.809]))
+Wait(3)
+SetGlobal("P_DuskMichelFinalSpawn","GLOBAL",1)
+ForceSpellPoint([1123.764],WIZARD_DIMENSION_DOOR)
+CreateVisualEffect("SPDIMNDR",[1123.764])
+Wait(3)
+CreateCreature("p_miche2",[1123.764],1)
+//CreateCreature("p_demole",[1010.860],1)
+Wait(1)
+EndCutSceneMode()
+Continue()
+END
+
+// GOOD -> Regreso a Athkatla
+IF
+  Global("P_DuskMichelFinalSpawn","GLOBAL",3)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal("P_DuskMichelFinalSpawn","GLOBAL",4)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+	CreateVisualEffect("SPHEALIN",[1076.861])
+	CreateVisualEffect("SPHEALIN",[869.868])
+	CreateVisualEffect("SPHEALIN",[994.941])
+	CreateVisualEffect("SPHEALIN",[988.740])
+	Wait(1)
+    ActionOverride("p_miche2",DestroySelf())
+    ActionOverride("p_demol2",DestroySelf())
+    Wait(1)
+   // LeaveAreaLUAPanic("AR0020","",[585.608],NW)
+   // LeaveAreaLUA("AR0020","",[585.608],NW)
+	ActionOverride(Player1,LeaveAreaLUA("P_AR14","",[774.881],NW))
+    ActionOverride(Player2,LeaveAreaLUA("P_AR14","",[818.890],NW))
+    ActionOverride(Player3,LeaveAreaLUA("P_AR14","",[730.892],NW))
+    ActionOverride(Player4,LeaveAreaLUA("P_AR14","",[728.943],NW))
+    ActionOverride(Player5,LeaveAreaLUA("P_AR14","",[828.943],NW))
+    ActionOverride(Player6,LeaveAreaLUA("P_AR14","",[771.960],NW))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END
+
+
+

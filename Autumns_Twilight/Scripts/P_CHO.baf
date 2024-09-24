@@ -1,0 +1,159 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200175)
+END
+
+IF
+Global("P_Fall_Cho_Talk_PF8","LOCALS",0)
+AreaCheck("P_FAR8")
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Cho_Talk_PF8","LOCALS",1)
+END
+
+IF
+  HPLT(Myself,31)  
+  Global ("P_FallChoNujaNearestDead1","GLOBAL",0)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(1)
+  //ApplySpell(Myself,HEAL_NO_VISUAL)
+  SetGlobal ("P_FallChoNujaNearestDead1","GLOBAL",1)
+  EndCutSceneMode()
+  Continue()
+  StartDialogueNoSet(Player1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+Global("P_Fall_Cho_Talk_P10","LOCALS",0)
+AreaCheck("P_FA10")
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Cho_Talk_P10","LOCALS",1)
+END
+
+IF
+Global("P_Fall_Cho_Talk_P11","LOCALS",0)
+AreaCheck("P_FA11")
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Cho_Talk_P11","LOCALS",1)
+END
+
+IF
+Global("P_Fall_Cho_Talk_P12","LOCALS",0)
+AreaCheck("P_FA12")
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Cho_Talk_P12","LOCALS",1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("P_FHasteCho","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("P_FHasteCho","LOCALS",1)
+    ForceSpell(Myself,WIZARD_IMPROVED_HASTE)
+END
+
+IF
+Global("P_Fall_Cho_Talk_PF13_1","LOCALS",0)
+AreaCheck("P_FA13")
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Cho_Talk_PF13_1","LOCALS",1)
+END
+
+IF
+Global("P_Fall_Cho_Talk_PF13_1","LOCALS",1)
+AreaCheck("P_FA13")
+PartyHasItem("P_FCORA1")
+Dead("P_RASK")
+Dead("P_TISIPH")
+Dead("P_GASS")
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Cho_Talk_PF13_1","LOCALS",2)
+END
+
+IF
+Global("P_ChoAwake","GLOBAL",1)
+AreaCheck("P_FA13")
+PartyHasItem("P_FCORA1")
+Dead("P_RASK")
+Dead("P_TISIPH")
+Dead("P_GASS")
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+THEN
+  RESPONSE #100
+  SmallWait(1)
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_ChoAwake","GLOBAL",2)
+END
+
+

@@ -1,0 +1,60 @@
+IF
+  Global ("P_Fall_Final_Mission","GLOBAL",1)
+  Global ("P_Fall_Final_Mission_InitP_FAR2","GLOBAL",0)
+  InParty("P_Fall")
+THEN
+  RESPONSE #100
+	// Se desactivan viejas Travelling Regions
+    TriggerActivation("P_tof3",FALSE)
+	// Se activan nuevas Travelling Regions
+    TriggerActivation("P_tof3b",TRUE) // Debe estar check Deactivated en DLTC
+    SetGlobal ("P_Fall_Final_Mission_InitP_FAR2","GLOBAL",1)	
+END
+
+IF
+Global("P_KakutFAR2ASpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_KAKUTO",[428.912],NE)
+SetGlobal("P_KakutFAR2ASpawn","GLOBAL",1)
+END
+
+IF
+Exists("p_kakuto")
+Global ("P_OpenPortal_PFA3B","GLOBAL",1)
+Global("P_DestroyKAKUTF2","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("p_kakuto", DestroySelf())
+SetGlobal("P_DestroyKAKUTF2","GLOBAL",1)
+END
+
+IF
+  Global ("P_ToRachnidraWithoutFall","GLOBAL",0)
+  Global ("P_OpenPortal_PFA3B","GLOBAL",1)
+THEN
+  RESPONSE #100
+	// Se desactivan viejas Travelling Regions
+    TriggerActivation("P_tof3",FALSE)
+	// Se activan nuevas Travelling Regions
+    TriggerActivation("P_tof3b",TRUE) // Debe estar check Deactivated en DLTC
+    SetGlobal ("P_ToRachnidraWithoutFall","GLOBAL",1)	
+END
+
+IF
+Global("P_FAR2AEnemieSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("ICSALCOL",[694.450],4)  
+CreateCreature("p_ftrlsn",[636.460],4)  
+CreateCreature("ICSALCOL",[625.509],4)
+CreateCreature("p_ftrlsn",[711.503],4) 
+CreateCreature("ICSALCOL",[860.654],4)  
+CreateCreature("p_ftrlsn",[910.654],4)  
+CreateCreature("ICSALCOL",[945.613],4)
+CreateCreature("p_ftrlsn",[166.542],4) 
+CreateCreature("ICSALCOL",[219.562],4)
+CreateCreature("p_ftrlsn",[238.528],4) 
+SetGlobal("P_FAR2AEnemieSpawn","GLOBAL",1)
+END
+

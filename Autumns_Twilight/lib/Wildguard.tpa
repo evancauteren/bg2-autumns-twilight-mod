@@ -1,0 +1,473 @@
+COPY ~%MOD_FOLDER%/2da~ ~override~
+
+LAF ADD_KIT_EX
+  INT_VAR
+    // Mage	= 1
+	// Fighter = 2
+	// Cleric = 3
+	// Thief = 4
+	// Bard = 5
+	// Paladin = 6
+	// Fighter/Mage = 7
+	// Fighter/Cleric = 8
+	// Fighter/Thief = 9
+	// Fighter/Mage/Thief = 10
+	// Druid = 11
+	// Ranger = 12
+	// Mage/Thief = 13
+	// Cleric/Mage = 14
+	// Cleric/Thief = 15
+	// Fighter/Druid = 16
+	// Fighter/Mage/Cleric = 17
+	// Cleric/Ranger = 18
+	// Sorcerer = 19
+	// Monk = 20
+	// Shaman = 21
+    kit_class     = 2
+	
+	visible     = 0
+	
+    mixed         = RESOLVE_STR_REF(@200329)
+	
+    lower         = RESOLVE_STR_REF(@200330)
+	
+    help          = RESOLVE_STR_REF(@200331)
+	
+    briefdesc     = RESOLVE_STR_REF(@200332)
+	
+	// fallen = 0
+	
+  STR_VAR
+    kit_name      = ~P_WGUA~
+	
+    unusable      = ~0xFFFF6004~ //~0x08004004~
+    // clasweap      = ~1 1 1 1 1 1 1 1~
+	//                                    T   S           F   Q             S S
+	//                                    W   C           L   U             W I
+	//                            B L S   O   I   W       A   A             O N
+	//                            A O H   H   M   A       I   R C   S       R G
+	//            L S           M S N O   A   I   R     H L   T R L H     2 D L 2
+	//            _ _       S   I T G R   N K T D H     A M   E O O O     H A E W
+	//            S S   S B P   S A S T   D A A A A   S L O   R S N R   S A N W E
+	//            W W   P L I   S R W S   E T R G M C P B R M S S G T D L N D E A
+	//            O O B E U K A I D O W A D A W G M L E E N A T B B B A I D S A P
+	//            R R O A N E X L S R O X S N A E E U A R I C A O O O R N E H P O
+	//            D D W R T D E E W D R E W A K R R B R D N E F W W W T G D I O N
+    weapprof   = ~0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 5 5 0 0 0 0 0 0 0 0 0 0 0 0 3~
+	
+    // abclasrq      = ~0 15 0 14 0 0~
+	
+    abclsmod      = ~0 0 0 0 0 0~
+	
+    // abdcdsrq      = ~0 0 0 = 0 =~
+	
+    // abdcscrq      = ~15 0 0 0 0 0~
+	
+	//               L L L N N N C C C
+	//               G N E G N E G N E
+    alignmnt      = ~1 1 1 1 1 1 1 1 1~
+	
+    dualclas      = ~0 0 0 0 0 0~
+	
+    // luabbr        = ~P_WGUA~
+	
+    // stweap        = ~CHAN09 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN4,2 POTN14,5 HAM07 SW1H27 STAF08~
+	
+    clab_path     = ~override/P_WGUACL.2da~
+	
+    // kittable      = ~K_F_H K_F_E K_F_HE~
+	
+	// base_class = 
+	
+	// clab_base_f = 
+	
+	// clab_base_p = 
+	
+	// clab_base_d = 
+	
+	// clab_base_r = 
+	
+	// clab_base_m = 
+	
+	// clab_base_t = 
+	
+    // clsrcreq      = ~1 1 1 1 1 1 1~
+	
+    // clswpbon      = ~1 0 2~
+	
+    hpclass       = ~HPBARB~
+	
+    // numwslot      = ~4~
+	
+    // clascolr = ~27 136 119 21 187~
+	
+	// clasiskl = ~0 0 0 0 0 0 0~
+	
+	clasthac = ~3~
+	
+	// thiefscl = ~0 0 0 0 0 0 0 0~
+	
+	// backstab = ~2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4~
+	
+	// sneakatt = ~2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4~
+	
+	// crippstr = ~0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4~
+	
+	// thiefskl = ~0 0~
+	
+	// traplimt = ~6~
+	
+    bdstweap      = ~* * * * RING06 * * * * * BELT02 * * * POTN08,5 POTN17,3 POTN12,1 * * *~
+  RET
+    kit_id
+END
+
+// Yellow Worg (Sinna)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_SINNA_ANIMS_Exxx BEGIN
+    ~sinna~ => ~P_YELLOW_WORG~
+  END
+  ACTION_PHP_EACH P_SINNA_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// Black Worg (Daren)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_DAREN_ANIMS_Exxx BEGIN
+    ~daren~ => ~P_BLACK_WORG~
+  END
+  ACTION_PHP_EACH P_DAREN_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+
+// Bebilith (Skel'Tharant)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_SKEL_ANIMS_Exxx BEGIN
+    ~skel~ => ~P_BEBILITH_NWN~
+  END
+  ACTION_PHP_EACH P_SKEL_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// Magenta Spider (Liphix)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_MAGENTA_SPIDER_ANIMS_Exxx BEGIN
+    ~spider_magenta~ => ~P_MAGENTA_SPIDER~
+  END
+  ACTION_PHP_EACH P_MAGENTA_SPIDER_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+
+// Red Hydra (Rask'tar Krathiss)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_RED_HYDRA_ANIMS_Exxx BEGIN
+    ~hydra~ => ~P_RED_HYDRA~
+  END
+  ACTION_PHP_EACH P_RED_HYDRA_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// Spider Queen (Morgrath)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_SPIDER_QUEEN_ANIMS_Exxx BEGIN
+    ~morgrath~ => ~P_SPIDER_QUEEN~
+  END
+  ACTION_PHP_EACH P_SPIDER_QUEEN_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// Medusa (Tisiphone)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_MEDUSA_ANIMS_Exxx BEGIN
+    ~medusa~ => ~P_MEDUSA~
+  END
+  ACTION_PHP_EACH P_MEDUSA_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// Blue Spider (Arthrom)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_SPIDER_BLUE_ANIMS_Exxx BEGIN
+    ~spider_blue~ => ~P_SPIDER_BLUE~
+  END
+  ACTION_PHP_EACH P_SPIDER_BLUE_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// Skeleton Priest (Vidomina)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_SKELETON_PRIEST_ANIMS_Exxx BEGIN
+    ~vidomina~ => ~P_SKELETON_PRIEST~
+  END
+  ACTION_PHP_EACH P_SKELETON_PRIEST_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// Yuan-Ti Half (Vreshnak)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_YUANTI_HALF_ANIMS_Exxx BEGIN
+    ~vreshnak~ => ~P_YUANTI_HALF~
+  END
+  ACTION_PHP_EACH P_YUANTI_HALF_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+
+// Wererat (Phillipe)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_WERERAT_ANIMS_Exxx BEGIN
+    ~wererat~ => ~P_WERERAT~
+  END
+  ACTION_PHP_EACH P_WERERAT_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// Spider Eye (Mesothel)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_SPIDER_EYE_ANIMS_Exxx BEGIN
+    ~spider_eye~ => ~P_SPIDER_EYE~
+  END
+  ACTION_PHP_EACH P_SPIDER_EYE_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// Spider Yellow (Kankra)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_SPIDER_YELLOW_ANIMS_Exxx BEGIN
+    ~spider_yellow~ => ~P_SPIDER_YELLOW~
+  END
+  ACTION_PHP_EACH P_SPIDER_YELLOW_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// Reptile (Cho'Nuja)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_REPTILE_ANIMS_Exxx BEGIN
+    ~reptile~ => ~P_REPTILE~
+  END
+  ACTION_PHP_EACH P_REPTILE_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// serpent (Jaculi)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_SERPENT_JACULI_ANIMS_Exxx BEGIN
+    ~serpent~ => ~P_SERPENT_JACULI~
+  END
+  ACTION_PHP_EACH P_SERPENT_JACULI_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+
+// centipede (Megacentipede)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_MEGACENTIPEDE_ANIMS_Exxx BEGIN
+    ~centipede~ => ~P_MEGACENTIPEDE~
+  END
+  ACTION_PHP_EACH P_MEGACENTIPEDE_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// green_weaver (Green Weaver)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_GREEN_WEAVER_ANIMS_Exxx BEGIN
+    ~green_weaver~ => ~P_GREEN_WEAVER~
+  END
+  ACTION_PHP_EACH P_GREEN_WEAVER_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+
+// ice_weaver (Ice Weaver)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_ICE_WEAVER_ANIMS_Exxx BEGIN
+    ~ice_weaver~ => ~P_ICE_WEAVER~
+  END
+  ACTION_PHP_EACH P_ICE_WEAVER_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// red_weaver (Red Weaver)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_RED_WEAVER_ANIMS_Exxx BEGIN
+    ~red_weaver~ => ~P_RED_WEAVER~
+  END
+  ACTION_PHP_EACH P_RED_WEAVER_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// white_weaver (White Weaver)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_WHITE_WEAVER_ANIMS_Exxx BEGIN
+    ~white_weaver~ => ~P_WHITE_WEAVER~
+  END
+  ACTION_PHP_EACH P_WHITE_WEAVER_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+
+// Gorm (Green Remorhaz)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_GREEN_REMORHAZ_ANIMS_Exxx BEGIN
+    ~gorm~ => ~P_GREEN_REMORHAZ~
+  END
+  ACTION_PHP_EACH P_GREEN_REMORHAZ_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+
+
+// Reptile2 (Cho'Nuja)
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_REPTILE2_ANIMS_Exxx BEGIN
+    ~reptile2~ => ~P_REPTILE2~
+  END
+  ACTION_PHP_EACH P_REPTILE2_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+COPY ~Autumns_Twilight/Animations/reptile2/p_chona3.itm~ ~override~
+SAY NAME2 @200337 /* Shehadtok Skriiod */
+SAY DESC @200338 /*  */
+SAY 0xD6 @200175
+LPF ALTER_EFFECT INT_VAR match_opcode = 53 parameter1 = (IDS_OF_SYMBOL (~animate~ ~P_REPTILE2~)) END
+
+COPY ~Autumns_Twilight/Animations/reptile2/p_chona4.itm~ ~override~
+SAY NAME2 @200339 /* Shehad Ibahalii */
+SAY DESC @200340 /*  */
+SAY 0xD6 @200175
+LPF ALTER_EFFECT INT_VAR match_opcode = 53 parameter1 = (IDS_OF_SYMBOL (~animate~ ~P_REPTILE2~)) END

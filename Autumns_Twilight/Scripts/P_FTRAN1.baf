@@ -1,0 +1,44 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  PartyHasItem("P_FTALI1")  
+THEN
+  RESPONSE #100
+    SaveGame(0)
+    DisplayString(Myself,@200130)  // ~El Talismán del muerto viviente parece brillar cuando te acercas al umbral dorado. En cuestión de segundos, eres transportado a su interior.~
+    StartCutSceneMode()
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    Wait(4)
+    FadeToColor([20.0],0)
+    Wait(1)
+    PlaySound("PORTAL2")
+    Wait(2)
+    ActionOverride(Player1,LeaveAreaLUAPanic("P_FAR7","",[922.1131],NW))
+    ActionOverride(Player1,LeaveAreaLUA("P_FAR7","",[922.1131],NW))
+    ActionOverride(Player2,LeaveAreaLUA("P_FAR7","",[958.1110],NW))
+    ActionOverride(Player3,LeaveAreaLUA("P_FAR7","",[996.1089],NW))
+    ActionOverride(Player4,LeaveAreaLUA("P_FAR7","",[963.1062],NW))
+    ActionOverride(Player5,LeaveAreaLUA("P_FAR7","",[927.1080],NW))
+    ActionOverride(Player6,LeaveAreaLUA("P_FAR7","",[891.1092],NW))
+    MultiPlayerSync()
+    EndCutSceneMode()
+    FadeFromColor([20.0],0)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  !PartyHasItem("P_FTALI1")  
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@200131)  // ~El umbral mágico te deslumbra con sus colores amarillos y dorados. Por más que lo intentas, no eres capaz de atravesarlo.~
+END
+
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,14702)  // ~Estáis demasiado lejos como para poder usarlo.~
+END
+

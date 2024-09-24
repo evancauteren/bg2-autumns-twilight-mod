@@ -1,0 +1,51 @@
+// Hotkey configurable
+IF
+HotKey(K)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+StartCutScene("P_AlenF")
+END
+
+IF
+Global("P_Alen_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+Wait (6)
+SetGlobal("P_Alen_UpdateK","GLOBAL",0)
+END
+
+/*
+IF
+Global("P_AlenUpdateKit","GLOBAL",0)
+THEN
+RESPONSE #100
+AddKit("P_FMAS")
+SetGlobal("P_AlenUpdateKit","GLOBAL",1)
+END
+*/
+
+// FURIA por muerte de Fall
+IF
+  InParty("P_Fall") 
+  !Dead("P_Fall")
+  Global("P_AlenFuryP_Fall","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_AlenFuryP_Fall","GLOBAL",0)
+END
+
+IF
+  IfValidForPartyDialogue(Myself)
+  Global("P_AlenFuryP_Fall","GLOBAL",0)
+  Dead("P_Fall")
+THEN
+  RESPONSE #100
+    SetGlobal("P_AlenFuryP_Fall","GLOBAL",1)
+    DisplayStringHead(Myself,@700042)
+	ReallyForceSpellRES("P_SW05",LastAttackerOf("P_Fall"))
+	ReallyForceSpellRES("P_SW04",LastAttackerOf("P_Fall"))
+	ReallyForceSpellRES("P_SW06",LastAttackerOf("P_Fall"))
+	//Attack(LastAttackerOf("P_Fall"))
+END
+

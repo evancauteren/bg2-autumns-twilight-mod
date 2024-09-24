@@ -1,0 +1,147 @@
+//Cho Spawn
+IF
+Global("P_ChoAwake","GLOBAL",3)
+Global("P_ChoSpawnP12B","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("p_choc",[746.1878],NE)
+SetGlobal("P_ChoSpawnP12B","GLOBAL",1)
+END
+
+IF
+Global("P_ChoccDestroyPatchPF12B","GLOBAL",0)
+Exists("p_cho")
+OR(2)
+Global("P_ChoccStay","GLOBAL",1)
+Dead("p_cho")
+THEN
+RESPONSE #100
+ActionOverride("p_cho",DestroySelf())
+SetGlobal("P_ChoccDestroyPatchPF12B","GLOBAL",1)
+END
+
+
+IF
+Global("P_SpidersF12BSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+// Tejedora de la Muerte Ardiente
+CreateCreature("p_weavfr",[1213.338],NE)
+
+CreateCreature("p_etter1",[1091.296],S)
+CreateCreature("p_spgi1",[1189.263],SE)
+CreateCreature("p_sphu1",[1285.284],SW)
+CreateCreature("p_spph1",[1270.351],N)
+CreateCreature("p_spsw1",[1110.420],NE)
+CreateCreature("p_spwr1",[1285.429],NW)
+CreateCreature("p_centip",[1184.445],NW)
+
+// Tejedora de la Escarcha
+CreateCreature("p_weavcd",[1828.1073],S)
+
+CreateCreature("p_etter1",[1745.1155],S)
+CreateCreature("p_spgi1",[1811.1159],SE)
+CreateCreature("p_sphu1",[1899.1163],SW)
+CreateCreature("p_spph1",[1928.1112],N)
+CreateCreature("p_spsw1",[1913.994],NE)
+CreateCreature("p_spwr1",[1768.990],NW)
+CreateCreature("p_centip",[1837.933],NW)
+
+// Tejedora de Relámpagos
+CreateCreature("p_weavth",[1460.1625],S)
+
+CreateCreature("p_etter1",[1553.1606],S)
+CreateCreature("p_spgi1",[1545.1677],SE)
+CreateCreature("p_sphu1",[1454.1688],SW)
+CreateCreature("p_spph1",[1339.1675],N)
+CreateCreature("p_spsw1",[1313.1624],NE)
+CreateCreature("p_spwr1",[1374.1556],NW)
+CreateCreature("p_centip",[1546.1525],NW)
+
+// Tejedora de Acerbo
+CreateCreature("p_weavac",[2527.615],SE)
+
+CreateCreature("p_etter1",[2432.547],S)
+CreateCreature("p_spgi1",[2483.534],SE)
+CreateCreature("p_sphu1",[2564.549],SW)
+CreateCreature("p_spph1",[2588.701],N)
+CreateCreature("p_spsw1",[2606.557],NE)
+CreateCreature("p_spwr1",[2438.477],NW)
+CreateCreature("p_centip",[2579.587],NW)
+
+// Rest of the Creatures:
+// Nido de Centipedes
+CreateCreature("p_centip",[2432.547],S)
+CreateCreature("p_centip",[2483.534],SE)
+CreateCreature("p_centip",[2564.549],SW)
+CreateCreature("p_centip",[2588.701],N)
+CreateCreature("p_centip",[2606.557],NE)
+CreateCreature("p_centip",[2438.477],NW)
+CreateCreature("p_centip",[2579.587],NW)
+
+CreateCreature("p_centip",[2359.1549],N)
+CreateCreature("p_centip",[2460.1527],NE)
+CreateCreature("p_centip",[1283.1363],S)
+CreateCreature("p_centip",[372.900],SW)
+CreateCreature("p_centip",[1596.201],SE)
+
+CreateCreature("p_etter1",[1514.732],S)
+CreateCreature("p_spgi1",[1448.752],SE)
+CreateCreature("p_sphu1",[1465.686],SW)
+
+CreateCreature("p_spph1",[2209.695],N)
+CreateCreature("p_spsw1",[2261.667],NE)
+CreateCreature("p_spwr1",[2209.633],NW)
+
+CreateCreature("p_etter1",[1424.1233],S)
+CreateCreature("p_spgi1",[1424.1174],SE)
+CreateCreature("p_sphu1",[1538.1155],SW)
+
+CreateCreature("p_spph1",[737.1363],N)
+CreateCreature("p_spsw1",[793.1337],NE)
+CreateCreature("p_spwr1",[727.1280],NW)
+
+// Arañas mutantes
+CreateCreature("SPIDSM02",[829.604],N)
+CreateCreature("SPIDSM02",[1497.442],NE)
+CreateCreature("SPIDSM02",[2203.572],S)
+CreateCreature("SPIDSM02",[1904.1378],SW)
+CreateCreature("SPIDSM02",[2320.1627],SE)
+CreateCreature("SPIDSM02",[430.601],N)
+CreateCreature("SPIDSM02",[1312.1078],NE)
+CreateCreature("SPIDSM02",[1480.1238],S)
+CreateCreature("SPIDSM02",[1602.1301],SW)
+CreateCreature("SPIDSM02",[1462.883],SE)
+
+//Mesothel y Liphix
+Wait(4)
+CreateCreature("p_mes1",[788.1638],SW)
+CreateCreature("p_liphix",[854.1651],SW)
+ActionOverride("p_weavfr", CreateItem("P_FTALI5",1,2,1))
+Continue()
+SetGlobal("P_SpidersF12BSpawn","GLOBAL",1)
+END
+
+// Parche para destruir Items
+
+IF
+Global("P_PatchDestroyTALIS","GLOBAL",0)
+Global("P_ArthromF11BSpawn","GLOBAL",0)
+OR (4)
+PartyHasItem("P_FTALI1")
+PartyHasItem("P_FTALI2")
+PartyHasItem("P_FTALI3")
+PartyHasItem("P_FTALI4")
+THEN
+RESPONSE #100
+TakePartyItem("P_FTALI1")
+DestroyItem("P_FTALI1")
+TakePartyItem("P_FTALI2")
+DestroyItem("P_FTALI2")
+TakePartyItem("P_FTALI3") 
+DestroyItem("P_FTALI3")  
+TakePartyItem("P_FTALI4")  
+DestroyItem("P_FTALI4") 
+SetGlobal("P_PatchDestroyTALIS","GLOBAL",1)
+END
+

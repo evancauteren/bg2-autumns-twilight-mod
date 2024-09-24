@@ -1,0 +1,1894 @@
+// Hotkey configurable
+IF
+HotKey(K)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+StartCutScene("P_DuskF")
+END
+
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+Wait (6)
+SetGlobal("P_Dusk_UpdateK","GLOBAL",0)
+END
+
+// Dusk se va si CHARNAME mata a Hendak a pedido de Lehtinan
+IF
+  InParty(Myself)
+  AreaCheck("AR0406")
+  Global ("P_DuskLeavesHendakEnemy","GLOBAL",0)
+  Global("P_DUSK_IS_EVIL","GLOBAL",0)
+  Global("SlavingJerk","GLOBAL",1)
+  !Dead("Lehtinan")
+  See("HENDAK")
+  See(Player1)
+  Allegiance("HENDAK", ENEMY)  
+THEN
+  RESPONSE #100
+  Wait(1)
+  SetGlobal ("P_DuskLeavesHendakEnemy","GLOBAL",1)
+  LeaveParty() 
+  DisplayStringHead(Myself,@600045)
+  Enemy ()
+END
+
+// Dusk se va si CHARNAME envenena el pozo de los druidas
+IF
+  InParty(Myself)
+  AreaCheck("AR1901")
+  Global("GrovePoisoned","GLOBAL",1)
+  Global("P_DUSK_IS_EVIL","GLOBAL",0)
+  Global("P_DuskLeavesGrovePoisoned","GLOBAL",0)
+  See(Player1)
+THEN
+  RESPONSE #100
+  Wait (3)
+  SetGlobal ("P_DuskLeavesGrovePoisoned","GLOBAL",1)
+  LeaveParty() 
+  DisplayStringHead(Myself,@600042)
+  Enemy()
+END
+
+// Bastón de combate de Dusk ha sido mejorado - 1
+IF
+  InParty(Myself)  
+  Global("P_Dusk_ImproveStaff_1","GLOBAL",1)
+  PartyHasItem("p_stf1")
+THEN
+  RESPONSE #100
+  Wait (3)
+  TakePartyItem("p_stf1")
+  DestroyItem("p_stf1")
+  CreateItem ("p_stf2",1,1,1)
+  SetGlobal ("P_Dusk_ImproveStaff_1","GLOBAL",2)
+  DisplayStringHead(Myself,@400462)
+END
+
+
+// Bastón de combate de Dusk ha sido mejorado - 2
+IF
+  InParty(Myself)  
+  Global("P_Dusk_ImproveStaff_1","GLOBAL",3)
+  PartyHasItem("p_stf2")
+THEN
+  RESPONSE #100
+  Wait (3)
+  TakePartyItem("p_stf2")
+  DestroyItem("p_stf2")
+  CreateItem ("p_stf3A",1,1,1)
+  SetGlobal ("P_Dusk_ImproveStaff_1","GLOBAL",4)
+  DisplayStringHead(Myself,@400462)
+END
+
+// ***************************************************************
+
+/*VARIABLES FINALES DE LAS MISIONES
+MISION 1: Global("P_DuskMatMission1","GLOBAL",5)
+MISION 2: Global("P_DuskMatMission2","GLOBAL",8)
+MISION 3: Global("P_DuskMatMission3","GLOBAL",10)
+
+Condiciones para misión final: 
+Global("P_Dusk_T13","GLOBAL",3) 
+Global("P_DuskMatMission3","GLOBAL",10)
+
+Condiciones para misión final (TELEPORT) -> GOOD PATH:
+Global("P_DuskDemoleMISSION","GLOBAL",1)
+(UPDATE)
+
+Condiciones para misión final (TELEPORT) -> EVIL PATH:
+Global("P_DuskDanctialMISSION","GLOBAL",1)
+
+
+MISION 4:
+*/
+
+/* VARIABLES DE LA ORDEN
+SORNHIL: Global ("P_Dusk_Sornhil_Enc1","GLOBAL",1)
+VALATAR: Global ("P_Dusk_Valata_Confg","GLOBAL",1)
+KALANDA: Global ("P_Dusk_Kaland_Enc","GLOBAL",1)
+*/
+
+// ***************************************************************
+
+// Si en la party se encuentra Dusk, entonces setea el Timer y el Global en 1
+IF 
+InParty(Myself) // Esto quiere decir que el NPC está vivo, es obligatoria esta línea para evitar crasheo en el juego
+Global("P_DuskTalk","GLOBAL",0)		 // Esta variable está presente, también, en el archivo d (p_DuskJ). Variable que representa la Amistad
+AreaCheck("AR0400")
+//Global("Chapter","GLOBAL",%bg2_chapter_2%)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) // TTT 60 Setea el timer y la declara como ""P_DuskTimer"". 3600 (3600 seg -> 60 min) valor "por defecto". Probamos con 100 ( 1 min 40 seg) para ver si levanta
+SetGlobal("P_DuskTalk","GLOBAL",1)       // Cada bloque debe ejecutarse 1 sola vez. Por eso seteamos la variable en 1, para que no vuelva a repetirse el diálogo y así pueda pasar al siguiente.
+END
+
+
+// TIEMPOS DE D&D&
+// 4200	8 game hours
+// 525	1ghr
+// 60	10ming
+// 6	1ming
+
+//   <<<   1 asalto es 1 min de juego (ming) = 6 segundos	>>>	
+// 10 asaltos = 1 turno (1 min = 60 seg)					
+
+// ***************************************************************
+
+// IncrementGlobal de P_DuskTalk (posiblemente no lo usemos, más que para la primera Talk)
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID)    // CamDawg's condition: significa que todos pueden hablar siempre y cuando no están encantados, confundidos, silenciados, etc.
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)                          // Esta línea y la sig. significan que no debe haber un combate de por medio
+!See([ENEMY])
+!AreaType(DUNGEON)			 // No debería haber charlas en los DUNGEON
+Global("P_DuskTalk","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_DuskTalk","GLOBAL",1)
+END
+
+// TIMER P_Dusk_T2
+IF 
+InParty(Myself) 
+	
+Global("P_DuskMatMission1","GLOBAL",5)
+Global("P_Dusk_T2","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) // TTT 3600
+SetGlobal("P_Dusk_T2","GLOBAL",1)  
+END
+
+// TIMER P_Dusk_T3
+IF 
+InParty(Myself) 
+	
+Global("P_Dusk_T3","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+SetGlobal("P_Dusk_T3","GLOBAL",1)  
+END	
+
+// TIMER DEMOLEDOR APPEAR 1
+IF 
+InParty(Myself) 
+	
+Global("P_Dusk_T3","GLOBAL",3)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 900
+SetGlobal("P_Dusk_Demole","GLOBAL",1)
+SetGlobal("P_Dusk_T3","GLOBAL",4)
+END	
+
+// TIMER P_Dusk_T4
+IF 
+InParty(Myself) 
+	
+Global("P_DuskMatMission2","GLOBAL",8)
+Global("P_Dusk_T4","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+SetGlobal("P_Dusk_T4","GLOBAL",1)  
+END	
+
+// TIMER P_Dusk_T5
+IF 
+InParty(Myself) 
+	
+Global("P_Dusk_T4","GLOBAL",3)
+Global("P_Dusk_T5","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+SetGlobal("P_Dusk_T5","GLOBAL",1)  
+END	
+
+// TIMER P_Dusk_T6
+IF 
+InParty(Myself) 
+	
+Global("P_Dusk_T5","GLOBAL",3)
+Global("P_Dusk_T6","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+SetGlobal("P_Dusk_T6","GLOBAL",1)  
+END	
+
+// TIMER DEMOLEDOR APPEAR 2
+IF 
+InParty(Myself) 
+
+Global("P_Dusk_T6","GLOBAL",3)
+Global("P_DuskMatMission2","GLOBAL",8)
+Global("P_DuskMatMission3","GLOBAL",0)
+Global("P_DuskDemoleApp2","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 900
+SetGlobal("P_DuskMatMission3","GLOBAL",1)
+SetGlobal("P_DuskDemoleApp2","GLOBAL",1)
+END
+
+// TIMER P_Dusk_T7
+IF 
+InParty(Myself) 
+	
+Global("P_Dusk_T6","GLOBAL",3)
+Global("P_Dusk_T7","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+SetGlobal("P_Dusk_T7","GLOBAL",1)  
+END	
+
+// TIMER P_Dusk_T8
+IF 
+InParty(Myself) 
+	
+Global("P_Dusk_T7","GLOBAL",3)
+Global("P_Dusk_T8","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+SetGlobal("P_Dusk_T8","GLOBAL",1)  
+END	
+
+
+
+// TIMER P_Dusk_T9
+IF 
+InParty(Myself) 
+	
+Global("P_Dusk_T8","GLOBAL",3)
+Global("P_Dusk_T9","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+SetGlobal("P_Dusk_T9","GLOBAL",1)  
+END	
+
+// TIMER P_Dusk_T10
+IF 
+InParty(Myself) 
+	
+Global("P_Dusk_T9","GLOBAL",3)
+Global("P_Dusk_T10","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+SetGlobal("P_Dusk_T10","GLOBAL",1)  
+END	
+
+// TIMER P_Dusk_T11
+IF 
+InParty(Myself) 
+	
+Global("P_Dusk_T10","GLOBAL",3)
+Global("P_Dusk_T11","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+SetGlobal("P_Dusk_T11","GLOBAL",1)  
+END	
+
+// TIMER P_Dusk_T12
+IF 
+InParty(Myself) 
+	
+Global("P_Dusk_T11","GLOBAL",3)
+Global("P_Dusk_T12","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+SetGlobal("P_Dusk_T12","GLOBAL",1)  
+END	
+
+// TIMER P_Dusk_T13
+IF 
+InParty(Myself) 
+	
+Global("P_Dusk_T12","GLOBAL",3)
+Global("P_Dusk_T13","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 1500
+SetGlobal("P_Dusk_T13","GLOBAL",1)  
+END	
+
+// Este bloque se desencadena siempre y cuando
+// La 1era misión de Math se haya realizado
+// P_Dusk_T2
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_DuskMatMission1","GLOBAL",5)
+
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)
+Global("P_Dusk_T2","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Dusk_T2","GLOBAL",1)
+END
+
+// P_Dusk_T3
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_Dusk_T2","GLOBAL",3)
+
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)  
+!See([ENEMY])
+!AreaType(DUNGEON)			
+Global("P_Dusk_T3","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Dusk_T3","GLOBAL",1)
+END
+
+// P_Dusk_Demole
+//Aquí convocamos a Demoledor una vez que se expire el Timer y se haya cumplido 
+// la 3era conversación con Dusk
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_Dusk_T3","GLOBAL",4)
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID)   
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)                         
+!See([ENEMY])
+!AreaType(DUNGEON)			
+Global("P_Dusk_Demole","GLOBAL",1)
+Global ("P_Dusk_Demole_Enc1","GLOBAL",0)
+THEN
+RESPONSE #100
+  StartCutSceneMode()
+  IncrementGlobal("P_Dusk_Demole","GLOBAL",1)
+  CreateCreatureObjectDoor ("p_demole","p_dusk",0,0,0)
+  SetGlobal ("P_Dusk_Demole_Enc1","GLOBAL",1)
+  Wait (4)
+  EndCutSceneMode()
+  SetGlobal ("P_Dusk_1stTDemole","GLOBAL",1)
+END
+
+//IF
+//InParty(Myself)
+//!StateCheck(Myself,CD_STATE_NOTVALID)
+//CombatCounter(0) 
+//!See([ENEMY])
+//!AreaType(DUNGEON)	
+//Global ("P_Dusk_1stTDemole","GLOBAL",1)
+//THEN
+//RESPONSE #100
+//Wait(2)
+//SetGlobal ("P_Dusk_1stTDemole","GLOBAL",2)
+//StartDialogueNoSet(Player1)
+//END
+
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+See("p_falon")
+Global("P_DuskMatMission2","GLOBAL",3)
+THEN
+RESPONSE #100
+Wait(2)
+SetGlobal ("P_DuskMatMission2","GLOBAL",4)
+StartDialogueNoSet("p_falon")
+END
+
+
+// Aparición del hechicero SORNHIL (EVIL PATH)
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+//Dead("p_falon")
+Global ("P_DuskEvil","GLOBAL",1)
+PartyHasItem("p_brkshl")
+THEN
+RESPONSE #100
+  StartCutSceneMode()
+  Wait(2) 
+  SetGlobal ("P_DuskEvil","GLOBAL",2)
+  CreateCreatureObjectDoor("p_sornhi","p_dusk",0,0,0)   
+  Wait(5)
+  EndCutSceneMode()
+  StartDialogueNoSet(Player1)
+END
+
+
+
+// Se desencadena una vez que termina la conversación con Sornhil (camino EVIL)
+// PLAYSONG? Para villano Dusk
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+//Dead("p_falon")
+Global ("P_DuskEvil","GLOBAL",3)
+THEN
+RESPONSE #100
+  Wait(3) 
+  SetGlobal ("P_DuskEvil","GLOBAL",4)
+  StartDialogueNoSet(Player1)
+END
+
+// Sir Ryan P_Dusk_KAYL1NOTDONE
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+See ("KAYL2")
+AreaCheck("AR0903")
+Global("Kayl1Done","GLOBAL",0) 
+Global ("P_DuskGood","GLOBAL",1) 
+Global ("P_Dusk_KAYL1NOTDONE","GLOBAL",0)
+THEN
+RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+See ("KAYL2")
+AreaCheck("AR0903")
+Global("Kayl1Done","GLOBAL",1) 
+Global ("P_DuskGood","GLOBAL",1) 
+Global ("P_Dusk_KAYL1NOTDONE","GLOBAL",1)
+THEN
+RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+See ("KAYL2")
+AreaCheck("AR0903")
+Global("Kayl1Done","GLOBAL",1) 
+Global ("P_DuskGood","GLOBAL",1) 
+Global ("P_Dusk_KAYL1NOTDONE","GLOBAL",0)
+THEN
+RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+See ("P_FALON")
+AreaCheck("AR1200")
+Global ("P_DuskMatMission2","GLOBAL",6)
+THEN
+RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+
+// Aparición del hechicero SORNHIL (GOOD PATH)
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global ("P_DuskGood","GLOBAL",2)
+Global ("P_SORNHIL_APP_GOOD","GLOBAL",0)
+//PartyHasItem("p_wsam")
+//!AreaCheck("AR1200")
+THEN
+RESPONSE #100
+  Wait (1)
+  SetGlobal ("P_SORNHIL_APP_GOOD","GLOBAL",1)
+  StartCutSceneMode()
+  Wait(2) // 2 orig
+  CreateCreatureObjectDoor("p_sornhi","p_dusk",0,0,0)   
+  Wait(5)
+  EndCutSceneMode()
+  StartDialogueNoSet(Player1)
+END
+
+// Conversación con CHARNAME después de encuentro con Sornhil (GOOD)
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global ("P_DuskGood","GLOBAL",3)
+THEN
+RESPONSE #100
+  Wait(3) 
+  SetGlobal ("P_DuskGood","GLOBAL",4)
+  StartDialogueNoSet(Player1)
+END
+
+// FINAL MISSION 2 VARIABLES
+
+// EVIL PATH:
+// Global ("P_DuskMatMission2","GLOBAL",7)
+// Global ("P_DuskEvil","GLOBAL",5)
+
+// GOOD PATH:
+// Global ("P_DuskMatMission2","GLOBAL",7)
+// Global ("P_DuskGood","GLOBAL",5)
+
+// EVIL_ORB
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global ("P_EVIL_ORB","GLOBAL",1)
+THEN
+RESPONSE #100
+  SetGlobal ("P_EVIL_ORB","GLOBAL",2)
+  StartCutSceneMode()
+  Wait(2)
+  CreateItem ("p_orbe2e",1,1,0)   
+  UseItem ("p_orbe2e", Myself)
+  DestroyItem ("p_orbe2e")
+  Wait(5)
+  EndCutSceneMode()
+  StartDialogueNoSet(Player1)
+END
+
+// Termina en :
+// Global ("P_EVIL_ORB","GLOBAL",3)
+// Global("P_DuskMatMission2","GLOBAL",8)
+// Global ("P_DuskEvil","GLOBAL",6)
+
+// GOOD_ORB
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global ("P_GOOD_ORB","GLOBAL",1)
+THEN
+RESPONSE #100
+  SetGlobal ("P_GOOD_ORB","GLOBAL",2)
+  StartCutSceneMode()
+  Wait(2)
+  CreateItem ("p_orbe2g",1,1,0)   
+  UseItem ("p_orbe2g", Myself)
+  DestroyItem ("p_orbe2g")
+  Wait(5)
+  EndCutSceneMode()
+  StartDialogueNoSet(Player1)
+END
+
+// Termina en :
+// Global ("P_GOOD_ORB","GLOBAL",3)
+// Global("P_DuskMatMission2","GLOBAL",8)
+// Global ("P_DuskGood","GLOBAL",6)
+
+// P_Dusk_T4
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_DuskMatMission2","GLOBAL",8)
+
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)  
+!See([ENEMY])
+!AreaType(DUNGEON)			
+Global("P_Dusk_T4","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Dusk_T4","GLOBAL",1)
+END
+
+// P_Dusk_T5
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_Dusk_T4","GLOBAL",3)
+
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)  
+!See([ENEMY])
+!AreaType(DUNGEON)			
+Global("P_Dusk_T5","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Dusk_T5","GLOBAL",1)
+END
+
+// P_Dusk_T6
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_Dusk_T5","GLOBAL",3)
+
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)  
+!See([ENEMY])
+!AreaType(DUNGEON)			
+Global("P_Dusk_T6","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Dusk_T6","GLOBAL",1)
+END
+
+// P_Dusk_T7
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_Dusk_T6","GLOBAL",3)
+
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)  
+!See([ENEMY])
+!AreaType(DUNGEON)			
+Global("P_Dusk_T7","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Dusk_T7","GLOBAL",1)
+END
+
+// P_Dusk_T8
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_Dusk_T7","GLOBAL",3)
+
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)  
+!See([ENEMY])
+!AreaType(DUNGEON)			
+Global("P_Dusk_T8","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Dusk_T8","GLOBAL",1)
+END
+
+
+// P_Dusk_Demole 2da parte
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_DuskMatMission3","GLOBAL",1)
+Global("P_DuskDemoleApp2","GLOBAL",1)
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID)   
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)                         
+!See([ENEMY])
+!AreaType(DUNGEON)		
+!AreaCheck("P_AR14")	
+Global ("P_Dusk_Demole_Enc2","GLOBAL",0)
+THEN
+RESPONSE #100
+  StartCutSceneMode()
+  IncrementGlobal("P_Dusk_Demole","GLOBAL",1)
+  CreateCreatureObjectDoor ("p_demole","p_dusk",0,0,0)
+  SetGlobal ("P_Dusk_Demole_Enc2","GLOBAL",1)
+  Wait (4)
+  EndCutSceneMode()
+  SetGlobal ("P_Dusk_2ndTDemole","GLOBAL",1)
+END
+
+//IF
+//InParty(Myself)
+//!StateCheck(Myself,CD_STATE_NOTVALID)
+//CombatCounter(0) 
+//!See([ENEMY])
+//!AreaType(DUNGEON)	
+//Global ("P_Dusk_2ndTDemole","GLOBAL",1)
+//THEN
+//RESPONSE #100
+//Wait(2)
+//SetGlobal ("P_Dusk_2ndTDemole","GLOBAL",2)
+//StartDialogueNoSet(Player1)
+//END
+
+// Aparición del hechicero ANTHAGAR. Si no lo has visto en Underdark
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global("P_Dusk_in_Underdark","GLOBAL",1)
+//Global("Chapter","GLOBAL",%bg2_chapter_6%)
+Global ("P_Dusk_Anthagar_Enc","GLOBAL",0)
+Global("P_Dusk_FINAL_MISION_TRIGGER","GLOBAL",1)
+OR (14)
+AreaCheck("AR0800")
+AreaCheck("AR0020")
+AreaCheck("AR0400")
+AreaCheck("AR0700")
+AreaCheck("AR0500")
+AreaCheck("AR1000")
+AreaCheck("AR2000")
+AreaCheck("AR1900")
+AreaCheck("AR1200")
+AreaCheck("AR1100")
+AreaCheck("AR1700")
+AreaCheck("AR2600")
+AreaCheck("AR1800")
+AreaCheck("AR0900")
+OR (2)
+Global ("P_DUSK_IS_EVIL","GLOBAL",1)
+Global ("P_DUSK_IS_GOOD","GLOBAL",1)
+THEN
+RESPONSE #100
+  Wait(2)
+  StartCutSceneMode()
+  Wait(2)  
+  CreateCreatureObjectDoor("p_anthag","p_dusk",0,0,0) 
+  Wait(5)
+  EndCutSceneMode()
+  SetGlobal ("P_Dusk_Anthag_Army","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+// Aparición del Anthag_Army (EVIL/GOOD PATH)
+
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global ("P_Dusk_Anthag_Army","GLOBAL",1)
+THEN
+RESPONSE #100
+  StartCutSceneMode()
+  Wait(2)
+  CreateCreatureObjectDoor("p_veneno","p_dusk",0,0,0) 
+  CreateCreatureObjectDoor("p_muerte","p_dusk",0,0,0) 
+  CreateCreatureObjectDoor("p_destru","p_dusk",0,0,0) 
+  SetGlobal ("P_Dusk_Anthag_Army","GLOBAL",2)  
+  Wait(5)
+  EndCutSceneMode()
+END
+
+// P_Dusk_Demole MISSION FINAL
+IF
+InParty(Myself)
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID)   
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)                         
+!See([ENEMY])
+!AreaType(DUNGEON)
+Global("P_DUSK_IS_GOOD","GLOBAL",1) 
+Global("P_Dusk_in_Underdark","GLOBAL",1)
+//Global("Chapter","GLOBAL",%bg2_chapter_6%)
+Global("P_Dusk_T13","GLOBAL",3) 
+Global("P_DuskMatMission3","GLOBAL",10)
+Global ("P_Dusk_Anthagar_Enc","GLOBAL",1)
+Global ("P_Dusk_Demole_FinalEnc","GLOBAL",0)
+Global("P_DuskDemoleMISSIONCOMPLETE","GLOBAL",0)
+OR (14)
+AreaCheck("AR0800")
+AreaCheck("AR0020")
+AreaCheck("AR0400")
+AreaCheck("AR0700")
+AreaCheck("AR0500")
+AreaCheck("AR1000")
+AreaCheck("AR2000")
+AreaCheck("AR1900")
+AreaCheck("AR1200")
+AreaCheck("AR1100")
+AreaCheck("AR1700")
+AreaCheck("AR2600")
+AreaCheck("AR1800")
+AreaCheck("AR0900")
+THEN
+RESPONSE #100
+  StartCutSceneMode()
+  CreateCreatureObjectDoor ("p_demole","p_dusk",0,0,0)
+  SetGlobal ("P_Dusk_Demole_FinalEnc","GLOBAL",1)
+  Wait (4)
+  EndCutSceneMode()
+  SetGlobal ("P_Dusk_3rdTDemole","GLOBAL",1)
+END
+
+//IF
+//InParty(Myself)
+//!StateCheck(Myself,CD_STATE_NOTVALID)
+//CombatCounter(0) 
+//!See([ENEMY])
+//!AreaType(DUNGEON)	
+//Global ("P_Dusk_3rdTDemole","GLOBAL",1)
+//THEN
+//RESPONSE #100
+//StartCutSceneMode()
+//Wait(2)
+//SetGlobal ("P_Dusk_3rdTDemole","GLOBAL",2)
+//StartDialogueNoSet(Player1)
+//EndCutSceneMode()
+//END
+
+// DANCTIAN Final MISSION
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global("P_Dusk_in_Underdark","GLOBAL",1)
+//Global("Chapter","GLOBAL",%bg2_chapter_6%)
+Global ("P_Dusk_Dancti_Enc_MF","GLOBAL",0)
+Global("P_DuskDanctialMISSION","GLOBAL",0)
+Global("P_Dusk_FINAL_MISION_TRIGGER","GLOBAL",1)
+Global ("P_DUSK_IS_EVIL","GLOBAL",1)
+Global ("P_Dusk_Anthagar_Enc","GLOBAL",1)
+Global("P_DuskDanctialMISSIONCOMPLETE","GLOBAL",0)
+OR (14)
+AreaCheck("AR0800")
+AreaCheck("AR0020")
+AreaCheck("AR0400")
+AreaCheck("AR0700")
+AreaCheck("AR0500")
+AreaCheck("AR1000")
+AreaCheck("AR2000")
+AreaCheck("AR1900")
+AreaCheck("AR1200")
+AreaCheck("AR1100")
+AreaCheck("AR1700")
+AreaCheck("AR2600")
+AreaCheck("AR1800")
+AreaCheck("AR0900")
+THEN
+RESPONSE #100
+  Wait(2)
+  StartCutSceneMode()
+  Wait(2)  
+  CreateCreatureObjectDoor("p_dancti","p_dusk",0,0,0) 
+  Wait(5)
+  EndCutSceneMode()
+  SetGlobal ("P_Dusk_Dancti_Enc_MF","GLOBAL",1)
+  //StartDialogueNoSet(Player1)
+END
+
+
+// P_Dusk_T9
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_Dusk_T8","GLOBAL",3)
+
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)  
+!See([ENEMY])
+!AreaType(DUNGEON)			
+Global("P_Dusk_T9","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Dusk_T9","GLOBAL",1)
+END
+
+// P_Dusk_T10
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_Dusk_T9","GLOBAL",3)
+
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)  
+!See([ENEMY])
+!AreaType(DUNGEON)			
+Global("P_Dusk_T10","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Dusk_T10","GLOBAL",1)
+END
+
+// P_Dusk_T11
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_Dusk_T10","GLOBAL",3)
+
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)  
+!See([ENEMY])
+!AreaType(DUNGEON)			
+Global("P_Dusk_T11","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Dusk_T11","GLOBAL",1)
+END
+
+// P_Dusk_T12
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_Dusk_T11","GLOBAL",3)
+
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)  
+!See([ENEMY])
+!AreaType(DUNGEON)			
+Global("P_Dusk_T12","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Dusk_T12","GLOBAL",1)
+END
+
+// P_Dusk_T13
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
+Global("P_Dusk_T12","GLOBAL",3)
+
+See(Player1)								
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)  
+!See([ENEMY])
+!AreaType(DUNGEON)			
+Global("P_Dusk_T13","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_Dusk_T13","GLOBAL",1)
+END
+
+// CONFIGURAR DESPUES DE DAR 3era MISION
+// Aparición del hechicero VALATAR (EVIL PATH)
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global("P_DuskMatMission3","GLOBAL",3)
+Global ("P_DUSK_IS_EVIL","GLOBAL",1)
+Global ("P_DUSK_VALATA_ENC1","GLOBAL",0)
+AreaCheck("AR1900")
+THEN
+RESPONSE #100
+  Wait(2)
+  StartCutSceneMode()
+  Wait(2)  
+  CreateCreatureObjectDoor("p_valata","p_dusk",0,0,0) 
+  SetGlobal ("P_DUSK_VALATA_ENC1","GLOBAL",1)  
+  Wait(5)
+  EndCutSceneMode()
+  StartDialogueNoSet(Player1)
+END
+
+// Aparición del DEMONIO (EVIL/GOOD PATH)
+
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global ("P_Dusk_Valata_Demon","GLOBAL",1)
+AreaCheck("AR1900")
+THEN
+RESPONSE #100
+  StartCutSceneMode()
+  Wait(2)  
+  CreateCreatureObjectDoor("p_dempit","p_dusk",0,0,0) 
+  SetGlobal ("P_Dusk_Valata_Demon","GLOBAL",2)  
+  Wait(5)
+  EndCutSceneMode()
+END
+
+// Conversación con CHARNAME después de vencer al DEMONIO (EVIL)
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+PartyHasItem("p_demhe")
+PartyHasItem("p_swevi1")
+Global("P_DUSK_IS_GOOD","GLOBAL",0)
+Global ("P_Dusk_Valata_Demon","GLOBAL",2)
+THEN
+RESPONSE #100
+  SetGlobal ("P_Dusk_Valata_Demon","GLOBAL",3)  
+  StartDialogueNoSet(Player1)
+END
+
+// Mejora de la espada carmesí (EVIL)
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global("P_DUSK_IS_GOOD","GLOBAL",0)
+Global ("P_Dusk_Valata_Demon_FORGE","GLOBAL",1)
+THEN
+RESPONSE #100
+  StartCutSceneMode()
+  SetGlobal ("P_Dusk_Valata_Demon_FORGE","GLOBAL",2)
+  DestroyItem ("p_swevi1") 
+  DestroyItem ("p_demhe")
+  CreateItem ("p_fire1",1,1,0)   
+  UseItem ("p_fire1", Myself)
+  DestroyItem ("p_fire1")
+  Wait(5)
+  EndCutSceneMode()
+  StartDialogueNoSet(Player1)
+END
+
+// M3 EVIL VICTORY
+IF
+Global("P_DuskM3EVIL","GLOBAL",1)
+CombatCounter(0) 
+!See([ENEMY])
+//Dead("P_Alabar")
+Dead("P_Dusk")
+PartyHasItem("p_wsboot")
+AreaCheck("AR1904")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("P_DuskM3EVIL","GLOBAL",2)
+SetGlobal("P_DuskM3EVIL_DUSK_DIED","GLOBAL",1)
+CreateCreature("p_alaba2",[1006.872],1)
+ActionOverride(Player1,MoveToPoint([936.781]))
+//ActionOverride(Player1,Wait(3))
+ActionOverride(Player1,StartDialogNoSet("p_alaba2"))
+END
+
+IF
+Global("P_DuskM3EVIL","GLOBAL",1)
+CombatCounter(0) 
+!See([ENEMY])
+//Dead("P_Alabar")
+PartyHasItem("p_wsboot")
+!Dead("P_Dusk")
+AreaCheck("AR1904")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("P_DuskM3EVIL","GLOBAL",2)
+SetGlobal("P_DuskM3EVIL_DUSK_ALIVE","GLOBAL",1)
+CreateCreature("p_alaba2",[1006.872],1)
+ActionOverride(Player1,MoveToPoint([930.770]))
+ActionOverride(Player1,Wait(3))
+ActionOverride("P_Dusk",MoveToPoint([999.785]))
+//ActionOverride("P_Dusk",Wait(3))
+ActionOverride(Myself,StartDialogNoSet("p_alaba2"))
+END
+
+// M3 EVIL VICTORY -> Conversación después de END_MAT
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global("P_DanctianAppear","GLOBAL",1)
+THEN
+RESPONSE #100
+  StartCutSceneMode()
+  Wait(3) 
+  SetGlobal("P_DanctianAppear","GLOBAL",2)
+  StartDialogueNoSet(Player1)
+END
+
+
+
+// M3 GOOD BELLFAME CALL
+IF
+Global("P_DuskM3GOOD_OT_RING","GLOBAL",1)
+CombatCounter(0) 
+!See([ENEMY])
+AreaCheck("AR1904")
+PartyHasItem ("p_belrng")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("P_DuskM3GOOD_OT_RING","GLOBAL",2)
+SetGlobal ("P_DuskMatMission2","GLOBAL",8)
+CreateCreatureObjectDoor("p_bell2","p_dusk",0,0,0)
+Wait(6)
+EndCutSceneMode()
+StartDialogueNoSet(Player1)
+END
+
+IF
+Global("P_DuskM3GOOD_OT_RING","GLOBAL",3)
+CombatCounter(0) 
+!See([ENEMY])
+AreaCheck("AR1904")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("P_DuskM3GOOD_OT_RING","GLOBAL",4)
+SetGlobal ("P_DuskMatMission2","GLOBAL",8)
+Wait(2)
+EndCutSceneMode()
+StartDialogueNoSet(Player1)
+END
+
+// M3 GOOD LLAMADO DEL ORBET
+IF
+Global("P_DuskM3LLAMA_ORBET","GLOBAL",1)
+CombatCounter(0) 
+!See([ENEMY])
+AreaCheck("AR1904")
+PartyHasItem ("p_orbet1")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("P_DuskM3LLAMA_ORBET","GLOBAL",2)
+DestroyItem ("p_orbet1")
+CreateCreatureObjectDoor("p_kayl2","p_dusk",0,0,0)
+CreateCreatureObjectDoor("p_falo2","p_dusk",0,0,0)
+CreateCreatureObjectDoor("p_coc2","p_dusk",0,0,0)
+CreateCreatureObjectDoor("p_cufat2","p_dusk",0,0,0)
+CreateCreatureObjectDoor("p_zibe2","p_dusk",0,0,0)
+Wait(6)
+EndCutSceneMode()
+StartDialogueNoSet(Player1)
+END
+
+// M3 GOOD VICTORY
+// Este bloque al igual que el EVIL, aparecerá en el script del AR1904 ya que al morir Dusk, no se tiene en cuenta su script. Por eso va al área
+IF
+Global("P_DuskM3GOOD","GLOBAL",1)
+CombatCounter(0) 
+!See([ENEMY])
+//Dead("P_Alabar")
+Dead("P_Dusk")
+PartyHasItem("p_wsboot")
+AreaCheck("AR1904")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("P_DuskM3GOOD","GLOBAL",2)
+SetGlobal("P_DuskM3GOOD_DUSK_DIED","GLOBAL",1)
+CreateCreature("p_alaba2",[1006.872],1)
+ActionOverride(Player1,MoveToPoint([936.781]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player1,StartDialogNoSet("p_alaba2"))
+END
+
+IF
+Global("P_DuskM3GOOD","GLOBAL",1)
+CombatCounter(0) 
+!See([ENEMY])
+//Dead("P_Alabar")
+PartyHasItem("p_wsboot")
+!Dead("P_Dusk")
+AreaCheck("AR1904")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("P_DuskM3GOOD","GLOBAL",2)
+SetGlobal("P_DuskM3GOOD_DUSK_ALIVE","GLOBAL",1)
+CreateCreature("p_alaba2",[1006.872],1)
+ActionOverride(Player1,MoveToPoint([930.770]))
+ActionOverride(Player1,Wait(1))
+ActionOverride("P_Dusk",MoveToPoint([999.785]))
+ActionOverride("P_Dusk",Wait(1))
+ActionOverride(Myself,StartDialogNoSet("p_alaba2"))
+END
+
+/////////// FIN M3
+// Global("P_DuskMatMission3","GLOBAL",9)
+
+
+
+////////////////////
+// Aparición del hechicero VALATAR (GOOD PATH)
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global("P_DuskMatMission3","GLOBAL",3)
+Global ("P_DUSK_IS_GOOD","GLOBAL",1)
+Global ("P_DUSK_VALATA_ENC1","GLOBAL",0)
+AreaCheck("AR1900")
+THEN
+RESPONSE #100
+  Wait(2)
+  StartCutSceneMode()
+  Wait(2)  
+  CreateCreatureObjectDoor("p_valata","p_dusk",0,0,0) 
+  SetGlobal ("P_DUSK_VALATA_ENC1","GLOBAL",1)  
+  Wait(5)
+  EndCutSceneMode()
+  StartDialogueNoSet(Player1)
+END
+
+// No convoco al demonio aquí, se llama del bloque de evil
+// Conversación con CHARNAME después de vencer al DEMONIO (GOOD)
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global("P_DUSK_IS_GOOD","GLOBAL",1)
+PartyHasItem("p_demhe")
+PartyHasItem("p_swgoo1")
+Global ("P_Dusk_Valata_Demon","GLOBAL",2)
+THEN
+RESPONSE #100
+  SetGlobal ("P_Dusk_Valata_Demon","GLOBAL",3)  
+  StartDialogueNoSet(Player1)
+END
+
+// Mejora de la espada esmeralda y +1 WIS (GOOD)
+IF
+InParty(Myself)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global("P_DUSK_IS_GOOD","GLOBAL",1)
+Global ("P_Dusk_Valata_Demon_FORGE","GLOBAL",1)
+THEN
+RESPONSE #100
+  StartCutSceneMode()
+  SetGlobal ("P_Dusk_Valata_Demon_FORGE","GLOBAL",2)
+  DestroyItem ("p_swgoo1")
+  DestroyItem ("p_demhe")
+  CreateItem ("p_wis1",1,1,0)   
+  UseItem ("p_wis1", Myself)
+  DestroyItem ("p_wis1")
+  Wait(3)
+  EndCutSceneMode()
+  StartDialogueNoSet(Player1)
+END
+
+// MISION FINAL
+
+IF
+InParty(Myself)
+Global("P_Dusk_T13","GLOBAL",3) 
+Global("P_DuskMatMission3","GLOBAL",10)
+Global("P_Dusk_FINAL_MISION_TRIGGER","GLOBAL",0)
+THEN
+RESPONSE #100
+  SetGlobal("P_Dusk_FINAL_MISION_TRIGGER","GLOBAL",1)
+END
+
+
+
+
+
+
+///////////////
+// Versión AMISTAD - DLG MUSIC (DUSK NEUTRAL)
+IF
+InParty(Myself)
+
+//!Global("P_DuskRomanceActive","GLOBAL",1)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)
+OR(3)                                    
+Global("P_DuskTalk","GLOBAL",2)
+Global("P_Dusk_T2","GLOBAL",2)
+Global("P_Dusk_T3","GLOBAL",2)
+THEN
+RESPONSE #100
+PlaySong(2223)
+//PlaySound("P_DuskN")
+StartDialogueNoSet(Player1)
+END
+
+// Versión AMISTAD - DLG MUSIC (DUSK GOOD)
+IF
+InParty(Myself)
+Global ("P_DUSK_IS_GOOD","GLOBAL",1)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)
+OR(9)                                    
+Global("P_Dusk_T4","GLOBAL",2)
+Global("P_Dusk_T5","GLOBAL",2)
+Global("P_Dusk_T6","GLOBAL",2)
+Global("P_Dusk_T7","GLOBAL",2)
+Global("P_Dusk_T8","GLOBAL",2)
+Global("P_Dusk_T9","GLOBAL",2)
+Global("P_Dusk_T10","GLOBAL",2)
+Global("P_Dusk_T11","GLOBAL",2)
+Global("P_Dusk_T12","GLOBAL",2)
+THEN
+RESPONSE #100
+PlaySong(2222)
+//PlaySound("P_DuskG")
+StartDialogueNoSet(Player1)
+END
+
+// Versión AMISTAD - DLG MUSIC (DUSK EVIL)
+IF
+InParty(Myself)
+
+Global ("P_DUSK_IS_EVIL","GLOBAL",1)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)
+OR(9)                                    
+Global("P_Dusk_T4","GLOBAL",2)
+Global("P_Dusk_T5","GLOBAL",2)
+Global("P_Dusk_T6","GLOBAL",2)
+Global("P_Dusk_T7","GLOBAL",2)
+Global("P_Dusk_T8","GLOBAL",2)
+Global("P_Dusk_T9","GLOBAL",2)
+Global("P_Dusk_T10","GLOBAL",2)
+Global("P_Dusk_T11","GLOBAL",2)
+Global("P_Dusk_T12","GLOBAL",2)
+THEN
+RESPONSE #100
+PlaySong (2220)
+//PlaySound ("P_DuskE")
+StartDialogueNoSet(Player1)
+END
+
+// DLG FINAL MUSIC (DUSK GOOD and EVIL)
+IF
+InParty(Myself)
+
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)
+OR(1)                                    
+Global("P_Dusk_T13","GLOBAL",2)
+THEN
+RESPONSE #100
+PlaySong (2221)
+//PlaySound ("P_DuskF")
+StartDialogueNoSet(Player1)
+END
+
+
+// FINAL MISSION DUSK GOOD
+IF
+InParty(Myself)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("P_DuskDemoleMISSION","GLOBAL",4)
+Global("P_DuskArrivingAR1506","GLOBAL",0)
+AreaCheck("AR1506")
+THEN
+RESPONSE #100
+SetGlobal("P_DuskArrivingAR1506","GLOBAL",1)
+Wait(8)
+StartDialogueNoSet(Player1)
+END
+
+// FINAL MISSION DUSK EVIL
+IF
+InParty(Myself)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("P_DuskArrivingAR1506","GLOBAL",0)
+AreaCheck("AR1506")
+OR (2)
+Global("P_DuskDanctialMISSION","GLOBAL",3)
+Global("P_DuskDanctialMISSION","GLOBAL",4)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskArrivingAR1506","GLOBAL",1)
+Wait(8) 
+StartDialogueNoSet(Player1)
+END
+
+// Dusk Walk Celine FM - GOOD
+IF
+Global("P_DuskWalkFM","GLOBAL",0)
+Global("P_DuskDemoleMISSION","GLOBAL",5)
+AreaCheck ("AR2601")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+MoveToPoint([834.239])
+SetGlobal("P_DuskWalkFM","GLOBAL",1)
+Face(5)
+Wait(1)
+EndCutSceneMode()
+Continue()
+END
+
+// FINAL MISSION DUSK EVIL
+IF
+InParty(Myself)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("P_CelineSpawn","GLOBAL",3)
+Global("P_DuskLeavingAR1509","GLOBAL",0)
+AreaCheck("AR1509")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("P_DuskLeavingAR1509","GLOBAL",1)
+Wait(3)
+EndCutSceneMode()
+Continue()
+StartDialogueNoSet(Player1)
+END
+
+// Dusk Walk Celine FM - EVIL
+IF
+Global("P_DuskWalkFM","GLOBAL",0)
+Global("P_DuskDanctialMISSION","GLOBAL",5)
+AreaCheck ("AR1509")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+MoveToPoint([688.436])
+SetGlobal("P_DuskWalkFM","GLOBAL",1)
+Face(5)
+Wait(1)
+EndCutSceneMode()
+Continue()
+END
+
+// FINAL MISSION DUSK GOOD
+IF
+InParty(Myself)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("P_CelineSpawn","GLOBAL",3)
+Global("P_DuskLeavingAR2601","GLOBAL",0)
+AreaCheck("AR2601")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("P_DuskLeavingAR2601","GLOBAL",1)
+Wait(3)
+EndCutSceneMode()
+Continue()
+StartDialogueNoSet(Player1)
+END
+
+// Dusk has been in the Underdark -> flag created for EET version
+IF
+InParty(Myself) 
+Global("P_Dusk_in_Underdark","GLOBAL",0)	
+AreaCheck("AR2100")
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_in_Underdark","GLOBAL",1)
+END			
+
+
+
+// ***************************************************************
+
+// ***************************************************************
+
+// ***************************************************************
+
+
+// FURIA por muerte de Jaheira "P_DuskJaheira1"
+IF
+  InParty("Jaheira") 
+  !Dead("Jaheira")
+  Global("P_DuskFuryJaheira","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryJaheira","GLOBAL",0)
+END
+
+IF
+  IfValidForPartyDialogue(Myself)
+  Global("P_DuskFuryJaheira","GLOBAL",0)
+  Global("P_DuskJaheira1","GLOBAL",1)
+  Dead("Jaheira")
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryJaheira","GLOBAL",1)
+    DisplayStringHead(Myself,@400447)
+	CreateItem ("p_fury",1,1,0)
+	UseItem ("p_fury", Myself)
+	Attack(LastAttackerOf("Jaheira"))
+END
+
+// FURIA por muerte de Minsc "P_DuskMinsc1"
+IF
+  InParty("Minsc") 
+  !Dead("Minsc")
+  Global("P_DuskFuryMinsc","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryMinsc","GLOBAL",0)
+END
+
+IF
+  IfValidForPartyDialogue(Myself)
+  Global("P_DuskFuryMinsc","GLOBAL",0)
+  Dead("Minsc")
+  OR (2)
+  Global("P_DuskMinsc1","GLOBAL",1)
+  Global("P_DuskMinsc1","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryMinsc","GLOBAL",1)
+    DisplayStringHead(Myself,@400448)
+	CreateItem ("p_fury",1,1,0)
+	UseItem ("p_fury", Myself)
+	Attack(LastAttackerOf("Minsc"))
+END
+
+// FURIA por muerte de Aerie "P_DuskAerie1"
+IF
+  InParty("Aerie") 
+  !Dead("Aerie")
+  Global("P_DuskFuryAerie","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryAerie","GLOBAL",0)
+END
+
+IF
+  IfValidForPartyDialogue(Myself)
+  Global("P_DuskFuryAerie","GLOBAL",0)
+  Dead("Aerie")
+  OR (2)
+  Global("P_DuskAerie1GOOD","GLOBAL",1)
+  Global("P_DuskAerie1EVIL","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryAerie","GLOBAL",1)
+    DisplayStringHead(Myself,@400449)
+	CreateItem ("p_fury",1,1,0)
+	UseItem ("p_fury", Myself)
+	Attack(LastAttackerOf("Aerie"))
+END
+
+
+// FURIA por muerte de Imoen2 "P_DuskImoen1"
+IF
+  InParty("Imoen2") 
+  !Dead("Imoen2")
+  Global("P_DuskFuryImoen","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryImoen","GLOBAL",0)
+END
+
+IF
+  IfValidForPartyDialogue(Myself)
+  Global("P_DuskFuryImoen","GLOBAL",0)
+  Dead("Imoen2")
+  OR (2)
+  Global("P_DuskImoen1","GLOBAL",1)
+  Global("P_DuskImoen1","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryImoen","GLOBAL",1)
+    DisplayStringHead(Myself,@400450)
+	CreateItem ("p_fury",1,1,0)
+	UseItem ("p_fury", Myself)
+	Attack(LastAttackerOf("Imoen2"))
+END
+
+// FURIA por muerte de Korgan "P_DuskKorgan1"
+IF
+  InParty("Korgan") 
+  !Dead("Korgan")
+  Global("P_DuskFuryKorgan","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryKorgan","GLOBAL",0)
+END
+
+IF
+  IfValidForPartyDialogue(Myself)
+  Global("P_DuskFuryKorgan","GLOBAL",0)
+  Dead("Korgan")
+  Global("P_DuskKorgan1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryKorgan","GLOBAL",1)
+    DisplayStringHead(Myself,@400451)
+	CreateItem ("p_fury",1,1,0)
+	UseItem ("p_fury", Myself)
+	Attack(LastAttackerOf("Korgan"))
+END
+
+// FURIA por muerte de Nalia "P_DuskNalia"
+IF
+  InParty("Nalia") 
+  !Dead("Nalia")
+  Global("P_DuskFuryNalia","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryNalia","GLOBAL",0)
+END
+
+IF
+  IfValidForPartyDialogue(Myself)
+  Global("P_DuskFuryNalia","GLOBAL",0)
+  Dead("Nalia")
+  Global("P_DuskNalia1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryNalia","GLOBAL",1)
+    DisplayStringHead(Myself,@400452)
+	CreateItem ("p_fury",1,1,0)
+	UseItem ("p_fury", Myself)
+	Attack(LastAttackerOf("Nalia"))
+END
+
+// FURIA por muerte de Fall
+IF
+  InParty("P_Fall") 
+  !Dead("P_Fall")
+  Global("P_DuskFuryP_Fall","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryP_Fall","GLOBAL",0)
+END
+
+IF
+  IfValidForPartyDialogue(Myself)
+  Global("P_DuskFuryP_Fall","GLOBAL",0)
+  Dead("P_Fall")
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryP_Fall","GLOBAL",1)
+    DisplayStringHead(Myself,@700043)
+	CreateItem ("p_fury",1,1,0)
+	UseItem ("p_fury", Myself)
+	Attack(LastAttackerOf("P_Fall"))
+END
+
+
+// FURIA por muerte de Valygar "P_DuskFuryValygar"
+IF
+  InParty("Valygar") 
+  !Dead("Valygar")
+  Global("P_DuskFuryValygar","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryValygar","GLOBAL",0)
+END
+
+IF
+  IfValidForPartyDialogue(Myself)
+  Global("P_DuskFuryValygar","GLOBAL",0)
+  Dead("Valygar")
+  OR (3)
+  Global("P_DuskValygar1","GLOBAL",2)
+  Global("P_DuskValygar2","GLOBAL",2)
+  Global("P_DuskValygar3","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskFuryValygar","GLOBAL",1)
+    DisplayStringHead(Myself,@400453)
+	CreateItem ("p_fury",1,1,0)
+	UseItem ("p_fury", Myself)
+	Attack(LastAttackerOf("Valygar"))
+END
+
+/*IF
+ Global("P_DuskKitTest","GLOBAL",1)
+THEN
+  RESPONSE #100
+	AddKit (WIZARDSLAYER)
+	//AddKit (ASSASIN)
+    SetGlobal("P_DuskKitTest","GLOBAL",2)
+END*/
+
+
+// EE Code related
+// Dorn
+IF
+//Global("OHD_anomenkeldorninterject","GLOBAL",1)
+Global("P_DUSK_IS_EVIL","GLOBAL",0)
+//Global("P_Dusk_DornEnemyByPass","GLOBAL",0)
+InMyArea("Dorn")
+AreaCheck("AR0900")
+Global("P_Dusk_DornEnemy","GLOBAL",0)
+GlobalLT("OHD_WEDDING_START","GLOBAL",1)
+OR(2)
+Allegiance("Keldorn",ENEMY)
+Allegiance("Anomen",ENEMY)
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_DornEnemy","GLOBAL",1)
+ChangeAIScript("",DEFAULT)
+LeaveParty()
+Enemy()
+AttackReevaluate("Dorn",30)
+END
+
+IF
+//Global("P_Dusk_DornEnemyByPass","GLOBAL",0)
+Global("OHD_PLOT","GLOBAL",1)
+Global("P_DUSK_IS_EVIL","GLOBAL",0)
+InParty("Dorn")
+AreaCheck("AR0900")
+Global("P_Dusk_DornEnemy","GLOBAL",0)
+GlobalLT("OHD_WEDDING_START","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_DornEnemy","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF
+GlobalLT("OHD_WEDDING_START","GLOBAL",1)
+Global("P_Dusk_DornEnemy","GLOBAL",2)
+InParty(Myself)
+AreaCheck("AR0900")
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_DornEnemy","GLOBAL",3)
+ChangeAIScript("",DEFAULT)
+LeaveParty()
+Enemy()
+AttackReevaluate("Dorn",30)
+END
+
+IF
+//Global("P_Dusk_DornEnemyByPass","GLOBAL",0)
+Global("P_Dusk_DornEnemy","GLOBAL",2)
+!InParty(Myself)
+AreaCheck("AR0900")
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_DornEnemy","GLOBAL",3)
+ChangeAIScript("",DEFAULT)
+Enemy()
+AttackReevaluate("Dorn",30)
+END
+
+/*IF
+Global("P_Dusk_DornEnemy","GLOBAL",1)
+Global("P_Dusk_DornEnemyByPass","GLOBAL",0)
+!InParty(Myself)
+GlobalGT("OHD_WEDDING_START","GLOBAL",0)
+//AreaCheck("AR0900")
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_DornEnemy","GLOBAL",0)
+SetGlobal("P_Dusk_DornEnemyByPass","GLOBAL",1)
+END*/
+
+
+IF
+Global("OHD_GORGE_NTRJEX","OH5100",1)
+Global("P_DUSK_OHD5100","GLOBAL",0)
+AreaCheck("OH5100")
+THEN
+RESPONSE #100
+SetGlobal("P_DUSK_OHD5100","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+
+IF
+Global("P_DUSK_OHD7000","GLOBAL",0)
+Global("P_DUSK_IS_EVIL","GLOBAL",0)
+Global("OHH_hexmove","OH7000",1)
+!See([ENEMY])
+See("Hexxat")
+Dead("OHHFAK")
+AreaCheck("OH7000")
+THEN
+RESPONSE #100
+SetGlobal("P_DUSK_OHD7000","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+// Atacan a aliados de Dusk (NEUTRAL/GOOD)
+// Atacar a un ser querido
+IF
+  IsValidForPartyDialog(Myself)
+  Global("P_DuskAlliesAttacked","GLOBAL",0)
+  Global("P_DUSK_IS_EVIL","GLOBAL",0)
+  AreaCheck("P_AR14")
+  OR(6)
+    Allegiance("p_matut",ENEMY)
+    Allegiance("p_michel",ENEMY)
+    Allegiance("p_demole",ENEMY)
+    Dead("p_matut")
+    Dead("p_michel")
+    Dead("p_demole")
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskAlliesAttacked","GLOBAL",1)
+    DisplayStringHead(Myself,@400454)
+    LeaveParty()
+    Enemy()
+END
+
+IF
+  IsValidForPartyDialog(Myself)
+  Global("P_DuskAlliesAttacked2","GLOBAL",0)
+  Global("P_DUSK_IS_EVIL","GLOBAL",0)
+  AreaCheck("AR0903")
+  OR(8)
+    Allegiance("p_falon",ENEMY)
+    Allegiance("p_cufati",ENEMY)
+    Allegiance("p_coco",ENEMY)
+    Allegiance("p_ziben",ENEMY)
+    Dead("p_falon")
+    Dead("p_cufati")
+    Dead("p_coco")
+    Dead("p_ziben")
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskAlliesAttacked2","GLOBAL",1)
+    DisplayStringHead(Myself,@400454)
+    LeaveParty()
+    Enemy()
+END

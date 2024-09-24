@@ -1,0 +1,87 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200279)
+END
+
+IF
+AreaCheck("P_F11B")
+Global("P_ArthromTalk1","GLOBAL",0)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),7)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_ICE_STORM)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #10
+    ForceSpell(Player1,WIZARD_WEB)
+    ForceSpell(Player1,WIZARD_ICE_STORM)
+  RESPONSE #10
+    ForceSpell(Player2,WIZARD_WEB)
+    ForceSpell(Player2,WIZARD_CONE_OF_COLD)
+  RESPONSE #10
+    ForceSpell(Player3,WIZARD_WEB)
+    ForceSpell(Player3,SILVER_DRAGON_BREATH_COLD)
+  RESPONSE #10
+    ForceSpell(Player4,WIZARD_WEB)
+    ForceSpell(Player4,TRAP_FROST)
+  RESPONSE #10
+    ForceSpell(Player5,WIZARD_WEB)
+    ForceSpell(Player5,WIZARD_FIRE_SHIELD_BLUE)
+  RESPONSE #10
+    ForceSpell(Player6,WIZARD_WEB)
+    ForceSpell(Player6,TRAP_ARROW_ICE)
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #10
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_CONE_OF_COLD)
+  RESPONSE #10
+    ForceSpell(SecondNearestEnemyOf(Myself),WIZARD_ICE_STORM)
+  RESPONSE #10
+    ForceSpell(ThirdNearestEnemyOf(Myself),WIZARD_CONE_OF_COLD)
+  RESPONSE #10
+    ForceSpell(FourthNearestEnemyOf(Myself),TRAP_FROST)
+  RESPONSE #10
+    ForceSpell(FifthNearestEnemyOf(Myself),MEPHIT_ICE_SHARD)
+  RESPONSE #10
+    ForceSpell(SixthNearestEnemyOf(Myself),TRAP_ARROW_ICE)
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  ActionListEmpty()
+  Global ("P_ArthromNearestDead1","GLOBAL",0)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  ActionListEmpty()
+  Global ("P_ArthromNearestDead1","GLOBAL",0)
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END

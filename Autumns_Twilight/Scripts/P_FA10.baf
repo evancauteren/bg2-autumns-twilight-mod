@@ -1,0 +1,60 @@
+IF
+Global("P_ChoF10Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_CHO",[637.476],SW)
+SetGlobal("P_ChoF10Spawn","GLOBAL",1)
+END
+
+IF
+Global("P_VreshF10Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_VRESH",[584.472],SW)
+SetGlobal("P_VreshF10Spawn","GLOBAL",1)
+END
+
+IF
+Global("P_SerpentsF10Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("p_fboa1",[862.837],NW)
+CreateCreature("p_fser1",[895.810],NW)
+CreateCreature("p_fboa1",[946.786],NW)
+CreateCreature("p_fser1",[912.871],NW)
+CreateCreature("p_fboa1",[948.835],NW)
+CreateCreature("p_fser1",[988.803],NW)
+CreateCreature("p_fboa1",[978.864],NW)
+CreateCreature("p_fser1",[1017.837],NW)
+SetGlobal("P_SerpentsF10Spawn","GLOBAL",1)
+END
+
+
+IF
+Global ("P_FallM4F10_SpawnEnemies","GLOBAL",0)
+OR(1)
+Allegiance ("p_vresh",ENEMY)
+THEN
+RESPONSE #100
+SmallWait (1)
+CreateVisualEffect("SPCLOUD3",[482.778])  
+CreateVisualEffect("SPCLOUD3",[681.591])  
+CreateVisualEffect("SPCLOUD3",[861.453])
+CreateVisualEffect("SPCLOUD3",[546.642]) 
+CreateVisualEffect("SPCLOUD3",[331.489])  
+CreateVisualEffect("SPCLOUD3",[450.331]) 
+CreateVisualEffect("SPCLOUD3",[666.452])
+CreateVisualEffect("SPCLOUD3",[785.755]) 
+// CreateVisualEffect("SPCLOUD3",[954.316]) 
+Wait (1)
+CreateCreature("p_fyuac1",[482.778],4)  
+CreateCreature("p_fyuac2",[681.591],4)  
+CreateCreature("p_fyuac2",[861.453],4)
+CreateCreature("p_fyuac1",[546.642],4) 
+CreateCreature("p_fyuac1",[331.489],4)  
+CreateCreature("p_fyuac1",[450.331],4) 
+CreateCreature("p_fyuac1",[666.452],4)
+CreateCreature("p_fyuac1",[785.755],4) 
+SetGlobal("P_FallM4F10_SpawnEnemies","GLOBAL",1)
+Continue()
+END

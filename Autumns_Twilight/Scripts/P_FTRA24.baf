@@ -1,0 +1,46 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  Global("P_Fall_Final_Mission","GLOBAL",1)
+  //InParty("P_Fall")
+THEN
+  RESPONSE #100
+    SaveGame(0)
+    DisplayString(Myself,@200148)  // ~Al acercarte al umbral no puedes observar más que oscuridad. Sin darte cuenta, tú y los demás son atrapados en una extraña negrura. El vacío te arrastra y cuando abres los ojos te percatas que ya no te encuentras a salvo...~
+    StartCutSceneMode()
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    Wait(4)
+    FadeToColor([20.0],0)
+    Wait(1)
+    PlaySound("PORTAL2")
+    Wait(2)
+    ActionOverride(Player1,LeaveAreaLUAPanic("P_FAR5","",[1873.1160],NW))
+    ActionOverride(Player1,LeaveAreaLUA("P_FAR5","",[1873.1160],NW))
+    ActionOverride(Player2,LeaveAreaLUA("P_FAR5","",[1832.1146],NW))
+    ActionOverride(Player3,LeaveAreaLUA("P_FAR5","",[1819.1178],NW))
+    ActionOverride(Player4,LeaveAreaLUA("P_FAR5","",[1783.1167],NW))
+    ActionOverride(Player5,LeaveAreaLUA("P_FAR5","",[1764.1208],NW))
+    ActionOverride(Player6,LeaveAreaLUA("P_FAR5","",[1737.1183],NW))
+    MultiPlayerSync()
+    SetGlobal("P_Fall_Final_Mission","GLOBAL",2)
+    EndCutSceneMode()
+    FadeFromColor([20.0],0)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  !Global("P_Fall_Final_Mission","GLOBAL",1) 
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@200149)  // ~El portal ya no tiene más uso para ti.~
+END
+
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,14702)  // ~Estáis demasiado lejos como para poder usarlo.~
+END
+

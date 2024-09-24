@@ -1,0 +1,157 @@
+IF
+Global("p_huronSpawn","GLOBAL",0)
+Global("P_DuskMatMission3","GLOBAL",3)
+THEN
+RESPONSE #100
+CreateCreature("p_huron",[1006.872],1)  
+SetGlobal("p_huronSpawn","GLOBAL",1)
+Continue()
+END
+
+IF
+Global("p_alabarSpawn","GLOBAL",0)
+Global("P_DuskMatMission3","GLOBAL",6)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+CreateCreature("p_alabar",[925.601],1)  
+SetGlobal("p_alabarSpawn","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END
+
+IF
+Global("P_DuskMatMission3","GLOBAL",8)
+Global("p_OrcGroupSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+CreateCreature("p_tongas",[902.525],1)  
+CreateCreature("p_bob",[714.824],14)
+CreateCreature("p_mike",[797.746],14)  
+CreateCreature("p_toxsan",[687.742],15)
+CreateCreature("p_komar",[1139.709],3)  
+CreateCreature("p_kocha",[1245.832],4)
+CreateCreature("p_xeb",[1204.964],5)  
+CreateCreature("p_serra",[777.979],10)
+SetGlobal("p_OrcGroupSpawn","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END
+
+// DUSK EVIL MUERE
+IF
+Global("P_DuskM3EVIL","GLOBAL",1)
+CombatCounter(0) 
+!See([ENEMY])
+Dead("P_Dusk")
+PartyHasItem("p_wsboot")
+AreaCheck("AR1904")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(3)
+SetGlobal("P_DuskM3EVIL","GLOBAL",2)
+SetGlobal("P_DuskM3EVIL_DUSK_DIED","GLOBAL",1)
+CreateCreature("p_alaba2",[1006.872],1)
+ActionOverride(Player1,MoveToPoint([1000.868]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player1,StartDialogNoSet("p_alaba2"))
+Wait(1)
+EndCutSceneMode()
+Continue()
+END
+
+
+// DUSK GOOD MUERE
+IF
+Global("P_DuskM3GOOD","GLOBAL",1)
+CombatCounter(0) 
+!See([ENEMY])
+//Dead("P_Alabar")
+Dead("P_Dusk")
+PartyHasItem("p_wsboot")
+AreaCheck("AR1904")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(3)
+SetGlobal("P_DuskM3GOOD","GLOBAL",2)
+SetGlobal("P_DuskM3GOOD_DUSK_DIED","GLOBAL",1)
+CreateCreature("p_alaba2",[1006.872],1)
+ActionOverride(Player1,MoveToPoint([1000.868]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player1,StartDialogNoSet("p_alaba2"))
+Wait(1)
+EndCutSceneMode()
+Continue()
+END
+
+// Aparición de MICHEL
+IF
+Global("P_DuskMatMission3","GLOBAL",9)
+Global("P_DuskM3LLAMA_ORBET","GLOBAL",3)
+//PartyHasItem("p_restos")
+AreaCheck("AR1904")
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(1)
+SetGlobal("P_DuskM3LLAMA_ORBET","GLOBAL",4)
+CreateCreature("p_michel",[1000.865],1)
+//CreateCreature("p_demole",[1010.860],1)
+ActionOverride(Player1,MoveToPoint([963.814]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player1,StartDialogNoSet("p_michel"))
+Wait(1)
+EndCutSceneMode()
+Continue()
+END
+
+
+
+IF
+  Global("P_DuskM3LLAMA_ORBET","GLOBAL",5)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal("P_DuskM3LLAMA_ORBET","GLOBAL",6)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+	CreateVisualEffect("SPHEALIN",[1076.861])
+	CreateVisualEffect("SPHEALIN",[869.868])
+	CreateVisualEffect("SPHEALIN",[994.941])
+	CreateVisualEffect("SPHEALIN",[988.740])
+	Wait(1)
+    ActionOverride("p_michel",DestroySelf())
+	ActionOverride("P_KAYL2",DestroySelf())
+	ActionOverride("P_COC2",DestroySelf())
+	ActionOverride("P_CUFAT2",DestroySelf())
+	ActionOverride("P_ZIBE2",DestroySelf())
+	ActionOverride("P_FALO2",DestroySelf())
+    Wait(1)
+   // LeaveAreaLUAPanic("AR0020","",[585.608],NW)
+   // LeaveAreaLUA("AR0020","",[585.608],NW)
+	ActionOverride(Player1,LeaveAreaLUA("AR0020","",[585.608],NW))
+    ActionOverride(Player2,LeaveAreaLUA("AR0020","",[552.568],NW))
+    ActionOverride(Player3,LeaveAreaLUA("AR0020","",[644.586],NW))
+    ActionOverride(Player4,LeaveAreaLUA("AR0020","",[558.532],NW))
+    ActionOverride(Player5,LeaveAreaLUA("AR0020","",[631.547],NW))
+    ActionOverride(Player6,LeaveAreaLUA("AR0020","",[598.527],NW))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END

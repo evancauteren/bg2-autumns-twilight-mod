@@ -1,0 +1,144 @@
+@0    = ~What?! Intruders. Commander Qyl'tar!~
+@1    = ~Apparently, this is another incursion into our lands. First, the disappearance of the spiders. And now this. You! I know you can understand me. Who are you and what do you seek? Your life depends on your answer.~
+@2    = ~I am <CHARNAME>, and I have come for your Queen. I need her heart to reach the Throne of Morgrath.~
+@3    = ~I am <CHARNAME> and I do not deal with monsters. Prepare to die!~
+@4    = ~The reasons don't matter to the dead...~
+@5    = ~I am <CHARNAME> and I seek no conflict. However, we are here to request an audience with your Queen, Tisiphone.~
+@6    = ~Fool! You dare to ask for our Queen's heart. You must die. Qyl'tar! Deal with them. I will warn the others.~
+@7    = ~I suspected as much. Just another group of treasure hunters. Dreach-naga will be their end! Qyl'tar, deal with them. I will warn the others.~
+@8    = ~Do you know... do you know the name of our Queen? <CHARNAME>, I am the general of Dreach-naga's forces: Cho'Nuja. Tell me, what is it you seek from our Queen?~
+@9    = ~We are trying to stop the Spider Queen, Morgrath. Your Queen is the only one who can help us.~
+@10   = ~I cannot reveal the reasons to a mere soldier. My words will be for the Queen alone.~
+@11   = ~Bah, I'm tired of all this talking. I'll kill you and steal your belongings!~
+@12   = ~It's true. This isn't what I expected. You know our enemy and you know our Queen. However, you arrive at the strangest moment. The spiders have disappeared. How can we be sure you are not allied with them?~
+@13   = ~Qyl'tar! You must not reveal anything to outsiders. But what you say is true. Do you have any proof of good faith, <CHARNAME>? I won't risk my Queen's life.~
+@14   = ~I have this Dreach-naga talisman. It was given to me by Lady Vidomina of the Arcane Enclave.~
+@15   = ~We have a common enemy, Cho'Nuja, isn't that enough?~
+@16   = ~I have no proof, General. You have only my word. So what will it be?~
+@17   = ~I'm afraid it's not enough, <CHARNAME>. As I said before: I won't risk my Queen's life. Qyl'tar, deal with them. I will warn the others.~
+@18   = ~So the Lich Witch is your ally. Everything is starting to make sense now.~
+@19   = ~Wait, Qyl'tar. I have one more question for the outsider. Tell me, <CHARNAME>. How can our Queen help you? You have come this far, and it must not have been an easy journey. Vidomina does not help just anyone, and you must possess great power. What is it you seek?~
+@20   = ~Fall, would you like to speak?~
+@21   = ~We need the blood of your Queen. It is the only way to reach Morgrath's chamber.~
+@22   = ~I cannot reveal the reasons to a mere soldier. My words will be for the Queen alone.~
+@23   = ~Then I'm afraid you won't pass, outsider. Qyl'tar, deal with them. I will warn the others.~
+@24   = ~I suspected as much. I understand Vidomina's intentions, but I assure you, you will get no help from the Queen of Dreach-naga. The only option is war. Qyl'tar, deal with them. I will warn the others.~
+@25   = ~Your face. Your attire. You are the daughter of the sorceress who attacked our Queen!~
+@26   = ~Commander Qyl'tar, deal with them. Fight bravely, my friend, for I believe these opponents are not simple adventurers. I must prepare the rest of the defenses against these invaders.~
+
+
+@27   = ~You don't know what you've caused. That attack... was the last straw for our Queen's madness. Even if you assured me that Morgrath would be defeated, my Queen would never help one who dared to harm her.~
+@28   = ~I think you know something is terribly wrong, General. The spiders have disappeared just as my mother has entered their shadowy lairs.~
+@29   = ~With Vidomina's help and <CHARNAME>, we can confront that evil.~
+@30   = ~You're not understanding, outsider. Our Queen... would never help those of your kind.~
+@31   = ~Then, would you prefer to fight? Something tells me you would avoid an unnecessary fight if possible.~
+@32   = ~There are battles that can be avoided. There are others that are inevitable. I do not long for war, I yearn for peace. But it seems an unattainable dream.~
+@33   = ~The disappearance of the spiders is nothing more than the calm before the storm. And I believe you and your friend <CHARNAME> are the start of it.~
+@34   = ~You again...~
+@35   = ~For Dreach-naga, my good friend. For Dreach-naga.~
+@36   = ~That you are here... means my commander has fallen.~
+@37   = ~First Qyl'tar and now Vreshnak. What kind of creature are you?~
+@38   = ~I am the one who will end you, monster. Your time has come!~
+@39   = ~There's no point in continuing this fight, Cho'Nuja. You know this is a battle you cannot win.~
+@40   = ~Don't underestimate me! I am the WildGuard of Dreach-naga, General of the Queen Tisiphone's reptile forces. My warriors, my comrades, will be avenged! Come on, soldier: Let's see who remains standing.~
+@41   = ~When your life is combat, you quickly discover that war itself makes no sense. But we have no other option. To fight is the only way! Peace or death: the result is the same.~
+@42   = ~Even if you are an enemy of my enemy, I cannot allow my Queen to be harmed. Come on! I am the WildGuard of Dreach-naga, general of the Queen Tisiphone's reptile forces. My warriors, my comrades, will be avenged! Soldier: Let's see who remains standing.~
+@43   = ~*cough* It can't be... your power is too great. I must... I must warn the others. You may have defeated me and taken my stone, soldier, but you will not defeat Rask'tar Krathiss. No one has ever beaten him... We'll meet in the Swamp... if you survive.~
+
+
+@44  = ~You've made it this far. *gasp* It's not over yet...~
+@45  = ~Y-you... you have Rask'tar's head... you've defeated him. It can't be... *shakes his head* It's not over yet...~
+
+@46  = ~N-no... he's made it this far...~
+@47  = ~Your Highness, don't be fooled by his appearance. His combat skills are exceptional. I have never seen anything like it. He may even be stronger than Mesothel's armies.~ ~Your Highness, don't be fooled by her appearance. Her combat skills are exceptional. I have never seen anything like it. She may even be stronger than Mesothel's armies.~
+
+@48  = ~*hiss* You've... killed my Queen.~
+@49  = ~Indirectly... you've helped the Spiders get closer to their final endeavor. Without my Queen... victory against Morgrath is no longer possible.~
+@50  = ~Why is she so important to you? Your Queen was willing to kill you.~
+@51  = ~How are you still alive? You surprise me, but I don't think you have much time left. You will die soon.~
+@52  = ~I don't have much time left, it's true. I've seen how you've destroyed what remained of my home. Now... only darkness remains.~
+@53  = ~If you are truly an enemy of Morgrath... then use our Queen's heart to defeat her. Do it... for Dreach-naga...~
+@54  = ~I was dead... by the time you defeated me. Failure at Dreach-naga means death.~
+@55  = ~It doesn't have to end like this, General. We still have to face the forces of Rachnidra. Why don't you join us? You have nothing to lose.~
+@56  = ~You're right. Facing me was a grave mistake. I suppose you have no choice but to await death.~
+@57  = ~W-why would you help me? We've been mortal enemies. I don't understand.~
+@58  = ~I never wanted to face you, Cho. I never wanted to be your enemy, but I had no choice. You can help us fight Morgrath. It's not all lost.~
+@59  = ~Now that you mention it, it's true. You tried to kill me. It makes no sense for me to help you. You must face death with honor, General. Your end is near.~
+@60  = ~*sputter* Even if I wanted to help you, I'm too wounded. Even my regenerative factor isn't working.~
+@61  = ~Only the Swamp Brine can heal such severe wounds. I believe it's in the possession of Rask'tar Krathiss. Although I'm not sure.~
+@62  = ~I'll see if I can find it, Cho. Hold on.~
+@63  = ~Is this the strange yellowish potion? Here, it's all yours.~
+@64  = ~I don't have much time left... hurry up.~
+@65  = ~*hiss* Did you get it?~
+@66  = ~Not yet, Cho. Hold on a little longer.~
+@67  = ~I found it! Here, it's all yours.~
+@68  = ~You have my gr-gratitude, <PRO_RACE>.~
+
+
+@69  = ~You've done it... you've healed me.~
+@70  = ~Forgive me, but I don't know your name.~
+@71  = ~My name is <CHARNAME>.~
+@72  = ~<CHARNAME>. You have been an enemy of Dreach-naga. You've destroyed my friends and torn the heart from my Queen.~
+@73  = ~Knowing that I might betray you, you still chose to heal me. You are... a strange creature, to say the least.~
+@74  = ~I understand that you are an ally of Vidomina. I know we must go there with my Queen's heart. I will help you.~
+@75  = ~But you must be aware of the following: The spiders will not allow us to reach the Enclave easily.~
+@76  = ~We haven't sighted any enemy spiders, Cho. I think the path is clear.~
+@77  = ~Why do you say that?~
+@78  = ~Don't be overconfident. The children of Morgrath are cruel, <CHARNAME>. But above all, they are cunning.~
+@79  = ~You have defeated the forces of Dreach-naga along the way. You have cleared the path for the Spiders to conquer the Swamp.~
+@80  = ~Take the opportunity to rest here. I assure you: the spiders will have already invaded the swamp by now.~
+@81  = ~I will be waiting for you outside the Throne, <CHARNAME>. I have a feeling that the path to the Enclave will be arduous...~
+@82  = ~Oh, great. That doesn't sound good at all.~
+@83  = ~Hmpf. The spiders are no match for my sword.~
+@84  = ~I say let them come. My axe will take care of those vermin.~
+@85  = ~Just as birds flee to shelter when they sense a great storm, so does my blood feel the foreboding. Something is coming and it is unnatural.~
+@86  = ~We have been warned of this danger, <CHARNAME>. We must prepare for what is coming.~
+@87  = ~We must not ignore his warning, <CHARNAME>. But remember that time is not on our side. Mother is in danger with every second we waste.~
+
+
+@88  = ~Not being prepared could mean the end.~
+
+@89  = ~By Rask'tar's breath! Demon Mesothel was waiting for us. It was an ambush!~
+@90  = ~<CHARNAME>, I'm sorry. I anticipated something like this, but I didn't expect them to steal the guardian stones. The Swamp... it must be infested with spiders.~
+@91  = ~It's time I tell you about our battles against Morgrath's primogenitors.~
+@92  = ~Primogenitors? They're just insects, Cho'Nuja. They are no match for us.~
+@93  = ~I'm listening.~
+@94  = ~Underestimating them could mean death, <CHARNAME>. Please, listen to what I have to say:~
+@95  = ~With our commanders and shamans, we believed that Morgrath had spawned the primogenitors who now command his army. Perhaps Mesothel was the first of all.~
+@96  = ~After several skirmishes and hard battles, there was a time when I managed to destroy Mesothel. His eye was completely shattered by my claws and his limbs burned by the fire from my Dreach-naga shield.~
+@97  = ~However... a few days later, Mesothel reappeared. Completely unharmed. His corpse was still rotting in our ancestors' halls, and there was Mesothel with his great eye, staring at me.~
+@98  = ~Spiders cannot die. At least not permanently.~
+@99  = ~What? That's impossible. How are we supposed to defeat something like that?~
+@100 = ~And what are we supposed to do against such power?~
+@101 = ~We believe that the source of their power comes from their mother. Morgrath. However, we have never been able to reach her. In fact, we have never seen her.~
+@102 = ~Although... recently, the spiders built a statue in her honor where once was the entrance to our great Nation. A mockery. A provocation.~
+@103 = ~Have you seen it? Its dimension is enormous, though I'm not sure it represents her true size.~
+@104 = ~I've seen it. It doesn't impress me. It's just a statue.~
+@105 = ~I've seen it. It's a horrible figure.~
+@106 = ~You are brave, <CHARNAME>. You would have made a great soldier under my command. Or perhaps you would have even become a General. *sigh* That's enough. Let's go, we need to find the Weaver who has my guardian stone.~
+@107 = ~Are you attacking me? You saved me, only to destroy me? I can't understand it... I will leave and not confront you only because honor dictates it. But I hope our paths never cross again!~
+
+
+@108 = ~<CHARNAME>, the war is not over. Let me accompany you.~
+@109 = ~You know what I'm capable of. We've come this far, and Dreach-naga must still be avenged.~
+@110 = ~Cho, you are brave. But I don't want to risk your life. Stay here, at the Enclave. I will avenge your people. I promise.~
+@111 = ~Are you sure, Cho? The road is dangerous. You could die, and I wouldn't be able to bring you back.~
+@112 = ~I have no place in my company, Cho. I can't abandon any companion in this Abyss.~
+@113 = ~Hmpf. As you say. I've seen your strength and what you're capable of. I just... regret missing the battle. May the strength of Dreach-naga be with you, my good friend.~
+@114 = ~I do not fear death, as I have spent my life preparing to receive it. Besides, I won't take the place of any of your companions. It will be as it was from the Throne to here. I will stand by your side, whatever happens.~
+@115 = ~I won't take the place of any of your companions, <CHARNAME>. It will be as it was from the Throne to here. What do you say?~
+@116 = ~Very well, Cho. I count on you in the coming battles.~
+@117 = ~No, Cho. I don't want to risk your life in this. I will handle everything.~
+@118 = ~Together, we will make Rachnidra fall forever.~
+@119 = ~I'm ready, <CHARNAME>. When you leave the Enclave and head to war, I will go with you.~
+@120 = ~I will do as you have asked, <CHARNAME>, and remain here at the Enclave. Though I regret missing the battles.~
+
+
+@121 = ~My Lady, I have heard that you are capable of reviving the one who gave their life against Skel'Tharant. How is this possible?~
+@122 = ~My Lady, I have heard that you are capable of reviving the one who gave their life against Skel'Tharant. How is this possible?~
+@123 = ~Can you bring back the warriors of Dreach-naga? I believe they could be useful in the final battle against Morgrath.~
+@124 = ~I respect your decision, <CHARNAME>. But I have fought by your side from the Rask'tar Swamp to the gates of the Enclave. We have bled together, and your ambition is not a mark of honor. Your power was already enviable without hiding behind a trident or a fervent desire for gold.~
+@125 = ~I forgive your choice... but I will not be there for the final battle. I will return to my lands and await the inevitable decline of my nation. I hope you achieve victory... but not for your sake, but for the fall of my enemies. Farewell.~
+@126 = ~It is clear, my Lady. When <CHARNAME> and I traverse the spider cave and reach the Lair of Morgrath, my commanders will be there to fight.~
+@127 = ~Vidomina will transport my commanders when we enter the Lair of Morgrath, <CHARNAME>. Tamika, Nimbus, and Xsi will be there as well. The battle will be all or nothing. I will be with you until the end of this war. For better or for worse.~
+

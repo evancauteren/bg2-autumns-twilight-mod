@@ -1,0 +1,44 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  PartyHasItem("P_FTALI4")  
+THEN
+  RESPONSE #100
+    SaveGame(0)
+    DisplayString(Myself,@200137)  // ~La Piedra Guarda de Vreshnak ahora permite el paso hacia la siguiente zona, iluminando tu camino.~
+    StartCutSceneMode()
+    //CreateVisualEffectObject("SPDIMNDR",Player1)
+    Wait(4)
+    FadeToColor([20.0],0)
+    Wait(1)
+    //PlaySound("PORTAL2")
+    Wait(2)
+    ActionOverride(Player1,LeaveAreaLUAPanic("P_FA10","",[726.405],SW))
+    ActionOverride(Player1,LeaveAreaLUA("P_FA10","",[726.405],SW))
+    ActionOverride(Player2,LeaveAreaLUA("P_FA10","",[692.383],SW))
+    ActionOverride(Player3,LeaveAreaLUA("P_FA10","",[748.378],SW))
+    ActionOverride(Player4,LeaveAreaLUA("P_FA10","",[718.359],SW))
+    ActionOverride(Player5,LeaveAreaLUA("P_FA10","",[789.359],SW))
+    ActionOverride(Player6,LeaveAreaLUA("P_FA10","",[753.340],SW))
+    MultiPlayerSync()
+    EndCutSceneMode()
+    FadeFromColor([20.0],0)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  !PartyHasItem("P_FTALI4")  
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@200134)  // ~La oscuridad de la cueva te abruma. Es imposible atravesarla. Tendrás que buscar la forma de continuar o buscar otro camino.~
+END
+
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,14702)  // ~Estáis demasiado lejos como para poder usarlo.~
+END
+

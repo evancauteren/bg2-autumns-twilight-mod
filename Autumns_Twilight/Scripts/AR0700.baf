@@ -1,0 +1,245 @@
+// Script de Fall cuando la conocemos
+IF
+Global("P_FallSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_Fall",[2034.2067],12)
+SetGlobal("P_FallSpawn","GLOBAL",1)
+Continue()
+END
+
+
+IF
+  IfValidForPartyDialogue("P_Fall")
+  !StateCheck("P_Fall",STATE_SLEEPING)
+  See(Player1)
+  !StateCheck(Player1,STATE_SLEEPING)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  Global("P_FallImpose","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("P_FallImpose","LOCALS",1)
+    SmallWait(1)
+    Interact(Player1)
+END
+
+IF
+InParty("P_Fall")
+Global("P_FallExperienceSet","GLOBAL",0)
+XPLT(Player1,280001)
+THEN
+RESPONSE #100
+SetGlobal("P_FallExperienceSet","GLOBAL",1)
+Continue()
+END
+
+IF
+InParty("P_Fall")
+Global("P_FallExperienceSet","GLOBAL",0)
+XPGT(Player1,280000)
+XPLT(Player1,600001)
+THEN
+RESPONSE #100
+SetGlobal("P_FallExperienceSet","GLOBAL",1)
+AddXPObject("P_Fall",239000)
+Continue()
+END
+
+IF
+InParty("P_Fall")
+Global("P_FallExperienceSet","GLOBAL",0)
+XPGT(Player1,600000)
+XPLT(Player1,1000001)
+THEN
+RESPONSE #100
+SetGlobal("P_FallExperienceSet","GLOBAL",1)
+AddXPObject("P_Fall",639000)
+Continue()
+END
+
+IF
+InParty("P_Fall")
+Global("P_FallExperienceSet","GLOBAL",0)
+XPGT(Player1,1000000)
+THEN
+RESPONSE #100
+SetGlobal("P_FallExperienceSet","GLOBAL",1)
+AddXPObject("P_Fall",1039000)
+Continue()
+END
+
+// Squirrel
+IF
+Global("P_FAnimalsSpawnSquirrel","GLOBAL",0)
+Global("P_FallMission1","GLOBAL",0)
+!Exists("WAUKSQU")
+THEN
+RESPONSE #100
+CreateCreatureImpassable("WAUKSQU",[2353.1942],3)
+SetGlobal("P_FAnimalsSpawnSquirrel","GLOBAL",1)
+SetGlobal("CagedCreatures","AR0700",1)
+Continue()
+END
+
+// Animal Spawn Patch
+// Leopard
+IF
+Global("P_FAnimalsSpawnLeopard","GLOBAL",0)
+Global("P_FallMission1","GLOBAL",0)
+!Exists("WAUKLEO")
+THEN
+RESPONSE #100
+CreateCreatureImpassable("WAUKLEO",[2303.2314],3)
+SetGlobal("P_FAnimalsSpawnLeopard","GLOBAL",1)
+Continue()
+END
+
+// Moose
+IF
+Global("P_FAnimalsSpawnMoose","GLOBAL",0)
+Global("P_FallMission1","GLOBAL",0)
+!Exists("WAUKMOO")
+!Exists("MOOSE01")
+THEN
+RESPONSE #100
+CreateCreatureImpassable("WAUKMOO",[2426.1933],3)
+SetGlobal("P_FAnimalsSpawnMoose","GLOBAL",1)
+Continue()
+END
+
+// Snake
+IF
+Global("P_FAnimalsSpawnSnake","GLOBAL",0)
+Global("P_FallMission1","GLOBAL",0)
+!Exists("SNAKE01")
+!Exists("WAUKSNA")
+THEN
+RESPONSE #100
+CreateCreatureImpassable("WAUKSNA",[2901.2167],3)
+SetGlobal("P_FAnimalsSpawnSnake","GLOBAL",1)
+Continue()
+END
+
+// Quest 1 - Andrew Spawn
+IF
+Global("P_AndrewSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_andrew",[2765.2270],3)
+SetGlobal("P_AndrewSpawn","GLOBAL",1)
+Continue()
+END
+
+// Quest 1 Cumplida ok
+IF
+Global("P_Quest1Final","GLOBAL",0)
+Global("P_FallMission1","GLOBAL",4)
+THEN
+RESPONSE #100
+Wait(60)
+ActionOverride("WAUKSQU",DestroySelf())
+ActionOverride("WAUKLEO",DestroySelf())
+ActionOverride("WAUKMOO",DestroySelf())
+ActionOverride("MOOSE01",DestroySelf())
+ActionOverride("WAUKSNA",DestroySelf())
+ActionOverride("SNAKE01",DestroySelf())
+SetGlobal("P_Quest1Final","GLOBAL",1)
+Continue()
+END
+
+// Patch Quest1
+IF
+Global("P_FallMission1","GLOBAL",4)
+Global("P_FallPatchAnimalDS","GLOBAL",0)
+Global("P_Quest1Final","GLOBAL",1)
+OR (6)
+Exists("WAUKSQU")
+Exists("WAUKLEO")
+Exists("WAUKMOO")
+Exists("WAUKSNA")
+Exists("SNAKE01")
+Exists("MOOSE01")
+THEN
+RESPONSE #100
+Wait(60)
+ActionOverride("WAUKSQU",DestroySelf())
+ActionOverride("WAUKLEO",DestroySelf())
+ActionOverride("WAUKMOO",DestroySelf())
+ActionOverride("MOOSE01",DestroySelf())
+ActionOverride("WAUKSNA",DestroySelf())
+ActionOverride("SNAKE01",DestroySelf())
+SetGlobal("P_FallPatchAnimalDS","GLOBAL",1)
+Continue()
+END
+
+
+// Script de Dusk cuando lo conocemos
+IF
+Global("P_DuskSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_Dusk",[2736.1145],6)  
+SetGlobal("P_DuskSpawn","GLOBAL",1)
+Continue()
+END
+
+IF
+  IfValidForPartyDialogue("P_Dusk")
+  !StateCheck("P_Dusk",STATE_SLEEPING)
+  See(Player1)
+  !StateCheck(Player1,STATE_SLEEPING)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  Global("P_DuskImpose","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskImpose","LOCALS",1)
+    SmallWait(1)
+    Interact(Player1)
+END
+
+IF
+InParty("P_Dusk")
+Global("P_DuskExperienceSet","GLOBAL",0)
+XPLT(Player1,280001)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskExperienceSet","GLOBAL",1)
+Continue()
+END
+
+IF
+InParty("P_Dusk")
+Global("P_DuskExperienceSet","GLOBAL",0)
+XPGT(Player1,280000)
+XPLT(Player1,600001)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskExperienceSet","GLOBAL",1)
+AddXPObject("P_Dusk",239000)
+Continue()
+END
+
+IF
+InParty("P_Dusk")
+Global("P_DuskExperienceSet","GLOBAL",0)
+XPGT(Player1,600000)
+XPLT(Player1,1000001)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskExperienceSet","GLOBAL",1)
+AddXPObject("P_Dusk",639000)
+Continue()
+END
+
+IF
+InParty("P_Dusk")
+Global("P_DuskExperienceSet","GLOBAL",0)
+XPGT(Player1,1000000)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskExperienceSet","GLOBAL",1)
+AddXPObject("P_Dusk",1039000)
+Continue()
+END

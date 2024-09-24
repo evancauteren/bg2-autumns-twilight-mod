@@ -1,0 +1,26 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200041)
+END
+
+IF
+  !Allegiance(Myself, ENEMY)
+  ActionListEmpty()
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Enemy()
+	AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+  Allegiance(Myself, ENEMY)
+  Global("P_Kakut_INVULNERABLE","GLOBAL",0)
+THEN
+  RESPONSE #100
+    DestroyItem("INVULNER")
+    DestroyItem("DEMOGORG")
+	SetGlobal("P_Kakut_INVULNERABLE","GLOBAL",1)
+END

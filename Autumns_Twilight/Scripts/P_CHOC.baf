@@ -1,0 +1,187 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200175)
+END
+
+IF
+AreaCheck("P_F12B")
+Global("P_MesoTalk1","GLOBAL",3)
+Global("P_ChoccTalk1","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(4)
+EndCutSceneMode()
+Continue()
+SetGlobal ("P_ChoccTalk1","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF
+AreaCheck("P_F12B")
+Global("P_ChoccTalk1","GLOBAL",3)
+PartyHasItem("P_FTALI5")
+See(Player1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself, @200281)
+SetGlobal ("P_ChoccTalk1","GLOBAL",4)
+Continue()
+END
+
+IF
+AreaCheck("P_FA8B")
+Global ("P_ChoccTalk1","GLOBAL",5)
+Global ("P_MorgrathTalk3","GLOBAL",1)
+Global ("P_FallMorgrathHurt1","GLOBAL",0)
+CombatCounter(0)
+PartyHasItem("P_FTALI2")
+See(Player1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself, @200283)
+SetGlobal ("P_ChoccTalk1","GLOBAL",6)
+Continue()
+END
+
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Global("P_AttackedCho","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("P_AttackedCho","GLOBAL",1)
+END
+
+IF
+  Global("P_AttackedCho","GLOBAL",1)
+  !See([PC])
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+END
+
+IF
+  Global("P_AttackedCho","GLOBAL",1)
+  See([PC])
+THEN
+  RESPONSE #100
+    StartDialogNoSet([PC])
+END
+
+IF
+  Global("P_AttackedCho","GLOBAL",2)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  AreaCheck("P_FA14")
+  //!Range([PC],4)
+  !See(Player1)
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    //FollowObjectFormation(Player1,1,7)
+	JumpToObject (Player1)
+    //MoveToObject(Player1)
+END
+
+IF
+  !Range([PC],4)
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    //FollowObjectFormation(Player1,1,7)
+	MoveToObjectOffset (Player1,[0.30])
+    //MoveToObject(Player1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+
+
+
+
+
+
+
+IF
+Global("P_Fall_Cho_Talk_PF8","LOCALS",0)
+AreaCheck("P_FAR8")
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Cho_Talk_PF8","LOCALS",1)
+END
+
+IF
+  HPLT(Myself,31)  
+  Global ("P_FallChoNujaNearestDead1","GLOBAL",0)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(1)
+  //ApplySpell(Myself,HEAL_NO_VISUAL)
+  SetGlobal ("P_FallChoNujaNearestDead1","GLOBAL",1)
+  EndCutSceneMode()
+  Continue()
+  StartDialogueNoSet(Player1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("P_FHasteCho","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("P_FHasteCho","LOCALS",1)
+    ForceSpell(Myself,WIZARD_IMPROVED_HASTE)
+END
+
+IF
+Global("P_ChoCTimer","GLOBAL",0)
+OR(3)
+AreaCheck("P_F12B")
+AreaCheck("P_FA14")
+AreaCheck("P_FAR5")
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_ChoFireTimer","GLOBAL",300)
+SetGlobal("P_ChoCTimer","GLOBAL",1)
+END
+
+IF
+RealGlobalTimerExpired("P_ChoFireTimer","GLOBAL")
+OR(3)
+AreaCheck("P_F12B")
+AreaCheck("P_FA14")
+AreaCheck("P_FAR5")
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_ChoFireTimer","GLOBAL",300)
+UseItem("p_fifirc",Myself)
+SetGlobal("P_ChoCTimer","GLOBAL",0)
+END
+

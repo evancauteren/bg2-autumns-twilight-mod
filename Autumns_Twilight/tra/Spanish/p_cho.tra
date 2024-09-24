@@ -1,0 +1,184 @@
+@0    = ~¡¿Qué?! Intrusos. ¡Comandante Qyl'tar!~
+@1    = ~Aparentemente se trata de otra incursión a nuestras tierras. Primero la desaparición de las arañas. Y ahora esto. ¡Tú! Sé que puedes entenderme. ¿Quién eres y qué es lo que buscas? Tu vida depende de lo que respondas.~
+@2    = ~Soy <CHARNAME>, y he venido a por tu Reina. Necesito su corazón para poder llegar al Trono de Morgrath.~
+@3    = ~Soy <CHARNAME> y no trato con monstruos. ¡Prepárate a morir!~
+@4    = ~Las razones no le importan a los muertos...~
+@5    = ~Soy <CHARNAME> y no busco conflictos. Sin embargo, estamos aquí para pedir una audiencia a tu Reina, Tisiphone.~
+@6    = ~¡Insensato! Te atreves a pedir el corazón de nuestra Reina. Debes morir. ¡Qyl'tar! Encárgate de ellos. Iré a advertir a los demás.~ ~¡Insensata! Te atreves a pedir el corazón de nuestra Reina. Debes morir. ¡Qyl'tar! Encárgate de ellos. Iré a advertir a los demás.~ 
+@7    = ~Lo suponía. No es más que otra panda de exploradores en búsqueda de tesoros. ¡Dreach-naga será su fin! Qyl'tar, encárgate de ellos. Yo iré a advertir a los demás.~
+@8    = ~¿Conoces... conoces el nombre de nuestra Reina? <CHARNAME>, soy el general de las fuerzas de Dreach-naga: Cho'Nuja. Dime, ¿qué es lo que buscas de nuestra Reina?~
+@9    = ~Estamos intentando detener a la Reina Araña, Morgrath. Tu Reina es la única que puede ayudarnos.~
+@10   = ~No puedo develar las razones a un simple soldado. Mis palabras serán sólo para la Reina.~
+@11   = ~Bah, me he cansado de tanto parloteo. ¡Te mataré y robaré tus posesiones!~
+@12   = ~Es verdad. Esto no es lo que esperaba. Conoces a nuestra enemiga y conoces a nuestra Reina. Sin embargo, llegas en el momento más extraño. Las arañas han desaparecido. ¿Cómo podemos saber que no eres aliado de ellas?~
+@13   = ~¡Qyl'tar! No debes revelar nada a los foráneos. Pero lo que dices es cierto. ¿Tienes alguna prueba de buena fe, <CHARNAME>? No pondré en riesgo la vida de mi Reina.~
+@14   = ~Tengo este talismán de Dreach-naga. Me fue dado por la Dama Vidomina, del Enclave Arcano.~
+@15   = ~Tenemos un enemigo en común, Cho'Nuja, ¿no es eso suficiente?~
+@16   = ~No tengo pruebas, General. Sólo tienes mi palabra. ¿Qué es lo que será entonces?~
+@17   = ~Me temo que no es suficiente, <CHARNAME>. Como os dije antes: No pondré en riesgo la vida de mi Reina. Qyl'tar, encárgate de ellos. Yo iré a advertir a los demás.~
+@18   = ~Así que la Bruja Liche es tu aliada. Todo comienza a cobrar sentido ahora.~
+@19   = ~Aguarda, Qyl'tar. Quiero preguntar una cosa más al foráneo. Dime, <CHARNAME>. ¿Cómo os puede ayudar nuestra Reina? Habéis llegado hasta aquí y no debe haber sido un camino fácil. Vidomina no ayuda a cualquiera y tú debes ser portador de un gran poder. ¿Qué es lo que buscas?~
+@20   = ~Fall, ¿quieres tomar la palabra?~
+@21   = ~Necesitamos la sangre de tu Reina. Es la única forma de poder llegar al cubículo de Morgrath.~
+@22   = ~No puedo develar las razones a un simple soldado. Mis palabras serán sólo para la Reina.~
+@23   = ~Entonces me temo que no pasarás, foráneo. Qyl'tar, encárgate de ellos. Yo iré a advertir a los demás.~
+@24   = ~Lo suponía. Comprendo las intenciones de Vidomina, pero os lo aseguro, no obtendrán ayuda alguna de la Reina de Dreach-naga. La única opción es la guerra. Qyl'tar, encárgate de ellos. Yo iré a advertir a los demás.~
+@25   = ~Tu rostro. Tus vestimentas. ¡Eres la hija de la hechicera que atacó a nuestra Reina!~
+@26   = ~Comandante Qyl'tar, encárgate de ellos. Lucha con valentía, amigo mío, pues creo que estos oponentes no son simples aventureros. Yo debo preparar el resto de las defensas contra estos invasores.~
+
+@27   = ~No sabes lo que has provocado. Ese atentado... fue la gota que rebalsó la locura de nuestra Reina. Incluso si me aseguraras que con ello Morgrath sería derrotada, mi Reina nunca ayudará a aquella que osó herirla.~
+@28   = ~Creo que sabes que algo está sumamente mal, General. Las arañas han desaparecido justo cuando mi madre ha penetrado en sus sombrías cuevas.~
+@29   = ~Con la ayuda de Vidomina y <CHARNAME> podemos enfrentarnos a ese mal.~
+@30  = ~No me estás entendiendo, foránea. Nuestra Reina... nunca ayudaría a los de vuestra raza.~
+@31  = ~Entonces, ¿prefieres luchar? Algo me dice que evitarías un combate innecesario si así fuera posible.~
+@32  = ~Hay batallas que pueden eludirse. Hay otras inevitables. No anhelo la guerra, ansío la paz. Pero parece un sueño inalcanzable.~
+@33  = ~La desaparición de las arañas no es más que la calma antes de la tormenta. Y creo que tú y tu amigo <CHARNAME> son el inicio de ella.~ ~La desaparición de las arañas no es más que la calma antes de la tormenta. Y creo que tú y tu amiga <CHARNAME> son el inicio de ella.~
+
+@34  = ~Tú de nuevo...~
+@35  = ~Por Dreach-naga, mi buena amiga. Por Dreach-naga.~
+
+@36  = ~Qué tu estés aquí... significa que mi comandante ha caído.~
+@37  = ~Primero Qyl'tar y ahora Vreshnak. ¿Qué clase de criatura eres?~
+@38  = ~Soy quien acabará contigo, monstruo. ¡Tu hora ha llegado!~
+@39  = ~No tiene sentido seguir combatiendo, Cho'Nuja. Sabes que esta es una pelea que no podrás ganar.~
+@40  = ~¡No me subestimes! Soy el Guardián Salvaje de Dreach-naga, general de las fuerzas reptiles de la Reina Tisiphone. ¡Mis guerreros, mis camaradas, serán vengados! Vamos, soldado: Veamos quién de los dos queda en pie.~
+@41  = ~Cuando tu vida es el combate, rápidamente descubrirás que la guerra en sí no tiene sentido. Pero no tenemos otra opción. ¡Luchar es el único camino! La paz o la muerte: el resultado es el mismo.~
+@42  = ~Aún si eres enemigo de mi enemigo, no puedo permitir que mi Reina sea lastimada. ¡Vamos! Soy el Guardián Salvaje de Dreach-naga, general de las fuerzas reptiles de la Reina Tisiphone. ¡Mis guerreros, mis camaradas, serán vengados! Soldado: Veamos quién de los dos queda en pie.~
+@43  = ~*tos* N-no puede ser... tu poder es demasiado. Debo... debo advertir a los demás. Puede que me hayas derrotado y quitado mi piedra, soldado, pero no podrás derrotar a Rask'tar Krathiss. Nadie jamás le ha vencido... Nos vemos en el Pantano... si es que sobrevives.~
+
+@44  = ~Has llegado hasta aquí. *jadeo* Esto aún no ha terminado...~
+@45  = ~T-tú... tienes la cabeza de Rask'tar... le has derrotado. No puede ser... *sacude su cabeza* Esto aún no ha terminado...~
+
+@46  = ~N-no... ha llegado hasta aquí...~
+@47  = ~Su Alteza, que su apariencia no os engañe. Sus habilidades en combate son excepcionales. Nunca había visto algo así. Puede que incluso sea más fuerte que los ejércitos de Mesothel.~
+
+@48  = ~*quejido* Has... matado a mi Reina.~
+@49  = ~Indirectamente... has ayudado a las Arañas a estar más cerca de su objetivo final. Sin Mi Reina... la victoria contra Morgrath ya no es posible.~
+@50  = ~¿Por qué ella es tan importante para ti? Tu Reina estuvo dispuesta a matarte.~
+@51  = ~¿Cómo es que sigues vivo? Me sorprendes, pero no creo que te quede mucho tiempo. Morirás pronto.~
+@52  = ~No me queda mucho tiempo, es verdad. He visto cómo has destruido lo que quedaba de mi hogar. Ahora... sólo resta esperar la oscuridad.~
+@53  = ~Si en verdad eres enemigo de Morgrath... entonces usa el corazón de nuestra Reina para vencerla. Hazlo... por Dreach-naga...~ ~Si en verdad eres enemiga de Morgrath... entonces usa el corazón de nuestra Reina para vencerla. Hazlo... por Dreach-naga...~
+@54  = ~Estuve muerto... al momento en que fui derrotado por ti. El fracaso en Dreach-naga significa la muerte.~
+@55  = ~No tiene por qué terminar así, General. Aún debemos enfrentarnos a las fuerzas de Rachnidra. ¿Por qué no te unes a nosotros? No tienes nada que perder.~
+@56  = ~Tienes razón. Enfrentarte a mí ha sido un gran error. Supongo que no tienes más opción que esperar la muerte.~
+@57  = ~¿P-por qué habrías de ayudarme? Hemos sido enemigos mortales. No logro comprender.~
+@58  = ~No he querido enfrentarles, Cho. Nunca quise ser su enemigo, pero no he tenido otra opción. Puedes ayudarnos a enfrentarnos a Morgrath. No todo está perdido.~
+@59  = ~Ahora que lo dices es verdad. Has intentado matarme. No tiene sentido que te ayude. Debes afrontar la muerte con honor, General. Tu fin se acerca.~
+@60  = ~*quejido* Aún si quisiera ayudarte, estoy muy herido. Ni siquiera mi factor regenerativo está funcionando.~
+@61  = ~Sólo la Salmuera del Pantano puede curar heridas tan graves. Creo que está en poder de Rask'tar Krathiss. Aunque no estoy seguro.~
+@62  = ~Veré si puedo encontrarla, Cho. Resiste.~
+@63  = ~¿Es esta extraña pócima amarillenta? Ten, es toda tuya.~
+@64  = ~No me queda mucho tiempo... apresúrate.~
+@65  = ~*quejido* ¿Lo has conseguido?~
+@66  = ~Aún no, Cho. Resiste un poco más.~
+@67  = ~¡La he encontrado! Ten, es toda tuya.~
+@68  = ~G-gracias, <PRO_RACE>.~
+
+@69  = ~Lo has logrado... me has curado.~
+@70  = ~Perdóname, pero no sé tu nombre.~
+@71  = ~Mi nombre es <CHARNAME>.~
+@72  = ~<CHARNAME>. Has sido enemigo de Dreach-naga. Destruido a mis amigos y arrancado el corazón de mi Reina.~
+@73  = ~A sabiendas de que podría traicionarte, aún así has optado por curarme. Eres... una criatura extraña, cuando menos.~
+@74  = ~Entiendo que eres aliado de Vidomina. Sé que debemos ir hacia allí con el corazón de mi Reina. Te ayudaré.~
+@75  = ~Pero debes tener en cuenta lo siguiente: Las arañas no permitirán que lleguemos fácilmente al Enclave.~
+@76  = ~No hemos avistado a ningún arácnido enemigo, Cho. Creo que tenemos el camino libre.~
+@77  = ~¿Por qué lo dices?~
+@78  = ~No te confíes. Los hijos de Morgrath son crueles, <CHARNAME>. Pero por sobre todo son astutos.~
+@79  = ~Has derrotado las fuerzas de Dreach-naga a lo largo del camino. Has dejado el camino libre a las Arañas para la conquista del Pantano.~
+@80  = ~Aprovechen a descansar aquí. Os lo aseguro: las arañas ya habrán invadido el pantano para ahora.~
+@81  = ~Yo los estaré esperando en las afueras del Trono, <CHARNAME>. Tengo el presentimiento de que el camino al Enclave será arduo...~
+@82  = ~Oh, vaya. Eso no suena nada bien.~
+@83  = ~Hmpf. Las arañas no son rivales para mi espada.~
+@84  = ~Yo digo que vengan. Mi hacha se encargará de despachar esas porquerías.~
+@85  = ~Como los pájaros huyen a refugiarse porque presienten una gran tormenta, tal es la sensación en mi sangre. Algo se avecina y es antinatural.~
+@86  = ~Nos encontramos advertidos de este peligro, <CHARNAME>. Debemos prepararnos para lo que se avecina.~
+@87  = ~No debemos ignorar su advertencia, <CHARNAME>. Pero recuerda que el tiempo no está de nuestro lado. Madre corre peligro con cada segundo que perdemos.~
+
+@88  = ~No ir preparados puede significar el fin.~
+
+@89  = ~¡Por el aliento de Rask'tar! El demonio Mesothel nos estaba esperando. ¡Fue una emboscada!~
+@90  = ~<CHARNAME>, lo lamento. Esperaba algo así, pero no contaba con que robaran las piedras guarda. El Pantano... debe estar infestado de arañas.~
+@91  = ~Es momento de que te cuente sobre nuestros combates contra los primogénitos de Morgrath.~
+@92  = ~¿Primogénitos? Son sólo insectos, Cho'Nuja. No son rivales para nosotros.~
+@93  = ~Te escucho.~
+@94  = ~Subestimarlos puede significar la muerte, <CHARNAME>. Por favor, escucha lo que he de decirte:~
+@95  = ~Con nuestros comandantes y chamanes creíamos que Morgrath había engendrado como primogénitos a aquellos que ahora comandan su ejército. Posiblemente Mesothel haya sido el primero de todos.~
+@96  = ~Luego de varias escaramuzas y arduos combates, hubo un momento en que pude destruir a Mesothel. Su ojo abatido completamente por mis garras y sus extremidades quemadas por el fuego de mi escudo de Dreach-naga.~
+@97  = ~Sin embargo... al cabo de unos días, Mesothel reapareció. Completamente ileso. Su cadáver aún se estaba pudriendo en los salones de nuestros antepasados y allí estaba Mesothel con su gran ojo, observándome fijamente.~
+@98  = ~Las arañas no pueden morir. Al menos no de forma permanente.~
+@99  = ~¿Qué? Eso es imposible. ¿Cómo hemos de derrotar algo así?~
+@100 = ~¿Y qué se supone que podemos hacer ante tal poder?~
+@101 = ~Creemos que la fuente de su poder proviene de su madre. Morgrath. Sin embargo, nunca hemos sido capaces de llegar a ella. De hecho, nunca la hemos visto.~
+@102 = ~Aunque... hace poco, las arañas construyeron una estatua en su honor en lo que fuera una vez la entrada a nuestra gran Nación. Una burla. Una provocación.~
+@103 = ~¿La has visto? Su dimensión es descomunal, aunque no estoy seguro de que represente su verdadero tamaño.~
+@104 = ~La he visto. No me impresiona. Es sólo una estatua.~
+@105 = ~La he visto. Es una figura horrible.~
+@106 = ~Tú eres valiente, <CHARNAME>. Habrías sido un gran soldado bajo mi mando. O puede que incluso hubieses llegado a General. *suspiro* Es suficiente. Vamos, debemos encontrar a la Tejedora que tiene mi piedra guarda.~ ~Tú eres valiente, <CHARNAME>. Habrías sido una gran soldado bajo mi mando. O puede que incluso hubieses llegado a General. *suspiro* Es suficiente. Vamos, debemos encontrar a la Tejedora que tiene mi piedra guarda.~
+@107 = ~¿Estás atacándome? Me has salvado, ¿sólo para destruirme? No puedo entenderlo... Me iré y no te enfrentaré sólo porque el honor me lo dicta. ¡Pero espero que nuestros caminos no vuelvan a cruzarse!~
+
+@108 = ~<CHARNAME>, la guerra aún no ha terminado. Déjame acompañarte.~
+@109 = ~Sabes de lo que soy capaz. Hemos llegado hasta aquí y Dreach-naga aún debe ser vengada.~
+@110 = ~Cho, eres valiente. Pero no quiero arriesgar tu vida. Quédate aquí, en el Enclave. Yo vengaré a los tuyos. Lo prometo.~
+@111 = ~¿Estás seguro, Cho? El camino es peligroso. Podrías morir y no tendría la capacidad de revivirte.~
+@112 = ~No tengo lugar en mi compañía, Cho. No puedo abandonar a ningún compañero en este Abismo.~
+@113 = ~Hmpf. De acuerdo. He visto tu fuerza y de lo que eres capaz. Sólo... lamento perderme del combate. Que la fuerza de Dreach-naga te acompañe, mi buen amigo.~ ~Hmpf. De acuerdo. He visto tu fuerza y de lo que eres capaz. Sólo... lamento perderme del combate. Que la fuerza de Dreach-naga te acompañe, mi buena amiga.~
+@114 = ~No le temo a la muerte, pues toda mi vida me he preparado a recibirla. Además, no tomaré el lugar de ninguno de tus acompañantes. Será como lo hicimos desde el Trono hasta aquí. Estaré a tu lado, pase lo que pase.~
+@115 = ~No tomaré el lugar de ninguno de tus acompañantes, <CHARNAME>. Será como lo hicimos desde el Trono hasta aquí. ¿Qué dices?~
+@116 = ~De acuerdo, Cho. Cuento contigo en los combates venideros.~
+@117 = ~No, Cho. No quiero arriesgar tu vida en esto. Yo me encargaré de todo.~
+@118 = ~Juntos, haremos que Rachnidra caiga para siempre.~
+@119 = ~Estoy listo, <CHARNAME>. Cuando abandones el Enclave y partas a la guerra, yo lo haré contigo.~
+@120 = ~Haré lo que me has pedido, <CHARNAME> y permaneceré aquí en el Enclave. Aunque lamento perderme de los combates.~
+
+@121 = ~Mi Dama, he oído que eres capaz de revivir al pequeño que dió su vida contra Skel'Tharant. ¿Cómo es posible?~
+@122 = ~Mi Dama, he oído que eres capaz de revivir al pequeño que dió su vida contra Skel'Tharant. ¿Cómo es posible?~
+@123 = ~¿Puedes traer de vuelta a los guerreros de Dreach-naga? Creo que podrían ser útiles en la batalla final contra Morgrath.~
+@124 = ~Respeto tu decisión, <CHARNAME>. Pero he luchado a tu lado desde el Pantano de Rask'tar hasta las puertas del Enclave. Hemos sangrado juntos y tu ambición no es un signo de honor. Tu poder ya era envidiable como para que te escudes en un tridente o en el deseo ferviente por el oro.~
+@125 = ~Perdono tu elección... pero no estaré ahí en la batalla final. Volveré a a mis tierras y esperaré la inevitable declive de mi nación. Espero que obtengas la victoria... pero no por ti, sino por la caída de mis enemigos. Adiós.~
+@126 = ~Queda claro, mi dama. Cuando <CHARNAME> y yo atravesemos la cueva arácnida y lleguemos al Cubil de Morgrath, mis comandantes estarán allí para presentar batalla.~
+@127 = ~Vidomina transportará a mis comandantes cuando ingresemos al Cubil de Morgrath, <CHARNAME>. Tamika, Nimbus y Xsi estarán allí también. El combate será a todo o nada. Estaré contigo hasta el final de esta guerra. Para bien o para mal.~
+
+
+@310045  = ~Dreach-naga: El corazón de Tisiphone
+
+Llegamos a la siguiente zona en Dreach-naga. Esta vez Cho'Nuja estaba con otro de sus comandantes. Una yuan-ti llamada Vreshnak. Comanda un experimentado grupo de guerreros y criaturas serpentinas. Debemos hacernos con su piedra guarda si queremos alcanzar a Cho'Nuja.~
+
+@310046  = ~Dreach-naga: El corazón de Tisiphone
+
+Estamos en la zona del portal de rayos y el combate contra el general Cho'Nuja ha comenzado. Debemos derrotarle y obtener su piedra si queremos llegar al Pantano de Rask'tar Krathiss.~
+
+@310047  = ~Dreach-naga: El corazón de Tisiphone
+
+Hemos derrotado a Cho'Nuja, aunque ha huído por el portal. Sin embargo, hemos logrado quitarle su piedra guarda, por lo que podremos llegar al Pantano de Rask'tar Krathiss. Nos ha advertido que el Campeón de Dreach-naga nunca ha sido vencido.~
+
+@310049  = ~Dreach-naga: El corazón de Tisiphone
+
+Hemos derrotado a Tisiphone y al último remanente de las fuerzas de Dreach-naga. Cho'Nuja, en sus últimas palabras, desea que usemos el corazón de su Reina para vengar la caída de su Reino. Al parecer, el hombre-lagarto ha comprendido que no habíamos tenido otra opción más que un enfrentamiento sangriento para acabar con una amenaza mucho mayor. Después de esto, Cho'Nuja ha muerto. No queda más que regresar con Vidomina para ver cómo debemos continuar.~
+
+@310050  = ~Cho'Nuja: el Guardián Salvaje
+
+Cho'Nuja, quien fuera General de las fuerzas de Tisiphone, nos ayudará en la lucha contra las Arañas. Sin embargo, si no curo sus heridas mortales morirá. Debo encontrar una pócima llamada La Salmuera del Pantano. Según el General, se encuentra en poder de la Hydra llamada Rask'tar Krathiss.~
+
+@310051  = ~Cho'Nuja: el Guardián Salvaje
+
+Cho'Nuja, quien fuera General de las fuerzas de Tisiphone, nos ayudará en la lucha contra las Arañas. Le he dado una extraña poción llamada La Salmuera del Pantano, la cual ha curado sus heridas mortales en su totalidad. Ahora debemos planear cuál será nuestro próximo movimiento.~
+
+@310052  = ~Cho'Nuja: el Guardián Salvaje
+
+Las heridas de Cho'Nuja han sido curadas gracias a la Salmuera del Pantano. Hemos tenido una breve conversación en la que nos ha advertido que las arañas no nos dejarán llegar fácilmente al Enclave de Vidomina. La lucha de regreso será ardua y peligrosa.~
+
+@310054  = ~Cho'Nuja: el Guardián Salvaje
+
+Cho'Nuja nos ha dicho algo aterrador: los primogénitos de Morgrath no pueden morir. O al menos no de una forma permanente. Lo que quiere decir es que si acabamos con ellas, es muy probable que nos volvamos a cruzar en un momento futuro. Cho cree que la fuente del poder y vitalidad de las arañas es su reina, Morgrath. Si acabamos con ella, es muy probable que la victoria sea absoluta.~
+
+@310055  = ~Cho'Nuja: el Guardián Salvaje
+
+Mientras intentábamos llegar al Enclave de Vidomina, aparentemente y de manera accidental, ataqué a Cho'Nuja. Sorprendido, éste nos abandonó, diciéndonos que no habría de atacarnos porque le salvamos la vida. Sin embargo, deseó que nuestros caminos no volviesen a cruzarse.~
+
+@310064  = ~Cho'Nuja: el Guardián Salvaje
+
+Ha causa de mi decisión de mantener mi botín en la lucha contra Tisiphone y su hydra, Cho'Nuja ha abandonado el Enclave y se ha dirigido a Dreach-naga a pasar los últimos momentos de su vida.~
+
+@310065  = ~Cho'Nuja: el Guardián Salvaje
+
+He entregado el Tridente de Dreach-naga y la cabeza de Rask'tar para traer de vuelta a los comandantes de Cho'Nuja. El General ha logrado convencerlos para unirse a la lucha final, por lo que cuando lleguemos al Cubil de Morgrath, Qyl'tar, Vreshnak y Gassthon también estarán allí en la lucha final contra Rachnidra.~

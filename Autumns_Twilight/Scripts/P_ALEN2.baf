@@ -1,0 +1,40 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200018)
+END
+
+IF
+  HPLT(Myself,10)
+  Global ("P_FallAlen2NearestDead","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ApplySpell(Myself,HEAL_NO_VISUAL)
+    ChangeAnimationNoEffect("P_ALEN2B")
+	SetGlobal ("P_FallAlen2NearestDead","GLOBAL",1)
+END
+
+IF
+See("P_Fall")
+AreaCheck("P_FAR3")
+OR(2)
+Global("P_FallMission3","GLOBAL",3)
+Global("P_FallMission3","GLOBAL",4)
+THEN
+RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+IF
+//InParty("P_Fall")
+See(Player1)
+AreaCheck("P_FAR3")
+CombatCounter(0)
+!See([ENEMY])
+Dead("P_ICELOC")
+Global ("P_FallMission3","GLOBAL",6)
+THEN
+RESPONSE #100
+  StartDialogueNoSet(Player1)
+END

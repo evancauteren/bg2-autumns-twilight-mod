@@ -1,0 +1,144 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@400416)
+END
+
+// M3 EVIL VICTORY -> Conversación después de END_MAT
+IF
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global("P_DanctianAppear","GLOBAL",3)
+Global("P_DanctianAppear1","GLOBAL",0)
+THEN
+RESPONSE #100
+  StartCutSceneMode()
+  Wait(3) 
+  SetGlobal("P_DanctianAppear1","GLOBAL",1)
+  EndCutSceneMode()
+  StartDialogueNoSet(Player1)
+END
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_Danctian_Forge","GLOBAL",2)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  CreateItem ("p_mat2mi",1,1,0)   
+  UseItem ("p_mat2mi", Myself)
+  DestroyItem ("p_mat2mi")
+  CreateVisualEffect("spcrtwpn",[695.430])
+  Swing()
+  Wait (3)  
+  CreateItem ("p_mat2mi",1,1,0)   
+  UseItem ("p_mat2mi", Myself)
+  DestroyItem ("p_mat2mi")
+  CreateVisualEffect("spcrtwpn",[695.430])
+  Swing()
+  Wait (3)
+  StartDialogueNoSet(Player1)
+  EndCutSceneMode()
+END
+
+IF
+InParty("P_Dusk")
+!See("P_Dusk")
+Global("P_Danctian_Forge","GLOBAL",2)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  CreateItem ("p_mat2mi",1,1,0)   
+  UseItem ("p_mat2mi", Myself)
+  DestroyItem ("p_mat2mi")
+  CreateVisualEffect("spcrtwpn",[695.430])
+  Swing()
+  Wait (3)  
+  CreateItem ("p_mat2mi",1,1,0)   
+  UseItem ("p_mat2mi", Myself)
+  DestroyItem ("p_mat2mi")
+  CreateVisualEffect("spcrtwpn",[695.430])
+  Swing()
+  Wait (3)
+  StartDialogueNoSet(Player1)
+  EndCutSceneMode()
+END
+
+IF
+!InParty("P_Dusk")
+!See("P_Dusk")
+Global("P_Danctian_Forge","GLOBAL",2)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  CreateItem ("p_mat2mi",1,1,0)   
+  UseItem ("p_mat2mi", Myself)
+  DestroyItem ("p_mat2mi")
+  CreateVisualEffect("spcrtwpn",[695.430])
+  Swing()
+  Wait (3)  
+  CreateItem ("p_mat2mi",1,1,0)   
+  UseItem ("p_mat2mi", Myself)
+  DestroyItem ("p_mat2mi")
+  CreateVisualEffect("spcrtwpn",[695.430])
+  Swing()
+  Wait (3)
+  StartDialogueNoSet(Player1)
+  EndCutSceneMode()
+END
+
+// TestMusic
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_DuskDanctialMISSION","GLOBAL",1)
+//Global("P_DuskKitTest","GLOBAL",0)
+THEN
+RESPONSE #100
+Wait (3)
+PlaySong (2224)
+//PlaySound ("P_DuskR")
+//ChangeClass("P_Dusk",BARD)
+//SetGlobal("P_DuskKitTest","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+//Global("P_DuskDanctialMISSION","GLOBAL",4)
+
+IF
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Global("P_DuskDanctialMISSION","GLOBAL",4)
+Global("P_DuskDanctialMFTalk5","GLOBAL",0)
+Dead ("p_anthag")
+THEN
+RESPONSE #100
+  StartCutSceneMode()
+  Wait(3) 
+  SetGlobal("P_DuskDanctialMFTalk5","GLOBAL",1)
+  EndCutSceneMode()
+  StartDialogueNoSet(Player1)
+END
+
+IF
+Global("P_CelineSpawn","GLOBAL",5)
+!AreaCheck("AR1509")
+THEN
+  RESPONSE #100
+  Wait (5)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global ("P_Dusk_Dancti_Enc_MF","GLOBAL",1)
+Global("P_DuskDanctialMISSION","GLOBAL",0)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+END

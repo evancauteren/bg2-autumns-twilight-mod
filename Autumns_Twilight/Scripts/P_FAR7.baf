@@ -1,0 +1,147 @@
+IF
+  Global ("P_LiphixTalk1","GLOBAL",1)
+  Global ("P_Fall_Final_Mission_InitP_F6toB","GLOBAL",0)
+THEN
+  RESPONSE #100
+	// Se desactivan viejas Travelling Regions
+    TriggerActivation("P_ftr1_ff6",FALSE)
+	// Se activan nuevas Travelling Regions
+    TriggerActivation("P_ftr1_ff6b",TRUE) // Debe estar check Deactivated en DLTC
+    SetGlobal ("P_Fall_Final_Mission_InitP_F6toB","GLOBAL",1)	
+END
+
+IF
+Global("P_TamikaF7Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_TAMIK2",[780.656],SW)
+SetGlobal("P_TamikaF7Spawn","GLOBAL",1)
+END
+
+IF
+Global("P_XsiF7Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_XSI2",[318.297],S)
+SetGlobal("P_XsiF7Spawn","GLOBAL",1)
+END
+
+IF
+Global("P_NimbusF7Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_NIMBU2",[803.389],SW)
+SetGlobal("P_NimbusF7Spawn","GLOBAL",1)
+END
+
+IF
+Global("P_TobiasF7Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_TOBIAS",[451.917],SW)
+SetGlobal("P_TobiasF7Spawn","GLOBAL",1)
+END
+
+IF
+Global("P_VidomiF7Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_VIDOMI",[582.813],SE)
+SetGlobal("P_VidomiF7Spawn","GLOBAL",1)
+END
+
+IF
+Global("P_PhillipeF7Spawn","GLOBAL",0)
+Global ("P_FMissionPhillipe","GLOBAL",3)
+THEN
+RESPONSE #100
+CreateCreature("P_phill3",[794.758],SW)
+SetGlobal("P_PhillipeF7Spawn","GLOBAL",1)
+END
+
+// Para Crear a CHO hay que poner como condición el PartyHasItem("P_FCORA1")
+// CREAR CHOC2.BAF
+IF
+Global("P_ChoAwake","GLOBAL",3)
+Global("P_ChoF7Spawn","GLOBAL",0)
+Global("P_AttackedCho","GLOBAL",0)
+PartyHasItem("P_FCORA1")
+!Dead("p_cho")
+THEN
+RESPONSE #100
+CreateCreature("P_CHOC2",[660.919],N)
+SetGlobal("P_ChoF7Spawn","GLOBAL",1)
+END
+
+IF
+Global("P_ChoDestroyF7","GLOBAL",0)
+Dead("p_cho")
+THEN
+RESPONSE #100
+ActionOverride("p_cho",DestroySelf())
+SetGlobal("P_ChoDestroyF7","GLOBAL",1)
+END
+
+IF
+Global ("P_FDreach_Mission1","GLOBAL",2)
+PartyHasItem("P_FCORA1")
+Global("P_JumpToFinalQuestF7","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+FadeToColor([20.0],0)
+MoveViewPoint([633.856],INSTANT)
+ActionOverride(Player1,JumpToPoint([633.856]))
+ActionOverride(Player2,JumpToPoint([660.808]))
+ActionOverride(Player3,JumpToPoint([679.749]))
+ActionOverride(Player4,JumpToPoint([727.759]))
+ActionOverride(Player5,JumpToPoint([731.815]))
+ActionOverride(Player6,JumpToPoint([696.871]))
+SetGlobal("P_JumpToFinalQuestF7","GLOBAL",1)
+Wait(3)
+FadeFromColor([20.0],0)
+EndCutSceneMode()
+Continue()
+END
+
+// Phillipe muere
+IF
+Global("P_PhillipeDestroyF7","GLOBAL",0)
+OR (2)
+Dead("P_PHILLI")
+Global ("P_PhillipeBravery","GLOBAL",7)
+THEN
+RESPONSE #100
+ActionOverride("P_PHILLI",DestroySelf())
+SetGlobal("P_PhillipeDestroyF7","GLOBAL",1)
+END
+
+
+// Resurrección de los Comandantes de Cho'Nuja
+IF
+   Global("P_ChocRevivalFriends","GLOBAL",2)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+	StartCutSceneMode()
+	Wait(3)
+	ActionOverride("P_VIDOMI",ForceSpell(Myself, CLERIC_AID))
+	Wait(5)
+	ScreenShake([20.20],10)
+	Wait(3)	
+    CreateVisualEffect("ICRAISEI",[827.807])
+    CreateVisualEffect("ICRAISEI",[831.721])
+    CreateVisualEffect("ICRAISEI",[669.645])
+    CreateVisualEffect("CLERIC_HEAL",[827.807])
+    CreateVisualEffect("CLERIC_HEAL",[831.721])
+    CreateVisualEffect("CLERIC_HEAL",[669.645])
+	Wait(2)	
+	PlaySound("CAS_P06")
+    CreateCreature("P_QYL",[827.807],W)
+    CreateCreature("P_VRESH",[831.721],S)
+    CreateCreature("P_GASS",[669.645],S)
+	Wait(3)
+	SetGlobal ("P_ChocRevivalFriends","GLOBAL",3)
+	EndCutSceneMode()
+	Continue()
+END

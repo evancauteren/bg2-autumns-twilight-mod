@@ -1,0 +1,33 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200175)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+// Condiciones se cumplen para que Cho'Nuja pida a Vidomina que reviva a sus amigos luego de que escucha a Vidomina decir que puede revivir a Phillipe luego de su sacrificio
+IF
+Global("P_ChocRevivalFriends","GLOBAL",0)
+Global("P_VidominaSkelGlands","GLOBAL",1)
+Global ("P_PhillipeIsDead","GLOBAL",1)
+Global("P_ChoccStay","GLOBAL",0)
+AreaCheck("P_FAR7")
+See("P_VIDOMI")
+See(Player1)
+PartyHasItem("P_QYLNOT")
+PartyHasItem("P_VRENOT")
+PartyHasItem("P_GASNOT")
+PartyHasItem("p_rahead")
+PartyHasItem("p_isper")
+THEN
+RESPONSE #100
+SetGlobal ("P_ChocRevivalFriends","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END

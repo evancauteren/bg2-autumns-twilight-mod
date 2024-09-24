@@ -1,0 +1,48 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  PartyHasItem("P_FTALI2")
+  PartyHasItem("P_FTALI3")  
+  PartyHasItem("P_FTALI4")  
+  PartyHasItem("P_FTALI5")  
+THEN
+  RESPONSE #100
+    SaveGame(0)
+    DisplayString(Myself,@200142)  // ~El Talismán de Dreach-naga y las tres Piedras Guarda brillan incesantemente. Ante ti se abre la cámara real de la Reina Tisiphone...~
+    StartCutSceneMode()
+    Wait(4)
+    FadeToColor([20.0],0)
+    Wait(2)
+    ActionOverride(Player1,LeaveAreaLUAPanic("P_FA13","",[982.431],SW))
+    ActionOverride(Player1,LeaveAreaLUA("P_FA13","",[982.431],SW))
+    ActionOverride(Player2,LeaveAreaLUA("P_FA13","",[961.396],SW))
+    ActionOverride(Player3,LeaveAreaLUA("P_FA13","",[927.358],SW))
+    ActionOverride(Player4,LeaveAreaLUA("P_FA13","",[1052.437],SW))
+    ActionOverride(Player5,LeaveAreaLUA("P_FA13","",[1023.395],SW))
+    ActionOverride(Player6,LeaveAreaLUA("P_FA13","",[997.358],SW))
+    MultiPlayerSync()
+    EndCutSceneMode()
+    FadeFromColor([20.0],0)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  OR(4)
+  !PartyHasItem("P_FTALI2")
+  !PartyHasItem("P_FTALI3")  
+  !PartyHasItem("P_FTALI4")  
+  !PartyHasItem("P_FTALI5")  
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@200141)  // ~La oscuridad del umbral te abruma. Es imposible atravesarlo. Tendrás que buscar la forma de continuar o buscar otro camino.~
+END
+
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,14702)  // ~Estáis demasiado lejos como para poder usarlo.~
+END
+

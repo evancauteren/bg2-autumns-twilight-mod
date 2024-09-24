@@ -1,0 +1,1401 @@
+@0    = ~Auch wenn du kein Botschafter des Friedens mehr bist, kannst du viel erreichen, wenn dein <LADYLORD> <CHARNAME> sein Schicksal dem Licht zuleitet. Aber erinnere dich, selbst in der Dunkelheit kannst du den Weg finden, nach dem du gesucht hast...~ ~Auch wenn du kein Botschafter des Friedens mehr bist, kannst du viel erreichen, wenn dein <LADYLORD> <CHARNAME> ihr Schicksal dem Licht zuleitet. Aber erinnere dich, selbst in der Dunkelheit kannst du den Weg finden, nach dem du gesucht hast...~
+@1    = ~Ein bisschen mehrdeutig, meine Dame. Doch ich werde nicht taub sein für das, was du gesagt hast.~
+@2    = ~„Es war einmal ein tapferer Ritter, 
+obwohl er von Frieden träumte, war sein Wesen ernst. 
+Eines Tages traf er die Liebe seines Lebens: 
+eine Elfe mit goldenem Haar, die seine Frau wurde. 
+Sie begleitete ihn auf seiner Suche nach Frieden, 
+und sein strenges Wesen wurde zur Maske, entspannt, 
+denn die Liebe blendete ihn wie einen Narren, 
+ahnungslos über die Tragödie, die ihn bald treffen würde...“~
+@3    = ~Sprichst du mit mir? Wie weißt du das?! Erkläre dich!~
+@4    = ~Sei gegrüßt, mein Herr. Ich bin Madame Nin, und ich bin hier, um sicherzustellen, dass deine Gesellschaft angenehm ist. Bist du interessiert?~
+@5    = ~Nein, Dank. <CHARNAME>, wir sollten eine Lösung dafür finden. Offensichtlich werden diese Menschen gezwungen, hier gegen ihren Willen zu arbeiten.~
+@6    = ~Also... wünschst du dir für heute Abend Gesellschaft?~
+@7    = ~Verdammtes Miststück, hör auf, uns zu belästigen, Dame.~
+@8    = ~Nein, Yoshimo... nein... wie konntest du deine Seele diesem elenden Wesen verkaufen? Verdammt dich, Yoshimo... verdammt dich...~
+@9    = ~Geht es dir gut? Du warst eine Weile bewusstlos.~
+@10   = ~Mir geht es gut, mach dir keine Sorgen.~
+@11   = ~Mein Körper fühlt sich seltsam an, als ob ich nicht die volle Kontrolle hätte...~
+
+@13   = ~So sei es, aber zögere nicht, dich an deine Freunde zu wenden, wenn du es brauchst. Wir müssen zusammenhalten, wenn wir hier lebend herauskommen wollen.~
+@14   = ~Es ist sehr wahrscheinlich, dass der Zauberer etwas Permanentes auf dir geworfen hat... oder vielleicht etwas genommen hat. An Seelen zu denken, jagt mir einen Schauer über den Rücken, aber wenn deine genommen wurde, werden wir sie zurückholen. Das ist ein Versprechen, <CHARNAME>.~
+@15   = ~Was zur Hölle war das? Du bist zu einem blutrünstigen Wesen geworden, völlig verrückt und aus deinen Sinnen. <CHARNAME>, das war der Avatar des Schlächters, nicht wahr? Es war sowohl beeindruckend... als auch erschreckend zugleich.~
+@16   = ~Ich fühle mich nicht sehr wohl mit so vielen (insbesondere verrückten) Zauberern um mich herum. Aber ich glaube, sie haben ebenso viele Gründe wie wir, sich Irenicus zu stellen, <CHARNAME>. Tu, was du für richtig hältst.~
+@17   = ~Dusk, der tapfere Krieger. Sein Blick ist ernst und entschlossen. Du weißt, dass er nicht zögern würde, für seine Ideale oder seine Kameraden zu sterben.~
+@18   = ~Dusk, das ist nicht dein Kampf. Du musst mir nicht folgen.~
+@19   = ~Du hast viel für mich getan, Dusk. Du kannst nach Hause gehen, wenn du willst.~
+@20   = ~Bist du bereit, mir zu folgen? Ich brauche dich an meiner Seite, um zu gewinnen.~
+@21   = ~Wir sind einen langen Weg gekommen, um hierher zu gelangen. Die einzige Option ist zu kämpfen, <CHARNAME>. Wir werden es gemeinsam tun... wir werden es für die Gefallenen tun!~
+
+@27   = ~Wir haben ihn besiegt! Aber... etwas stimmt nicht... was passiert?~
+@28   = ~Eine seltsame Vision, <CHARNAME>. Hast du mich in deine persönliche Hölle gebracht? Wenn wir hier lebend herauskommen, vielleicht lasse ich dich mir ein Bier kaufen.~
+@29   = ~Seit Waukeens Promenade hast du eine Spur von Leichnamen hinterlassen, Irenicus... dein Egoismus und deine Bosheit haben dich völlig geblendet, und viele Unschuldige haben dafür bezahlt. Aber heute werden wir Gerechtigkeit für die Gefallenen bringen. Los geht's, Kameraden, zu den Waffen!~
+@30   = ~Kannst du nicht schlafen? Kein Wunder. Die Dinge, die in letzter Zeit passiert sind... warte, geht es dir gut? Dein Gesicht ist gerade plötzlich blass geworden.~
+@31   = ~Etwas passiert in mir... Renn!~
+@32   = ~Dusk, ich glaube, ich verwandle mich wieder...~
+@33   = ~Raus hier, jetzt!~
+@34   = ~Ich... ich verstehe nicht... versuchst du, mir etwas zu sagen?~ [P_Dusk18]
+@35   = ~<CHARNAME>... geht es dir gut? Diesmal dachte ich, du würdest nicht wieder normal werden...~
+@36   = ~Mach dir keine Sorgen... ich bin sicher, wir werden eine Lösung dafür finden... vielleicht... vielleicht solltest du lernen, diese Kraft zu kontrollieren... Obwohl ich nicht sicher bin, ob das ratsam ist. Irgendetwas sagt mir, dass du unerwünschte Aufmerksamkeit anziehen würdest...~
+
+@37  = ~Dumme Elfen... wir haben eine Qual im Unterreich durchlebt... nur um auf dieses unverdiente Misstrauen zu stoßen...~
+
+@60   = ~Wollen sie sie lebendig verbrennen?... Nein... nur weil sie eine Drow ist? <CHARNAME>, das ist unvorstellbar. Wir müssen etwas unternehmen!~
+@61   = ~*flüsternd* <CHARNAME>, es ist klar, dass wir die waren, die in ihr Zuhause eingebrochen und diese abscheulichen Kreaturen getötet haben. Nicht dass ich mich beschwere, aber ich rieche einen Rattenfänger... Wir müssen wachsam bleiben.~
+@62   = ~Selbst ich kann verstehen, dass Faldorn eine Beleidigung für die Natur ist. Tiere für Rachemorde zu benutzen, ist ein niederträchtiger und feiger Zug. Cernd, ich vertraue darauf, dass du ihr ordentlich eins auswischst.~
+@63   = ~<CHARNAME>, uns mit diesem Wesen zu verbünden bedeutet, uns direkt in einen offenen Krieg gegen die Schattenräuber zu verwickeln. Wir müssen in unseren nächsten Entscheidungen vorsichtig sein... Die Leben vieler Unschuldiger könnten in unseren Händen liegen... Wenn es einen Krieg gibt, möchte ich ihn vermeiden (obwohl das an diesem Punkt fast unmöglich scheint).~
+
+@65   = ~Pass auf, Kreatur. <CHARNAME> mag eine Plage sein (keine Beleidigung beabsichtigt), aber zumindest spricht er deutlich, im Gegensatz zu dir.~ ~Pass auf, Kreatur. <CHARNAME> mag eine Plage sein (keine Beleidigung beabsichtigt), aber zumindest spricht sie deutlich, im Gegensatz zu dir.~
+@66   = ~Es scheint, dass Irenicus noch erreichbar ist. <CHARNAME>, wir müssen die Hindernisse überwinden, die dieses Wesen uns in den Weg stellt, wenn wir das erreichen wollen.~
+@67   = ~Endlich zeigt die Kreatur etwas Emotion. Schon die bloße Erwähnung von Elfen hat sie fast wahnsinnig gemacht.~
+@68   = ~Fanatiker... Ich spüre, dass hier etwas Schlimmes passieren wird, <CHARNAME>...~
+@69   = ~Die Zeit des Urteils ist gekommen, Gaal! Du wirst mit Blut für die unschuldigen Leben zahlen, die wegen dir verloren gingen!~
+@70   = ~Es scheint, dass der Gott die Gestalt eines Biests annimmt. Wir müssen vorsichtig sein, Beholder sind keine Kreaturen, mit denen man leichtfertig umgeht.~
+@71   = ~Fast jedes Jahrhundert?! Verdammt...~
+@72   = ~Das Artefakt gehört nicht uns. <CHARNAME> handelt richtig, zumindest solltest du ihnen den Vorteil des Zweifels geben.~
+@73   = ~Dieser Typ ist ein Langweiler, <CHARNAME>. Ich hoffe wirklich, dass sich unsere Bemühungen lohnen werden.~
+@74   = ~Wenn es eine Sache gibt, die ich vermeiden möchte, dann ist es, im Namen dieses Idioten zu töten, <CHARNAME>. Ich hoffe, du findest die Weisheit, das Richtige zu tun.~
+@75   = ~Offensichtlich ist dies eine Gilde von Trotteln, <CHARNAME>. Für diesen... diesen roten Trottel töten? (seufz) Ich nehme an, ich könnte es handhaben, wenn es notwendig ist.~
+@76   = ~<CHARNAME>, ich hoffe, wir müssen diesmal nicht zu Mord greifen. Ich glaube, wir können etwas mehr... diplomatisch sein, meinst du nicht?~
+@77   = ~Er ist ziemlich charismatisch für einen Dieb. Mal sehen, was er zu sagen hat...~
+@78   = ~Endlich, jemand, der es wert ist, getötet zu werden. Du wirst überrascht sein, das zu hören, aber ich hoffe, wir werden mit der Aufgabe betraut, diesen Bastard zu töten.~
+@79   = ~Dieser Typ ist so charismatisch wie Renal. Ich kann nicht anders, als zu denken, dass wir vielleicht betrogen werden...~
+@80   = ~Ich denke, das Friedhofswesen spielt hier eine Rolle, <CHARNAME>... Es gibt diesen Dieben sicherlich einen Lauf um ihr Gold.~
+@81   = ~Es deutet alles auf ein finales Aufeinandertreffen mit der Kreatur hin, oder? Ich kann es kaum erwarten, ein wenig Unruhe unter den Untoten zu stiften.~
+@82   = ~Und alles kulminierte in der Tragödie der Promenade und dem Tod von Dutzenden unschuldiger Menschen. Ich muss sagen, es war eine Schande, dass du das nicht früher lösen konntest, Aran.~
+
+@20000   = ~Höre, <CHARNAME>, nur weil du deine eigene Quest hast, heißt das nicht, dass du anderen nicht helfen kannst, besonders einem Kind, das seine Mutter verloren hat...~
+@20001	 = ~Wir müssen vorsichtig sein. Das sind die Slums, also ist es potenziell gefährlich, einem Fremden zu vertrauen. Trotzdem, wenn dieser Dussel etwas versucht, wird mein Stab ihn die Sterne sehen lassen.~
+@20002	 = ~Endlich... werden wir den Anführer der Schattenräuber treffen. Er sollte unsere Bemühungen wertschätzen...~
+@20003	 = ~Selbst ich kann verstehen, dass Faldorn eine Beleidigung für die Natur ist. Tiere für Rachemorde zu benutzen, ist eine feige und dreckige Taktik. Jaheira, ich hoffe, du kannst ihr ordentlich eins auswischen.~
+@20007	 = ~Hätte ich nicht besser sagen können, Dusk.~
+@20008	 = ~Was ist das? Ein Stockmann, der mir Warnungen geben will? Du kannst es versuchen, mich aufzuhalten, Stockmann... versuch es einfach...~
+@20009	 = ~Wir werden sehen, Magier... wir werden sehen...~
+@20010	 = ~Eine beeindruckende Kreatur... Man sagt, alte Drachen gehören zu den mächtigsten Wesen in den Reichen... Ich denke, es ist am besten, diesen Kampf zu verschieben... Ich denke...~
+@20011	 = ~Dein Tag der Abrechnung ist gekommen, Drache! Bereite dich vor, unseren Zorn zu spüren!!!~
+@20012	 = ~Grabende Bestien? Ich denke, es könnten Umber Hulks sein... Oder... Riesenschnäuzer.~
+@20013	 = ~Riesenschnäuzer? Boo schaudert bei dem bloßen Gedanken.~
+@20014	 = ~Schnäuzer? Du hast eine blühende Fantasie, Dusk.~
+@20015	 = ~*räuspert sich* Ich denke, ich gehe mit der Theorie der Umber Hulks...~
+@20016	 = ~Es ist möglich, obwohl ich nicht verstehe, warum er so etwas tun würde. Einen offenen Krieg gegen die Städte zu provozieren, ist nicht der Weg, das Gleichgewicht zu bewahren.~
+@20017	 = ~Ich habe einige Druiden getroffen. Auch wenn sie seltsam sein können, sehe ich keinen Grund, warum sie einen sinnlosen Krieg anfangen sollten. Aber vielleicht ist es sehr wahrscheinlich ein Druide.~
+@20018	 = ~Vielleicht, aber warte, bis ich meine Geschichte fortsetze.~
+@20019	 = ~Ich bin mir nicht sicher, ob wir dem Dschinn vertrauen können, <CHARNAME>. Nichts garantiert, dass er sein Wort hält.~
+
+@20020	 = ~Aber was höre ich? Ein kleiner Sterblicher, der die Worte des großen Khan Zahraa anzweifelt. Ich sollte dich für solche Unverschämtheit in eine andere Ebene schicken... aber ich sage dir: Wenn du mir das bringst, was ich verlange, gebe ich dir ein Artefakt, das jemandem deiner... Klasse würdig ist.~
+@20021	 = ~Wir handeln nicht für die Belohnung, Kreatur. Wir tun es, um den Menschen zu helfen, die du unterdrückst. Wenn du dein Versprechen nicht hältst zu gehen, kannst du dir sicher sein, dass du uns gegenüberstehen wirst...~
+@20022	 = ~*lacht* Wie amüsant ihr Menschen seid!~
+@20023	 = ~Ich schulde dir wohl eine Entschuldigung, Dschinn. Immerhin hast du dein Wort gehalten.~
+@20024	 = ~Ah, aber wenn es nicht der misstrauische Sterbliche ist. In der Tat, Wanderer, denk nicht, ich hätte dich vergessen. Dieser Gürtel ist sehr seltsam und ich spüre, dass du ihn nützlicher finden könntest als ich.~
+@20025	 = ~Ich stimme zu, Dusk. Typische Trickserei, die von den Cowled Wizards kommt...~
+@20026	 = ~Boo fragt, warum du Minsc angesehen hast, als du "dickköpfig" gesagt hast.~
+@20027	 = ~*hustet* Oh, nein, mein lieber Minsc. Ich wollte nichts andeuten. Ich erinnerte mich nur an... äh... einen Freund, namens... Munsc. Ja, genau das.~
+@20028	 = ~Munsc? Was für ein großartiger Name! Er muss ein guter Freund von dir sein, Dusk.~
+@20029	 = ~Einer der besten.~
+@20030	 = ~Selbst in der Dunkelheit versuchst du, anderen zu helfen, Rivvil. Du solltest wissen, dass solche Taten im Unterreich zu einem schmerzhaften Tod führen werden.~
+@20031	 = ~Wenn du in Schwierigkeiten wärst, Viconia, würde ich nicht zögern, dir zu helfen. Dafür sind Gefährten da.~
+@20032	 = ~Hmm... Versucht du, mich zu verführen, Abbil? Oh, Dusk, beschütze mich, ich bin ein Fräulein in Not!~
+@20033	 = ~Ha! Ist das, wie du deine Frauen umwirbst? Ich warne dich, du wirst viel mehr als süße Worte brauchen, um mich zufrieden zu stellen, mein lieber Abbil.~
+@20034	 = ~*seufzt* Warum habe ich überhaupt gesprochen?~
+@20035	 = ~D-du siehst nicht so schlecht aus, Dusk. Mach nicht so ein Gesicht. Schließlich würdest du so aussehen, wenn du als Elf geboren wärst. Ein dunkelhäutiger.~
+@20036	 = ~Ja, nun... du hast dich auch nicht viel verändert. Nur dein Hautton hat sich verdunkelt, aber ich kann immer noch deutlich sehen, dass du Aerie bist.~
+@20037	 = ~Ich kann sogar sehen, dass du Ähnlichkeit mit Viconia hast, heh.~
+@20038	 = ~Ich habe das gehört, Rivvil. Deine Witze könnten dich teuer zu stehen kommen.~
+@20039	 = ~Diesmal stimme ich Viconia zu. Dusk, ziehe deine Worte zurück.~
+@20040	 = ~In Ordnung, in Ordnung. Hör auf, mich so anzusehen. *seufzt* Ich glaube, ich rede in letzter Zeit zu viel...~
+@20041	 = ~Verdammnis? <CHARNAME>, wir können nicht zulassen, dass Viconia Schaden zugefügt wird. Einmal mehr wird sie nur nach ihrer Rasse beurteilt!~
+@20042   = ~Beruhige dich, Abbil. Ich kann mich selbst um mich kümmern.~
+@20043   = ~Jetzt beruhige dich, Viconia. Ich bin mir sicher, <CHARNAME> hat nur Spaß gemacht. Sie hat einen ziemlich seltsamen Humor...~
+@83   = ~Dieser Typ ist so unangenehm, <CHARNAME>. Es ist jedoch besser, wenn du ihn weiterhin danach fragst. Ich habe das Gefühl, dass hier mehr vor sich geht, als man sieht.~
+@84   = ~Ich koch vor Wut, <CHARNAME>! Lass uns unser Bestes geben, um diese Sklaven zu befreien und die Schuldigen zur Rechenschaft zu ziehen. Zähle mich dazu.~
+@85   = ~Sklaverei ist ein sehr profitables Geschäft. Der Preis, den wir für die Freiheit zahlen, ist nicht sichtbar, kostet aber viel. Diese ekelhaften Sklavenhändler zu stoppen, ist das Beste, was wir tun können.~
+@86   = ~Wir haben hier etwas Gutes getan, <CHARNAME>. Ich bin mir sicher, dass Hendak sein Bestes tun wird, um die Lebensqualität für die ehemaligen Sklaven zu verbessern.~
+@87   = ~Junge Dame, die Tatsache, dass du kaum entkommen bist, sagt dir das nicht etwas? Aegisfield hat das Richtige getan, indem er uns deinen Namen gegeben hat.~
+@88   = ~Also gibst du es zu... Abschaum. Du wirst für das, was du getan hast, bezahlen...~
+@89   = ~Du musst vorsichtig sein, Leutnant. Der Bastard hat eine Menge tödlicher Fallen aufgestellt, vielleicht sind noch einige übrig. Oh, und wenn ich du wäre, würde ich eine Maske tragen... Der Gestank dort ist... unerträglich.~
+@90   = ~Ich habe keine Beschwerden, diese Quest zu machen, aber dieser Elfenmagier scheint ein wenig instabil zu sein... Ich würde empfehlen, vorsichtig zu sein, egal ob wir Erfolg haben oder nicht.~
+@91   = ~Es war ein seltsames Abenteuer, <CHARNAME>, aber es ist immer gut, sich mit Sklavenhändlern auseinanderzusetzen. Ich hoffe, Raelis hat keine Probleme, dieses Portal zu öffnen...~
+@92   = ~Bist du verrückt, Zauberer? Zu keinem Zeitpunkt haben sie erwähnt, dass wir die Erlaubnis haben, deine dreckigen Zauber einfach so zu verwenden. Denk nicht, dass ich untätig zusehen werde, wenn du Unschuldige mit deiner Magie verletzen willst!~
+@93   = ~Ich bin niemand, der über die Fehler anderer urteilt. Besonders nicht über die, die versuchen, sich zu erlösen, obwohl sie keinen Platz in der Welt haben... Ich hoffe, wir tun das Richtige, <CHARNAME>.~
+@94   = ~Sie bitten dich, ein Angebot anzunehmen, ohne die Einzelheiten im Voraus zu kennen? *seufzt*... typisches feiges Magierverhalten...~
+@95   = ~Ihr Ranger fehlt? Das ist in der Tat seltsam... Gab es irgendwelche Spuren in ihrer Hütte? Vielleicht ist sie einfach nur auf die Jagd gegangen?~
+@96   = ~Ich glaube nicht, dass sie für dieses Geheimnis verantwortlich sind, <CHARNAME>. Sie zu verfolgen, ohne dass sie etwas falsch gemacht haben, wäre ein Fehler. Ich denke, es ist besser, wenn wir weiter ermitteln.~
+@97   = ~Es ist seltsam... aber ich fühle eine merkwürdige Nostalgie, wenn ich sie nur anschaue... Sie sind schöne Kreaturen. Du hast das Richtige getan, indem du sie befreit hast, <CHARNAME>. Sie gehören in den Wald. Und in die Freiheit.~
+@98   = ~Ich bin immer mehr überzeugt, mein Freund, dass deine göttliche Abstammung kein so gut gehütetes Geheimnis ist...~
+@99   = ~Das Mädchen mangelt es nicht an Mut, <CHARNAME>. Ich denke, sie wäre eine gute Ergänzung für die Gruppe. Ich verstehe jedoch auch, wenn du dich entscheidest, ihren Hals bei diesem Vorhaben nicht zu riskieren.~
+
+@103  = ~Offensichtlich ist dieser Typ nicht ganz bei Verstand.~
+@104  = ~Das macht Sinn... Könnte es ein Druide sein?~
+
+@107  = ~*flüstert* Irgendetwas stimmt nicht... Halte deine Wache hoch, nur für den Fall...~
+@108  = ~Von den drei Worten, die dieser Typ sagt, sind vier Lügen. Aber, <CHARNAME>, (trotz des Risikos, von diesem Unhold erneut betrogen zu werden) denke ich, sollten wir ihm zuhören.~
+@109  = ~Verdammtes Saemon...~
+@110  = ~Der Bastard hat uns wieder hereingelegt...~
+@111  = ~Diese arkanen Orte... sie stinken nach Korruption...~
+@112  = ~Es ist seltsam, ich spüre keine magische Energie in diesem Typen. Es ist jedoch klar, dass er nicht bei Verstand ist. Armer Kerl...~
+
+@114  = ~Es ist klar, dass er deinen Freund nicht einfach so gehen lassen wird, <CHARNAME>. Ich denke, wir sollten uns auf einen unvermeidlichen Kampf vorbereiten...~
+
+@116  = ~Sicherlich ist dieser Fischmann sehr stur. Er erinnert mich an jemanden...~
+@117  = ~Diese Zivilisation ist unglaublich. Sie scheint extrem alt zu sein. Ich denke nicht, dass viele Menschen auf diesen... klebrigen Fliesen gestanden haben.~
+@118  = ~Das überrascht mich nicht. <CHARNAME>, deine Bhaal-Abstammung hat sicher etwas damit zu tun.~
+@119  = ~*flüstert* Vielleicht kannst du ihn mit etwas Scharfsinn überzeugen, <CHARNAME>. Wenn du mich nicht verstehst, schick mich, um direkt mit ihm zu sprechen. Ich denke, der Schlüssel liegt im Wort "Kiste"...~
+@120  = ~Ich habe über die Svirfneblin gelesen. Im Allgemeinen sind sie wohlwollende Kreaturen. Wenn sie unsere Hilfe brauchen, sollten wir nicht zögern, <CHARNAME>. Vielleicht können wir sogar etwas Gutes an diesem Ort tun.~
+@121  = ~Ich bin immer noch erstaunt. Diese Drachenlady ist extrem schön. Ein wunderbares Geschöpf.~
+@122  = ~Verdammtes... ich hätte nie gedacht, dass ich eines Tages ein... Drow... werden würde...~
+@123  = ~Siehe da! Es gibt also Probleme im Paradies, huh?~
+@126  = ~Ich hätte von den Elfen der Oberfläche einen wärmeren Empfang erwartet... obwohl ich ihr hohes Maß an Misstrauen verstehen kann.~
+@127  = ~Wir müssen uns beeilen, <CHARNAME>! Die Stadt der Elfen ist in Gefahr. Zum Andenken an Celine werde ich ihr Volk beschützen!~
+
+// Beginn der dlg-Freundschaft
+// **********************************************
+// t1 - GLOBAL 2
+@129  = ~Also, <CHARNAME>... wer war der Magier, der dich in der Promenade angegriffen hat?~
+@130  = ~Sein Name ist Irenicus. Zumindest das konnten wir durch einige Dryaden herausfinden, die er in seinem Verlies gefangen hielt. Und sein Interesse an meiner Abstammung.~ //t1.1
+@131  = ~Sein Name ist nicht wichtig, Dusk. Wichtig ist, dass wir ihn finden und Antworten darauf bekommen, warum er an meiner Abstammung interessiert ist.~ //t1.2
+@132  = ~Ich glaube nicht, dass dies der richtige Zeitpunkt zum Reden ist, Dusk. Vielleicht später.~ //t.0
+
+//t.0 
+
+@144  = ~Sehr gut, sehr gut. Ich werde dich jetzt nicht stören. Aber wisse einfach, dass ich alles, was ich nicht weiß, selbst herausfinden werde, <CHARNAME>.~
+
+//t1.1
+@133  = ~Irenicus, hm? Sein Gesicht war seltsam... als ob kein Leben in seinen Augen wäre. Die Art, wie er durch diese Diebe und Magier fegte... es lässt mich schon beim Nachdenken darüber schaudern.~
+// Fortsetzung in 223, da der Text zu lang war. (GLOBAL 8)
+@134  = ~Aber du hast von Dryaden und Verließen gesprochen... ich würde gerne mehr darüber erfahren, wenn du nichts dagegen hast, natürlich.~
+
+@135  = ~Nach meinen Reisen im Norden und meinen Abenteuern in Baldur's Gate wurde ich entführt, ich weiß immer noch nicht von wem. Dann wachten wir in einer Art Verlies auf. Unsere Flucht verdanken wir Imoens Einfallsreichtum, und auf dem Weg trafen wir diese Dryaden.~ //t1.11
+@136  = ~Der Bastard hatte uns in einem Verlies, und wir trafen auf einige magische Huren. Das ist die Kurzfassung, Dusk. Wir sollten wahrscheinlich unsere Reise fortsetzen.~ //t.0
+
+//t1.11
+@137  = ~Ich hatte das Unglück, einigen Verließen zu begegnen und das Glück, einigen Dryaden zu begegnen. Etwas sagt mir, dass ich, wenn ich lange genug an deiner Seite bleibe, dasselbe wieder erleben werde. Nicht alle Verließen sind schreckliche Orte... und Dryaden sind sicherlich besondere Kreaturen. Nur sie zu erwähnen, bringt mehrere Erinnerungen hervor...~
+@138  = ~Aber das sind Geschichten für ein anderes Mal, mein Freund.~
+@139  = ~Für jetzt ist die einzige Frage, die ich habe, über deine Abstammung... was meinst du damit? Sag mir nicht, dass du mit irgendeinem pomösen Adligen verwandt bist. Du siehst nicht danach aus.~
+
+@140  = ~Das geht dich nichts an, Bursche. Wir haben jetzt wichtigere Dinge zu tun.~ //t.0
+@141  = ~Vielleicht ist es zu früh, um darüber zu reden, Dusk. Aber ich verspreche, dass wir das in der Zukunft tun werden, ja?~ //t1.12
+
+//t1.12
+@142  = ~Einverstanden, <CHARNAME>. Ich nehme dich beim Wort. Ich verspreche, das Gleiche von meiner Seite zu tun. Für jetzt lass mich nur sagen... es ist mir eine Freude, mit dir zu reisen.~
+
+//Option t1.2
+//t1.2
+
+@143  = ~Seltsame Antwort. Ich denke, Namen sind wichtig... so identifizieren wir uns... aber ich respektiere deine Worte.~
+// Wiederverwendung von 139-140-141
+
+
+
+// **********************************************
+// t2 - P_Dusk_T2 --- GLOBAL 4
+
+@145  = ~Nun, die Tage, die wir zusammen verbracht haben, waren interessant, <CHARNAME>. In kurzer Zeit hast du mehr erreicht, als ich mir hätte vorstellen können. Mehr, als ich alleine hätte tun können (zum Guten oder Schlechten). Ich hätte nie gedacht, dass ich hier enden würde, als ich Cormyr verließ.~
+//t2.r0 + t2.3
+@146  = ~Ich glaube nicht, dass dies der beste Zeitpunkt für ein Gespräch ist, Dusk. Es ist besser, wenn wir es für später aufschieben.~
+//t2.r1 *
+@147  = ~Cormyr, huh? Ich erinnere mich, dass du etwas über deine Rolle als Friedensbote erwähnt hast. War das der Ort, an dem dir diese Rolle zugewiesen wurde?~
+//t2.r0 = t2.3 FIN
+@148  = ~So sei es, <CHARNAME>. Ich hatte vor, über meine Vergangenheit zu sprechen und dich ein wenig über deine zu befragen, aber ich denke, ich werde das Letztere im Laufe unseres Abenteuers herausfinden, oder? Lass uns mit der Reise fortfahren.~
+//t2.r1 *
+@149  = ~Das stimmt. Ich komme aus einer Adelsfamilie, den Aldants. In der Vergangenheit kämpften meine Vorfahren an der Seite der Ritter des Ordens des Purpurdrachen. Unsere natürlichen Feinde waren Wesen von bemerkenswerter Kraft...~
+@172  = ~Lichs... Zauberer, die ihre Seelen für Unsterblichkeit verkauft haben. Eine Feindschaft, die bis ins Zeitalter der Nether zurückreicht. Viele meiner Blutlinie fielen im Kampf gegen diese abscheulichen Untoten...~ 
+@150  = ~Obwohl ich die Geschichte der Aldants kenne, bin ich nicht besonders stolz darauf. Zumindest nicht mehr. Man könnte sagen, dass ich das schwächste Glied der Familie bin... und um das Ganze noch zu toppen, der letzte Nachkomme. Obwohl... ich denke, das ist in Ordnung.~ 
+@151  = ~Aber ich muss aus diesen Gedanken herauskommen. Wie ich bereits sagte, bin ich in Cormyr aufgewachsen und habe mich beim Purpurdrachenheer verpflichtet. Das Land, wie du vielleicht schon weißt, wird von der Familie Obarskyr regiert. Sie sind gute Regent*innen, <CHARNAME>. Sie kümmern sich um ihr Volk und um den Frieden in Faerûn.~ 
+@173  = ~Deshalb haben sie ein kleines Kontingent beauftragt, um zu sehen, was zwischen Tethyr und Amn passiert.~ 
+@152  = ~Die Gerüchte über einen bevorstehenden Krieg wurden immer häufiger... sogar einige Kämpfe hatten bereits im Wald von Mir stattgefunden, wobei Tethyr-Truppen von geheimnisvollen Überfällen angegriffen wurden.~
+//t2.r2 ** ir a @157 + t2.4
+@153  = ~Das ist langweilig, Dusk. Willst du über meine Abstammung hören? Ich denke, das wäre interessanter als diesen Unsinn, den du mir erzählst.~
+//t2.r3 *** IR A @158 (CONT)
+@154  = ~Einige Stadtwahrer in Athkatla schreien über die Gerüchte, von denen du sprichst. Cormyrs Interesse an der Angelegenheit bestätigt die Wahrheit der Möglichkeit eines Krieges, die du erwähnst.~
+//t2.r4 **** IR A @156 (FIN)
+@155  = ~Äh... schau auf die Uhr, Dusk. Wir sollten wahrscheinlich die Reise fortsetzen. Wir können das Gespräch ein anderes Mal fortsetzen, oder?~
+//t2.r4 **** = t2.6 FIN
+@156  = ~So sei es, <CHARNAME>. Ich werde dich nicht noch einmal nach deiner Abstammung fragen. Was meine Vergangenheit betrifft, denke ich, dass du sie selbst beurteilen kannst, wenn die Zeit kommt.~
+//t2.r2 ** ir a @161
+@157  = ~Ähm... nun, <CHARNAME>, wie du sagst. Ich nehme an, du wirst meine Vergangenheit mit der Zeit beurteilen können, während die Zeit zwischen uns vergeht.~
+//t2.r3 ***
+@158  = ~Wir wussten wenig über die Echtheit solcher Geschichten. Unsere Mission war klar: herauszufinden, worum es bei diesem Geheimnis ging und einen Krieg zu vermeiden, wenn möglich. Tethyr und Amn sind immer, alles in allem, vernünftige Nationen. Ein großangelegter Krieg wäre nicht gut für den Handel, den sie beide hier in Amn rühmen. Wie du sehen wirst, hatte ich bereits einen Plan, um mit den Adligen umzugehen.~ 
+@171  = ~Aber... zuerst mussten wir nach Tethyr... und dafür... mussten wir die Trollhügel durch die Riesenebenen flankieren...~
+//t2.r3.1 ***
+@159  = ~Geht es dir gut, Dusk? Du bist plötzlich blass geworden.~
+//t2.r3.1 *** ir a @161
+@160  = ~Mir geht es gut, <CHARNAME>, mach dir keine Sorgen. Wenn es dir nichts ausmacht, erzähle ich dir von diesen Ereignissen ein anderes Mal. Jetzt denke ich, könnten wir über etwas anderes reden, findest du nicht?~
+//t2.r2 **
+@161  = ~Jetzt bist du dran... bist du in der Stimmung, über deine Abstammung zu sprechen?~
+//t2.r5 ir a @144
+@162  = ~Hmm... ich denke, es ist besser, wenn wir nicht darüber reden, Dusk. Ich habe keine Lust dazu. Außerdem denke ich, du wirst es selbst herausfinden.~
+//t2.r6 ******
+@163  = ~Der Grund, warum Irenicus, der Magier, der die Katastrophe an Waukeens Promenade verursachte, an mir interessiert ist, liegt an meiner Abstammung: Ich bin eines der Bhaalabkömmlinge.~
+//t2.r6 ******
+@164  = ~Bhaal? Er ist... der Herr des Mordes... Ich spürte eine göttliche Aura in dir, mein Freund... aber ich hätte nie gedacht, dass es etwas so ist... Bedeutet das, dass du eine Art Halbgott bist?~ ~Bhaal? Er ist... der Gott des Mordes... Ich spürte eine göttliche Aura in dir, mein Freund... aber ich hätte nie gedacht, dass es etwas so ist... Bedeutet das, dass du eine Art Halbgöttin bist?~
+//t2.r6 ****** alle gehen zu @168
+@165  = ~Das stimmt, Dusk. Ich bin ein Halbgott, fähig, dich in eine Eidechse zu verwandeln, wenn ich will. Siehst du die Fingerbewegungen, die ich mache? Deine Schuppen werden gleich zu wachsen beginnen.~ ~Das stimmt, Dusk. Ich bin eine Halbgöttin, fähig, dich in eine Eidechse zu verwandeln, wenn ich will. Siehst du die Fingerbewegungen, die ich mache? Deine Schuppen werden gleich zu wachsen beginnen.~ 
+@166  = ~Ich glaube nicht, dass ich besonderer bin als irgendein Wesen, das du kennst, Dusk. Aber lass mich dir Folgendes sagen: Halbgott von Bhaal zu sein, hat mir viele Probleme gebracht. Ich denke, ich würde es vorziehen, mit einem pomösen Adligen verwandt zu sein, wie mir einmal gesagt wurde.~ 
+@167  = ~Ich fühle mich nicht wie eine Gottheit. Tatsächlich fühle ich mich gerade jetzt eher durstig und müde. Könntest du diesem Nachkommen von Bhaal, Dusk, ein Getränk kaufen?~
+//t2r7
+@168  = ~Sehr lustig, <CHARNAME>. Obwohl ich zugebe, dass du mir ein Lächeln entlockt hast.~ 
+@169  = ~Aber ich sehe, dass dein göttliches Erbe kein Scherz ist. Die bloße Anwesenheit eines so mächtigen Wesens wie Irenicus beweist es. Ich nehme an, du hast keine Ahnung, warum er hinter dir her ist... aber wenn es hilft, <CHARNAME>, verspreche ich, an deiner Seite zu bleiben, bis wir herausfinden, was dieser Narr plant.~ 
+@170  = ~Nun... wir hatten ein gutes Gespräch. Meine aufrichtigsten Entschuldigungen, meine <LADYLORD>. Wir sollten unsere Reise besser fortsetzen.~
+// Kommt von 133, weil der Text dort zu lang war. (GLOBAL 2)
+@223  = ~Die Cowled Wizards sind eine der Organisationen, die Athkatla regieren, und um eine so wichtige Stadt in Amn zu regieren, benötigt man eine Menge Macht... aber dieser Magier... er hat mehrere vermummte Magier ohne auch nur ins Schwitzen zu kommen ausgeschaltet... Es ist unglaublich.~
+// Sigue en 134, GLOBAL 2
+
+//171 - 172 - 173
+
+// **********************************************
+// t3 - P_Dusk_T3  -- GLOBAL 6
+
+@174  = ~Ich denke, ich kann dir jetzt von der Riesenebene und dem Wald der Schatten erzählen, <CHARNAME>. Möchtest du von meinem Kampf gegen die Orks und Bergtrolle hören?~
+
+@175  = ~Nun, Dusk. Ich bin gespannt auf deine Geschichte.~
+
+@176  = ~Um ehrlich zu sein, würde ich es vorziehen, wenn du mir die kurze Version gibst, Dusk. Deine Erzählungen sind überhaupt nicht unterhaltsam.~
+
+@177  = ~Eine... kurze Version? Nun, ich schätze, ich sollte dir sagen, dass mein gesamter Cormyr-Abteilung bei einem Überfall von Orks und Trollen ausgelöscht wurde... und ich wäre fast getötet worden... hätte es nicht einen elfischen Bogenschützen namens Celine gegeben. Kurz genug für dich? Verdammt, <CHARNAME>...~
+
+@178  = ~Nach unserer Landung in Ilipur führte ich meine Abteilung nach Süden. Der Plan war, die Riesenebene zu überqueren und in das Land Tethyr zu gelangen. Einige Nächte hatten wir keine Probleme... aber...~
+@179  = ~Es war nahe der Mündung des Esmel-Flusses... wir wurden von einer Ork-Armee angegriffen, die einige Trolle in ihren Reihen hatte.~
+@180  = ~Meine Abteilung bestand aus nicht mehr als zwanzig Männern, tapferen Kriegern von Cormyr, die von den Rittern des Ordens des Lila Drachen ausgebildet wurden...~
+@181  = ~Aber sie waren in der Überzahl... vielleicht dreifach so viele. Und das war nur in der ersten Nacht einer Reihe von Angriffen.~
+@182  = ~Mit Mut kämpften wir und konnten die erste Welle besiegen. Wir verloren etwa fünf Soldaten. Das war, als die zweite Welle ankam.~
+@183  = ~Dieses Mal mussten wir uns zurückziehen. Nach ein paar Tagen waren unsere Ressourcen bereits knapp, da wir viele Feuerpfeile und Säuregeschosse verwendet hatten, um die Bergtrolle zu besiegen.~
+@184  = ~Als uns die Munition ausging, war unsere Zahl drastisch gesunken. Wir verloren zehn weitere Kameraden... und dann überkam uns das Chaos.~
+@185  = ~Die wenigen Überlebenden flohen nach Osten, in einen bewaldeten Bereich. Erschöpft, am Eingang des Waldes, drehten wir uns um und kämpften erneut.~
+@186  = ~Wir konnten die Orks töten, aber die Trolle standen nach ein paar Minuten wieder auf, vollständig regeneriert von ihren Wunden.~
+@187  = ~Ich befahl meinen Männern, sich zurückzuziehen... ich glaube, die Trolle haben viele von ihnen erwischt...~
+
+@188  = ~Ich kämpfte weiter mit meinem Bastardschwert und führte die Schlacht in die Dunkelheit des Waldes.~
+@189  = ~Rage erfüllte meine Brust. Ich fühlte, dass mein Versagen meinen Hass auf diese schrecklichen Kreaturen nährte, weil ich meine Mission, Frieden in die südlichen Nationen zu bringen, nicht mehr erfüllen konnte... Und ich kämpfte weiter...~
+@190  = ~Der riesige Troll, dem ich gegenüberstand, schien sich nicht um die Wunden zu kümmern, die ich mit meinem Schwert verursachte. Das grünliche Blut, das aus seinen Schnitten floss, hörte nach ein paar Sekunden auf zu fließen... schließlich zerbrach mein Schwert.~
+@191  = ~Ich wusste, dass es sinnlos war, weiterzukämpfen, aber trotzdem zog ich meinen Stab. Ich konnte ihm einige gute Treffer an seinen Gliedern versetzen, aber auch er landete einen tödlichen Schlag.~
+@192  = ~Er zerbrach meine Kettenrüstung und ich fiel auf das Gras, am Fuße einer üppigen Zeder. Ich hatte eine Wunde am Kopf und Blut tanzte auf meinen Wangen und in meinem linken Auge.~
+@193  = ~Erschöpft sah ich zum Himmel hinauf, durch die Äste und Blätter der Bäume... die Sterne leuchteten im Kosmos und ich dachte, meine Zeit sei gekommen.~
+@194  = ~Da blitzte es plötzlich vor mir auf. Ein Glanz, als wäre es ein Meteor. Das nächste, was ich hörte, war der wilde Schrei des Wesens und ein scharfer Aufprall auf dem Boden...~
+@195  = ~Ein Feuerpfeil hatte sich in das Herz des Monsters gebohrt... und als das Licht des Feuers mit dem glaukösen Blut des Trolls erlosch... sah ich sie...~
+
+@196  = ~Was hast du gesehen, Dusk?~
+
+@197  = ~Sie... meine Retterin... Eine Elfe mit goldenem Haar, die einen Langbogen hielt und einen Pfeil auf mich zielte.~
+@198  = ~Ihre Stimme war so sanft wie der Lufthauch eines Herbstmorgens: 'Du hast Shilmista, Mensch, Unglück gebracht', sagte sie. Dann... verlor ich das Bewusstsein...~
+@199  = ~*seufz* Ich glaube, das ist alles, was ich dir für jetzt erzählen kann, <CHARNAME>. Später werde ich die Geschichte fortsetzen. Wenn du willst, natürlich.~
+
+@532  = ~<CHARNAME>, es ist Zeit, meine Geschichte fortzusetzen. Von den Elfen und dem Wald der Schatten. Glaub mir, wenn ich sage, dass am Ende alles Sinn machen wird.~
+@533  = ~*flüstern* Obwohl es etwas dauern könnte...~
+@534  = ~Sehr gut, Dusk. Ich höre zu.~
+
+@200  = ~<CHARNAME>, ich denke, es ist ein guter Zeitpunkt, meine Geschichte fortzusetzen, oder? Von den Elfen und dem Wald der Schatten.~
+
+@201  = ~Ah! Wirst du mir von der Elfe erzählen, die dein Leben gerettet hat? Ich bin interessiert.~
+@202  = ~Es ist gerade nicht der richtige Zeitpunkt, Dusk. Vielleicht ein anderes Mal.~
+@203  = ~In Ordnung, <CHARNAME>. Ein anderes Mal dann.~
+
+@204  = ~Nach meinem schicksalhaften Kampf gegen den riesigen Troll und meinem anschließenden Verlust des Bewusstseins wurde ich durch den Gesang einiger Vögel geweckt.~
+@205  = ~Ich war ohne meine Kettenrüstung und meine Waffen. Obwohl... meine Wunden waren bandagiert.~
+@206  = ~Ich hatte einen seltsamen Geschmack im Mund. Mir wurde klar, dass mir jemand einen Heiltrank gegeben hatte und deshalb meine Wunden schnell heilten.~
+@207  = ~„Endlich bist du erwacht“, sagte eine sanfte Stimme, die ich erkennen konnte.~
+@208  = ~Wenn in der Dunkelheit der Nacht die Schönheit dieser Elfe blendend war, war sie im Sonnenlicht ein göttliches Bild vor den flüchtigen Augen eines Menschen.~
+@209  = ~Nicht nur hatte sie mein Leben gerettet, sondern sie hatte auch meine Wunden geheilt und Vorräte wie Essen und Wasser mitgebracht.~
+@210  = ~Sofort tauschten wir unsere Namen aus. Sie war Celine von Shilmista, dem Wald, in dem wir uns befanden.~
+
+@211  = ~Shilmista. Ich glaube, ich habe schon von diesem Ort gehört. Er ist auch als Wald der Schatten bekannt.~
+@212  = ~*gähn* Wird das lange dauern? Romantische Geschichten langweilen mich. Gib mir einfach die Zusammenfassung, Dusk.~
+@213  = ~Die... Zusammenfassung? Nun... ich würde sagen, dass Celine irgendwann beschloss, mir bei meiner Mission zu helfen, Frieden zwischen Tethyr und Amn zu bringen. Gefällt dir diese Zusammenfassung, <CHARNAME>? (Verdammter A, manchmal kann sie so ein freches kleines Gör sein)~ ~Die... Zusammenfassung? Nun... ich würde sagen, dass Celine irgendwann beschloss, mir bei meiner Mission zu helfen, Frieden zwischen Tethyr und Amn zu bringen. Gefällt dir diese Zusammenfassung, <CHARNAME>? (Verdammter A, manchmal kann er so ein freches kleines Gör sein)~
+@214  = ~Tatsächlich, <CHARNAME>. Die Elfen von Shilmista sind ziemlich misstrauisch gegenüber Außenseitern. Und ich kann es ihnen nicht verübeln, denn vor einigen Jahren hatten sie Probleme mit Untoten und Dämonen, die mysterös aus dem Norden kamen.~
+@215  = ~Es wäre verständlich gewesen, wenn sie mich meinem Schicksal überlassen hätten, da ich eine kleine Gruppe von Trollen zum Eingang des Waldes angelockt hatte.~
+@216  = ~Glücklicherweise war es Celine, die mich fand.~
+@217  = ~Sie war nicht wie der Rest ihres Stammes (den ich in Zukunft kennenlernen würde). Sie hatte eine große Neugier auf die Außenwelt.~
+@218  = ~Das Emblem auf meiner Rüstung, das des Lila Drachen, erregte ihre Aufmerksamkeit. Sie hatte dutzende Geschichten über die Ritter von Cormyr gehört. Ich glaube, zum Teil wegen dieses Emblems beschloss sie, mich zu retten.~
+
+@219  = ~Du klingst etwas nostalgisch, wenn du von ihr sprichst.~
+
+@220  = ~Wie jede gute Erinnerung, <CHARNAME>.~
+@221  = ~Von ihr zu sprechen ist wie den Duft von nassem Erdreich zu spüren... die elektrische Berührung der Luft, bevor es regnet... den süßen Geschmack von frischem Wasser aus einer Quelle an einem Sommermorgen. Das ist, was Celine für mich ist.~
+@222  = ~Ich denke... ich denke, das reicht für heute, <CHARNAME>. Ich werde die Geschichte später fortsetzen. Jetzt... jetzt muss ich allein sein.~
+
+@535  = ~Hm... es ist mir egal, wie es für dich klingt, <CHARNAME>.~
+@536  = ~Was ich hier erzähle, habe ich niemandem sonst erzählt.~
+@537  = ~Nutze diese Informationen als etwas Feierliches, Kind von Bhaal. Wenn du mich bis zum Ende begleitest, verspreche ich dir, dass du belohnt wirst...~
+
+// **********************************************
+// t5 - P_Dusk_T5 GLOBAL 10
+@538  = ~<CHARNAME>, będę kontynuować swoją opowieść. Czy pamiętasz, co było ostatnią rzeczą, którą opowiedziałem?~
+
+@224  = ~Czy masz ochotę mnie posłuchać, <CHARNAME>? Mogę zacząć tam, gdzie ostatnio skończyliśmy.~
+
+@225  = ~Czy masz na myśli to, że byłeś zauroczony leśną elfką? Nic bym nie chciał usłyszeć więcej.~
+@226  = ~Kontynuować historię o leśnej dziewczynie, która uratowała ci skórę? Pewnie, Dusk.~
+
+@227  = ~Myślę, że mówiłeś o swoim pobycie w Shilmista, prawda?~
+@228  = ~Może innym razem, Dusk. Mamy teraz ważniejsze sprawy do załatwienia.~
+
+@229  = ~*kaszląc* Myślę, że nie mogę zaprzeczyć temu złośliwemu komentarzowi, mój drogi przyjacielu. Ale w każdym razie...~
+
+@230  = ~To prawda... po wymianie historii, Celine i ja poznaliśmy się lepiej.~
+@231  = ~Była bardzo zainteresowana moim dzieciństwem, moją rodziną, moją ojczyzną. Zadawała mi wiele pytań o metody walki rycerzy z Zakonu Purpurowego Smoka i o moich poległych towarzyszy w bitwie.~
+@232  = ~Sama miała duże doświadczenie w walce z orkami, trollami, a nawet stworzeniami z innych wymiarów, takimi jak demony.~
+@233  = ~Na pierwszy rzut oka Celine mogłaby uchodzić za delikatną elfkę. Smukła, mała... ale lekceważenie jej mogłoby się skończyć śmiercią.~
+@234  = ~Była niezwykle zwinna i biegła w użyciu łuku i strzały. W walce wręcz doskonale radziła sobie z użyciem mieczy długich, scymitarów, a nawet sztyletów, w zależności od sytuacji.~
+@235  = ~Jej infravizja pozwalała jej obserwować duże odległości w lesie, a zawsze ostrzegała swoich towarzyszy, gdy coś było nie tak.~
+@236  = ~Mówię ci, <CHARNAME>, gdybyś ją spotkał, polubiłbyś ją. Była niemal tak uparta jak ty.~
+
+@237  = ~Naprawdę? Nikt nie jest bardziej uparty ode mnie, Dusk.~
+@238  = ~Jestem tego pewien, mój przyjacielu. Wędrowiec zawsze jest przydatny w drużynie przygód.~
+
+@239  = ~*uśmiechając się* To prawda...~
+@240  = ~Kontynuując moją opowieść, doszedłem do momentu, w którym powiedziałem jej o mojej misji w Tethyr. I zdecydowała, że nadszedł czas, aby poznać elfią plemię Shilmista.~
+@241  = ~Szczerze mówiąc... nie spodziewałem się spotkać ich illustriusza króla... dzikiego elfa Elberetha.~
+
+@242  = ~Nie mów mi, że spotkałeś elfią króla, Dusk. To brzmi nieco niewiarygodnie.~
+@243  = ~Słyszałem o Elberethie. Był bohaterem wojennym, jak rozumiem. Miałeś szczęście.~
+@244  = ~Rzeczywiście... prawie bym się posikał w twoich butach, Dusk. W końcu właśnie sprowadziłeś inwazję trolli do jego lasu. Wyobrażam sobie, że nie było to ciepłe powitanie.~
+
+@245  = ~Cóż... tak... muszę przyznać, że szczęście było po mojej stronie... chociaż bardziej niż szczęście, to była Celine.~
+@246  = ~Przedstawiła mnie i, chociaż spodziewałem się zimnego przyjęcia od ich króla, szczerze mówiąc, zostałem dobrze przyjęty. Ponownie, Celine musiała wstawić się za mną.~
+@247  = ~Czułem ciekawski wzrok wielu elfów, którzy, ku mojemu zaskoczeniu, nie byli zdziwieni, widząc człowieka wśród nich.~
+@248  = ~Król Elbereth powiedział mi, że kilka lat temu był z nimi ludzki kapłan, więc już nie było tak dziwnie widzieć nas w ich lasach.~
+@249  = ~Nie zwracał zbytniej uwagi na szczegóły, ponieważ bardziej interesowało go to, co miałem do powiedzenia.~
+@250  = ~Więc natychmiast zaczynałem swoją opowieść; dlaczego Cormyr był zainteresowany uniknięciem wojny na południu.~
+@251  = ~Na moje szczęście, Elbereth zrozumiał moją sytuację. Chociaż odmówił udzielenia mi bezpośredniej pomocy. Powiedział, że jeśli plan Cormyru zawiedzie, a na dodatek Shilmista weźmie w tym udział, będą zaangażowani w krwawą wojnę z ludźmi.~
+@252  = ~Szczerze mówiąc, byłem nieco rozczarowany, słysząc to. Jednak Celine znów interweniowała. Powiedziała, że zaoferuje mi towarzyszenie. Ufała, że razem możemy uniknąć niepotrzebnej wojny.~
+@253  = ~Elbereth nie sprzeciwił się jej. Podejrzewałem, że pomimo jego monarszej pozycji, nie będzie w stanie odwieść upornej Celine. Więc w końcu zgodził się.~
+@254  = ~Dodatkowo Elbereth zaoferował naprawę mojego miecza, tego, który został pierwotnie wykuty w Cormyrze, a także wzmocnienie mojej laski, tej, którą odziedziczyłem po rodzinie Aldantów.~
+@255  = ~Naprawili także moją kolczugę, chociaż nie przywrócili emblemu Purpurowego Smoka; zamiast tego zostawili na niej kilka elfickich symboli, a kolor mojego ludu pozostał: rodzaj połączenia obu narodów.~
+@256  = ~W tym momencie poczułem dumę. W pewien sposób zostałem zaakceptowany wśród elfów.~
+@257  = ~I wtedy, następnego ranka, Celine i ja wyruszyliśmy w stronę Tethyr.~
+@258  = ~Niewiele wiedziałem o trudnościach, które czekały na nas po drodze... chociaż... chociaż nie wszystko było złe. W końcu... ona była ze mną... zawsze...~
+@259  = ~Myślę... myślę, że powinienem tu skończyć, <CHARNAME>. Lepiej będzie, jeśli kontynuujemy.~
+
+@539  = ~Celine była tą, która interweniowała, żebym mógł spotkać tę... osobistość.~
+@540  = ~Chociaż spodziewałem się zimnego przyjęcia od Elberetha, szczerze mówiąc, wszystko było akceptowalne.~
+@541  = ~Król elfów opowiedział, że kilka lat temu był z nimi ludzki kapłan, więc już nie było tak dziwnie widzieć nas w ich lasach.~
+@542  = ~Szczerze mówiąc, byłem rozczarowany elfami... Poza Celine. Znów interweniowała. Powiedziała, że zaoferuje mi towarzyszenie. Ufała, że razem możemy uniknąć niepotrzebnej wojny.~
+@543  = ~W tym momencie poczułem dumę. Bycie zaakceptowanym wśród elfów było powodem... byłem głupcem. Ale to teraz nie ma znaczenia...~
+@544  = ~Następnego ranka Celine i ja wyruszyliśmy w stronę Tethyr.~
+@545  = ~To wszystko na dzisiaj, <CHARNAME>. Lepiej będzie, jeśli kontynuujemy naszą podróż.~
+
+// **********************************************
+// t6 - P_Dusk_T6 GLOBAL 12
+
+@546  = ~Es ist Zeit, dass du hörst, wie meine Geschichte weitergeht, <CHARNAME>.~
+@260  = ~Ich bin bereit, die Geschichte fortzusetzen, <CHARNAME>. Ich bin bereit, wann immer du es bist.~
+
+@261  = ~Ich sehe, dass du mir jetzt von deiner Reise nach Tethyr erzählst, nicht wahr?~
+@262  = ~Vielleicht später, Dusk. Wir alle wissen, dass der Krieg abgewendet wurde, also könntest du das zusammenfassen, meinst du nicht?~
+
+@263  = ~Es stimmt, dass der Krieg abgewendet wurde, hauptsächlich durch das Bündnis zwischen Elfen und Menschen, aber der Punkt hier war, dir von meiner Beziehung zu Celine zu erzählen... aber ich nehme an, das interessiert dich nicht...~
+@264  = ~In diesem Fall bleibt nur zu sagen, dass sie mir alles bedeutete... und dass ich nicht hier wäre, wenn sie mir nicht... unzählige Male das Leben gerettet hätte... Du willst vielleicht jetzt nicht zuhören, aber sei versichert, <CHARNAME>, ich werde auf das Thema zurückkommen.~
+
+@265  = ~Die Morgendämmerung brach an und mit ihr unser Aufbruch aus dem Schattenwald.~
+@266  = ~In den ersten Tagen suchten Celine und ich nach Überlebenden des Orkangriffs.~
+@267  = ~Leider fanden wir niemanden... Ich schätze, wenn sie überlebt haben, wären sie nach Cormyr zurückgekehrt oder vielleicht nach Amn, Riatavin oder Tethyr geflohen.~
+@268  = ~Also schmiedeten wir einen Plan, um den Sulduskoon-Fluss zu erreichen und ihn als Führer zum Schloss von Tethyr zu nutzen.~
+@269  = ~Mit etwas Glück würde der bald gekrönte Prinz Haedrak III. uns unterstützen, um Frieden mit Amn zu schließen.~
+
+@270  = ~Es ist sehr wahrscheinlich, dass Amn derjenige ist, der den Krieg gegen Tethyr sucht, meinst du nicht? Ein neuer König ist die perfekte Ausrede.~
+@271  = ~Ich habe ehrlich gesagt keine Ahnung, wovon du sprichst, Dusk. Aber bitte, fahre fort.~
+
+@272  = ~Ich hatte den Verdacht, dass die Gerüchte über den Krieg hier in Amn entstanden... Aber es scheint jetzt unbedeutend zu sein. Die Wahrheit ist, dass ich in diesem Moment nicht daran dachte...~
+@273  = ~Meine Aufmerksamkeit lag auf Celine.~
+
+@547  = ~Wie du gut weißt, <CHARNAME>, sind Elfen Geschöpfe mit einer langen Lebensspanne. In menschlicher Zeit war Celine viel älter als ich. Trotzdem schien sie von all der Pracht Tethyrs beeindruckt zu sein.~
+
+@274  = ~Himmel, <CHARNAME>, Elfen sind prächtige Wesen. Ihre Lebensspanne ist wirklich lang und dennoch schien Celine, wie eine junge Dame, von all der Pracht Tethyrs fasziniert zu sein.~
+@275  = ~Das Wetter war warm, also reisten wir die meiste Zeit leicht.~
+@276  = ~Wir nutzten die Sommersonnenwende, um in Wiesen zu ruhen und Picknicks an Bächen und Seen zu machen.~
+@277  = ~Wir verbrachten viele Nachmittage im Schatten von Eichen und Zedern, redeten stundenlang über Geschichten und Träume, die wir hatten.~
+
+@548  = ~...~
+
+@278  = ~Ohne es zu merken, verliebten wir uns...~
+
+@279  = ~Warum hast du plötzlich aufgehört zu sprechen? Ich möchte wissen, wie die Geschichte weitergeht...~
+
+@549  = ~Es tut mir leid für mein Schweigen, <CHARNAME>. Manchmal... wandert mein Geist in die Vergangenheit. *räuspert sich* Ich werde mit der Geschichte fortfahren.~
+
+@280  = ~Ich entschuldige mich, wenn mein Schweigen die Geschichte unterbricht, <CHARNAME>. Diese Erinnerungen... machen mich sehr nostalgisch.~
+
+@550  = ~Der Weg, den wir reisten, war gefährlich...~
+
+@281  = ~Liebe ist egoistisch... aber trotzdem ließen wir unsere Gefühle nicht in unsere Mission eingreifen. Der Weg, den wir reisten, war gefährlich...~
+
+@282  = ~Gelegentlich waren wir gezwungen, gegen Goblins und Hobgoblins zu kämpfen. Wir retteten Karawanen vor Bugbear-Angriffen und retteten mehrere Reisende vor Untoten und Xvart.~
+@283  = ~Wir waren eine großartige Gruppe. Wir taten Gutes, wo wir konnten, und brachten Frieden in kleine Gemeinschaften in der Nation Tethyr.~
+
+@551  = ~Aus irgendeinem Grund waren wir überzeugt, dass unsere Mission ein Erfolg sein würde. Bis zu dem Punkt, dass wir ein Gespräch darüber führten, was wir tun würden, sobald wir unser Ziel erreicht hätten.~
+
+@284  = ~Wir waren völlig überzeugt, dass unsere Mission ein Erfolg sein würde. Bis zu dem Punkt, dass wir ein Gespräch darüber führten, was wir tun würden, sobald wir unser Ziel erreicht hätten.~
+@285  = ~Wir planten eine Reise nach Cormyr, damit sie meine Heimat sehen konnte. Ich würde als Held in den Hafen von Suzail zurückkehren und dort würden meine Freunde und Gefährten die Frau meines Lebens kennenlernen: Celine.~
+@286  = ~Sie war begeistert, dies zu hören. Und sie ermutigte mich, weiterhin mit ihr zu reisen. Um den Wald von Mir, die Glänzenden Ebenen, Calimshan, die Wolkenberge zu sehen...~
+
+@552  = ~Ihre Stimme war eine sanfte Melodie, die stundenlang in meinem Geist tanzte... *räuspert sich* Sieh mich nicht so an, <CHARNAME>.~
+
+@287  = ~Ihr zuzuhören war das, was ich am meisten genoss. Ihre Stimme war eine sanfte Melodie, die stundenlang in meinem Geist tanzte. Dieses Gefühl heraufzubeschwören, bringt immer noch Ruhe in mein Herz.~
+
+@553  = ~Über sie zu sprechen, verursacht ein seltsames Gefühl von Traurigkeit und Glück in mir...~
+
+@288  = ~Über sie zu sprechen, verursacht ein seltsames Gefühl von Traurigkeit und Glück. Eine süße Melancholie.~
+@289  = ~Schließlich erreichten wir das Schloss von Tethyr... und ich denke, das ist, wo ich meine Geschichte für heute beenden werde, <CHARNAME>. Ich werde meine Erzählung später fortsetzen, ja? Danke, dass du zugehört hast.~
+
+@554  = ~Schließlich erreichten wir das Schloss von Tethyr... und das ist, wo ich meine Geschichte für heute beenden werde, <CHARNAME>. Ich werde meine Erzählung später fortsetzen. Lass uns weitermachen.~
+
+// **********************************************
+// t7 - GLOBAL 14
+@290  = ~An einem Tag wie heute, in Bezug auf das Wetter, kamen Celine und ich am Schloss Tethyr an...~
+
+@291  = ~Ah, du bist endlich in der Stimmung, deine Geschichte fortzusetzen, Dusk. Komm schon, ich möchte dich hören.~
+@292  = ~Hmm... bist du plötzlich in der Stimmung für ein Gespräch? Vielleicht können wir ein anderes Mal sprechen. Ich würde es begrüßen, wenn du das aufschieben könntest, ja?~
+
+@293  = ~Nun gut, <CHARNAME>. Lass mich dir nur sagen, dass wir unser Ziel erreicht haben. Tethyr hatte nie die Absicht, gegen Amn zu kämpfen... aber der Kern meiner Geschichte hat wenig mit Kriegsgerüchten zu tun... darüber werden wir ein anderes Mal sprechen.~
+
+@294  = ~Nicht lange her, besiegten Prinz Haedrak und Zaranda Star Yusuf, den Tyrannen, in der Belagerung von Myratma. Obwohl ihre Krönung noch nicht vollzogen war, wusste jeder, dass sie über Tethyr herrschen würden.~
+@295  = ~Mit Celine machten wir uns auf den Weg nach Faerntarn in Darromar, einst die Halle der Gallowglass. Es wird gesagt, dass Zaranda selbst ihr Vermögen eingesetzt hat, um das Schloss in seinen früheren Glanz zu restaurieren.~
+@296  = ~Viele sprachen von der Reise, die Haedrak unternommen hatte, um die Zukunft seiner Herrschaft zu sichern, was für unsere Mission eine Katastrophe gewesen wäre, hätte nicht die edle Zaranda dort in Faerntarn gestanden.~
+@297  = ~Als wir ankamen, war das Schloss noch im Umbau, aber Zaranda war damit beschäftigt, es zu überwachen.~
+@298  = ~Als wir erklärten, dass wir aus Cormyr und Shilmista kamen, zögerte Zaranda nicht, uns eine Audienz zu gewähren.~
+@299  = ~Bei unserem ersten Treffen waren mehrere Adelige und Berater (bald königliche) anwesend, Kleriker, Ritter, Händler und Zaranda selbst. Ich erklärte schnell meinen Fall und erzählte, was seit unserer Ankunft in Ilipur bis zu unserem Eintreffen in Tethyr am Ufer des Sulduskoon-Flusses geschehen war.~
+@300  = ~Ich war... zu ehrlich... und ich denke, das... besiegelte mein Schicksal...~
+
+@301  = ~Was meinst du, Dusk? Du bist immer noch bei mir. Wie kannst du sagen, dass dein Schicksal bereits geschrieben ist?~
+@302  = ~Erklär dich, Mann... Versteckst du etwas, das unsere Gruppe in Gefahr bringen könnte? Ich werde Dummheiten nicht tolerieren.~
+
+@303  = ~Du brauchst dir keine Sorgen zu machen, <CHARNAME>. Weder ich, noch du, noch einer deiner Verbündeten ist in Gefahr wegen dem, was ich dir gleich erzählen werde... Du wirst es vielleicht eines Tages verstehen... aber heute ist nicht der Tag, an dem ich dir mein Schicksal erklären muss.~
+
+@555  = ~Weder ich, noch du, noch einer deiner Verbündeten ist in Gefahr wegen dem, was ich dir gleich erzählen werde, <CHARNAME>... Eines Tages wirst du es vielleicht verstehen... aber heute ist nicht der Tag, an dem ich dir mein Schicksal erklären muss.~
+
+
+@304  = ~Ich werde mit der Geschichte fortfahren: als ich meine Erzählung beendet hatte, begannen viele Gemurmel im Saal zu erklingen. Ich muss zugeben, ich wurde nervös.~
+@305  = ~Celine nahm meine Hand, denn sie bemerkte dies. Und Zaranda beobachtete diese Szene neugierig.~
+@306  = ~Schließlich forderte Zaranda selbst Stille im Raum. Sie erklärte, dass die Gerüchte über den Krieg mit Amn Sinn machten, da Yusuf's Sturz sehr frisch war und Haedraks Position immer noch als schwach wahrgenommen werden konnte.~
+@307  = ~Dennoch erklärte sie selbst, dass bereits Tage vor unserer Ankunft Friedenbotschafter in Form von Greifen nach Amn gesandt worden waren. Das Ziel war es, Tethyrs Wunsch nach Harmonie mit Amn zu manifestieren und dass jede Streitigkeit um Territorien für den Handel nachteilig wäre.~
+
+@556  = ~Dann fügte sie ein paar Unsinnigkeiten über Hoffnung und bedeutungslose Dinge hinzu. Es wäre trivial für mich, dafür Atem zu verschwenden, <CHARNAME>.~
+
+@308  = ~Ein cleverer Zug, <CHARNAME>. Zaranda Star war nicht nur körperlich stark, sondern auch intelligent und weise.~
+@309  = ~Sie spürte einen Hauch von Traurigkeit in mir, denn sie ahnte, dass meine Reise und der Verlust meiner Gefährten vergebens gewesen waren... oder zumindest glaubte ich das.~
+@310  = ~„Die Odyssee von Cormyr und dem Orden des Purpurdrachen war nicht vergebens, Ardusk Aldant“, sagte sie bestimmt. „Tethyr schätzt es, Verbündete zu haben, die die Ideale von Frieden und Güte mit ihrem Leben verteidigen. Und es ist diese edle Geste, die eine starke Liga formt, die in der Lage ist, solche Werte mit Ehre aufrechtzuerhalten.“~
+@311  = ~Ihre Worte zauberten mehreren Anwesenden ein Lächeln ins Gesicht, besonders Celine, die meine Hand fest und liebevoll drückte.~
+
+@312  = ~Zaranda drängte uns, ein paar Tage als ehrenvolle Gäste im Schloss zu bleiben. Es versteht sich von selbst, dass wir gerne zustimmten.~
+@313  = ~*seufz* Es waren gute Tage, <CHARNAME>. Aber ich denke, wir haben heute genug gesprochen. Es ist besser, wenn wir weitermachen.~
+
+// **********************************************
+// t8 - GLOBAL 16
+
+@557  = ~Ich werde dir von meinen letzten Tagen in Darromar erzählen, <CHARNAME>.~
+
+@314  = ~Bist du in der Stimmung, von meinen letzten Tagen in Darromar zu hören, <CHARNAME>?~
+
+@315  = ~In der Tat, Dusk. Ich warte begierig auf die Fortsetzung deiner Geschichte.~
+@316  = ~Es ist gerade nicht die richtige Zeit. Wir sollten uns auf unsere aktuelle Mission konzentrieren.~
+
+@317  = ~Wie du willst, <CHARNAME>. Wir werden ein anderes Mal reden, sicherlich über etwas anderes.~
+
+@558  = ~Celine und ich verbrachten einige Tage in Faertarn.~
+
+@318  = ~Celine und ich verbrachten prächtige Tage in Faertarn. Obwohl ein großer Teil des Schlosses noch in Trümmern lag, war die Atmosphäre von Frieden und Glück in der Luft spürbar.~
+@319  = ~Durch die Löcher in den Dächern und Wänden strömte Sonnenlicht herein, und der südliche Wind vom Hellen Meer nährte die Seelen aller. Vögel nisteten an hohen Stellen, die Zaranda darauf bestand, unberührt zu lassen, und Greifen schwebten schützend über den Himmel von Tethyr.~
+@320  = ~Zaranda Star bat, mit mir zu sprechen, während Celine mit einigen Klerikern über bestimmte magische Schutzmaßnahmen sprach, die sie in den Räumen des Schlosses einbetten wollten.~
+
+@559  = ~„Kapitän Aldant, ich sehe, dass du eine ganz besondere Beziehung zu deiner Shilmist-Gefährtin hast“, sagte sie.~
+
+@321  = ~„Kapitän Aldant“, sagte sie, woraufhin ich sie bat, mich einfach Dusk zu nennen. „Ich sehe, dass du eine ganz besondere Beziehung zu deiner Shilmist-Gefährtin hast.“~
+@322  = ~Etwas verlegen über die Offensichtlichkeit nickte ich. „Ein komyrianischer Kommandeur und ein Shilmist-Ranger würden eine gute Ehe abgeben, findest du nicht?“, bemerkte sie.~
+@323  = ~Die Aussage überraschte mich, also nahm ich mir die Freiheit, nach ihr und Prinz Haedrak zu fragen.~
+
+@560  = ~Ich fasse es für dich zusammen, <CHARNAME>. Die törichte Zaranda sprach über Liebe und Tymora weiß was für andere Unsinnigkeiten.~
+@561  = ~Sie rettete Prinz Haedraks Leben, indem sie Yusuf mit einem Pfeil ins Haupt tötete. Das Ergebnis war offensichtlich: die beiden wurden die Könige von Tethyr.~
+@562  = ~Ich sage dir etwas über Könige, <CHARNAME>. Sie alle glauben, sie seien anderen überlegen. Sie denken, ihre Weisheit übersteigt die der anderen und fühlen sich deshalb in der Lage, die Fäden der einfachen Leute zu ziehen, als wären sie Puppenspieler.~
+@564  = ~Ich war einst so ignorant, dass ich einigen von ihnen vertraute... Obarskyrs, Haedrak, Elbereth, Zaranda... sie sind alle gleich, aus demselben Holz geschnitzt, unabhängig von Geschlecht oder Rasse.~
+@565  = ~Wir, die wir am unteren Ende der sterblichen Ordnung stehen... wir sind nicht für das geboren, <CHARNAME>.~
+@566  = ~Unser Platz ist an der Spitze der Nahrungskette... und wir speisen vom königlichen Fleisch dieser Narren, die geglaubt haben, besser zu sein als wir, wenn sie ohne ihre Militärkräfte nichts sind.~
+@567  = ~Ich wünschte, ich hätte diese Dinge früher gewusst... damit ich... damit ich es hätte vermeiden können...~
+@568  = ~*seufz* Es spielt keine Rolle... Der Punkt ist, nach diesem Gespräch brachen Celine und ich nach Shilmista auf. Den Rest... werde ich dir ein anderes Mal erzählen.~
+
+@324  = ~„Prinz Haedrak und ich werden heiraten. Während viele glauben, es sei aus territorialen Gründen, muss ich gestehen, dass es darüber hinausgeht. Viele Ehen unter dem Adel sind im Voraus arrangiert, um Frieden oder Krieg herbeizuführen, je nach den angestrebten Absichten.“~
+@325  = ~„Tethyr war lange im Krieg, kämpfte gegen Tyrannen und teuflische Kreaturen. Das Volk benötigte... sehnte sich nach einem Sieg. Und nach viel Schweiß und vergossenem Blut wurde er erreicht.“~
+@326  = ~„Viele sehen unsere Vereinigung als die logischste, Dusk... Aber... der wahre Grund, warum Haedrak und ich heiraten werden, ist nicht aus politischen Vorteilen. Nein... es ist nicht dafür.“~
+@327  = ~„Die entscheidende Schlacht wurde zwischen Haedrak und Yusuf in Myratma ausgetragen. Beide kämpften bis zum Tod an der zerstörten Westmauer der Stadt. Haedrak schaffte es, Yusuf zu entwaffnen... Und er hätte ihn töten können, Dusk... aber er tat es nicht...“~
+@328  = ~„Mit Yusuf besiegt am Boden drehte sich Haedrak um und sah mich an. Er fragte mich: Was soll ich mit ihm tun?“~
+@329  = ~„Er suchte Rat bei einer Frau, Dusk. Wie viele kriegerische Könige, im Hitze des Gefechts, kennst du, die das getan haben?“~
+@330  = ~„Haedrak ist ein guter Mann und in diesem Moment hat er noch mehr meinen Respekt verdient. Aber Yusuf nutzte die Ablenkung des Prinzen... und zog ein verborgenes Messer und stürzte sich auf Haedrak...“~
+@331  = ~„Mein Herz blieb stehen. Yusuf war dabei, meinen Haedrak hinterhältig zu töten... und es war in der Möglichkeit, ihn für immer zu verlieren, dass ich erkannte, dass ich ihn liebte.“~
+@332  = ~„Während mein Herz gefror, handelte mein Verstand an seiner Stelle... und ich spannte schnell meinen Bogen... und der Pfeil bohrte sich in sein Auge. Yusuf fiel sofort tot zu Boden.“~
+@333  = ~„Die Menschen waren erstaunt und verblüfft, Zeugen dieses Ereignisses... Und mit dem Rauch der Belagerung hinter uns und der Dämmerung von Lathander über unseren Köpfen... umarmten wir uns.“~
+@334  = ~Ich war von der Geschichte bewegt, <CHARNAME>. Schließlich schloss sie: „Siehst du, Dusk... Ich wähle zu glauben, dass meine arrangierte Ehe mit Haedrak nicht politisch ist... noch ist sie für Frieden oder Nation... meine Verbindung mit ihm ist aus Liebe.“~
+@335  = ~Ich lächelte Zaranda an. Ich kniete und küsste ihre Hand. Ich drehte mich um und sah Celine, die einige kleine Vögel auf ihrer Hand singen hatte. Da fragte ich mich, ob ich mit ihr das haben könnte, was Zaranda mit Haedrak hat...~
+@336  = ~Ich denke... ich denke, das reicht für heute, <CHARNAME>. Danke, dass du mir erlaubt hast, diese schöne Erinnerung mit dir zu teilen.~
+@337  = ~In derselben Nacht verließen wir Darromar und machten uns auf den Weg nach Shilmista. Und... was danach geschah... wird eine Geschichte für ein anderes Mal sein.~
+
+@569  = ~Halte den Atem nicht an, <CHARNAME>. Es war nur eine Ausrede, um mit meiner Geschichte fortzufahren.~
+
+@3379  = ~*hustet* Nun, Dusk. Ich hatte nicht erwartet, dass du so direkt bist.~
+@339  = ~Ist das ein Vorschlag, Dusk? Ich hätte nicht erwartet, dass du so gewagt bist. *lacht*~
+@340  = ~Warum fragst du, Dusk? Willst du mich mit einer edlen Dame aus Cormyr bekannt machen? Das klingt nicht schlecht.~
+@341  = ~Was redest du da, Dusk? Ich werde dich nicht heiraten.~
+@342  = ~Ich glaube nicht, dass das meine Stärke ist. Aber irgendetwas sagt mir, dass du etwas dazu zu sagen hast.~
+
+@570  = ~Das ist richtig... Ich werde meine Geschichte dort fortsetzen, wo wir aufgehört haben.~
+
+@343  = ~Das ist richtig... Ich wollte meine Geschichte dort fortsetzen, wo wir aufgehört haben.~
+@344  = ~Oh, ich habe jetzt nicht auf einen Vorschlag angespielt, <CHARNAME>. Ich wollte nur meine Geschichte fortsetzen.~
+@345  = ~Hätte ich früher sagen sollen, Mann. Erzähl mir.~
+@346  = ~Oh, ich verstehe... *räuspert sich* Nun... in diesem Fall, fahr fort, Dusk.~
+@347  = ~Es ist schade. So oder so haben wir dafür keine Zeit, Dusk.~
+@348  = ~Zarandas Worte waren in meinem Kopf eingeprägt...~
+@349  = ~Mein logischer Verstand deutete darauf hin, dass eine Ehe mit Celine eine Verstärkung zwischen den Nationen von Cormyr und Shilmista, zwischen Menschen und Elfen, wäre.~
+@350  = ~Aber die Wahrheit ist, dass dieser Gedanke eine positive Ausrede für meine wahren Wünsche war.~
+
+@351  = ~Ich wünschte mir, den Rest meines sterblichen Lebens mit ihr zu verbringen... Aber das war das Problem...~
+@352  = ~"Den Rest meines sterblichen Lebens." Wie viel Zeit hatte ich noch? Die Zeit eines Menschen ist wie ein Seufzer im Vergleich zu der eines Elfen. Was würde aus ihr während des Restes ihres langen... langen Lebens werden?~
+@353  = ~Allmählich lasteten diese Gedanken auf meiner Seele und zogen mich von der realen Welt weg. Celine bemerkte das natürlich.~
+@354  = ~Aber trotz alledem sagte sie nichts, bis...~
+@355  = ~Bis eines Tages, aus dem Nichts, fragte Celine mich: 'Warum willst du mich nicht heiraten? Warum wünschst du dir nicht, unsere Herzen in wilder Freude zu vereinen?'~
+@356  = ~Nun, die Dame wusste, was sie wollte, nicht wahr?~
+@357  = ~Wenn ich dich kenne, kann ich mir vorstellen, dass du sprachlos warst, oder?~
+@358  = ~Ich bin daran interessiert zu erfahren, was deine Antwort war, Dusk.~
+@359  = ~Sicherlich hat die Frage mich unvorbereitet getroffen. Sofort gestand sie, dass sie mein Gespräch mit Zaranda in Darromar gehört hatte.~
+@360  = ~Sie entschuldigte sich mit Tränen in den Augen, forderte aber sofort eine Erklärung.~
+@361  = ~'Ich bin nur ein Mensch, Celine', war meine Antwort. Sie war clever genug zu wissen, was ich meinte.~
+@362  = ~'Liebe kann nicht nach Zeit gemessen werden, Dusk', antwortete sie. 'Liebe kann nicht gemessen werden, denn meine Liebe zu dir überfließt mit Freude und Schmerz... Freude, dich zu haben, und Schmerz aus der Angst, dich zu verlieren... Aber das ist das Leben.'~
+@363  = ~'Ich gebe nicht vor, weise genug zu sein, um zu sagen, dass ich alle Antworten habe, mein Liebster. Aber was ich weiß, ist, dass ich so viel Zeit wie möglich an deiner Seite verbringen möchte, denn bei dir zu sein fühlt sich für mein Herz wie ein Zuhause an...'~
+@364  = ~'Jetzt, da ich das gesagt habe... verstehe ich, dass die Ehe nur eine Formalität ist... Wenn du nicht möchtest, müssen wir das nicht tun.'~
+@365  = ~Aus irgendeinem Grund traf ich in diesem Moment meine Entscheidung, <CHARNAME>. Ich sagte ihr, dass ich sie liebte und dass wir uns upon reaching Shilmista heiraten würden.~
+@366  = ~Wir umarmten uns unter den rötlichen Strahlen der Sonne in Tethyr... Ich fühle immer noch, wie ihre Arme sich um meinen Hals legten und wie ihr Haar in meinem Gesicht tanzte.~
+@367  = ~Vergib mir, <CHARNAME>... ich denke, ich werde meine Geschichte ein anderes Mal fortsetzen.~
+@368  = ~<CHARNAME>, was ist deine Meinung zur Ehe?~
+
+// **********************************************
+// P_Dusk_T10
+@571  = ~*ähem* Also... <CHARNAME>, bist du... interessiert daran, wie meine Geschichte weitergeht?~
+
+@572  = ~Bei unserer Ankunft in Shilmista bat ich um eine Audienz bei König Elbereth, um um Celines Hand anzuhalten. Obwohl ihre Eltern vor vielen Jahren im Kampf gegen die Orks gestorben waren, hielt ich es für das Richtige, den Beschützer der Waldelfen zu fragen.~
+@573  = ~Zur Bequemlichkeit des Elfenkönigs sah er es als positiv an, Beziehungen zu Cormyr zu knüpfen. Ich sagte ihm, dass die Ehe keine politische Strategie sei.~
+@574  = ~Sofort wurde die Zeremonie geplant. Hm... Ich habe kaum noch Erinnerungen daran. Ich habe seitdem versucht, die elfischen Bräuche zu vergessen. Außerdem... solche Details sind nicht relevant.~
+@575  = ~Der Punkt ist, dass weder Celine noch ich Menschen der Menge waren... so bald wir konnten, planten wir eine Reise in den Norden des Waldes.~
+
+@369  = ~Also, <CHARNAME>, möchtest du von meiner Hochzeit hören?~
+@370  = ~Nun, nun, Dusk. Ja, erzähle mir alles.~
+@371  = ~Hm... Wir haben dafür keine Zeit, Dusk.~
+@372  = ~Wir kamen in Shilmista an und wurden herzlich von seinen Bewohnern empfangen. Sofort bat ich um eine Audienz bei König Elbereth, um um Celines Hand anzuhalten. Obwohl ihre Eltern vor vielen Jahren im Kampf gegen die Orks gestorben waren, dachte ich, es sei das Richtige, den Beschützer der Waldelfen zu fragen.~
+@373  = ~Elbereth war überrascht, sah es aber als positiv an, Beziehungen zu Cormyr zu knüpfen. Ich sagte ihm, dass die Ehe keine politische Strategie sei. Er lächelte nur und sagte: 'Das ist mir bewusst.'~
+@374  = ~Die Zeremonie wurde sofort geplant. Sie war wunderbar. Elfen haben schöne Bräuche, <CHARNAME>. In endloser Ekstase des Glanzes des Waldes, umgeben von flackernden, leuchtenden Glühwürmchen, tanzten sie mit freudiger Entzückung und fingen ständig ihre Liebe zur Natur ein.~
+@375  = ~Allerdings... Celine und ich waren nicht die Art von Menschen, die Menschenmengen mögen... daher planten wir eine Reise in die nördlichen Teile des Waldes.~
+@376  = ~Wir verbrachten unsere ersten Nächte an einem Ort namens Der Hügel der Sterne.~
+@377  = ~Der Ort liegt fast an den Grenzen des Waldes, sodass der Himmel, da er sich in der Höhe befand, gewaltig war.~
+@378  = ~Mitten in der weiten Ausdehnung des Raumes sahen wir das endlose Meer der leuchtenden Sterne. Die Schönheit des Abendhimmels, rein und hell, ein leuchtender, himmlischer Führer, erleuchtete uns und wir waren für einen Augenblick ein Leuchtfeuer in der Dunkelheit der Nacht.~
+@379  = ~Ich küsste Celine. Und in diesem Moment... in diesem Moment...~
+
+@576  = ~Ich dachte, ich hätte alles, was ich brauchte... dass ich innerlich mit etwas gefüllt war, das man... Glück nennt. Ich war ein Narr zu glauben, dass...~
+
+@380  = ~Ich war naiv genug zu glauben, dass das Glück ewig währen würde.~
+@381  = ~Warum, Dusk? Was ist passiert?~
+@382  = ~Du hast recht, Dusk. Du bist naiv. Glück ist nicht ewig. Aber sag mir, wie geht die Geschichte weiter?~
+@383  = ~*seufzt* Vergib mir, <CHARNAME>. Ich werde fortfahren... Ich werde bei einer anderen Gelegenheit fortfahren.~
+
+@577  = ~Ich werde die Geschichte des Ereignisses beginnen, das mich dazu brachte, einen Zaubererjäger zu werden, <CHARNAME>.~
+
+@384  = ~Ich werde die Geschichte des Ereignisses beginnen... des Ereignisses, das mich dazu brachte, einen Zaubererjäger zu werden, <CHARNAME>.~
+@385  = ~Natürlich, Dusk. Bitte fahre fort.~
+@386  = ~Vielleicht ein anderes Mal, Dusk. Es ist jetzt nicht der richtige Zeitpunkt.~
+@387  = ~Einige Wochen nach meiner Hochzeit traf ein Bote aus Darromar ein. Tatsächlich war der Bote einer der königlichen Berater von Zaranda.~
+@388  = ~Sein Name war Darvin, ein kleiner Mann, der Angst vor seinem eigenen Schatten hatte. Er bat darum, mit mir und Celine über unseren Besuch in Tethyr und unsere Audienz im Schloss zu sprechen.~
+@389  = ~Als wir in Darromar waren und ich meine Audienz bei Zaranda hatte, war Darvin unter den Anwesenden und hörte alles, was ich dazu zu sagen hatte.~
+@390  = ~Darvin sagte uns, dass die Gerüchte über einen Krieg keine Gerüchte seien, sondern ein Versprechen. Die Zhentarim strebten die Zerstörung oder Schwächung beider Nationen an, um ein Monopol im Süden von Faerûn zu errichten.~
+@391  = ~Ich erkundigte mich nach den Regent:innen von Tethyr und den Greifen, die sie nach Amn geschickt hatten. Darvin kommentierte, dass die Entdeckung des Zhentarim-Plots nach dem Versenden der Greifen erfolgt sei und dass die Aktionen der Organisation unmittelbar bevorstünden.~
+
+@392  = ~"Warum kommt ihr zu uns?" fragten wir. Darvin sagte, dass direkte Einmischung von jemandem aus Tethyr oder Amn den Krieg eskalieren könnte, aber wenn ein Ausländer, sei es aus Cormyr oder Shilmista, eingreifen würde, könnten sie ein Blutvergießen verhindern.~
+@393  = ~Ein bisschen seltsam, findest du nicht? Erzähl mir, was als Nächstes passierte, Dusk.~
+@394  = ~So wie du es erzählst, hat dir Darvin kein gutes Gefühl gegeben, oder?~
+@395  = ~Die Wahrheit ist, dass Darvin mich nicht sehr überzeugte. Allerdings brachte er eine Notiz mit dem Emblem und dem königlichen Siegel von Zaranda hervor. Das überzeugte mich, weiter zuzuhören.~
+@396  = ~Was Darvin von uns wollte, war ein Übergriff in den Norden des Waldes, den Valashar-Fluss zu überqueren und den Wald hinter uns zu lassen, bis wir ein Camp fanden, anscheinend von Händlern.~
+@397  = ~Laut Darvin waren das die Zhentarim-Söldner, die geschickt wurden, um gezielte Morde in Tethyr auszuführen, mit dem Ziel, Amn dabei zu belasten und somit den Krieg auszulösen.~
+
+@398  = ~"Wie werden wir wissen, ob wir nicht die falschen Leute angreifen?" fragte Celine intelligent.~
+@399  = ~Darvin sagte, wir würden Zhentarim-Embleme in ihren Verstecken finden.~
+@400  = ~Ich kannte das Aussehen des Zhentarim-Emblems, sodass es kein Problem sein würde, es zu erkennen.~
+@401  = ~Wir mussten nicht viel darüber nachdenken, <CHARNAME>. Nach ein paar Stunden Planung machten wir uns nach Norden auf.~
+@402  = ~Und...? Dusk, was ist passiert?~
+@403  = ~Sag mir nicht... es war eine Falle.~
+@404  = ~Ich bin fast mit meiner Geschichte fertig, <CHARNAME>. Es ist besser, wenn wir sie ein anderes Mal fortsetzen.~
+
+@578  = ~<CHARNAME>, ich werde meine Geschichte dort fortsetzen, wo wir aufgehört haben.~
+
+@405  = ~<CHARNAME>, wenn du willst, kann ich meine Geschichte von dort fortsetzen, wo wir aufgehört haben.~
+@406  = ~Ja, Dusk. Bitte fahre fort.~
+@407  = ~Nach ein paar Nächten des Reisens hatten wir das Camp in Sicht.~
+@408  = ~Celine bemerkte mit ihrem elfischen Blick, dass es leer war.~
+@409  = ~Ich wusste es... es war eine Falle, oder? Sag mir, was hat Celine getan?~
+@410  = ~Fahre fort, Dusk. Was ist als Nächstes passiert?~
+@411  = ~Ich bat sie, sich verborgen zu halten, während ich das Söldnerlager untersuchte. Sie würde mich mit ihrem Bogen absichern, falls es zu einem Hinterhalt käme.~
+@412  = ~Seltsamerweise, obwohl wir in den Ebenen waren, wurde die Stille lauter, je näher ich den Zelten und den erloschenen Lagerfeuern kam.~
+@413  = ~Ich hatte ein schlechtes Gefühl, <CHARNAME>. Trotzdem durchsuchte ich die zerlumpten Sachen nach Zeichen des Zhentarim-Emblems. Egal wie sehr ich suchte, ich konnte nichts finden.~
+@414  = ~Ich wartete ein paar Minuten, bevor ich das Camp verließ und zu Celine zurückkehrte, entschied mich aber, noch einen Blick zu werfen.~
+@415  = ~Vor einem erloschenen Lagerfeuer sah ich etwas auf dem Boden glänzen, als wäre es eine Goldmünze.~
+@416  = ~Als ich mich näherte, ertönte ein lautes Geräusch, das mich betäubte, und Funken blendeten mich. Ich hatte eine magische Falle aktiviert...~
+@417  = ~Ich versuchte zu schreien, um Celine zu warnen, sich nicht zu nähern, aber ich war stumm. Die Falle beinhaltete anscheinend einen Stille-Zauber.~
+@418  = ~Celine, die sah, dass ich durch diesen Trick gelähmt worden war, rannte auf mich zu. Da öffnete sich aus dem Nichts eine dimensionale Tür.~
+
+@419  = ~Als die Funken und der Rauch des Teleportationszaubers verschwanden, lag das Bild von Darvin vor uns.~
+@420  = ~Aber er war nicht der gebrechliche kleine Mann, der er zu sein schien. Er stand groß und seine einst leuchtenden Augen waren jetzt von einer anderenweltlichen Schwärze erfüllt.~
+@421  = ~"Es ist wunderbar, wie einfach es ist, die Herzen der Fröhlichen zu täuschen", sagte er. Sogar seine Stimme hatte sich verändert. Sie war tief und betont, und ich konnte nicht erkennen, aus welcher Region sie stammte. Aber das ist zu erwarten... menschliche Magier verlieren den Kontakt zur Realität, sogar zu ihrer eigenen Menschlichkeit.~
+@422  = ~Celine versuchte, ihren Bogen auf ihn zu richten, aber Darvins Lippen bewegten sich schneller: Celine, wie ich, litt unter einer magischen Lähmung durch einen Zauber des Magiers.~
+@423  = ~"Die Ankunft von euch beiden in Darromar war mehr als günstig. Zweifellos ein Ereignis, das eine Planänderung für unseren Orden bedeutete", sagte er.~
+@424  = ~Ich versuchte zu sprechen, aber ich war immer noch durch den Zauber zum Schweigen gebracht. Der Magier bewegte seine Finger und der Zauber löste sich auf, aber ich war immer noch gelähmt.~
+@425  = ~"Wer bist du? Ich bin sicher, Darvin ist nicht dein Name..." fragte ich.~
+@426  = ~Der Magier lachte makaber. "Es ist ein Name, der in Tethyr zu gewöhnlich ist, nicht wahr?" Er wurde ernst und seine schwarzen Augen wechselten zwischen mir und Celine. "Ich bin Anthagar, der Nekromant."~
+@427  = ~"Was willst du von uns, Anthagar? Wenn du uns tot sehen wolltest, hättest du es bereits getan, oder?" fragte ich.~
+@428  = ~Er lächelte. "Das ist wahr, Captain... Aber mein Meister hat ein besonderes Interesse an dieser... Verbindung zwischen Elfen und Menschen."~
+@429  = ~"Es ist wahr, dass wir den Krieg zwischen Amn und Tethyr suchen..." fuhr er fort. "Zu versuchen, die Adligen zu täuschen, erwies sich als schwieriger, als wir erwartet hatten. Zaranda ist keine leichte Person zu täuschen. Und wie durch Zauber erschienet ihr."~
+
+@430  = ~"Die Gerüchte über den Krieg begannen vor einiger Zeit", sagte er. "Das Beste daran ist, dass wir ihn nicht begonnen haben. Wir wissen nicht, wer oder was es war, noch interessiert es uns."~
+@431  = ~"Alles, was wir wollen, ist, dass Chaos über das Land entfesselt wird und der Tod in der Luft schwebt. Nur dann können wir unser Ziel erreichen."~
+@432  = ~Während der Bastard seine Geschichte fortsetzte, begann ich zu erkennen, dass der Lähmungszauber mit jeder Sekunde schwächer wurde. Ich konzentrierte all meinen Willen darauf, diese unsichtbaren Ketten zu brechen.~
+@433  = ~Celine bemerkte dies und versuchte es ebenfalls. Aber Anthagar bemerkte es und warnte sie: "Was machst du, Elf?!" Er hob seine Hände. "Bah! Jedenfalls brauche ich nur einen von euch lebendig."~
+@434  = ~Jetzt weiß ich, dass er einen magischen Todeszauber gegen Celine sprach. Zu diesem Zeitpunkt, immer noch unwissend, wusste ich, dass alles, was Anthagar wirkte, den Tod meiner Frau zur Folge hätte. So war es dann, dass ich endlich von seinem Zauber befreit wurde.~
+@435  = ~Ich schlug ihn schnell mit meinem Stock. Der stumpfe Schlag traf ihn in die Brust und ich schaffte es, ihn niederzuschlagen, bevor er seinen Zauber vollenden konnte.~
+@436  = ~Der Bastard zog einen magischen Zauberstab aus seinen Ärmeln und feuerte ein Geschoss auf mich ab. Der magische Schaden traf mich direkt in die Brust.~
+@437  = ~Ich fiel rückwärts zu Boden und sah, wie Anthagar aufstand. "Es scheint, es wird doch du sein", sagte er.~
+
+@438  = ~Mit seiner Stimme so dunkel wie der Tod begann er zu beschwören. Ich wusste, dass es mein Ende sein würde... aber er sagte, nur einer von uns müsse sterben... in gewisser Weise war ich froh, dass ich es war und nicht Celine.~
+@439  = ~Aber... in diesem Moment erfüllte Celines Schrei die Luft. Sie brach aus ihrer Lähmung aus und warf sich vor den Zauber...~
+@440  = ~Oh, Dusk... sag mir nicht, dass...~
+@441  = ~Celine fiel mit dem Gesicht nach unten vor mir. Anthagar schien überrascht. Ich sah ihn versuchen, seine Hände zu bewegen, aber ein Ausdruck von Schmerz entglitt seinen Lippen. Offensichtlich hatte der Schlag, den ich ihm mit dem Stock verpasste, ihn geschwächt.~
+@442  = ~"Es scheint... Captain... dass du dich mit dem Gewicht der Geschichte auseinandersetzen musst..."~
+@443  = ~"Behalte dies im Hinterkopf: Wenn deine Frau deinen Namen ruft, wird der Fluch gebrochen... aber dabei wird die Wirkung sofortiger Tod sein..."~
+@444  = ~"Liebe ist grausam, findest du nicht?" Nachdem er dies gesagt hatte, verschwand er in den Schatten eines schwarzen Portals, sein verfluchtes Lachen verklingend in der Dunkelheit.~
+@445  = ~Ich nahm Celine schnell in meine Arme. Sie war noch am Leben... aber... aber...~
+@446  = ~Der Glanz in ihren Augen war verschwunden.~
+@447  = ~Ihre Atmung schien stabil zu sein, ebenso ihre Vitalzeichen... aber sie reagierte nicht auf meine Stimme...~
+@448  = ~Anthagar hatte sie verflucht...~
+@449  = ~<CHARNAME>, ich kann nicht weitermachen... es ist besser... es ist besser, es für ein anderes Mal zu lassen, ein letztes Mal...~
+
+// **********************************************
+// P_Dusk_T13 - FINAL
+
+@450  = ~<CHARNAME>, ich werde das letzte Kapitel meiner Geschichte erzählen...~
+@451  = ~Ich trug Celine in meinen Armen und reiste so schnell wie möglich zurück nach Shilmista.~
+@452  = ~An der Grenze warteten einige elfenhafte Wächter auf uns, sodass wir nicht mehr in Gefahr waren, in einen weiteren Hinterhalt zu geraten.~
+@453  = ~Im Herzen des Waldes überwachte Elbereth persönlich die Situation: viele elfenhafte Kleriker und Zauberer hatten dem Ruf des Königs gefolgt.~
+@454  = ~Die elfenhafte Weisheit enthüllte die Geheimnisse des Fluchs in nur einer Nacht. Der Zauber war etwas sehr Besonderes und Persönliches. Wer auch immer ihn erschaffen hatte, hatte uns im Sinn.~
+@455  = ~Celines Seele war durch besagten Fluch ausgelöscht worden. Um sie wiederherzustellen, musste ein hochgefährlicher Ritus an einem verfluchten Ort vollzogen werden.~
+@456  = ~Der Ort musste Anzeichen von wilder, dämonischer oder nekromantischer Magie zeigen. Elbereth erwähnte, dass der nächste Ort, um einen solchen Ritus durchzuführen, die Ruinen des Dreifaltigkeitskastells waren.~
+@457  = ~Ich achtete nicht auf die Einzelheiten, warum, <CHARNAME>. Ich kann mir nur vorstellen, dass dort ein bösartiger Ritus in Verbindung mit Dämonen oder Untoten vollzogen wurde.~
+@458  = ~Diese Vorstellungen wurden bestätigt, als ich am Ort ankam.~
+@459  = ~Dusk, bist du zu den Ruinen gegangen? Ich stelle mir vor, das muss sehr gefährlich gewesen sein.~
+@460  = ~Du bist verrückt, Dusk. Einen Ritus in diesen Ruinen zu beschwören, ist nur eine Einladung zur Katastrophe.~
+@461  = ~Ich verstehe... und was ist passiert?~
+
+@462  = ~Nun... die Idee war, besagten Ritus in den Ruinen des Schlosses durchzuführen...~
+@463  = ~Wie du dir vielleicht vorstellen kannst, bestand das Wesen des Fluchs darin, die Lebensenergie des Ziels zu neutralisieren. Die betroffene Person konnte nicht sprechen, noch irgendetwas allein tun. Es war, als wäre sie eine Puppe ohne Fäden.~
+@464  = ~Die Natur des Fluchs konnte mit einem Gegenzauber gebrochen werden, der durch einen Ritus vollzogen wurde. Einer der elfenhaften Zauberer erwähnte, dass es eine geringe Möglichkeit gäbe, dass Celine den Fluch selbst brechen könnte, aber ich wusste, dass sie, wenn das geschah, sterben würde... Oder zumindest hatte das der Bastard Anthagar gesagt.~
+@465  = ~Wir hatten nur sieben Tage und sieben Nächte, bevor der Fluch Celines Lebensenergie verbrauchen würde.~
+@466  = ~Die Kleriker von Shilmista sagten mir, dass der Fluch nur von jemandem gereinigt werden könnte, der dem Verfluchten nahe stand. Ein geliebter Mensch oder ein Familienmitglied.~
+@467  = ~Celine hatte keine Blutsverwandten, und selbst wenn sie welche gehabt hätte, hätte ich nicht erlaubt, dass sie den Ritus durchführen. Es war etwas, das von mir abhing. Es war meine Verantwortung.~
+@468  = ~Ich kenne mich mit solchen Situationen aus, Dusk. Die Kosten eines solchen Ritus sind nicht leichtfertig zu nehmen.~
+@469  = ~Es war eine riskante Entscheidung, Dusk. Ich sehe nicht, wie du dein Leben für eine verlorene Sache riskieren konntest.~
+@470  = ~Ich musste es tun, <CHARNAME>. Und ich war mir der möglichen Konsequenzen bewusst.~
+@471  = ~Und die Konsequenzen waren fatal... Wenn ich den Ritus nicht richtig ausführte, würde die gleiche arcane Energie sowohl Celines als auch mein Leben absorbieren. Aber... wenn ich es richtig machte, würde es nur meins kosten.~
+@472  = ~Dein Leben?! Bei Candlekeep, Dusk. Dein Leben für einen unbekannten magischen Ritus zu geben? Das ist extrem.~
+@473  = ~Was man aus Liebe tut... Bitte, Dusk, mach weiter.~
+
+@474  = ~...~
+@475  = ~Nach ein paar Tagen kamen wir in der Dreifaltigkeit an. Elbereth stellte eine Gruppe von Kriegern und Entdeckern als Eskorte bereit, aber ich forderte, dass sie außerhalb der Ruinen bleiben. Wenn ich innerhalb weniger Stunden nicht herauskam, hatten sie den Befehl, zurück nach Shilmista zu marschieren.~
+@476  = ~Ich betrat, was einst die königliche Halle des Schlosses gewesen sein muss. Einst hätte sie im Sonnenlicht prächtig gewirkt und sicherlich Freude und Harmonie genossen... Aber jetzt... war sie nichts weiter als das Skelett einer dunklen und bösartigen Struktur.~
+@477  = ~Stille herrschte in jeder Ecke, und Schatten schienen sich um jede lebende Präsenz zu verstecken, die diese Kammern betrat.~
+@478  = ~An diesem Ort hörte das Mondlicht auf zu existieren, während schwarze Wolken unerbittlich regierten. Die Dunkelheit dort ist ewig, ohne Ruhe oder Unterbrechung...~
+@479  = ~Aber ich musste aus diesem erschreckenden Szenario herauskommen. Ich hatte das, was meine Liebe retten würde... den Gegenfluch: ein elfisches Pergament aus dem Schattenwald.~
+@480  = ~Einer der elfenhaften Zauberer trainierte mich, das Pergament des Gegenfluchs zu lesen, das ich ausführen sollte. Er sagte mir, dass ich es im verfluchten Gebiet vor Celine lesen müsse.~
+@481  = ~Niemand war sich sicher, was während des Prozesses passieren würde, aber sie wussten, dass, wenn es erfolgreich wäre, es meine Lebensenergie liefern würde, um Celine zu revitalisieren. Und wenn ich versagte, würden wir beide sofort dort in den Schatten der Dreifaltigkeit sterben...~
+@482  = ~*seufz* Verdammt, <CHARNAME>. Vergib mir, aber ich kann nicht weitermachen... Ich dachte, ich könnte es schaffen... aber ich kann nicht... ich kann nicht...~
+@483  = ~Dusk, was ist passiert? Wenn du lebst, ist es offensichtlich, dass der Ritus nicht funktioniert hat...~
+@484  = ~Klar, du hast in deinem Vorhaben versagt, Dusk. Hast du das Pergament falsch gelesen und den Tod deiner Frau verursacht?~
+@485  = ~Ich bin mir sicher, dass das, was auch immer passiert ist, nicht deine Schuld war, Dusk.~
+@486  = ~Der Ritus wurde nie vollzogen, <CHARNAME>...~
+@487  = ~Es stimmt... Ich habe versagt... Ich habe meine Frau versagt...~
+@488  = ~Oh, <CHARNAME>... aber ja... es war meine Schuld.~
+@489  = ~Celine stand direkt vor mir... ihr Blick leer, leblos, wie die Umgebung, in der wir uns befanden.~
+@490  = ~Ich begann, die Schriftrolle zu lesen... und mit jedem Wort schien meine Stimme bis zu den Höhen zu steigen, in jeder Ecke der Dunkelheit widerhallend.~
+@491  = ~Mein Blick begann zu verschwommen und ich begann, schattenhafte Gestalten am Horizont zu erblicken, als ob die Boten des Todes mich holten.~
+@492  = ~Das Gebet neigte sich dem Ende zu und mein Herz, von meinem bevorstehenden Schicksal erschreckt, begann zu zittern.~
+@493  = ~Es war dann, dass ich meinen Blick auf Celine richtete. Ihre Augen waren voller Tränen und das Funkeln war zurückgekehrt. Alles... alles geschah sehr schnell... Doch es gab auch ein Gefühl, dass die Zeit aufgehört hatte zu vergehen.~
+@494  = ~Das Bild von Anthagar erschien in meinem Kopf und seine Warnung kam zurück: „Wenn deine Frau deinen Namen sagt, wird der Fluch gebrochen... aber damit wird der Effekt der Tod sein...“.~
+@495  = ~Ich hatte vor, das Ritual zu beschleunigen... aber... meine Worte wurden schließlich... durch ihre Stimme... unterbrochen... Sie sagte:~
+@496  = ~„Ardusk...“~
+@497  = ~Als meine Stimme schwankte, strömte eine Stille in eine schwere Stille, ein sich vertiefendes Dröhnen.~
+@498  = ~Die Visionen, die ich vom Tod hatte, waren verschwunden, und es gab nur sie, erleuchtet vom Licht der Fackeln.~
+@499  = ~Sie lächelte süß und fiel zusammen...~
+@500  = ~Bevor... bevor sie zu Boden fiel, hielt ich sie in meinen Armen...~
+@501  = ~„Celine... Celine... Ich bin hier... Ich bin hier, an deiner Seite...“~
+@502  = ~Mit ihrem letzten Atemzug streichelte sie mein Gesicht... und ihre Augen schlossen sich... für immer...~
+@503  = ~Ich redete weiter mit ihr... aber meine Worte gingen in den Schatten verloren... und niemand hörte mir zu. Niemand hörte mir zu.~
+@504  = ~Dusk, es tut mir leid für deinen Verlust...~
+@505  = ~Es war nicht deine Schuld, Dusk... du hast getan, was du konntest.~
+@506  = ~Ich verlor die Zeit aus den Augen... ich weiß nicht, wie viele Stunden vergangen sind... Ich kann es nicht sagen, da die Nächte an diesem verfluchten Ort ewig sind...~
+@507  = ~Schließlich... brachte ich ihren Körper zurück nach Shilmista. Elbereth selbst kümmerte sich um die feierlichen Dienste. Die Zeremonie war... schön.~
+@508  = ~Infolge dessen... gab ich mein Leben, um ein Wizard Slayer zu werden. Anthagar ist da draußen... und ich brauche immer noch Antworten, warum er tat, was er tat...~
+@509  = ~Ich habe vor, ihren Orden zu finden... und jedes seiner Mitglieder zu zerstören...~
+@510  = ~Zähl auf mich, Dusk. Wenn die Zeit kommt, werde ich an deiner Seite sein.~
+@511  = ~Hm... das klingt gefährlich, Dusk. Aber trotzdem wünsche ich dir viel Glück.~
+@512  = ~Danke, <CHARNAME>. Ich wusste, dass ich auf dich zählen konnte. Und danke, dass du mir zugehört hast...~
+@513  = ~Glück hat damit nichts zu tun, <CHARNAME>. Trotzdem danke, dass du mir zugehört hast...~
+
+@514  = ~Ein Artefakt, sagst du? Obwohl es verlockend klingt, überzeugt es mich nicht, was du sagst, Ungeheuer. Dennoch werde ich <CHARNAME> folgen, und wenn du uns verrätst... wirst du mit deinem Leben dafür bezahlen.~
+
+@515  = ~Jon Irenicus, heute wird der letzte Tag deiner elenden Existenz sein! Dein Versuch, Macht anzuhäufen, ist gescheitert. Du wirst fallen und wir werden den Ruhm erlangen! Komm schon, <CHARNAME>, lass uns dieses Ungeziefer beenden...~
+
+@516  = ~Ha! Wie ist es möglich, dass ein Drow so leicht von diesen Schwächlingen gefangen wurde? Meiner Meinung nach sollte eine solche Unfähigkeit mit dem Tod bestraft werden...~
+
+@517  = ~*flüstert* Das ist komisch... wir waren es, die die 'Besitztümer' dieses Unglücks annihilierten. Es war ein Vergnügen, das zu tun, aber ich denke, wir wurden betrogen, <CHARNAME>.~
+
+@518  = ~Ein Bündnis mit diesem... Unrat? Obwohl es uns ein gutes Angebot macht, denke ich nicht, dass es das wert ist, <CHARNAME>. Wenn es nach mir ginge, würde ich es hier gleich köpfen. Es verdient kein anderes Schicksal...~
+
+@519  = ~Wir haben hier eine Gelegenheit, <CHARNAME>. Irenicus kommt immer näher. Obwohl ich diesem... Dämon nicht traue. Lass uns tun, was sie will und dann... 'uns um sie kümmern'.~
+
+@520  = ~Es gibt nichts Erbärmlicheres als Fanatiker, die von ihren Überzeugungen geblendet sind... Obwohl es in diesem Fall für meinen Geschmack sehr wörtlich ist.~
+
+@521  = ~Bete zu welchem Gott auch immer du willst, Hund... Niemand wird dich vor dem Tod retten. Überlass es mir, <CHARNAME>! Ich werde seine Qual genießen...~
+
+@522  = ~<CHARNAME>, ich glaube, ich kann die Aufgabe übernehmen. Wenn du möchtest, schick mich. Ich werde ihn bedrohen und ihn dazu bringen, diese Papiere herauszugeben, die diese... rote Narren so sehr will.~
+
+@523  = ~Ich hoffe, wir werden beauftragt, Mae'var zu ermorden, <CHARNAME>. Dieser Geißel verdient es nicht, noch einen weiteren Sekunden zu leben...~
+
+@524  = ~Es ist viel Mühe, wenn du mich fragst. Es schadet jedoch nie, ein oder zwei Sklavenhändler zu beseitigen. Ich werde es mit Freude tun, wenn du das willst, <CHARNAME>.~
+
+@525  = ~Sklaverei ist ein sehr profitables Geschäft. Aber es ist ein Geschäft für Feiglinge. Und es gibt nichts, was mir mehr Freude bereitet, als Feiglinge auszuschalten, die denken, sie seien stark. Komm schon, <CHARNAME>. Lass uns diesen Unterschlupf finden und ein wenig Ärger machen.~
+@526  = ~Ich glaube nicht, dass sich die 'Belohnung' gelohnt hat. Aber hey, es war ein Vergnügen, diese feigen Narren zu zerquetschen.~
+@527  = ~Was kann man auch von einer Kurtisane erwarten? Für solche Leute existiert das Wort 'Verantwortung' nicht.~
+@528  = ~Ich muss zugeben, ich bin ein wenig neugierig, warum er all das getan hat. Aber noch einmal, wen interessiert das Verlangen eines Irren?~
+@529  = ~Es ist seltsam, ich spüre keine magische Energie von diesem Jungen. Es ist jedoch klar, dass er nicht bei Verstand ist.~
+@530  = ~Dieser Ort ist ekelhaft. Der Fischgeruch ist allgegenwärtig. Die Fliesen sind klebrig... Verdammt, <CHARNAME>, diese Orte, zu denen du uns bringst...~
+@531  = ~Ich hätte nie gedacht, dass ich einen Silberdrachen sehen würde. Ich frage mich, ob er irgendwelche Artefakte hat, die etwas wert sind...~
+@338 = ~Ah, ich hätte es fast vergessen! Eine letzte Sache: Ein Freund von mir, ein Shilmist-Elf namens Mathyus, repariert meine Kettenhemdkampfweste.~
+@580 = ~Die Rüstung bietet eine robuste Widerstandskraft, und ich schätze, sie wird uns gut gegen Träger der magischen Künste dienen.~
+@581 = ~Wir werden Mathyus in seinem Versteck an den Docks finden. Es befindet sich in der Nähe der Quartiere der Schattenräuber... Wenn wir etwas Zeit haben, würde ich gerne dorthin gehen.~
+
+@5000  = ~(Knurr, knurr)~
+
+@3000  = ~Grüße, alter Freund. Es ist eine Weile her. Es tut mir leid, dass ich ungebetene Gäste mitgebracht habe. <CHARNAME>, das ist Mathyus Davis. Ein Ranger aus dem Schattenwald.~
+@3001  = ~Mathyus, ich habe dir schon gesagt, dass du mich Dusk nennen kannst.~
+@3002  = ~(Ich bin mir ziemlich sicher, dass das nicht die richtige Wendung ist...) Sag mir, Mathyus. Konntest du meine Rüstung reparieren?~
+@3003  = ~Übrigens... wo ist Michelson? Seine Abwesenheit ist deutlich spürbar.~
+@3004  = ~Dusk, wer ist dieser Michelson?~
+@3005  = ~Das ist großartig... wir werden sicherlich eine Suche nach einer vermissten Person unternehmen, oder?~
+@3006  = ~<CHARNAME>, es tut mir leid, dich da mit hinein zu ziehen. Michelson ist... ähm... ich weiß nicht, wie ich das sagen soll.~
+@3007  = ~Wie auch immer, Mathyus. Es sollte nicht so schwer sein, ihn zurückzubringen, oder?~
+@3008  = ~Was meinst du? Sag mir nicht...~
+@3009  = ~Ich wünschte, <CHARNAME>. Michelson liebt Streiche. Mathyus hat ihn von Anfang an mit einem Scherz 'erwischt'.~
+@3010  = ~So sehr, dass Michelson seine Haare in seine Lieblingsfarbe gefärbt hat (mit Magie).~
+@3011  = ~Das hast du davon, dass du ihn hast entkommen lassen. Du solltest dich um ihn kümmern, Mathyus.~
+@3012  = ~Sobald wir können, <CHARNAME>, sollten wir nach Michelson suchen. Er mag nicht so erscheinen, aber ich versichere dir, dass er ein wichtiger Verbündeter für die Sache sein kann.~
+@3013  = ~Ausgezeichnet, <CHARNAME>. Lass uns loslegen.~
+@3014  = ~Was? Mathyus, hast du eine Ahnung, wo er sein könnte? Es ist gefährlich da draußen für jemanden wie ihn.~
+@3015  = ~*ähem* Nun, Mathyus... hast du eine Ahnung, wo er sein könnte?~
+@3016  = ~Dusk, was ist los?~
+@3017  = ~*flüstert* Ich glaube, das ist seine Art, Freude auszudrücken, <CHARNAME>.~
+@3018  = ~Michelson! Lange nicht gesehen, schön dich zu sehen. Siehst du, Mathyus macht sich Sorgen um dich und...~
+@3019  = ~*seufzt* Verdammt... <CHARNAME>, irgendwelche Ideen?~
+@3020  = ~Nun, das lief besser als ich erwartet hatte. Entschuldige die Kosten für das Gold, <CHARNAME>. Ich verspreche, es dir in Zukunft zurückzuzahlen.~
+@3021  = ~Nun, das war eine übermäßige Goldausgabe, wenn du mich fragst. Mach dir keine Sorgen, <CHARNAME>. Wir können uns im Regierungsviertel immer wieder 'nachfüllen'.~
+@3022  = ~Verdammtes <CHARNAME>. Warum würdest du dieser grünen Flöhe Gold geben? (Du hättest es stattdessen mir geben sollen!)~
+@3023  = ~Lass uns zu Mathyus zurückgehen. Ich bin mir sicher, dass er uns jetzt die Shilmist-Rüstung geben kann.~
+@3024  = ~Nun, das lief besser als ich erwartet hatte. Zumindest haben wir nicht eine lächerliche Menge Münzen ausgegeben, um ihn zu überzeugen.~
+@3025  = ~Was zum Teufel, <CHARNAME>! Du verschwenderst ein gutes Bier auf diesen Waldschwächling. Du hättest es lieber dem guten alten Korgan geben sollen.~
+@3026  = ~Ich hätte nie gedacht, dass so etwas Kleines so viel trinken kann. Dieser Michelson ist wirklich etwas Besonderes.~
+@3027  = ~Oh, <CHARNAME>. Du fragst den falschen Mann... um ehrlich zu sein, kenne ich keine.~
+@3028  = ~Ich muss zugeben, das war gut, <CHARNAME>. Mal sehen, ob es Michelson überzeugt.~
+@3029  = ~Wahrlich, <CHARNAME>! Du hast Boo zum Lachen auf den Boden rollen lassen.~
+@3030  = ~Mein Gott, <CHARNAME>. *kichert* Das war wirklich lustig.~
+@3031  = ~Das ist Zeitverschwendung, <CHARNAME>. Ich hoffe, dein kleiner Trick funktioniert.~
+@3032  = ~Verdammtes... Er rennt wie eine Gazelle... Komm schon, <CHARNAME>. Lass es uns nochmal versuchen.~
+@3033  = ~Hmm... Ich weiß nicht, <CHARNAME>. Das könnte die Zwerge beleidigen, meinst du nicht?~
+@3034  = ~Ha! Worüber machst du dir Sorgen, dünner? <CHARNAME>s Witz war wirklich gut. Tatsächlich habe ich ihn bei der Beerdigung meiner Tante erzählt. Es war ein Hit.~
+@3035  = ~Großartige Arbeit, <CHARNAME>! Du warst wunderbar.~
+@3036  = ~Oh, <CHARNAME>. Ich glaube nicht, dass das eine gute Idee war.~
+@3037  = ~(Ich glaube nicht, dass das die richtige Wendung ist, <CHARNAME>)~
+
+@3038  = ~Wahrlich, Mathyus, es ist <CHARNAME>, der all das Lob verdient. Er wusste, wie man die Situation handhabt, trotz Michelsons Forderungen.~ ~Wahrlich, Mathyus, es ist <CHARNAME>, die all das Lob verdient. Sie wusste, wie man die Situation handhabt, trotz Michelsons Forderungen.~
+@3039  = ~Der Kleine hat es uns nicht leicht gemacht, Mathyus. Aber zum Glück haben wir es geschafft.~
+@3040  = ~Endlich! Meine kostbare Rüstung kehrt zu mir zurück... danke, Freunde. Danke auch dir, <CHARNAME>.~
+
+@3041  = ~Ich freue mich, helfen zu können.~
+@3042  = ~*ähem* Lassen wir es mal so sagen: Nichts in diesem Leben ist umsonst, meine Herren. Ich hoffe, dieser Aufwand ist zumindest eine gewisse Belohnung wert.~
+@3043  = ~Kein Problem... pass nur darauf auf, dass du die Kaulquappe nicht wieder aus den Augen verlierst, Mathyus, ja?~
+@3044  = ~Ähm... ein kleines Detail, das ich vergessen habe zu erwähnen. Entschuldigung.~
+@3045  = ~(Hmmm... ich bin mir nicht sicher, dass das die richtige Wendung ist)~
+@3046  = ~Glatz'? Nun, Minsc sieht darin kein Problem, oder? Boo?~
+@3047  = ~Ich schätze es, mein Freund.~
+@3048  = ~Eine Quest? Dusk, worauf bezieht er sich?~
+@3049  = ~Ah, <CHARNAME>. Mach dir keine Sorgen... zu gegebener Zeit wirst du es wissen. Es ist nichts, was wir nicht bewältigen können.~
+
+@3050  = ~Ähm... sehr gut, Mathyus. Michelson! Ich vertraue dir meine Waffe an. Ich vertraue euch allen.~
+@3051  = ~Hört... die Kraft, die sie ausstrahlt... es ist unglaublich...~
+
+@3052  = ~Sehr gut... hier hast du... (Verdammtes, ich fühle mich nackt)~
+@3053  = ~Es ist viel schwerer... aber die Verarbeitung ist großartig...~
+@3054  = ~Die Sammlung des Duke-Sets war nicht einfach, Mathyus und Michelson...~
+@3055  = ~Hört... der Aufwand hat sich endlich ausgezahlt.~
+@3056  = ~Was?! Verdammt, <CHARNAME>, was hast du mit meinem Stab gemacht? (Das bekomme ich dafür, dass ich dir meine Sachen anvertraut habe). Wir sollten es besser finden und zurückkommen. Der Königliche Rächer ist etwas, das man haben sollte, glaub mir.~
+@3057  = ~Danke, dass du mir geholfen hast, ihn zurückzubekommen, <CHARNAME>. So vermeiden wir beide den peinlichen Moment, in dem ich dir den Hintern versohle, weil du ihn zuerst verloren hast. *lächelt*~
+@3058  = ~Der Shilmist-Stab ist seit Beginn bei mir... aber der Königliche Rächer wird uns für unseren Zweck besser dienen... Also ja... ich akzeptiere den Wechsel.~
+
+@3059 = ~*nimmt den Stab* Danke, mein guter Freund.~
+
+@3060  = ~Demoli?! Was machst du hier?~
+@3061  = ~Dusk, kennst du diesen Köter?~
+@3062  = ~Aber was für ein süßes kleines Hündchen! Kennst du ihn, Dusk? Wie heißt er?~
+@3063  = ~Toll, ein Streunerhund... ich nehme an, wir adoptieren ihn nicht, oder? Das hier ist kein Tierheim, Kumpel.~
+@3064  = ~<CHARNAME>, das ist Demolisher. Er ist nicht einfach nur ein Hund, wie er scheint. Er ist Mathyus' tierischer Begleiter.~
+@3065  = ~Demolisher? Er scheint mir nicht so demolierend zu sein.~
+@3066  = ~Er gehört Mathyus? Mich überrascht das nicht.~
+@3067  = ~Was bringt dich hierher, Demoli? Lass mich diesen Zettel sehen...~
+@3068  = ~"Lieber Dusk, wir haben eine Spur zu den Angriffen auf dein Detachment gefunden. Es ist am besten, wenn du so schnell wie möglich kommst. 
+Mit freundlichen Grüßen, 
+Mathyus, der mächtige Wächterelf von Shilmista."~
+@3069  = ~<CHARNAME>, wir sollten sofort zu den Docks von Athkatla und Mathyus sehen.~
+@3070  = ~Muss es sofort sein, Dusk? Wir haben Dinge zu erledigen.~
+@3071  = ~Was ist los, Dusk? Ich hoffe, es ist nichts Ernstes.~
+@3072  = ~Sehr gut, wir gehen sofort.~
+@3073  = ~Lass uns tun, was wir tun müssen, <CHARNAME>, und dann komm mit mir. Ich werde wahrscheinlich deine Hilfe brauchen.~
+@3074  = ~Ich bin mir nicht sicher, mein Freund. Aber wir werden es herausfinden, sobald wir dort sind.~
+@3075  = ~Dank, <CHARNAME>.~
+@3076  = ~Demolisher, lauf und sag deinem Meister, er soll auf uns warten, ja?~
+@3077  = ~Aber, was zum-...?~
+
+// MISION 2
+
+@3078  = ~Mathyus, konntest du sie endlich finden?~
+@3079  = ~Ausgezeichnet, Mathyus... ausgezeichnet...~
+@3080  = ~Dusk, ich denke, es ist an der Zeit, dass du uns sagst, worum es hier geht.~
+@3081  = ~Das hängt doch mit deiner alten Soldatenbruderschaft zusammen, oder?~
+@3082  = ~<CHARNAME>, es tut mir leid, dass ich dich über diese Angelegenheit im Dunkeln gelassen habe.~
+@3083  = ~Als wir aus dem Norden in diese Lande kamen, wurde meine Einheit von Wellen von Orks und Hügel-Trollen angegriffen. Ich muss dir davon erzählt haben, oder?~
+@3084  = ~Alle... alle meine Kameraden wurden im Kampf von diesen abscheulichen Kreaturen getötet...~
+@3085  = ~Nachdem meine Wunden in Shilmista geheilt waren, kehrte ich zurück, um nach ihren Körpern zu suchen und ihnen eine angemessene Beerdigung zu geben.~
+@3086  = ~Während ich fand, was... was ich finden konnte, konnte ich nicht anders, als mich zu fragen...~
+@3087  = ~Was wäre, wenn diese Angriffe nicht zufällig waren? Was wäre, wenn sie von einer dunklen Macht orchestriert wurden, die ich nicht erfassen kann?~
+@3088  = ~Glaubst du wirklich, dass Orks zu solchen Plänen fähig sind, Dusk? Du gibst ihnen meiner Meinung nach zu viel Kredit.~
+@3089  = ~Glaubst du, das könnte von jemandem hinter den Orks ausgegangen sein?~
+
+@3090  = ~Hättest du mich damals gefragt, wäre ich mir nicht so sicher gewesen. Aber jetzt...~
+@3091  = ~Ich habe trainiert, um ein Zauberjäger zu werden, nachdem ich meine Einheit und einige... Ereignisse verloren hatte, über die ich dir in Zukunft erzählen werde. Während dieses Trainings hatte ich eine Vision, in der ich ein Schild mit dem Emblem des lila Drachen erblicken konnte. Es war zerbrochen. Zerschmettert in einem heftigen Kampf.~
+@3092  = ~Dieses Bild blieb in meinem Kopf, bis ich hierher kommen und Mathyus davon erzählen konnte.~
+@3093  = ~Ich bin mir sicher, dass sie es sind, <CHARNAME>!~
+@3094  = ~Ich habe es klar gesehen, vor langer Zeit, in meinem Kopf... Humanoide, die Cormyr-Artefakte tragen, als ob es ein Trophäe wäre.~
+@3095  = ~Es ist noch nicht lange her, dass ich diese Suche an Mathyus übertragen habe... das bedeutet, sie sind relativ nahe bei Athkatla, <CHARNAME>.~
+@3096  = ~Was wir tun müssen, ist klar: Wir müssen diese Kreaturen jagen. Ich werde meinen gefallenen Kameraden Gerechtigkeit widerfahren lassen.~
+@3097  = ~Mathyus, wir haben bereits darüber gesprochen. Jetzt, wie du es mir versprochen hast... gib mir den Standort dieses Stammes.~
+
+@3099  = ~Danke, Mathyus... wirklich.~
+@3100  = ~Mach dir keine Sorgen, Freund. <CHARNAME> reist mit mir und ich zähle in schwierigen Zeiten auf seinen Rat.~ ~Mach dir keine Sorgen, Freund. <CHARNAME> reist mit mir und ich zähle in schwierigen Zeiten auf ihren Rat.~
+@3101  = ~So sei es, Mathyus. Sei dir sicher, dass wir siegreich zurückkommen.~
+
+@3102  = ~Endlich. Wir haben sie gefunden! Das lila Schild, <CHARNAME>. Er hatte recht: Sie haben es!~
+@3103  = ~<CHARNAME>, du hast recht. Hör zu, Kreatur... Dein Unwesen endet hier. Für Cormyr verurteile ich dich zum Tode!~
+@3104  = ~Gut, dünner. Ich mag deinen Willen. Lass den Riesen mir überlassen, ja? Meine Axt dürstet nach Blut... Ha!~
+@3105  = ~Ich stimme dem nicht zu, Dusk... aber ich nehme an, wenn wir sie jetzt nicht vernichten, könnten diese Humanoiden Unschuldige schädigen.~
+@3106  = ~Hören? Sie sind Orks! Das Einzige, was sie hören sollten, ist das metallische Geräusch meines Schwertes, das ihre dunklen Herzen durchbohrt...~
+@3107  = ~Du hast nicht den Eindruck, dass du der Typ Mensch bist, der so leicht in Wut gerät, Dusk. Bitte, hör auf mich... und höre sie an.~
+@3108  = ~Du hast recht, Dusk... Böses wird immer böse bleiben... Lass uns angreifen!~
+@3109  = ~(Verdammtes...) So sei es, <CHARNAME>... Ich werde deinem Rat folgen. Kreatur! Mein Freund hat mich überzeugt, dir zuzuhören... also... du hast unsere Aufmerksamkeit.~
+@3110  = ~Ich verstehe, diese Kreaturen waren Teil der Armee, die versucht hat, Amn zu überfallen... Ich glaube, das ist ein weiterer Grund, sie zu vernichten, <CHARNAME>.~
+@3111  = ~Die edlen Ritter kämpfen seit Monaten gegen solche Kreaturen, <CHARNAME>. Allerdings scheinen diese nicht den Blutdurst der Schergen des Ogers zu haben.~
+@3112  = ~Ah... Sothillis... der Oger-Magier, der sein eigenes Reich gegründet hat... Er hat eine beträchtliche Anzahl von Humanoiden versammelt, die nur darauf aus sind, das Land der Menschen hier in Amn zu erobern. Warum sollte ich denken, dass du anders bist als sie?~
+@3113  = ~Was du sagst, klingt sehr schön... aber es gibt etwas, das in deiner Geschichte nicht zusammenpasst...~
+@3114  = ~Ich beziehe mich auf das zerbrochene Schild, das du bei dir trägst. Es gehört zum Orden der lila Drachen von Cormyr! Ich verlange jetzt eine Antwort!~
+@3115  = ~Erwartest du, dass ich das glaube, Falon? Soll ich glauben, dass das Schild einfach aus dem Nichts in deinem Lager erschienen ist?~
+@3116  = ~*seufz* Ich hasse es, das zuzugeben... aber der Ettin hat recht...~
+
+@3117  = ~<CHARNAME>, vergib mir, dass ich die Last der endgültigen Entscheidung auf dich lege... aber mein Herz lässt meinem Verstand keine klare Entscheidung zu. Was denkst du darüber?~
+@3118  = ~Argh! Minsc wird in solchen Situationen verwirrt. Allerdings denkt Boo, dass nicht alles im Kampf enden sollte, guter Dusk.~
+@3119  = ~W-well... ich denke, dieser Stamm ist nicht böse, Dusk. Ich denke, du solltest ihnen eine Chance geben... sogar helfen.~
+@3120  = ~Manchmal ist es weise, die Verantwortung für eine Entscheidung zu teilen, junger Dusk. Ich denke, du tust das Richtige, indem du dem Urteil deiner Gefährten vertraust.~
+@3121  = ~Nun, wenn du mich fragst, Dusk... ich würde versuchen, den Konflikt zu vermeiden, wenn möglich. Aber ich lehne auch keinen Kampf ab.~
+@3122  = ~Ich habe viele Humanoide getroffen, Dusk. Und sicherlich war keiner wie dieser Stamm. Ich finde es schwer zu glauben, dass sie einen Angriff auf eine Cormyr-Einheit orchestriert haben.~
+@3123  = ~Sie scheinen keine Gegner zu sein, die unsere Aufmerksamkeit verdienen... Dennoch denke ich, dass sie nicht frei sein sollten. Ein guter Richter in Athkatla hätte sie bereits auf den Scheiterhaufen verurteilt.~
+@3124  = ~Aus erster Hand habe ich schlechte Erfahrungen im Umgang mit Humanoiden... Aber, Dusk... diese Kreaturen scheinen nicht gewalttätig zu sein.~
+@3125  = ~Dusk, ich verstehe, dass du deine Kameraden rächen willst... aber bedenke, dass dieser Stamm möglicherweise nicht für einen solchen Angriff verantwortlich ist.~
+@3126  = ~Die Natur weist auf die angeborene Gewalt vieler Humanoider hin, Dusk. Aber ich sehe das in diesem Stamm nicht. Es könnte sein, dass sie am Ende nicht für einen solchen Angriff verantwortlich waren.~
+@3127  = ~Ich weiß sehr gut, wie es ist, von einem korrupten Clan verurteilt zu werden, Dusk. Ich möchte nicht glauben, dass wir in diese Klassifikation fallen. Lass nicht zu, dass Hass dein Urteil trübt, mein Freund.~
+@3128  = ~Abbil, ich weiß sehr gut, wie es ist, nur aufgrund deiner Rasse verurteilt zu werden. Verurteilt von dem abscheulichen Rivvil... Und ich glaube, Dusk, dass du nicht wie der Rest der Rivvil bist.~
+@3129  = ~Nun, wenn du mich fragst (was du bisher nicht getan hast, aber von einer Gruppe von Primaten nicht weniger erwarten kannst), würde ich sagen, wir braten sie mit Magie. Die Humanoiden von Sothillis verdienen es nicht, in der Welt der Menschen zu leben.~
+@3130  = ~Hmpf... Hast du etwas gesagt, Dünner? Sag einfach das magische Wort, und Korgan wird sich um diese erbärmliche Bande von Orks kümmern. Meine Axt dürstet ebenfalls danach.~
+
+@3131  = ~Das erinnert mich an eine Situation, die mein Onkel Gerhardt erlebt hat. Der arme Gnom war beschuldigt worden, eine ganze Farm voller Fasane gestohlen zu haben. Gerüchte besagten, dass mein Onkel plante, eine Armee von Fasane zu bauen und verschiedene Rübenfarmen in ganz Faerûn zu überfallen. Nach ein paar Tagen kam ein Trupp Wachen zu mir nach Hause. Glücklicherweise konnten sie die abscheulichen Gerüchte über Gerhardt entkräften. Als Vergeltung plante er, in den folgenden Monaten eine Armee von Mardern aufzubauen, um die Gerüchte wahr werden zu lassen. Ich weiß immer noch nicht, was aus diesem Plan geworden ist. Aber er hatte sicherlich Potenzial.~
+@3132  = ~Nun, nun, der weiße Kanarienvogel hat eine Art Diskrepanz mit seinen Wünschen. Ich würde sagen: Denk nicht zu viel nach. Tanz ein bisschen und lass deine Füße dein Schicksal entscheiden (und ihres auch).~
+@3133  = ~Dusk, ich glaube nicht, dass diese Humanoiden für deinen Angriff verantwortlich sind...~
+@3134  = ~Dusk, ich denke, diese Humanoiden verdienen es zu sterben für das, was sie sind: Mitglieder des Sothillis-Imperiums.~
+@3135  = ~Dusk, ich denke, wir sollten diese Angelegenheit weiter untersuchen. Besonders bezüglich des zerbrochenen Schildes von Cormyr.~
+@3136  = ~Dusk, ich denke, wir sind hereingelegt worden. Wir sollten angreifen, bevor es zu spät ist.~
+@3137  = ~Du könntest recht haben... aber ich habe das Gefühl, dass wir mehr untersuchen sollten...~
+@3138  = ~Die Sache mit dem Schild, Falon... sie beschäftigt mich... Sag mir, woher kommst du?~
+@3139  = ~Ich verstehe... nun... zum Schild...~
+@3140  = ~Negative Energie? Vielleicht wurde der Schild... schließlich... platziert.~
+@3141  = ~Mach dir nichts draus, Falon. Durch <CHARNAME>s Hilfe konnten wir eine Menge über die Angelegenheit herausfinden.~
+@3142  = ~Übrigens, du kannst aufhören, mich „Mensch“ zu nennen. Mein Name ist Ardusk Aldant. Du kannst mich Dusk nennen.~
+@3143  = ~Ich möchte dich um einen letzten Gefallen bitten.~
+@3144  = ~Der Schild von Cormyr... neben dem Zerbrochenen gehört er zu meinem Volk. Ich würde ihn gerne von dir erhalten.~
+@3145  = ~Ich schätze es... kann ich irgendetwas für dich tun? Betrachte es als Entschuldigung für meine etwas... aggressive Einführung bei dir.~
+@3146  = ~Die Tatsache, dass ihr Deserteure von Sothillis seid, würde die Dinge für euch komplizieren, richtig? Ich verstehe...~
+@3147  = ~Ich denke, wir können dieses Problem lösen. Wenn ich für euch im Edelorden des strahlenden Herzens interveniere, können wir vielleicht etwas dagegen unternehmen.~
+@3148  = ~Haltet einfach einen niedrigen Profil und wartet hier auf mich. <CHARNAME>, wir sollten zum Edelorden des strahlenden Herzens gehen, um mit Sir Ryan Trawl zu sprechen. Ich bin mir sicher, dass er uns helfen kann.~
+@3149  = ~Für Cormyr, wer zur Hölle bist du?~
+
+@3150  = ~Was...? Magier, erkläre dich! Wer bist du... und wie kennst du mich?~
+@3151  = ~Oh... verdammtes... <CHARNAME>... ich glaube, dieser Magier... ist derjenige, der das Schild im Stamm dieser Humanoiden platziert hat...~
+@3152  = ~Nein... ich...~
+@3153  = ~Bastard... warum? Warum hast du das getan? Warum wolltest du, dass ich diese Unschuldigen massakriere...?~
+@3154  = ~Schwatz nicht um den heißen Brei, Magier. Ich fordere eine Erklärung!~
+@3155  = ~"Meister"? Was zur Hölle redest du da?~
+@3156  = ~Verdammter...~
+@3157  = ~Du Bastard... Wenn du dich ihnen näherst, ich...~
+@3158  = ~*flüstern* Was...?~
+@3159  = ~...~
+@3160  = ~<CHARNAME>... Es tut mir leid...~
+@3161  = ~Und du hast recht, Dusk. Deine Geschäfte haben einen Clan von Psychopathen dazu gebracht, meine Identität zu entdecken.~
+@3162  = ~Mach dir keine Sorgen, Dusk. Es ist nicht so, dass es inzwischen ein gut gehütetes Geheimnis ist.~
+@3163  = ~Ich werde versuchen, es dir wiedergutzumachen... wenn möglich, mit meinem Leben...~
+@3164  = ~Allerdings... du kannst den Hass, der mein Herz erfüllt, nicht verstehen...~
+@3165  = ~Ich fühle... ich fühle eine Wut, die ich kaum zügeln kann...~
+@3166  = ~Nicht nur habe ich die falschen Kreaturen getötet... sondern ich habe auch die, die mir am nächsten stehen, in Gefahr gebracht...~
+@3167  = ~Ich denke... ich denke, der Weg, den ich bisher zu verfolgen versucht habe, hat nicht funktioniert... viele Male... viele Male habe ich versucht, richtig zu handeln... glaubend... glaubend, dass es immer zu einem guten Ergebnis führen würde...~
+@3168  = ~Aber ich treffe immer wieder die falschen Entscheidungen... und setze immer die um mich herum in Gefahr...~
+@3169  = ~Das ist vorbei, <CHARNAME>... ich habe das Gefühl, dass ich mein ganzes Leben lang zurückgehalten wurde... und der Weg der Gewalt ist der, den ich von Anfang an gewählt habe.~
+@3170  = ~Also... ich denke, das ist die Antwort... Der Weg, den ich jetzt wähle, muss der richtige sein, nicht wahr?~
+@3171  = ~<CHARNAME>... du hast mir die Augen geöffnet... und dafür danke ich dir.~
+@3172  = ~Du hast meine Loyalität bis zu meinem letzten Tag. Ich werde dir folgen, bis einer von uns von den Händen des Todes erreicht wird.~
+@3173  = ~Lass uns gehen... wir haben genug von dem, was heute passiert ist... Lass uns zu Mathyus gehen und ihm erklären, was hier geschehen ist. Vielleicht wissen sie, was mit diesem verdammten Orb zu tun ist...~
+
+@3174  = ~Sir Ryan Trawl, im Namen von Cormyr ist es mir eine Freude, Sie zu begrüßen.~
+@3175  = ~Mit unserer Gruppe konnten wir mehrere abtrünnige Humanoiden des Sothillis-Imperiums ausfindig machen. Ihr Häuptling sucht Frieden, fernab von dem Krieg, den sein ehemaliger Häuptling provoziert hat.~
+@3176  = ~Nun... nachdem ich mit ihnen gesprochen habe, habe ich versprochen, ihnen hier in Amn ein Zuhause zu finden. Ich weiß, ich verlange viel, aber ich glaube, dass ich der Stadt in der Vergangenheit so viel geholfen habe, wie ich konnte. Alles, was ich suche, ist eine Chance...~
+@3177  = ~Sie sind kein gewalttätiger Stamm, nicht einmal zahlreich, mein Herr. Wenn sie unter dem Schutz des Ordens stehen, glaube ich, dass sie im Krieg gegen das Sothillis-Imperium nützlich sein könnten.~
+@3178  = ~Ich denke, sie könnten wichtige Informationen über die Ogre-Armee liefern, mein Herr. Sie könnten sogar auf deiner Seite kämpfen, wenn man sie darum bittet. Solange sie ein Zuhause hier in Amn versprochen bekommen.~
+@3179  = ~Dankbarkeit, Sir Ryan. Ich bin sicher, dass <CHARNAME> alles tun wird, was Sie von ihm verlangen.~ ~Dankbarkeit, Sir Ryan. Ich bin sicher, dass <CHARNAME> alles tun wird, was Sie von ihr verlangen.~
+@3180  = ~Sir Ryan, jetzt, da die Angelegenheit der gefallenen Paladine geklärt ist...~
+@3181  = ~Fantastische Neuigkeiten! <CHARNAME>, lass uns zu den Windspear Hills zurückkehren und Falon und seinem Stamm die guten Nachrichten überbringen.~
+@3182  = ~Danke, Ziben. Ich akzeptiere, geehrt...~
+@3183  = ~Komm schon, <CHARNAME>. Ich denke, es ist Zeit, Mathyus über den Stand der Mission zu informieren.~
+@3184  = ~Oh... verdammtes... <CHARNAME>... ich glaube, dieser Zauberer... ist derjenige, der das Schild im Stamm von Falon platziert hat...~
+@3185  = ~Bastard... Du hast dieses Schild bei unschuldigen Humanoiden platziert und nennst mich erbärmlich, weil ich das Richtige getan habe?~
+@3186  = ~Aber... aber wenigstens habe ich nicht den Fehler gemacht, Falon und seinen Stamm anzugreifen.~
+@3187  = ~Ich danke dir, <CHARNAME>. Du hast mich gerettet, bevor ich einen unverzeihlichen Fehler gemacht habe.~
+@3188  = ~Das könnte das sein, was man einen Wendepunkt im Leben nennt... Ich glaube, was uns vom Bösen trennt, ist oft eine einfache Entscheidung.~
+@3189  = ~Du hast meine Loyalität bis zu meinem letzten Tag, <CHARNAME>. Ich werde dir folgen, in dem Wissen, dass es einen Heiligenschein am Ende des Weges gibt.~
+@3190  = ~Lass uns vorerst zu Mathyus zurückkehren. Vielleicht wissen meine Freunde etwas über diesen verfluchten Orb...~
+@3191  = ~Falon! Gute Nachrichten: <CHARNAME> und ich haben Sir Ryan Trawl überzeugt, dir und deinem Stamm ein Zuhause im Edlen Orden des Strahlenden Herzens zu geben. Ich werde dir und deinem Stamm zeigen, wie man dorthin gelangt...~
+@3192  = ~Ebenso muss ich sagen... ich denke, du wirst den Paladinen Informationen über Sothillis bereitstellen müssen. Ich glaube nicht, dass es Präzedenzfälle gibt, dass sie Humanoiden so bereitwillig in ihren Quartieren aufnehmen.~
+@3193  = ~Ich bezweifle, dass die Ritter Tyrannen sind. Sie werden zu nichts gezwungen, was sie nicht tun wollen, da sie mir ihr Wort gegeben haben. Andernfalls zögere nicht, dich an mich zu wenden...~
+@3194  = ~Ich bin sicher, unsere Wege werden sich eines Tages wieder kreuzen, Freunde. In der Zwischenzeit werde ich euch im Tempelbezirk besuchen, wann immer ich kann.~
+@3195  = ~Wir haben den Stamm der Humanoiden gefunden, Mathyus. Die Informationen von Demolisher waren genau.~
+@3196  = ~Allerdings waren sie nicht für den Angriff auf mein Detachment verantwortlich...~
+@3197  = ~Das stimmt... während wir sprechen, nährt ihr Blut den Boden der Windspear Hills.~
+@3198  = ~Sie waren Deserteure aus dem Sothillis-Reich. Sie haben ihr finales Schicksal verdient, Mathyus.~
+@3199  = ~Scheint dieser Grund für dich ausreichend zu sein?~
+@3200  = ~Also, sie starben, weil sie Humanoiden waren, Mathyus. Denk nicht zu viel darüber nach.~
+@3201  = ~Als wir die Humanoiden besiegt hatten, erschien ein mysteriöser Magier.~
+@3202  = ~Er nannte sich Sornhil. Er war verantwortlich für das Anpflanzen des Cormyreanischen Schildes im Humanoidenlager.~
+@3203  = ~Obwohl ich es wusste, sobald ich sie besiegt hatte.~
+@3204  = ~Nach einem kurzen... Gespräch gab er mir dieses Orb.~
+@3205  = ~Ich verstehe... und was muss ich tun, um seine Macht zu entfesseln?~
+@3206  = ~Ich sehe... wenn es dir gelingt, dieses Böse zu entfernen, würde die Macht des Orbs verringert, richtig?~
+@3207  = ~Letztendlich weiß niemand, was passieren könnte, wenn ich es benutze...~
+
+@3208  = ~Aber... wenn Sornhil und sein Orden das sind, was ich denke, kann ich es mir nicht leisten, diese Macht zu verschwenden.~
+@3209  = ~Ich werde es benutzen, Mathyus. Ich muss wissen, wie man es aktiviert.~
+@3210  = ~Schweigt, ihr beiden! Ich habe meine Entscheidung getroffen, und es gibt kein Zurück. Mathyus, ich frage dich nur einmal. Wie aktiviere ich den Orb?~
+@3211  = ~Sehr gut. Hier ist er...~
+@3212  = ~Hallo? Dusk! Hör auf zu schwindeln und sprich mit mir.~
+@3213  = ~Dusk? Mathyus, was ist los? Der Orb hat angefangen zu leuchten.~
+@3214  = ~Ich habe gesehen, was du mir anbietest... und ich akzeptiere es. Jetzt... gib mir deine Macht!~
+@3215  = ~Es ist vorbei...~
+@3216  = ~Was siehst du dir an?~
+@3217  = ~Dusk? Bei Candlekeep, du siehst völlig anders aus.~
+@3218  = ~Dusk, geht es dir gut? Du hast... dich verändert.~
+@3219  = ~Ich habe mich nie so lebendig gefühlt...~
+@3220  = ~Mathyus... du hast immer noch die Mission, die wahren Täter hinter dem Angriff auf mein Detachment zu finden, verstanden?~
+@3221  = ~Und dieses Mal... werde ich keine Fehler tolerieren. Verstehst du mich?~
+@3222  = ~Ausgezeichnet...~
+@3223  = ~<CHARNAME>, wir sollten besser mit unseren eigenen Angelegenheiten fortfahren... Wenn die Zeit kommt, werde ich dich um deine Dienste bitten, um ein paar Orks zu jagen.~
+@3224  = ~Wahrlich, ich hätte nicht erwartet, dass du so fordernd bist. So sei es.~
+@3225  = ~Wer glaubst du, bist du, Freund? Ich werde tun, was ich will, wann es mir passt.~
+@3226  = ~Das gefällt mir zu hören...~
+@3227  = ~Sehr gut, <CHARNAME>... behalte diese Killerwut... Ich bin sicher, sie wird uns in naher Zukunft nützlich sein...~
+@3228  = ~Das stimmt... Der Stamm stellte sich als Deserteure aus dem Sothillis-Reich heraus. Sie flohen nach Süden, als wir sie fanden.~
+
+@3230  = ~Nach einem kurzen Gespräch und durch die Intervention von <CHARNAME> entschied ich, dass sie in Athkatla sicherer sein würden.~
+@3231  = ~Ich ging zum Edlen Orden des Strahlenden Herzens und Sir Ryan Trawl gab ihnen ein Zuhause in ihren Kasernen.~
+@3232  = ~Mein Schicksal? Ich verstehe nicht, was du meinst?~
+@3233  = ~Nun... ich dachte, ich könnte endlich meine gefallenen Kameraden rächen, Mathyus. Allerdings endete es nur mit einer Suche, die uns mit mehr Fragen als Antworten zurückließ.~
+@3234  = ~Als wir den Humanoiden ein neues Zuhause gaben, erschien ein mysteriöser Magier.~
+@3235  = ~Er nannte sich Sornhil. Er war verantwortlich für das Anpflanzen des Cormyrianischen Schildes im Lager von Falon.~
+@3236  = ~Ich muss es benutzen, Mathyus... Der Orden, dem Sornhil angehört... Ich muss mehr über sie herausfinden. Den Orb zu benutzen, trotz der Gefahr, die das mit sich bringt, ist die einzige Option. Aber...~
+@3237  = ~Ich höre zu, <CHARNAME>. Und obwohl ich deinen Rat schätze... habe ich Zweifel in meinem Herzen. Ich glaube... ich glaube, dass...~
+
+@3238  = ~Tatsächlich scheint die Reinigung eine praktikable Option zu sein. Michelson ist ein mächtiges Wesen, das so etwas erreichen kann, nicht wahr, Mathyus?~
+@3239  = ~Michelson... du hast es getan...~
+@3240  = ~Danke, mein Freund. Mathyus, ich denke, ich bin bereit, es zu benutzen.~
+@3241  = ~Sehr gut. Hier ist er... der gereinigte Orb...~
+@3242  = ~Danke... dass du mir diese Vision gewährt hast...~
+@3243  = ~Ich schätze die Aufmerksamkeit, aber es gibt wichtigere Dinge, um die wir uns kümmern müssen, meinst du nicht?~
+@3244  = ~Der Orb ist verschwunden, Mathyus. Ich denke, er hat die Form dieses smaragdgrünen Schwertes angenommen, auf das Michelson hingewiesen hat, das jetzt in meinen Händen leuchtet. Ich habe deine freudigen Bewegungen gesehen, Demolisher. Danke, dass du dich kümmerst.~
+@3245  = ~Danke, Mathyus. Allerdings solltet ihr euch nicht in Gefahr bringen. Sornhil und sein Orden von Magiern scheinen etwas zu sein, mit dem man sich auseinandersetzen sollte, aber wenn wir nicht mehr über sie wissen, könnte das kein schlechtes Zeichen sein.~
+@3246  = ~Rache ist nicht immer die Antwort. Das weiß ich jetzt. <CHARNAME>, deine Hilfe hat Frieden in mein Herz gebracht.~
+@3247  = ~Die Toten verlangen keine Rache... ich nehme an, sie würden wollen, dass ihre Angehörigen in Frieden und Harmonie leben. Ich spreche für meine gefallenen Kameraden im Kampf.~
+@3248  = ~Eine weise Entscheidung, mein Freund. Lass uns gehen, wir haben Dinge zu erledigen.~
+@3249  = ~In der Tat, Dusk. Du hast dich völlig verändert. Ich glaube, ich mag diese Version von dir.~
+@3250  = ~Du wirst doch nicht anfangen zu singen und zu tanzen wie dieser Kobold, oder?~
+@3251  = ~Sehr witzig, <CHARNAME>. Komm, lass uns unsere Reise fortsetzen.~
+@3252  = ~Danke, <CHARNAME>. Lass uns unsere Reise fortsetzen.~
+@3253  = ~Ähm... ich schätze es, Coco, aber es ist alles gut. <CHARNAME> und ich haben noch ein paar unvollendete Geschäfte zu erledigen... (Verdammtes, es wird schwer sein, diese Tomatensoße loszuwerden).~
+
+// Bellfame
+@3254  = ~Mein kleiner Freund Michelson erwähnte etwas über eine Störung in der Zeit. Ich hätte nicht gedacht, dass so etwas möglich ist.~
+@3255  = ~Die Welt der Magie hat die Fähigkeit, Zeit und Raum zu verändern.~
+@3256  = ~In meinem Zusammenstoß mit Kartlzer's Trupp kollidierte meine druide Magie mit der arkanen Magie ihres Zauberers.~
+@3257  = ~Der Ring, den eure Gemeinschaft jetzt besitzt, war der Leiter dieses Ereignisses... Ich glaube nicht, dass ich genau erklären kann, was passiert ist...~
+@3258  = ~Nun... egal was es war, deine Geschichte im Wald von Mir ist noch nicht geschehen. Das verwirrt mich...~
+@3259  = ~Du musst nicht alles um dich herum verstehen, Sterblicher. Manchmal geschehen Dinge einfach...~
+@3261  = ~Es ist wahr, dass ich ein Sterblicher bin, Nymphe... aber meine Freunde nennen mich Dusk. Du kannst mich auch so nennen.~
+
+@3262  = ~Demolisher... Ich vertraue darauf, dass deine Unterbrechung nur wegen Neuigkeiten bezüglich der Mission ist, die ich deinem Meister zugewiesen habe.~
+@3263  = ~Demoli! Schön dich zu sehen. Ich nehme an, Mathyus hat dich geschickt. Gibt es Neuigkeiten?~
+@3264  = ~„Dusk! Wir haben sie endlich gefunden. Oder zumindest ihn. Der Orkhäuptling, der den Angriff auf dein Detachement organisiert hat, ist ganz in der Nähe von Athkatla. Es ist notwendig, dass du mit <CHARNAME> zu unserem Versteck zurückkehrst, um mehr Details zu erfahren. 
+Hochachtungsvoll, Mathyus. 
+Der mächtige Schilmist-Elf.“~
+@3265  = ~„Der Orkhäuptling...“~
+@3266  = ~Nach so langer Zeit... werde ich meine gefallenen Kameraden rächen können...~
+@3267  = ~Das sind gute Nachrichten, Dusk. Ich hoffe nur, dass Mathyus diesmal keinen Mist gebaut hat. Ich werde dich begleiten.~
+@3268  = ~Wir haben dafür keine Zeit, Dusk. Das muss warten.~
+@3269  = ~Ich hoffe das Gleiche, <CHARNAME>. Aber etwas sagt mir, dass dies der Fall ist...~
+@3270  = ~Er? Von wem sprichst du?~
+@3271  = ~Alabarza, der Verstümmeler. Zumindest prahlte er damit, während wir auf den östlichen Ebenen kämpften.~
+@3272  = ~Er ist ein Halbork, der zwei mächtige Äxte führte. Er tötete vier von uns, bevor ich ihn auf dem Schlachtfeld finden konnte.~
+@3273  = ~Ein Schlag von ihm hätte mir fast den Kopf abgerissen... zum Glück verhinderte mein Helm den tödlichen Schlag, obwohl er dabei zertrümmert wurde.~
+@3274  = ~Ich gelang es, ihm einen Treffer zu landen, aber nicht vollständig, auf sein Gesicht. Ich glaube, ich habe eines seiner Augen herausgeschlagen... obwohl ich mir nicht sicher bin. Einige seiner Handlanger kamen in diesem Moment zu seiner Hilfe.~
+@3275  = ~Er schrie laut... und aus den Schatten kam ein riesiger Troll, der uns zur Flucht zwang... Das war das letzte Mal, dass ich von ihm hörte.~
+@3276  = ~<CHARNAME>, ich bin mir sicher, dass Mathyus sich auf Alabarza bezieht. Er muss seine Verletzungen überlebt haben... und hat sicher ein Emblem von Cormyr bei sich.~
+@3277  = ~Demolisher, kehre zu deinem Meister zurück und sag ihm, dass wir so schnell wie möglich gehen werden.~
+
+@3278  = ~<CHARNAME>, wenn er der Feind ist, von dem ich denke, hat er wahrscheinlich einen wertvollen Schatz, der es wert ist, in Betracht gezogen zu werden.~
+@3279  = ~Wenn dich das nicht bewegt, vielleicht die Herausforderung, jemandem Stärkerem gegenüberzutreten. Alabarza ist ein Feind, den man fürchten sollte.~
+@3280  = ~„Schatz“, sagst du? Jetzt sprichst du meine Sprache. Sag mir mehr.~
+@3281  = ~Furchterregender als ich, Dusk? Das werden wir noch sehen. Gut, du hast mich überzeugt. Sag mir mehr.~
+@3282  = ~Es interessiert mich nicht im Geringsten, was deine Probleme sind, Dummkopf. Kümmere dich selbst darum.~
+@3283  = ~Gut... ich brauche dich nicht. Ich werde die Dinge auf meine eigene Weise machen, wie du sagst. Ich bezweifle, dass sich unsere Wege wieder kreuzen...~
+@3284  = ~Ich verstehe, <CHARNAME>... Rache regt mein Herz nicht, obwohl die Konfrontation mit den Orks unschuldige Todesfälle verhindern könnte.~
+@3285  = ~Wenn dich das nicht bewegt, vielleicht möchtest du ihn einfach nur konfrontieren, um deine eigene Stärke zu beweisen oder vielleicht, um seinen Schatz zu erobern.~
+@3286  = ~Hm, jetzt wo du es erwähnst, könnten wir einen guten Kampf brauchen, um Dampf abzulassen... Mach weiter.~
+@3287  = ~Du hast recht über potenzielle Opfer, Dusk. Es tut mir leid. Sag mir mehr.~
+@3288  = ~Es interessiert mich nicht im Geringsten, was deine Probleme sind, Mann. Ich bin hier derjenige, der das Sagen hat.~
+@3289  = ~So sei es, <CHARNAME>. Ich werde dich in dieser Angelegenheit nicht drängen. Wenn das Glück auf unserer Seite ist, könnte Alabarza noch da sein, wenn du dich entscheidest, die Sache zu untersuchen...~
+@3290  = ~Demolisher, kehre zu deinem Meister zurück und sag ihm, dass wir gehen werden, wenn wir können.~
+@3291  = ~Kommen wir zur Sache, Mathyus. Ich bin sicher, du hast etwas... Interessantes zu erzählen, nicht wahr?~
+@3292  = ~Ich wusste es... Es kann niemand anders sein als Alabarza der Verstümmeler.~
+@3293  = ~*Plötzlich bricht er in tiefes, böses Lachen aus*~
+@3294  = ~Was ist so lustig, Dusk?~
+@3295  = ~Super, er ist verrückt geworden.~
+@3296  = ~Verstehst du nicht, <CHARNAME>? Der Bastardork hat seinen Clan so umbenannt, weil er das Kunststück vollbracht hat, mehrere Krieger des Lila Drachenordens zu töten.~
+@3297  = ~Du hast recht, ich verstehe nicht. Erklär es mir.~
+@3298  = ~Und was ist daran so lustig?~
+@3299  = ~Du wirst den Humor verstehen, <CHARNAME>... wenn ich das Herz des Orks in meiner Hand habe und es vor seinem zertrümmerten Schädel zerdrücke...~
+@3300  = ~Nun, das ist für mich ein bisschen gruselig.~
+@3301  = ~Du hast recht, Dusk. Sie auszuschalten wird ein Kinderspiel sein.~
+@3302  = ~*flüstert* Verdammt, <CHARNAME>, sei kein Feigling. Wenn du Zweifel hast, schick mich an die Front. Ich werde die dreckige Arbeit machen.~
+@3303  = ~Das ist der Geist, <CHARNAME>!~
+@3304  = ~Mathyus! Gib mir den Standort dieses Clans. <CHARNAME> und ich werden uns um ihre vollständige Vernichtung kümmern.~
+@3305  = ~Ausgezeichnet... Wir werden siegreich zurückkehren, Elf... du wirst sehen...~
+@3306  = ~Freunde! Es ist immer ein Vergnügen, euch zu sehen. Mathyus, ich glaube, du hast Nachrichten, die mich betreffen, nicht wahr?~
+@3307  = ~Was ist los, Mathyus? Du kannst mir alles sagen. Ich werde die Fassung nicht verlieren.~
+@3308  = ~Ich verstehe...~
+@3309  = ~Was ist los, Dusk?~
+@3310  = ~Würdest du es mir bitte mitteilen, Kumpel?~
+@3311  = ~Alabarza hat ihren Clan umbenannt, weil sie es geschafft haben, mehrere Krieger der Order des Purpurnen Drachen zu töten.~
+@3312  = ~Oh... ich verstehe...~
+@3313  = ~Bastard! Ich kann mir den Hass vorstellen, der in dir brodelt, Dusk.~
+@3314  = ~Ich nehme an, es wäre logisch zu denken, dass der Wunsch nach Rache mich überkommen könnte, <CHARNAME>. Und ich muss zugeben, dass ich im Moment meine Wut zügeln muss... Aber das ist nicht die Antwort.~
+@3315  = ~Dennoch muss Alabarza gestoppt werden. Nicht aus Rache, sondern aus Gerechtigkeit.~
+@3316  = ~Danke für die Informationen, Mathyus. Ich denke jedoch, dass <CHARNAME> und ich das ganz gut alleine hinbekommen können.~
+@3317  = ~Die Paladine... ich verstehe... Und Falon könnte auch bereit sein zu helfen... Was sagst du, <CHARNAME>?~
+@3318  = ~Nein, wir können mit diesen Humanoiden alleine fertig werden, Dusk.~
+@3319  = ~Das klingt weise. Sollen wir sie suchen?~
+@3320  = ~Ausgezeichnet, Mathyus. Wir sind zurück, sobald wir den Hügel geräumt haben.~
+@3321  = ~Sehr gut... Michelson, bring Sir Ryan Trawl, damit wir ihn über unsere Situation informieren können!~
+@3322  = ~Was meinst du, Mathyus? Wenn du mir den beleidigenden Namen von Alabarzas Clan sagst? Ich bin kein Tier, Elf. Ich kann mich beherrschen. Sag es.~
+@3323  = ~Denkst du, so etwas erschreckt mich oder <CHARNAME>?~
+@3324  = ~Ich hätte auch keine Einwände, wenn du ihn plötzlich mit einem Stock über den Kopf schlagen würdest. Sag es und es wird wahr.~
+@3325  = ~Verdammtes... noch ein Magier!~
+@3326  = ~(Verdammtes...) Ich sehe, dass du auch <CHARNAME>’s Identität kennst.~
+
+@3327  = ~Und das ist offensichtlich, Dusk. Diese Leute müssen mehr zur Klatschenden Ordnung als zur Magierordnung gehören.~
+@3328  = ~Ich bin nicht einmal mehr beleidigt, dass mein Geheimnis bekannt ist, Dusk. Dennoch bin ich daran interessiert zu erfahren, wer dieser Zauberer ist und was zum Teufel er hier macht.~
+@3329  = ~Und wer bist du supposed zu sein, Magier? Ein Verzauberer wie dein Freund?~
+@3330  = ~Gute Arbeit, <CHARNAME>.~
+@3331  = ~Ich spüre... eine seltsame Stimme in meinem Kopf. Sie sagt mir, dass ich das Herz des Dämons durchbohren muss.~
+@3332  = ~Was durchbohren?!~
+@3333  = ~Dusk, das Wesen ist bereits tot.~
+@3334  = ~Es ist das scharlachrote Schwert... Wenn ich es im Blut des abgründigen Dämons bade, wird es mächtiger werden.~
+@3335  = ~*Dusk nähert sich dem Kadaver des Wesens und durchbohrt das noch schlagende Herz mit dem scharlachroten Schwert*~
+@3336  = ~Ha! Ich hatte recht, <CHARNAME>. Das scharlachrote Schwert hat sich verbessert... Ich spüre die Hitze der Hölle in seinem Griff... und es beeinflusst mich nicht einmal.~
+@3337  = ~Ausgezeichnet, Dusk. Ich vertraue darauf, dass du es zum Wohle der Gruppe einsetzen wirst.~
+@3338  = ~Dusk, sei vorsichtig, oder das Schwert wird dich beherrschen.~
+@3339  = ~Ich werde es zum Unheil unserer Feinde benutzen, <CHARNAME>. Lass uns gehen... Alabarza wartet auf uns.~
+@3340  = ~Mein Wille gehört mir, <CHARNAME>. Habe Glauben... ich werde nicht von einem Stück Stahl beherrscht. Jetzt lass uns gehen... Alabarza wartet auf uns.~
+
+//GOOD vs VALATAR
+@3341  = ~Es ist das smaragdgrüne Schwert... Wenn ich es benutze, um das Herz des Dämons zu zerstören, wird Valatar das Ungeheuer, das er benutzt hat, um uns zu töten, nicht zurückrufen können.~
+@3342  = ~*Dusk schreitet auf den Kadaver des Wesens zu und durchbohrt das noch schlagende Herz mit dem smaragdgrünen Schwert*~
+@3343  = ~Es ist seltsam... das Schwert hat sich trotz allem verbessert.~
+@3344  = ~Trotz allem? Ich verstehe nicht, Dusk.~
+@3345  = ~Das smaragdgrüne Schwert... Ich fühlte, als ob es in meinem Kopf flüsterte. Eine Stimme ähnlich dem Herbstwind.~
+@3346  = ~Es sagte mir, dass ich das Blut des Dämons nutzen könnte, um das Schwert zu verstärken oder den abgründigen Dämon für immer aus diesem Plane zu verbannen.~
+@3347  = ~Trotz der Wahl, den Dämon zu verbannen, hat sich das Schwert offenbar trotzdem verbessert.~
+@3348  = ~Du hast weise gewählt, Dusk. Und im Gegenzug bist du belohnt worden.~
+@3349  = ~Dusk, verschwendest du wieder Kraft? Wir hätten sie im Kampf gegen Alabarza nutzen können.~
+@3351  = ~Vielleicht wäre das smaragdgrüne Schwert stärker gewesen... aber ich vertraue darauf, dass wir einen Feind weniger zu bekämpfen haben, wenn wir jemals wieder auf Valatar treffen. Lass uns gehen, <CHARNAME>. Alabarza erwartet uns.~
+@3352  = ~Danke, <CHARNAME>, wirklich. Deine Worte sind immer ein Trost für mein Herz. Lass uns gehen, Alabarza erwartet uns.~
+@3353  = ~Alabarza!~
+@3354  = ~Ich werde kein Mitleid haben, Alabarza... heute wird der letzte Tag deines erbärmlichen Lebens sein! Für Cormyr!!!~
+
+// VS ALABARZA - GUT
+
+@3355  = ~Bellfame!~
+@3356  = ~Ich kann seine Präsenz fast im Ring spüren...~
+@3357  = ~Verstärkung ist angekommen.~
+@3358  = ~Die Zeit für Gerechtigkeit ist gekommen, Alabarza. Für meine gefallenen Kameraden... für Cormyr!!!~
+
+// ENDE M3 BÖSE
+@3359  = ~*Plötzlich strahlt ein schillerndes scharlachrotes Licht aus Dusk's Augen*~
+@3360  = ~Und so enden die Tage des Shilmista-Rangern...~
+@3361  = ~<CHARNAME>, Entschuldigung. Ich habe dich nicht vorher gewarnt, was ich vorhatte. Sagen wir einfach... ich wollte dich nicht einbeziehen.~
+@3362  = ~Dusk! Was zum Teufel hast du getan? Ich dachte, Mathyus und Michelson wären deine Freunde. Hast du vor, das Gleiche mit mir zu machen?~
+@3363  = ~Nun, ich beschwere mich nicht über das, was du getan hast, Dusk. Ich hatte sowieso genug von diesem grünen Elf.~
+@3364  = ~Ich verstehe nicht, Dusk. Was ist los?~
+@3365  = ~Ha! Dein Zorn ist immer willkommen, <CHARNAME>.~
+@3366  = ~Ich würde dich niemals verraten, mein Freund. Schließlich bin ich so, wie ich bin, wegen dir.~
+@3367  = ~Wir haben noch einen langen Weg vor uns, <CHARNAME>. In unserer Suche nach Macht und Rache müssen wir in der Lage sein, einander zu vertrauen. Deshalb schulde ich dir eine Erklärung für das, was hier passiert ist.~
+@3368  = ~Der Kampf gegen Valatars abgründigen Dämon hat mir eine klarere Verbindung zur Macht des Scharlachroten Orbs gegeben.~
+@3369  = ~Seine Energie stammt aus dem Pandemonium, einem Plane, der als Zuflucht für Dämonen und Schatten dient.~
+@3370  = ~Der Orb zieht seine Kraft aus einer Kreatur aus diesem Plane. Im Laufe der Zeit, seit ich seine Kraft absorbiert habe, konnte ich meine Kommunikation mit ihm klären. Es gab etwas in unserer Existenzebene, das seine... Rückkehr verhinderte.~
+@3371  = ~Dieses Etwas hat mit dem Tod von Mathyus und Michelson geendet. Der Untergang der Shilmista-Wächter ermöglicht nun das Wiederaufleben der Kreatur...~
+@3372  = ~Und jetzt werden wir sie kennenlernen...~
+@3373  = ~Sehr gut, Danctian. Lass die Klinge von Cormyr meine Feinde furchtbar machen!~
+@3374  = ~Sehr gut, Danctian. Lass meine Rüstung meine Verteidigung gegen diejenigen werden, die ich zur Exekution bringen muss!~
+
+@3375  = ~„Nur die Ware, nackt und...“ *hört auf zu schreiben, als alle ihm Aufmerksamkeit schenken*~
+@3376  = ~Äh... Entschuldigung, Ribald Sir, es liegt nur daran, dass du eine Art von Worten hast, wenn es um diesen Kram geht. Und ich dachte, ich könnte das ein oder andere aus deiner Rede lernen.~
+
+@3377  = ~Hmm... Es ist seltsam, <CHARNAME>. Vielleicht hat der Wächter recht... das könnte eine Art dunkle Magie sein. Wir müssen vorsichtig vorgehen.~
+@3378  = ~Nun, schließlich war es kein Oger-Magier, sondern ein Illusionist-Gnom. Jetzt macht alles Sinn...~
+
+@3380  = ~Ich stimme dir zu, Minsc. Obwohl das mit den Augen ein bisschen... übertrieben wirkt.~
+
+// INTERACTIONS REST
+@3381  = ~Nicht dass ich mich beschwere, einen Dieb töten zu müssen, <CHARNAME>. Aber ich würde es lieber aus meinen eigenen Gründen tun als aus der Notwendigkeit, mit diesem Gesindel umzugehen...~
+
+@3382  = ~<CHARNAME>, anscheinend haben wir den Gerber gefunden, der uns in Athkatla entkommen ist. Ich denke, das ist eine gute Gelegenheit, Gerechtigkeit zu üben, oder?~
+@3383  = ~Ha! Wer hätte das gedacht? Wir haben den Bastardflayer gefunden. Es ist eine gute Gelegenheit herauszufinden, warum er tut, was er tut... obwohl, wenn wir ihn töten müssen, werde ich mich nicht beschweren.~
+
+//@3384  = ~Dort... in der Dunkelheit... kannst du ihn sehen, <CHARNAME>?~
+
+@3385  = ~Es scheint, als sei sie sich unserer Bewegungen bewusst, <CHARNAME>. Sie weiß sogar, wie viel Gold wir haben. Äh... eine unangenehme Tatsache, wenn du mich fragst...~
+@3386  = ~Wie weiß diese Frau, wie viel Gold wir haben? Verdammt, <CHARNAME>. Während sie angeblich dasselbe wie die Diebe für weniger Münzen anbietet... Diese Kreatur scheint mir sehr... widerwärtig zu sein.~
+
+@3387  = ~Hör zu, Wicht! <CHARNAME> hat entschieden, den Artefakt zurückzugeben, weil er glaubte, es sei das Richtige zu tun. Das Mindeste, was du tun solltest, ist, ihm auf den Knien zu danken. Würde das dich etwas kosten? Ich könnte dir helfen. Du wirst sehen, dass mein Schwert ein guter Anreiz ist...~ ~Hör zu, Wicht! <CHARNAME> hat entschieden, den Artefakt zurückzugeben, weil sie glaubte, es sei das Richtige zu tun. Das Mindeste, was du tun solltest, ist, ihr auf den Knien zu danken. Würde das dich etwas kosten? Ich könnte dir helfen. Du wirst sehen, dass mein Schwert ein guter Anreiz ist...~
+
+@3388  = ~Du kannst einem Djinn nicht trauen, <CHARNAME>. Wenn du wählst, seine Beute zu verfolgen, kann ich das unterstützen. Aber wenn es nach mir ginge, würde ich sie hier ausrotten.~
+@3389  = ~Ha! Wer hätte das gedacht? Der Djinn ist bereit, sein Wort zu halten. Ich hoffe, du tust dasselbe mit dem, was du mir versprochen hast, hmm?~
+
+@3390  = ~Irenicus! Du wirst für die Tode bezahlen, die du auf der Waukeen-Promenade verursacht hast. Die Tode der Unschuldigen werden nicht vergessen. Für Cormyr!~
+@3391  = ~Endlich! Der ekelhafte Zauberer ist in greifbarer Nähe, <CHARNAME>. Lass uns diesem Narren zeigen, was wahre Macht ist!~
+@3392  = ~Dusk, der Krieger von Cormyr. Sein Herz ist verhärtet, aber es hat ihn mächtiger gemacht. Sein Blick ist kalt und furchtlos; dennoch strahlt seine Augen Respekt in deiner Gegenwart aus.~
+@3393  = ~Wir sind einen langen Weg gekommen, um hierher zu gelangen, <CHARNAME>: Rache ist in Reichweite. Lass uns Jon Irenicus beenden. Lass den Bastard unsere große Macht erleben.~
+
+@3394  = ~Es bist du...~
+@3395  = ~Dusk? Du siehst blass aus... Kennst du diesen Kerl?~
+@3396  = ~Es ist er... der, der Celine getötet hat.~
+@3397  = ~Erleichtert das deine Bürde, Captain? Sich aller Schuld zu entledigen... ist das der Grund?~
+@3398  = ~Ich weiß, was du tust, Schlange. Und ich weiß auch, wer du bist.~
+@3399  = ~Du bist derjenige, der die anderen Magier geschickt hat, nicht wahr?~
+@3400  = ~Es bedarf keines Genies, um das herauszufinden, Slayer.~
+@3401  = ~Aber es ist Zeit, dass wir das formal machen, nicht wahr?~
+@3402  = ~Ich bin der Anführer des Ordens der Vergessenen Krypta, und Velsharoon ist mein Herr.~
+@3403  = ~Ich bin Anthagar, der Nekromant. Kommandeur von Gift, Tod und Zerstörung.~
+@3404  = ~Was?! <CHARNAME>, was zum Teufel machst du? Es ist ein abscheulicher Verrat! Nein... ich werde es nicht erlauben! Ich hoffe... ich hoffe, unsere Wege kreuzen sich nie wieder...~
+@3405  = ~Aber, was zum Teufel-?~
+@3406  = ~Hölle... Ich spüre eine mächtige arkanische Kraft, <CHARNAME>!~
+@3407  = ~Demoli! Freund, es ist großartig, dich wiederzusehen.~
+@3408  = ~Ausgezeichnet, Danctian. Alles läuft nach Plan.~
+@3409  = ~*hustet* Hallo, ich bin hier. Würdest du so nett sein und dem Rest der Gruppe erzählen, was los ist?~
+@3410  = ~Dusk, worüber reden sie? Ich verstehe nichts.~
+@3411  = ~Nichts, worüber du dir Sorgen machen müsstest, <CHARNAME>. Wir können diese Angelegenheit regeln, wann immer du bereit bist. Obwohl ich empfehlen würde, es so schnell wie möglich zu tun. Die Belohnungen können... ziemlich erheblich sein.~
+
+@3412  = ~Hm... dieser Ort kommt mir bekannt vor... Waren wir schon einmal hier, <CHARNAME>? Egal.~
+@3413  = ~So sei es. Lass uns aufbrechen.~
+@3414  = ~Ich sehe Mathyus oder Demolisher nirgends...~
+@3415  = ~Hmpf... er wird wahrscheinlich nicht einmal auftauchen. Dieser Elf redet nur.~
+@3416  = ~M-Maybe hatten sie während des Teleportationszaubers einige Probleme, oder?~
+@3417  = ~Ich glaube nicht, dass dein Freund dich im Stich lassen würde, Dusk. Judging by his... appearance, he probably wants to make some kind of spectacular entrance or something.~
+@3418  = ~Wir sollten besser vorsichtig sein... In Anbetracht dessen, dass wir es mit Anthagar und seinen Handlangern zu tun haben, haben sie wahrscheinlich einige arkanen Fallen für uns vorbereitet.~
+@3419  = ~Auf jeden Fall musst du dir keine Sorgen machen, Stickmann. Edwin Odesseiron wird sich um alles kümmern, was mit Magie zu tun hat. (Ja, das wirst du sehen...)~
+
+@3420  = ~Ich vertraue diesen Magiern nicht, also empfehle ich, vorsichtig vorzugehen.~
+@3421  = ~Wer wäre so töricht, ihnen zu vertrauen, dürrer? Mach dir keine Sorgen, ich werde dir den Rücken freihalten, wenn du so besorgt bist. Meine Axt hat immer Durst nach arkanem Blut.~
+@3422  = ~Die Atmosphäre ist unheimlich, Dusk. Die Energie der Natur ist nirgends zu spüren. Vorsichtig und langsam zu handeln, wie eine Schnecke, wäre keine schlechte Wahl.~
+@3423  = ~Ein seltsamer Ort für die endgültige Konfrontation gegen diesen Orden der Iblith. Mach dir keine Sorgen, abbil, die Stärke von Shar ist mit uns.~
+@3424  = ~Hmm... ich denke, wir waren schon einmal hier. Es ist wie ein Déjà-vu, findest du nicht, Dusk? Ich hatte einmal etwas Ähnliches, als dieser Schmeichler Trax immer wieder kam, um mich wegen des Verkaufs illegaler Rüben im Regierungsbezirk zu belästigen. 'Gnom, du kannst das hier nicht verkaufen. Es ist verboten.' Und dieser Satz wurde praktisch jeden Tag wiederholt.~
+@3425  = ~Ich glaube nicht, dass das das Konzept des 'Déjà-vu' ist, Jan. Ich denke, sie sind einfach zu dir gekommen, weil du täglich versucht hast,... illegale Gemüse zu verkaufen?~
+@3426  = ~Rüben, Radieschen, wir könnten in diese Diskussion über die Unterscheidung zwischen dem einen und dem anderen einsteigen und es würde Tage dauern, um es zu klären. Oder vielleicht Jahre, mein lieber Duskie. Weißt du, ich habe kein Problem, zu plaudern, obwohl ich mich als einen Gnom mit wenigen Worten betrachte.~
+@3427  = ~*ähem* Es wäre besser, diese Diskussion für einen anderen Tag zu führen (einen Tag, auf den ich nicht sehnsüchtig warten werde...).~
+@3428  = ~Ce-Celine?!~
+@3429  = ~Dusk? Was ist los? Dieser Geist... ist es deine Frau?~
+@3430  = ~Aber, was zum Teufel? Kameraden, zieht eure Waffen! Es gibt einen Geist, den wir vernichten müssen.~
+@3431  = ~*schweigt einen Moment* Das... das ist richtig, <CHARNAME>. Oder zumindest... denke ich das...~
+@3432  = ~Bewege keinen Muskel, <CHARNAME>! Ich denke... ich denke, dass der Geist, den du rufst... nichts anderes ist als meine Frau, Celine.~
+@3433  = ~Celine... bist du... bist du es?~
+@3434  = ~Bei Mielikki... Celine... dieses Mal... bist du es...~
+@3435  = ~Celine...~
+@3436  = ~Ce-Celine... es ist unmöglich...~
+@3437  = ~Celine!!!~
+
+// Agregados v0.9
+@3440  = ~Wir müssen vorsichtig sein, <CHARNAME>. Wir wissen, wie fanatisch Bodhi in Bezug auf tödliche Fallen ist...~
+@3441  = ~Sogar angesichts der Zerstörung zeigt das Wesen Vertrauen... Lass uns sie ein für alle Mal erledigen.~
+
+@3442  = ~Es ist an der Zeit, dass du für das bezahlst, was du getan hast, Jon Irenicus. Für die Gerechtigkeit von Athkatla wirst du fallen!~
+@3443  = ~Dies ist ein ebenso guter Ort wie jeder andere, um dich mit unserer Macht zu Fall zu bringen, Magier. Das Ergebnis wird dasselbe sein: dein Tod.~
+
+@3438  = ~So sei es... Soldaten, formiert euch!~
+
+// NPCs
+@3439   = ~Dusk, <CHARNAME>, Minsc und Boo sind bereit, Orks und Trolle zu vermöbeln!~
+@3479   = ~Kahlkopf! Dieses Nagetier wird mein sein. Komar verlangt es! Komar wird deine Knochen brechen und die kleine Fellkugel zu seinem Vergnügen mitnehmen!!!~
+@3480   = ~Kahlkopf? Du wirst der Kahlkopf sein, böser Ogre! Und Boo wird niemandes Sklave sein. Die Wut des Hamsters ist frei und wird dich Sterne sehen lassen!~
+@3481   = ~Oh, ich mag das nicht... aber ich werde alles tun, um meine Freunde zu beschützen!~
+@3482   = ~Das könnte unsere letzte Schlacht sein, meine Freunde. Aber bei Torm werde ich bis zum bitteren Ende kämpfen!~
+@3444   = ~Ein Paladin! Chef, lass mich mich um diesen Elenden kümmern. Ich werde sicherstellen, dass er so schnell wie möglich seinen Gott trifft.~
+@3445   = ~Versuch es, Kreatur! Du wirst sehen, wie schnell du vor der Klinge der Gerechtigkeit fällst.~
+@3446   = ~Nun, es ist Zeit, meine Kriegerfähigkeiten zu testen (nicht dass es etwas Beeindruckendes sein wird, aber vielleicht wird es ein paar Monster erschrecken).~
+@3447   = ~Arvoreen, gib mir die Kraft, diesen Kampf zu gewinnen!~
+@3448   = ~Chimi: Willst du diesen Halbling verschlingen, Bob? Mach ruhig. Lass ein paar Knochen für deinen Bruder Mike, ja?~
+@3449   = ~*Die Kreatur richtet ihre Augen auf Mazzy. Es scheint fast, als würde es sich die Lippen lecken*~
+@3450   = ~Es tut mir leid, das zu sagen, aber es ist nicht das erste Mal, dass ein Monster versucht hat, mich zu verschlingen... Dennoch muss ich dir leider sagen, dass du enttäuscht sein wirst, Ungeziefer.~
+@3451   = ~Endlich bringst du uns etwas Action, Dusk! Helm, gib mir Kraft. Heute werde ich in deinem Namen kämpfen und triumphieren!~
+@3452   = ~Chef, lass mich diesen jungen Mönch nehmen. Es ist immer ein Vergnügen, arrogante Menschen zu verprügeln.~
+@3453   = ~Für das Andenken meines Vaters werde ich es nicht zulassen, dass elende Trolle durch diese Lande streifen!~
+
+@3454   = ~Ich habe das Gefühl, dass du mit mir sprichst, Weibchen.~
+@3455   = ~Für de'Arnise! Heute wird der letzte Tag sein, an dem du atmest, Monster.~
+@3456   = ~*schnauft* Ich habe genug von diesen arroganten Menschen...~
+@3457   = ~Dusk, dein Verlangen nach Rache wird verstanden und begrüßt. Und es wird mir eine Ehre sein, an deiner Seite zu kämpfen, um es zu erfüllen!~
+@3458   = ~Es ist Zeit, diesem Hügel ein Ende zu setzen. Ein Bau wie dieser, so nah am Hain, ist eine Beleidigung für die Natur.~
+@3459   = ~Toxsan: Was sagst du, Mike? Willst du den menschlichen Druiden essen? Für mich soll's so sein. Vergiss nicht deinen Bruder Bob, ja?~
+@3460   = ~*Der Umber Hulk richtet seine vier Augen auf Cernd, ungeduldig darauf, dass sein Meister die Zügel loslässt und den Angriff beginnt*~
+@3461   = ~Kreatur, heute wirst du Nahrung für Würmer sein und zum Kreislauf des Lebens durch deinen Tod beitragen.~
+@3462   = ~Dusk, die Zeit ist gekommen. Wir werden Gerechtigkeit für deine gefallenen Kameraden tun!~
+@3463   = ~Nun, Rivvil, wir sind einen langen Weg gekommen, um hierher zu gelangen. Ich werde die Göttlichkeit von Shar zu deinen Gunsten nutzen, vergiss es nicht. Unsere Feinde werden in die Ewige Dunkelheit fallen.~
+@3464   = ~*zisch* Eine Drow! Herr, lass mich mit ihr experimentieren, bitte. Ich verspreche, es wird... sorgfältig sein.~
+@3465   = ~Obwohl es mir egal ist, was du in der Vergangenheit gemacht hast, Stickmann, gebe ich zu, dass dies eine gute Gelegenheit ist, meine Zauber zu testen. Besonders gegen diesen Echsenmenschen.~
+
+@3466   = ~Sprichst du mit mir, roter Zauberer?~
+@3467   = ~Das stimmt, Kaulquappe! Du wirst die Ehre haben, durch die Hände von Edwin Odesseiron zu sterben.~
+@3468   = ~Du bist verrückt, Zauberer. Obwohl das mich nicht überrascht, wenn es von einem menschlichen Anwender kommt. Herr, lass mich diesen Narren fertig machen.~
+@3469   = ~Gut gemacht, dürrer! Du hast uns in eine 'Falle' geführt. Was diese Narren nicht wissen, ist, dass du Korgans Axt auf deiner Seite hast.~
+@3470   = ~Chimi: Schau, Toxsan! Ein Zwerg. Er erinnert mich an alte Zeiten.~
+@3471   = ~Toxsan: Das stimmt, Chimi. Sie zu zerquetschen war unser Zeitvertreib. Jetzt können wir es wieder erleben, findest du nicht?~
+@3472   = ~Hier bin ich, blutiger Ettin. Komm und probiere meine Axt! Du wirst sehen, wie schnell ich dich aufschlitze.~
+@3473   = ~Also sind wir in eine Falle geraten, huh? Das erinnert mich an die Zeit--~
+@3474   = ~Ich glaube nicht, dass es der beste Zeitpunkt für eine deiner Geschichten ist, Jan.~
+@3475   = ~Nun, nun. Aber ich werde es dir erzählen, wenn wir hier gewonnen haben. Was denkst du, guter Dusk?~
+@3476   = ~Einverstanden.~
+@3477   = ~Ahhh, weißer Rabe. Du bist in eine Falle geraten. Aber wer bin ich, dich zu beurteilen? Ich selbst war in ähnlichen Situationen. Komm, lass uns diese Narren besiegen, damit ich ein oder zwei Lieder über unsere Heldentaten komponieren kann.~
+@3478  = ~Oh, Dusk... du weißt wirklich, wie man Freunde macht, hm? Sehr gut, ich werde dir helfen, diesen Monstern gegenüberzutreten.~
+
+// Bodhi EVIL Path M2-Intro
+@3483  = ~Es ist mir egal, was du wählst, <CHARNAME>. Es reicht mir, diese nervigen Angelegenheiten mit diesem... diesem schmutzigen Wesen zu beenden.~
+@3484  = ~Für diesen Ungeziefer zu arbeiten, ist schon schlimm genug. Ich hätte lieber etwas, das nicht böswillig ist, <CHARNAME>.~
+
+@3485  = ~Ich nehme an, wir stecken schon bis zu den Knien im Schlamm. Ich bezweifle, dass dieser Aran ein Mensch mit gutem Charakter ist, also wirst du von mir keine Einwände hören.~
+@3486  = ~Ein würdiger Gegner, <CHARNAME>. Obwohl ich das Gefühl habe, dass dieser... Vampir uns nur benutzt, als wären wir der Hammer des Richters. (Wäre es nach mir gegangen, hätte ich ihr Herz schon längst durchbohrt)~
+
+@3487  = ~Und in diesem Konflikt starben viele wegen seiner Schuld. Ich habe es gesehen. Er verdient keine Gnade.~
+@3488  = ~Hmph. Glaubst du wirklich dieser Kreatur, <CHARNAME>? Sie versucht, das Leid, das dir zugefügt wurde, auf eine pathetische Weise zu rechtfertigen.~
+
+@3489  = ~<CHARNAME>, pass auf!~
+
+@3490  = ~*seufzt* Es scheint, als wäre die Promenade zum Epizentrum der korrupten Magie geworden.~
+
+@3491  = ~Bald werden eure Schreie des Schmerzes diesen schmutzigen Hügel erfüllen.~
+@3492  = ~Beller, solange du kannst, Hund.~
+
+@3493  = ~Ein harter Kampf erwartet uns...~
+
+@3494  = ~Ich brauche Rat...~
+
+@3495  = ~(Wilson bewegt seine Ohren, zeigt Verwirrung über <CHARNAME>s Witz)~ [BBEAR04]
+@3496  = ~(Knurren, Schnüffeln)~ [BBEAR04]
+@3497  = ~Was sagst du, Wilson? Willst du den Gnoll verschlingen?~
+@3498  = ~*knurrend* Du solltest deinen haarigen Freund beruhigen, Soldat.~
+@3499  = ~(Knurren, Wimmern)~ [BBEAR09]
+@3500  = ~Ganz ruhig, Wilson, ganz ruhig... einen Moment... gleich werden wir sehen, wie das hier endet...~
+
+// EE-bezogene Codes
+@3501  = ~Planst du, den Orden anzugreifen? Das kann ich nicht zulassen... sie sind meine Verbündeten! <CHARNAME>, mach dich bereit!~
+
+@3502  = ~Ich schäme mich nicht zu sagen, dass ich es gewohnt bin, durch die Bäume zu wandern. Es erinnert mich an Shilmista.~
+@3503  = ~Das ist lächerlich, <CHARNAME>. Dieser ganze Aufstand wegen diesem elenden Halb-Ork?~
+
+@3504 = ~Und in diesem Konflikt starben viele wegen seiner Schuld. Ich habe es gesehen. Er verdient keine Gnade.~
+@3505 = ~Hmpf. Glaubst du wirklich dieser Kreatur, <CHARNAME>? Er versucht, den Schaden, der dir zugefügt wurde, auf eine fast pathetische Weise zu rechtfertigen.~
+
+//@3506 = ~Stirb, Dämon! Bezahle für den Tod unseres Kameraden!~
+//@3507 = ~Ich werde dir den Kopf abtrennen, Dämon. Niemand täuscht uns und kommt damit durch!~
+@3508 = ~Macht es Sinn, einem Vampir zu vertrauen? Sie hat gerade einen unserer Kameraden ermordet! Ich mag das überhaupt nicht, <CHARNAME>.~
+
+// ALABARZA EE Charaktere
+@3509 = ~Das wird ein gutes Training für meine Fähigkeiten. Komm schon! Speise mein Schwert...~
+@3510 = ~Sehr gut, Dusk. Die Zeit für deine Rache ist gekommen. Ich werde tun, was ich kann, um dir dabei zu helfen!~
+@3514 = ~Ähm... nun, ich will mich nicht rühmen, aber in solchen Kämpfen kann ich wirklich einen Unterschied machen. Lass uns sie holen!~
+@3512 = ~Gut, gut... ich bin nicht besonders daran interessiert, humanoides Blut zu trinken... aber ich könnte diesmal eine Ausnahme machen.~
+@3513 = ~(KNURREN)~ [BBEAR09]
+
+@3515  = ~Der Adventure Mart ist das beste Shopping in ganz Faerûn: die größte Auswahl, die niedrigsten Preise und keine fancy Illustrationen. Nur die Waren, karg und schlicht... Hmm... Warum machst du dir Notizen, während ich spreche, junger Mann?~
+@3516  = ~Ah, ich verstehe. Ein zukünftiger Konkurrent, hm? Oh, dafür musst du dir kein Gesicht machen, mein lieber Mensch. Du kannst alles lernen, was du willst. Und übrigens, du würdest gut daran tun, mir ein oder zwei Kleinigkeiten zu kaufen, oder? Lass mich noch einmal anfangen:~
+
+@3517  = ~Nun, du hast das ziemlich schnell gelöst, <CHARNAME>. Obwohl, vielleicht hätte das Gold woanders nützlicher sein können.~
+@3518  = ~Sie überzahlen uns, ja; aber denk daran, Dusk: Wir haben auch die Hilfe von Daren und Sinna.~
+@3519  = ~Es gibt hier keine Spuren der Natur, Dusk. Die Magier haben diesen Ort aus einem Grund gewählt. Ich empfehle, Daren und Sinna als Späher einzusetzen.~
+@3520  = ~Ein Hinterhalt wäre nicht meine Wahl gewesen, Dusk. Aber ich sehe, dass wir jetzt keine andere Option haben. Auf zur Charge!~
+@3521  = ~*flüstert* Dieser Mensch hat das Licht in seinen Augen verloren... er scheint... wie ein Lebender Toter.~
+@3522  = ~Sie scheinen nicht aggressiv zu sein, oder, Dusk?~
+@3523  = ~Reich des was? *kratzt sich am Kopf* Ich habe das Gefühl, dass ich einiges an Kontext verpasst habe.~
+
+// LORD KHELON
+@3524  = ~Bist du dir sicher, was du tun willst, <CHARNAME>? Die Natur so anzugreifen könnte enorme Konsequenzen selbst für Caravanserai haben... Ich hoffe, du wählst diesen Weg nicht.~
+
+@3525  = ~Was hast du getan?! Nie in meinem Leben lag ich so falsch über eine Person. Du verdienst es zu sterben für das, was du getan hast!~
+
+@3526  = ~Nein... <CHARNAME>! Wie konntest du? Zu Ehren... zu Ehren meiner Prinzipien muss ich dich für das, was du getan hast, besiegen. Du wirst für das, was du getan hast, bezahlen!~
+
+@3527 = ~<CHARNAME>, das wird nicht unbestraft bleiben. Sklavenhandel so frei auf den Straßen? Es ist Zeit, diese schmutzigen Sklavenhändler zur Rechenschaft zu ziehen.~
+@3528 = ~Ich werde nicht zulassen, dass sie dich mitnehmen, mein Herr. Bei Imnescar, ich werde diese Sklavenhändler angreifen! Ich hoffe, du wirst mir helfen, <CHARNAME>.~
+
+@3529  = ~*flüstert* Acrull... Irgendetwas stimmt nicht... Sollen wir fliehen?~
+@3530  = ~*flüstert* Nein... aber es wäre weise, unseren Standpunkt zu halten und zu sehen, was geschieht.~
+@3531  = ~Du! Wurdest du hier jemals betrogen? Ich wette, du wurdest!~
+@3532  = ~Hmm. Ich denke nicht, mein Herr. Nicht alle Händler sind Betrüger, weißt du. Vielleicht eröffne ich eines Tages sogar meinen eigenen Markt. Wer weiß?~
+
+@4000  = ~Der Paladin heißt 'Niemand'? Ich sehe das nicht... Ah, jetzt verstehe ich. *lacht* Sehr gut, <CHARNAME>.~
+
+@4002  = ~Ich wusste nicht, dass Honigkuchen ein leichtes Essen sind. Ich habe gesehen, wie du mehrere Stücke in wenigen Sekunden verschlungen hast.~
+@4003  = ~*flüstert* Sei ruhig, Dusk! Ich spreche mit <CHARNAME> über mein Studium, nicht über meine Diät, weißt du?~
+
+@30000    = ~Ah, wenn es nicht der Kapitän des Nordens ist. Sag mir, Dusk, gibt es etwas, bei dem ich dir helfen kann?~
+@30001    = ~Eine Gruppe von Renegaten, sagst du? Ich verstehe. Und was suchst du vom Edlen Orden des Strahlenden Herzens?~
+@30002    = ~Hmm... Ich nehme an, ich könnte im Namen von dir und deiner Gruppe von Humanoiden beim Prälaten intervenieren. Aber sag mir, warum sollte ich das tun?~
+@30003    = ~Das macht Sinn... Sehr gut, ich werde mit dem Prälaten sprechen, ich bin sicher, es wird keine Probleme geben. Hier in der Kaserne ist viel Platz, sogar für größere Humanoiden. Sie können bei den täglichen Aufgaben helfen und zusätzlich für das größere Wohl der Nation dienen.~
+@30004    = ~Aber zuerst brauche ich einen Gefallen von dir... solange dein Ruf natürlich relevant ist.~
+@30005    = ~Außerdem müsste ich mit deinem Anführer <CHARNAME> sprechen. Wir haben ein mühsames Thema im Zusammenhang mit dem Sklavenhandel, das Männer betrifft, die sich einst Paladine nannten.~
+@30006    = ~Tu dies für mich, Dusk... und ich werde den Prälaten von den Humanoiden überzeugen, die du zu schützen versuchst.~
+@30007    = ~Ja, Dusk. Das Thema deiner Humanoiden...~
+@30008    = ~Ich wäre glücklich, im Namen von dir beim Prälaten zu intervenieren. Du kannst zu den Sothillis-Deserteuren zurückgehen und ihnen sagen, dass sie zur Kaserne des Ordens kommen sollen.~

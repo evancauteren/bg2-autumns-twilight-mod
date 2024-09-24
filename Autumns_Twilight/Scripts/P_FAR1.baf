@@ -1,0 +1,18 @@
+IF
+Global("P_IDDXFAR1ASpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_IDDX",[701.203],W)
+SetGlobal("P_IDDXFAR1ASpawn","GLOBAL",1)
+END
+
+
+IF
+Exists("P_IDDX")
+Global ("P_OpenPortal_PFA3B","GLOBAL",1)
+Global("P_DestroyIDDXF1","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("P_IDDX", DestroySelf())
+SetGlobal("P_DestroyIDDXF1","GLOBAL",1)
+END

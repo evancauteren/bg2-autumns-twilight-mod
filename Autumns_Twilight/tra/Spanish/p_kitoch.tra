@@ -1,0 +1,240 @@
+@0 = ~*Ves a un curioso gato sentado, con los ojos entrecerrados. No puedes evitar observar el gorrito que lleva en su cabeza.*~
+@1 = ~*Observas con atención al gato. Parece estar durmiendo sentado.*~
+@2 = ~*El gato, quien parecía estar durmiendo confortablemente, se incorpora al escuchar la voz de Fall.*~
+@3 = ~¿Gorro ridículo? Pues para ser un Hijo de Bhaal te ves como un mamarracho.~ ~¿Gorro ridículo? Pues para ser una Hija de Bhaal te ves como un mamarracho.~
+@4 = ~¿Intentas herir mis sentimientos? Tendrás que esforzarte más, mamarracho.~
+@5 = ~Sí, lo lamento, bocona.~
+@6 = ~¿Que yo qué? No me hagas sacar mis garras, esperpento.~
+@7 = ~Que no me hayas visto no significa que no haya estado aquí.~
+@8 = ~Soy extremadamente sigiloso. Además puedo hacerme invisible gracias a mi condición feérica.~
+@9 = ~¿Lo ves, Fall? Esta criatura es cruel. Puedes burlarte de mí, <PRO_RACE>, pero ¡jamás de mi gorro!~
+@10 = ~Sin embargo, te lo diré, bocona. Aunque no esperes que te acompañe después de esto.~
+@11 = ~Disculpas aceptadas, <LADYLORD> <CHARNAME>. Y yo lamento haberte llamado mamarracho.~
+@12 = ~Ahora podemos continuar.~
+@13 = ~Al elfo malhumorado le llevó un tiempo ejecutar el sortilegio con el que pretendía averiguar el paradero de tu madre.~
+@14 = ~Honestamente, creí que habría de ejecutarlo en un lugar un tanto más... discreto que aquí en la taberna. Pero lo cierto es que no hay mucha concurrencia en este sector.~
+@15 = ~El ritual fue algo... extraño. Pareció imbuir una espada con los ingredientes necesarios, incluyendo el colmillo del basilisco que ustedes le trajeron.~
+@16 = ~De la hoja de la espada nació una llama amarillenta.~
+@17 = ~El viejo elfo comenzó a invocar unas extrañas conjuraciones y esperó. Parecía estar hablando con las llamas, llamando, recitando...~
+@18 = ~Sea lo que oyese, parecía que sólo era destinado para sus oídos élficos, porque yo sólo escuché las crepitaciones de las llamas.~
+@19 = ~Eventualmente, alguien... o algo le respondió.~
+@20 = ~Como ya debes saber, niña, el tal Alendir es de una paz inescrupulosa... Pero pude ver un miedo indescriptible en su mirada.~
+@21 = ~Las llamas se volvieron negras como las nubes de una tormenta y Alendir dejó caer la espada.~
+@22 = ~Con sus manos tomó su cabeza y le oí murmurar...~
+@23 = ~¿Qué fue lo que dijo?~
+@24 = ~"No puede ser." Dijo una y otra vez.~
+@25 = ~Al cabo de unos minutos de silencio, tomó sus cosas y se fue.~
+@26 = ~Kitochi... ¿sabes dónde está Alendir?~
+@27 = ~Por supuesto, bocona. Le seguí. Fue a los Barrios Bajos. Ingresó a una taberna y pasó hacia unas habitaciones en la parte de atrás.~
+@28 = ~Siguió por un largo pasillo y pareció desviarse por un pasaje secreto. Dicho pasaje lleva a una especie de cloaca.~
+@29 = ~Pero eso no es todo. Su recorrido iba más allá. Por un lugar donde los desechos corren, por el norte.~
+@30 = ~Cabe mencionar que Alendir se había hecho invisible, pero pude seguir su rastro de igual manera.~
+@31 = ~Menciono esto porque pasamos entre unos kóbolds que no parecían muy amigables.~
+@32 = ~Si avanzas más allá, dicho pasillo se va encogiendo hasta que casi no se puede avanzar.~
+@33 = ~Se puede seguir hasta que uno se choca con una pared aparentemente infranqueable. Una especie de fuerza invisible.~
+@34 = ~Aquí es donde Alendir se detuvo y... pareció hablar a la nada.~
+@35 = ~¿Llegaste a escucharlo, Kitochi?~
+@36 = ~*maullido* Por supuesto, bocona. El elfo dijo "En el susurro del viento helado, se encuentra el camino.".~
+@37 = ~Luego de eso, el obstáculo pareció desaparecer. Pero... ya no le seguí. Desconozco qué es lo que hay más allá de ese lugar.~
+@38 = ~Presentí peligro. O al menos una presencia extraña y ajena a este plano.~
+@39 = ~Como sea, creo que he cumplido con lo que me has pedido, bocona.~
+@40 = ~Ah, y no te molestes en convocarme de nuevo. Tu nuevo compañero me cae mal. No puedo juntarme con alguien que me insulta.~ ~Ah, y no te molestes en convocarme de nuevo. Tu nueva compañera me cae mal. No puedo juntarme con alguien que me insulta.~
+@41 = ~Adiós, bocona.~
+@42 = ~Puedes llevarme al Plano Astral si lo deseas. <CHARNAME> no parece ser tan malo después de todo. Aunque su gusto por la moda sea nulo.~ ~Puedes llevarme al Plano Astral si lo deseas. <CHARNAME> no parece ser tan mala después de todo. Aunque su gusto por la moda sea nulo.~
+@43 = ~Escuché eso, Kitochi.~
+@44 = ~Si Fall logra convocarme, hijo de Bhaal, habla conmigo. Me gustaría intercambiar historias.~ ~Si Fall logra convocarme, hija de Bhaal, habla conmigo. Me gustaría intercambiar historias.~
+@45 = ~Muy bien, bocona. Espero que puedas descifrar el conjuro necesario para convocarme.~
+@46 = ~Por lo pronto, me despido.~
+
+
+@47 = ~¡Por los bigotes de mi madre! Bocona, ese escarabajo me está mirando de una forma muy extraña.~
+@48 = ~*La mirada del escarabajo está concentrada en Kitochi.*~
+@49 = ~Ya veo. Pues, eso será un poco complicado. Sus patas están atrapadas por unas grandes cadenas.~
+@50 = ~No vemos ninguna cadena, Kitochi.~
+@51 = ~Pues, no tienes mis ojos, buen <CHARNAME>. La criatura no se irá a ningún lado a menos que acaben con ella o encuentren alguna forma de liberarla de sus ataduras.~
+
+// Kitochi Quest -1st Talk
+@52 = ~*bostezo* ¡<CHARNAME>! ¿Tienes ganas de hablar? Puede que no sea el mejor lugar para una charla, pero siento que ante el peligro unas palabras entre amigos puede alivianar las cosas.~
+@53 = ~*maullido* ¿Y bien? Vamos, quiero saber más de ti.~
+@54 = ~¿Y qué es lo que quieres saber, Kitochi? Ya sabes que desciendo de Bhaal. Tú mismo has escuchado las conversaciones en la taberna de las Cinco Jarras.~
+@55 = ~No es un buen momento para hablar, gato.~
+@56 = ~Hmpf. De acuerdo. Creo que me he equivocado contigo.~
+@57 = ~Es verdad. Me gustaría saber un poco más. Por ejemplo, ¿de dónde vienes?~
+@58 = ~Pues, vengo de Candelero. Viví allí durante unos veinte años hasta que Sarevok, mi hermano, asesinó a mi padre, Gorion.~
+@59 = ~No te ofendas, felino, pero no me gusta hablar de mi pasado.~
+@61  = ~De acuerdo, Kitochi. Cuéntame.~
+@62  = ~Tampoco me gusta oír historias ajenas, gatito. Será mejor que lo hagas en otra ocasión.~
+@63  = ~Ya veo. Sarevok te estaba buscando a ti. En cambio, encontró a Gorion primero.~
+@64  = ~En realidad, estábamos dejando Candelero cuando fuimos emboscados por Sarevok. Gorion se sacrificó para salvarme.~
+@65  = ~No me gusta hablar de la muerte de Gorion, Kitochi. Espero que lo entiendas.~
+@66  = ~Entonces... ¿tu padre murió frente a tus ojos?~
+@67  = ~Así es. Vi cómo su pecho fue atravesado por la espada de mi hermano. Es algo que nunca olvidas.~
+
+
+@68  = ~Así es...~
+@69  = ~Entiendo más de lo que te puedes imaginar, <CHARNAME>. ¿Querrías escuchar mi historia?~
+@70  = ~De acuerdo, Kitochi. Cuéntame.~
+@71  = ~No estoy de humor, gato. No es el momento más indicado.~
+@72  = ~Antes de comenzar... debes saber que eres la segunda persona con la que hablo de esto. Fall es una buena niña y ha vivido experiencias similares a la nuestra.~
+@73  = ~Tuve que hacerlo. Tuve que hacerlo.~
+@74  = ~Kitochi, ¿te encuentras bien?~
+@75  = ~*maullido agudo* Sí, <CHARNAME>. Gracias por preguntar.~
+@76  = ~*maullido* Creo que ha sido suficiente por hoy, amigo <CHARNAME>. Te diré qué: La próxima vez llámame en alguna taberna de la ciudad y continuaré mi relato.~ ~*maullido* Creo que ha sido suficiente por hoy, amiga <CHARNAME>. Te diré qué: La próxima vez llámame en alguna taberna de la ciudad y continuaré mi relato.~
+@77  = ~Pero a veces siento que debo hablar con alguien más y no se me ocurre una criatura más experimentada que tú.~
+@78  = ~Los gatos feéricos vivimos muchos años. Pero no somos inmortales. Hay mucha confusión al respecto, ¿sabes?~
+@79  = ~Sé que no soy una criatura bella en comparación a mis congéneres. Pero puedo excusarme porque he combatido en el frente de batalla junto a los exploradores y druidas de Imnescar.~
+@80  = ~Lo lamento, a veces me pierdo en mis recuerdos.~
+@81  = ~No siempre viví en Amn, ¿sabes? Aunque no tengo recuerdos de dónde nací.~
+@82  = ~Puedo decirte que viví muchos años en los Bosques de Cormanthor. Recuerdo su magia antigua y la infinidad de criaturas mágicas en las arboledas.~
+@83  = ~En mi juventud exploré difentes tierras y viajé por lugares que no creerías.~
+@84  = ~Sin embargo, como debes saberlo, viajar tiene sus riesgos, incluso para criaturas feéricas como yo.~
+@85  = ~Hace muchas décadas, mientras navegaba por los planos, fui atacado por una entidad abisal.~
+@86  = ~Fui herido de gravedad y caí en uno de los bosques cercanos a Crimmor.~
+@87  = ~El demonio se abrió paso por los planos y logró encontrarme.~
+@88  = ~Estaba indefenso, como un cachorro, y sentí que mi vida estaba llegando a su fin.~
+@89  = ~Fue entonces que el demonio, antes de dar su golpe final, fue asediado por flechas, lanzas y piedras.~
+@90  = ~Una partida de exploradores y druidas arribaba para expulsar al demonio de sus bosques.~
+@91  = ~Yo me encontraba muy malherido, pero sentí cómo alguien me tomó en sus brazos.~
+@92  = ~Con mis últimas fuerzas pude ver al elfo que me cargaba. Más tarde habría de enterarme de su nombre.~
+@93  = ~Aeris.~
+@94  = ~Entiendo. Y lo respeto. En ese caso, me gustaría que escuchases mi historia. ¿Te parece?~
+
+// Kitochi Quest -2nd Talk
+
+@95  = ~*maullido agudo* Sí, este lugar es un buen lugar para hablar.~
+@96  = ~*bostezo* ¿Y bien? <CHARNAME>, continuemos con la historia, ¿te parece?~
+@97  = ~¿Sobre tu llegada a los bosques de Imnescar? Mencionaste a un druida llamado Aeris.~
+@98  = ~¿No habías hablado de una misión o algo así? Si hay algo que hacer, me gustaría que me lo digas.~
+@99  = ~Ya llegaremos a eso, <CHARNAME>. Antes me gustaría saber más de tus aventuras. ¿Qué pasó con tu hermano, el tal Sarevok?~
+@100 = ~Intentó crear una guerra entre Puerta de Baldur y Amn, mientras que su padre adoptivo, Rieltar, intentó monopolizar el mercado del hierro. Fue una situación bastante caótica en el Norte. Finalmente, pude matar a Sarevok luego de desenmascarar sus ambiciosas intenciones.~
+@101 = ~En resumen, Sarevok está muerto. No me gusta mucho hablar del tema, Kitochi.~
+@102 = ~Entiendo. Digamos que, finalmente, pudiste alcanzar tu venganza, ¿no es así? Tengo una pregunta: ¿cómo te hizo sentir eso?~
+@103 = ~Me hizo sentir bien. Matarlo era lo necesario, puesto a que estaba obsesionado con acabar conmigo.~
+@104 = ~Pude vengar a Gorion, es verdad. Sin embargo, no lo hice por venganza. Lo hice porque era lo correcto, Kitochi.~
+@105 = ~No tengo la certeza de que me haya hecho sentir bien. Descubrir que quien asesinó a mi padre adoptivo no fue otro más que mi medio-hermano no hizo que la empresa fuese más fácil.~
+@106 = ~Ya veo. Nunca he llevado a cabo una venganza. Lo que mencionaste me es interesante.~
+@107 = ~Comprendo. Sarevok era un cruel descendiente de Bhaal y debía ser exterminado. Era lo correcto. Era justicia.~
+@108 = ~No debió ser fácil para ti. Entiendo. Matar no se supone que lo haga a uno sentir bien. No al menos de una forma natural.~
+@109 = ~Debo hablarte de Aeris antes de proponerte algo.~
+@110 = ~Fue... un gran amigo.~
+@111 = ~¿Qué sucedió con él? Creo que mencionaste la batalla en Imnescar.~
+@112 = ~Fueron las arañas y las criaturas oscuras que atacaron nuestro hogar...~
+@113 = ~Esto es lo que quiero pedirte, <CHARNAME>. Ayúdame a matar a la criatura que mató a Aeris.~
+@114 = ~No es algo muy diferente a lo que estimo que Fall desea, ¿en qué se diferencia tu deseo?~
+@115 = ~De acuerdo, Kitochi. ¿Qué debemos hacer?~
+@116 = ~¿Habrá alguna recompensa? Un encargo no debería ser diferente porque venga de un amigo, ¿sabes?~
+@117 = ~No sabía que sólo buscabas mi atención para pedirme algo a cambio. No me interesan las maquinaciones felinas.~
+@118 = ~Yo... de acuerdo... no creo que volvamos a hablar...~
+@119 = ~La diferencia está en que es probable que no nos encontremos con esta criatura si seguimos el camino de Fall. No quiero que eso suceda.~
+@120 = ~Antes que nada, quiero aclarar que es probable que la criatura guarde tesoros. En caso de que no, te puedo asegurar que podremos hacer algo con lo que podamos extraer de su putrefacto cuerpo.~
+@121 = ~*maullido* Es hora de terminar esto por ahora, <CHARNAME>. Ultimaremos detalles en nuestra próxima conversación. Aún debo terminar de planear algunos asuntos en el Plano Astral. La próxima vez, convócame en un área forestal y hablaremos.~
+@122 = ~Lo último que te conté fue acerca de un demonio que me perseguía a través de los planos. Finalmente, los exploradores y druidas lograron matarlo, aunque no sin dificultad.~
+@123 = ~Las fuerzas de la naturaleza en el Plano Material son una fuerza a tener en cuenta, <CHARNAME>.~
+@124 = ~Puede que sus vidas sean considerablemente más cortas que las de muchas criaturas abisales, pero no por ello son más débiles.~
+@125 = ~La voluntad de vivir de estas criaturas es excepcional. Al igual que la mía.~
+@126 = ~Eso me dijo Aeris una vez que mis heridas fueron curadas. Sin embargo, no pudo hacer mucho por mis orejas.~
+@127 = ~Las orejas de los gatos feéricos son diferentes a las de los gatos de este plano. Son como las plumas de los cardenales o de los petirrojos. Son el orgullo de su raza.~
+@128 = ~Si bien se dio cuenta de que era un gato feérico, se sorprendió de que no emitiera palabra alguna durante semanas.~
+@129 = ~Creo que Aeris se percató de mi desdicha, por lo que, al cabo de algunas tardes, me obsequió el gorro que ahora ves conmigo.~
+@130 = ~Sé que es con el objetivo de cubrir mis orejas. Pero ciertamente funcionó.~
+@131 = ~Muchos humanos sonreían cuando me veían y, especialmente las damas, buscaban acariciar mi lomo.~
+@132 = ~Volví a hablar. Agradecí a Aeris y me convertí en su compañero animal.~
+@133 = ~Puede que esto sea indigno para un gato feérico, pero no me importó. Aeris era muy sabio.~
+@134 = ~Yo soy viejo para ser un gato feérico. Según mis calculos, mi edad debe rondar los 120 años. Pero Aeris lo era mucho más.~
+@135 = ~Era un elfo de Wéldazh, seguidor de Silvanus. Me enseñó mucho sobre este mundo e hizo que le tome cariño.~
+@136 = ~Tenía un respeto profundo por los humanos y los animales. Los bosques y las estaciones. Incluso la gente de la ciudad.~
+@137 = ~Salvó muchas vidas durante la Plaga de la Costa.~
+
+
+// Kitochi Quest -3rd Talk
+
+@138 = ~*ronroneo* Me recuerda un poco a Imnescar... <CHARNAME>, es hora de la verdad.~
+@139 = ~Voy a hablar de la criatura que mató a Aeris.~
+@140 = ~Ya veo. ¿Qué tipo de criatura es, Kitochi? Para acabar con un druida élfico experimentado debe haberse tratado de un monstruo poderoso.~
+@141 = ~¿Y debemos matar a ese bicho? Necesitamos más información sobre nuestro objetivo, gato.~
+@142 = ~Antes de darte esos detalles, déjame continuar mi historia.~
+@143 = ~Fue entonces que lo vimos...~
+@144 = ~¿Qué vieron, Kitochi?~
+@145 = ~Gorm, la Plaga Verde.~
+@146 = ~Pero si aunamos fuerzas con <CHARNAME>, creo que podremos matarle.~
+@147 = ~Si un druida veterano no pudo hacerle frente, ¿qué te hace pensar que yo podré?~
+@148 = ~Está bien, Kitochi. ¿Qué es lo que propones?~
+@149 = ~Te he visto en diferentes situaciones, <CHARNAME>. Has resuelto el asunto del basilisco, afrontado a Alendir y derrotado a Icelock. Tu poder no deja de sorprenderme.~
+@150 = ~Lo que propongo es lo siguiente: iremos al hogar de esta criatura y le mataremos.~
+@151 = ~Me parece un buen plan. ¿Cómo se supone que haremos eso?~
+@152 = ~¿Un ataque directo? Me parece una locura.~
+@153 = ~No será un ataque frontal, <CHARNAME>. Gorm no nos espera, aunque eso no significa que vaya a ser un combate fácil.~
+@154 = ~Lo siguiente será usar una de las escamas de Gorm para viajar a su plano abisal.~
+@155 = ~Sólo yo sé cómo llamarlo.~
+@156 = ~¿Dónde podremos encontrar a Acrull?~
+@157 = ~Acrull estará en las afueras de la arboleda druídica de la región. Os estará esperando. Incluso te lo marcaré en tu mapa.~
+@158 = ~En resumen, <CHARNAME>. Acrull estará en la zona noroeste de la región. Recuerda que Fall debe estar contigo para que esto funcione.~
+@159 = ~Cuando la batalla por Imnescar comenzó, el caos inundó todo el ambiente.~
+@160 = ~La magia arcana y divina parecía no funcionar. Tanto la hechicera Gemystara, la madre de Fall, como los druidas del bosque, Aeris incluído, tuvieron graves problemas al percatarse de que sus conjuros no estaban funcionando.~
+@161 = ~Dependimos mucho de la fuerza bruta de los exploradores como Gerwulf, Ivor o Mephala. Las bestias del bosque ayudaron mucho.~
+@162 = ~No creo que Fall, Gem o yo hubiésemos sobrevivido de no ser por ellos.~
+@163 = ~Sin embargo, no fueron solamente arañas las criaturas que nos atacaron.~
+@164 = ~Es verdad... recuerdo criaturas extrañas y grotescas que surgieron de la profundidad del bosque. Parecían ser miriápodos insectoides.~
+@165 = ~Recuerdo... recuerdo a Aeris y a ti pelear contra ellos.~
+@166 = ~Así es. Sea cual sea la entidad que orquestó el ataque a Imnescar, lo logró aliándose con otras criaturas abisales.~
+@167 = ~<CHARNAME>, puede que conozcas a esas criaturas como "Carroñeros reptantes".~
+@168 = ~Pero no eran Carroñeros normales. No.~
+@169 = ~Aeris y yo los enfrentamos. Pudimos derrotar a muchos, pero seguían viniendo en masa.~
+@170 = ~Aeris logró llevar a cabo un conjuro, pese a las limitaciones de aquella fuerza misteriosa, y un golpe de relámpago acabo con varias de esas alimañas.~
+@171 = ~Estábamos dispuestos a ir a ayudar al resto, cuando sentimos una última presencia... sumamente poderosa.~
+@172 = ~En apariencia se asimila a la mezcla entre un gusano y un cienpiés... pero de tamaño descomunal.~
+@173 = ~¿Crees que esta criatura estuvo detrás del ataque a nuestro hogar?~
+@174 = ~No, bocona. Incluso creo que conspiró con la fuerza oscura que planeó el ataque. Diría que es una especie de súbdito.~
+@175 = ~Pero uno muy poderoso.~
+@176 = ~Aeris... Aeris no pudo hacerle frente.~
+@177 = ~Puede que su tamaño sea descomunal... pero sus ataques de colmillo fueron demasiado rápidos.~
+@178 = ~Sólo bastó una herida superficial en la piel de mi amigo y fue más que suficiente para insuflarle un veneno mortal.~
+@179 = ~No tuvimos otra opción más que huir del bosque. Pero...~
+@180 = ~Aeris murió en las afueras de Imnescar, debido al veneno.~
+@181 = ~Lo lamento, Kitochi. Aeris era una buena persona.~
+@182 = ~Sin embargo, no puedo evitar preguntarme... ¿por qué no me contaste esto antes?~
+@183 = ~Es simple, bocona. Sabía que si te lo contaba harías lo posible por ir en su busca. Y la cuestión es que Gorm es demasiado poderoso para nosotros dos solos.~
+@184 = ~La misma se encuentra en poder de un viejo conocido, Fall.~
+@185 = ~Acrull Escudonorteño.~
+@186 = ~¡¿Qué?! ¿Acrull supo todo el tiempo de tu plan?~
+@187 = ~*maullido agudo* Es probable, bocona. Lo importante es que Acrull será el vínculo entre este plano y el abisal, usando la escama que le di hace un tiempo.~
+@188 = ~<CHARNAME>, es importante que Fall esté contigo a la hora de hablar con Acrull. No es necesario que yo esté presente, aunque, eso sí, cuando lleguemos al hogar de Gorm, convócame.~
+
+
+
+@189 = ~Acrull tiene razón <CHARNAME>. Trae a Fall para que viajemos a la guarida de Gorm.~
+
+@190 = ~Así es, Acrull. Fall y las fuerzas de <CHARNAME> viajarán al plano de Gorm, hacia su guarida.~
+
+@191 = ~*maullido agudo* ¡¡¡Gorm!!! Sal de donde quiera que te ocultes, criatura asquerosa. ¡Hemos venido a matarte!~
+@192 = ~¡Gorm! Esto es por mi amigo... ¡Al ataque!~
+@193 = ~Al fin hemos llegado... <CHARNAME>, recuerda esto: Mi muerte es intrascendente... pero debes proteger a Fall. Si ganamos esta batalla, ella será el enlace necesario para regresar a casa.~
+@194 = ~No seas pesimista, Kitochi. Nadie morirá. ¡Es una promesa!~
+@195 = ~Je. A veces tu ingenuidad me conmueve, bocona.~
+@196 = ~Ahora... a lo nuestro:~
+@197 = ~Lo que hueles es la proximidad de tu extinción, Gorm.~
+@198 = ~Veo la cabeza de Gorm... al fin...~
+@199 = ~¡Aeris! Te he vengado... te hemos vengado... <CHARNAME>, Fall: Gracias... Volveré al Plano Astral... necesito estar solo al menos un momento.~
+@200 = ~Lo estaré...~
+
+
+
+@310026 = ~Kitochi: Por mi amigo
+
+Kitochi, el gato feérico que ahora acompaña a Fall, ha decidido contarme su historia luego de que yo le he contado algo de mi origen. Al parecer, no siempre vivió en Imnescar, sino que fue a parar a sus bosques mientras intentaba huir de un demonio abisal. Para fortuna del felino, el mismo fue rescatado por una partida de exploradores y druidas. Entre ellos se encontraba quien sería su guardián: Aeris. Kitochi dijo que continuará la historia siempre y cuando le convoquemos en alguna taberna de Athkatla.~
+
+@310027 = ~Kitochi: Por mi amigo
+
+Kitochi continuó su historia personal, pero al cabo de un rato terminó con pedirme un favor el cual sería llevar a cabo una venganza personal contra el asesino del druida que lo cuidó. Me negué y el asunto se ha cerrado. No estoy para maquinaciones felinas.~
+
+@310028 = ~Kitochi: Por mi amigo
+
+Kitochi continuó con su historia personal. Luego de narrar sobre su compañero druida, Aeris, me pidió que le ayude con las criaturas que le mataron. En definitiva, Kitochi cree que no necesariamente dará con el asesino si seguimos la senda de Fall y que es mejor encargarse de él antes de finalizar la búsqueda de Gemystara. Me dijo que es posible que la criatura guarde un tesoro, pero que de no ser así, podríamos usar su cuerpo para forjar algún artefacto poderoso. Me pregunto a qué tipo de criatura se refiere. Por último, para ultimar detalles sobre el plan de venganza felino, deberemos convocarle en un área forestal la próxima vez que podamos.~
+
+@310029 = ~Kitochi: Por mi amigo
+
+Kitochi ultimó los detalles de su plan. Matar a Gorm, una criatura insectoide gigante de características ponzoñosas. Al parecer, se trata de una entidad abisal lo suficientemente poderosa como para aniquilar a un druida veterano como lo fue Aeris, el amigo de Kitochi. El plan consiste en invadir su plano abisal, atraer a la bestia y acabar con ella. Para ello debemos ir a la arboleda druídica, en la región noroeste, y encontrarnos con el druida Acrull Escudonorteño. Acrull posee una escama de Gorm, la cual vinculará este plano con el del gusano. Kitochi dijo que Fall debe estar con nosotros al momento de hablar con Acrull.~
+
+@310031 = ~Kitochi: Por mi amigo
+
+Hemos llegado a la guarida de Gorm y el combate parece ser inevitable. Kitochi me ha indicado que de ganar el combate, debo asegurarme de que Fall siga con vida. Con ella y la cabeza de Gorm en nuestro poder, el regreso a casa estará asegurado.~

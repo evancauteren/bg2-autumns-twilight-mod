@@ -1,0 +1,87 @@
+IF
+Global("P_ChoF8Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_CHO",[1069.759],SE)
+SetGlobal("P_ChoF8Spawn","GLOBAL",1)
+END
+
+IF
+Global("P_ChoccDestroyPatchPFAR8","GLOBAL",0)
+Exists("p_cho")
+OR(2)
+Global("P_ChoccStay","GLOBAL",1)
+Dead("p_cho")
+THEN
+RESPONSE #100
+ActionOverride("p_cho",DestroySelf())
+SetGlobal("P_ChoccDestroyPatchPFAR8","GLOBAL",1)
+END
+
+
+IF
+Global("P_QylF8Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_QYL",[1420.613],S)
+SetGlobal("P_QylF8Spawn","GLOBAL",1)
+END
+
+IF
+Global("P_FMeetingCho","GLOBAL",1)
+Global("P_FBeforeFightF8","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+ActionOverride(Player1,MoveToPoint([902.642]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player2,MoveToPoint([828.653]))
+ActionOverride(Player2,Wait(1))
+ActionOverride(Player3,MoveToPoint([870.615]))
+ActionOverride(Player3,Wait(1))
+ActionOverride(Player4,MoveToPoint([918.578]))
+ActionOverride(Player4,Wait(1))
+ActionOverride(Player5,MoveToPoint([802.596]))
+ActionOverride(Player5,Wait(1))
+ActionOverride(Player6,MoveToPoint([859.567]))
+ActionOverride(Player6,Wait(1))
+ActionOverride("P_QYL",MoveToPoint([1105.662]))
+ActionOverride("P_QYL",Wait(1))
+Wait(7)
+SetGlobal ("P_FBeforeFightF8","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END
+
+
+IF
+Global ("P_FallM4F8_SpawnEnemies","GLOBAL",0)
+OR(1)
+Allegiance ("p_qyl",ENEMY)
+THEN
+RESPONSE #100
+SmallWait (1)
+CreateVisualEffect("SPCLOUD3",[836.778])  
+CreateVisualEffect("SPCLOUD3",[1121.591])  
+CreateVisualEffect("SPCLOUD3",[921.453])
+CreateVisualEffect("SPCLOUD3",[629.642]) 
+CreateVisualEffect("SPCLOUD3",[470.489])  
+CreateVisualEffect("SPCLOUD3",[671.331])
+CreateVisualEffect("SPCLOUD3",[1131.452])
+CreateVisualEffect("SPCLOUD3",[611.755]) 
+CreateVisualEffect("SPCLOUD3",[407.612])
+CreateVisualEffect("SPCLOUD3",[954.316]) 
+Wait (1)
+CreateCreature("p_flizc3",[836.778],4)  
+CreateCreature("p_flizc3",[1121.591],4)  
+CreateCreature("p_flizc2",[921.453],4)
+CreateCreature("p_flizc1",[629.642],4) 
+CreateCreature("p_flizc1",[470.489],4)  
+CreateCreature("p_flizc1",[671.331],4) 
+CreateCreature("p_flizc1",[1131.452],4)
+CreateCreature("p_flizc1",[611.755],4) 
+CreateCreature("p_flizc1",[407.612],4)
+CreateCreature("p_flizc2",[954.316],4) 
+SetGlobal("P_FallM4F8_SpawnEnemies","GLOBAL",1)
+Continue()
+END

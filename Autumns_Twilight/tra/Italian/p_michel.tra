@@ -1,0 +1,185 @@
+
+@0 = ~(Il folletto ti vede arrivare e, aprendo gli occhi, scappa via come un pazzo, allontanandosi da te mentre ride)~ [P_Mich04]
+
+@1 = ~(Il piccolo ti osserva con lo sguardo e vedi come si prepara a scappare. Tuttavia, si ferma vedendo Dusk tra le tue fila)~ [P_Mich04]
+
+@2 = ~(All'improvviso, i suoi occhi si spalancano e inizia a sorridere come se stesse per ucciderti. Ma invece si mette a ballare e a scarpinare sul posto)~ [P_Mich02]
+
+@3 = ~(Chiaramente, vedi come il folletto ignora Dusk e continua a ballare con gioia e sfrenatezza mentre ride felicemente)~
+@4 = ~(Il folletto continua a ballare come se non ci fosse un domani)~
+@5 = ~Onestamente, Dusk, preferisco non pensarci troppo. Ehi, ranocchio! Ti darò 750 monete d'oro se torni dal tuo amico dai capelli verdi, cosa ne dici?~ ~Onestamente, Dusk, preferisco non pensarci troppo. Ehi, ranocchio! Ti darò 750 monete d'oro se torni dal tuo amico dai capelli verdi, cosa ne dici?~
+@6 = ~Per fortuna abbiamo qualcosa che potrebbe convincerlo. Ehi, Michelson! Vuoi della birra? Te la darò solo se prometti di tornare dal tuo amico con i capelli verdi, va bene?~
+@7 = ~Hmm... credo che possiamo improvvisare una barzelletta, non credi? Ne conosci qualcuna?~
+@8 = ~Non capisco perché tutto questo dramma. Guardalo. È una cosa molto carina. Non è vero, Michelson? Sei proprio una cosa molto carina. *gli sorridi*~
+
+
+@9 = ~(Michelson interrompe la sua frenetica danza per afferrare disperatamente la borsa con le monete d'oro che gli hai offerto. Continui a supplicarlo di tornare da Mathyus e, con il naso infilato nella borsa, annuisce e scappa via a tutta velocità)~ [P_Mich00]
+@10 = ~(Michelson interrompe la sua frenetica danza per afferrare disperatamente il boccale di birra che gli hai offerto. Prima che lo beva tutto, insisti affinché vada subito da Mathyus, e il folletto annuisce mentre continua a bere dal boccale. Se ne va correndo a tutta velocità e non capisci come abbia fatto a non versare nemmeno una goccia di birra nel processo)~ [P_Mich00]
+@11 = ~(Michelson ha interrotto la sua danza frenetica all'udire la parola barzelletta. All'improvviso, la sua espressione si è fatta seria e si è incrociato le braccia, battendo un piede per terra, in attesa di sentire ciò che hai da raccontare)~
+@12 = ~Un paladino dice a un orco che il suo nome è "Nessuno". Poi lo attacca. L'orco urla alla sua tribù per chiedere aiuto: "Aiuto, Nessuno mi sta attaccando!"~
+@13 = ~Perché un nano si fa crescere la barba? Beh, per assomigliare a sua madre! *ridi sfrenatamente alla tua stessa barzelletta*~
+@14 = ~Ehi, Michelson... sapevi che a caval donato non si guardano i... *ti fermi un attimo a pensare perché non ricordi come continua il detto* ... coltelli di legno?~ ~Ehi, Michelson... sapevi che a caval donato non si guardano i... *ti fermi un attimo a pensare perché non ricordi come continua il detto* ... coltelli di legno?~
+@15 = ~Avevo intenzione di raccontarti una barzelletta, ma vedendoti così arrabbiato, mi hai commosso. Non sei la cosa più adorabile di tutto Amn? *sorridi*~
+@16 = ~(Dopo rimanere a bocca aperta per alcuni secondi, il folletto aggrotta le sopracciglia. Sembra non aver apprezzato la tua barzelletta e come risultato scappa via come un pazzo ballando e picchiando i piedi in aria)~ [P_Mich01]
+
+
+@17 = ~(Michelson ascolta attentamente la conclusione della tua frase. I suoi occhi si spalancano improvvisamente e comincia a ridere a crepapelle)~ [P_Mich03]
+@18 = ~Ah! Ha funzionato. Michelson, abbiamo bisogno che tu torni da Mathyus! È preoccupato per te. Ci faresti questo favore?~
+@19 = ~(Michelson continua a ridere, ma ti ascolta e annuisce con la testa. Ti abbraccia la gamba e scappa via come un pazzo, dirigendosi verso la tana di Mathyus)~ [P_Mich00]
+@20 = ~(Ti trovi di nuovo con Michelson. Il folletto continua a ballare come se non ci fosse un domani)~ [P_Mich00]
+@21 = ~(Ti trovi di nuovo con Michelson. Il folletto continua a ballare come se non ci fosse un domani. Non essendo Dusk con te, ti ignora e scappa via allontanandosi il più possibile da te)~ [P_Mich00]
+@22 = ~(Michelson, con il sopracciglio corrugato e gli occhi pieni d'ira, muove velocemente le mani e una scintilla cremisi viene scagliata contro di te. Ancora senza capire cosa sta accadendo, vedi il folletto agile scattare via, allontanandosi di alcuni passi)~ [P_Mich01]
+
+@23 = ~(Michelson ascolta attentamente la conversazione, mentre batte i piedi e danza un ballo mistico e frenetico)~
+@24 = ~(All'improvviso, interrompe la sua danza, in attesa ed eccitato per quello che Mathyus sta per raccontare)~
+
+@25 = ~(Michelson muove rapidamente le mani mentre emette alcune risate mescolate a suoni strani)~ [P_Mich02]
+@26 = ~(Michelson si contorce dalle risate all'ascolto di quella frase nel racconto)~ [P_Mich03]
+@27 = ~(Michelson annuisce velocemente con la testa. Poi agita la sua piccola mano salutando il gruppo mentre balla una canzone che l'orecchio dei mortali non riesce a percepire)~ [P_Mich00]
+
+
+
+@28 = ~(Michelson è lì a ballare come se non ci fosse un domani. Sembra essere contemporaneamente in una sorta di trance meditativa. Se vuoi qualcosa da lui, dovrai parlare prima con Mathyus)~ [P_Mich01]
+
+@29 = ~(Michelson interrompe la sua danza e applaude con euforia mentre ride, supponi, di gioia)~ [P_Mich03]
+@30 = ~(Michelson annuisce velocemente con la testa mentre mostra i suoi denti biancastri)~
+@31 = ~(Come raramente accade, l'espressione del folletto diventa seria. Con tutti gli ingredienti davanti a lui, è pronto per iniziare il processo di costruzione)~ [P_Mich01]
+@32 = ~(Sembra che il rituale sia terminato e il folletto sia un po' esausto)~
+@33 = ~(Michelson, sorprendentemente ripreso, balla e si avvicina a Dusk, brandendo con qualche difficoltà la nuova spada)~ [P_Mich00]
+@34 = ~(Michelson, pieno di energia, balla e saluta il gruppo mentre batte i piedi e ride. Non puoi fare a meno di sorridere di fronte a questo.)~
+
+@35 = ~(Michelson, completamente concentrato, ha gli ingredienti di fronte a lui. Improvvisamente inizia a muovere freneticamente le mani. Così inizia il processo di costruzione)~
+
+@36 = ~(Michelson balla e saluta il gruppo mentre batte i piedi e ride)~ [P_Mich00]
+
+
+
+@37 = ~(Michelson è lì a ballare come se non ci fosse un domani. Sembra essere contemporaneamente in una sorta di trance meditativa. Se vuoi qualcosa da lui, dovrai parlare prima con Mathyus)~ [P_Mich01]
+@38 = ~(Michelson, sorprendentemente ripresosi, balla e si avvicina a Dusk, sollevando con grande difficoltà l'armatura di piastre)~ [P_Mich00]
+@39 = ~(Michelson, sorprendentemente ripresosi, balla e si avvicina giocando con i nuovi guanti che ha forgiato)~
+
+@40 = ~Grazie, caro Michelson. I guanti sono splendidi.~
+@41 = ~Attenzione, Michelson! Hmpf, mi hai quasi fulminato, piccolo.~
+@42 = ~(Michelson, sorprendentemente ripresosi, balla e si avvicina brandendo, quasi irresponsabilmente, il martello del Tuono Scarlatto scagliando scintille ovunque)~ [P_Mich00]
+@43 = ~(Michelson, sorprendentemente ripresosi, balla e si avvicina indossando l'armatura leggera di cuoio)~ [P_Mich00]
+@44 = ~Grazie, Michelson. L'armatura è splendida.~
+@45 = ~(Michelson, sorprendentemente ripresosi, balla e si avvicina brandendo la mazza e girando la testa in tutte le direzioni)~ [P_Mich00]
+@46 = ~Michelson, fai attenzione! Sembra un'arma estremamente pericolosa...~
+@47 = ~(Michelson, sorprendentemente ripresosi, balla e si avvicina brandendo l'ascia in tutte le direzioni)~ [P_Mich00]
+@48 = ~Michelson, fai attenzione! Wow, l'ascia brilla in modo splendido.~
+@49 = ~(Michelson, sorprendentemente ripresosi, balla e si avvicina brandendo la spada in tutte le direzioni)~ [P_Mich00]
+@50 = ~Michelson, fai attenzione! Wow, la spada brilla in modo splendido.~
+@51 = ~(Michelson interrompe la sua danza e rimane, come raramente accade, serio e sbalordito di fronte agli artefatti presentati da <CHARNAME> e Dusk)~
+@52 = ~(Michelson guarda Mathyus con un'espressione leggermente perplessa, poi osserva Dusk e <CHARNAME>. Dopo alcuni secondi di silenzio...)~
+@53 = ~(...scoppia a ridere)~ [P_Mich03]
+
+
+
+@54 = ~(Michelson, con un sorriso sbiancato sul volto, fischia e schiocca le dita. Dall'aria stessa si forma una linea retta e un raggio viola prende forma solida. La Vendicatrice Reale è davanti ai tuoi occhi)~ [P_Mich01]
+@55 = ~(Michelson riceve l'arma da Dusk con grande reverenza e serietà. Utilizzando gli stessi gesti con cui ha fatto apparire la Vendicatrice Reale, fa scomparire la bacchetta shilmista nell'aria)~
+@56 = ~(Michelson applaude, ride e balla. Potresti pensare che stia facendo ciò che fa sempre, ma una parte di te crede che lo faccia per commemorare il fatto che hai completato il team del conte Benork)~ [P_Mich02]
+@57 = ~(Michelson annuisce velocemente con la testa. Poi sembra bisbigliare qualcosa a Mathyus)~
+@58 = ~(Michelson balla e ride. Sembra stia vantandosi di aver avuto ragione)~ [P_Mich00]
+@59 = ~(Michelson interrompe la sua danza e rimane paralizzato, stupito dalle parole di Dusk)~
+@60 = ~(Michelson rimane un attimo a bocca aperta. Sembra tremare vedendo il rosso sangue che emana dall'orbe)~
+@61 = ~(Michelson sembra sussurrare, nervoso, qualcosa a Mathyus)~
+@62 = ~(Michelson trema leggermente vedendo la spada cremisi. Copre i suoi occhi con le sue piccole mani)~
+
+
+@63 = ~(Michelson mostra i suoi denti e ride forte)~ [P_Mich04]
+@64 = ~(Michelson ride alle parole di <CHARNAME>. Poi schiocca le dita e improvvisamente appare un anello dal nulla)~ [P_Mich00]
+@65 = ~(Michelson annuisce mentre balla e batte i piedi. Si avvicina a <CHARNAME> felice e stende la mano, consegnando l'anello magico)~
+@66 = ~(Michelson diventa serio e spiega a Mathyus alcune questioni, mentre, naturalmente, balla e fischia freneticamente)~ [P_Mich01]
+@67 = ~(Michelson sembra quasi offeso dall'insinuazione. Annuisce rapidamente e ride, prendendo l'orbe insanguinato nelle sue piccole mani)~ [P_Mich00]
+@68 = ~(A prima vista, percepisci un grande potere maligno nell'orbe e tuttavia sembra cedere alle parole, che in realtà sono risate sfrenate, del leprechaun)~ [P_Mich03]
+@69 = ~(Il piccolo estrae diverse gemme dalle sue tasche, che sembrano disintegrarsi intorno all'orbe. Le particelle delle gemme, come stelle nel cosmo, si fondono con l'orbe)~
+@70 = ~(L'energia maligna svanisce nell'aria e l'ira cremisi scompare, lasciando spazio a un tranquillo colore verde foglia. Dopo alcuni secondi, l'orbe sembra stabilizzarsi, brillando nella sua nuova forma)~
+@71 = ~(Michelson balla felicemente e si avvicina a Dusk, tenendo l'orbe. Lo consegna con grande reverenza e inizia a ridere mentre torna al suo posto accanto a Mathyus)~ [P_Mich00]
+
+
+@72 = ~(Michelson si entusiasma e indica la spada smeraldo che è apparsa di fronte a Dusk. Applaude, ride e inizia a ballare come se stesse festeggiando)~ [P_Mich02]
+@73 = ~(Michelson interrompe davanti al dubbio di Mathyus, muovendo rapidamente le sue manine in segno negativo)~
+@74 = ~(In silenzio, Michelson annuisce con la testa, muovendola per la prima volta con la stessa lentezza di Moviterra)~
+@75 = ~(Michelson interrompe davanti al dubbio di Mathyus, ridendo e facendo strani passi di danza)~ [P_Mich03]
+@76 = ~(Michelson sorride, mostrando una smorfia quasi scintillante)~
+@77 = ~(Michelson fischia forte e poi inizia a ridere, attirando l'attenzione di tutti)~
+@78 = ~(Michelson ride con forza e inizia a muovere le sue mani. Improvvisamente, senti l'aria intorno a te agitarsi)~ [P_Mich01]
+@79 = ~(Sembra che il rituale sia finito e il leprechaun balla incessantemente alla presenza dei convocati dal portale)~
+
+//CONVOC M3
+@80 = ~Per Tyr! Dove mi trovo? Solo un istante fa ero nelle Sale dell'Ordine...~
+@81 = ~Sir Ryan, Falon! È un piacere rivedervi.~
+@82 = ~Dusk, <CHARNAME>? Cosa sta succedendo?~
+@83 = ~Qualcosa mi dice che Dusk ha bisogno del nostro aiuto, mio signore. Quello che non riesco a spiegarmi è questo strano elfo dai capelli verdi. Ancor meno questo gnomo rosso.~
+@84 = ~*tosse* Vi prego di perdonarci, signore paladino. Siamo stati noi a portarvi in questa... tana. Io sono Mathyus Davis, esploratore della Foresta Shilmista. Colui che ha eseguito l'incantesimo è Michelson, un leprechaun.~
+@85 = ~(Michelson saluta calorosamente i nuovi arrivati)~ [P_Mich04]
+@86 = ~Capisco... confido che ci troviamo ancora ad Athkatla, Dusk.~
+@87 = ~Esatto, Sir Ryan. Più precisamente nel Porto.~
+
+
+@88 = ~Capisco... e perché ci hai portato qui?~
+@89 = ~<CHARNAME> ed io andremo ad affrontare un clan di orchi appena arrivato ad Amn. Si trovano a poche ore dalla città...~
+@90 = ~Si tratta di un gruppo guidato da un orco che ha orchestrato l'attacco alla mia squadra, Sir Ryan.~
+@91 = ~Capisco... Si tratta dell'orco per il quale hai quasi attaccato me e la mia tribù, vero?~
+@92 = ~Esatto, Falon. Le sue forze sono aumentate considerevolmente e potrebbe darsi che <CHARNAME> ed io non siamo sufficienti.~
+@93 = ~Hmm... e pensi che rappresenti una minaccia per la città, Dusk?~
+@94 = ~Non sono sicuro che sia una minaccia immediata, Sir Ryan. Ma credo che prima o poi attaccherà qualche innocente che gli capiterà davanti.~
+@95 = ~Capisco cosa intendi, Dusk. Il problema è che attualmente non dispongo di cavalieri per il tuo compito.~
+@96 = ~Se mi permette, mio signore, la mia tribù ed io saremmo più che disposti ad aiutare Dusk e i suoi amici.~
+@97 = ~Credevo volessi stare lontano dalla guerra, Falon. Perché dovresti fare questo?~
+@98 = ~Dusk e <CHARNAME> ci hanno dato una seconda possibilità. Una nuova casa. Sono sicura che la mia famiglia sarebbe più che felice di offrire il suo aiuto per una nobile causa.~
+@99 = ~Hai imparato bene, Falon. Molto bene, è deciso. Falon, la sua tribù ed io metteremo le nostre spade al vostro servizio per questa causa, Dusk.~
+@100 = ~Anche voi, Sir Ryan?~
+@101 = ~Sì. Se gli umanoidi devono combattere in nome della Nobile Ordine, io devo esserci per guidarli.~
+@102 = ~Sir Ryan, Falon... non ho parole per ringraziarvi...~
+@103 = ~Oh, wow! Questo è molto emozionante.~
+@104 = ~Molto bene, signori! Signor paladino, signora capo tribù: Michelson vi consegnerà delle gemme speciali per voi e il resto della tribù.~
+
+
+
+@105 = ~Queste gemme si attiveranno con un'altra gemma che consegneremo a Dusk. Quando inizierà il momento del combattimento, sarete teletrasportati nel luogo in cui si trova l'emittente.~
+@106 = ~Va bene, elfo dai... capelli verdi. Saremo pronti quando arriverà il momento.~
+@107 = ~Esatto. Mi occuperò di preparare il resto della mia tribù, Dusk.~
+@108 = ~Eccellente! Bene, potete utilizzare le stesse gemme per tornare alla sede dell'Ordine. Michelson si è occupato di questo.~
+@109 = ~Va bene. <CHARNAME>, è meglio che partiamo immediatamente. Mathyus, torneremo qui quando avremo novità in merito, d'accordo?~
+@110 = ~Vi aspetteremo, amici miei.~
+@112 = ~(Michelson agita con forza le sue braccine. Ride e saluta, ballando e fischiando come un pazzo)~ [P_Mich01]
+@113 = ~(Da nessuna parte, una risata si percepisce persino negli angoli più bui del Tumulo)~ [P_Mich00]
+@114 = ~(Finalmente, Michelson appare dalle ombre, ballando e ridendo, come se fosse una festa)~ [P_Mich02]
+@115 = ~Michelson?! Beh, cosa fai qui?~
+@116 = ~(Con un sorriso sul volto, ti consegna una nota)~
+@117 = ~*La leggi ad alta voce* "Caro <CHARNAME>: Michelson andrà al Tumulo dei Troll una volta che la battaglia sarà finita. Il motivo è quello di compiere un rituale per purificare il luogo e impedire che in futuro accada qualcosa di simile. Inoltre, una volta terminato il rituale, Michelson riporterà in vita coloro che sono caduti in battaglia."~ ~*La leggi ad alta voce* "Cara <CHARNAME>: Michelson andrà al Tumulo dei Troll una volta che la battaglia sarà finita. Il motivo è quello di compiere un rituale per purificare il luogo e impedire che in futuro accada qualcosa di simile. Inoltre, una volta terminato il rituale, Michelson riporterà in vita coloro che sono caduti in battaglia."~
+@118 = ~*La nota continua* "Coloro che sono stati convocati dall'orbe teletrasportatore possedevano una protezione magica che Michelson aveva infuso. Indipendentemente dalla gravità delle ferite, potranno essere riportati in vita. Spero che Dusk sia sopravvissuto allo scontro, altrimenti Michelson non avrà il potere necessario per riportarlo in questo piano. Forse una chiesa o un potente chierico potrebbe farlo. Nel caso in cui non possa essere riportato in vita... torna semplicemente e ne parleremo.
+Cordiali saluti, Mathyus Davis.
+Il potente elfo degli Shilmista."~
+  
+  
+  
+@119 = ~(Dopo aver finito di leggere la nota, vedi Michelson alzare la testa e cercare Dusk con lo sguardo)~
+@120 = ~(Il suo tipico sorriso scompare quando si rende conto che è caduto in battaglia)~
+@121 = ~(Sembra sul punto di scoppiare in lacrime quando posizioni la mano sulla sua spalla senza sapere cosa dire)~
+@122 = ~(Senza dire nulla, Michelson indica la lettera scritta da Mathyus, quella che hai appena letto)~
+@123 = ~(Credi che significhi che devi tornare da Mathyus per informarlo di quanto accaduto)~
+@124 = ~(Immediatamente, Michelson inizia il suo rituale di purificazione e senti che non devi interromperlo. Invece, vedi delle strane nuvole circondarti te e il tuo gruppo. Quando meno te lo aspetti, ti ritrovi fuori dal Tumulo e di nuovo in un luogo conosciuto...)~
+@125 = ~Grazie per aver letto la nota, <CHARNAME>. Michelson! È sempre un piacere vederti.~
+@126 = ~(Michelson fa un sorriso e balla vedendo Dusk vivo)~ [P_Mich03]
+@127 = ~Puoi portare a termine il tuo rituale, amico. Torneremo da Mathyus e gli riferiremo ciò che è accaduto qui.~
+@128 = ~Qualcosa mi dice che sarai già lì quando torneremo ad Athkatla.~
+@129 = ~(Michelson fischia e muove i suoi piccoli piedi, confermando ciò che Dusk ha appena detto)~ [P_Mich01]
+
+@130 = ~(Michelson, sorprendentemente ripresosi, balla e si avvicina, sorprendentemente leggero, indossando un'armatura che apparentemente sembra pesante e massiccia)~ [P_Mich04]
+@131 = ~Grazie, Michelson. Dusk, spero che l'armatura ti piaccia.~
+@132 = ~(Michelson, sorprendentemente ripresosi, balla e si avvicina, correndo pericolosamente mentre brandisce la splendida spada cormyreana)~ [P_Mich04]
+@133 = ~Grazie, Michelson. Dusk, spero che la spada ti piaccia.~
+
+
+
+
+@210005 = ~Dusk Aldant: L'Armatura Shilmist
+
+Siamo tornati al nascondiglio di Mathyus Davis e abbiamo trovato Michelson al suo fianco. Dopo una breve conversazione in cui ci ha raccontato del suo primo incontro con Michelson e del successivo cambiamento di colore dei capelli, Mathyus ha consegnato l'Armatura Shilmist a Dusk.
+Ci ha anche dato un libro di formule per la forgia di potenti artefatti, fornito da Michelson. Se riusciamo a ottenere gli ingredienti giusti, dovremmo parlare con Mathyus per poter forgiare l'artefatto descritto nel libro.~
+
+@210026 = ~Dusk Aldant: La Vendetta della Prima Spada
+
+Siamo arrivati al nascondiglio di Mathyus e ci ha informato che il clan responsabile dell'attacco al distaccamento di Dusk si trova vicino alla Radura Druidica della regione. Secondo il rapporto fornito dallo scout, il gruppo responsabile è guidato da un capo orco di nome Alabarza. Lo troveremo nella Collina dei Troll a ovest della regione. Ci ha anche informato che l'orco ha un variegato repertorio di mostri pronti a difenderlo. Fortunatamente, Dusk avrà l'aiuto di Sir Ryan Trawl e di Falon e la sua tribù. Quando sarà il momento, un gioiello d'attivazione fornito da Michelson li porterà al confronto.~

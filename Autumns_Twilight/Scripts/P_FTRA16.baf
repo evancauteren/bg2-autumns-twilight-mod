@@ -1,0 +1,49 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  PartyHasItem("P_FTALI5")  
+THEN
+  RESPONSE #100
+    SaveGame(0)
+    DisplayString(Myself,@200140)  // ~La Piedra Guarda del General te permite activar el portal y viajar hacia la siguiente área.~
+    StartCutSceneMode()
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    Wait(4)
+    FadeToColor([20.0],0)
+    Wait(1)
+    PlaySound("PORTAL2")
+    Wait(2)
+    ActionOverride(Player1,LeaveAreaLUAPanic("P_F12B","",[2194.1830],NE))
+    ActionOverride(Player1,LeaveAreaLUA("P_F12B","",[2194.1830],NE))
+    ActionOverride(Player2,LeaveAreaLUA("P_F12B","",[2154.1821],NE))
+    ActionOverride(Player3,LeaveAreaLUA("P_F12B","",[2098.1810],NE))
+    ActionOverride(Player4,LeaveAreaLUA("P_F12B","",[2187.1874],NE))
+    ActionOverride(Player5,LeaveAreaLUA("P_F12B","",[2125.1869],NE))
+    ActionOverride(Player6,LeaveAreaLUA("P_F12B","",[2064.1851],NE))
+    MultiPlayerSync()
+    EndCutSceneMode()
+    FadeFromColor([20.0],0)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  !PartyHasItem("P_FTALI5")  
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@200141)  // ~La oscuridad del umbral te abruma. Es imposible atravesarlo. Tendrás que buscar la forma de continuar o buscar otro camino.~
+END
+
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,14702)  // ~Estáis demasiado lejos como para poder usarlo.~
+END
+

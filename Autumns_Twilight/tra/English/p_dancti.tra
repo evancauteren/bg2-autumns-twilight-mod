@@ -1,0 +1,357 @@
+//EVIL
+
+@0   = ~Free... at last...~
+@1   = ~Ardusk Aldant and <CHARNAME>. I owe you my loyalty...~
+@2   = ~A Shadow Fiend?! Dusk, be on guard! We must defeat it.~
+@3   = ~By Candlekeep! Who the hell are you?~
+@4   = ~You need not fear for me, child of Bhaal. I do not believe I am the first non-hostile creature you have encountered. Like Ardusk, my loyalty will be with you as long as he accompanies you.~
+@5   = ~My name is Danctian Shadow. My surname may be redundant, but that's how, as far as I remember, I'm called.~
+@6   = ~For a brief time I was used as a channeler between Pandemonium and this plane. The Order of Mages pursuing Ardusk is also interested in making direct contact with the Negative Energy Plane.~
+@7   = ~I sense it's related to Necromancy, due to the leader's specialized school.~
+@8   = ~I don't understand why you're telling us this. Are you trying to gain our trust?~
+@9   = ~You appear out of nowhere and your demonic energy is too evident. Give me a good reason why I shouldn't destroy you here and now.~
+@10  = ~There's no need for violence here and now, child of Bhaal. I do not intend to attack you.~
+@11  = ~If you trust Ardusk, then you can trust me. I am bound to his will, since... I have taken some of his life energy to be able to materialize in this plane.~
+@12  = ~But enough explanations... I see you have a particular question, mortal, do you not?~
+@13  = ~What use will you be to us? At least the leprechaun was useful for crafting things.~
+@14  = ~~
+@15  = ~I have absorbed the power of the magical creature. I can manipulate its creation power with considerable improvement. Do you still have its recipe book? I can forge those artifacts without the need for gold, although the rest of the ingredients are still necessary.~
+
+@17  = ~In fact, I see you have obtained a Cormyrean shipment from your recent... expedition in your battle against Alabarza. It will be very useful to us, you'll see..~
+@18  = ~I can forge special artifacts for you. Even something more... personalized for your companions, son of Bhaal.~ ~I can forge special artifacts for you. Even something more... personalized for your companions, daughter  of Bhaal.~
+@19  = ~That's true, <CHARNAME>. The Shadow Fiend is, for now, an extension of me. However, it will remain here, in Athkatla.~
+@20  = ~The truth is... Danctian was supposed to possess me to fulfill the will of the mages we encountered.~
+@21  = ~It wasn't until one of the mages made a mistake.~
+@22  = ~Valatar summoned an abyssal demon from my plane.~
+@23  = ~When it faced you, the contact of the essence of the scarlet orb in Ardusk allowed me to communicate clearly with him.~
+@24  = ~As we advanced towards Alabarza's lair, I continued my conversation with Danctian. Inside my mind.~
+@25  = ~He told me that I had to defeat Alabarza and come back here, to Mathyus and Michelson's hideout.~
+@26  = ~The proposal was to be the conduit of his power, so that he could absorb the life energy of the shilmists.~
+@27  = ~In exchange, he would grant me power beyond imagination.~
+
+@28  = ~I was aware of a possible betrayal, <CHARNAME>. But I assumed that it was something we could handle without problems if it came to it.~
+@29  = ~Son of Bhaal, as you can see, Ardusk has an immeasurable faith in you. He is willing to die for you, even. He only asks that you accompany him on his journey for revenge. ~ ~Daughter of Bhaal, as you can see, Ardusk has an immeasurable faith in you. He is willing to die for you, even. He only asks that you accompany him on his journey for revenge. ~
+@30  = ~For you, northerner... I have prepared this special potion. It will greatly enhance your mental capabilities. You might even be able to become a divine conduit for the deity you serve.~
+@31  = ~Hmm... Boo has his doubts about you, creature. But if <CHARNAME> and Dusk trust you, then Minsc will too.~
+@32  = ~Do not fear, child. Ardusk holds you in high esteem, so I have made this especially for you.~
+@33  = ~I-is that a Baervan emblem? Hmm... t-thank you, I suppose... (Dusk, are you sure about this?)~
+@34  = ~I see that you do not hold me in great trust, inquisitor. I can see your desire to run me through with your sword as clearly as the innate evil that exists in humanity.~
+@35  = ~You are correct, monster. The only reason I am not attacking you is because, strange as it may seem, I do not perceive that you seek to harm us.~
+@36  = ~But rest assured, I will remove you from this plane, in the name of Torm, if your intentions are evil.~
+@37  = ~Evil is relative, Sir Keldorn Firecam. I could seek revenge against your entire race for what they have done to me... and yet, my power is restrained out of respect for Ardusk and <CHARNAME>.~
+@38  = ~But enough talk... your companions hold you in high esteem... So I have prepared this for you. I am sure that you will be able to find it useful, even for your personal purposes.~
+@39  = ~Very well, creature. Young Dusk, I hope you take responsibility for him... or her... or whatever this demonic shadow is.~
+
+@40  = ~Your affairs matter very little to me, mortal. You can be sure that I will not stand in your way. In fact, I intend for you to reach your destination... as quickly as possible. This katana will serve your dark purposes well...~
+@41  = ~Hm... Yoshimo is not usually at a loss for words... but it seems that this Danctian has managed it. However, thank you for the katana...~
+@42  = ~You need not worry about me, brave halfling. I assure you that I have no ill intention towards you. I know you have had an... unfortunate experience with those of my kind.~
+@43  = ~Unfortunate is a word that falls short, demon. If it were up to me, I would eradicate all of your kind from this land.~
+@44  = ~A noble ideal, Lady Fentan. I believe this may aid you in your endeavor. Perhaps, someday, your path will lead you to... attempt to... eradicate me. I hope you change your mind by then...~
+@45  = ~I see that as unlikely... However, thank you for the item (rest assured, I will have to find out what it is before using it...).~
+@46  = ~By Helm! Don't you dare come near me, creature...~
+@47  = ~Why do you say that, heir of Delryn? It's not out of fear that you don't want me to approach... or is it?~
+@48  = ~Foul demon! I do not fear you... but I will not destroy you either. Out of simple respect for <CHARNAME> and Dusk.~
+@49  = ~I know, monk... that's why I've brought this sword for you...~
+@50  = ~A what...? By the gods... it bears the emblem of my family... How--?~
+@51  = ~I've already told you... my power transcends this plane... and even time. That sword can only be wielded by someone of Delryn blood. I trust you will put it to good use, mortal.~
+@52  = ~Hmpf... I don't need a sword to prove my worth... However, I'll accept your gift, demon.~
+@53  = ~Your family has had a tragic fate, young lady. However, I trust that this garment can serve the last heiress of De'Arnise.~
+
+@54  = ~W-what? Where did you get this, creature? It has... it has my family's emblem... and it feels so familiar... *clears throat* Th-thank you, I suppose...~
+@55  = ~You don't talk much about her, but I know you mention her name in silence many nights, half-elf. This is my reward to you, for helping Dusk in his enterprise.~
+@56  = ~The symbol of Mystra? I would ask how you knew... but I assume the answer would be something... confusing. Anyway, thank you.~
+@57  = ~Ah, yes... this Orb is extremely powerful. The knowledge I've... acquired recently has allowed me to forge it. Mortal, you should have it.~
+@58  = ~I sense a calm storm within this orb, as if it holds the dream of a butterfly. While your unnatural origin troubles me, you have had enough wisdom to create such a perfect and small work. You are strange, Danctian. I will closely follow your performance in this plane and see how it affects the Great Balance.~
+@59  = ~Agreed, druid. Rest assured... it is not my intention to interfere in the pre-established affairs of this land.~
+@60  = ~What do we have here? A mortal who renounces his family. It's something strange in someone of noble descent.~
+@61  = ~And what do you know about the noble descent of the men of this plane?~
+@62  = ~You would be surprised what can be learned by observing from the despair of a well. While my past memories are not entirely clear, the experiences of this material plane are not foreign to me.~
+@63  = ~You have had a bad experience with creatures from the Negative Plane, due to the arcane malfeasance of your ancestors. I assure you, Pandemonium is very much related to it.~
+
+@64  = ~I'm not interested in your stories, Danctian. You know I don't destroy you out of respect for Dusk.~
+@65  = ~I know, mortal, I know. Perhaps this will calm the waters between us. And, in passing, give you greater clarity about your family.~
+@66  = ~These scrolls... they bear the seal of my family. *pauses for a moment, dubitative, then clears his throat* I will meditate on it, whether I should use them or not, Danctian.~
+@67  = ~I know you will, young mortal...~
+@68  = ~Well, well... a follower of Shar. As strange as it may seem, your presence here doesn't surprise me, drow. As you have helped Ardusk in his enterprise, I have prepared something special for you.~
+@69  = ~A symbol of Shar? I sense a strange power in it. Yes... this will do...~
+@70  = ~I think you know this tome is for you, mortal. Don't you?~
+@71  = ~Yes, creature. Edwin Odesseiron deserves the power of this tome for providing his great abilities in support of this pathetic stick man. (Yes, more than deserved, I would say...)~
+@72  = ~Oh, yes... I see the gleam in your eyes, warrior. You know this is for you. I know you will reap many lives with it...~
+@73  = ~Ha! Ye really know how to pick colors on an axe, demon. And ye're right... I'll be severin' as many heads as possible with this, ye understand?~
+@74  = ~I'm sure you have a story for this, don't you, little mortal? This potion is for you.~
+@75  = ~Oh, a gnome potion! This reminds me of the time when my Aunt Gertrude was captured by the Amn guard for smuggling energy drinks. One might think, "What's wrong with energy drinks?" Well, I say nothing. Although they may have imprisoned my aunt for the side effects of her drinks. I think they caused hair to grow on one's teeth. Anyway, this potion looks very good. I can't wait to try it.~
+
+@76  = ~If there's anyone who understands interplanar travel, it's you, isn't it, tiefling? I trust you'll put this to good use.~
+@77  = ~Wow, these runes look familiar to me... I wouldn't know how to thank you, ethereal crow! Is there music in your plane? Maybe I'll compose one or two songs for you.~
+@78  = ~Ardusk, for you, I have this: the Purple Dragon Gem. With it, we can enhance the Disruption Sword or Cormyr Armor, depending on what you choose. It's clear that you must have one of the two artifacts, yes?~
+@79  = ~So be it, Danctian. When the time comes, I'm sure <CHARNAME> will help me choose the right option.~
+@80  = ~Ah, I see now, Ardusk... you've brought Alabarza's hand with you... You've done as I instructed. Good, good...~
+@81  = ~Verily. What are you going to do with it?~
+@82  = ~In a way, it's just a trophy of your victory. I can forge some powerful small gems that can be useful to you on your journey. You may have come across some of them.~
+@83  = ~They'll give you an ability called Steel Warrior. It's very similar to a druidic spell called Ironskin, but better, as you don't need to cast it. It's, in itself, an ability that you'll gain. Anyone of warrior nature can make use of them.~
+@84  = ~As for you, son of Bhaal, we can do one of several things: I can reward you with a good amount of gold and some special tomes that I've been able to collect. One hundred thousand gold pieces and six magical tomes to improve skills. That would be an option.~ ~As for you, daughter of Bhaal, we can do one of several things: I can reward you with a good amount of gold and some special tomes that I've been able to collect. One hundred thousand gold pieces and six magical tomes to improve skills. That would be an option.~
+@85  = ~You can also opt for various magical items that I can retrieve from the shipment. Among them, you would have a katana, two ninja-to, an armor, and a magic gem. All those magical items can be yours.~
+@86  = ~And as a last option, a powerful legendary sword. It's called Mugenjin, and it's the perfect weapon for someone destined for Assassination. As I haven't forged it yet, I can have you choose what kind of weapon it will be: a longsword, a katana, a scimitar, or a greatsword. However, you should keep in mind that the weapon cannot be wielded by those who abide by the law.~
+
+@87  = ~Very well, then, son of Bhaal! What will it be?~ ~Very well, then, daughter of Bhaal! What will it be?~
+@88  = ~To tell the truth, Danctian, a hundred thousand pieces of gold and those tomes don't sound bad. I choose that option.~
+@89  = ~Nothing beats a good handful of magical items, demon. I prefer that over anything else.~
+@90  = ~The legendary sword, Danctian.~
+@91  = ~Excellent choice, my <LADYLORD>. Again, I congratulate you on what you have achieved here and gratitude for my release. I assure you, you will not regret it. I will be here if you need to forge any artifact. And Dusk... if I have any news about the Order that is after you, I will seek you out myself... in the shadows...~
+@92  = ~What kind of weapon do you want to obtain?~
+@93  = ~A long sword.~
+@94  = ~A katana.~
+@95  = ~A scimitar.~
+@96  = ~A greatsword.~
+@97  = ~Hm... I have changed my mind. I prefer to choose something else.~
+@98  = ~Greetings, mortal. Have you come to forge any artifact? I will ensure an efficient result, especially for those who are close to Ardusk. And remember... the use of my powers does not require gold.~
+@99  = ~We have not yet gathered what is necessary, Danctian.~
+@100  = ~I see. I will be here if you need me. I will be waiting for you... in the shadows...~
+@101  = ~Danctian, we have obtained what is necessary to improve Dusk's sword.~
+@102  = ~That's great news, mortal. Shall I proceed?~
+@103  = ~Of course.~
+@104  = ~Not yet, Danctian. Maybe later.~
+
+  // Espada de Disrupción
+
+@105  = ~Very well. You'll see that my work is just as good as that magical creature from Shilmista, if not better.~
+@106  = ~Ardusk, hand over your sword. I'll use my powers to greatly improve it.~
+@107  = ~I assure you, Ardusk... you'll be pleased with the results. Now... step aside!~
+@108  = ~*It seems the ritual has ended and the fiend appears unfazed by the event*~
+@109  = ~The ritual has ended, mortal.~
+@110  = ~How did it go, Danctian?~
+@111  = ~The Cormyrean Disruption Sword has been forged. It's a notable improvement, Ardusk. I'm sure you'll appreciate it.~
+@112  = ~I've done what you asked. You know where to find me if you need me to forge another artifact, mortals. See you soon.~
+
+  // Defensa de Cormyr
+
+@113  = ~Danctian, we have gathered what's necessary to improve Dusk's armor.~
+@114  = ~Ardusk, hand over your armor to me. I'll use my powers to greatly enhance it.~
+@115  = ~The Defense of Cormyr has been forged. It's a significant improvement, Ardusk. I'm sure you'll appreciate it.~
+
+  // Brazales de Defensa Pétrea	
+
+@116  = ~Danctian, we have gathered what's necessary to create the Stonedefense Bracers.~
+@117  = ~I assure you, mortal... you'll be pleased with the results. Now... stand aside!~
+@118  = ~The Stonedefense Bracers have been forged. I'm sure you'll appreciate them, mortal.~
+
+  // Crimson Thunder
+
+@119  = ~Danctian, we've got what we need to create the hammer: Crimson Thunder.~
+@120  = ~The mighty Crimson Thunder has been forged. I'm sure you'll appreciate it, mortal.~
+
+  // Fuego Salvaje
+
+@121  = ~Danctian, we've got what we need to create the Wildfire armor.~
+@122  = ~Wildfire has been forged. I'm sure you'll appreciate it, mortal.~
+
+  // Venom Strike
+
+@123  = ~Danctian, we have obtained what is necessary to create the Venom Strike club.~
+@124  = ~The Venom Strike club has been forged. I'm sure you'll appreciate it, mortal.~
+
+  // Colmillo de Larloch
+
+@125  = ~Danctian, we have obtained what is necessary to forge Larloch's Fang.~
+@126  = ~Larloch's Fang has been forged. I'm sure you'll appreciate it, mortal.~
+
+  // Ventisca del Averno
+
+@127  = ~Danctian, we have obtained what is necessary to forge the Hellfrost.~
+@128  = ~The Hellfrost has been forged. I am sure you will appreciate it, mortal.~
+
+  // Vengadora Real
+
+@129  = ~Danctian, we have obtained the artifacts of Duke Benork.~
+@130  = ~Hmm... interesting. The magical creature from Shilmista had the last artifact of the late Benork. Now, the Royal Avenger is in my possession.~
+@131  = ~It has not been easy to obtain all the artifacts, Danctian. Will you give us the final piece of the Wizard Slayer Set?~
+@132  = ~Nothing would give me more pleasure than to see the Wizard Slayer Set complete in your possession, my <LADYLORD>. After all, you and Ardusk have collaborated in my release from Pandemonium.~
+@133  = ~You have achieved the unthinkable, mortals. Today, you have taken one step closer in your just quest to accumulate power. As the veil of night inexorably falls over the light, so shall the steel that you wield in your hands fall upon the heart of the enemy...~
+
+  // Amatista del Dragón Púrpura
+
+@134  = ~Danctian, we want to forge something with the Purple Dragon Amethyst."~
+@135  = ~Ah, I see... well, mortal. What will we forge with it?~
+@136  = ~We will enhance the armor, Danctian: Cormyr's Defense.~
+@137  = ~We will enhance the weapon, Danctian: the Disruption Sword.~
+
+  // Salus
+
+@138  = ~So be it, mortal. You will obtain a legendary armor by combining it with the power of the Amethyst. Now, step aside and witness it...~
+@139  = ~Salus has been forged. It is the defensive epitome for a Wizard Slayer, my <LADYLORD>. Only Ardusk can use it.~
+@140  = ~For Cormyr, Danctian. You have done an incredible job. The armor seems lighter, but no less fragile than its previous version... Salus is an exquisite armor...~
+
+  // Rex
+
+@141  = ~So be it, mortal. You will obtain a legendary sword by combining it with the power of the Amethyst of the Purple Dragon. Now step aside and witness it...~
+@142  = ~Rex has been forged. It is the epitome of offense for a Wizard Slayer, my <LADYLORD>. Only Ardusk can wield it.~
+@143  = ~Finally! Look, <CHARNAME>. I will use Rex to kill in your name. It will be my instrument of revenge... You'll see, my good friend... our enemies will tremble when they see us coming... but they won't be able to do anything... Not even... run...~
+
+// M3 FINAL SIN p_restos
+
+@144  = ~Once again, I congratulate you on what you have achieved here and gratitude for my liberation. I assure you that you won't regret it. I will be here in case you need to forge any artifact. And Dusk... if I have any news about the Order that is after you, I will find you myself... in the shadows...~
+
+@145  = ~Ardusk... <CHARNAME>...~
+@146  = ~We need to talk... a matter of the utmost importance will concern you... both of you...~
+@147  = ~Danctian! Where did you come from? Damn, how did you find us?~
+@148  = ~As I have mentioned before, you and I have a connection due to... the sacrifice you made to free me.~
+@149  = ~*shudders* That sounds so... ominous...~
+@150  = ~I understand... well, I have no problem with us talking. Let's see what <CHARNAME> has to say.~
+@151  = ~So, <CHARNAME>, what is it? This may turn out to be beneficial for all of us...~
+@152  = ~Beneficial like... treasure? I'm all ears, Danctian.~
+@153  = ~I don't trust you, fiend. But I'll hear you out... for now...~
+@154  = ~I'm not interested in whatever it is you're selling, creature. Go back to the shadows you came from.~
+@155  = ~I'll listen to you, Danctian. Speak freely.~
+@156  = ~I assure you, I have no sinister intentions towards you.~
+@157  = ~You should at least reconsider... since it is directly related to the Forgotten Crypt.~
+@158  = ~This is not the best place to talk... Come to the hideout that used to belong to the Shilmists in the Athkatla's Docks. There we will talk... about the Forgotten Crypt...~
+@159  = ~W-what? Danctian, what are you talking about?~
+@160  = ~I will tell you everything when we meet again... Remember: Athkatla's Docks, in the hideout that once belonged to the Shilmista elf.~
+@161  = ~Ah... the spawn of Bhaal, <CHARNAME>'s sister. It is a great honor to be able to serve you as well.~
+@162  = ~Hm... I'm not sure if that makes me feel safe, shadow sir.~
+@163  = ~Don't worry, I have no ill intentions towards you. In fact, this divine tome is for you.~
+@164  = ~A divine tome? Well... thank you, I guess. (Dusk, did you really release this creature on purpose?)~
+
+@165  = ~I see... then, what must I forge for you?~
+@166  = ~You have answered my call. Good, good...~
+@167  = ~<CHARNAME>, I don't see Ardusk with you. You should return with him so we can talk about the Forgotten Crypt.~
+@168  = ~Very well, Danctian. I'll go back to Dusk.~
+
+@169  = ~Very well, Danctian. Although, first I'd like to see if we can forge something.~
+@170  = ~Agreed, <CHARNAME>. I'll be waiting for you... in the shadows.~
+@171  = ~Ardusk, the necromancer named Anthagar has made contact.~
+@172  = ~And it simply involves answering his call.~
+@173  = ~I will proceed to summarize what's happening, son of Bhaal.~ ~I will proceed to summarize what's happening, daughter of Bhaal.~
+@174  = ~Ardusk is... correct. Whether you wish to join that Order or destroy it, he must give consent to travel through the dark orb.~
+@175  = ~Very well, Danctian. Obtaining great power through the Order of Mages doesn't sound bad at all.~
+@176  = ~What the Forgotten Crypt is planning is vile and obscene. We must stop them as soon as possible.~
+@177  = ~I must think about what to do about it. I haven't decided yet.~
+@178  = ~I'll act according to how the mission progresses. When we can talk to them, I'll decide there.~
+@179  = ~It will be as you wish, <CHARNAME>. When they're ready, they only need to ask me to activate the orb, and I will take them to that place. Until then, I'll be waiting for you...~
+
+@180  = ~The Order of Mages that has been testing you is planning an imminent massacre in the nations of Tethyr and Amn.~
+@181  = ~The Forgotten Crypt pays homage to Velsharoon, the Lord of the Undead.~
+@182  = ~The human named Anthagar is possibly planning to obtain immortality through some ritual of great power.~
+@183  = ~This is where the Emissary of Cormyr and the Spawn of Assassination come into play.~
+@184  = ~I don't know if you don't care about what our 'friend' Anthagar plans to do, <CHARNAME>.~
+@185  = ~The truth is, I don't think he can perform the ritual (at least for now) without our consent.~
+@186  = ~Whether you want to ally with them or not, it doesn't matter to me. But going there will require my presence. That's not negotiable.~
+@187  = ~*Danctian's lifeless gaze seems to wander for a moment on Dusk's face*~
+@188  = ~*After a few seconds, his scarlet orbs focus on you*~
+
+@189  = ~Interesting... he's finally made contact with you. Tell me about it.~
+@190  = ~Just what we expected. He intends for <CHARNAME> and you to join him in his plan of conquest and destruction.~
+@191  = ~He has managed to give me a cursed orb that functions as a teleportation device.~
+@192  = ~His Order will meet us in a sort of... neutral ground.~
+@193  = ~The mage is not lacking in insight, and his doubts will test you one last time, <CHARNAME>.~
+@194  = ~<CHARNAME>, I don't see Ardusk with you. You should return with him if you want to use the Necromancer's cursed orb.~
+@195  = ~Very well... are you ready to depart? I recommend being well prepared before the encounter.~
+@196  = ~We're ready, Danctian. Activate the orb!~
+@197  = ~Very well... the cursed orb will be activated. May the power of Pandemonium bless you!~
+@198  = ~It will be as you wish, <CHARNAME>. When you are ready, simply ask me to activate the orb, and I will take you to that place. By the way... Ardusk...~
+@199  = ~I see you still carry the Crimson Sword. The heart of the abyssal demon has made it stronger, indeed.~
+@200  = ~Now then... I release you to prepare for the journey through the Cursed Orb. Speak to me again when you are ready...~
+@201  = ~That's right, Danctian. Why do you ask? Your eyes are shining brighter than usual.~
+@202  = ~It's time... If you give me the Crimson Sword, I can awaken a great power within it. It will be very useful in the place we are headed to...~
+@203  = ~I see... Well, here you go then.~
+@204  = ~I'm surprised by your blind faith in that demon, abbil. He could easily thrust that sword into your back...~
+@205  = ~Hmph! Do ye give up yer weapon so easily? I would neve' do such a thing with my axe. Korgan Bloodaxe has his axe as his destiny in his hands, and no one else's. And its edge... in the skulls of his enemies.~
+@206  = ~Your faith will be rewarded, Ardusk Aldant...~
+@207  = ~The Wizard Slayer with wrath in heart, shall wield this blade with deadly art. Thus, let the rivers of Pandemonium flow for from their fury shall this weapon grow. A symbol of vengeance, a deadly tool, to bring down his enemies and make them rue.~
+@208  = ~By Cormyr... the edge is even more radiant... What does this mean?~
+
+@209  = ~Ira...~
+@210  = ~¿Ira?~
+@211  = ~That is the true name of the weapon, Ardusk. And it is destined to be in your hands.~
+@212  = ~Your enemies will tremble... and they will be killed in the name of the shadows.~
+@213  = ~<CHARNAME>, we are back on your plane.~
+@214  = ~It has been... an interesting journey, Danctian.~
+@215  = ~Ardusk Aldant has fallen in combat. His vengeance has been fulfilled, and his soul, if it does not return to this plane, will be found by me, for it is tied to my essence and thus my will.~
+@216  = ~The Pandemonium will become his new home, and he will live in the shadows for a good while.~
+@217  = ~You need not worry about his... well-being, <CHARNAME>. Even if you were able to revive him, I can assure you that at the end of his path, he would find himself in the darkness of my lands.~
+@218  = ~Because the Cormyrean has tied his blood with mine, and we are destined to share the same fate.~
+@219  = ~My work here is done... I will regroup on my plane... I leave you with this substantial amount of gold, <CHARNAME>. I am sure it will be useful in your fight against Irenicus. I wish you fortune to your loved ones... and terror to your enemies. Farewell, son of Bhaal!~ ~My work here is done... I will regroup on my plane... I leave you with this substantial amount of gold, <CHARNAME>. I am sure it will be useful in your fight against Irenicus. I wish you fortune to your loved ones... and terror to your enemies. Farewell, daughter of Bhaal!~
+
+@220  = ~Your vengeance is complete, Ardusk Aldant. The Forgotten Crypt has been destroyed.~
+@221  = ~Verily, Ardusk. Prepare yourself, for I will take you to a distant plane...~
+@222  = ~Yes...~
+@223  = ~Anthagar had a talisman of Mellifleur, an item imbued by the gods themselves in the Time of Troubles.~
+@224  = ~I can channel some of its power and bring her back for a while.~
+@225  = ~What have you said? ... Bring her back? You mean...~
+@226  = ~We have returned to Athkatla.~
+@227  = ~I assume that what we have seen has been... real...~
+@228  = ~You are correct. I don't think Mielikki was too amused that you invaded his... precious Grove.~
+@229  = ~Why did you do it, Danctian?~
+@230  = ~I think you know that as well as I do, Ardusk.~
+
+@231  = ~After all, our souls are linked.~
+@232  = ~In a way, the path you took was to reach this moment.~
+@233  = ~To see Celine... even if it's just one last time.~
+@234  = ~...~
+@235  = ~Regardless... She has left you with much to think about.~
+@236  = ~Even now I perceive her words resonating within your mind, like those bells that called you to the temple of Tymora when you were just a child.~
+@237  = ~They will continue to resonate even if you manage to complete your journey with <CHARNAME>.~
+@238  = ~Hmpf... Have you always been so talkative, Danctian? I hadn't realized how annoying you are.~
+@239  = ~I understand. My apologies, Ardusk.~
+@240  = ~Now, the time for the reward has come, <CHARNAME>. I hope the gold is to your liking.~
+@241  = ~old is always welcome, Danctian.~
+@242  = ~It's not necessary, Danctian. We've obtained a good share by destroying that Forgotten Crypt.~
+@243  = ~Naturally, these yellowed metal pieces have no value to me. They're all yours, <CHARNAME>.~
+@244  = ~75,000 gold pieces. I hope it's an appropriate amount.~
+@245  = ~It's a good amount, Danctian. If there's nothing else...~
+@246  = ~There is something else, Ardusk. I will take Ira with your permission.~
+@247  = ~But, what the he-?~
+@248  = ~Do you remember the Symbol of Mellifleur of Anthagar? Here it is.~
+@249  = ~*The symbol turns a reddish color as Danctian's scarlet orbs glow incessantly.*~
+@250  = ~*After a few seconds, Ira, Dusk's sword, rises and seems to merge with the symbol of Mellifleur.*~
+@251  = ~Danctian, what have you done?~
+@252  = ~Take Ira back, Ardusk. I have awakened its full power with the vestiges of your enemies.~
+@253  = ~I see...~
+
+@254  = ~Ira Tenax. The true power of the scarlet orb.~
+@255  = ~Verily.~
+@256  = ~Ira Tenax is the culmination of your travels throughout Amn. You wouldn't have achieved it without <CHARNAME>.~
+@257  = ~I know that, Danctian. That's why I'll wield it... and aid <CHARNAME> in destroying Irenicus. In the name of revenge.~
+@258  = ~The Pandemonium desires it so, and its strength will be with you on your journey to Suldanessellar. Also, remember that I will be here if you need an artifact forged...~
+@259  = ~There is nothing else, except Irenicus.~
+@260  = ~If you want to stop him, you must go to elven lands, as that is where he will carry out his final plans.~
+@261  = ~If you value this plane, you must use all of your strength to stop him.~
+@262  = ~*Danctian scrutinizes the group for a few moments*~
+
+
+@484 = ~Ah, Blackguard. Your path of violence and vengeance is welcomed by the principles of Pandemonium. I estimate that the Night Knives Gloves will be useful to you.~
+@485 = ~Rest assured, demon.~
+
+@486 = ~The monk of the Sun Soul... I can only imagine the disgust in your mind at the thought of receiving aid from the Shadows. But Shar is not my lord... No, only Chaos. Take this potion of light. It will be a pleasure to be rid of it.~
+@487 = ~I don't trust you, demon. But if <CHARNAME> and Dusk do... Then I'll accept it. We'll see later if I decide to use it or not...~
+
+@488 = ~What a marvel it is to witness your wild spells, half-elf! This potion will serve your purposes. Follow the path of Chaos.~
+@489 = ~Follow what? Um... well, thanks I guess. It has a very... distinctive aroma.~
+
+@490 = ~Someone like you doesn't require much help, is that so, vampire? However, this may be appreciated by someone like you. I will observe your path from the Shadows.~
+@491 = ~Do as you please, Danctian. I'll take what you offer, since I sense a sweet aroma and promise of power in it.~
+
+@492 = ~Wilson, creature of the wild nature. I have something for you that may be to your liking. Feed and be more powerful than ever.~
+@493 = ~(Growl)~ [BBEAR09]
+@494 = ~What do you mean by "If I have more"? Those... are all that I have, but I assure you they will satisfy your hunger.~
+@263 = ~(Moan)~ [BBEAR04]
+
+@495 = ~Ah, the Lady of Beasts. Half-elf, I have this for you: an artifact forged by the selu'taar themselves. I hope it will be of use to you.~
+@496 = ~Gr-gratitude, Danctian. I still don't know how I feel... about you. But if Dusk and <CHARNAME> trust you, then I will too.~
+
+
+@497 = ~*whisper* Now?~
+@498 = ~*whisper* Hm... it's an unnatural creature... but it doesn't seem entirely... unnatural... Let's wait a moment longer, my good friend.~
+@499 = ~*whisper* Acrull? Maybe we should--~
+@500 = ~You need not worry about me, Calishite. I assure you, I am neither an affront to Nature nor a danger to you.~
+@501 = ~But I assume you, Acrull Northshield, have already figured that out.~
+@502 = ~Y-yes... It's true. Hakamir, Mathyus, and their companions are not... dead... Not in the way we understand it.~
+@503 = ~Care to explain that? I'm looking at their damn corpses as we speak!~
+@504 = ~Yes... I will explain later... For now, let's just keep listening.~
+@505 = ~Wise of you, druid. As I said, you may stay here and continue your enterprise with <CHARNAME>. If you do so, your purpose of saving Brost will draw ever closer. For now, I will continue my conversation with Ardusk and <CHARNAME>. Excuse me.~
+@506 = ~Did you do this... for power? You were willing to betray your friends... Dusk, how could you?~
+@507 = ~I don't expect you to understand, Fall. It was either them or me. Mathyus had already decided to end me once Alabarza was no more.~
+@508 = ~I simply acted before he could.~
+@509 = ~I don't think... I don't think you did the right thing.~
+@510 = ~Perhaps one day you will understand, Fall.~
+@511 = ~I doubt it, Dusk... I truly doubt it...~

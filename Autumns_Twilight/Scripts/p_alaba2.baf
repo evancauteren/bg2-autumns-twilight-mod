@@ -1,0 +1,15 @@
+IF
+Dead("P_Dusk")
+THEN
+  RESPONSE #100
+  SetGlobal("P_DuskMatMission2","GLOBAL",8)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+!Dead("P_Dusk")
+THEN
+  RESPONSE #100
+  SetGlobal("P_DuskMatMission2","GLOBAL",8)
+  StartDialogueNoSet(Player1)
+END

@@ -1,0 +1,353 @@
+//EVIL
+
+@0   = ~Frei... endlich...~
+@1   = ~Ardusk Aldant und <CHARNAME>. Ich schulde euch meine Loyalität...~
+@2   = ~Ein Schattenfürst?! Dämmerung, sei auf der Hut! Wir müssen ihn besiegen.~
+@3   = ~Bei Kerzenburg! Wer zum Teufel bist du?~
+@4   = ~Du musst keine Angst um mich haben, Kind Bhaal's. Ich glaube nicht, dass ich das erste nicht feindselige Wesen bin, dem du begegnet bist. Wie Ardusk wird auch meine Loyalität bei dir liegen, solange er dich begleitet.~
+@5   = ~Mein Name ist Danctian Schatten. Mein Nachname mag überflüssig sein, aber so, soweit ich mich erinnere, werde ich genannt.~
+@6   = ~Für kurze Zeit wurde ich als Kanal zwischen Pandämonium und dieser Ebene benutzt. Der Orden der Magier, der Ardusk verfolgt, ist ebenfalls daran interessiert, direkten Kontakt mit der Ebene der Negativen Energie herzustellen.~
+@7   = ~Ich spüre, dass es mit Nekromantie zu tun hat, wegen der Spezialisierung des Anführers.~
+@8   = ~Ich verstehe nicht, warum du uns das erzählst. Versuchst du, unser Vertrauen zu gewinnen?~
+@9   = ~Du tauchst aus dem Nichts auf und deine dämonische Energie ist allzu offensichtlich. Gib mir einen guten Grund, warum ich dich nicht hier und jetzt vernichten sollte.~
+@10  = ~Es gibt keinen Grund für Gewalt hier und jetzt, Kind Bhaal's. Ich habe nicht die Absicht, dich anzugreifen.~
+@11  = ~Wenn du Ardusk vertraust, dann kannst du mir vertrauen. Ich bin an seinen Willen gebunden, da... ich einen Teil seiner Lebensenergie aufgenommen habe, um in dieser Ebene zu materialisieren.~
+@12  = ~Aber genug der Erklärungen... Ich sehe, dass du eine besondere Frage hast, Sterblicher, nicht wahr?~
+@13  = ~Welchen Nutzen wirst du für uns haben? Zumindest war der Kobold nützlich, um Dinge zu erschaffen.~
+@14  = ~~
+@15  = ~Ich habe die Macht der magischen Kreatur absorbiert. Ich kann ihre Erschaffungskraft mit beträchtlicher Verbesserung manipulieren. Hast du noch das Rezeptbuch? Ich kann diese Artefakte ohne Gold schmieden, obwohl die restlichen Zutaten immer noch notwendig sind.~
+
+@17  = ~Tatsächlich sehe ich, dass du eine kormyrische Lieferung von deiner jüngsten... Expedition im Kampf gegen Alabarza erhalten hast. Sie wird uns sehr nützlich sein, wie du sehen wirst.~
+@18  = ~Ich kann spezielle Artefakte für dich schmieden. Sogar etwas... Persönlicheres für deine Gefährten, Sohn Bhaal's.~ ~Ich kann spezielle Artefakte für dich schmieden. Sogar etwas... Persönlicheres für deine Gefährten, Tochter Bhaal's.~
+@19  = ~Das stimmt, <CHARNAME>. Der Schattenfürst ist vorerst eine Erweiterung von mir. Allerdings wird er hier, in Athkatla, bleiben.~
+@20  = ~Die Wahrheit ist... Danctian sollte mich besitzen, um den Willen der Magier, denen wir begegnet sind, zu erfüllen.~
+@21  = ~Es war nicht bis zu einem Fehler eines der Magier.~
+@22  = ~Valatar beschwor einen abyssischen Dämon aus meiner Ebene.~
+@23  = ~Als er euch gegenüberstand, erlaubte der Kontakt mit der Essenz des scharlachroten Orbs in Ardusk mir, klar mit ihm zu kommunizieren.~
+@24  = ~Als wir uns der Höhle von Alabarza näherten, setzte ich mein Gespräch mit Danctian fort. In meinem Geist.~
+@25  = ~Er sagte mir, dass ich Alabarza besiegen und hierher zurückkehren musste, zu Mathyus' und Michelsons Versteck.~
+@26  = ~Der Vorschlag war, der Kanal seiner Macht zu sein, damit er die Lebensenergie der Shilmists absorbieren konnte.~
+@27  = ~Im Gegenzug würde er mir Macht jenseits der Vorstellungskraft gewähren.~
+
+@28  = ~Mir war ein möglicher Verrat bewusst, <CHARNAME>. Aber ich ging davon aus, dass es etwas war, das wir ohne Probleme bewältigen könnten, wenn es dazu käme.~
+@29  = ~Sohn Bhaal's, wie du siehst, hat Ardusk ein unermessliches Vertrauen in dich. Er ist sogar bereit, für dich zu sterben. Er bittet nur, dass du ihn auf seiner Rachereise begleitest.~ ~Tochter Bhaal's, wie du siehst, hat Ardusk ein unermessliches Vertrauen in dich. Er ist sogar bereit, für dich zu sterben. Er bittet nur, dass du ihn auf seiner Rachereise begleitest.~
+@30  = ~Für dich, Nordländer... Ich habe diesen speziellen Trank vorbereitet. Er wird deine geistigen Fähigkeiten erheblich steigern. Vielleicht wirst du sogar ein göttlicher Kanal für die Gottheit, der du dienst.~
+@31  = ~Hmm... Boo hat seine Zweifel an dir, Kreatur. Aber wenn <CHARNAME> und Dämmerung dir vertrauen, dann wird Minsc es auch.~
+@32  = ~Fürchte dich nicht, Kind. Ardusk schätzt dich sehr, also habe ich das hier speziell für dich gemacht.~
+@33  = ~I-ist das ein Baervan-Emblem? Hm... d-danke, nehme ich an... (Dämmerung, bist du dir sicher bei dieser Sache?)~
+@34  = ~Ich sehe, dass du mir nicht viel Vertrauen entgegenbringst, Inquisitor. Ich kann dein Verlangen, mich mit deinem Schwert zu durchbohren, ebenso klar sehen wie das angeborene Böse, das in der Menschheit existiert.~
+@35  = ~Du hast recht, Monster. Der einzige Grund, warum ich dich nicht angreife, ist, dass ich seltsamerweise nicht wahrnehme, dass du uns schaden willst.~
+@36  = ~Aber sei versichert, ich werde dich aus dieser Ebene entfernen, im Namen von Torm, wenn deine Absichten böse sind.~
+@37  = ~Böse ist relativ, Sir Keldorn Feuerkamm. Ich könnte Rache an deiner ganzen Rasse für das suchen, was sie mir angetan haben... und doch ist meine Macht aus Respekt vor Ardusk und <CHARNAME> zurückgehalten.~
+@38  = ~Aber genug geredet... deine Gefährten schätzen dich hoch... Also habe ich das hier für dich vorbereitet. Ich bin sicher, du wirst es nützlich finden, sogar für deine persönlichen Zwecke.~
+@39  = ~Sehr gut, Kreatur. Junge Dämmerung, ich hoffe, du übernimmst die Verantwortung für ihn... oder sie... oder was auch immer dieses dämonische Schattenwesen ist.~
+
+@40  = ~Deine Angelegenheiten interessieren mich wenig, Sterblicher. Du kannst sicher sein, dass ich dir nicht im Weg stehen werde. Tatsächlich habe ich vor, dass du dein Ziel so schnell wie möglich erreichst... Diese Katana wird deinen dunklen Zwecken gut dienen...~
+@41  = ~Hm... Yoshimo ist normalerweise nicht um Worte verlegen... aber es scheint, dass dieser Danctian es geschafft hat. Trotzdem, danke für das Katana...~
+@42  = ~Du brauchst dir keine Sorgen um mich zu machen, tapferer Halbling. Ich versichere dir, dass ich keine bösen Absichten dir gegenüber hege. Ich weiß, dass du eine... unglückliche Erfahrung mit Wesen meiner Art gemacht hast.~
+@43  = ~Unglücklich ist ein Wort, das dem nicht gerecht wird, Dämon. Wenn es nach mir ginge, würde ich alle deiner Art aus diesem Land ausrotten.~
+@44  = ~Ein edles Ideal, Lady Fentan. Ich glaube, dies könnte dir bei deinem Vorhaben helfen. Vielleicht wird dein Weg dich eines Tages dazu führen... zu versuchen... mich auszurotten. Ich hoffe, du änderst bis dahin deine Meinung...~
+@45  = ~Das halte ich für unwahrscheinlich... Trotzdem, danke für das Item (seien Sie versichert, ich werde herausfinden, was es ist, bevor ich es benutze...).~
+@46  = ~Bei Helm! Wage es ja nicht, dich mir zu nähern, Kreatur...~
+@47  = ~Warum sagst du das, Erbe von Delryn? Es ist nicht aus Angst, dass du nicht willst, dass ich dir näher komme... oder etwa doch?~
+@48  = ~Schändlicher Dämon! Ich fürchte dich nicht... aber ich werde dich auch nicht zerstören. Aus einfachem Respekt vor <CHARNAME> und Dämmerung.~
+@49  = ~Ich weiß, Mönch... deswegen habe ich dir dieses Schwert gebracht...~
+@50  = ~Ein was...? Bei den Göttern... es trägt das Emblem meiner Familie... Wie--?~
+
+@51  = ~Ich habe es dir bereits gesagt... meine Macht überschreitet diese Ebene... und sogar die Zeit. Dieses Schwert kann nur von jemandem mit Delryn-Blut geführt werden. Ich vertraue darauf, dass du es gut nutzen wirst, Sterblicher.~
+@52  = ~Hmpf... ich brauche kein Schwert, um meinen Wert zu beweisen... Aber ich nehme dein Geschenk an, Dämon.~
+@53  = ~Deine Familie hat ein tragisches Schicksal erlitten, junge Dame. Ich vertraue darauf, dass dieses Gewand der letzten Erbin von De'Arnise von Nutzen sein wird.~
+@54  = ~W-was? Woher hast du das, Kreatur? Es hat... es trägt das Wappen meiner Familie... und es fühlt sich so vertraut an... *räuspert sich* D-danke, denke ich...~
+@55  = ~Du sprichst nicht oft über sie, aber ich weiß, dass du ihren Namen in stillen Nächten erwähnst, Halbelf. Dies ist meine Belohnung für dich, weil du Dusk bei seinem Unterfangen geholfen hast.~
+@56  = ~Das Symbol von Mystra? Ich würde fragen, woher du es weißt... aber ich nehme an, die Antwort wäre etwas... verwirrend. Wie auch immer, danke.~
+@57  = ~Ah, ja... diese Kugel ist äußerst mächtig. Das Wissen, das ich kürzlich... erworben habe, hat es mir ermöglicht, sie zu schmieden. Sterblicher, du solltest sie haben.~
+@58  = ~Ich spüre einen ruhigen Sturm in dieser Kugel, als ob sie den Traum eines Schmetterlings enthält. Obwohl mich dein unnatürlicher Ursprung beunruhigt, hattest du genug Weisheit, ein solch perfektes kleines Werk zu erschaffen. Du bist seltsam, Danctian. Ich werde genau beobachten, wie deine Anwesenheit diese Ebene und das Große Gleichgewicht beeinflusst.~
+@59  = ~Einverstanden, Druide. Sei versichert... es ist nicht meine Absicht, in die vorbestimmten Angelegenheiten dieses Landes einzugreifen.~
+@60  = ~Was haben wir hier? Ein Sterblicher, der seine Familie verleugnet. Das ist ungewöhnlich für jemanden edler Abstammung.~
+@61  = ~Und was weißt du über die edle Abstammung der Menschen auf dieser Ebene?~
+@62  = ~Du würdest überrascht sein, was man durch die Verzweiflung eines Brunnens lernen kann. Während meine Erinnerungen an die Vergangenheit nicht ganz klar sind, sind mir die Erfahrungen dieser materiellen Ebene nicht fremd.~
+@63  = ~Du hattest schlechte Erfahrungen mit Kreaturen aus der Negativen Ebene, wegen der arkanen Fehltritte deiner Vorfahren. Ich versichere dir, Pandämonium ist damit stark verbunden.~
+@64  = ~Mich interessieren deine Geschichten nicht, Danctian. Du weißt, dass ich dich nur aus Respekt vor Dusk nicht vernichte.~
+@65  = ~Ich weiß, Sterblicher, ich weiß. Vielleicht wird dies die Wogen zwischen uns glätten. Und dir nebenbei größere Klarheit über deine Familie verschaffen.~
+@66  = ~Diese Schriftrollen... sie tragen das Siegel meiner Familie. *zögert kurz, räuspert sich dann* Ich werde darüber meditieren, ob ich sie verwenden soll oder nicht, Danctian.~
+@67  = ~Ich weiß, dass du es tun wirst, junger Sterblicher...~
+@68  = ~Nun, nun... ein Anhänger von Shar. So seltsam es auch erscheinen mag, deine Anwesenheit hier überrascht mich nicht, Drow. Da du Ardusk bei seinem Unterfangen geholfen hast, habe ich etwas Besonderes für dich vorbereitet.~
+@69  = ~Ein Symbol von Shar? Ich spüre eine seltsame Macht darin. Ja... das wird genügen...~
+@70  = ~Ich glaube, du weißt, dass dieses Buch für dich bestimmt ist, Sterblicher. Nicht wahr?~
+@71  = ~Ja, Kreatur. Edwin Odesseiron verdient die Macht dieses Buches dafür, dass er seine großen Fähigkeiten für diesen erbärmlichen Strichmännchen-Typen zur Verfügung gestellt hat. (Ja, mehr als verdient, würde ich sagen...)~
+@72  = ~Oh, ja... ich sehe das Leuchten in deinen Augen, Krieger. Du weißt, dass dies für dich ist. Ich weiß, du wirst viele Leben damit ernten...~
+@73  = ~Ha! Du hast wirklich ein gutes Auge für Farben auf einer Axt, Dämon. Und du hast recht... ich werde so viele Köpfe wie möglich damit abschlagen, verstehst du?~
+@74  = ~Ich bin sicher, du hast eine Geschichte dazu, nicht wahr, kleiner Sterblicher? Dieser Trank ist für dich.~
+@75  = ~Oh, ein Gnomtrank! Das erinnert mich an die Zeit, als meine Tante Gertrude von der Amn-Wache verhaftet wurde, weil sie Energydrinks schmuggelte. Man könnte denken: "Was ist schon an Energydrinks falsch?" Nun, ich sage, nichts. Obwohl sie meine Tante vielleicht wegen der Nebenwirkungen ihrer Drinks eingesperrt haben. Ich glaube, sie ließen Haare auf den Zähnen wachsen. Wie auch immer, dieser Trank sieht sehr gut aus. Ich kann es kaum erwarten, ihn auszuprobieren.~
+@76  = ~Wenn jemand interplanare Reisen versteht, dann bist es du, nicht wahr, Tiefling? Ich vertraue darauf, dass du dies gut nutzen wirst.~
+@77  = ~Wow, diese Runen kommen mir bekannt vor... Ich wüsste nicht, wie ich dir danken soll, ätherische Krähe! Gibt es Musik in deiner Ebene? Vielleicht komponiere ich ein oder zwei Lieder für dich.~
+@78  = ~Ardusk, für dich habe ich dies: den Purpurdrachen-Edelstein. Damit können wir das Zerstörungsschwert oder die Cormyr-Rüstung verstärken, je nachdem, was du wählst. Es ist klar, dass du eines der beiden Artefakte haben musst, nicht wahr?~
+@79  = ~So sei es, Danctian. Wenn die Zeit gekommen ist, bin ich sicher, dass <CHARNAME> mir helfen wird, die richtige Wahl zu treffen.~
+@80  = ~Ah, ich sehe jetzt, Ardusk... du hast Alabarzas Hand mitgebracht... Du hast getan, wie ich es dir aufgetragen habe. Gut, gut...~
+@81  = ~In der Tat. Was wirst du damit tun?~
+@82  = ~In gewisser Weise ist es nur eine Trophäe deines Sieges. Ich kann daraus einige mächtige kleine Edelsteine schmieden, die dir auf deiner Reise nützlich sein könnten. Einige davon hast du vielleicht schon gefunden.~
+@83  = ~Sie werden dir eine Fähigkeit namens Stahlkrieger verleihen. Sie ist der druidischen Zauberei Eisenhaut sehr ähnlich, aber besser, da du sie nicht wirken musst. Es ist eine Fähigkeit, die du einfach erlangst. Jeder von kriegerischer Natur kann sie nutzen.~
+@84  = ~Und was dich betrifft, Sohn des Bhaal, können wir mehrere Dinge tun: Ich kann dich mit einer guten Menge Gold und einigen speziellen Büchern belohnen, die ich gesammelt habe. Hunderttausend Goldstücke und sechs magische Bücher zur Verbesserung der Fähigkeiten. Das wäre eine Möglichkeit.~ ~Und was dich betrifft, Tochter des Bhaal, können wir mehrere Dinge tun: Ich kann dich mit einer guten Menge Gold und einigen speziellen Büchern belohnen, die ich gesammelt habe. Hunderttausend Goldstücke und sechs magische Bücher zur Verbesserung der Fähigkeiten. Das wäre eine Möglichkeit.~
+@85  = ~Du kannst auch verschiedene magische Gegenstände wählen, die ich aus der Lieferung holen kann. Darunter hättest du ein Katana, zwei Ninja-to, eine Rüstung und einen magischen Edelstein. All diese magischen Gegenstände können dir gehören.~
+@86  = ~Und als letzte Option ein mächtiges legendäres Schwert. Es heißt Mugenjin und ist die perfekte Waffe für jemanden, der für das Assassinenhandwerk bestimmt ist. Da ich es noch nicht geschmiedet habe, kannst du wählen, welche Art von Waffe es sein soll: ein Langschwert, ein Katana, ein Krummsäbel oder ein Großschwert. Allerdings solltest du bedenken, dass die Waffe nicht von jenen geführt werden kann, die sich an das Gesetz halten.~
+
+@87  = ~Sehr gut, dann, Sohn des Bhaal! Was wird es sein?~ ~Sehr gut, dann, Tochter des Bhaal! Was wird es sein?~
+@88  = ~Um ehrlich zu sein, Danctian, hunderttausend Goldstücke und diese Bücher klingen nicht schlecht. Ich wähle diese Option.~
+@89  = ~Nichts geht über eine gute Handvoll magischer Gegenstände, Dämon. Das bevorzuge ich über alles andere.~
+@90  = ~Das legendäre Schwert, Danctian.~
+@91  = ~Ausgezeichnete Wahl, mein/e <LADYLORD>. Noch einmal gratuliere ich dir zu dem, was du hier erreicht hast, und danke dir für meine Befreiung. Ich versichere dir, du wirst es nicht bereuen. Ich werde hier sein, wenn du ein Artefakt schmieden möchtest. Und Dämmerung... wenn ich Neuigkeiten über den Orden habe, der dich verfolgt, werde ich dich selbst aufsuchen... im Schatten...~
+@92  = ~Welche Waffe möchtest du erhalten?~
+@93  = ~Ein Langschwert.~
+@94  = ~Eine Katana.~
+@95  = ~Ein Krummsäbel.~
+@96  = ~Ein Großschwert.~
+@97  = ~Hm... Ich habe es mir anders überlegt. Ich möchte etwas anderes wählen.~
+@98  = ~Sei gegrüßt, Sterblicher. Bist du hier, um ein Artefakt zu schmieden? Ich werde für ein effizientes Ergebnis sorgen, besonders für diejenigen, die Ardusk nahestehen. Und vergiss nicht... die Nutzung meiner Kräfte erfordert kein Gold.~
+@99  = ~Wir haben noch nicht alles Nötige zusammengetragen, Danctian.~
+@100 = ~Verstehe. Ich werde hier sein, wenn du mich brauchst. Ich werde auf dich warten... im Schatten...~
+@101 = ~Danctian, wir haben alles, was wir brauchen, um Dusks Schwert zu verbessern.~
+@102 = ~Das sind großartige Neuigkeiten, Sterblicher. Soll ich fortfahren?~
+@103 = ~Natürlich.~
+@104 = ~Noch nicht, Danctian. Vielleicht später.~
+
+// Schwert der Zerstörung
+
+@105 = ~Sehr gut. Du wirst sehen, dass meine Arbeit genauso gut ist wie die dieses magischen Wesens aus Shilmista, wenn nicht sogar besser.~
+@106 = ~Ardusk, gib mir dein Schwert. Ich werde meine Kräfte einsetzen, um es erheblich zu verbessern.~
+@107 = ~Ich versichere dir, Ardusk... du wirst mit den Ergebnissen zufrieden sein. Nun... tritt zurück!~
+@108 = ~*Es scheint, dass das Ritual beendet ist und der Dämon unbeeindruckt von dem Ereignis erscheint*~
+@109 = ~Das Ritual ist beendet, Sterblicher.~
+@110 = ~Wie ist es gelaufen, Danctian?~
+@111 = ~Das Cormyreische Zerstörungsschwert wurde geschmiedet. Es ist eine bemerkenswerte Verbesserung, Ardusk. Ich bin sicher, du wirst es zu schätzen wissen.~
+@112 = ~Ich habe getan, was du verlangt hast. Du weißt, wo du mich findest, wenn du ein weiteres Artefakt geschmiedet haben möchtest, Sterbliche. Bis bald.~
+
+// Verteidigung von Cormyr
+
+@113 = ~Danctian, wir haben alles, was wir brauchen, um Dusks Rüstung zu verbessern.~
+@114 = ~Ardusk, übergib mir deine Rüstung. Ich werde meine Kräfte einsetzen, um sie erheblich zu verbessern.~
+@115 = ~Die Verteidigung von Cormyr wurde geschmiedet. Es ist eine bedeutende Verbesserung, Ardusk. Ich bin sicher, du wirst sie zu schätzen wissen.~
+
+// Armschienen der Steinverteidigung
+
+@116 = ~Danctian, wir haben alles Nötige zusammengetragen, um die Armschienen der Steinverteidigung zu erschaffen.~
+@117 = ~Ich versichere dir, Sterblicher... du wirst mit den Ergebnissen zufrieden sein. Nun... tritt zurück!~
+@118 = ~Die Armschienen der Steinverteidigung wurden geschmiedet. Ich bin sicher, du wirst sie zu schätzen wissen, Sterblicher.~
+
+// Karmesindonner
+
+@119 = ~Danctian, wir haben alles, was wir brauchen, um den Hammer zu erschaffen: Karmesindonner.~
+@120 = ~Der mächtige Karmesindonner wurde geschmiedet. Ich bin sicher, du wirst ihn zu schätzen wissen, Sterblicher.~
+
+// Wildfeuer
+
+@121 = ~Danctian, wir haben alles, was wir brauchen, um die Wildfeuer-Rüstung zu erschaffen.~
+@122 = ~Wildfeuer wurde geschmiedet. Ich bin sicher, du wirst es zu schätzen wissen, Sterblicher.~
+
+// Giftschlag
+
+@123 = ~Danctian, wir haben alles Nötige zusammengetragen, um die Keule „Giftschlag“ zu erschaffen.~
+@124 = ~Die Keule „Giftschlag“ wurde geschmiedet. Ich bin sicher, du wirst sie zu schätzen wissen, Sterblicher.~
+
+// Larlochs Fang
+
+@125 = ~Danctian, wir haben alles, was wir brauchen, um Larlochs Fang zu schmieden.~
+@126 = ~Larlochs Fang wurde geschmiedet. Ich bin sicher, du wirst ihn zu schätzen wissen, Sterblicher.~
+
+// Höllenfrost
+
+@127 = ~Danctian, wir haben alles, was wir brauchen, um den Höllenfrost zu schmieden.~
+@128 = ~Der Höllenfrost wurde geschmiedet. Ich bin sicher, du wirst ihn zu schätzen wissen, Sterblicher.~
+
+  // Vengadora Real
+@129  = ~Danctian, wir haben die Artefakte von Herzog Benork erhalten.~
+@130  = ~Hm... interessant. Die magische Kreatur aus Shilmista hatte das letzte Artefakt des verstorbenen Benork. Nun ist der Königliche Rächer in meinem Besitz.~
+@131  = ~Es war nicht leicht, alle Artefakte zu erlangen, Danctian. Wirst du uns das letzte Stück des Zaubererjäger-Sets geben?~
+@132  = ~Nichts würde mir mehr Freude bereiten, als das Zaubererjäger-Set vollständig in deinem Besitz zu sehen, mein/e <LADYLORD>. Schließlich haben du und Ardusk zusammengearbeitet, um mich aus dem Pandämonium zu befreien.~
+@133  = ~Ihr habt das Unvorstellbare erreicht, Sterbliche. Heute habt ihr einen weiteren Schritt in eurer gerechten Suche nach Macht gemacht. So wie der Schleier der Nacht unerbittlich über das Licht fällt, so soll auch der Stahl, den ihr in den Händen haltet, auf das Herz des Feindes fallen...~
+
+// Amethyst des Purpurdrachens
+
+@134  = ~Danctian, wir wollen etwas mit dem Amethyst des Purpurdrachens schmieden.~
+@135  = ~Ah, ich verstehe... nun, Sterblicher. Was werden wir damit schmieden?~
+@136  = ~Wir werden die Rüstung verbessern, Danctian: Die Verteidigung von Cormyr.~
+@137  = ~Wir werden die Waffe verbessern, Danctian: Das Zerstörungsschwert.~
+
+// Salus
+
+@138  = ~So sei es, Sterblicher. Du wirst eine legendäre Rüstung erhalten, indem du sie mit der Kraft des Amethysts kombinierst. Tritt nun zur Seite und sieh zu...~
+@139  = ~Salus wurde geschmiedet. Es ist der Inbegriff der Verteidigung für einen Zaubererjäger, mein/e <LADYLORD>. Nur Ardusk kann sie benutzen.~
+@140  = ~Für Cormyr, Danctian. Du hast eine unglaubliche Arbeit geleistet. Die Rüstung scheint leichter, aber nicht weniger robust als ihre vorherige Version... Salus ist eine exquisite Rüstung...~
+
+// Rex
+
+@141  = ~So sei es, Sterblicher. Du wirst ein legendäres Schwert erhalten, indem du es mit der Kraft des Amethyst des Purpurdrachens kombinierst. Tritt nun zur Seite und sieh zu...~
+@142  = ~Rex wurde geschmiedet. Es ist der Inbegriff der Offensive für einen Zaubererjäger, mein/e <LADYLORD>. Nur Ardusk kann es führen.~
+@143  = ~Endlich! Schau, <CHARNAME>. Ich werde Rex benutzen, um in deinem Namen zu töten. Es wird mein Instrument der Rache sein... Du wirst sehen, mein guter Freund... unsere Feinde werden zittern, wenn sie uns kommen sehen... aber sie werden nichts tun können... nicht einmal... fliehen...~
+
+// M3 FINAL SIN p_restos
+
+@144  = ~Noch einmal gratuliere ich dir zu dem, was du hier erreicht hast, und danke dir für meine Befreiung. Ich versichere dir, du wirst es nicht bereuen. Ich werde hier sein, falls du ein Artefakt schmieden möchtest. Und Dämmerung... wenn ich Neuigkeiten über den Orden habe, der dich verfolgt, werde ich dich selbst finden... im Schatten...~
+
+@145  = ~Ardusk... <CHARNAME>...~
+@146  = ~Wir müssen reden... eine Angelegenheit von größter Wichtigkeit wird euch beide betreffen...~
+@147  = ~Danctian! Woher kommst du? Verdammt, wie hast du uns gefunden?~
+@148  = ~Wie ich schon erwähnt habe, haben du und ich eine Verbindung aufgrund... des Opfers, das du gebracht hast, um mich zu befreien.~
+@149  = ~*schaudert* Das klingt so... unheilvoll...~
+@150  = ~Ich verstehe... nun, ich habe kein Problem damit, mit dir zu reden. Mal sehen, was <CHARNAME> zu sagen hat.~
+@151  = ~Also, <CHARNAME>, was ist es? Das könnte sich als vorteilhaft für uns alle erweisen...~
+@152  = ~Vorteilhaft wie... Schatz? Ich höre zu, Danctian.~
+@153  = ~Ich vertraue dir nicht, Dämon. Aber ich höre dir zu... fürs Erste...~
+@154  = ~Ich bin nicht an dem interessiert, was du anbietest, Kreatur. Kehre in die Schatten zurück, aus denen du gekommen bist.~
+@155  = ~Ich höre dir zu, Danctian. Sprich frei.~
+@156  = ~Ich versichere dir, ich habe keine finsteren Absichten dir gegenüber.~
+@157  = ~Du solltest es zumindest überdenken... denn es hat direkt mit der Vergessenen Krypta zu tun.~
+@158  = ~Das ist nicht der beste Ort, um zu reden... Komm zu dem Versteck, das einst den Shilmisten im Hafen von Athkatla gehörte. Dort werden wir über die Vergessene Krypta sprechen...~
+@159  = ~W-was? Danctian, wovon sprichst du?~
+@160  = ~Ich werde dir alles erzählen, wenn wir uns wiedersehen... Denk daran: Athkatlas Hafen, in dem Versteck, das einst den Elfen von Shilmista gehörte.~
+@161  = ~Ah... die Brut des Bhaal, <CHARNAME>s Schwester. Es ist mir eine große Ehre, auch dir dienen zu dürfen.~
+@162  = ~Hm... Ich bin mir nicht sicher, ob mich das sicher fühlen lässt, Schattenherr.~
+@163  = ~Keine Sorge, ich habe keine bösen Absichten dir gegenüber. Tatsächlich ist dieser göttliche Foliant für dich.~
+@164  = ~Ein göttlicher Foliant? Nun... danke, schätze ich. (Dämmerung, hast du dieses Wesen wirklich absichtlich freigelassen?)~
+
+@165  = ~Ich verstehe... was soll ich für dich schmieden?~
+@166  = ~Du hast meinem Ruf geantwortet. Gut, gut...~
+@167  = ~<CHARNAME>, ich sehe Ardusk nicht bei dir. Du solltest mit ihm zurückkommen, damit wir über die Vergessene Krypta sprechen können.~
+@168  = ~Sehr gut, Danctian. Ich werde zu Dämmerung zurückkehren.~
+
+@169  = ~Sehr gut, Danctian. Aber zuerst möchte ich sehen, ob wir etwas schmieden können.~
+@170  = ~Einverstanden, <CHARNAME>. Ich werde auf dich warten... in den Schatten.~
+@171  = ~Ardusk, der Nekromant namens Anthagar hat Kontakt aufgenommen.~
+@172  = ~Und es geht lediglich darum, seinen Ruf zu beantworten.~
+@173  = ~Ich werde fortfahren, das Geschehen zusammenzufassen, Sohn des Bhaal.~ ~Ich werde fortfahren, das Geschehen zusammenzufassen, Tochter des Bhaal.~
+@174  = ~Ardusk hat... recht. Ob du dich diesem Orden anschließen oder ihn zerstören willst, er muss zustimmen, um durch die dunkle Kugel zu reisen.~
+@175  = ~Sehr gut, Danctian. Große Macht durch den Orden der Magier zu erlangen, klingt gar nicht schlecht.~
+@176  = ~Was die Vergessene Krypta plant, ist abscheulich und obszön. Wir müssen sie so schnell wie möglich aufhalten.~
+@177  = ~Ich muss darüber nachdenken, was ich tun soll. Ich habe noch nicht entschieden.~
+@178  = ~Ich werde entsprechend dem Verlauf der Mission handeln. Wenn wir mit ihnen sprechen können, werde ich dann entscheiden.~
+@179  = ~Es wird so sein, wie du es wünschst, <CHARNAME>. Wenn sie bereit sind, müssen sie mich nur bitten, die Kugel zu aktivieren, und ich werde sie an diesen Ort bringen. Bis dahin werde ich auf dich warten...~
+
+@180  = ~Der Orden der Magier, der dich geprüft hat, plant ein unmittelbar bevorstehendes Massaker in den Ländern Tethyr und Amn.~
+@181  = ~Die Vergessene Krypta huldigt Velsharoon, dem Herrn der Untoten.~
+@182  = ~Der Mensch namens Anthagar plant möglicherweise, durch ein mächtiges Ritual Unsterblichkeit zu erlangen.~
+@183  = ~Hier kommen der Gesandte von Cormyr und die Brut des Mordes ins Spiel.~
+@184  = ~Ich weiß nicht, ob es dir egal ist, was unser 'Freund' Anthagar plant, <CHARNAME>.~
+@185  = ~Die Wahrheit ist, ich glaube nicht, dass er das Ritual (zumindest im Moment) ohne unsere Zustimmung durchführen kann.~
+@186  = ~Ob du dich mit ihnen verbünden willst oder nicht, ist mir egal. Aber um dorthin zu gelangen, ist meine Anwesenheit erforderlich. Das ist nicht verhandelbar.~
+@187  = ~*Danctians lebloser Blick scheint für einen Moment auf Dämmerungs Gesicht zu verweilen*~
+@188  = ~*Nach ein paar Sekunden fokussieren sich seine scharlachroten Augen auf dich*~
+
+@189  = ~Interessant... er hat endlich Kontakt zu dir aufgenommen. Erzähl mir davon.~
+@190  = ~Genau wie erwartet. Er beabsichtigt, dass <CHARNAME> und du sich seinem Plan der Eroberung und Zerstörung anschließen.~
+@191  = ~Es ist ihm gelungen, mir eine verfluchte Kugel zu geben, die als Teleportationsgerät fungiert.~
+@192  = ~Sein Orden wird uns an einem Ort treffen, der eine Art... neutraler Boden ist.~
+@193  = ~Der Magier mangelt es nicht an Einsicht, und seine Zweifel werden dich ein letztes Mal prüfen, <CHARNAME>.~
+@194  = ~<CHARNAME>, ich sehe Ardusk nicht bei dir. Du solltest mit ihm zurückkehren, wenn du die verfluchte Kugel des Nekromanten nutzen möchtest.~
+@195  = ~Sehr gut... bist du bereit aufzubrechen? Ich empfehle, gut vorbereitet zu sein, bevor wir uns auf das Treffen einlassen.~
+@196  = ~Wir sind bereit, Danctian. Aktiviere die Kugel!~
+@197  = ~Sehr gut... die verfluchte Kugel wird aktiviert. Möge die Macht des Pandämoniums euch segnen!~
+@198  = ~Es wird so sein, wie du es wünschst, <CHARNAME>. Wenn du bereit bist, bitte mich einfach, die Kugel zu aktivieren, und ich werde dich an diesen Ort bringen. Übrigens... Ardusk...~
+@199  = ~Ich sehe, du trägst immer noch das Karmesinschwert. Das Herz des abgründigen Dämons hat es tatsächlich stärker gemacht.~
+@200  = ~Nun denn... ich entlasse dich, damit du dich auf die Reise durch die Verfluchte Kugel vorbereiten kannst. Sprich mich erneut an, wenn du bereit bist...~
+@201  = ~Das stimmt, Danctian. Warum fragst du? Deine Augen leuchten heller als sonst.~
+@202  = ~Es ist Zeit... Wenn du mir das Karmesinschwert gibst, kann ich eine große Macht in ihm erwecken. Es wird an dem Ort, an den wir gehen, sehr nützlich sein...~
+@203  = ~Ich verstehe... Nun, hier hast du es dann.~
+@204  = ~Ich bin überrascht von deinem blinden Vertrauen in diesen Dämon, abbil. Er könnte dir dieses Schwert genauso gut in den Rücken rammen...~
+@205  = ~Hmpf! Gibst du so leicht deine Waffe auf? Ich würde nie so etwas mit meiner Axt tun. Korgan Bloodaxe hält seine Axt als Schicksal in seinen Händen, und in den Händen von niemand anderem. Und ihre Schneide... in den Schädeln seiner Feinde.~
+@206  = ~Dein Vertrauen wird belohnt, Ardusk Aldant...~
+@207  = ~Der Zaubererjäger mit Zorn im Herzen, soll diese Klinge führen mit tödlicher Kunst. So sollen die Flüsse des Pandämoniums fließen, denn aus ihrem Zorn wird diese Waffe wachsen. Ein Symbol der Rache, ein tödliches Werkzeug, um seine Feinde niederzustrecken und sie Reue lehren.~
+@208  = ~Bei Cormyr... die Schneide ist noch strahlender... Was bedeutet das?~
+
+@209  = ~Ira...~
+@210  = ~Ira?~
+
+@211  = ~Das ist der wahre Name der Waffe, Ardusk. Und sie ist dazu bestimmt, in deinen Händen zu sein.~
+@212  = ~Deine Feinde werden zittern... und sie werden im Namen der Schatten getötet.~
+@213  = ~<CHARNAME>, wir sind zurück auf deiner Ebene.~
+@214  = ~Es war... eine interessante Reise, Danctian.~
+@215  = ~Ardusk Aldant ist im Kampf gefallen. Seine Rache ist erfüllt, und seine Seele, falls sie nicht auf diese Ebene zurückkehrt, wird von mir gefunden, denn sie ist an mein Wesen gebunden und somit meinem Willen unterworfen.~
+@216  = ~Das Pandämonium wird sein neues Zuhause, und er wird für eine lange Zeit in den Schatten leben.~
+@217  = ~Du brauchst dir keine Sorgen um sein... Wohlbefinden zu machen, <CHARNAME>. Selbst wenn du ihn wiederbeleben könntest, kann ich dir versichern, dass er am Ende seines Weges in der Dunkelheit meiner Lande landen würde.~
+@218  = ~Weil der Cormyreaner sein Blut mit meinem verbunden hat, und wir dazu bestimmt sind, dasselbe Schicksal zu teilen.~
+@219  = ~Meine Arbeit hier ist getan... Ich werde mich auf meiner Ebene sammeln... Ich hinterlasse dir eine beträchtliche Menge Gold, <CHARNAME>. Ich bin sicher, es wird dir im Kampf gegen Irenicus nützlich sein. Ich wünsche dir Glück für deine Lieben... und Schrecken für deine Feinde. Leb wohl, Sohn des Bhaal!~ ~Meine Arbeit hier ist getan... Ich werde mich auf meiner Ebene sammeln... Ich hinterlasse dir eine beträchtliche Menge Gold, <CHARNAME>. Ich bin sicher, es wird dir im Kampf gegen Irenicus nützlich sein. Ich wünsche dir Glück für deine Lieben... und Schrecken für deine Feinde. Leb wohl, Tochter des Bhaal!~
+
+@220  = ~Deine Rache ist vollendet, Ardusk Aldant. Die Vergessene Krypta wurde zerstört.~
+@221  = ~Wahrlich, Ardusk. Bereite dich vor, denn ich werde dich zu einer fernen Ebene bringen...~
+@222  = ~Ja...~
+@223  = ~Anthagar hatte ein Amulett von Mellifleur, ein von den Göttern selbst während der Zeit der Sorgen erschaffenes Artefakt.~
+@224  = ~Ich kann etwas von seiner Macht kanalisieren und sie für eine Weile zurückbringen.~
+@225  = ~Was hast du gesagt? ... Sie zurückbringen? Du meinst...~
+@226  = ~Wir sind nach Athkatla zurückgekehrt.~
+@227  = ~Ich nehme an, das, was wir gesehen haben, war... real...~
+@228  = ~Du hast recht. Ich glaube nicht, dass Mielikki allzu erfreut war, dass du seinen... kostbaren Hain betreten hast.~
+@229  = ~Warum hast du es getan, Danctian?~
+@230  = ~Ich denke, du weißt es genauso gut wie ich, Ardusk.~
+
+@231  = ~Schließlich sind unsere Seelen miteinander verbunden.~
+@232  = ~In gewisser Weise hast du diesen Weg eingeschlagen, um diesen Moment zu erreichen.~
+@233  = ~Celine zu sehen... auch wenn es nur ein letztes Mal ist.~
+@234  = ~...~
+@235  = ~Wie dem auch sei... Sie hat dir viel zum Nachdenken hinterlassen.~
+@236  = ~Auch jetzt nehme ich ihre Worte in deinem Geist wahr, wie jene Glocken, die dich als Kind zum Tempel von Tymora riefen.~
+@237  = ~Sie werden auch dann noch widerhallen, wenn du es schaffst, deine Reise mit <CHARNAME> zu beenden.~
+@238  = ~Hmpf... Warst du schon immer so redselig, Danctian? Ich hatte nicht bemerkt, wie nervig du bist.~
+@239  = ~Ich verstehe. Meine Entschuldigung, Ardusk.~
+@240  = ~Nun, die Zeit für die Belohnung ist gekommen, <CHARNAME>. Ich hoffe, das Gold sagt dir zu.~
+@241  = ~Gold ist immer willkommen, Danctian.~
+@242  = ~Es ist nicht nötig, Danctian. Wir haben einen guten Anteil erhalten, indem wir diese Vergessene Krypta zerstört haben.~
+@243  = ~Natürlich, diese vergilbten Metallstücke haben für mich keinen Wert. Sie gehören dir, <CHARNAME>.~
+@244  = ~75.000 Goldmünzen. Ich hoffe, es ist eine angemessene Summe.~
+@245  = ~Es ist eine gute Menge, Danctian. Wenn es nichts weiter gibt...~
+@246  = ~Es gibt noch etwas, Ardusk. Ich werde Ira mit deiner Erlaubnis nehmen.~
+@247  = ~Aber, was zum-?~
+@248  = ~Erinnerst du dich an das Symbol von Mellifleur von Anthagar? Hier ist es.~
+@249  = ~*Das Symbol färbt sich rötlich, während Danctians scharlachrote Augen unaufhörlich leuchten.*~
+@250  = ~*Nach ein paar Sekunden erhebt sich Ira, Dusks Schwert, und scheint mit dem Symbol von Mellifleur zu verschmelzen.*~
+@251  = ~Danctian, was hast du getan?~
+@252  = ~Nimm Ira zurück, Ardusk. Ich habe seine volle Macht mit den Überresten deiner Feinde erweckt.~
+@253  = ~Ich verstehe...~
+
+@254  = ~Ira Tenax. Die wahre Macht der scharlachroten Kugel.~
+@255  = ~In der Tat.~
+@256  = ~Ira Tenax ist der Höhepunkt deiner Reisen durch Amn. Du hättest es ohne <CHARNAME> nicht erreicht.~
+@257  = ~Das weiß ich, Danctian. Deshalb werde ich es führen... und <CHARNAME> helfen, Irenicus zu vernichten. Im Namen der Rache.~
+@258  = ~Das Pandämonium verlangt es so, und seine Stärke wird dich auf deiner Reise nach Suldanessellar begleiten. Denke auch daran, dass ich hier sein werde, falls du ein Artefakt schmieden lassen willst...~
+@259  = ~Es gibt nichts weiter, außer Irenicus.~
+@260  = ~Wenn du ihn aufhalten willst, musst du in die Elfenlande reisen, denn dort wird er seine letzten Pläne durchführen.~
+@261  = ~Wenn dir diese Ebene am Herzen liegt, musst du all deine Kraft aufwenden, um ihn aufzuhalten.~
+@262  = ~*Danctian mustert die Gruppe für einen Moment*~
+
+@484 = ~Ah, Schwarzgardist. Dein Pfad der Gewalt und Rache wird von den Prinzipien des Pandämoniums begrüßt. Ich schätze, die Nachtmesser-Handschuhe werden dir nützlich sein.~
+@485 = ~Sei versichert, Dämon.~
+
+@486 = ~Der Mönch der Sonnenseele... Ich kann mir nur vorstellen, wie sehr es dich anwidert, Hilfe von den Schatten zu erhalten. Aber Shar ist nicht mein Herr... Nein, nur das Chaos. Nimm diesen Trank des Lichts. Es wird mir eine Freude sein, ihn loszuwerden.~
+@487 = ~Ich vertraue dir nicht, Dämon. Aber wenn <CHARNAME> und Dusk dir vertrauen... Dann nehme ich es an. Wir werden später sehen, ob ich es benutze oder nicht...~
+
+@488 = ~Was für ein Wunder, deine wilden Zauber zu beobachten, Halbelf! Dieser Trank wird dir dienlich sein. Folge dem Pfad des Chaos.~
+@489 = ~Folge was? Ähm... na ja, danke, denke ich. Er hat ein sehr... eigenartiges Aroma.~
+
+@490 = ~Jemand wie du braucht nicht viel Hilfe, nicht wahr, Vampir? Doch dies könnte dir gefallen. Ich werde deinen Weg aus den Schatten beobachten.~
+@491 = ~Mach, was du willst, Danctian. Ich nehme, was du anbietest, da ich ein süßes Aroma und das Versprechen von Macht darin spüre.~
+
+@492 = ~Wilson, Kreatur der wilden Natur. Ich habe etwas für dich, das dir gefallen könnte. Ernähre dich und werde mächtiger als je zuvor.~
+@493 = ~(Knurren)~ [BBEAR09]
+@494 = ~Was meinst du mit "Ob ich mehr habe"? Das... ist alles, was ich habe, aber ich versichere dir, es wird deinen Hunger stillen.~
+@263 = ~(Stöhnen)~ [BBEAR04]
+
+@495 = ~Ah, die Herrin der Bestien. Halbelf, ich habe dies für dich: ein Artefakt, das von den Selu'taar selbst geschmiedet wurde. Ich hoffe, es wird dir nützlich sein.~
+@496 = ~D-Dank, Danctian. Ich weiß immer noch nicht, wie ich... über dich denken soll. Aber wenn Dusk und <CHARNAME> dir vertrauen, dann werde ich es auch tun.~
+
+@497 = ~*flüstert* Jetzt?~
+@498 = ~*flüstert* Hm... es ist ein unnatürliches Wesen... aber es scheint nicht ganz... unnatürlich zu sein... Warten wir noch einen Moment, mein guter Freund.~
+@499 = ~*flüstert* Acrull? Vielleicht sollten wir--~
+@500 = ~Ihr braucht euch um mich keine Sorgen zu machen, Kalischite. Ich versichere euch, ich bin weder ein Affront gegen die Natur noch eine Gefahr für euch.~
+@501 = ~Aber ich nehme an, du, Acrull Northshield, hast das bereits herausgefunden.~
+@502 = ~J-ja... Es stimmt. Hakamir, Mathyus und ihre Gefährten sind nicht... tot... Nicht so, wie wir es verstehen.~
+@503 = ~Willst du mir das erklären? Ich schaue gerade auf ihre verdammten Leichen!~
+@504 = ~Ja... Ich werde es später erklären... Für den Moment lasst uns weiter zuhören.~
+@505 = ~Weise von dir, Druide. Wie ich sagte, du kannst hierbleiben und deine Unternehmungen mit <CHARNAME> fortsetzen. Wenn du das tust, wird dein Ziel, Brost zu retten, immer näher rücken. Für den Moment werde ich mein Gespräch mit Ardusk und <CHARNAME> fortsetzen. Entschuldige mich.~
+@506 = ~Hast du das... für Macht getan? Du warst bereit, deine Freunde zu verraten... Dusk, wie konntest du nur?~
+@507 = ~Ich erwarte nicht, dass du es verstehst, Fall. Es waren entweder sie oder ich. Mathyus hatte bereits entschieden, mich zu töten, sobald Alabarza nicht mehr war.~
+@508 = ~Ich habe einfach gehandelt, bevor er es konnte.~
+@509 = ~Ich glaube nicht... Ich glaube nicht, dass du das Richtige getan hast.~
+@510 = ~Vielleicht wirst du es eines Tages verstehen, Fall.~
+@511 = ~Ich bezweifle es, Dusk... Ich bezweifle es wirklich...~
