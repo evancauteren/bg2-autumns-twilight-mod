@@ -8,14 +8,14 @@
 
 ## Features
 
-**NEW JOINABLE NPCS** Dusk, the Wizard Slayer, and Fall, the Beastmaster, plus 2 secret NPCs that will be revealed one week after the mod's release.
+**NEW JOINABLE NPCS:** Dusk, the Wizard Slayer, and Fall, the Beastmaster, plus 2 secret NPCs that will be revealed one week after the mod's release.
 
-**NEW CONTENT** Over 10 new quests for Shadow of Amn, more than 100 new items, 3 new vendors available, 7 new spells for mages, possibility to upgrade existing items, 6 new race-exclusive kits
+**NEW CONTENT:** Over 10 new quests for Shadow of Amn, more than 100 new items, 3 new vendors available, 7 new spells for mages, possibility to upgrade existing items, 6 new race-exclusive kits
 
-**NEW DUNGEON** Dreach-naga and Rachnidra are abyssal layers locked in an age-old war for access to the Material Plane. Can the Bhaalspawn's interference shift the tide of this conflict?
+**NEW DUNGEON:** Dreach-naga and Rachnidra are abyssal layers locked in an age-old war for access to the Material Plane. Can the Bhaalspawn's interference shift the tide of this conflict?
 Inspired by the settings of Icewind Dale, Planescape: Torment, and Pillars of Eternity, this new dungeon features both old and new animations not originally available in B2.
 
-**ENEMIES AND CHALLENGES** New enemies to face (4 of them on par with Demogorgon-level difficulty), ambient music for each new map, new battle music for each new map.
+**ENEMIES AND CHALLENGES:** New enemies to face (4 of them on par with Demogorgon-level difficulty), ambient music for each new map, new battle music for each new map.
 
 ## How to Install
 Get the latest version of the mod from the [Releases](https://github.com/evancauteren/bg2-autumns-twilight-mod/releases "Releases") page and install it according to your OS.
