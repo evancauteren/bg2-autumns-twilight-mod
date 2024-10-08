@@ -53,54 +53,55 @@ Copy the content of the ZIP file into you BG2 directory and:
 - Pablo Ramos: *Writer and Programmer*
 - Eduardo Van Cauteren: *Contributor*
 
-**Music:**
-Dusk Aldant - True Neutral: Secunda by Jeremy Soule (performed by Eileen)
-Dusk Aldant - Neutral Good: Harbinger of Spring by Adrian von Ziegler
-Dusk Aldant - Neutral Evil: Alone With My Thoughts by Esther Abrami
-Mathyus Davis's seek help: Moonfolk by Adrian von Ziegler
-Danctian Shadow Final Quest: Gnossienne No. 1 by Erik Satie (perfomed by Alena Cherny)
-The end of the conversations: Dreamseer by Adrian von Ziegler
-Mielikki's will: Ehsellyei by Gary Stadler with Stephannie
-Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)
-Rask'tar Marsh: Dungeon Town H5 composed by Paul Anthony Romero, with additional components by Rob King (lead sound designer)
-Rask'tar Marsh Battle: Dungeon Battle Theme H5 composed by Paul Anthony Romero, with additional components by Rob King (lead sound designer)
-Icelock Battle: Tower Battle Theme H5 composed by Paul Anthony Romero, with additional components by Rob King (lead sound designer)
-Gorm Battle: Haven Battle Theme H5 composed by Paul Anthony Romero, with additional components by Rob King (lead sound designer)
-Skel'Tharant Fight: Shield of Justice by Eternal Eclipse
-Dreach-naga Battle 1: Hyde by Jo Blankenburg
-Dreach-naga Battle 2: Argonaut by Jo Blankenburg
-Dreach-naga Battle 3: Czar by Jo Blankenburg
-Rachnidra Battle 1: Three Minutes by Kenji Kawai
-Rachnidra Battle 2: Showdown by Kenji Kawai
-Rachnidra Battle 3: Challenges by Kenji Kawai
-Enclave's Battle 1: Oathkeeper by Eternal Eclipse
-Enclave's Battle 2: Enigmatic by James Dooley
-Rachnidra Battle 1: Japanese Retake the Ridge by Rupert Gregson-Williams
-Tisiphone's Battle: Skirt by Kim TaeSung
-Morgrath's Final Battle: Blades of Justice by Jason Hayes, Mike Patti & Glenn Stafford
-Vidomina's Enclave: Elephant Man Main Theme, by John Morris
-Mathyus Hideout: The Star of the County Down by Cathal MacGarvey / The Gael by Dougie MacLean - Both perfomed by Roberto Colombo
-Fall Theme: Autumn is coming by Paul Anthony Romero
-Fall Spell Theme: Moonlit Wings by Derek Fietcher
-Kitochi's conversations: Rampart Theme by Paul Anthony Romero, with additional components by Rob King (perfomed by Adam Szwajcowski)
-Cho Theme: Titan's Stronghold by Paul Anthony Romero
-Alendir Theme: The Heavenly Forge (Main Theme) by Maciej Wróblewski
-Rachnidra/Dreach-naga Ambience Music:
-- De Vermis Mysteriis: Cthulhu Mythos Orchestral Horror Music by Graham Plowman
-- Lake Hali by Graham Plowman
-- The Birth of Wilbur by Graham Plowman
+**Music:**  
+- Dusk Aldant - True Neutral: Secunda by Jeremy Soule (performed by Eileen)  
+- Dusk Aldant - Neutral Good: Harbinger of Spring by Adrian von Ziegler  
+- Dusk Aldant - Neutral Evil: Alone With My Thoughts by Esther Abrami  
+- Mathyus Davis's seek help: Moonfolk by Adrian von Ziegler  
+- Danctian Shadow Final Quest: Gnossienne No. 1 by Erik Satie (perfomed by Alena Cherny)  
+- The end of the conversations: Dreamseer by Adrian von Ziegler  
+- Mielikki's will: Ehsellyei by Gary Stadler with Stephannie  
+- Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)  
+- Rask'tar Marsh: Dungeon Town H5 composed by Paul Anthony Romero, with additional components by Rob King (lead sound designer)  
+- Rask'tar Marsh Battle: Dungeon Battle Theme H5 composed by Paul Anthony Romero, with additional components by Rob King (lead sound designer)  
+- Icelock Battle: Tower Battle Theme H5 composed by Paul Anthony Romero, with additional components by Rob King (lead sound designer)  
+- Gorm Battle: Haven Battle Theme H5 composed by Paul Anthony Romero, with additional components by Rob King (lead sound designer)  
+- Skel'Tharant Fight: Shield of Justice by Eternal Eclipse  
+- Dreach-naga Battle 1: Hyde by Jo Blankenburg  
+- Dreach-naga Battle 2: Argonaut by Jo Blankenburg  
+- Dreach-naga Battle 3: Czar by Jo Blankenburg  
+- Rachnidra Battle 1: Three Minutes by Kenji Kawai  
+- Rachnidra Battle 2: Showdown by Kenji Kawai  
+- Rachnidra Battle 3: Challenges by Kenji Kawai  
+- Enclave's Battle 1: Oathkeeper by Eternal Eclipse  
+- Enclave's Battle 2: Enigmatic by James Dooley  
+- Rachnidra Battle 1: Japanese Retake the Ridge by Rupert Gregson-Williams  
+- Tisiphone's Battle: Skirt by Kim TaeSung  
+- Morgrath's Final Battle: Blades of Justice by Jason Hayes, Mike Patti & Glenn Stafford  
+- Vidomina's Enclave: Elephant Man Main Theme, by John Morris  
+- Mathyus Hideout: The Star of the County Down by Cathal MacGarvey / The Gael by Dougie MacLean - Both perfomed by Roberto Colombo  
+- Fall Theme: Autumn is coming by Paul Anthony Romero  
+- Fall Spell Theme: Moonlit Wings by Derek Fietcher  
+- Kitochi's conversations: Rampart Theme by Paul Anthony Romero, with additional components by Rob King (perfomed by Adam Szwajcowski)  
+- Cho Theme: Titan's Stronghold by Paul Anthony Romero  
+- Alendir Theme: The Heavenly Forge (Main Theme) by Maciej Wróblewski  
+- Rachnidra/Dreach-naga Ambience Music:  
+    * De Vermis Mysteriis: Cthulhu Mythos Orchestral Horror Music by Graham Plowman
+    * Lake Hali by Graham Plowman
+    * The Birth of Wilbur by Graham Plowman
 
-**New Animations:**
-Skel' Tharant by Wormhole
-The rest were made by EngVee
+**New Animations:**  
+- Skel' Tharant by Wormhole
+- The rest were made by EngVee
 
-**Voices:**
-Dusk by Nick
-Fall by Ivette
-Alendir/Cho'Nuja by Pol
-Michelson by Franquito Rinaldi
-Kitochi by Disha (my cat)
-Vidomina, Gemystara and Tisiphone by DrTrenchcoatcat
+**Voices:**  
+- Dusk by Nick  
+- Fall by Ivette  
+- Alendir/Cho'Nuja/Morgrath by Pol  
+- Mathyus/Danctian by Endarire  
+- Michelson by Franquito Rinaldi  
+- Kitochi by Disha (my cat)  
+- Vidomina, Gemystara and Tisiphone by DrTrenchcoatcat
 
 ## Legal Information
 
@@ -117,13 +118,12 @@ logo are trademarks of Interplay Entertainment Corp. All Rights Reserved.
 Exclusively licensed and distributed by Interplay Entertainment Corp. All other
 trademarks and copyrights are property of their respective owners.
 
-Dusk NPC MOD for Baldur's Gate II © 2024. Dusk is not
-Dusk NPC MOD for Baldur's Gate II © 2024. Dusk is not
+Autumns Twilight Mod for Baldur's Gate II © 2024. Autumns Twilight Mod is not
 developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay
 Entertainment Corp., or the Wizards of the Coast. All other trademarks and
 copyrights are property of their respective owners.
 
-Dusk NPC MOD Copyright (c) 2024 Pablo Alejandro Ramos
+Autumns Twilight Mod Copyright (c) 2024 Pablo Alejandro Ramos
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
