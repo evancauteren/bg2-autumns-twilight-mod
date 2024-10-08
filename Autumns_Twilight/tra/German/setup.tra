@@ -1766,6 +1766,9 @@ Besitzene Fähigkeiten:
 Rüstungswert: -2
 Gewicht: 4~
 
+@200386  = ~Hallo! Ich hoffe, es geht dir gut.~ [P_math10]
+@200387  = ~Was kann ich sagen? Ich bin ein charmante Elf.~ [P_math05]
+
 /////////////////////////////////////////////////
 /// DUSK /////
 /// MERGE ////
@@ -5691,6 +5694,13 @@ Anforderung: Stärke 3~
 @91037 = ~Dumme Kreatur! Gassthon, aktiviere die Falle. Die Eindringlinge werden hier und jetzt sterben. Lass Rask'tar Krathiss frei. Töte. Töte für deine Königin!~ [p_tisi13]
 @91038 = ~Ich bin die Königin von Dreach-naga!~ [p_tisi09]
 
+@91039   = ~Du wirst die Macht der Schatten des Pandemonium erleben!~ [p_danc25]
+@91040   = ~Sei auf der Hut!~ [p_danc16]
+@91041   = ~Endlich... frei...~ [p_danc01]
+@91042   = ~Was soll ich für dich schmieden?~ [p_danc13]
+@91043   = ~Du hast meinem Ruf geantwortet. Gut, gut...~ [p_danc14]
+
+
 // P_ALENGH
 @9110 = ~Kleines Caraneth... <CHARNAME>...~
 @9111 = ~Ich glaube nicht, dass ich den Verstand verloren habe... aber solltest du nicht tot sein?~
@@ -6251,6 +6261,17 @@ Tima: Cufa, denk daran, dass wir auf Diät sind. Hey, Fremder, es wäre besser, 
 @92416   = ~Nun, Sterblicher, es scheint, als würden wir eine Weile in diesem Tempel versteckt sein. Wenn du weiterhin meine Dienste benötigst, wirst du sie haben. Natürlich gegen einen kleinen Preis. Selbst ein Lich braucht etwas Reichtum.~
 @92417   = ~Xsi, wir brauchen Heilung.~
 @92418   = ~Bis bald, Sterblicher.~
+
+@92419   = ~Xsi, hast du ein mächtiges Artefakt zum Verkauf?~
+@92420   = ~Ich besitze meine mächtigen Runen der Universalität. 100.000 Goldstücke, Sterblicher. Nicht mehr, nicht weniger.~
+@92421   = ~Hunderttausend Goldstücke?! Lich, warum so viel?~
+@92422   = ~Gut, Xsi. Hier, nimm. Ich hoffe, sie sind es wert.~
+@92423   = ~Ich habe nicht so viel Gold, Lich.~
+@92424   = ~Du bist eine kluge Kreatur, trotz deines Aussehens. Du solltest inzwischen wissen, dass einige Artefakte nur bestimmten Klassen vorbehalten sind. Das heißt, es gibt Artefakte, die an bestimmte Wesen gebunden und auf ihren Gebrauch eingeschränkt sind. Meine Runen erweitern diese Begrenzung auf jeden, der sie liest.~
+@92425   = ~Wenn du den Anwendungsbereich solcher Artefakte erweitern möchtest, Sterblicher, sind meine Runen die Lösung. Wenn du diese Menge an Gold gesammelt hast, komm zu mir zurück. In der Zwischenzeit, wenn du etwas brauchst, sprich einfach mit mir.~
+@92426   = ~Bald wirst du sehen, dass das, was du getan hast, eine Investition ist, Sterblicher. Hier, nimm sie. Nutze die Runen weise.~
+@92427   = ~Die Runen der Universalität sind ihren Preis wert, Sterblicher. Wenn du diese Menge sammelst, zögere nicht, mich zu suchen.~
+
 
 // P_NIMBUS
 @9250    = ~Ah, sind das nicht die Sterblichen, die uns besiegt haben. Keine Sorge, ich habe kein Interesse an deinem Blut. Brauchst du etwas Ruhe?~
@@ -7303,9 +7324,9 @@ Doch am Ende konsumierte er seine Jugend und sein Leben.~
 @96874 = ~Was bedeutet das, Dusk? Sag mir nicht, dass sie dir gefolgt sind, seit bevor du in Athkatla angekommen bist.~
 
 // P_DANCT2
-@9690 = ~Ardusk, <CHARNAME>, ihr seid angekommen.~
+@9690 = ~Ardusk, <CHARNAME>, ihr seid angekommen.~ [p_danc22]
 @9691 = ~Es bleibt wenig Zeit... sie kommen...~
-@9692 = ~Ich werde hier im Schatten warten...~
+@9692 = ~Ich werde hier im Schatten warten...~ [p_danc23]
 @9693 = ~„Sie“, Danctian? Sprichst du von den Magiern der Vergessenen Krypta...~
 @9694 = ~Ja... es ist am besten, dass ihr euch vorbereitet.~
 @9695 = ~Grüße.~
@@ -7332,8 +7353,8 @@ Doch am Ende konsumierte er seine Jugend und sein Leben.~
 @96925 = ~Wir sind vorbereitet gekommen! Wir--~
 @96926 = ~Fürchte dich nicht, <CHARNAME>. Anthagar plante, uns zu töten, um Velsharoon in diese Ebene zurückzubringen.~
 @96927 = ~Ich weiß, Anthagar, Diener von Mellifleur. Deshalb... sind wir... auch vorbereitet gekommen...~
-@96928 = ~Die Repliken sind kampfbereit, Ardusk.~
-@96929 = ~Du wirst die Macht der Schatten von Pandemonium erleben...~
+@96928 = ~Die Repliken sind kampfbereit, Ardusk.~ [p_danc24]
+@96929 = ~Du wirst die Macht der Schatten von Pandemonium erleben...~ [p_danc25]
 @96930 = ~Nun, nun... am Ende werden wir die Rechnungen begleichen müssen, nicht wahr?~
 @96931 = ~Das ist richtig, <CHARNAME>. Es gibt keine andere Wahl...~
 @96932 = ~Gut gemacht, Danctian. Lass uns diesen elenden Kreaturen die Herzen herausreißen.~
@@ -7341,7 +7362,7 @@ Doch am Ende konsumierte er seine Jugend und sein Leben.~
 @96934 = ~*Lachen* Was ist los? Du scheinst überrascht.~
 @96935 = ~Hör nicht auf ihn, <CHARNAME>. Er wird versuchen, uns vor dem Kampf zu spalten.~
 @96936 = ~Oh, wirklich?~
-@96937 = ~Eine abyssale Kraft steht kurz davor, zu erscheinen. Wir müssen vorsichtig sein!~
+@96937 = ~Eine abyssale Kraft steht kurz davor, zu erscheinen. Wir müssen vorsichtig sein!~ [p_danc26]
 @96938 = ~*Der abyssale Dämon zeigt sein furchterregendes Maul und greift die Gruppe an*~
 @96939 = ~Menschen sind unzuverlässig, Anthagar... und dieser Cormyreaner ist keine Ausnahme.~
 // Dempit erscheint
@@ -7386,8 +7407,8 @@ Doch am Ende konsumierte er seine Jugend und sein Leben.~
 @96975 = ~Endlich... für diesen Anlass werde ich eine besondere Verwandlung nutzen... es wird etwas Einzigartiges sein...~
 @96976 = ~Machst du das aus Rache? Bring mich nicht zum Lachen... du bist der Einzige, der für den Tod deiner Frau verantwortlich ist... tief im Inneren weißt du es.~
 @96977 = ~Es ist nicht nur Rache, Anthagar... Es ist auch aus Vergnügen... Die Zeit, dir den Kopf abzureißen, ist gekommen. Bereite dich vor!~
-@96978 = ~Repliken... Angreifen!~
-@96979 = ~Endlich... ihr habt gesiegt.~
+@96978 = ~Repliken... Angreifen!~ [p_danc27]
+@96979 = ~Endlich... ihr habt gesiegt.~ [p_danc28]
 @96980 = ~*Seine scharlachroten Kugeln scheinen das Schlachtfeld nach Bedrohungen abzusuchen*~
 @96981 = ~Wahrlich, Danctian... Wir haben gewonnen!~
 @96982 = ~Ich spüre, dass Ardusk gefallen ist... leider habe ich nicht die Kraft, ihn ins Leben zurückzubringen. Wenn du es kannst, sei es so.~

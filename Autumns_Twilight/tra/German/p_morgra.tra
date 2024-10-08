@@ -1,12 +1,12 @@
-@0=~<CHARNAME>, endlich treffen wir uns...~
-@1=~Ich bin Morgrath, Königin von Rachnidra. Mein Einfluss hat begonnen, sich in Dreach-naga auszubreiten. Dies ist nur der Vorbote dessen, was du in der materiellen Ebene sehen wirst.~
+@0=~<CHARNAME>, endlich treffen wir uns...~ [p_morg01]
+@1=~Ich bin Morgrath, Königin von Rachnidra. Mein Einfluss hat begonnen, sich in Dreach-naga auszubreiten. Dies ist nur der Vorbote dessen, was du in der materiellen Ebene sehen wirst.~ [p_morg02]
 @2=~Morgrath... es war töricht von dir, dich mir zu zeigen. Bereite dich darauf vor, zu sterben!~
 @3=~Ungeheuer, was machst du hier? Ich habe viele deiner Art besiegt. Es ist nur eine Frage der Zeit, bis du schließlich besiegt wirst.~
-@4=~Du bist, wie du in meinen Träumen bist. Ein Wesen, wie ich, das eine Spur von Leichnamen hinterlassen hat. Wir sind uns nicht so unähnlich, <CHARNAME>.~
-@5=~Ich musste dich sehen. Wenige Kreaturen konnten meinen Träumen widerstehen. Du bist eine von ihnen.~
-@6=~Ja, du hast viele meiner Söhne und Töchter getötet. Was für eine Mutter wäre ich, wenn ich mich nicht um sie kümmern würde?~
-@7=~Diejenigen, die durch deine Hand gestorben sind, werden in meinem Reich, das ewig ist, wiederbelebt. Aber es schmerzt mich, sie zerstört zu sehen.~
-@8=~Deine Stärke wird von nun an mein Zeitvertreib sein, <CHARNAME>. Komm, es ist Zeit, dass du dich mir stellst.~
+@4=~Du bist, wie du in meinen Träumen bist. Ein Wesen, wie ich, das eine Spur von Leichnamen hinterlassen hat. Wir sind uns nicht so unähnlich, <CHARNAME>.~ [p_morg03]
+@5=~Ich musste dich sehen. Wenige Kreaturen konnten meinen Träumen widerstehen. Du bist eine von ihnen.~ [p_morg23]
+@6=~Ja, du hast viele meiner Söhne und Töchter getötet. Was für eine Mutter wäre ich, wenn ich mich nicht um sie kümmern würde?~ [p_morg04]
+@7=~Diejenigen, die durch deine Hand gestorben sind, werden in meinem Reich, das ewig ist, wiederbelebt. Aber es schmerzt mich, sie zerstört zu sehen.~ [p_morg05]
+@8=~Deine Stärke wird von nun an mein Zeitvertreib sein, <CHARNAME>. Komm, es ist Zeit, dass du dich mir stellst.~ [p_morg06]
 @9=~*ihre Augen wirken leblos*~
 @10=~Ah, ich sehe, du bist auch angekommen...~
 @11=~Du... bist Morgrath.~
@@ -35,13 +35,13 @@
 @34=~Dein Ruf eilt dir voraus. Aber das ist nicht meine volle Macht. Du wirst bemerken, wie mit jeder unserer Begegnungen meine Stärke zunimmt. Wir werden uns bald wiedersehen, <CHARNAME>. Sehr bald.~
 
 // 2nd Encounter
-@35=~Deine List ist unerreicht, <CHARNAME>.~
+@35=~Deine List ist unerreicht, <CHARNAME>.~ [p_morg07]
 @36=~Möchtest du mein Nachkomme sein? Unter meinem Joch wirst du niemals sterben.~
 @37=~Und was soll ich tun? Lass dich von mir in einen Drider verwandeln? Das wird niemals geschehen.~
 @38=~Ich mache keine Geschäfte mit Ungeheuern. Besonders nicht mit jemandem so böse wie dir.~
 @39=~Ich glaube, du hast Angst. In deiner Verzweiflung suchst du einen Ausweg bei mir, weil ich weiß, dass du weißt, dass ich deine Pläne stören kann.~
-@40=~Ich kenne keine Angst, <CHARNAME>. Und ich kenne keine Niederlage.~
-@41=~Es ist schade. Deine Weigerung lässt mir keine Wahl, als dich erneut zu bekämpfen.~
+@40=~Ich kenne keine Angst, <CHARNAME>. Und ich kenne keine Niederlage.~ [p_morg08]
+@41=~Es ist schade. Deine Weigerung lässt mir keine Wahl, als dich erneut zu bekämpfen.~ [p_morg09]
 @42=~Wäre es nur, du wärst als Spinne geboren...~
 @43=~Das gilt auch für dich, Tochter von Gemystara. Würdest du nicht in Betracht ziehen, meine Tochter zu werden? Ich könnte dich in einen Drider verwandeln. Deine Macht wäre die einer Halbgöttin. Gemeinsam würden wir Ebenen erobern. Unsere Feinde wären ein Festmahl, das wir in den Netzen von Rachnidra genießen würden.~
 @44=~Ich würde lieber tausend Mal sterben, als mit dir etwas zu tun zu haben, Morgrath.~
@@ -54,40 +54,40 @@
 @51=~Loyal sogar im Tod. Wie ich schon sagte, General: Inspirierend.~
 @52=~Aber genug. <CHARNAME> ist, was mich interessiert.~
 @53=~Aber genug von dir, Weib. <CHARNAME> ist, was mich interessiert.~
-@54=~Sehr gut. Deine Kampffähigkeit rivalisiert die meiner besten Soldaten. Ich hatte seit Jahrhunderten nicht mehr so viel Spaß. Wir werden uns bald wiedersehen, <CHARNAME>.~
+@54=~Sehr gut. Deine Kampffähigkeit rivalisiert die meiner besten Soldaten. Ich hatte seit Jahrhunderten nicht mehr so viel Spaß. Wir werden uns bald wiedersehen, <CHARNAME>.~ [p_morg10]
 @55=~Wage es nicht, von meiner Königin zu sprechen, Ungeheuer!~
 
 // 3. Begegnung
-@56=~Das wird zur Gewohnheit, oder? <CHARNAME>?~
+@56=~Das wird zur Gewohnheit, oder? <CHARNAME>?~ [p_morg11]
 @57=~Was hältst du von der Statue, die meine Kinder von mir gemacht haben? Ich finde, es war eine gute Idee, die Hoffnung der Echsenmenschen zu schmälern. Es hat perfekt funktioniert. Ich glaube, sie haben sich in der Größe geirrt. In dieser Hinsicht wird mir nicht gerecht.~
 @58=~Ich finde, es ist eine schreckliche Statue. Es ist schade, dass die Echsenmenschen es nicht geschafft haben, sie rechtzeitig abzureißen.~
 @59=~Das ist mir egal. Du bist wieder gekommen, um besiegt zu werden, nicht wahr? Komm, es ist Zeit zu bluten, Königin.~
-@60=~Und dennoch wird es das Signal meiner Macht in dieser Schicht des Abgrunds sein. Ein Symbol des Beginns meiner Herrschaft über die Ebenen, wo mein mächtiges Netz sich ausbreiten wird.~
-@61=~Genug geredet. Es ist Zeit für unseren Kampf.~
+@60=~Und dennoch wird es das Signal meiner Macht in dieser Schicht des Abgrunds sein. Ein Symbol des Beginns meiner Herrschaft über die Ebenen, wo mein mächtiges Netz sich ausbreiten wird.~ [p_morg12]
+@61=~Genug geredet. Es ist Zeit für unseren Kampf.~ [p_morg13]
 @62=~Es wird ein Zeugnis deines Falls sein, Morgrath. Vielleicht kann niemand es zerstören... aber es wird niemand mehr da sein, der es anbetet. Du wirst sterben. Alle deiner Art werden sterben.~
 @63=~Du bist das lebende Zeugnis von Dreach-naga, General Cho'Nuja. Der letzte deiner Linie. Der Beweis einer sterbenden Nation. Das werden wir sehen. Warte und sieh.~
-@64=~Ein kleiner Sieg für dich, <CHARNAME>. Denk daran, dass es nicht derjenige ist, der viele Schlachten gewinnt, der wichtig ist... sondern derjenige, der den Krieg gewinnt. Geh zur Enklave. Das Ende des Krieges naht...~
+@64=~Ein kleiner Sieg für dich, <CHARNAME>. Denk daran, dass es nicht derjenige ist, der viele Schlachten gewinnt, der wichtig ist... sondern derjenige, der den Krieg gewinnt. Geh zur Enklave. Das Ende des Krieges naht...~ [p_morg14]
 
 // FINAL BATTLE
 // POSIBILIDAD 1 -> CHO/FALL/VID
 
-@65=~Endlich... sie sind in mein Netz gefallen...~
-@66=~Fall und <CHARNAME>. Es war nur eine Frage der Zeit, bis unsere letzte Begegnung stattfand. Alles läuft nach meinen Plänen.~
+@65=~Endlich... sie sind in mein Netz gefallen...~ [p_morg15]
+@66=~Fall und <CHARNAME>. Es war nur eine Frage der Zeit, bis unsere letzte Begegnung stattfand. Alles läuft nach meinen Plänen.~ [p_morg18]
 @67=~Erwartest du, dass wir dir glauben, du wolltest das? Ich habe dich mehr als einmal besiegt. Ich weiß, dass du weißt, dass dein Ende nahe ist.~
 @68=~„Nach deinen Plänen“? Erklär dich, Morgrath.~
-@69=~Du bist ein Narr, wenn du denkst, du hättest das volle Ausmaß meiner Macht gesehen, <CHARNAME>. Bald wirst du meine Worte verstehen.~
-@70=~Dreach-naga existiert nicht mehr, und infolgedessen hat sich meine Macht erheblich erhöht. Nur die selu'taar Zauberin hat mein wahres Auftreten aus dieser Einöde verhindert.~
+@69=~Du bist ein Narr, wenn du denkst, du hättest das volle Ausmaß meiner Macht gesehen, <CHARNAME>. Bald wirst du meine Worte verstehen.~ [p_morg17]
+@70=~Dreach-naga existiert nicht mehr, und infolgedessen hat sich meine Macht erheblich erhöht. Nur die selu'taar Zauberin hat mein wahres Auftreten aus dieser Einöde verhindert.~ [p_morg19]
 @71=~„Wahres Auftreten“? Wovon redest du? Ich habe dich in Dreach-naga besiegt. Du schienst nicht gerade gefangen zu sein.~
 @72=~Obwohl die selu'taar mich eingesperrt hatten, konnte ich mich in Dreach-naga projizieren. Alles dank der Ermordung von Tisiphone. Etwas, das ich natürlich ohne dein Zutun nicht hätte erreichen können.~
 @73=~In Abwesenheit meiner Kinder war der logische Schritt, Dreach-naga zu zerstören. Etwas, das <CHARNAME> mit Macht und Anmut erreicht hat. Nichts davon wäre ohne dich möglich gewesen.~
 @74=~Nein, ich wusste nichts davon, Ungeheuer. Ich würde niemals jemandem deiner Art helfen.~
 @75=~Du musst mir nicht danken, Morgrath, denn bald wird dein Leichnam dein eigenes Versteck schmücken.~
 @76=~Dein Plan hat zu nichts geführt. Wenn du hier stirbst, wird es das Ende von allem sein.~
-@77=~Aber du hast es geschafft. Von dem Moment an, als du in Rachnidra tratst, wurdest du meine Puppe. Aber es ist Zeit, die Fäden zu durchtrennen. Es ist Zeit, die Rechnung zu begleichen. Wie ihr Sterblichen sagt: „Es ist Zeit, zu ernten, was wir gesät haben.“~
+@77=~Aber du hast es geschafft. Von dem Moment an, als du in Rachnidra tratst, wurdest du meine Puppe. Aber es ist Zeit, die Fäden zu durchtrennen. Es ist Zeit, die Rechnung zu begleichen. Wie ihr Sterblichen sagt: „Es ist Zeit, zu ernten, was wir gesät haben.“~ [p_morg20]
 @78=~Deine Drohungen sind bedeutungslos. Es ist Zeit, die Rechnung zu begleichen. Wie ihr Sterblichen sagt: „Es ist Zeit, zu ernten, was wir gesät haben.“~
 @79=~Das Ende wird nur der Anfang sein, <CHARNAME>. Es ist Zeit, die Rechnung zu begleichen. Wie ihr Sterblichen sagt: „Es ist Zeit, zu ernten, was wir gesät haben.“~
 @80=~Bist du bereit?~
-@81=~Mein Name ist Legion... denn wir sind viele...~
+@81=~Mein Name ist Legion... denn wir sind viele...~ [p_morg21]
 @82=~Mein Hamster, <CHARNAME>, Fall, und ich verteidigen die Natur! Böse Ungeheuer, die drohen, alles zu zerstören, was wir lieben, haben keinen Platz für Vergebung. Dir, Königin der Spinnen, präsentiere ich mein Schwert! Schwert, ich präsentiere dir die Königin der Spinnen!~
 @83=~Quayle hat mir viel über Mitgefühl beigebracht, ebenso über die Lehre von Baervan. Aber heute haben wir keine Wahl, als ohne Gnade zu kämpfen. Keine Gnade für die Dämonen, die Feinde des Lebens sind!~
 @84=~<CHARNAME>, Fall... Wir stehen vor einem der wichtigsten Kämpfe in diesen seltsamen Landen. Für Torm werde ich mein Leben geben, wenn es notwendig ist, um dieses Böse auszurotten!~
@@ -151,10 +151,10 @@
 @140=~Ich wusste, dass du hierher kommen würdest. Es war nur eine Frage der Zeit. Mein Sohn, Mesothel, hat mich über <CHARNAME>s Fortschritt in Faerûn informiert.~
 @141=~Deshalb habe ich beschlossen, meine Kinder aus dem Abyss zurückzuziehen und sie im Schatten zu verstecken. Ich wusste, dass die Enklavenhexe ihnen helfen würde, da ihr Wunsch, dem Abyss zu entkommen, mir ebenfalls zugutekam.~
 @142=~Morgrath!~
-@143=~Leben oder Tod, es gibt keine anderen Alternativen.~
+@143=~Leben oder Tod, es gibt keine anderen Alternativen.~ [p_morg22]
 @144=~Mutter, mach dir keine Sorgen: Ich werde dich retten. Morgrath! Die Zeit deines Falls ist gekommen. Im Namen von Imnescar und Vater Eiche. Im Namen der gefallenen Erforscher. Im Namen meines Vaters, Gerwulf! Deine böse Existenz endet hier. Zur Schlacht!~
 @145=~Nein, selu'taar. Ich kann nicht zerstört werden. Ich kann nicht sterben. Ich bin ewig. <CHARNAME> hat nicht die arkanen Kräfte, um mich aus dieser abyssalen Schicht zu vertreiben.~
-@146=~<CHARNAME>. Es war nur eine Frage der Zeit, bis unser endgültiges Aufeinandertreffen stattfand. Alles verläuft nach meinen Plänen.~
+@146=~<CHARNAME>. Es war nur eine Frage der Zeit, bis unser endgültiges Aufeinandertreffen stattfand. Alles verläuft nach meinen Plänen.~ [p_morg18]
 @147=~Kankra ist bereit, Mutter seine Liebe für sie zu zeigen.~
 @148=~Wie meine Mutter sagte: Leben oder Tod, es gibt keine anderen Alternativen.~
 @149=~Die Zerstörung von Dreach-naga war dir zu verdanken, <CHARNAME>. Wegen dir werde ich die Materielle Ebene erreichen... und die Zerstörung deiner Art wird unvermeidlich sein.~

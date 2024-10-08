@@ -1755,6 +1755,9 @@ Posiadane zdolności:
 Klasa Zbroi: -2
 Waga: 4~
 
+@200386  = ~Cześć! Mam nadzieję, że wszystko w porządku.~ [P_math10]
+@200387  = ~Co mogę powiedzieć? Jestem czarującym elfem.~ [P_math05]
+
 /////////////////////////////////////////////////
 /// DUSK /////
 /// MERGE ////
@@ -2312,147 +2315,149 @@ Czerwonego Czarodzieja, poziom 15.~
 
 // POCIÓN CAÓTICO MALIGNO **VER
 
-@400121 = ~Poción~
-@400122 = ~Brebaje Mágico: Caótico Maligno~
-@400123 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400124 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400121 = ~Mikstura~
+@400122 = ~Magiczny Napój: Chaotyczny Zły~
+@400123 = ~Mikstury zazwyczaj znajdują się w flakonach lub naczyniach z ceramiki, szkła lub metalu. Flakony lub inne pojemniki zawierają wystarczającą ilość płynu, aby dostarczyć osobie odpowiednią dawkę do uzyskania efektów eliksiru.~
+@400124 = ~Od wieków krążyły opowieści o dziwnych napojach, które zmieniały zachowanie konsumenta. Nic dziwnego, że za pomocą magicznych wpływów można stworzyć taki eliksir.
 
-STATISTICS:
+STATYSTYKI:
 
-Cambio de Alineamiento (permanente):
+Zmiana Charakteru (stała):
 
-- Caótico Maligno.
+- Chaotyczny Zły.
 
-Peso: 25 lbs.~
-@400125 = ~Alineamiento cambiado: Caótico Maligno~
+Waga: 25 lbs.~
+@400125 = ~Charakter zmieniony: Chaotyczny Zły~
 
-// POCIÓN NEUTRAL MALIGNO
+// MIKSTURA NEUTRALNY ZŁY
 
-@400126 = ~Poción~
-@400127 = ~Brebaje Mágico: Neutral Maligno~
-@400128 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400129 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400126 = ~Mikstura~
+@400127 = ~Magiczny Napój: Neutralny Zły~
+@400128 = ~Mikstury zazwyczaj znajdują się w flakonach lub naczyniach z ceramiki, szkła lub metalu. Flakony lub inne pojemniki zawierają wystarczającą ilość płynu, aby dostarczyć osobie odpowiednią dawkę do uzyskania efektów eliksiru.~
+@400129 = ~Od wieków krążyły opowieści o dziwnych napojach, które zmieniały zachowanie konsumenta. Nic dziwnego, że za pomocą magicznych wpływów można stworzyć taki eliksir.
 
-STATISTICS:
+STATYSTYKI:
 
-Cambio de Alineamiento (permanente):
+Zmiana Charakteru (stała):
 
-- Neutral Maligno.
+- Neutralny Zły.
 
-Peso: 25 lbs.~
-@400130 = ~Alineamiento cambiado: Neutral Maligno~
+Waga: 25 lbs.~
+@400130 = ~Charakter zmieniony: Neutralny Zły~
 
-// POCIÓN LEGAL MALIGNO **VER
+// MIKSTURA PRAWORZĄDNY ZŁY
 
-@400131 = ~Poción~
-@400132 = ~Brebaje Mágico: Legal Maligno~
-@400133 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400134 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400131 = ~Mikstura~
+@400132 = ~Magiczny Napój: Praworządny Zły~
+@400133 = ~Mikstury zazwyczaj znajdują się w flakonach lub naczyniach z ceramiki, szkła lub metalu. Flakony lub inne pojemniki zawierają wystarczającą ilość płynu, aby dostarczyć osobie odpowiednią dawkę do uzyskania efektów eliksiru.~
+@400134 = ~Od wieków krążyły opowieści o dziwnych napojach, które zmieniały zachowanie konsumenta. Nic dziwnego, że za pomocą magicznych wpływów można stworzyć taki eliksir.
 
-STATISTICS:
+STATYSTYKI:
 
-Cambio de Alineamiento (permanente):
+Zmiana Charakteru (stała):
 
-- Legal Maligno.
+- Praworządny Zły.
 
-Peso: 25 lbs.~
-@400135 = ~Alineamiento cambiado: Legal Maligno~
+Waga: 25 lbs.~
+@400135 = ~Charakter zmieniony: Praworządny Zły~
 
-// POCIÓN CAÓTICO NEUTRAL **VER
+// MIKSTURA CHAOTYCZNY NEUTRALNY
 
-@400136 = ~Poción~
-@400137 = ~Brebaje Mágico: Caótico Neutral~
-@400138 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400139 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400136 = ~Mikstura~
+@400137 = ~Magiczny Napój: Chaotyczny Neutralny~
+@400138 = ~Mikstury zazwyczaj znajdują się w flakonach lub naczyniach z ceramiki, szkła lub metalu. Flakony lub inne pojemniki zawierają wystarczającą ilość płynu, aby dostarczyć osobie odpowiednią dawkę do uzyskania efektów eliksiru.~
+@400139 = ~Od wieków krążyły opowieści o dziwnych napojach, które zmieniały zachowanie konsumenta. Nic dziwnego, że za pomocą magicznych wpływów można stworzyć taki eliksir.
 
-STATISTICS:
+STATYSTYKI:
 
-Cambio de Alineamiento (permanente):
+Zmiana Charakteru (stała):
 
-- Caótico Neutral.
+- Chaotyczny Neutralny.
 
-Peso: 25 lbs.~
-@400140 = ~Alineamiento cambiado: Caótico Neutral~
+Waga: 25 lbs.~
+@400140 = ~Charakter zmieniony: Chaotyczny Neutralny~
+
 
 // POCIÓN NEUTRAL AUTÉNTICO
 
-@400141 = ~Poción~
-@400142 = ~Brebaje Mágico: Neutral Auténtico~
-@400143 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400144 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400141 = ~Mikstura~
+@400142 = ~Magiczny Napój: Prawdziwy Neutralny~
+@400143 = ~Mikstury zazwyczaj znajdują się w flakonach lub naczyniach z ceramiki, szkła lub metalu. Flakony lub inne pojemniki zawierają wystarczającą ilość płynu, aby dostarczyć osobie odpowiednią dawkę do uzyskania efektów eliksiru.~
+@400144 = ~Od wieków krążyły opowieści o dziwnych napojach, które zmieniały zachowanie konsumenta. Nic dziwnego, że za pomocą magicznych wpływów można stworzyć taki eliksir.
 
-STATISTICS:
+STATYSTYKI:
 
-Cambio de Alineamiento (permanente):
+Zmiana Charakteru (stała):
 
-- Neutral Auténtico.
+- Prawdziwy Neutralny.
 
-Peso: 25 lbs.~
-@400145 = ~Alineamiento cambiado: Neutral Auténtico~
+Waga: 25 lbs.~
+@400145 = ~Charakter zmieniony: Prawdziwy Neutralny~
 
-// POCIÓN LEGAL NEUTRAL **VER
+// MIKSTURA PRAWORZĄDNY NEUTRALNY
 
-@400146 = ~Poción~
-@400147 = ~Brebaje Mágico: Legal Neutral~
-@400148 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400149 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400146 = ~Mikstura~
+@400147 = ~Magiczny Napój: Praworządny Neutralny~
+@400148 = ~Mikstury zazwyczaj znajdują się w flakonach lub naczyniach z ceramiki, szkła lub metalu. Flakony lub inne pojemniki zawierają wystarczającą ilość płynu, aby dostarczyć osobie odpowiednią dawkę do uzyskania efektów eliksiru.~
+@400149 = ~Od wieków krążyły opowieści o dziwnych napojach, które zmieniały zachowanie konsumenta. Nic dziwnego, że za pomocą magicznych wpływów można stworzyć taki eliksir.
 
-STATISTICS:
+STATYSTYKI:
 
-Cambio de Alineamiento (permanente):
+Zmiana Charakteru (stała):
 
-- Legal Neutral.
+- Praworządny Neutralny.
 
-Peso: 25 lbs.~
-@400150 = ~Alineamiento cambiado: Legal Neutral~
+Waga: 25 lbs.~
+@400150 = ~Charakter zmieniony: Praworządny Neutralny~
 
-// POCIÓN CAÓTICO BUENO **VER
+// MIKSTURA CHAOTYCZNY DOBRY
 
-@400151 = ~Poción~
-@400152 = ~Brebaje Mágico: Caótico Bueno~
-@400153 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400154 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400151 = ~Mikstura~
+@400152 = ~Magiczny Napój: Chaotyczny Dobry~
+@400153 = ~Mikstury zazwyczaj znajdują się w flakonach lub naczyniach z ceramiki, szkła lub metalu. Flakony lub inne pojemniki zawierają wystarczającą ilość płynu, aby dostarczyć osobie odpowiednią dawkę do uzyskania efektów eliksiru.~
+@400154 = ~Od wieków krążyły opowieści o dziwnych napojach, które zmieniały zachowanie konsumenta. Nic dziwnego, że za pomocą magicznych wpływów można stworzyć taki eliksir.
 
-STATISTICS:
+STATYSTYKI:
 
-Cambio de Alineamiento (permanente):
+Zmiana Charakteru (stała):
 
-- Caótico Bueno.
+- Chaotyczny Dobry.
 
-Peso: 25 lbs.~
-@400155 = ~Alineamiento cambiado: Caótico Bueno~
+Waga: 25 lbs.~
+@400155 = ~Charakter zmieniony: Chaotyczny Dobry~
 
-// POCIÓN NEUTRAL BUENO
+// MIKSTURA NEUTRALNY DOBRY
 
-@400156 = ~Poción~
-@400157 = ~Brebaje Mágico: Neutral Bueno~
-@400158 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400159 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400156 = ~Mikstura~
+@400157 = ~Magiczny Napój: Neutralny Dobry~
+@400158 = ~Mikstury zazwyczaj znajdują się w flakonach lub naczyniach z ceramiki, szkła lub metalu. Flakony lub inne pojemniki zawierają wystarczającą ilość płynu, aby dostarczyć osobie odpowiednią dawkę do uzyskania efektów eliksiru.~
+@400159 = ~Od wieków krążyły opowieści o dziwnych napojach, które zmieniały zachowanie konsumenta. Nic dziwnego, że za pomocą magicznych wpływów można stworzyć taki eliksir.
 
-STATISTICS:
+STATYSTYKI:
 
-Cambio de Alineamiento (permanente):
+Zmiana Charakteru (stała):
 
-- Neutral Bueno.
+- Neutralny Dobry.
 
-Peso: 25 lbs.~
-@400160 = ~Alineamiento cambiado: Neutral Bueno~
+Waga: 25 lbs.~
+@400160 = ~Charakter zmieniony: Neutralny Dobry~
 
-// POCIÓN LEGAL BUENO **VER
+// MIKSTURA PRAWORZĄDNY DOBRY
 
-@400161 = ~Poción~
-@400162 = ~Brebaje Mágico: Legal Bueno~
-@400163 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400164 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400161 = ~Mikstura~
+@400162 = ~Magiczny Napój: Praworządny Dobry~
+@400163 = ~Mikstury zazwyczaj znajdują się w flakonach lub naczyniach z ceramiki, szkła lub metalu. Flakony lub inne pojemniki zawierają wystarczającą ilość płynu, aby dostarczyć osobie odpowiednią dawkę do uzyskania efektów eliksiru.~
+@400164 = ~Od wieków krążyły opowieści o dziwnych napojach, które zmieniały zachowanie konsumenta. Nic dziwnego, że za pomocą magicznych wpływów można stworzyć taki eliksir.
 
-STATISTICS:
+STATYSTYKI:
 
-Cambio de Alineamiento (permanente):
+Zmiana Charakteru (stała):
 
-- Legal Bueno.
+- Praworządny Dobry.
 
-Peso: 25 lbs.~
-@400165 = ~Alineamiento cambiado: Legal Bueno~
+Waga: 25 lbs.~
+@400165 = ~Charakter zmieniony: Praworządny Dobry~
+
 
 // POCIÓN DE RASHEMEN
 @400167 = ~Raszemański Eliksir Mądrości~
@@ -5673,6 +5678,12 @@ Potężny elf Shilmisty."~
 @91037   = ~Głupie stworzenie! Gassthon, aktywuj pułapkę. Intruzi umrą tutaj i teraz. Uwolnij Rask'tara Krathissa. Zabij. Zabij dla swojej Królowej!~ [p_tisi13]
 @91038   = ~Jestem Królową Dreach-Naga!~ [p_tisi09]
 
+@91039   = ~Będziesz świadkiem mocy cieni Pandemonium!~ [p_danc25]
+@91040   = ~Bądź czujny!~ [p_danc16]
+@91041   = ~W końcu... wolny...~ [p_danc01]
+@91042   = ~Co mam dla ciebie stworzyć?~ [p_danc13]
+@91043   = ~Odpowiedziałeś na moje wezwanie. Dobrze, dobrze...~ [p_danc14]
+
 
 
 // P_ALENGH
@@ -6230,6 +6241,17 @@ Tima: Cufa, pamiętaj, że jesteśmy na diecie. Hej, nieznajomy, lepiej porozmaw
 @92416 = ~Cóż, śmiertelniku, wygląda na to, że będziemy ukryci w tej świątyni przez jakiś czas. Jeśli nadal potrzebujesz moich usług, będziesz je miał. Oczywiście za niewielką cenę. Nawet lich potrzebuje trochę bogactwa.~
 @92417 = ~Xsi, potrzebujemy uzdrowienia.~
 @92418 = ~Do zobaczenia wkrótce, śmiertelniku.~
+
+@92419   = ~Xsi, masz na sprzedaż jakiś potężny artefakt?~
+@92420   = ~Posiadam moje potężne Runy Uniwersalności. 100.000 sztuk złota, śmiertelniku. Ani więcej, ani mniej.~
+@92421   = ~Sto tysięcy sztuk złota?! Liczu, dlaczego aż tyle?~
+@92422   = ~Dobrze, Xsi. Oto one. Mam nadzieję, że są tego warte.~
+@92423   = ~Nie mam takiej ilości złota, liczu.~
+@92424   = ~Jesteś bystrą istotą, mimo swojego wyglądu. Powinieneś wiedzieć już, że niektóre artefakty są ograniczone do określonych klas. To znaczy, że są artefakty związane, ograniczone w swoim użyciu do pewnych typów istot. Moje runy rozszerzają te ograniczenia na każdego, kto je przeczyta.~
+@92425   = ~Jeśli chcesz rozszerzyć zakres użycia takich artefaktów, śmiertelniku, moje Runy są odpowiedzią. Gdy zbierzesz tę ilość złota, wróć do mnie. W międzyczasie, jeśli czegoś potrzebujesz, porozmawiaj ze mną.~
+@92426   = ~Wkrótce przekonasz się, że to, co zrobiłeś, to inwestycja, śmiertelniku. Oto one. Używaj Run mądrze.~
+@92427   = ~Runy Uniwersalności są warte swojej ceny, śmiertelniku. Jeśli zbierzesz tę ilość, nie wahaj się mnie szukać.~
+
 
 // P_NIMBUS
 @9250 = ~Ah, jeśli to nie są śmiertelnicy, którzy nas pokonali. Nie martwcie się, nie interesuje mnie wasza krew. Potrzebujecie trochę odpoczynku?~
@@ -7256,9 +7278,9 @@ Ale w końcu pochłonął swoją młodość i życie.~
 @96874 = ~Co to znaczy, Dusk? Nie mów mi, że śledzą cię od momentu przybycia do Athkatla.~
 
 // P_DANCT2
-@9690 = ~Ardusk, <CHARNAME>, przybyliście.~
+@9690 = ~Ardusk, <CHARNAME>, przybyliście.~ [p_danc22]
 @9691 = ~Nie ma dużo czasu... oni nadchodzą...~
-@9692 = ~Będę tu czekał... w cieniach...~
+@9692 = ~Będę tu czekał... w cieniach...~ [p_danc23]
 @9693 = ~"Oni", Danctian? Czy mówisz o magach z Zapomnianej Krypti...~
 @9694 = ~Tak... najlepiej, żebyście się przygotowali.~
 @9695 = ~Witajcie.~
@@ -7285,8 +7307,8 @@ Ale w końcu pochłonął swoją młodość i życie.~
 @96925 = ~Przybyliśmy przygotowani! My--~
 @96926 = ~Nie bój się, <CHARNAME>. Anthagar planował nas zabić, aby przywrócić Velsharoona do tego planu.~
 @96927 = ~Wiem, Anthagar, sługo Mellifleur. Dlatego... również przybyliśmy przygotowani...~
-@96928 = ~Repliki są gotowe do walki, Ardusk.~
-@96929 = ~Będziesz świadkiem mocy cieni Pandemonium...~
+@96928 = ~Repliki są gotowe do walki, Ardusk.~ [p_danc24]
+@96929 = ~Będziesz świadkiem mocy cieni Pandemonium...~ [p_danc25]
 @96930 = ~Cóż, cóż... na końcu musimy rozliczyć się, prawda?~
 @96931 = ~To prawda, <CHARNAME>. Nie ma innego wyjścia...~
 @96932 = ~Dobra robota, Danctian. Rozedrzyjmy serca tych nieszczęsnych stworzeń.~
@@ -7295,7 +7317,7 @@ Ale w końcu pochłonął swoją młodość i życie.~
 @96934 = ~*śmiech* Co jest nie tak? Wydajesz się zaskoczony.~
 @96935 = ~Nie słuchaj go, <CHARNAME>. Spróbuje nas rozdzielić przed walką.~
 @96936 = ~O, naprawdę?~
-@96937 = ~Przed nami pojawi się siła otchłani, musimy być ostrożni!~
+@96937 = ~Przed nami pojawi się siła otchłani, musimy być ostrożni!~ [p_danc26]
 @96938 = ~*Demon otchłani pokazuje swoje przerażające szczęki, atakując grupę*~
 @96939 = ~Ludziom nie można ufać, Anthagar... i ten Cormyrean nie jest wyjątkiem.~
 // Dempit pojawia się
@@ -7340,8 +7362,8 @@ Ale w końcu pochłonął swoją młodość i życie.~
 @96976 = ~Robisz to dla zemsty? Nie sprawiaj, że się śmieję... to ty jesteś jedynym odpowiedzialnym za śmierć twojej żony... w głębi serca, wiesz o tym.~
 
 @96977 = ~To nie tylko zemsta, Anthagar... To także przyjemność... Nadszedł czas, aby oderwać ci głowę. Przygotuj się!~
-@96978 = ~Repliki... Naprzód!~
-@96979 = ~W końcu... triumfujesz.~
+@96978 = ~Repliki... Naprzód!~ [p_danc27]
+@96979 = ~W końcu... triumfujesz.~ [p_danc28]
 @96980 = ~*Jego szkarłatne orby wydają się skanować pole bitwy w poszukiwaniu zagrożeń*~
 @96981 = ~Rzeczywiście, Danctian... Wygraliśmy!~
 @96982 = ~Czuję, że Ardusk upadł... niestety, nie mam mocy, by go ożywić. Jeśli możesz to zrobić, niech tak będzie.~

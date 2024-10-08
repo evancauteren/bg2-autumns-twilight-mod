@@ -1569,7 +1569,10 @@ Tirada de salvación: Ninguna
 DESCRIPCIÓN:
 
 El Maestro de la Escarcha es capaz de abrir una conexión hacia el Plano de los Hielos y llamar a un poderoso aliado que luche a su lado. En este caso, el mago llamará a un poderoso Cazador Troll de las Nieves. El mismo seguirá las órdenes del hechicero hasta que muera y sea devuelto a su Plano o el tiempo de convocación expire (8 horas).~
+
+
 @200361  = ~Troll de las Nieves Cazador~
+
 @200362  = ~Túnica del Selu'taar~
 @200363  = ~Esta es la túnica personal de Alendir, el Maestro de la Escarcha. La misma fue confeccionada en las tierras élficas de Evereska e imbuida por poderosa magia de Cormanthyr. Pese a ser liviana, ofrece una defensa física excepcional, al tiempo en que permite al lanzador de conjuros ser más efectivo en el arte de la magia. Si bien Alendir permite que decidas que use otras túnicas en vez de esta, dice que sería insensato de tu parte que optaras por dicha opción (aunque se repite a sí mismo en voz baja que eso no le sorprendería en lo más absoluto).
 Sólo Alendir puede usarla.
@@ -1736,11 +1739,9 @@ Aptitudes poseídas:
 
 Clase de Armadura: -2
 Peso: 4~
-@200386  = ~~
-@200387  = ~~
-@200388  = ~~
-@200389  = ~~
 
+@200386  = ~¡Saludos! Espero que todo vaya bien.~ [P_math10]
+@200387  = ~¿Qué puedo decir? Soy un elfo encantador.~ [P_math05]
 
 /////////////////////////////////////////////////
 /// DUSK /////
@@ -2286,7 +2287,6 @@ Peso: 25 lbs.~
 
 // ORBE DE LA TORMENTA
 
-@400110 = ~Gema~
 @400111 = ~Orbe de la Tormenta~
 @400112 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
 @400113 = ~Rara vez se encuentran fragmentos estelares, resultados de grandiosas tormentas del firmamento. Ante ti se encuentra una especie de gema cristalizada, la cual emana un poder extraordinario. Hasta donde puedes ver, sólo un experimentado druida nórdico es capaz de comprender su poder.
@@ -4786,11 +4786,6 @@ Talento marcial: Lanza
 Tipo: una mano~
 
 
-@400465 = ~~
-@400466 = ~~
-@400467 = ~~
-@400468 = ~~
-@400469 = ~~
 
 
 // CHO Nuja
@@ -4834,7 +4829,7 @@ Tipo: una mano~
 @600036  = ~Grrr... ¡Mi encantamiento!~
 @600037  = ~Tu muerte no será en vano.~ [p_chon42]
 @600038  = ~Cuando preguntas por su pasado, CHO'NUJA narra con orgullo de su procedencia en Dreach-naga, una de las capas del Abismo. Se crio en los Pantanos de Rask'tar Krathiss, la hydra campeona de la Reina Tisiphone. Durante décadas entrenó a los ejércitos de Dreach-naga y sirvió a su Reina, hasta que ésta le traicionó e intentó ejecutar cuando derrotaste a sus comandantes. Ahora, con el Abismo moribundo debido a la invasión de Morgrath, Cho intenta ajustarse a la vida de la superficie en el Plano Material. Si bien es un hombre-lagarto, no es un hombre-lagarto ordinario. Ha aprendido el Lenguaje Común e incluso enseñado el mismo a muchos de sus capitanes. Se interesa mucho por la vida de la gente en Faerûn, lo cual es extraño. Pretende acompañarte como un fiel guerrero y luchar a tu lado hasta las últimas consecuencias.~
-@600039  = ~~
+
 @600040  = ~...~
 
 @600041  = ~No... ¡<CHARNAME>! ¿Cómo has podido? En honor... en honor a mis principios, debo derrotarte por lo que has hecho. ¡Pagarás por lo que has hecho!~
@@ -5199,7 +5194,6 @@ Requisito: Fuerza 3~
 @600106  = ~Maldición de Liphix~
 @600107  = ~Este extraño talismán no puede ser removido de tu inventario. Percibes un gran poder y una gran maldad en él, casi como si estuviera maldito. Decides dejarlo en paz ya que puede ser peligroso jugar con él.~
 @600108  = ~La maldición de Liphix ha desaparecido.~
-@600109  = ~~
 
 
 // Alendir
@@ -5249,11 +5243,6 @@ Requisito: Fuerza 3~
 @700042  = ~¡Caraneth! No... ¡Pagarán por esto! ¡Sientan la furia del Maestro de la Escarcha!~
 @700043  = ~¡Fall! N-no puede ser... ¡¡¡Morirán por esto!!!~
 @700044  = ~No puede ser. ¡Dusk ha muerto! No... ¡no se saldrán con la suya!~
-@700045  = ~~
-@700046  = ~~
-@700047  = ~~
-@700048  = ~~
-@700049  = ~~
 
 // Aunar diálogos nuevos/parches
 // Bellfame interaction
@@ -5926,6 +5915,13 @@ El poderoso elfo de Shilmista."~
 @91037  = ~¡Criatura estúpida! Gassthon, activa la trampa. Los intrusos morirán aquí y ahora. Liberad a Rask'tar Krathiss. Matad. ¡Matad por vuestra Reina!~ [p_tisi13]
 @91038  = ~¡Yo soy la Reina de Dreach-naga!~ [p_tisi09]
 
+@91039   = ~¡Serás testigo del poder de las sombras del Pandemonio!~ [p_danc25]
+@91040   = ~¡Mantente alerta!~ [p_danc16]
+@91041   = ~Libre... al fin...~ [p_danc01]
+@91042   = ~¿Qué debo forjar para ti?~ [p_danc13]
+@91043   = ~Has respondido a mi llamada. Bien, bien...~ [p_danc14]
+
+
 // P_ALENGH
 @9110    = ~Pequeña Caraneth... <CHARNAME>...~
 @9111    = ~No creo haber perdido la cordura... pero, ¿no se supone que estás muerto?~
@@ -6209,7 +6205,6 @@ El poderoso elfo de Shilmista."~
 // p_valata
 //EVIL
 @9170 = ~Vaya, vaya... Capitán, esperaba una bienvenida más cálida... después de todo, te has hecho más poderoso gracias a nosotros...~
-@9171 = ~~
 @9172 = ~Supongo que te refieres al orbe escarlata de Sornhil.~
 @9173 = ~Quizás deba agradecerles, mago. ¿Qué te parece tu corazón empalado en mi espada como símbolo de agradecimiento?~
 @9174 = ~(risa) No sé si esa actitud se deba al orbe o a tu extensa compañía junto a un engendro de Bhaal.~
@@ -6517,11 +6512,19 @@ Tima: Cufa, recuerda que estamos a dieta. Oye, forastera, será mejor que hables
 @92417   = ~Xsi, necesitamos curación.~
 @92418   = ~Hasta pronto, mortal.~
 
+@92419   = ~Xsi, ¿tienes algún artefacto poderoso a la venta?~
+@92420   = ~Poseo mis poderosas Runas de Universalidad. 100.000 piezas de oro, mortal. Ni más, ni menos.~
+@92421   = ~¡¿Cien mil piezas de oro?! Liche, ¿por qué tanto?~
+@92422   = ~De acuerdo, Xsi. Aquí tienes. Espero que valgan la pena.~
+@92423   = ~No tengo esa cantidad de oro, liche.~
+@92424   = ~Eres una criatura perspicaz, pese a tu aspecto. Sabrás, a estas alturas, que hay artefactos que se limitan a ciertas clases. Es decir, que hay artefactos que están atados, restringidos de su uso hacia ciertos tipos de criaturas. Mis runas se encargan de expandir eso a quien las lea.~
+@92425   = ~Si quieres ampliar el rango de uso en dichos artefactos, mortal, mis Runas son la respuesta. Cuando logres juntar esa cantidad de oro, vuelve a mí. Mientras tanto, si necesitas algo, sólo habla conmigo.~
+@92426   = ~En poco tiempo verás que lo que has hecho es una inversión, mortal. Aquí tienes. Usa las Runas sabiamente.~
+@92427   = ~Las Runas de Universalidad valen su precio, mortal. Si juntas esa cantidad, no dudes en buscarme.~
 
 // P_NIMBUS
 
 @9250    = ~Ah, si son los mortales que nos derrotaron. Descuiden, su sangre no me apetece. ¿Necesitan descanso?~ 
-@9251    = ~~
 @9252    = ~Vampiro, necesitamos descansar.~
 @9253    = ~Será un placer. Prepararé sus aposentos. Tobias cuidará sus cosas.~
 
@@ -7577,16 +7580,15 @@ Por favor, permíteme acompañarte.~
 @96867 = ~Incluso dispones de la alianza de un hijo de Bhaal. Si contamos con su ayuda, podremos-~ ~Incluso dispones de la alianza de una hija de Bhaal. Si contamos con su ayuda, podremos-~
 @96868 = ~Por ahora dejemos a <CHARNAME> de lado, nigromante.~
 @96869 = ~Vayamos al grano: quieres conocer al Demonio Sombrío del Pandemonium, ¿no es así?~
-@96870 = ~~
 @96871 = ~Así es, capitán... Supongo que puedes comandar que aparezca de las Sombras, ¿sí?~
 @96872 = ~*sonríe* Danctian tiene voluntad propia, Anthagar... Así lo he querido.~
 @96873 = ~N-no... no comprendo...~
 @96874 = ~¿Qué significa esto, Dusk? No me digas que te siguen desde antes que llegases a Athkatla.~
 
 // P_DANCT2
-@9690 = ~Ardusk, <CHARNAME>, han llegado.~
+@9690 = ~Ardusk, <CHARNAME>, han llegado.~ [p_danc22]
 @9691 = ~Falta poco tiempo... ellos están llegando...~
-@9692 = ~Yo estaré aquí esperando... en las sombras...~
+@9692 = ~Yo estaré aquí esperando... en las sombras...~ [p_danc23]
 @9693 = ~¿Ellos, Danctian? Te refieres a los magos de la Cripta Olvidada...~
 @9694 = ~Así es... es mejor que os preparen.~
 @9695 = ~Saludos.~
@@ -7612,8 +7614,8 @@ Por favor, permíteme acompañarte.~
 @96925 = ~¡Vinimos preparados! Nosotros--~
 @96926 = ~No temas, <CHARNAME>. Anthagar planeaba asesinarnos con el objetivo de traer a Velsharún de regreso a este plano.~
 @96927 = ~Lo sé, Anthagar, servidor de Mellifleur. Es por eso que... nosotros... también vinimos preparados...~
-@96928 = ~Las réplicas están listas para el combate, Ardusk.~
-@96929 = ~Serán testigos del poder de las sombras del Pandemonium...~
+@96928 = ~Las réplicas están listas para el combate, Ardusk.~ [p_danc24]
+@96929 = ~Serán testigos del poder de las sombras del Pandemonium...~ [p_danc25]
 @96930 = ~Vaya, vaya... al fin y al cabo, tendremos que ajustar cuentas, ¿verdad?~
 @96931 = ~Así es, <CHARNAME>. No queda otra opción...~
 @96932 = ~Buen trabajo, Danctian. Arranquemos los corazones de estos desgraciados.~
@@ -7621,7 +7623,7 @@ Por favor, permíteme acompañarte.~
 @96934 = ~*risa maligna* ¿Qué pasa? Pareces sorprendido.~
 @96935 = ~No lo escuches, <CHARNAME>. Intentará fragmentarnos antes del combate.~
 @96936 = ~¿Ah, sí?~
-@96937 = ~Una fuerza abisal está por aparecer, ¡debemos tener cuidado!~
+@96937 = ~Una fuerza abisal está por aparecer, ¡debemos tener cuidado!~ [p_danc26]
 @96938 = ~*El demonio abisal muestra sus temibles fauces, lanzándose al ataque del grupo*~
 @96939 = ~Los humanos no son de confiar, Anthagar... y este cormyreano no es la excepción.~
 // Aparece dempit
@@ -7664,8 +7666,8 @@ Por favor, permíteme acompañarte.~
 @96975 = ~Finalmente... para esta ocasión acudiré a una transformación especial... será algo único...~
 @96976 = ~¿Haces esto por venganza? No me hagas reír... el único responsable de la muerte de tu esposa has sido tú... en el fondo lo sabes.~
 @96977 = ~No sólo es venganza, Anthagar... También es por placer... El momento de arrancar tu cabeza ha llegado. ¡Prepárate!~
-@96978 = ~Réplicas... ¡A la carga!~
-@96979 = ~Finalmente... han triunfado.~
+@96978 = ~Réplicas... ¡A la carga!~ [p_danc27]
+@96979 = ~Finalmente... han triunfado.~ [p_danc28]
 @96980 = ~*Sus orbes escarlata parecen examinar el campo de batalla en busca de amenazas*~
 @96981 = ~Así es, Danctian... ¡Hemos vencido!~
 @96982 = ~Percibo que Ardusk ha caído... lamentablemente no tengo el poder de traerlo a la vida. Si tú puedes hacerlo, que así sea.~
@@ -8071,9 +8073,6 @@ un ratón enamorado, eterno enamorador.'~
 @973104   = ~Será mejor que despabiles, soldado... Aún te encuentras rodeado y superado en número. Mis guerreros se harán un festín con tus huesos.~
 @973105  = ~Capitán... prepárate... ¡Iré a por ti!~
 @973106  = ~Oh, Dusk... tú sí que sabes hacer amistades, ¿eh? Vamos, que os ayudaré a enfrentar a estos monstruos.~
-@973107  = ~~
-@973108  = ~~
-@973109  = ~~
 
 // P_MESO
 @9740    = ~*chirrido* Ah, finalmente ha aparecido: La hija selu'taar y el Engendro de Bhaal.~ ~*chirrido* Ah, finalmente ha aparecido: La hija selu'taar y la Engendro de Bhaal.~
@@ -8357,115 +8356,6 @@ un ratón enamorado, eterno enamorador.'~
 @976100 = ~Viajeros estar en cuevas de las arañas... Os diría que andéis con cuidado, pero Phillipe llevar días sin ver araña alguna. Extraño, muy extraño.~
 @976101 = ~¡<CHARNAME>, derrotar a Skel'Tharant! Phillipe... sorprendido. <CHARNAME> tener poder increíble.~
 
-// P_PHILLI
-@9760    = ~*grito ahogado* ¿Q-qué? Más primarios llegan a las cuevas... Phillipe estar sorprendido.~
-@9761    = ~¡Sí! Humana de orejas puntiagudas estar en cuevas de las arañas... Os diría que andéis con cuidado, pero Phillipe llevar días sin ver araña alguna. Extraño, muy extraño.~
-@9762    = ~Phillipe preguntarse: ¿en qué poder ayudar? Justo terminaba de cenar. ¿Queréis?~
-@9763    = ~Saludos, Phillipe. Soy <CHARNAME>. ¿Cómo nos puedes servir de ayuda aquí en Rachnidra? Más importante aún: ¿cómo es que las arañas aún no te han devorado?~
-@9764    = ~Escucha, rata, no me fío de ti. Primero porque pareciera ser que nos estabas esperando. Segundo, porque estás comiendo carne, posiblemente humana. Creo que debería acabar contigo, sólo por si las dudas.~
-@9765    = ~Phillipe. Soy <CHARNAME>. ¿Nos encontramos realmente en Rachnidra? No veo que el lugar esté plagado de arácnidos. ¿Qué significa esto?~
-@9766    = ~Por Candelero... todos esos cadáveres a nuestra izquierda... ¿qué ha pasado aquí? ¿Has sido tú? Quizás no seas tan inofensivo como aparentas.~
-@9767    = ~Dinos lo que sepas de este lugar, engendro, de Rachnidra. Y hazlo con cuidado. Tengo mi arma y planeo usarla al menor indicio de traición.~
-@9768    = ~Phillipe conoce bien los rincones de las cuevas arácnidas. Phillipe ha escapado del monstruo gigante que devora humanos... aunque... Phillipe no pudo salvar a su familia.~
-@9769    = ~¡No, por favor! Phillipe no ser malvado... sólo comer porque tener hambre... sólo comer carne de ganado... No comer humanos... no es carne humana, lo prometo...~
-@97610   = ~Phillipe no sabe qué ser Rachnidra... pero comprender que estas tierras pertenecen a las arañas y a los lagartos. Lagartos librar guerra contra las arañas. Aunque eso no explicar por qué no haber arañas en cuevas.~
-@97611   = ~¡No, por favor! Phillipe no ser malvado... Phillipe no traicionar. Phillipe estar sólo, muy sólo. ¡Diré lo que sé!~
-@97612   = ~P-por favor, perdonar vida a Phillipe. Phillipe ayudar, ser buen amigo.~
-@97613   = ~Hm. No, monstruo. No me fío de ti. ¡Es hora de tu muerte!~
-@97614   = ~De acuerdo, de acuerdo. Dinos lo que sepas de Rachnidra entonces.~
-@97615   = ~¡NO!¡Noooo!~
-@97616   = ~Ustedes... ustedes venir a luchar en la guerra, ¿no es así?~
-@97617   = ~A decir verdad no esperaba entrar en territorio bélico, pero si hay una batalla, no la rehuiré. ¿Puedes servirnos de guía en este lugar?~
-@97618   = ~Así es, Phillipe. Somos soldados. Somos guerreros. Matar es nuestro destino.~
-@97619   = ~Lo que hagamos aquí no es asunto vuestro, pequeño. Sólo necesitamos que nos indiques hacia dónde ir.~
-@97620   = ~De ser posible preferiría no interferir. Las guerras sólo traen caos y destrucción.~
-@97621   = ~Phillipe indicar camino, pero no acompañarlos... Phillipe creer que ustedes ser amigos, pero Phillipe ser muy cobarde. P-puedo ayudarlos diciéndoles hacia dónde ir.~
-@97622   = ~Creo comprender. Pensar como Phillipe. Phillipe ayudar.~
-@97623   = ~Phillip no ser soldado... no poder comprender necesidad de matar. Sólo querer vivir.~
-@97624   = ~Phillipe indicar camino, pero no acompañarlos... Phillipe creer que ustedes ser amigos, pero Phillipe ser muy cobarde. P-puedo ayudarlos diciéndoles hacia dónde ir.~
-@97625   = ~Haber varios conductos que llevar a diferentes lugares. Pero advertir que sólo podrán cruzar por uno.~
-@97626   = ~Phillipe no saber cómo entrar, pero puede que ELLA lo sepa.~
-@97627   = ~¿Ella? Phillipe, ¿a quién te refieres?~
-@97628   = ~Llegarán a ella a través de las cuevas del Norte. Sí, Norte.~
-@97629   = ~Gracias, Phillipe. ¿Tú qué harás mientras tanto?~
-@97630  = ~Gracias por la información. Ya no te necesito. Creo que será mejor matarte ya que si te atrapa el enemigo, puedes llegar a revelar mis planes...~
-@97631  = ~Si logras llegar a tierras de lagarto, busca mi refugio. Allí podrás descansar si querer. ¡Amigos son bienvenidos! Ahora, me despido. Andar con cuidado. Trampas arañas y trampas mágicas por todos lados.~
-@97632  = ~Phillipe referirse a la hechicera. Es muy poderosa, pero puede que sepa cómo ingresar al recinto de la Reina o de su campeón.~
-@97633  = ~Phillipe... esta hechicera. ¿Usa túnicas como yo?~
-@97634  = ~¿Túnicas? Phillipe no entender del todo... pero la Dama del Enclave usa ropas y joyas brillantes...~
-@97635  = ~Sólo la vi una vez. Para llegar a su Enclave tener que luchar contra sus guardias... Dan mucho miedo.~
-@97636  = ~Puede que sea madre, <CHARNAME>. Deberíamos ir allí primero.~
-@97637  = ~Cuevas suroccidentales llevar a recinto de Skel'Tharant... criatura... criatura que devoró familia de Phillipe.~
-@97638  = ~Skel'Tharant ser el campeón de la Reina de las Arañas... poderoso guerrero... ha devorado a incontables humanos que han llegado a las cuevas. Aventureros, magos... nadie se ha salvado. Sólo... sólo Phillipe.~
-@97639  = ~No poder entrar a recinto a menos que puedas disolver la oscuridad... pero Phillipe no saber cómo hacerlo.~
-@97640  = ~Luego estar la cueva oriental... Ir allí es peligroso, muy peligroso. Además, no se puede entrar en ella. Es el recinto de la Reina Araña. De allí provienen sus hijos e hijas, sus guerreros y comandantes.~
-@97641  = ~¿Lagartos? Creí que este era el dominio de las arañas. ¿Por qué se encuentran en guerra dichas criaturas?~
-@97642  = ~Phillipe no tener seguridad del por qué, pero creer que ser por una cuestión de territorio. Reina de los Lagartos odiar a Reina de las Arañas... Entonces, llevar a cabo guerra sangrienta.~
-@97643  = ~No soy una humana, soy una semielfa, pequeño.~
-@97644  = ~¿Una qué? Phillipe estar confundido.~
-@97645  = ~*resoplido* No importa.~
-
-@97646  = ~¡Ah! Amigos de Phillipe llegar a refugio de Phillipe. ¡Qué emoción! Tener cuidado en hogar de los lagartos. No ser tan peligrosos como arañas pero ser peligrosos a fin de cuentas.~
-@97647  = ~Gracias por tu bienvenida, Phillipe. ¿Así que este es tu... hogar?~
-@97648  = ~No tengo tiempo para esto. Adiós, Phillipe.~
-@97649  = ~¡Volver a visitar a Phillipe pronto! Phillipe disfrutar tu compañía.~
-@97650  = ~Refugio abandonado ser hogar de Phillipe, sí. Bueno... no tan hogar. Estar sólo no sé si considerar hogar. Phillipe ya no tiene hermanos. Ni compañía.~
-@97651  = ~¡Poder descansar aquí! No hay muchos lugares en donde poder descansar en este país. Energías chamánicas disturban sueños. No poder dormir. Aquí sí poder dormir.~
-@97652  = ~Comprendo. No te gusta estar sólo, ¿verdad?~
-@97653  = ~Gracias, Phillipe. Pero ahora debo irme. Nos vemos luego.~
-@97654  = ~No. Phillipe no gusta estar sólo. Ser amigo tuyo ser la única felicidad en los últimos meses de Phillipe. Phillipe ya no estar tan triste.~
-@97655  = ~Ojalá tú poder quedar conmigo. Seríamos buenos hermanos.~
-@97656  = ~Hay otro lugar que también es seguro. El Enclave de Vidomina.~
-@97657  = ~Lo pensaré, Phillipe. Ahora debo irme. Hablamos después.~
-@97658  = ~¿Vido...mina? Tú referirte a hechicera muerta, ¿sí? Phillipe pensar que ella odiar a Phillipe.~
-@97659  = ~Phillipe no creer que ella permita a Phillipe vivir en su Enclave.~
-@97660  = ~Puedo hablar con ella si lo deseas. Lo creas o no, creo que ella sabe quién eres. No creo que tenga problemas en alojarte en su Enclave.~
-@97661  = ~Puede que tengas razón, pequeño. Bueno, debo irme. Hablaremos luego, ¿sí?~
-@97662  = ~¿Harías... harías eso por Phillipe? De acuerdo. Phillipe esperar aquí por tu respuesta, mi buen amigo.~ ~¿Harías... harías eso por Phillipe? De acuerdo. Phillipe esperar aquí por tu respuesta, mi buena amiga.~
-
-@97663  = ~¡Ah! Amigos de Phillipe llegar de nuevo. ¿Cómo ir? Phillipe estar emocionado.~
-@97664  = ~Vidomina quiere que vivas en su Enclave. Allí estarás seguro. Me ha dado este talismán para ti. Con él podrás entrar a su recinto.~
-@97665  = ~Aún necesito hablar con Vidomina, Phillipe. Aguarda aquí.~
-@97666  = ~Sólo pasaba a saludar, Phillipe. Ahora debo irme.~
-@97667  = ~¿De verdad? ¡Oh, qué día tan feliz! Phillipe promete no tener miedo de los muertos. O al menos de estos muertos. Espero que tú, mi buen amigo, visitar a Phillipe, ¿sí?~ ~¿De verdad? ¡Oh, qué día tan feliz! Phillipe promete no tener miedo de los muertos. O al menos de estos muertos. Espero que tú, mi buena amiga, visitar a Phillipe, ¿sí?~ 
-@97668  = ~¡Oh, buenas noticias, buenas noticias! Phillipe esperar aquí entonces. ¡Phillipe emocionado!~
-
-@97669  = ~¡Amigo! Lady Vidomina y sus amigos me han recibido de buena manera. Aquí voy a estar a salvo. Phillipe sentir que ganar nueva familia. Gracias, gracias, gracias.~ ~¡Amiga! Lady Vidomina y sus amigos me han recibido de buena manera. Aquí voy a estar a salvo. Phillipe sentir que ganar nueva familia. Gracias, gracias, gracias.~
-@97670  = ~¡Amigo! Phillipe estar muy contento en casa de Lady Vidomina. Tratar a Phillipe bien.~ ~¡Amiga! Phillipe estar muy contento en casa de Lady Vidomina. Tratar a Phillipe bien.~
-@97671  = ~Phillipe querer agradecer a amigo. Phillipe entregar extraño artefacto que Phillipe encontrar en sus viajes. No parecer mucho pero esperar que gustar a mi buen amigo.~ ~Phillipe querer agradecer a amigo. Phillipe entregar extraño artefacto que Phillipe encontrar en sus viajes. No parecer mucho pero esperar que gustar a mi buena amiga.~
-
-@97672  = ~<CHARNAME>... ¿e-es verdad lo que oí?~
-@97673  = ~¿Vais... vais a enfrentar a Skel'Tharant?~
-@97674  = ~Aún no lo he decidido, Phillipe. Pero teniendo en cuenta lo que Vidomina nos ha dicho, es muy probable que ese enfrentamiento sea inevitable.~
-@97675  = ~Tengo pensado matarlo antes de mi enfrentamiento final contra Morgrath. ¿Por qué lo preguntas, pequeño amigo?~
-@97676  = ~¡No! Por favor, no hacerlo. Skel'Tharant matar familia de Phillipe. No querer que matar a ti también. No hacerlo. La bestia... no puede ser matada. Phillipe ver incontable cantidad de valientes guerreros intentarlo... todos ser devorados por Skel'Tharant.~
-@97677  = ~¿Phillipe? *nervioso* ¿Q-qué puede hacer Phillipe para ayudar?~
-@97678  = ~¡N-no! No... Phillipe no poder hacerlo... Phillipe tener miedo... Skel'Tharant...~
-@97679  = ~Phillipe, ¡no seas cobarde! Más te vale que estés dispuesto a ayudarnos. He hecho mucho por ti y espero algo a cambio.~
-@97680  = ~Phillipe, no te preocupes. No le temo a Skel'Tharant. Tengo la certeza de que podré vencerle aún sin ese aceite mágico.~
-@97681  = ~Phillipe, entiendo que tengas miedo. Yo también lo tendría. Pero, ¿acaso Skel'Tharant no mató a tu familia? ¿No fueron tus hermanos asesinados por esa bestia a la que tanto temes?~
-@97682  = ~¡N-no! *tiembla* Por favor... Phillipe no poder hacerlo...~
-@97683  = ~G-gracias por entender a Phillipe, buen amigo. P-perdón por ser tan cobarde...~
-@97684  = ~<CHARNAME>, Phillipe lamentar no poder ayudar. P-perdón...~
-@97685  = ~Ser verdad... ser verdad. Skel'Tharant... matar familia. Phillipe tener oportunidad de venganza.~
-@97686  = ~Ayúdame, Phillipe. Juntos haremos pagar a Skel'Tharant por lo que le hizo a tu familia.~
-@97687  = ~Sí... ¡Sí! Phillipe ayudar a <CHARNAME>. Phillipe ayudar a Lady Vidomina.~
-@97688  = ~¡Phillipe ayudar a <CHARNAME> en su lucha contra Skel'Tharant!~
-
-@97689  = ~¡No! ¡Skel'Tharant no matará a <CHARNAME>!~
-@97690  = ~Y-yo... yo...~
-@97691  = ~¡Phillipe! Dame el aceite, yo me encargaré del resto.~
-@97692  = ~¡Phillipe! ¡Huye! No podrás sobrepasar al monstruo. Yo puedo derrotarlo sin el aceite.~
-@97693  = ~¡No! Skel'Tharant equivocarse. Phillipe no tener miedo. ¡Phillipe vengar a sus hermanos!~
-
-@97694  = ~¡<CHARNAME> matar Skel'Tharant! Phillipe no poder creer. <CHARNAME> ser tan poderoso como un dios. Phillipe estar siempre agradecido con <CHARNAME> por haber vengado a sus hermanos. ¡Gratitud, gratitud!~
-@97695  = ~Phillipe... ¡Phillipe estar vivo! ¿O no...? Recordar luchar contra Skel'Tharant...~
-@97696  = ~Oh, Phillipe estar feliz. ¡Ya no estamos en Abismo! Este lugar ser más hermoso que Rachnidra, eso seguro. <CHARNAME>, Phillipe alegrarse de ver amigo con vida.~
-@97697  = ~También me alegra verte con vida, Phillipe.~
-@97698  = ~Visitar a Phillipe y sus amigos cuando quieras, <CHARNAME>. <CHARNAME> siempre ser amigo de Phillipe.~
-@97699  = ~¡Phillipe estar en Faerûn! No salir a superficie pero disfrutar de las cloacas. Ser lugar mucho más pintoresco que Rachnidra.~
-@976100 = ~Viajeros estar en cuevas de las arañas... Os diría que andéis con cuidado, pero Phillipe llevar días sin ver araña alguna. Extraño, muy extraño.~
-@976101 = ~¡<CHARNAME>, derrotar a Skel'Tharant! Phillipe... sorprendido. <CHARNAME> tener poder increíble.~
 
 // P_BCHO25 y P_BCHON
 @9770    = ~Pequeña cría, ¿por qué me observas tanto?~
@@ -9213,10 +9103,6 @@ Demoledor ha aparecido para contactarnos, trayendo consigo una nota escrita por 
 
 Hemos llegado a la guarida de Mathyus y nos ha comentado la situación actual. En efecto, el orbe que Anthagar entregó a Mathyus y Michelson se encuentra en poder de los shilmistas y no es más que un puente al lugar de enfrentamiento final. Contaremos con la ayuda de Mathyus y Demoledor. No tenemos más que hablar con el elfo cuando estemos listos para partir.~
 
-@210045 = ~Dusk Aldant: La Orden de Magos
-
-El orbe aciago de Anthagar nos ha traído a un extraño paraje. No parece que estemos en ningún lugar conocido del plano material, sino más bien en una especie de bolsa arcana de la que no podremos escapar hasta enfrentarnos a la Cripta Olvidada. No tenemos señales de Mathyus o Demoledor. Espero que lleguen a tiempo para el combate.~
-
 @210043 = ~Dusk Aldant: La Orden de Magos
 
 Hemos llegado a la guarida de Danctian. Nos ha informado que Anthagar, el Nigromante, ha hecho contacto con él. Lo extraño es que Dusk parecía estar al tanto de esto. Puede que Danctian y él estén hablando en la distancia, ya que parecen estar conectados de alguna manera. De todas formas, ha informado que la Cripta Olvidada planea una masacre en Faerûn con el objeto de ganar inmortalidad. Pero para ello requieren de mí y de Dusk. Cuando estemos listos para tal encuentro, no tenemos más que hablar con Danctian y pedirle que nos "lleve".~
@@ -9225,9 +9111,11 @@ Hemos llegado a la guarida de Danctian. Nos ha informado que Anthagar, el Nigrom
 
 El orbe aciago de Anthagar nos ha traído a un extraño paraje. No parece que estemos en ningún lugar conocido del plano material, sino más bien en una especie de bolsa arcana de la que no podremos escapar hasta encontrarnos con la Cripta Olvidada. Deberíamos explorar un poco, pero no sin antes prepararnos para cualquier eventualidad...~
 
+
 @210045 = ~Dusk Aldant: La Orden de Magos
 
-El orbe aciago de Anthagar nos ha traído a un extraño lugar. No parece que estemos en ningún lugar conocido del plano material, sino más bien en una especie de bolsa arcana de la que no podremos escapar hasta enfrentarnos a la Cripta Olvidada. No tenemos señales de Mathyus o Demoledor. Espero que lleguen a tiempo para el combate.~
+El orbe aciago de Anthagar nos ha traído a un extraño paraje. No parece que estemos en ningún lugar conocido del plano material, sino más bien en una especie de bolsa arcana de la que no podremos escapar hasta enfrentarnos a la Cripta Olvidada. No tenemos señales de Mathyus o Demoledor. Espero que lleguen a tiempo para el combate.~
+
 
 
 // FINAL MISSION GOOD PATH

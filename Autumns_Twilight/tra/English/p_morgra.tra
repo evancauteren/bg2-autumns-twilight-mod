@@ -1,12 +1,12 @@
-@0=~<CHARNAME>, at last we meet...~
-@1=~I am Morgrath, Queen of Rachnidra. My influence has begun to spread in Dreach-naga. This is just the precursor to what you will see in the Material Plane.~
+@0=~<CHARNAME>, at last we meet...~ [p_morg01]
+@1=~I am Morgrath, Queen of Rachnidra. My influence has begun to spread in Dreach-naga. This is just the precursor to what you will see in the Material Plane.~ [p_morg02]
 @2=~Morgrath... you were foolish to present yourself to me. Prepare to die!~
 @3=~Monster, what are you doing here? I have defeated many of your kind. It is only a matter of time before you are finally defeated.~
-@4=~You are as you are in my dreams. A being, like me, who has left a trail of corpses in their wake. We are not so different, <CHARNAME>.~
-@5=~I needed to see you. Few creatures have been able to oppose my dreams. You are one of them.~
-@6=~Yes, you have slain many of my sons and daughters. What kind of mother would I be if I did not care about them?~
-@7=~Those who have died by your hand will be revived in my Realm, which is eternal. But it pains me to see them destroyed.~
-@8=~Your strength will be my entertainment from now on, <CHARNAME>. Come, it's time for you to face me.~
+@4=~You are as you are in my dreams. A being, like me, who has left a trail of corpses in their wake. We are not so different, <CHARNAME>.~ [p_morg03]
+@5=~I needed to see you. Few creatures have been able to oppose my dreams. You are one of them.~ [p_morg23]
+@6=~Yes, you have slain many of my sons and daughters. What kind of mother would I be if I did not care about them?~ [p_morg04]
+@7=~Those who have died by your hand will be revived in my Realm, which is eternal. But it pains me to see them destroyed.~ [p_morg05]
+@8=~Your strength will be my entertainment from now on, <CHARNAME>. Come, it's time for you to face me.~ [p_morg06]
 @9=~*her eyes seem lifeless*~
 @10=~Ah, I see you have arrived as well...~
 @11=~You... are Morgrath.~
@@ -36,13 +36,13 @@
 
 
 // 2nd Encounter
-@35=~Your cunning is unmatched, <CHARNAME>.~
+@35=~Your cunning is unmatched, <CHARNAME>.~ [p_morg07]
 @36=~Would you like to be of my progeny? Under my yoke, you will never die.~
 @37=~And what am I supposed to do? Allow you to turn me into a drider? That will never happen.~
 @38=~I do not make deals with monsters. Especially not with someone as evil as you.~
 @39=~I think you are afraid. In your desperation, you seek an escape with me, because I know you know I can interfere with your plans.~
-@40=~I do not know fear, <CHARNAME>. And I do not know defeat.~
-@41=~It is a pity. Your refusal leaves me no choice but to fight you once again.~
+@40=~I do not know fear, <CHARNAME>. And I do not know defeat.~ [p_morg08]
+@41=~It is a pity. Your refusal leaves me no choice but to fight you once again.~ [p_morg09]
 @42=~If only you had been born a spider...~
 @43=~That also goes for you, daughter of Gemystara. Would you not consider being my daughter? I could transform you into a drider. Your power would be that of a demigoddess. Together, we would conquer planes. Our enemies would be a feast we would enjoy in the Webs of Rachnidra.~
 @44=~I would rather die a thousand times than have anything to do with you, Morgrath.~
@@ -55,41 +55,41 @@
 @51=~Loyal even in death. As I said before, General: Inspiring.~
 @52=~But enough. <CHARNAME> is who interests me.~
 @53=~But enough with you, female. <CHARNAME> is who interests me.~
-@54=~Very well. Your fighting ability rivals my best soldiers. I haven't had this much fun in centuries. We will meet again soon, <CHARNAME>.~
+@54=~Very well. Your fighting ability rivals my best soldiers. I haven't had this much fun in centuries. We will meet again soon, <CHARNAME>.~ [p_morg10]
 @55=~Do not dare speak of my Queen, monster!~
 
 // 3rd Encounter
-@56=~This is becoming a habit, don't you think, <CHARNAME>?~
+@56=~This is becoming a habit, don't you think, <CHARNAME>?~ [p_morg11]
 @57=~What do you think of the statue my children have made of me? I think it was a good idea to diminish the hope of the lizardfolk. It has worked perfectly. I think they erred in its size. In that respect, it does not do me justice.~
 @58=~I think it is a horrible statue. It is a shame the lizardfolk did not manage to demolish it in time.~
 @59=~I do not care. You have come again to be defeated, haven't you? Come, it's time to bleed, Queen.~
-@60=~And yet it will be the beacon of my power in this layer of the Abyss. A symbol of the beginning of my Reign over the planes where my mighty web will extend.~
-@61=~Enough talk. It is time for our battle.~
+@60=~And yet it will be the beacon of my power in this layer of the Abyss. A symbol of the beginning of my Reign over the planes where my mighty web will extend.~ [p_morg12]
+@61=~Enough talk. It is time for our battle.~ [p_morg13]
 @62=~It will be a testament to your downfall, Morgrath. Perhaps no one will be able to bring it down... but there will be no one left to worship it. You will die. All of your kind will die.~
 @63=~You are the living testament to Dreach-naga, General Cho'Nuja. The last of your line. The proof of a dying nation. We will get to that. Wait and see.~
-@64=~A small victory for you, <CHARNAME>. Remember that it is not the one who wins many battles that is important... but the one who wins the war. Go to the Enclave. The end of the war is approaching...~
+@64=~A small victory for you, <CHARNAME>. Remember that it is not the one who wins many battles that is important... but the one who wins the war. Go to the Enclave. The end of the war is approaching...~ [p_morg14]
 
 
 // FINAL BATTLE
 // POSIBILIDAD 1 -> CHO/FALL/VID
 
-@65=~Finally... they have fallen into my web...~
-@66=~Fall and <CHARNAME>. It was only a matter of time before our final encounter occurred. Everything is going according to my plans.~
+@65=~Finally... you have fallen into my web...~ [p_morg15]
+@66=~Fall and <CHARNAME>. It was only a matter of time before our final encounter occurred. Everything is going according to my plans.~ [p_morg18]
 @67=~Do you expect us to believe you wanted this? I have defeated you more than once. I know you know your end is near.~
 @68=~"According to your plans"? Explain yourself, Morgrath.~
-@69=~You are a fool if you think you have seen the full extent of my power, <CHARNAME>. Soon you will understand my words.~
-@70=~Dreach-naga no longer exists, and as a result, my power has increased significantly. Only the selu'taar sorceress was preventing my true emergence from this wasteland.~
+@69=~You are a fool if you think you have seen the full extent of my power, <CHARNAME>. Soon you will understand my words.~ [p_morg17]
+@70=~Dreach-naga no longer exists, and as a result, my power has increased significantly. Only the selu'taar sorceress was preventing my true emergence from this wasteland.~ [p_morg19]
 @71=~"True emergence"? What are you talking about? I defeated you in Dreach-naga. You didn't exactly seem trapped.~
 @72=~Although the selu'taar had me confined, I was able to project myself into Dreach-naga. All thanks to the assassination of Tisiphone. Something I could not have achieved without your involvement, of course.~
 @73=~In the absence of my children, the logical step was to destroy Dreach-naga. Something <CHARNAME> achieved with power and grace. None of this would have been possible without you.~
 @74=~No, I didn't know any of this, monster. I would never aid someone of your ilk.~
 @75=~You don't have to thank me, Morgrath, since soon your corpse will adorn your own Lair.~
 @76=~Your plan has amounted to nothing. If you die here, it will be the end of everything.~
-@77=~But you have done it. From the moment you stepped into Rachnidra, you became my puppet. But it is time to cut the strings. It is time to settle the score. As you mortals say: "It's time to reap what we have sown."~
+@77=~But you have done it. From the moment you stepped into Rachnidra, you became my puppet. But it is time to cut the strings. It is time to settle the score. As you mortals say: "It's time to reap what we have sown."~ [p_morg20]
 @78=~Your threats are inconsequential. It is time to settle the score. As you mortals say: "It's time to reap what we have sown."~
 @79=~The end will only be the beginning, <CHARNAME>. It is time to settle the score. As you mortals say: "It's time to reap what we have sown."~
 @80=~Are you ready?~
-@81=~My name is Legion... because we are many...~
+@81=~My name is Legion... because we are many...~ [p_morg21]
 @82=~My hamster, <CHARNAME>, Fall, and I defend Nature! Evil monsters threatening to destroy all we love have no place for forgiveness. You, Queen of Spiders, I present to you my sword! Sword, I present to you the Queen of Spiders!~
 @83=~Quayle has taught me much about compassion, as well as the dogma of Baervan. But today we have no choice but to fight without quarter. No mercy for the demons that are enemies of life!~
 @84=~<CHARNAME>, Fall... We are facing one of the most important battles in these strange lands. For Torm, I will give my life if necessary to eradicate this evil!~
@@ -157,10 +157,10 @@
 @140=~I knew you would get here. It was a matter of time. My son, Mesothel, has been informing me of <CHARNAME>'s progress across Faerûn.~
 @141=~That's why I decided to withdraw my children from the Abyss, hiding them in the shadows. I knew that the Enclave Witch would help them, as her desire to escape the Abyss was also used to my advantage.~
 @142=~Morgrath!~
-@143=~Life or death, there are no other alternatives.~
+@143=~Life or death, there are no other alternatives.~ [p_morg22]
 @144=~Mother, don't worry: I will save you. Morgrath! The time of your downfall has come. In the name of Imnescar and Father Oak. In the name of the fallen explorers. In the name of my father, Gerwulf! Your wicked existence ends here. To battle!~
 @145=~No, selu'taar. I cannot be destroyed. I cannot die. I am eternal. <CHARNAME> does not have the arcane power to expel me from this abyssal layer.~
-@146=~<CHARNAME>. It was only a matter of time before our final encounter occurred. Everything is going according to my plans.~
+@146=~<CHARNAME>. It was only a matter of time before our final encounter occurred. Everything is going according to my plans.~ [p_morg18]
 @147=~Kankra is ready to show Mother his love for her.~
 @148=~As my mother said: Life or death, there are no other alternatives.~
 @149=~The destruction of Dreach-naga was thanks to you, <CHARNAME>. It is because of you that I will reach the Material Plane... and the destruction of your kind will be inevitable.~

@@ -52,6 +52,11 @@ LANGUAGE ~English~ ~English~ ~Autumns_Twilight/tra/English/setup.tra~
 LANGUAGE ~Italian~ ~Italian~ ~Autumns_Twilight/tra/Italian/setup.tra~
 LANGUAGE ~German~ ~German~ ~Autumns_Twilight/tra/German/setup.tra~
 LANGUAGE ~Polish~ ~Polish~ ~Autumns_Twilight/tra/Polish/setup.tra~
+LANGUAGE ~French~ ~French~ ~Autumns_Twilight/tra/French/setup.tra~
+LANGUAGE ~Russian~ ~Russian~ ~Autumns_Twilight/tra/Russian/setup.tra~
+LANGUAGE ~Chinese Simplified~ ~Chinese Simplified~ ~Autumns_Twilight/tra/Chinese/setup.tra~
+
+
 
 
 BEGIN @1 /* Autumn's Twilight */ 
@@ -1577,6 +1582,8 @@ WRITE_ASCII 0x248 ~p_michel~ #8  // OVERRIDE SCRIPT - Di�logos acerca de los c
 COPY ~Autumns_Twilight/Characters/p_matut.cre~ ~override~
 SAY NAME1 @400304 /* Mathyus Davis */
 SAY NAME2 @400304 /* Mathyus Davis */
+SAY SELECT_COMMON1 @200386 /* Greetings! I hope all is well.  */ // P_math10
+SAY SELECT_COMMON2 @200387 /*  What can I say? I'm a charming elf.  */ // P_math05
 WRITE_ASCII 0x2cc ~p_matut~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_mats~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_matut~ #8  // OVERRIDE SCRIPT - Di�logos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
@@ -1802,6 +1809,11 @@ SAY NAME2 @400392 /* Puki */
 COPY ~Autumns_Twilight/Characters/p_dancti.cre~ ~override~
 SAY NAME1 @400416 /* Danctian */
 SAY NAME2 @400416 /* Danctian */
+SAY BATTLE_CRY1 @91039
+SAY BATTLE_CRY2 @91040
+SAY SELECT_COMMON1 @91041
+SAY SELECT_COMMON2 @91042
+SAY SELECT_COMMON3 @91043
 WRITE_ASCII 0x2cc ~p_dancti~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_dancti~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_dancti~ #8  // OVERRIDE SCRIPT
@@ -1976,6 +1988,11 @@ COPY ~Autumns_Twilight/Items/p_b1-6.itm~ ~override~
 COPY ~Autumns_Twilight/Characters/p_danct2.cre~ ~override~
 SAY NAME1 @400416 /* Danctian */
 SAY NAME2 @400416 /* Danctian */
+SAY BATTLE_CRY1 @91039
+SAY BATTLE_CRY2 @91040
+SAY SELECT_COMMON1 @91041
+SAY SELECT_COMMON2 @91042
+SAY SELECT_COMMON3 @91043
 WRITE_ASCII 0x2cc ~p_danct2~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_dancti~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_danct2~ #8  // OVERRIDE SCRIPT
@@ -1984,6 +2001,11 @@ WRITE_ASCII 0x248 ~p_danct2~ #8  // OVERRIDE SCRIPT
 COPY ~Autumns_Twilight/Characters/p_danct3.cre~ ~override~
 SAY NAME1 @400416 /* Danctian */
 SAY NAME2 @400416 /* Danctian */
+SAY BATTLE_CRY1 @91039
+SAY BATTLE_CRY2 @91040
+SAY SELECT_COMMON1 @91041
+SAY SELECT_COMMON2 @91042
+SAY SELECT_COMMON3 @91043
 WRITE_ASCII 0x248 ~p_danct3~ #8  // OVERRIDE SCRIPT
 
 
@@ -2105,8 +2127,7 @@ SAY NAME1 @400094 /*  */
 SAY NAME2 @400107 /*  */
 SAY UNIDENTIFIED_DESC @400096 /* */
 SAY DESC @400109 /* */
-SAY 366 @400110 /* */
-SAY 400 @400454 /* */
+SAY 0x13E @400110 /* */
 
 
 // POCI�N CA�TICO MALIGNO(N/A)
@@ -2816,6 +2837,8 @@ WRITE_ASCII 0x280 ~p_fugua1~ #8  // Death Script
 COPY ~Autumns_Twilight/Characters/p_vidomi.cre~ ~override~
 SAY NAME1 @200171 /* Vidomina */
 SAY NAME2 @200171 /* Vidomina */
+SAY SELECT_COMMON1 ~~ [p_vido14]
+SAY SELECT_COMMON2 ~~ [p_vido15]
 WRITE_ASCII 0x2cc ~p_vidomi~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_vidomi~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_vidomi~ #8  // OVERRIDE SCRIPT
@@ -3526,6 +3549,9 @@ WRITE_ASCII 0x280 ~P_KANKRA~ #32  // Death Script
 COPY ~Autumns_Twilight/Characters/p_morgra.cre~ ~override~
 SAY NAME1 @200282 /* Morgrath */
 SAY NAME2 @200282 /* Morgrath */
+SAY SELECT_COMMON1 @91044
+SAY SELECT_COMMON2 @91045
+SAY SELECT_COMMON3 @91046
 WRITE_ASCII 0x248 ~p_morgra~ #8  // OVERRIDE SCRIPT
 WRITE_ASCII 0x2cc ~p_morgra~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_morgra~ #8  // small portrait
@@ -3537,6 +3563,9 @@ WRITE_ASCII 0x280 ~p_morgra~ #32  // Death Script
 COPY ~Autumns_Twilight/Characters/p_morgr2.cre~ ~override~
 SAY NAME1 @200282 /* Morgrath */
 SAY NAME2 @200282 /* Morgrath */
+SAY SELECT_COMMON1 @91044
+SAY SELECT_COMMON2 @91045
+SAY SELECT_COMMON3 @91046
 WRITE_ASCII 0x248 ~p_morgr2~ #8  // OVERRIDE SCRIPT
 WRITE_ASCII 0x2cc ~p_morgra~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_morgra~ #8  // small portrait
@@ -5119,153 +5148,6 @@ WRITE_LONG song_offset+0xc ~%P_F6%~ // battle song
   WRITE_LONG song_offset ~%P_B1%~	//day song
   WRITE_LONG song_offset+0x4 ~%P_B1%~ //night song  
   
-// Bebilith
-//APPEND ~animate.ids~ ~0xEE10 BEBILITH_NWN~                  
-//APPEND ~anisnd.ids~ ~0xEE10 3BY      CGAMEANIMATIONTYPE_BEBILITH_NWN~                   
-
-//APPEND ~EXTANIM.2DA~
-//~60944 0 1 1 0 0 0 51 255 0 NONE NONE NONE 20 5 3BY NONE 0 0 NONE~
-
-// P_S1
-//APPEND ~animate.ids~ ~0xEA10 P_MAGENTA_SPIDER~                  
-//APPEND ~anisnd.ids~ ~0xEA10 P_S1      CGAMEANIMATIONTYPE_P_MAGENTA_SPIDER~                   
-
-//APPEND ~EXTANIM.2DA~
-//~59920 0 1 1 0 0 0 51 255 0 NONE NONE NONE 20 5 P_S1 NONE 0 0 NONE~
-
-
-//P_HY
-//APPEND ~animate.ids~ ~0xEE00 P_BLACK_HYDRA~  
-//APPEND ~anisnd.ids~ ~0xEE00 P_HY      CGAMEANIMATIONTYPE_P_BLACK_HYDRA~
-
-
-//APPEND ~EXTANIM.2DA~
-//~60928 0 1 1 0 0 0 51 255 0 NONE NONE NONE 20 7 P_HY NONE 0 0 NONE~
-
-//P_SQ
-//APPEND ~animate.ids~ ~0xEA20 P_MORGRATH~  
-//APPEND ~anisnd.ids~ ~0xEA20 P_SQ      CGAMEANIMATIONTYPE_P_MORGRATH~
-
-
-//APPEND ~EXTANIM.2DA~
-//~59936 0 1 1 0 0 0 51 255 0 NONE NONE NONE 20 7 P_SQ NONE 0 0 NONE~
-
-//P_ME
-//APPEND ~animate.ids~ ~0xE320 P_MEDUSA~  
-//APPEND ~anisnd.ids~ ~0xE320 P_ME      CGAMEANIMATIONTYPE_P_MEDUSA~
-
-
-//APPEND ~EXTANIM.2DA~
-//~58144 0 1 1 0 0 0 51 255 0 NONE NONE NONE 20 7 P_ME NONE 0 0 NONE~
-
-// P_S2
-//APPEND ~animate.ids~ ~0xE310 P_BLUE_SPIDER~                  
-//APPEND ~anisnd.ids~ ~0xE310 P_S2      CGAMEANIMATIONTYPE_P_BLUE_SPIDER~                   
-
-//APPEND ~EXTANIM.2DA~
-//~58128 0 1 1 0 0 0 51 255 0 NONE NONE NONE 20 5 P_S2 NONE 0 0 NONE~
-
-// SPTB
-//APPEND ~animate.ids~ ~0xE2E3 P_SKPRIEST~                  
-//APPEND ~anisnd.ids~ ~0xE2E3 SPTB      CGAMEANIMATIONTYPE_P_SKPRIEST~                   
-
-//APPEND ~EXTANIM.2DA~
-//~58083 0 1 1 0 0 0 47 0 0 NONE NONE NONE 8 3 SPTB NONE 0 0 NONE~
-
-// MYUH
-//APPEND ~animate.ids~ ~0xE281 P_YUANTIHALF~                  
-//APPEND ~anisnd.ids~ ~0xE281 MYUH      CGAMEANIMATIONTYPE_P_YUANTIHALF~                   
-
-//APPEND ~EXTANIM.2DA~
-//~57985 0 1 1 0 0 0 54 0 0 NONE NONE NONE 8 3 MYUH NONE 0 0 NONE~
-
-// WREB
-//APPEND ~animate.ids~ ~0xE2EA P_WERERAT~                  
-//APPEND ~anisnd.ids~ ~0xE2EA WREB      CGAMEANIMATIONTYPE_P_WERERAT~                   
-
-//APPEND ~EXTANIM.2DA~
-//~58090 0 1 1 0 0 0 47 0 0 NONE NONE NONE 8 3 WREB NONE 0 0 NONE~
-
-// MWOR
-//APPEND ~animate.ids~ ~0xE280 P_DAREN~                  
-//APPEND ~anisnd.ids~ ~0xE280 MWOR      CGAMEANIMATIONTYPE_P_DAREN~                   
-
-//APPEND ~EXTANIM.2DA~
-//~57984 0 1 1 0 0 0 47 0 0 NONE NONE NONE 8 4 MWOR NONE 0 0 NONE~
-
-// P_W1
-//APPEND ~animate.ids~ ~0xE285 P_SINNA~                  
-//APPEND ~anisnd.ids~ ~0xE285 P_W1      CGAMEANIMATIONTYPE_P_SINNA~                   
-
-//APPEND ~EXTANIM.2DA~
-//~57989 0 1 1 0 0 0 47 0 0 NONE NONE NONE 8 4 P_W1 NONE 0 0 NONE~
-
-
-// P_S3
-//APPEND ~animate.ids~ ~0xE300 P_EYE_SPIDER~                  
-//APPEND ~anisnd.ids~ ~0xE300 P_S3      CGAMEANIMATIONTYPE_P_EYE_SPIDER~                   
-
-//APPEND ~EXTANIM.2DA~
-//~58112 0 1 1 0 0 0 51 255 0 NONE NONE NONE 20 5 P_S3 NONE 0 0 NONE~
-
-// P_S4
-//APPEND ~animate.ids~ ~0xE286 P_YELLOW_SPIDER~                  
-//APPEND ~anisnd.ids~ ~0xE286 P_S4      CGAMEANIMATIONTYPE_P_YELLOW_SPIDER~                   
-
-//APPEND ~EXTANIM.2DA~
-//~57990 0 1 1 0 0 0 51 255 0 NONE NONE NONE 20 5 P_S4 NONE 0 0 NONE~
-
-// P_RE
-//APPEND ~animate.ids~ ~0xE287 P_REPTILE~                  
-//APPEND ~anisnd.ids~ ~0xE287 P_RE      CGAMEANIMATIONTYPE_P_REPTILE~                   
-
-//APPEND ~EXTANIM.2DA~
-//~57991 0 1 1 0 0 0 54 0 0 NONE NONE NONE 8 3 P_RE NONE 0 0 NONE~
-
-// P_SE
-//APPEND ~animate.ids~ ~0xe28B P_SERPENT~                  
-//APPEND ~anisnd.ids~ ~0xe28B P_SE      CGAMEANIMATIONTYPE_P_SERPENT~                   
-
-//APPEND ~EXTANIM.2DA~
-//~57995 0 1 1 0 0 0 54 0 0 NONE NONE NONE 8 3 P_SE NONE 0 0 NONE~
-
-// P_CE
-//APPEND ~animate.ids~ ~0xe28C P_CENTIPEDE~                  
-//APPEND ~anisnd.ids~ ~0xe28C P_CE      CGAMEANIMATIONTYPE_P_CENTIPEDE~                   
-
-//APPEND ~EXTANIM.2DA~
-//~57996 0 1 1 0 0 0 54 0 0 NONE NONE NONE 8 3 P_CE NONE 0 0 NONE~
-
-// P_W2
-//APPEND ~animate.ids~ ~0xe284 P_RED_WEAVER~                  
-//APPEND ~anisnd.ids~ ~0xe284 P_W2      CGAMEANIMATIONTYPE_P_RED_WEAVER~                   
-
-//APPEND ~EXTANIM.2DA~
-//~57988 0 1 1 0 0 0 54 0 0 NONE NONE NONE 8 3 P_W2 NONE 0 0 NONE~
-
-// P_W3
-//APPEND ~animate.ids~ ~0xe28D P_WHITE_WEAVER~                  
-//APPEND ~anisnd.ids~ ~0xe28D P_W3      CGAMEANIMATIONTYPE_P_WHITE_WEAVER~                   
-
-//APPEND ~EXTANIM.2DA~
-//~57997 0 1 1 0 0 0 54 0 0 NONE NONE NONE 8 3 P_W3 NONE 0 0 NONE~
-
-// P_W4
-//APPEND ~animate.ids~ ~0xe27C P_GREEN_WEAVER~                  
-//APPEND ~anisnd.ids~ ~0xe27C P_W4      CGAMEANIMATIONTYPE_P_GREEN_WEAVER~                   
-
-//APPEND ~EXTANIM.2DA~
-//~57980 0 1 1 0 0 0 54 0 0 NONE NONE NONE 8 3 P_W4 NONE 0 0 NONE~
-
-// P_W5
-//APPEND ~animate.ids~ ~0xe275 P_BLUE_WEAVER~                  
-//APPEND ~anisnd.ids~ ~0xe275 P_W5      CGAMEANIMATIONTYPE_P_BLUE_WEAVER~                   
-
-//APPEND ~EXTANIM.2DA~
-//~57973 0 1 1 0 0 0 54 0 0 NONE NONE NONE 8 3 P_W5 NONE 0 0 NONE~
-
-
-
 ACTION_IF FILE_EXISTS_IN_GAME ~mel01.cre~ THEN
 BEGIN
 

@@ -1,12 +1,12 @@
-@0    = ~<CHARNAME>, finalmente ci conosciamo...~
-@1    = ~Sono Morgrath, Regina di Rachnidra. La mia influenza ha cominciato ad espandersi in Dreach-naga. Questo è solo l'antipasto di quello che vedrai nel Piano Materiale.~
+@0    = ~<CHARNAME>, finalmente ci conosciamo...~[p_morg01]
+@1    = ~Sono Morgrath, Regina di Rachnidra. La mia influenza ha cominciato ad espandersi in Dreach-naga. Questo è solo l'antipasto di quello che vedrai nel Piano Materiale.~ [p_morg02]
 @2    = ~Morgrath... sei stata stolta a presentarti davanti a me. Preparati a morire!~
 @3    = ~Mostro, cosa fai qui? Ho sconfitto molti dei tuoi. È solo una questione di tempo prima che tu sia finalmente sconfitta.~
-@4    = ~Sei come sei nei miei sogni. Un'entità, come me, che ha lasciato una scia di cadaveri. Non siamo così diversi, <CHARNAME>.~
-@5    = ~Avevo bisogno di vederti. Poche creature sono state capaci di opporsi ai miei sogni. Tu sei una di esse.~
-@6    = ~Sì, hai ucciso molti dei miei figli e delle mie figlie. Che tipo di madre sarei se non mi preoccupassi per loro?~
-@7    = ~Coloro che sono morti per colpa tua rivivranno nel mio Regno, che è eterno. Ma mi dispiace vederli distrutti.~
-@8    = ~La tua forza sarà il mio intrattenimento da ora in poi, <CHARNAME>. Andiamo, è tempo che tu ti faccia avanti.~
+@4    = ~Sei come sei nei miei sogni. Un'entità, come me, che ha lasciato una scia di cadaveri. Non siamo così diversi, <CHARNAME>.~ [p_morg03]
+@5    = ~Avevo bisogno di vederti. Poche creature sono state capaci di opporsi ai miei sogni. Tu sei una di esse.~ [p_morg23]
+@6    = ~Sì, hai ucciso molti dei miei figli e delle mie figlie. Che tipo di madre sarei se non mi preoccupassi per loro?~ [p_morg04]
+@7    = ~Coloro che sono morti per colpa tua rivivranno nel mio Regno, che è eterno. Ma mi dispiace vederli distrutti.~[p_morg05]
+@8    = ~La tua forza sarà il mio intrattenimento da ora in poi, <CHARNAME>. Andiamo, è tempo che tu ti faccia avanti.~ [p_morg06]
 @9    = ~*i suoi occhi sembrano privi di vita*~
 @10   = ~Ah, vedo che anche tu sei arrivato...~
 @11   = ~Tu... sei Morgrath.~
@@ -36,13 +36,13 @@
 @34   = ~La tua reputazione ti precede. Ma questo non è il mio potere completo. Noterai come, ad ogni nostro incontro, la mia forza aumenta. Ci vedremo presto, <CHARNAME>. Molto presto.~
 
 // 2nd Encounter
-@35  = ~La tua astuzia è senza pari, <CHARNAME>.~
+@35  = ~La tua astuzia è senza pari, <CHARNAME>.~ [p_morg07]
 @36  = ~Vi piacerebbe essere della mia prole? Sotto il mio giogo non morirete mai.~
 @37  = ~E cosa dovrei fare? Permettere che tu mi trasformi in una draña? Questo non accadrà mai.~
 @38  = ~Non faccio affari con mostri. Tanto meno con qualcuno così malvagio come te.~
 @39  = ~Credo che tu abbia paura. Nella tua disperazione cerchi una via di fuga con me, perché so che sai che posso interferire nei tuoi piani.~
-@40  = ~Non conosco la paura, <CHARNAME>. E non conosco la sconfitta.~
-@41  = ~È un peccato. Il tuo rifiuto non mi lascia altra scelta che combattere con te ancora una volta.~
+@40  = ~Non conosco la paura, <CHARNAME>. E non conosco la sconfitta.~ [p_morg08]
+@41  = ~È un peccato. Il tuo rifiuto non mi lascia altra scelta che combattere con te ancora una volta.~ [p_morg09]
 @42  = ~Se solo fossi nata come un ragno...~
 @43  = ~Questo vale anche per te, figlia di Gemystara. Non considereresti di essere mia figlia? Posso trasformarti in una draña. Il tuo potere sarebbe quello di una semidiva. Insieme, conquisteremmo piani. I nostri nemici sarebbero una prelibatezza che gusteremmo nelle Ragnatele di Rachnidra.~
 @44  = ~Preferisco morire mille volte piuttosto che avere qualcosa a che fare con te, Morgrath.~
@@ -55,38 +55,41 @@
 @51  = ~Leale anche nella morte. Come ti ho detto prima, Generale: Ispiratore.~
 @52  = ~Ma basta. <CHARNAME> è ciò che mi interessa.~
 @53  = ~Ma basta con te, femmina. <CHARNAME> è ciò che mi interessa.~
-@54  = ~Molto bene. La tua capacità di combattimento rivaleggia con i miei migliori soldati. Non mi divertivo così da secoli. Ci vedremo presto, <CHARNAME>.~
+@54  = ~Molto bene. La tua capacità di combattimento rivaleggia con i miei migliori soldati. Non mi divertivo così da secoli. Ci vedremo presto, <CHARNAME>.~ [p_morg10]
 @55  = ~Non osare parlare della mia Regina, mostro!~
 
-@56  = ~Questo sta diventando una consuetudine, non credi, <CHARNAME>?~
+// 3rd Encounter
+
+
+@56  = ~Questo sta diventando una consuetudine, non credi, <CHARNAME>?~[p_morg11]
 @57  = ~Cosa pensi della statua che i miei figli hanno eretto su di me? Penso che sia stata una buona idea per diminuire la speranza dei lucertoloni. Ha funzionato perfettamente. Credo che abbiano sbagliato le dimensioni. In questo aspetto, non le rende giustizia.~
 @58  = ~Penso che sia una statua orribile. È un peccato che i lucertoloni non siano riusciti a demolirla in tempo.~
 @59  = ~Non mi interessa. Sei tornata di nuovo per essere sconfitta, vero? Andiamo, è ora di sanguinare, Regina.~
-@60  = ~E tuttavia sarà il faro del mio potere in questo strato dell’Abisso. Un simbolo dell'inizio del mio Regno verso i piani in cui si estenderà la mia potente ragnatela.~
-@61  = ~Basta chiacchiere. È il momento del nostro combattimento.~
+@60  = ~E tuttavia sarà il faro del mio potere in questo strato dell’Abisso. Un simbolo dell'inizio del mio Regno verso i piani in cui si estenderà la mia potente ragnatela.~ [p_morg12]
+@61  = ~Basta chiacchiere. È il momento del nostro combattimento.~ [p_morg13]
 @62  = ~Sarà un testamento della tua caduta, Morgrath. Forse nessuno sarà capace di abbatterla... ma non rimarrà nessuno per adorarla. Morirai. Tutti i tuoi moriranno.~
 @63  = ~Tu sei il testamento vivente di Dreach-naga, Generale Cho'Nuja. L'ultimo della tua stirpe. La prova di una nazione morente. Ci arriveremo. Aspetta e vedrai.~
-@64  = ~Una piccola vittoria per te, <CHARNAME>. Ricorda che non è importante chi vince molte battaglie... ma chi vince la guerra. Vai all'Enclave. La fine della guerra si avvicina...~
+@64  = ~Una piccola vittoria per te, <CHARNAME>. Ricorda che non è importante chi vince molte battaglie... ma chi vince la guerra. Vai all'Enclave. La fine della guerra si avvicina...~ [p_morg14]
 
 // FINAL BATTLE
 // POSIBILIDAD 1 -> CHO/FALL/VID
-@65  = ~Finalmente... sono caduti nella mia rete...~
-@66  = ~Fall e <CHARNAME>. Era solo una questione di tempo prima che il nostro incontro finale avvenisse. Tutto procede secondo i miei piani.~
+@65  = ~Finalmente... sono caduti nella mia rete...~ [p_morg15]
+@66  = ~Fall e <CHARNAME>. Era solo una questione di tempo prima che il nostro incontro finale avvenisse. Tutto procede secondo i miei piani.~ [p_morg18]
 @67  = ~Ti aspettiamo che crediamo che volessi questo? Ti ho sconfitto più di una volta. So che sai che la tua fine è vicina.~
 @68  = ~"Secondo i tuoi piani"? Spiegati, Morgrath.~
-@69  = ~Se pensi di aver visto tutta la mia potenza, <CHARNAME>, sei uno sciocco. Tra poco comprenderai le mie parole.~
-@70  = ~Dreach-naga non esiste più e perciò il mio potere è aumentato notevolmente. Solo la strega selu'taar impediva la mia vera uscita da questo deserto.~
+@69  = ~Se pensi di aver visto tutta la mia potenza, <CHARNAME>, sei uno sciocco. Tra poco comprenderai le mie parole.~ [p_morg17]
+@70  = ~Dreach-naga non esiste più e perciò il mio potere è aumentato notevolmente. Solo la strega selu'taar impediva la mia vera uscita da questo deserto.~ [p_morg19]
 @71  = ~"Vera uscita"? Di cosa stai parlando? Ti ho sconfitto a Dreach-naga. Non sembravi, precisamente, intrappolata.~
 @72  = ~Anche se la selu'taar mi teneva intrappolata, ero in grado di proiettarmi a Dreach-naga. Tutto grazie all'assassinio di Tisiphone. Qualcosa che non avrei potuto ottenere senza il tuo aiuto, ovviamente.~
 @73  = ~Con l'assenza dei miei figli, il passo logico era distruggere Dreach-naga. Questo che <CHARNAME> ha fatto con potere ed eleganza. Nulla di tutto questo sarebbe stato possibile senza di te.~
 @74  = ~No, non sapevo niente di tutto ciò, mostro. Non aiuterei mai qualcuno della tua risma.~
 @75  = ~Non devi ringraziarmi, Morgrath, poiché presto il tuo cadavere decorerà il tuo stesso Nido.~
 @76  = ~Il tuo piano non è servito a nulla. Se muori qui, sarà la fine di tutto.~
-@77  = ~Ma lo hai fatto. Dal momento in cui hai messo piede a Rachnidra sei diventato la mia marionetta. Ma è ora di tagliare i fili. È tempo di regolare i conti. Come dite voi mortali: "È il momento di raccogliere ciò che abbiamo seminato."~
+@77  = ~Ma lo hai fatto. Dal momento in cui hai messo piede a Rachnidra sei diventato la mia marionetta. Ma è ora di tagliare i fili. È tempo di regolare i conti. Come dite voi mortali: "È il momento di raccogliere ciò che abbiamo seminato."~ [p_morg20]
 @78  = ~Le tue minacce sono inconseguenti. È tempo di regolare i conti. Come dite voi mortali: "È il momento di raccogliere ciò che abbiamo seminato."~
 @79  = ~La fine sarà solo l'inizio, <CHARNAME>. È tempo di regolare i conti. Come dite voi mortali: "È il momento di raccogliere ciò che abbiamo seminato."~
 @80  = ~Siete pronti?~
-@81  = ~Il mio nome è Legione... perché siamo molti...~
+@81  = ~Il mio nome è Legione... perché siamo molti...~ [p_morg21]
 @82  = ~Il mio criceto, <CHARNAME>, Fall e io difendiamo la Natura! Mostri maligni che minacciano di distruggere tutto ciò che amiamo non hanno posto al perdono. Tu, Regina dei Ragni, ti presento la mia spada! Spada, ti presento alla Regina dei Ragni!~
 @83  = ~Quayle mi ha insegnato molto sulla compassione, così come il dogma di Baervan. Ma oggi non abbiamo altra scelta che combattere senza pietà. Nessuna pietà per i demoni che sono nemici della vita!~
 @84  = ~<CHARNAME>, Fall... Siamo di fronte a una delle battaglie più importanti in queste terre strane. Per Torm, darò la mia vita se necessario per eradicare questo male!~
@@ -150,10 +153,10 @@
 @140 = ~Sapevo che saresti arrivata qui. Era solo questione di tempo. Mio figlio, Mesothel, mi ha tenuto informata sui progressi di <CHARNAME> attraverso Faerûn.~
 @141 = ~Per questo ho deciso di ritirare i miei figli dall’Abisso, nascondendoli nelle ombre. Sapevo che la Strega dell'Enclave li avrebbe aiutati, poiché il suo desiderio di fuggire dall’Abisso è stato utilizzato, anch'esso, a mio vantaggio.~
 @142 = ~Morgrath!~
-@143 = ~Vita o morte, non ci sono altre alternative.~
+@143 = ~Vita o morte, non ci sono altre alternative.~ [p_morg22]
 @144 = ~Madre, non preoccuparti: Io ti salverò. Morgrath! È giunto il momento della tua caduta. In nome di Imnescar e del Padre Quercia. In nome degli esploratori caduti. In nome di mio padre, Gerwulf! La tua malvagia esistenza finisce qui. Combattiamo!~
 @145 = ~No, selu'taar. Non posso essere distrutta. Non posso morire. Sono eterna. <CHARNAME> non ha la capacità arcana per scacciarmi da questa dimensione abissale.~
-@146 = ~<CHARNAME>. Era solo questione di tempo affinché il nostro incontro finale avvenisse. Tutto procede secondo i miei piani.~
+@146 = ~<CHARNAME>. Era solo questione di tempo affinché il nostro incontro finale avvenisse. Tutto procede secondo i miei piani.~ [p_morg18]
 @147 = ~Kankra pronto a dimostrare a Madre il suo amore per lei.~
 @148 = ~Come disse mia madre: Vita o morte, non ci sono altre alternative.~
 @149 = ~La distruzione di Dreach-naga è stata grazie a te, <CHARNAME>. È grazie a te che potrò raggiungere il Piano Materiale... e la distruzione dei tuoi sarà inevitabile.~
@@ -162,15 +165,3 @@
 @152 = ~Sapevo che saresti arrivata qui. Era solo questione di tempo. Mio figlio, Mesothel, mi ha tenuto informata sui progressi di <CHARNAME> attraverso Faerûn.~
 @153 = ~Non permetteremo che tu invada Faerûn, mostro. È il momento di combattere! Il nemico non avrà pietà... e nemmeno noi!~
 @154 = ~Le bestie esistono per essere schiacciate. Potrebbe che la loro dimensione sia un po' eccessiva... ma il loro destino sarà lo stesso. È il momento di versare un po' di sangue!~
-
-@310056  = ~Rachnidra: le Fosse della Ragnatela Demoniaca
-
-Finalmente Morgrath è apparsa davanti a noi dopo che abbiamo sconfitto uno dei suoi figli, Arhtrom, e ottenuto la Pietra Guardiana di Vreshnak. Morgrath è una creatura ciclopica di potere enorme. Un ragno demoniaco gigante. Ha lasciato il campo di battaglia dopo aver messo alla prova il nostro potere. Ha detto che ci incontreremo presto. Credo che il nostro cammino verso l'Enclave sarà più difficile del previsto.~
-
-@310057  = ~Rachnidra: le Fosse della Ragnatela Demoniaca
-
-Il cammino verso l'Enclave si complica. Dopo aver preso la Pietra Guardiana di Qyl'tar, Morgrath è apparsa di nuovo. Ha offerto un bizzarro patto affinché io diventassi uno dei suoi mostri. Naturalmente, ho rifiutato l'offerta in modo cortese e ora dobbiamo sconfiggerla ancora una volta.~
-
-@310058  = ~Rachnidra: le Fosse della Ragnatela Demoniaca
-
-Abbiamo ottenuto il Talismano di Dreach-naga, non senza combattere ancora una volta contro Morgrath. Ha detto delle parole su quanto sia poco importante vincere battaglie se la guerra è persa. Potrebbero essere solo chiacchiere, ma dobbiamo stare attenti a ciò che accadrà quando arriveremo all'Enclave.~

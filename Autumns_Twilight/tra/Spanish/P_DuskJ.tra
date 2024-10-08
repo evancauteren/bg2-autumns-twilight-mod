@@ -851,35 +851,6 @@ Pero, en fin…~
 
 @581  = ~Encontraremos a Mathyus en su guarida en el Puerto. La misma se encuentra cerca de los cuarteles de los Ladrones de las Sombras... Cuando tengamos un tiempo, me gustaría que nos encamináramos allí.~
 
-// ENTRADAS DE DIARIO JOURNAL ENTRIES
-
-@210001 = ~Dusk Aldant: La armadura Shilmista
-
-Luego de una breve conversación con Dusk, éste comentó que tiene la posibilidad de recuperar su armadura de combate, una cota de mallas que fue entregada a un elfo llamado Mathyus para su reparación. Lo podremos encontrar en al Oeste del Puerto, cerca de la guarida de los Ladrones.~
-
-@210003 = ~Dusk Aldant: La armadura Shilmista
-
-Encontramos a Mathyus Davis, un extraño elfo de cabello verde. Su encuentro devino en otra búsqueda: la de un Leprechaun llamado Michelson.
-Según Mathyus, el pequeño estaría vagando en las calles del puerto. Lo podremos reconocer por su cabello rojo y vestimentas verdosas.
-Por último, convencerlo de volver no será fácil. Tendremos que emplear el uso de oro, cerveza... o hacerlo reír mediante un chiste.
-Ya veremos en qué resulta la búsqueda.~
-
-@210004 = ~Dusk Aldant: La armadura Shilmista
-
-Finalmente, dimos con Michelson y pudimos convencerlo de que volviera con Mathyus. Deberíamos regresar y reclamar nuestra recompensa.~
-
-@210009 = ~Dusk Aldant: Los renegados de Sothillis
-
-Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pudo descifrar el misterio del escudo de Cormyr, ha recuperado el mismo y se ha puesto en campaña para dar un hogar a los renegados de Sothillis. Debemos dirigirnos a la Noble Orden del Radiante Corazón en el Distrito del Templo de Athkatla y hablar con Sir Ryan Espinel. Dusk cree que él podrá darnos una solución al asunto.~
-
-
-
-// **********************************************
-
-
-
-
-
 //Test Crossmods
 @5000  = ~(Bufido, bufido)~
 
@@ -960,6 +931,7 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3061  = ~Dusk, ¿conoces a este saco de pulgas?~
 @3062  = ~¡Pero qué perrito más tierno! ¿Lo conoces, Dusk? ¿Cómo se llama?~
 @3063  = ~Genial, un perro callejero... imagino que no lo iremos a adoptar, ¿eh? Esto no es un refugio animal, muchacho.~
+
 @3064  = ~<CHARNAME>, éste es Demoledor. No es un perro cualquiera, como aparenta. Es el compañero animal de Mathyus.~
 @3065  = ~¿Demoledor? No me parece tan demoledor a mi parecer.~
 @3066  = ~¿Es de Mathyus? No sé por qué no me sorprende.~
@@ -1030,6 +1002,7 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3124  = ~De primera mano, tengo mala experiencia tratando con humanoides... Pero, Dusk... estas criaturas no parecen ser violentas.~
 @3125  = ~Dusk, entiendo que quieras vengar a tus compañeros de armas... pero ten en cuenta, que puede que este grupo no sea el responsable de tal ataque.~
 @3126  = ~La naturaleza indica la violencia innata en muchos humanoides, Dusk. Pero no logro ver eso en este grupo. Puede que, a fin de cuentas, no hayan sido responsables de dicho ataque.~
+
 @3127  = ~Sé muy bien lo que es ser juzgado por un grupo corrupto, Dusk. No quiero creer que el nuestro encaje en esa clasificación. Que el odio no nuble tu juicio, amigo mío.~
 @3128  = ~Abbil, sé muy bien lo que es ser juzgada sólo por tu raza. Juzgada por los viles rivvil... Y creo, Dusk, que tú no eres como el resto de los rivvil.~
 @3129  = ~Pues, si me lo preguntan a mí (cosa que aún no han hecho, pero no se puede esperar menos de un grupo de primates), diría que los friamos con magia. Los humanoides de Sothillis no merecen vivir en el mundo de los hombres.~
@@ -1135,7 +1108,6 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3226  = ~Así me gusta...~
 @3227  = ~Bien, <CHARNAME>... mantén esa furia asesina... estoy seguro de que nos será útil en un futuro no muy lejano...~
 @3228  = ~Así es... El grupo resultó ser desertor del imperio Sothillis. Se encontraban huyendo hacia el sur cuando dimos con ellos.~
-@3229  = ~~
 @3230  = ~Luego de una breve conversación, y gracias a la intervención de <CHARNAME>, resolví que estarían más seguros en Athkatla.~
 @3231  = ~Acudí a la Noble Orden del Radiante Corazón y Sir Ryan Espinel les dio un hogar en sus cuarteles.~
 @3232  = ~¿Mi destino? No entiendo, ¿a qué se refiere?~
@@ -1532,85 +1504,3 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @30006    = ~Haz esto, Dusk... y yo convenceré al prelado sobre los humanoides que intentas proteger.~
 @30007    = ~Sí, Dusk. El asunto de tus humanoides...~
 @30008    = ~Con gusto intercederé con el prelado por ti. Puedes volver con los desertores de Sothillis y decirles que vengan al cuartel de la Orden.~
-
-
-
-
-// JOURNAL ENTRIES
-@210007 = ~Dusk Aldant: Los renegados de Sothillis
-
-Regresamos a la guarida de Mathyus Davis como la nota de Demoledor indicaba. Se trataba de la ubicación del grupo que atacó al destacamento de Dusk cuando éstos flanqueaban la Colina de los Trolls. Según indicó el elfo, el grupo se trata de humanoides en las Colinas Ventolanza,ubicados al sureste de la región, cerca de un gran lago. Michelson, sin embargo, advirtió que era posible que no se tratase del grupo original que atacó a Dusk. Supongo que lo veremos cuando encontremos a dicho grupo.~
-
-
-@210010 = ~Dusk Aldant: Los renegados de Sothillis
-
-Dusk y yo hemos acabado con los renegados de Sothillis. Sin embargo, parecía ser toda una trampa orquestada por un Encantador llamado Sornhil. Parecía conocer la identidad de Dusk, tanto como mi linaje divino. Dijo que Dusk había superado una prueba y le entregó un orbe, el cual deberíamos llevar a Mathyus para su análisis.~
-
-@210011 = ~Dusk Aldant: Los renegados de Sothillis
-
-Dusk ha hablado con Sir Ryan Espinel acerca del asunto de los renegados de Sothillis. Sin embargo, antes de ayudarle, pretende resolver el conflicto existente con los paladines caídos y el tráfico de esclavos en Athkatla. Una vez resuelta la cuestión, deberíamos volver con Espinel para terminar el asunto de los humanoides.~
-
-@210012 = ~Dusk Aldant: Los renegados de Sothillis
-
-Sir Ryan Espinel ha prometido interceder con el prelado acerca del asunto de los renegados de Sothillis. No queda más que dar las buenas noticias a los humanoides en las Colinas Ventolanza.~
-
-@210013 = ~Dusk Aldant: Los renegados de Sothillis
-
-Hemos dado las buenas nuevas a Falon y su tribu. Han quedado muy contentos con el resultado y creo que Dusk también. Si las cosas hubiesen salido de otra manera, posiblemente nuestro Asesino de Magos sería una persona totalmente diferente.~
-
-@210014 = ~Dusk Aldant: Los renegados de Sothillis
-
-De la nada, un misterioso encantador se nos apareció. Se trataba de Sornhil y parecía estar al tanto de la identidad de Dusk, tanto como mi linaje divino. Dijo que Dusk le había decepcionado al perdonar a los renegados de Sothillis y que ello le llevaría a un inevitable conflicto. Asimismo, le entregó un orbe, el cual deberíamos llevar a Mathyus para su análisis.~
-
-@210015 = ~Dusk Aldant: Los renegados de Sothillis
-
-Dusk ha llevado el orbe a Mathyus y Michelson. Con ayuda de ellos logró decifrar cómo desencadenar su poder interior. Pese a las advertencias de sus amigos, Dusk utilizó el orbe y como consecuencia, ha cambiado de manera drástica. Si esto es algo bueno, sólo el tiempo lo dirá.~
-
-@210016 = ~Dusk Aldant: Los renegados de Sothillis
-
-Dusk ha llevado el orbe a Mathyus y Michelson. Con ayuda de ellos logró decifrar cómo desencadenar su poder interior. Sin embargo, siguió los consejos de sus amigos y optó por purificarlo antes de utilizarlo. Si bien la versión del orbe se debilitó, los efectos que tuvo en nuestro compañero parece que lo afectaron, tanto en actitud como en juicio. Quizás sea un cambio drástico y puede que algo bueno. Sólo el tiempo lo dirá.~
-
-@210019 = ~Dusk Aldant: La Venganza de la Primera Espada
-
-Arribamos a la guarida de Mathyus y nos informó que el grupo responsable del ataque al destacamento de Dusk se encuentra en las cercanías de la Arboleda Druídica de la región. Por las características brindadas por el explorador, el responsable sería un jefe orco llamado Alabarza. Lo encontraremos en el Túmulo troll al oeste de la región. También nos informó que el orco cuenta con un repertorio variado de monstruos, listos para defenderlo.~
-
-@210021 = ~Dusk Aldant: La Venganza de la Primera Espada
-
-Pudimos matar al demonio abisal convocado por Valatar. Dusk sintió un extraño llamado por parte de su espada carmesí. Terminó por rematar el corazón de la bestia y el arma ha mejorado, obteniendo nuevos poderes.~
-
-@210023 = ~Dusk Aldant: La Venganza de la Primera Espada
-
-Pudimos matar al demonio abisal convocado por Valatar. Dusk sintió un extraño llamado por parte de su espada esmeralda. Terminó por rematar el corazón de la bestia, desterrándola para siempre de este plano. El arma, aparentemente, ha mejorado ligeramente.~
-
-@210024 = ~Dusk Aldant: La Venganza de la Primera Espada
-
-Encontramos la guarida de Alabarza, el Mutilador. Sin embargo, caímos en una trampa, en la que hicieron aparición varios monstruos esbirros del Jefe Orco. Su yuan-ti hizo mención a un misterioso elfo hechicero, quien le brindó un hechizo de transmutación a su cacique, con el cual logró atraernos. Si sobrevivimos al combate, lo más probable es que Dusk esté interesado en este dato.~
-
-@210026 = ~Dusk Aldant: La Venganza de la Primera Espada
-
-Arribamos a la guarida de Mathyus y nos informó que el grupo responsable del ataque al destacamento de Dusk se encuentra en las cercanías de la Arboleda Druídica de la región. Por las características brindadas por el explorador, el responsable sería un jefe orco llamado Alabarza. Lo encontraremos en la Guarida de los trolls al oeste de la región. También nos informó que el orco cuenta con un repertorio variado de monstruos, listos para defenderlo. Afortunadamente, Dusk contará con la ayuda de Sir Ryan Espinel y de Falon y su tribu. Llegado el momento, una gema de activación brindada por Michelson los traerá para el enfrentamiento.~
-
-
-@210033 = ~Dusk Aldant: La Venganza de la Primera Espada
-
-Regresamos a la guarida de Mathyus en el Distrito Portuario en Athkatla. Cedí la palabra a Dusk para que diese la noticia de nuestra victoria sobre el clan Alabarza, pero, para mi sorpresa, terminó matando a Mathyus, Demoledor y Michelson, utilizando un poder que asumo que provino del misterioso orbe escarlata que absorbió hace un tiempo.~
-
-@210035 = ~Dusk Aldant: La Orden de Magos
-
-Dusk ha narrado los hechos que lo llevaron a convertirse en Asesino de Magos. Aparentemente, un nigromante llamado Anthagar fue el responsable de lanzar una maldición que terminó por consumir la vida de su esposa, Celine. Si bien Dusk hizo lo posible por intentar salvar a su esposa, falló en su empresa. Sólo le queda la esperanza de hallar, algún día, a Anthagar y su Orden.~
-
-@210036 = ~Dusk Aldant: La Orden de Magos
-
-Dusk ha narrado los hechos que lo llevaron a convertirse en Asesino de Magos. Aparentemente, un nigromante llamado Anthagar fue el responsable de lanzar una maldición que terminó por consumir la vida de su esposa, Celine. Si bien Dusk hizo lo posible por intentar salvar a su esposa, falló en su empresa. Sólo le queda la esperanza de hallar, algún día, a Anthagar y su Orden.~
-
-@210037 = ~Dusk Aldant: La Orden de Magos
-
-Finalmente hemos conocido a quien estaba detrás de todos los ataques arcanos hacia Dusk y nuestro grupo: Anthagar, el Nigromante. Dice ser el líder de una Orden de Magos llamada: La Cripta Olvidada, un culto siniestro dedicado al semidiós Velsharún, el Señor de la No-Muerte. Aún desconocemos cuál sea su objetivo final con nosotros. Por ahora, deberemos superar los obstáculos que una vez más nos pone enfrente.~
-
-@210038 = ~Dusk Aldant: La Orden de Magos
-
-Finalmente hemos conocido a quien estaba detrás de todos los ataques arcanos hacia Dusk y nuestro grupo: Anthagar, el Nigromante. Dice ser el líder de una Orden de Magos llamada: La Cripta Olvidada, un culto siniestro dedicado al semidiós Velsharún, el Señor de la No-Muerte. Aún desconocemos cuál sea su objetivo final. Por ahora, deberemos sobrevivir al fatídico encuentro que nos tiene preparado, ya que nos considera una amenaza para sus futuros planes.~
-
-@210039 = ~Dusk Aldant: La Orden de Magos
-
-Danctian ha aparecido de las sombras para contactarnos. Dice que tiene algo para ofrecernos que será beneficioso para el grupo y está relacionado a la orden de los magos de la Cripta Olvidada. Sin lugar a dudas, está relacionado directamente a la aparición de Anthagar y el resto de los hechiceros. Para más información, debemos dirigirnos a la casa abandonada al noroeste del Distrito Portuario de Athkatla.~

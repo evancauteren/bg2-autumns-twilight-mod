@@ -1,13 +1,13 @@
-@0 = ~Saludos, amigo. Lo lamento, pero no te conozco, así que no tengo tiempo para ti. Puedes hablar si quieres con Hakamir o Acrull, ellos están reuniendo oro para Brost. Son buena gente.~ ~Saludos, amiga. Lo lamento, pero no te conozco, así que no tengo tiempo para ti. Puedes hablar si quieres con Hakamir o Acrull, ellos están reuniendo oro para Brost. Son buena gente.~
+@0 = ~Saludos, amigo. Lo lamento, pero no te conozco, así que no tengo tiempo para ti. Puedes hablar si quieres con Hakamir o Acrull, ellos están reuniendo oro para Brost. Son buena gente.~ [p_math01] ~Saludos, amiga. Lo lamento, pero no te conozco, así que no tengo tiempo para ti. Puedes hablar si quieres con Hakamir o Acrull, ellos están reuniendo oro para Brost. Son buena gente.~ [p_math01]
 
-@1 = ~¡Saludos! Vaya, vaya, pero si el soldado pródigo ha regresado. ¿Cómo está, mi buen capitán Aldant?~
+@1 = ~¡Saludos! Vaya, vaya, pero si el soldado pródigo ha regresado. ¿Cómo está, mi buen capitán Aldant?~ [p_math02]
 
 @2 = ~Si el capitán te ha considerado su amigo es porque algo especial ve en ti. No deberías subestimar su capacidad de emitir juicio, <LADYLORD> <CHARNAME>.~ ~Si el capitán te ha considerado su amiga es porque algo especial ve en ti. No deberías subestimar su capacidad de emitir juicio, <LADYLORD> <CHARNAME>.~
 
 @3 = ~Saludos, <CHARNAME>. tanto tiempo.~
 
 @4 = ~Veo que has traído a un grupo interesante de... personajes.~
-@5 = ~Saludos, <CHARNAME>. Es un placer conocerte. Todo amigo del señor Aldant es amigo mío.~ ~Saludos, <CHARNAME>. Es un placer conocerte. Toda amiga del señor Aldant es amiga mía.~
+@5 = ~Saludos, <CHARNAME>. Es un placer conocerte. Todo amigo del señor Aldant es amigo mío.~ [p_math03] ~Saludos, <CHARNAME>. Es un placer conocerte. Toda amiga del señor Aldant es amiga mía.~ [p_math03]
 @6 = ~Es un placer, Mathyus.~ 
 @7 = ~Es un poco pronto para llamarnos amigos, ¿no lo crees?~
 @8 = ~Lo lamento, elfo. No puedo parar de ver tu brillante cabello verde.~
@@ -18,7 +18,7 @@
 @13 = ~¿Leprechaun? No sabía que tal cosa existiera.~
 @14 = ~Oh, son reales, <CHARNAME>. Pero no le digas 'cosa' a Michelson. Es muy sensible. Una vez alguien le dijo "¡Pero qué cosa más tierna eres!" Y Michelson lo convirtió en--~ 
 
-@15 = ~No debe andar muy lejos. Lo más probable es que esté explorando las afueras de aquí. Seguro podrás encontrarlo en el puerto.~ 
+@15 = ~No debe andar muy lejos. Lo más probable es que esté explorando las afueras de aquí. Seguro podrás encontrarlo en el puerto.~ [p_math04]
 @16 = ~¿Puedes darnos algo más de información, Mathyus?~
 @17 = ~¿Por qué no vas a buscarlo tú? Eres un elfo, a fin de cuentas. Puedes usar tus sentidos para encontrarlo.~
 @18 = ~¿Qué nos darás si lo encontramos? Somos gente ocupada y nuestro tiempo vale mucho.~
@@ -41,7 +41,7 @@
 @32 = ~No necesariamente debas gastar oro, <CHARNAME>. Aunque eso claramente funcionaría.~
 @33 = ~También puedes darle cerveza. O, en caso de que no quieras emplear ningún gasto físico, puedes simplemente contarle un chiste.~
 @34 = ~¿Un chiste? ¿Estás bromeando?~
-@35 = ~¿Qué puedo decir? Soy un elfo encantador.~
+@35 = ~¿Qué puedo decir? Soy un elfo encantador.~ [p_math05]
 @36 = ~*susurro* Dusk, eso no te correspondía a ti contarlo.~
 @37 = ~Ya, ya. Ambos sabemos que Michelson es capaz de cuidarse a sí mismo. Y bien, <CHARNAME>, ¿podrás con la tarea?~
 @38 = ~Quizás más tarde, Mathyus. Ahora estamos trabajando en asuntos más importantes.~
@@ -49,15 +49,15 @@
 @40 = ~De acuerdo, de acuerdo. Dusk, en camino.~
 @41 = ~Hmmm... es una lástima... si bien no temo por él, espero que retomes esta tarea cuanto antes, <CHARNAME>.~
 @42 = ~Gracias, <CHARNAME>. Espero con ansias tu regreso.~
-@43 = ~¿Cómo va la búsqueda, amigos? Espero que haya avances. No es que extrañe a ese pelirrojo descarado, pero me sentiría más tranquilo si estuviera por aquí.~
-@44 = ~Saludos, <CHARNAME>. Espero que todo ande bien.~
+@43 = ~¿Cómo va la búsqueda, amigos? Espero que haya avances. No es que extrañe a ese pelirrojo descarado, pero me sentiría más tranquilo si estuviera por aquí.~ [p_math06]
+@44 = ~Saludos, <CHARNAME>. Espero que todo ande bien.~ [p_math10]
 
 
 @45 = ~¡Vaya! *carraspeo* Un tópico un tanto incómodo de tratar... Preferiría hablar de eso más adelante.~
 @46 = ~Capitán Aldant...~
 @47 = ~¡Oh, bueno, ya sabes lo que dicen! Los viejos hábitos por la boca del pez mueren.~
 
-@48 = ~¡<CHARNAME>, Dusk! Como verán, Michelson ya está con nosotros.~
+@48 = ~¡<CHARNAME>, Dusk! Como verán, Michelson ya está con nosotros.~ [p_math07]
 @49 = ~Créanme, los entiendo perfectamente.~
 @50 = ~En fin, mientras ustedes se encaminaban hacia aquí, lo primero que hizo Michelson fue terminar los encantamientos de reparación sobre tu armadura, Dusk.~
 @51 = ~¡Ah, mi buen <CHARNAME>! No debes preocuparte por nada. Y tampoco creas que me he olvidado de tu recompensa por tus esfuerzos.~ ~¡Ah, mi buena <CHARNAME>! No debes preocuparte por nada. Y tampoco creas que me he olvidado de tu recompensa por tus esfuerzos.~
@@ -75,24 +75,24 @@
 @63 = ~Como consecuencia, puedo entender lo que dice Michelson... y me advirtió que si mi cabello era tocado por los rayos del sol o de la luna, me quedaría calvo para siempre.~
 @64 = ~Además, mencionó algo sobre tener los poderes de un dios y algún asunto sobre combatir a Cyric.~
 @65 = ~A día de hoy no comprendo mucho lo que quiso decir, pero ciertamente no decidí ignorarlo. Con el tiempo comprobé que su poder no es broma.~
-@66 = ~En fin, mi punto es que Michelson y yo seremos aliados de ustedes, forjando poderosos artefactos (siempre y cuando puedan conseguir dichos ingredientes).~
+@66 = ~En fin, mi punto es que Michelson y yo seremos aliados de ustedes, forjando poderosos artefactos (siempre y cuando puedan conseguir dichos ingredientes).~ [p_math09]
 @67 = ~Muy bien, Mathyus. Echaré un ojo a tu libro de recetas y si conseguimos lo necesario, volveremos.~
 @68 = ~Espero que valga la pena, elfo. No me gusta perder el tiempo con nimiedades.~
 @69 = ~De acuerdo, de acuerdo. En cuanto a ti, mi buen capitán Aldant, si tengo novedades sobre lo que buscas, te lo haré saber.~
 @70 = ~Excelente, camaradas. Cuando quieran forjar algo especial, Michelson y yo los estaremos esperando, ¿verdad, amiguito?~
 
-@71 = ~¡Ah! Pero si es mi grupo favorito de aventureros. ¿Cómo están? ¿Han venido a forjar algún artefacto con Michelson?~
+@71 = ~¡Ah! Pero si es mi grupo favorito de aventureros. ¿Cómo están? ¿Han venido a forjar algún artefacto con Michelson?~ [p_math11]
 @72 = ~Aún no hemos logrado reunir lo necesario, Mathyus.~
 @73 = ~Mathyus, hemos conseguido lo necesario para mejorar la espada de Dusk.~
 @74 = ~Ya veo, ya veo. Pues, estaremos aquí cuando lo consigan. Tengo plena confianza en que son capaces de conseguir lo necesario para nuestro amigo mágico, ¿no es así?~
 @75 = ~Por supuesto.~
 @76 = ~Aún no, Mathyus. Quizás más adelante.~
 @77 = ~Ya veo, ya veo. Pues, estaremos aquí por si cambias de opinión.~
-@78 = ~¿Escuchaste eso, Michelson? Parece que tenemos trabajo por hacer.~
+@78 = ~¿Escuchaste eso, Michelson? Parece que tenemos trabajo por hacer.~ [p_math12]
 @79 = ~¡De acuerdo! Capitán, ¿sería tan amable de brindarme su espada?~
 
 @80 = ~Gracias por tu voto de confianza, amigo mío. Bueno, bueno, Michelson. Parece que tenemos trabajo por hacer. ¡Manos a la obra!~
-@81 = ~Vaya, nunca me termino de acostumbrar verlo agotado.~
+@81 = ~Vaya, nunca me termino de acostumbrar verlo agotado.~ [p_math13]
 @82 = ~¿Se pondrá bien?~
 @83 = ~¡Por supuesto! Míralo, ya está bailando de nuevo.~
 @84 = ~No hay necesidad de agradecimiento, compañeros. Espero que den un buen uso al trabajo que hemos realizado aquí el día de hoy.~
@@ -100,7 +100,7 @@
 @86 = ~Será mejor que hables con Michelson, <CHARNAME>.~
 @87 = ~Ya va a comenzar, <CHARNAME>. Habla con Michelson para que puedas presenciar el proceso de construcción.~
 
-@88 = ~Saludos, <CHARNAME>. Michelson ya se encuentra con nosotros. Si quieres la recompensa, debes traer a Dusk contigo.~
+@88 = ~Saludos, <CHARNAME>. Michelson ya se encuentra con nosotros. Si quieres la recompensa, debes traer a Dusk contigo.~ [p_math08]
 
 
 
@@ -138,7 +138,7 @@
 
 ///// MISION 2
 
-@114 = ~¡Dusk! Me alegra que hayas recibido el mensaje de mi compañero. ¡Buen trabajo, Demoledor!~
+@114 = ~¡Dusk! Me alegra que hayas recibido el mensaje de mi compañero. ¡Buen trabajo, Demoledor!~ [p_math14]
 @115 = ~Así es, Capitán. Demoledor, con su gran olfato, ha obtenido la ubicación del grupo que buscas.~
 @116 = ~Cuando el Capitán Aldant nos contó de sus visiones, consulté a Michelson al respecto. Él me dijo que es posible que dichas visiones sean reales y que se tratasen de los verdaderos atacantes del destacamento de Cormyr.~
 @117 = ~Por alguna razón, Michelson hace énfasis en la palabra "posible".~
@@ -149,13 +149,13 @@
 @122 = ~El lugar es conocido como las Colinas Ventolanza. Podrás encontrarlos al sureste de la región, cerca de un gran lago.~
 @123 = ~No hay problema... pero, Dusk... no hagas nada precipitado.~
 @124 = ~De acuerdo, Capitán... una vez que cumplas con tu objetivo, por favor, vuelve con nosotros.~
-@125 = ~¡<CHARNAME>! Me alegra verte. Necesito hablar urgente con Dusk. Cuando puedas, ven con él.~
+@125 = ~¡<CHARNAME>! Me alegra verte. Necesito hablar urgente con Dusk. Cuando puedas, ven con él.~ [p_math15]
 @126 = ~De acuerdo, querido. ¿Has logrado reunir los 'condimentos' necesarios para nuestro amigo Michelson?~ ~De acuerdo, querida. ¿Has logrado reunir los 'condimentos' necesarios para nuestro amigo Michelson?~
 @127 = ~De acuerdo, Mathyus. Volveré con Dusk.~
 @128 = ~Está bien, Mathyus. Aunque primero me gustaría ver si podemos forjar algo antes con el leprechaun.~
 @129 = ~Gracias, <CHARNAME>. Vuelve pronto.~
 
-@130 = ~Me alegra veros de nuevo. ¿Tienen alguna novedad?~
+@130 = ~Me alegra veros de nuevo. ¿Tienen alguna novedad?~ [p_math16]
 @131 = ~Aún no, Mathyus. Pero en cuanto sepamos algo, volveremos.~
 @132 = ~Aún no, Mathyus. Primero nos gustaría ver si podemos forjar algo con el leprechaun.~
 @133 = ~Así es, Mathyus. Pero será mejor que Dusk te lo diga.~
@@ -237,7 +237,7 @@
 
 // M3 FINISHED
 @208 = ~Mathyus... hemos vencido al ejército de Alabarza... pero lamento informar que Dusk ha caído en batalla.~
-@209 = ~Y-ya veo... que no has podido resucitarle...~
+@209 = ~Y-ya veo... que no has podido resucitarle...~ [p_math17]
 @210 = ~(Michelson baja la cabeza y la sacude levemente, mientras intenta ocultar las lágrimas en sus mejillas)~
 @211 = ~(Demoledor, cabizbajo, gime levemente y se echa en el piso ante las palabras de <CHARNAME>)~
 @212 = ~<CHARNAME>, gr-gracias por el aviso...~
@@ -249,7 +249,7 @@
 @218 = ~Volveremos a Shilmista. Dudo que nuestros caminos vuelvan a cruzarse, <CHARNAME>. Sin embargo, te deseo fortuna y salud en tus viajes. Espero que logres encontrar aquello que tanto buscas.~
 @219 = ~(Demoledor, te mira con sus brillantes ojos, como despidiéndose)~
 @220 = ~(Michelson saluda con poco énfasis y procede a mover sus manos, conjurando un hechizo de teletransportación)~
-@231 = ~Adiós, <CHARNAME>.~
+@231 = ~Adiós, <CHARNAME>.~ [p_math18]
 @222 = ~(Michelson baja la cabeza y la sacude lentamente, y por primera vez pareces escuchar un suspiro de sus labios)~
 @223 = ~*suspiro* Puede que me odies por esto, <CHARNAME>... pero no puedo evitar sentir un ligero alivio en mi corazón por Dusk.~
 @224 = ~(Demoledor mira extrañado a Mathyus)~
@@ -376,8 +376,8 @@
 @337 = ~(Michelson, en un sorpresivo movimiento, intenta conjurar un hechizo contra Dusk)~
 @338 = ~(Demoledor, con una sopresiva agilidad, se abalanza contra Dusk)~
 
-@339 = ~¡Oh, ha pasado un tiempo desde la última vez que nos vimos!~
-@340 = ~¡Oh, ha pasado un tiempo desde la última vez que nos vimos! Me alegra veros de nuevo. ¿Está Dusk contigo? Necesito hablar urgente con él.~ 
+@339 = ~¡Oh, ha pasado un tiempo desde la última vez que nos vimos!~ [p_math19]
+@340 = ~¡Oh, ha pasado un tiempo desde la última vez que nos vimos! Me alegra veros de nuevo. ¿Está Dusk contigo? Necesito hablar urgente con él.~  [p_math19]
 @341 = ~¡Dusk! ¡<CHARNAME>! Es un placer veros juntos, sanos y salvos. Me imagino que fue toda una aventura el viaje en barco y su expedición en la peligrosa Infraoscuridad.~
 @342 = ~¡Mathyus, Michelson! Es un placer volver a ver sus rostros. A ti también, Demoledor.~
 @343 = ~(Demoledor, con una sopresiva agilidad, gira sobre su propio eje al recibir reconocimiento de su amigo)~ [P_Demo02]
@@ -440,7 +440,7 @@ Anthagar."~
 @399 = ~Ah, al fin veremos en acción a este arquero. Ya me estaba cansando de escucharle decir cuán poderoso es sin que lo demuestre con actos.~
 @400 = ~Creo que no tengo más nada que decir por ahora, Dusk. Cuando estén listos para partir, hablen de nuevo conmigo.~
 @401 = ~Os recomiendo que vayan preparados. Recuerden que pueden forjar artefactos con nuestro amigo verde, ¿sí?~
-@402 = ~Cuando estén listos... vuelvan. Shilmista presentará batalla.~
+@402 = ~Cuando estén listos... vuelvan. Shilmista presentará batalla.~ [p_math20]
 @403 = ~¿E-estás seguro de esto, <CHARNAME>?~ ~¿E-estás segura de esto, <CHARNAME>?~
 @404 = ~<CHARNAME>, sé que tenemos asuntos pendientes y urgentes... estoy consciente de ello... Pero te ruego que consideres esto, ya que la Cripta Olvidada puede resultar en un peligro inminente, incluso para Faerûn.~
 @405 = ~(Michelson asiente y silba con cierta preocupación ante las palabras de Dusk.)~
@@ -455,7 +455,7 @@ Anthagar."~
 @414 = ~(Michelson parece dubitativo durante unos segundos. Sus ojos se posan en Imoen y como si hubiese tenido una gran idea, chasquea los dedos y del cargamento extrae un viejo tomo polvoriento. Corre y lo deja en sus manos)~
 @415 = ~¡Gracias, Michelson! No sé si tenga muchos ánimos de leer ahora mismo, pero ten por seguro que le echaré una ojeada en cuanto pueda.~
 
-@416 = ~¡<CHARNAME>! No tienes idea de lo bueno que es verte... ¡y de lo bello que es poder respirar de nuevo!~
+@416 = ~¡<CHARNAME>! No tienes idea de lo bueno que es verte... ¡y de lo bello que es poder respirar de nuevo!~ [p_math21]
 @417 = ~¡Mathyus! Veo que Michelson ha podido revivirte, después de todo.~
 @418 = ~(Demoledor da vueltas sobre su mismo eje, demostrando una alegría inmensa ante las palabras de su amo)~ [P_Demo01]
 @419 = ~(Michelson zapatea y baila ante esto)~ [P_Mich03]
@@ -549,37 +549,3 @@ Anthagar."~
 @496 = ~(Michelson observa a Fall con atención. Luego de unos segundos, sus ojos se engrandecen y, de la nada, un objeto dorado aparece en sus pequeñas manos. Con velocidad se la entrega a Fall, realizando una extraña reverencia)~
 @497 = ~¿Una... diadema? ¡Qué liviana es! Siento... como si ya la hubiese visto en algún lado. Gracias, pequeño Michelson.~
 @498 = ~¡<CHARNAME>! ¿Cómo vas a decir eso? El asunto de esos magos parece ser de suma importancia... creo que es algo que no atañe a todos.~
-@499 = ~~
-
-
-
-
-
-
-
-
-
-
-@210029 = ~Dusk Aldant: La Venganza de la Primera Espada
-
-Hemos dado la noticia sobre la victoria sobre el clan Alabarza, aunque también transmitimos la caída de Dusk en batalla. Mathyus y Michelson se mostraron tristes, aunque también aliviados. Creían que Dusk había tomado un camino oscuro del cual no sería capaz de regresar. Supongo que eso quedará ahora en el pasado, ya que al menos, la venganza de Dusk se ha cumplido, aunque eso haya significado su muerte.~
-
-@210030 = ~Dusk Aldant: La Venganza de la Primera Espada
-
-Hemos dado la noticia sobre la victoria sobre el clan Alabarza, aunque también transmitimos la caída de Dusk en batalla. Mathyus y Michelson se mostraron tristes. Intentaron convencerse de que la batalla al menos trajo justicia por los caídos de Cormyr, pero sé que eso no es más que un leve consuelo. Mathyus y compañía regresarán a Shilmista, no sin antes desearnos fortuna y salud para nuestros viajes.~
-
-@210031 = ~Dusk Aldant: La Venganza de la Primera Espada
-
-Hemos dado la noticia sobre la victoria sobre el clan Alabarza. Dusk comentó que sentía que había algo más detrás del ataque de Alabarza sobre su destacamento. Mathyus y compañía le aseguraron que de ser así, habrían de averiguarlo pronto. Entretanto, contamos con una buena cantidad de oro como recompensa, algo que nos será útil en las batallas que se avecinan...~
-
-@210032 = ~Dusk Aldant: La Venganza de la Primera Espada
-
-Hemos dado la noticia sobre la victoria sobre el clan Alabarza. Hemos cobrado una buena recompensa por parte de los aliados Shilmistas de Dusk. Éste último ha comentado que Alabarza y su clan habían sido utilizados en el ataque contra el destacamento de Cormyr por la misteriosa Orden de Magos, compuesta por Sornhil y Valatar a quien encontramos. El jefe orco también mencionó a un elfo llamado Kalanda y al líder de la Orden, un nigromante del cual desconocemos. Algo me dice que no será la última vez que sepamos de ellos.~
-
-@210041 = ~Dusk Aldant: La Orden de Magos
-
-Hemos llegado a la guarida de Mathyus y nos ha comentado la situación actual. En efecto, el orbe que Anthagar entregó a Mathyus y Michelson se encuentra en poder de los shilmistas y no es más que un puente al lugar de enfrentamiento final. Contaremos con la ayuda de Mathyus y Demoledor. No tenemos más que hablar con el elfo cuando estemos listos para partir.~
-
-@210045 = ~Dusk Aldant: La Orden de Magos
-
-El orbe aciago de Anthagar nos ha traído a un extraño lugar. No parece que estemos en ningún lugar conocido del plano material, sino más bien en una especie de bolsa arcana de la que no podremos escapar hasta enfrentarnos a la Cripta Olvidada. No tenemos señales de Mathyus o Demoledor. Espero que lleguen a tiempo para el combate.~

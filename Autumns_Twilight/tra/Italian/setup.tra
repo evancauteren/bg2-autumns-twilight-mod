@@ -1756,6 +1756,9 @@ Abilità conferite:
 Classe Armatura: -2
 Peso: 4~
 
+@200386  = ~Salve! Spero che tutto vada bene.~ [P_math10]
+@200387  = ~Cosa posso dire? Sono un elfo affascinante.~ [P_math05]
+
 /////////////////////////////////////////////////
 /// DUSK /////
 /// MERGE ////
@@ -2287,7 +2290,6 @@ Peso: 25 lbs.~
 
 // ORBE DELLA TEMPESTA
 
-@400110 = ~Gema~
 @400111 = ~Orbe della Tempesta~
 @400112 = ~Questa gemma sembra fuori luogo in un posto come questo; è come se fosse stata lasciata appositamente. Potrebbe avere qualche significato, anche se avete il scomodo presentimento che non dovreste venderla e che sarebbe meglio conservarla per un po'. Normalmente, il verde scuro delle pietre beljuril brilla periodicamente con una lucentezza intermittente. Questa pietra ha una tonalità diversa, forse perché è una nuova varietà sconosciuta fino ad oggi. Sembra molto preziosa.~
 @400113 = ~Raramente si trovano frammenti stellari, risultati di grandiose tempeste del firmamento. Davanti a te c'è una sorta di gemma cristallizzata che emana un potere straordinario. Fin dove puoi vedere, solo un esperto druido nordico è in grado di comprenderne il potere.
@@ -2326,147 +2328,149 @@ Mago Rosso, livello 15~
 
 // POCIÓN CAÓTICO MALIGNO **VER
 
-@400121 = ~Poción~
-@400122 = ~Brebaje Mágico: Caótico Maligno~
-@400123 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400124 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400121 = ~Pozione~
+@400122 = ~Intruglio Magico: Caotico Malvagio~
+@400123 = ~Le pozioni si trovano spesso in fiaschi o recipienti di ceramica, vetro o metallo. I fiaschi o altri tipi di contenitori contengono una quantità sufficiente di liquido per fornire a una persona la dose necessaria per ottenere gli effetti della pozione.~
+@400124 = ~Per secoli sono circolate storie su strani intrugli che cambiavano il comportamento del consumatore. Non sorprende che, attraverso influssi magici, si possa creare un simile intruglio.
 
-CARACTERÍSTICAS:
+CARATTERISTICHE:
 
-Cambio de Alineamiento (permanente):
+Cambio di Allineamento (permanente):
 
-- Caótico Maligno.
-
-Peso: 25 lbs.~
-@400125 = ~Alineamiento cambiado: Caótico Maligno~
-
-// POCIÓN NEUTRAL MALIGNO
-
-@400126 = ~Poción~
-@400127 = ~Brebaje Mágico: Neutral Maligno~
-@400128 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400129 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
-
-CARACTERÍSTICAS:
-
-Cambio de Alineamiento (permanente):
-
-- Neutral Maligno.
+- Caotico Malvagio.
 
 Peso: 25 lbs.~
-@400130 = ~Alineamiento cambiado: Neutral Maligno~
+@400125 = ~Allineamento cambiato: Caotico Malvagio~
 
-// POCIÓN LEGAL MALIGNO **VER
+// POZIONE NEUTRALE MALVAGIO
 
-@400131 = ~Poción~
-@400132 = ~Brebaje Mágico: Legal Maligno~
-@400133 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400134 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400126 = ~Pozione~
+@400127 = ~Intruglio Magico: Neutrale Malvagio~
+@400128 = ~Le pozioni si trovano spesso in fiaschi o recipienti di ceramica, vetro o metallo. I fiaschi o altri tipi di contenitori contengono una quantità sufficiente di liquido per fornire a una persona la dose necessaria per ottenere gli effetti della pozione.~
+@400129 = ~Per secoli sono circolate storie su strani intrugli che cambiavano il comportamento del consumatore. Non sorprende che, attraverso influssi magici, si possa creare un simile intruglio.
 
-CARACTERÍSTICAS:
+CARATTERISTICHE:
 
-Cambio de Alineamiento (permanente):
+Cambio di Allineamento (permanente):
 
-- Legal Maligno.
-
-Peso: 25 lbs.~
-@400135 = ~Alineamiento cambiado: Legal Maligno~
-
-// POCIÓN CAÓTICO NEUTRAL **VER
-
-@400136 = ~Poción~
-@400137 = ~Brebaje Mágico: Caótico Neutral~
-@400138 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400139 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
-
-CARACTERÍSTICAS:
-
-Cambio de Alineamiento (permanente):
-
-- Caótico Neutral.
+- Neutrale Malvagio.
 
 Peso: 25 lbs.~
-@400140 = ~Alineamiento cambiado: Caótico Neutral~
+@400130 = ~Allineamento cambiato: Neutrale Malvagio~
 
-// POCIÓN NEUTRAL AUTÉNTICO
+// POZIONE LEGALE MALVAGIO
 
-@400141 = ~Poción~
-@400142 = ~Brebaje Mágico: Neutral Auténtico~
-@400143 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400144 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400131 = ~Pozione~
+@400132 = ~Intruglio Magico: Legale Malvagio~
+@400133 = ~Le pozioni si trovano spesso in fiaschi o recipienti di ceramica, vetro o metallo. I fiaschi o altri tipi di contenitori contengono una quantità sufficiente di liquido per fornire a una persona la dose necessaria per ottenere gli effetti della pozione.~
+@400134 = ~Per secoli sono circolate storie su strani intrugli che cambiavano il comportamento del consumatore. Non sorprende che, attraverso influssi magici, si possa creare un simile intruglio.
 
-CARACTERÍSTICAS:
+CARATTERISTICHE:
 
-Cambio de Alineamiento (permanente):
+Cambio di Allineamento (permanente):
 
-- Neutral Auténtico.
-
-Peso: 25 lbs.~
-@400145 = ~Alineamiento cambiado: Neutral Auténtico~
-
-// POCIÓN LEGAL NEUTRAL **VER
-
-@400146 = ~Poción~
-@400147 = ~Brebaje Mágico: Legal Neutral~
-@400148 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400149 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
-
-CARACTERÍSTICAS:
-
-Cambio de Alineamiento (permanente):
-
-- Legal Neutral.
+- Legale Malvagio.
 
 Peso: 25 lbs.~
-@400150 = ~Alineamiento cambiado: Legal Neutral~
+@400135 = ~Allineamento cambiato: Legale Malvagio~
 
-// POCIÓN CAÓTICO BUENO **VER
+// POZIONE CAOTICO NEUTRALE
 
-@400151 = ~Poción~
-@400152 = ~Brebaje Mágico: Caótico Bueno~
-@400153 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400154 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400136 = ~Pozione~
+@400137 = ~Intruglio Magico: Caotico Neutrale~
+@400138 = ~Le pozioni si trovano spesso in fiaschi o recipienti di ceramica, vetro o metallo. I fiaschi o altri tipi di contenitori contengono una quantità sufficiente di liquido per fornire a una persona la dose necessaria per ottenere gli effetti della pozione.~
+@400139 = ~Per secoli sono circolate storie su strani intrugli che cambiavano il comportamento del consumatore. Non sorprende che, attraverso influssi magici, si possa creare un simile intruglio.
 
-CARACTERÍSTICAS:
+CARATTERISTICHE:
 
-Cambio de Alineamiento (permanente):
+Cambio di Allineamento (permanente):
 
-- Caótico Bueno.
-
-Peso: 25 lbs.~
-@400155 = ~Alineamiento cambiado: Caótico Bueno~
-
-// POCIÓN NEUTRAL BUENO
-
-@400156 = ~Poción~
-@400157 = ~Brebaje Mágico: Neutral Bueno~
-@400158 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400159 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
-
-CARACTERÍSTICAS:
-
-Cambio de Alineamiento (permanente):
-
-- Neutral Bueno.
+- Caotico Neutrale.
 
 Peso: 25 lbs.~
-@400160 = ~Alineamiento cambiado: Neutral Bueno~
+@400140 = ~Allineamento cambiato: Caotico Neutrale~
 
-// POCIÓN LEGAL BUENO **VER
+// POZIONE NEUTRALE PURO
 
-@400161 = ~Poción~
-@400162 = ~Brebaje Mágico: Legal Bueno~
-@400163 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400164 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400141 = ~Pozione~
+@400142 = ~Intruglio Magico: Neutrale Puro~
+@400143 = ~Le pozioni si trovano spesso in fiaschi o recipienti di ceramica, vetro o metallo. I fiaschi o altri tipi di contenitori contengono una quantità sufficiente di liquido per fornire a una persona la dose necessaria per ottenere gli effetti della pozione.~
+@400144 = ~Per secoli sono circolate storie su strani intrugli che cambiavano il comportamento del consumatore. Non sorprende che, attraverso influssi magici, si possa creare un simile intruglio.
 
-CARACTERÍSTICAS:
+CARATTERISTICHE:
 
-Cambio de Alineamiento (permanente):
+Cambio di Allineamento (permanente):
 
-- Legal Bueno.
+- Neutrale Puro.
 
 Peso: 25 lbs.~
-@400165 = ~Alineamiento cambiado: Legal Bueno~
+@400145 = ~Allineamento cambiato: Neutrale Puro~
+
+
+// POZIONE LEGALE NEUTRALE
+
+@400146 = ~Pozione~
+@400147 = ~Intruglio Magico: Legale Neutrale~
+@400148 = ~Le pozioni si trovano spesso in fiaschi o recipienti di ceramica, vetro o metallo. I fiaschi o altri tipi di contenitori contengono una quantità sufficiente di liquido per fornire a una persona la dose necessaria per ottenere gli effetti della pozione.~
+@400149 = ~Per secoli sono circolate storie su strani intrugli che cambiavano il comportamento del consumatore. Non sorprende che, attraverso influssi magici, si possa creare un simile intruglio.
+
+CARATTERISTICHE:
+
+Cambio di Allineamento (permanente):
+
+- Legale Neutrale.
+
+Peso: 25 lbs.~
+@400150 = ~Allineamento cambiato: Legale Neutrale~
+
+// POZIONE CAOTICO BUONO
+
+@400151 = ~Pozione~
+@400152 = ~Intruglio Magico: Caotico Buono~
+@400153 = ~Le pozioni si trovano spesso in fiaschi o recipienti di ceramica, vetro o metallo. I fiaschi o altri tipi di contenitori contengono una quantità sufficiente di liquido per fornire a una persona la dose necessaria per ottenere gli effetti della pozione.~
+@400154 = ~Per secoli sono circolate storie su strani intrugli che cambiavano il comportamento del consumatore. Non sorprende che, attraverso influssi magici, si possa creare un simile intruglio.
+
+CARATTERISTICHE:
+
+Cambio di Allineamento (permanente):
+
+- Caotico Buono.
+
+Peso: 25 lbs.~
+@400155 = ~Allineamento cambiato: Caotico Buono~
+
+// POZIONE NEUTRALE BUONO
+
+@400156 = ~Pozione~
+@400157 = ~Intruglio Magico: Neutrale Buono~
+@400158 = ~Le pozioni si trovano spesso in fiaschi o recipienti di ceramica, vetro o metallo. I fiaschi o altri tipi di contenitori contengono una quantità sufficiente di liquido per fornire a una persona la dose necessaria per ottenere gli effetti della pozione.~
+@400159 = ~Per secoli sono circolate storie su strani intrugli che cambiavano il comportamento del consumatore. Non sorprende che, attraverso influssi magici, si possa creare un simile intruglio.
+
+CARATTERISTICHE:
+
+Cambio di Allineamento (permanente):
+
+- Neutrale Buono.
+
+Peso: 25 lbs.~
+@400160 = ~Allineamento cambiato: Neutrale Buono~
+
+// POZIONE LEGALE BUONO
+
+@400161 = ~Pozione~
+@400162 = ~Intruglio Magico: Legale Buono~
+@400163 = ~Le pozioni si trovano spesso in fiaschi o recipienti di ceramica, vetro o metallo. I fiaschi o altri tipi di contenitori contengono una quantità sufficiente di liquido per fornire a una persona la dose necessaria per ottenere gli effetti della pozione.~
+@400164 = ~Per secoli sono circolate storie su strani intrugli che cambiavano il comportamento del consumatore. Non sorprende che, attraverso influssi magici, si possa creare un simile intruglio.
+
+CARATTERISTICHE:
+
+Cambio di Allineamento (permanente):
+
+- Legale Buono.
+
+Peso: 25 lbs.~
+@400165 = ~Allineamento cambiato: Legale Buono~
+
 
 // POTIONE DI RASHEMEN
 
@@ -5729,8 +5733,8 @@ Requisito: Forza 3~
 @9094000 = ~Non so se ho voce in capitolo, ma credo che la mezz'elfa possa apportare qualcosa di buono al gruppo, nonostante la sua inesperienza.~
 
 // P_TISIPH
-@9100 = ~Generale, queste sono le creature della superficie che hanno distrutto il tuo esercito? Patetico...~
-@9102 = ~E tu, mio nemico. A cosa siete venuti? Sei alleato di Morgrath, la Usurpatrice, giusto?~
+@9100 = ~Generale, queste sono le creature della superficie che hanno distrutto il tuo esercito? Patetico...~ [p_tisi01]
+@9102 = ~E tu, mio nemico. A cosa siete venuti? Sei alleato di Morgrath, la Usurpatrice, giusto?~ [p_tisi02]
 @9103 = ~Mia Regina, il mio nome è-~
 @9104 = ~Strega, siamo venuti per-!~
 @9105 = ~Tisiphone, non siamo nemici, in realtà--~
@@ -5743,20 +5747,20 @@ Requisito: Forza 3~
 @91012 = ~Sii coraggioso, amico mio. Difendi la nostra Regina fino all'ultima forza.~
 @91013 = ~Basta! Capitano, non ordinerò che venga eseguita l'esecuzione. È qualcosa che farò io stessa.~
 
-@91014 = ~*sospiro* Sembra che Cho'Nuja sia più resistente di quanto mi aspettassi. Non importa, tra pochi minuti morirà.~
-@91015 = ~Cosa vedete? Dreach-naga non è un luogo per i deboli.~
+@91014 = ~*sospiro* Sembra che Cho'Nuja sia più resistente di quanto mi aspettassi. Non importa, tra pochi minuti morirà.~[p_tisi03]
+@91015 = ~Cosa vedete? Dreach-naga non è un luogo per i deboli.~ [p_tisi04]
 @91016 = ~Perché cerchi la distruzione dei tuoi? Cho'Nuja non ha fatto altro che servirti.~
 @91017 = ~Non mi importano affatto le sue usanze, mostro. Siamo qui per distruggerti. Il tuo cuore sarà mio!~
 @91018 = ~Vostra Altezza, non cerchiamo conflitti. In realtà, siamo nemici di colei che chiami Morgrath.~
 @91019 = ~Come posso aspettarmi che dei semplici forestieri capiscano le nostre usanze? La mia pazienza sta finendo.~
-@91020 = ~Attivate la trappola e uccideteli! Uccidete. Uccidete per la vostra Regina!~
+@91020 = ~Attivate la trappola e uccideteli! Uccidete. Uccidete per la vostra Regina!~ [p_tisi14]
 @91021 = ~Aspetta, Tisiphone!~
-@91022 = ~Creatura stupida! Gassthon, attiva la trappola. Gli intrusi moriranno qui e ora. Uccidete. Uccidete per la vostra Regina!~
+@91022 = ~Creatura stupida! Gassthon, attiva la trappola. Gli intrusi moriranno qui e ora. Uccidete. Uccidete per la vostra Regina!~ [p_tisi05]
 @91023 = ~Nemici della Usurpatrice? L'arrivo della Regina Ragno non ha fatto altro che danneggiare le mie terre fino al punto di avvelenamento totale. È solo una questione di tempo prima che tutto Dreach-naga, incluso l'Enclave di quella strega Vidomina, sia sopraffatto dall'oscurità di Rachnidra.~
-@91024 = ~Tuttavia, la grande Tisiphone non ha bisogno di alleati. Dreach-naga è forte e non cadrà di fronte a Rachnidra.~
+@91024 = ~Tuttavia, la grande Tisiphone non ha bisogno di alleati. Dreach-naga è forte e non cadrà di fronte a Rachnidra.~ [p_tisi06]
 @91025 = ~Non credo sia così. Infatti, abbiamo bisogno del tuo sangue per poter invadere il cubicolo di Morgrath e sconfiggerla. Il nostro nemico è comune.~
-@91026 = ~Il mio sangue è di regalità, feccia! *risata* Degli esseri inferiori vengono a esigere da me? Gassthon, mi sono stancata di loro. Attiva la trappola e uccideteli! Uccidete. Uccidete per la vostra Regina!~
-@91027 = ~Il mio sangue è di regalità, feccia! *risata* Degli esseri inferiori vengono a esigere da me? Gassthon, mi sono stancata di loro--~
+@91026 = ~Il mio sangue è di regalità, feccia! *risata* Degli esseri inferiori vengono a esigere da me? Gassthon, mi sono stancata di loro. Attiva la trappola e uccideteli! Uccidete. Uccidete per la vostra Regina!~ [p_tisi07]
+@91027 = ~Il mio sangue è di regalità, feccia! *risata* Degli esseri inferiori vengono a esigere da me? Gassthon, mi sono stancata di loro--~ [p_tisi08]
 @91028 = ~Chi è la creaturina che osa interrompermi? Hm, mi sembri familiare. I tuoi abiti...~
 @91029 = ~Sono Fall, figlia di Gemystara. Mia madre sta affrontando Morgrath mentre parliamo. <CHARNAME> e io stiamo cercando di salvarla, il che implica porre fine a questa guerra abissale, Vostra Altezza.~
 @91030 = ~Lo so, l'ho scoperto! Tu... tu sei la figlia di quella strega che ha osato ferirmi. Sono stata mutilata da uno dei suoi inganni!~
@@ -5766,9 +5770,9 @@ Requisito: Forza 3~
 @91034 = ~Silenzio! Capitano Gassthon...~
 
 @91035 = ~Il mio sangue è di regalità, feccia! *risata* Degli esseri inferiori vengono a esigere da me? Gassthon, mi sono stancata di loro. Attiva la trappola e uccideteli! Liberate Rask'tar Krathiss. Uccidete. Uccidete per la vostra Regina!~
-@91036 = ~Attiva la trappola e uccideteli! Liberate Rask'tar Krathiss. Uccidete. Uccidete per la vostra Regina!~
+@91036 = ~Attiva la trappola e uccideteli! Liberate Rask'tar Krathiss. Uccidete. Uccidete per la vostra Regina!~ [p_tisi12]
 
-@91037 = ~Creatura stupida! Gassthon, attiva la trappola. Gli intrusi moriranno qui e ora. Liberate Rask'tar Krathiss. Uccidete. Uccidete per la vostra Regina!~
+@91037 = ~Creatura stupida! Gassthon, attiva la trappola. Gli intrusi moriranno qui e ora. Liberate Rask'tar Krathiss. Uccidete. Uccidete per la vostra Regina!~ [p_tisi13]
 
 @91038  = ~Io sono la Regina di Dreach-naga!~ [p_tisi09]
 
@@ -6337,6 +6341,17 @@ Tima: Cufa, ricorda che siamo a dieta. Ehi, forestiera, è meglio che parli con 
 @92416   = ~Bene, mortale, sembra che ci fermeremo qui in questo tempio per un po'. Se hai ancora bisogno dei miei servizi, li avrai. A un piccolo prezzo, ovviamente. Anche un lich ha bisogno di un po' di ricchezze.~
 @92417   = ~Xsi, abbiamo bisogno di cure.~
 @92418   = ~A presto, mortale.~
+
+@92419   = ~Xsi, hai un artefatto potente in vendita?~
+@92420   = ~Possiedo le mie potenti Rune dell'Universalità. 100.000 pezzi d'oro, mortale. Né più né meno.~
+@92421   = ~Cento mila pezzi d'oro?! Lich, perché così tanto?~
+@92422   = ~D'accordo, Xsi. Ecco qui. Spero che ne valga la pena.~
+@92423   = ~Non ho quella quantità di oro, lich.~
+@92424   = ~Sei una creatura perspicace, nonostante il tuo aspetto. A questo punto dovresti sapere che alcuni artefatti sono limitati a certe classi. Cioè, ci sono artefatti vincolati, il cui uso è limitato a determinati tipi di creature. Le mie rune espandono queste restrizioni a chiunque le legga.~
+@92425   = ~Se vuoi ampliare il raggio d'azione di tali artefatti, mortale, le mie Rune sono la risposta. Quando avrai raccolto quella somma d'oro, torna da me. Nel frattempo, se hai bisogno di qualcosa, parlami.~
+@92426   = ~Presto vedrai che quello che hai fatto è stato un investimento, mortale. Ecco. Usa le Rune con saggezza.~
+@92427   = ~Le Rune dell'Universalità valgono il loro prezzo, mortale. Se raccogli quella somma, non esitare a cercarmi.~
+
 
 // P_NIMBUS
 
@@ -7395,9 +7410,9 @@ Ma alla fine, consumò la sua giovinezza e la sua vita.~
 @96874 = ~Cosa significa questo, Dusk? Non dirmi che ti seguono da prima che tu arrivassi ad Athkatla.~
 
 // P_DANCT2
-@9690 = ~Ardusk, <CHARNAME>, sono arrivati.~
+@9690 = ~Ardusk, <CHARNAME>, sono arrivati.~ [p_danc22]
 @9691 = ~Manca poco tempo... stanno arrivando...~
-@9692 = ~Io sarò qui ad aspettare... nell'ombra...~
+@9692 = ~Io sarò qui ad aspettare... nell'ombra...~ [p_danc23]
 @9693 = ~Loro, Danctian? Ti riferisci ai maghi della Cripta Dimenticata...~
 @9694 = ~Esatto... è meglio che vi prepariate.~
 @9695 = ~Saluti.~
@@ -7425,8 +7440,8 @@ Ma alla fine, consumò la sua giovinezza e la sua vita.~
 @96925 = ~Siamo venuti preparati! Noi--~
 @96926 = ~Non temere, <CHARNAME>. Anthagar aveva pianificato di ucciderci al fine di riportare Velsharún in questo piano.~
 @96927 = ~Lo so, Anthagar, servitore di Mellifleur. Ecco perché... anche noi... siamo venuti preparati...~
-@96928 = ~Le repliche sono pronte per il combattimento, Ardusk.~
-@96929 = ~Assisteranno al potere delle ombre del Pandemonio...~
+@96928 = ~Le repliche sono pronte per il combattimento, Ardusk.~ [p_danc24]
+@96929 = ~Assisteranno al potere delle ombre del Pandemonio...~ [p_danc25]
 @96930 = ~Oh, oh... alla fine dovremo sistemare i conti, vero?~
 @96931 = ~Esatto, <CHARNAME>. Non c'è altra scelta...~
 @96932 = ~Ottimo lavoro, Danctian. Strappiamo i cuori a questi sventurati.~
@@ -7434,7 +7449,7 @@ Ma alla fine, consumò la sua giovinezza e la sua vita.~
 @96934 = ~*risata maligna* Cosa succede? Sembri sorpreso.~
 @96935 = ~Non ascoltarlo, <CHARNAME>. Cercherà di dividerci prima del combattimento.~
 @96936 = ~Ah, davvero?~
-@96937 = ~Un'forza abissale sta per apparire, dobbiamo stare attenti!~
+@96937 = ~Un'forza abissale sta per apparire, dobbiamo stare attenti!~ [p_danc26]
 @96938 = ~*Il demone abissale mostra le sue terribili fauci, lanciandosi all'attacco del gruppo*~
 @96939 = ~Gli umani non sono affidabili, Anthagar... e questo cormyriano non fa eccezione.~
 
@@ -7483,8 +7498,8 @@ Ma alla fine, consumò la sua giovinezza e la sua vita.~
 @96975 = ~Finalmente... per questa occasione adotterò una trasformazione speciale... sarà qualcosa di unico...~
 @96976 = ~Fai tutto questo per vendetta? Non farmi ridere... l'unico responsabile della morte della tua amata sei tu... nel profondo lo sai.~
 @96977 = ~Non è solo vendetta, Anthagar... È anche per piacere... Il momento di strapparti la testa è arrivato. Preparati!~
-@96978 = ~Repliche... All'attacco!~
-@96979 = ~Finalmente... hanno trionfato.~
+@96978 = ~Repliche... All'attacco!~ [p_danc27]
+@96979 = ~Finalmente... hanno trionfato.~ [p_danc28]
 @96980 = ~*I suoi orbti scarlatti sembrano esaminare il campo di battaglia alla ricerca di minacce*~
 
 

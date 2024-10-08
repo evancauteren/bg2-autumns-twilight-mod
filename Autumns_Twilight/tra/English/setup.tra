@@ -1416,8 +1416,7 @@ Special Abilities:
 - Base Damage Type: Slashing
 - Speed Factor: 2
 - Attack Range: Adapts depending on the technique combined with it.
-- Martial Talent: Scimitar/wakizashi/ninja-to
-~
+- Martial Talent: Scimitar/wakizashi/ninja-to~
 
 @200335  = ~Malakta Wiivai~
 @200336  = ~Malakta Wiivai: Eternal Fury
@@ -1435,8 +1434,7 @@ Special Abilities:
 - Base Damage Type: Piercing
 - Speed Factor: 0
 - Attack Range: 2
-- Martial Talent: Spear
-~
+- Martial Talent: Spear~
 
 @200337  = ~Shehadtok Skriiod~
 @200338  = ~Shehadtok Skriiod: Imperial Wrath
@@ -1454,8 +1452,7 @@ Special Abilities:
 - Base Damage Type: Blunt
 - Speed Factor: 1
 - Attack Range: 1
-- Martial Talent: Club
-~
+- Martial Talent: Club~
 
 @200339  = ~Uvelucal Jeskic~
 @200340  = ~Uvelucal Jeskic: Acid Fangs
@@ -1474,8 +1471,7 @@ Special Abilities:
 - Base Damage Type: Piercing
 - Speed Factor: 1
 - Attack Range: 1
-- Martial Talent: Spear
-~
+- Martial Talent: Spear~
 
 @200341  = ~Cayosini Di Thirhe~
 @200342  = ~Cayosini Di Thirhe: Vengeance Blades
@@ -1494,8 +1490,7 @@ Special Abilities:
 - Base Damage Type: Slashing
 - Speed Factor: 2
 - Attack Range: 2
-- Martial Talent: Scimitar/wakizashi/ninja-to
-~
+- Martial Talent: Scimitar/wakizashi/ninja-to~
 
 @200343  = ~Elite Lizardfolk Scales~
 @200344  = ~The tough scales of Cho provide more than enough physical defense for melee combat. For years, Cho'Nuja has trained in the ranks of the Dreach-naga reptilian armies, fighting for decades against abyssal and demonic foes, rising to the rank of General. He is a battle-hardened veteran, and his scaled skin shows it. Due to his race, the scales protect against most existing acids.
@@ -1504,8 +1499,7 @@ CHARACTERISTICS:
 
 Armor Class: 2 (0 against blunt damage, 1 against piercing and projectile damage)
 Special Abilities: +90% resistance to acid
-Weight: 0
-~
+Weight: 0~
 
 @200345  = ~Draconic Claws~
 @200346  = ~The lizardfolk's limbs are prepared to advance tirelessly in complex terrains. For General Jon Cho'Nuja, his limbs have been strengthened throughout his life as an elite soldier in the Swamps of Rask'tar Krathiss. While Cho cannot use boots, he has trained his natural limbs, which can activate a draconic acceleration with exceptional duration. Innately, the lizardfolk will have a bonus to Armor Class against ranged attacks.
@@ -1792,6 +1786,8 @@ Possessed Abilities:
 Armor Class: -2
 Weight: 4~
 
+@200386  = ~Greetings! I hope all is well.~ [P_math10]
+@200387  = ~What can I say? I'm a charming elf.~ [P_math05]
 
 
 /////////////////////////////////////////////////
@@ -2363,147 +2359,149 @@ Red Wizard, level 15.~
 
 // POCIÓN CAÓTICO MALIGNO **VER
 
-@400121 = ~Poción~
-@400122 = ~Brebaje Mágico: Caótico Maligno~
-@400123 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400124 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400121 = ~Potion~
+@400122 = ~Magical Brew: Chaotic Evil~
+@400123 = ~Potions are usually found in ceramic, glass, or metal jars or vials. The jars or other types of containers hold enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
+@400124 = ~For centuries, stories have circulated about strange drinks that change the behavior of the consumer. It is no surprise that such brews can be created through magical influences.
 
 STATISTICS:
 
-Cambio de Alineamiento (permanente):
+Alignment Change (permanent):
 
-- Caótico Maligno.
+- Chaotic Evil.
 
-Peso: 25 lbs.~
-@400125 = ~Alineamiento cambiado: Caótico Maligno~
+Weight: 25 lbs.~
+@400125 = ~Alignment changed: Chaotic Evil~
 
-// POCIÓN NEUTRAL MALIGNO
+// POTION NEUTRAL EVIL
 
-@400126 = ~Poción~
-@400127 = ~Brebaje Mágico: Neutral Maligno~
-@400128 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400129 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
-
-STATISTICS:
-
-Cambio de Alineamiento (permanente):
-
-- Neutral Maligno.
-
-Peso: 25 lbs.~
-@400130 = ~Alineamiento cambiado: Neutral Maligno~
-
-// POCIÓN LEGAL MALIGNO **VER
-
-@400131 = ~Poción~
-@400132 = ~Brebaje Mágico: Legal Maligno~
-@400133 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400134 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400126 = ~Potion~
+@400127 = ~Magical Brew: Neutral Evil~
+@400128 = ~Potions are usually found in ceramic, glass, or metal jars or vials. The jars or other types of containers hold enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
+@400129 = ~For centuries, stories have circulated about strange drinks that change the behavior of the consumer. It is no surprise that such brews can be created through magical influences.
 
 STATISTICS:
 
-Cambio de Alineamiento (permanente):
+Alignment Change (permanent):
 
-- Legal Maligno.
+- Neutral Evil.
 
-Peso: 25 lbs.~
-@400135 = ~Alineamiento cambiado: Legal Maligno~
+Weight: 25 lbs.~
+@400130 = ~Alignment changed: Neutral Evil~
 
-// POCIÓN CAÓTICO NEUTRAL **VER
+// POTION LEGAL EVIL **SEE
 
-@400136 = ~Poción~
-@400137 = ~Brebaje Mágico: Caótico Neutral~
-@400138 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400139 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
-
-STATISTICS:
-
-Cambio de Alineamiento (permanente):
-
-- Caótico Neutral.
-
-Peso: 25 lbs.~
-@400140 = ~Alineamiento cambiado: Caótico Neutral~
-
-// POCIÓN NEUTRAL AUTÉNTICO
-
-@400141 = ~Poción~
-@400142 = ~Brebaje Mágico: Neutral Auténtico~
-@400143 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400144 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400131 = ~Potion~
+@400132 = ~Magical Brew: Lawful Evil~
+@400133 = ~Potions are usually found in ceramic, glass, or metal jars or vials. The jars or other types of containers hold enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
+@400134 = ~For centuries, stories have circulated about strange drinks that change the behavior of the consumer. It is no surprise that such brews can be created through magical influences.
 
 STATISTICS:
 
-Cambio de Alineamiento (permanente):
+Alignment Change (permanent):
 
-- Neutral Auténtico.
+- Lawful Evil.
 
-Peso: 25 lbs.~
-@400145 = ~Alineamiento cambiado: Neutral Auténtico~
+Weight: 25 lbs.~
+@400135 = ~Alignment changed: Lawful Evil~
+
+// POTION CHAOTIC NEUTRAL **SEE
+
+@400136 = ~Potion~
+@400137 = ~Magical Brew: Chaotic Neutral~
+@400138 = ~Potions are usually found in ceramic, glass, or metal jars or vials. The jars or other types of containers hold enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
+@400139 = ~For centuries, stories have circulated about strange drinks that change the behavior of the consumer. It is no surprise that such brews can be created through magical influences.
+
+STATISTICS:
+
+Alignment Change (permanent):
+
+- Chaotic Neutral.
+
+Weight: 25 lbs.~
+@400140 = ~Alignment changed: Chaotic Neutral~
+
+// POTION TRUE NEUTRAL
+
+@400141 = ~Potion~
+@400142 = ~Magical Brew: True Neutral~
+@400143 = ~Potions are usually found in ceramic, glass, or metal jars or vials. The jars or other types of containers hold enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
+@400144 = ~For centuries, stories have circulated about strange drinks that change the behavior of the consumer. It is no surprise that such brews can be created through magical influences.
+
+STATISTICS:
+
+Alignment Change (permanent):
+
+- True Neutral.
+
+Weight: 25 lbs.~
+@400145 = ~Alignment changed: True Neutral~
+
 
 // POCIÓN LEGAL NEUTRAL **VER
 
-@400146 = ~Poción~
-@400147 = ~Brebaje Mágico: Legal Neutral~
-@400148 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400149 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400146 = ~Potion~
+@400147 = ~Magical Brew: Lawful Neutral~
+@400148 = ~Potions are usually found in ceramic, glass, or metal jars or vials. The jars or other types of containers hold enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
+@400149 = ~For centuries, stories have circulated about strange drinks that change the behavior of the consumer. It is no surprise that such brews can be created through magical influences.
 
 STATISTICS:
 
-Cambio de Alineamiento (permanente):
+Alignment Change (permanent):
 
-- Legal Neutral.
+- Lawful Neutral.
 
-Peso: 25 lbs.~
-@400150 = ~Alineamiento cambiado: Legal Neutral~
+Weight: 25 lbs.~
+@400150 = ~Alignment changed: Lawful Neutral~
 
-// POCIÓN CAÓTICO BUENO **VER
+// POTION CHAOTIC GOOD **SEE
 
-@400151 = ~Poción~
-@400152 = ~Brebaje Mágico: Caótico Bueno~
-@400153 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400154 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
-
-STATISTICS:
-
-Cambio de Alineamiento (permanente):
-
-- Caótico Bueno.
-
-Peso: 25 lbs.~
-@400155 = ~Alineamiento cambiado: Caótico Bueno~
-
-// POCIÓN NEUTRAL BUENO
-
-@400156 = ~Poción~
-@400157 = ~Brebaje Mágico: Neutral Bueno~
-@400158 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400159 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400151 = ~Potion~
+@400152 = ~Magical Brew: Chaotic Good~
+@400153 = ~Potions are usually found in ceramic, glass, or metal jars or vials. The jars or other types of containers hold enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
+@400154 = ~For centuries, stories have circulated about strange drinks that change the behavior of the consumer. It is no surprise that such brews can be created through magical influences.
 
 STATISTICS:
 
-Cambio de Alineamiento (permanente):
+Alignment Change (permanent):
 
-- Neutral Bueno.
+- Chaotic Good.
 
-Peso: 25 lbs.~
-@400160 = ~Alineamiento cambiado: Neutral Bueno~
+Weight: 25 lbs.~
+@400155 = ~Alignment changed: Chaotic Good~
 
-// POCIÓN LEGAL BUENO **VER
+// POTION NEUTRAL GOOD
 
-@400161 = ~Poción~
-@400162 = ~Brebaje Mágico: Legal Bueno~
-@400163 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@400164 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400156 = ~Potion~
+@400157 = ~Magical Brew: Neutral Good~
+@400158 = ~Potions are usually found in ceramic, glass, or metal jars or vials. The jars or other types of containers hold enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
+@400159 = ~For centuries, stories have circulated about strange drinks that change the behavior of the consumer. It is no surprise that such brews can be created through magical influences.
 
 STATISTICS:
 
-Cambio de Alineamiento (permanente):
+Alignment Change (permanent):
 
-- Legal Bueno.
+- Neutral Good.
 
-Peso: 25 lbs.~
-@400165 = ~Alineamiento cambiado: Legal Bueno~
+Weight: 25 lbs.~
+@400160 = ~Alignment changed: Neutral Good~
+
+// POTION LAWFUL GOOD **SEE
+
+@400161 = ~Potion~
+@400162 = ~Magical Brew: Lawful Good~
+@400163 = ~Potions are usually found in ceramic, glass, or metal jars or vials. The jars or other types of containers hold enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
+@400164 = ~For centuries, stories have circulated about strange drinks that change the behavior of the consumer. It is no surprise that such brews can be created through magical influences.
+
+STATISTICS:
+
+Alignment Change (permanent):
+
+- Lawful Good.
+
+Weight: 25 lbs.~
+@400165 = ~Alignment changed: Lawful Good~
+
 
 // POCIÓN DE RASHEMEN
 
@@ -3940,6 +3938,10 @@ They were transported to the astral plane of summonings, where creatures are imm
 However, Bellfame's will is such that only those of good heart can call her to battle.
 
 The ring has been improved by Bellfame herself so that Dusk can use it. She also reinforced it to provide the bearer with improved magical resistance.
+
+POSSESSED ABILITIES:
+
+Magic Resistance: +10%
 
 Bellfame, the nymph of the Mir Forest:
 
@@ -5850,6 +5852,18 @@ The powerful elf of Shilmista."~
 @91037   = ~Stupid creature! Gassthon, activate the trap. The intruders will die here and now. Release Rask'tar Krathiss. Kill. Kill for your Queen!~ [p_tisi13]
 @91038   = ~I am the Queen of Dreach-naga!~ [p_tisi09]
 
+@91039   = ~You will witness the power of the shadows of Pandemonium!~ [p_danc25]
+@91040   = ~Be on your guard!~ [p_danc16]
+@91041   = ~Free... at last... ~ [p_danc01]
+@91042   = ~What must I forge for you?~ [p_danc13]
+@91043   = ~You have answered my call. Good, good...~ [p_danc14]
+
+@91044   = ~You have fallen into my web!~ [p_morg16]
+@91045   = ~Life or death, there are no other alternatives.~ [p_morg22]
+@91046   = ~My name is Legion... because we are many...~ [p_morg21]
+
+
+
 // P_ALENGH
 @9110    = ~Little Caraneth... <CHARNAME>...~
 @9111    = ~I don't think I've lost my sanity... but, aren't you supposed to be dead?~
@@ -6427,6 +6441,17 @@ Tima: Cufa, remember we're on a diet. Hey, stranger, it would be better if you t
 @92416   = ~Well, mortal, it seems we will be hidden in this temple for a while. If you still need my services, you will have them. For a small price, of course. Even a lich needs some wealth.~
 @92417   = ~Xsi, we need healing.~
 @92418   = ~See you soon, mortal.~
+
+@92419   = ~Xsi, do you have any powerful artifact for sale?~
+@92420   = ~I possess my powerful Runes of Universality. 100,000 gold pieces, mortal. No more, no less.~
+@92421   = ~A hundred thousand gold pieces?! Lich, why so much?~
+@92422   = ~Alright, Xsi. Here you go. I hope they are worth it.~
+@92423   = ~I don't have that amount of gold, lich.~
+@92424   = ~You're a shrewd creature, despite your appearance. You must know by now that some artifacts are limited to certain classes. That is, some artifacts are bound, restricted in their use to certain types of creatures. My runes take care of expanding that to whoever reads them.~
+@92425   = ~If you want to broaden the range of use of such artifacts, mortal, my Runes are the answer. When you gather that amount of gold, return to me. In the meantime, if you need something, just talk to me.~
+@92426   = ~Soon you'll see that what you've done is an investment, mortal. Here you go. Use the Runes wisely.~
+@92427   = ~The Runes of Universality are worth their price, mortal. If you gather that amount, do not hesitate to seek me out.~
+
 
 // P_NIMBUS
 
@@ -7492,7 +7517,6 @@ But in the end, he consumed his youth and life.~
 @96867 = ~You even have the alliance of a child of Bhaal. If we have their help, we can-~
 @96868 = ~For now, let's set <CHARNAME> aside, necromancer.~
 @96869 = ~What is it you truly seek? You want to meet the Shadow Demon of Pandemonium, don't you?~
-@96870 = ~~
 @96871 = ~Verily, Captain... I suppose you can command it to appear from the Shadows, can't you?~
 @96872 = ~*smiles* Danctian has a will of its own, Anthagar... That's how I wanted it.~
 @96873 = ~I-I don't understand...~
@@ -7500,9 +7524,9 @@ But in the end, he consumed his youth and life.~
 @96874 = ~What does this mean, Dusk? Don't tell me they've been following you since before you arrived in Athkatla.~
 
 // P_DANCT2
-@9690 = ~Ardusk, <CHARNAME>, you have arrived.~
+@9690 = ~Ardusk, <CHARNAME>, you have arrived.~ [p_danc22]
 @9691 = ~There is little time left... they are coming...~
-@9692 = ~I will be here waiting... in the shadows...~
+@9692 = ~I will be here waiting... in the shadows...~ [p_danc23]
 @9693 = ~"They," Danctian? Are you referring to the mages of the Forgotten Crypt...~
 @9694 = ~Yes... it's best that you prepare yourselves.~
 @9695 = ~Greetings.~
@@ -7529,8 +7553,8 @@ But in the end, he consumed his youth and life.~
 @96925 = ~We came prepared! We--~
 @96926 = ~on't be afraid, <CHARNAME>. Anthagar planned to kill us in order to bring Velsharoon back to this plane.~
 @96927 = ~I know, Anthagar, servant of Mellifleur. That's why... we... also came prepared...~
-@96928 = ~The replicas are ready for battle, Ardusk.~
-@96929 = ~You will witness the power of the shadows of Pandemonium...~
+@96928 = ~The replicas are ready for battle, Ardusk.~ [p_danc24]
+@96929 = ~You will witness the power of the shadows of Pandemonium...~ [p_danc25]
 @96930 = ~Well, well... in the end, we'll have to settle accounts, won't we?~
 @96931 = ~That's right, <CHARNAME>. There's no other choice...~
 @96932 = ~Well done, Danctian. Let's rip the hearts out of these miserable creatures.~
@@ -7539,7 +7563,7 @@ But in the end, he consumed his youth and life.~
 @96934 = ~*laughter* What's wrong? You seem surprised.~
 @96935 = ~Don't listen to him, <CHARNAME>. He'll try to fracture us before the fight.~
 @96936 = ~Oh, really?~
-@96937 = ~An abyssal force is about to appear, we must be careful!~
+@96937 = ~An abyssal force is about to appear, we must be careful!~ [p_danc26]
 @96938 = ~*The abyssal demon shows its fearsome jaws, attacking the party*~
 @96939 = ~Humans cannot be trusted, Anthagar... and this Cormyrean is no exception.~
 // Aparece dempit
@@ -7585,8 +7609,8 @@ But in the end, he consumed his youth and life.~
 @96976 = ~Are you doing this for revenge? Don't make me laugh... you're the only one responsible for your wife's death... deep down, you know it.~
 
 @96977 = ~It's not just revenge, Anthagar... It's also for pleasure... The time to rip off your head has come. Prepare yourself!~
-@96978 = ~Replicas... Charge!~
-@96979 = ~Finally... you have triumphed.~
+@96978 = ~Replicas... Charge!~ [p_danc27]
+@96979 = ~Finally... you have triumphed.~ [p_danc28]
 @96980 = ~*His scarlet orbs seem to scan the battlefield for threats*~
 @96981 = ~Verily, Danctian... We have won!~
 @96982 = ~I sense that Ardusk has fallen... unfortunately, I do not have the power to bring him back to life. If you can do it, so be it.~
@@ -8074,7 +8098,7 @@ a mouse in love, an eternal lover.'~
 @97461  = ~I have survived thus far. Today will be no exception. For my mother, I will do whatever it takes!~
 @97462  = ~We are kindred spirits, mortal. Because I will do the same for mine. Now let me address your leader.~
 @97463  = ~You are mistaken, Mesothel. When they are revived, it will be the last time they do so.~
-@97464  = ~General Cho'Nuja. You have survived not only my brothers but also confrontations with my mother. Why do you refuse to die? Surrender to eternal rest and set aside your suffering.~
+@97464  = ~General Cho'Nuja. You have survived not only my siblings but also confrontations with my mother. Why do you refuse to die? Surrender to eternal rest and set aside your suffering.~
 @97465  = ~War is all I know. I have only one more to fight. Rachnidra will fall, and all your prophecies will be forgotten.~
 @97466  = ~You still don't understand... but you will soon...~
 

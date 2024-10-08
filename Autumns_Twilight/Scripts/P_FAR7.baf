@@ -1,4 +1,12 @@
 IF
+  Global ("P_FAR7Explored","GLOBAL",0)
+THEN
+  RESPONSE #100
+    Explore()
+	SetGlobal ("P_FAR7Explored","GLOBAL",1)
+END
+
+IF
   Global ("P_LiphixTalk1","GLOBAL",1)
   Global ("P_Fall_Final_Mission_InitP_F6toB","GLOBAL",0)
 THEN
