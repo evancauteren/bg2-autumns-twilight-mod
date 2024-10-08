@@ -1,4 +1,4 @@
-# Autumns Twilight Mod
+# Autumns Twilight Mod for Baldur's Gate II
 
 **Autumns Twilight Mod** features several new NPC joining to the party, new enemies and a plethora of items.
 
@@ -16,6 +16,8 @@
 Inspired by the settings of Icewind Dale, Planescape: Torment, and Pillars of Eternity, this new dungeon features both old and new animations not originally available in B2.
 
 **ENEMIES AND CHALLENGES:** New enemies to face (4 of them on par with Demogorgon-level difficulty), ambient music for each new map, new battle music for each new map.
+
+**AVAILABLE LANGUAGES:** English, Spanish, Italian, Polish, German, French, Russian and Chinese (Simplified)
 
 ## How to Install
 Get the latest version of the mod from the [Releases](https://github.com/evancauteren/bg2-autumns-twilight-mod/releases "Releases") page and install it according to your OS.

@@ -1,5 +1,5 @@
-			Dusk NPC MOD for Baldur's Gate II
-				   Version 0.9.0
+			Autumns Twilight Mod for Baldur's Gate II
+				          Version 1.0.0
 
 CONTENTS
 
@@ -14,9 +14,7 @@ CONTENTS
 1. Introduction
 ----------------
 
-Dusk NPC Mod features a new NPC joining to the party: Dusk, the Wizard Slayer.
-Ardusk Aldant, also know as Dusk, is a warrior from Cormyr, trained in the Order of the Purple Dragons. After a long journey to Athkatla, Dusk now becomes a notable Wizard Slayer who just wants to live in peace. But a dark figure attacks in the peaceful Waukeen's Promenade.
-
+Autumns Twilight Mod features several new NPC joining to the party, new enemies and a plethora of items.
 
 ----------------
 2. Installation
@@ -25,118 +23,99 @@ Ardusk Aldant, also know as Dusk, is a warrior from Cormyr, trained in the Order
 Windows:
 Copy the content of the ZIP file into your BG2 directory and:
 
-    Execute setup-dusk.exe and follow the instructions
+    Execute setup-Autumns_Twilight.exe and follow the instructions
 
 macOS:
 Copy the content of the ZIP file into you BG2 directory and:
 
     Open Terminal then go to game directory
-    Grant execution permission to the installation scripts: chmod +x setup-dusk*
-    Execute the script and follow the instructions: ./setup-dusk.command
+    Grant execution permission to the installation scripts: chmod +x setup-Autumns_Twilight
+    Execute the script and follow the instructions: ./setup-Autumns_Twilight.command
 
 -----------------------
 3. Features
 -----------------------
 
-Dusk is a warrior specialist in the melee combat, using quarterstaffs and bastard swords. He has 2 innate abilities that learned in his youth as a First Sword in Cormyr:
-- Inspiring Surge: The Cormyrean warrior lets out a war cry of "For Cormyr!", instilling courage in his allies. During the time the effect lasts, they will be immune to the effects of fear. The scream also removes fear effects from those who would be affected.
-- Heroic Defense: The Cormyrean warrior who has been trained as First Sword, is capable of providing a Heroic Defense to the indicated target, providing physical and elemental defense by %10 for the duration of the effect.
+* NEW JOINABLE NPCS: Dusk, the Wizard Slayer, and Fall, the Beastmaster, plus 2 secret NPCs that will be revealed one week after the mod's release.
 
-Dusk will give you the chance to get:
-	* 4 new missions (for Shadow of Amn)
-	* A custom voice set for Dusk
-	* A path to convert Dusk into a Good or Evil alignment
-	* Several conversations with the Bhaalspawn, allowing the player to forge a friendship with the NPC
-	* Several conversations with the existings NPCs (including the EE characters)
-	* Dusk can make several friendship with the existings NPCs
-	* A set of items usable only by Wizard Slayers
-	* Through his missions he can learn new innate abilities and upgrade his personal items
-	* Through his missions, Dusk can improve his Ability Scores, allowing him to dual-class into a cleric or thief (depending of the alignment)
-	* About 100 new artifacts, 80 characters (allies and enemies), 10 new spells
-	* Music for the dialogues with the Bhaalspawn (will change according of the Dusk's alignment) and for some parts of some missions
+* NEW CONTENT: Over 10 new quests for Shadow of Amn, more than 100 new items, 3 new vendors available, 7 new spells for mages, possibility to upgrade existing items, 6 new race-exclusive kits
+
+* NEW DUNGEON: Dreach-naga and Rachnidra are abyssal layers locked in an age-old war for access to the Material Plane. Can the Bhaalspawn's interference shift the tide of this conflict?
+Inspired by the settings of Icewind Dale, Planescape: Torment, and Pillars of Eternity, this new dungeon features both old and new animations not originally available in B2.
+
+* ENEMIES AND CHALLENGES: New enemies to face (4 of them on par with Demogorgon-level difficulty), ambient music for each new map, new battle music for each new map.
+
+* AVAILABLE LANGUAGES: English, Spanish, Italian, Polish, German, French, Russian and Chinese (Simplified)
 
 ------------------------------
 4. Frequently Asked Questions
 ------------------------------
-
-Q: Where is he?
-A: Dusk is in the Waukeen's Promenade of Athkatla. He'll find you after you escape from the dungeon.
-
-Q: But he is not there!
-A: Make sure that you have actually installed the mod. Open your game directory and run Setup-Dusk.exe. If this file is not there, repeat the installation
-process as described above.
-
-Q: Dusk's select/confirm sounds are all mixed up! And his name, too!
-A: Select Dusk and press K key.
-
-Q: Is there a romance between Dusk and the PC?
-A: No (atleast at the moment), although you can have a friendship with him.
-
-Q: Can I install Dusk and continue playing?
-A: Sure, just quit the game before installing mods.
-
-Q: Is Dusk compatible with mod X?
-A: Dusk should work fine with other mods. Install him together with other NPCs.
-
-Q: Can I e-mail or PM you instead?
-A: You can write me to pablo.alejandro.ramos@gmail.com
-Facebook URL: https://www.facebook.com/bg2duskmod
-GitHub: https://github.com/RamosPabloA/NPC_Dusk_MOD
-
 
 -----------
 5. Credits
 -----------
 
 Pablo Ramos: Writer and Programmer
-Eduardo Van Cauteren: Contributor
-
-Literature:
-"Tierras de la Intriga: Tethyr" by Steven E. Schend, 1997.
-"La venganza del Duque" by Pol Rupes, 2019.
+ Eduardo Van Cauteren: Contributor
 
 Music:
-Dusk Aldant - True Neutral: Secunda by Jeremy Soule (performed by Eileen)
-Dusk Aldant - Neutral Good: Harbinger of Spring by Adrian von Ziegler
-Dusk Aldant - Neutral Evil: Alone With My Thoughts by Esther Abrami
-Mathyus Davis's seek help: Moonfolk by Adrian von Ziegler
-Danctian Shadow Final Quest: Gnossienne No. 1 by Erik Satie (perfomed by Alena Cherny) 
-The end of the conversations: Dreamseer by Adrian von Ziegler
-Mielikki's will: Ehsellyei by Gary Stadler with Stephannie
-Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)
+- Dusk Aldant - True Neutral: Secunda by Jeremy Soule (performed by Eileen)  
+- Dusk Aldant - Neutral Good: Harbinger of Spring by Adrian von Ziegler  
+- Dusk Aldant - Neutral Evil: Alone With My Thoughts by Esther Abrami  
+- Mathyus Davis's seek help: Moonfolk by Adrian von Ziegler  
+- Danctian Shadow Final Quest: Gnossienne No. 1 by Erik Satie (perfomed by Alena Cherny)  
+- The end of the conversations: Dreamseer by Adrian von Ziegler  
+- Mielikki's will: Ehsellyei by Gary Stadler with Stephannie  
+- Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)  
+- Rask'tar Marsh: Dungeon Town H5 composed by Paul Anthony Romero, with additional components by Rob King (lead sound designer)  
+- Rask'tar Marsh Battle: Dungeon Battle Theme H5 composed by Paul Anthony Romero, with additional components by Rob King (lead sound designer)  
+- Icelock Battle: Tower Battle Theme H5 composed by Paul Anthony Romero, with additional components by Rob King (lead sound designer)  
+- Gorm Battle: Haven Battle Theme H5 composed by Paul Anthony Romero, with additional components by Rob King (lead sound designer)  
+- Skel'Tharant Fight: Shield of Justice by Eternal Eclipse  
+- Dreach-naga Battle 1: Hyde by Jo Blankenburg  
+- Dreach-naga Battle 2: Argonaut by Jo Blankenburg  
+- Dreach-naga Battle 3: Czar by Jo Blankenburg  
+- Rachnidra Battle 1: Three Minutes by Kenji Kawai  
+- Rachnidra Battle 2: Showdown by Kenji Kawai  
+- Rachnidra Battle 3: Challenges by Kenji Kawai  
+- Enclave's Battle 1: Oathkeeper by Eternal Eclipse  
+- Enclave's Battle 2: Enigmatic by James Dooley  
+- Rachnidra Battle 1: Japanese Retake the Ridge by Rupert Gregson-Williams  
+- Tisiphone's Battle: Skirt by Kim TaeSung  
+- Morgrath's Final Battle: Blades of Justice by Jason Hayes, Mike Patti & Glenn Stafford  
+- Vidomina's Enclave: Elephant Man Main Theme, by John Morris  
+- Mathyus Hideout: The Star of the County Down by Cathal MacGarvey / The Gael by Dougie MacLean - Both perfomed by Roberto Colombo  
+- Fall Theme: Autumn is coming by Paul Anthony Romero  
+- Fall Spell Theme: Moonlit Wings by Derek Fietcher  
+- Kitochi's conversations: Rampart Theme by Paul Anthony Romero, with additional components by Rob King (perfomed by Adam Szwajcowski)  
+- Cho Theme: Titan's Stronghold by Paul Anthony Romero  
+- Alendir Theme: The Heavenly Forge (Main Theme) by Maciej Wróblewski  
+- Rachnidra/Dreach-naga Ambience Music:  
+  - De Vermis Mysteriis: Cthulhu Mythos Orchestral Horror Music by Graham Plowman
+  - Lake Hali by Graham Plowman
+  - The Birth of Wilbur by Graham Plowman
+
+New Animations:
+- Skel' Tharant by Wormhole
+- The rest were made by EngVee
+
+Voices:
+- Dusk by Nick  
+- Fall by Ivette  
+- Alendir/Cho'Nuja/Morgrath by Pol  
+- Mathyus/Danctian by Endarire  
+- Michelson by Franquito Rinaldi  
+- Kitochi by Disha (my cat)  
+- Vidomina, Gemystara and Tisiphone by DrTrenchcoatcat
 
 
 -------------------
 6. Version History
 -------------------
 
-Version 0.9.2
-**Bugs Fixed:**
-
-- Fixed custom item (_De'Arnise Mantle_) description for Nalia
-- Fixed several quest dialogs in order to reward player with custom items for Classic NPCs.
-- Fixed a bug that prevents the player to properly finish the final quest.
-
-**Enhancements:**
-
-- Recompressed all music files using **wavc** to save some space and to make the mod compatible with BG EET.
-- The strings for Dusk’s passive ability (Dusk Fury) are now correctly shown.
-
-**New Features:**
-
-- Added EE Characters dialogs.
-- Added a script for Dusk to behave towards Dorn depending on the alignment (True Neutral or Neutral Good).
-
-Version 0.9.1
-- Edited (nerfed) SEVERAL items for a better game balance
-- Fix several translation issues
-- WS Set usability fixes
-- Removed AMTGEN01.tra files since they were not needed
-- Created a hotkey (K) for solving an issue with dialogs being mixed up
-
-Version 0.9.0
+Version 1.0.0
 - Initial release
-- Complete translation to Spanish & English languages
+- Two new secret NPCs will be revealed one week after the mod's release (October 18, 2024)
 
 
 ---------------------
@@ -156,11 +135,26 @@ BioWare Corp. All Rights Reserved. Black Isle Studios and the Black Isle Studios
 logo are trademarks of Interplay Entertainment Corp. All Rights Reserved.
 Exclusively licensed and distributed by Interplay Entertainment Corp. All other
 trademarks and copyrights are property of their respective owners.
-=================================================================================
 
-=================================================================================
-Dusk NPC MOD for Baldur's Gate II © 2023. Dusk is not 
+Autumns Twilight Mod for Baldur's Gate II © 2024. Autumns Twilight Mod is not
 developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay
 Entertainment Corp., or the Wizards of the Coast. All other trademarks and
 copyrights are property of their respective owners.
+
+Autumns Twilight Mod Copyright (c) 2024 Pablo Alejandro Ramos
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 =================================================================================
