@@ -7,6 +7,7 @@ AreaCheck("P_FAR7")
   SAY @9240 /* ~Mortales. Vidomina me ha ordenado el brindarles mis sabios consejos y servicios curativos si así lo requirieran. Aunque es una nimiedad para mis verdaderas capacidades.~ */
     IF ~~ THEN REPLY @9241 /* Liche, necesitamos curación. */  GOTO 2
 	IF ~~ THEN REPLY @9242 /* Xsi, ¿cómo llegaste aquí? */  GOTO 5
+    IF ~~ THEN REPLY @92419 /* Xsi, ¿tienes algún artefacto poderoso a la venta? */  GOTO 5E
     IF ~~ THEN REPLY @9243 /* Por ahora no necesito nada. Adiós. */  GOTO 4E
 END
 
@@ -14,6 +15,33 @@ IF ~~ THEN BEGIN 2
   SAY @9244 /* ~Por tu aspecto diría que sí. Vamos, ¿qué puedo hacer por ti?~ */
   IF ~~ THEN DO ~StartStore("P_XSI",LastTalkedToBy(Myself))
 ~ EXIT
+END
+
+IF ~~ THEN BEGIN 5E // from:
+  SAY @92420 /* ~Poseo mis poderosas Runas de Universalidad. 100.000 piezas de oro, mortal. Ni más, ni menos.~ */
+    IF ~~ THEN REPLY @92421 /* ¡¿Cien mil piezas de oro?! Liche, ¿por qué tanto? */  GOTO 5E1
+	IF ~PartyGoldGT(99999)~ THEN REPLY @92422 /* De acuerdo, Xsi. Aquí tienes. Espero que valgan la pena. */  GOTO 5E3
+	IF ~~ THEN REPLY @92423 /* No tengo esa cantidad de oro, liche. */  GOTO 5E4
+END
+
+IF ~~ THEN BEGIN 5E1 // from:
+  SAY @92424 /* ~Eres una criatura perspicaz, pese a tu aspecto. Sabrás, a estas alturas, que hay artefactos que se limitan a ciertas clases. Es decir, que hay artefactos que están atados, restringidos de su uso hacia ciertos tipos de criaturas. Mis runas se encargan de expandir eso a quien las lea.~ */
+  IF ~~ THEN GOTO 5E2
+END
+
+IF ~~ THEN BEGIN 5E2
+  SAY @92425 /* ~Si quieres ampliar el rango de uso en dichos artefactos, mortal, mis Runas son la respuesta. Cuando logres juntar esa cantidad de oro, vuelve a mí. Mientras tanto, si necesitas algo, sólo habla conmigo.~ */
+  IF ~~ THEN DO ~~ EXIT
+END
+
+IF ~~ THEN BEGIN 5E3
+  SAY @92426 /* ~En poco tiempo verás que lo que has hecho es una inversión, mortal. Aquí tienes. Usa las Runas sabiamente.~ */
+  IF ~~ THEN DO ~TakePartyGold(100000) CreateItem ("p_nbk10",1,1,1)  GiveItem("p_nbk10", LastTalkedToBy)~ EXIT
+END
+
+IF ~~ THEN BEGIN 5E4
+  SAY @92427 /* ~Las Runas de Universalidad valen su precio, mortal. Si juntas esa cantidad, no dudes en buscarme.~ */
+  IF ~~ THEN DO ~~ EXIT
 END
 
 IF ~~ THEN BEGIN 4E
@@ -51,6 +79,7 @@ AreaCheck("P_FA3B")
 ~ THEN BEGIN 9 // from:
   SAY @92416 /* ~Bueno, mortal, parece ser que estaremos un tiempo ocultos en este templo. Si aún necesitas de mis servicios, lo tendrás. Por un pequeño precio, claro. Incluso un liche necesita algo de riqueza. ~ */
     IF ~~ THEN REPLY @92417 /* Xsi, necesitamos curación. */  GOTO 2
+    IF ~~ THEN REPLY @92419 /* Xsi, ¿tienes algún artefacto poderoso a la venta? */  GOTO 5E
     IF ~~ THEN REPLY @9243 /* Por ahora no necesito nada. Adiós. */  GOTO 10
 END
 

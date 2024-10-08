@@ -1,24 +1,23 @@
 //EVIL
 
-@0   = ~Free... at last...~
-@1   = ~Ardusk Aldant and <CHARNAME>. I owe you my loyalty...~
+@0   = ~Free... at last...~ [p_danc01]
+@1   = ~Ardusk Aldant and <CHARNAME>. I owe you my loyalty...~ [p_danc02]
 @2   = ~A Shadow Fiend?! Dusk, be on guard! We must defeat it.~
 @3   = ~By Candlekeep! Who the hell are you?~
 @4   = ~You need not fear for me, child of Bhaal. I do not believe I am the first non-hostile creature you have encountered. Like Ardusk, my loyalty will be with you as long as he accompanies you.~
-@5   = ~My name is Danctian Shadow. My surname may be redundant, but that's how, as far as I remember, I'm called.~
+@5   = ~My name is Danctian Shadow. My surname may be redundant, but that's how, as far as I remember, I'm called.~ [p_danc03]
 @6   = ~For a brief time I was used as a channeler between Pandemonium and this plane. The Order of Mages pursuing Ardusk is also interested in making direct contact with the Negative Energy Plane.~
 @7   = ~I sense it's related to Necromancy, due to the leader's specialized school.~
 @8   = ~I don't understand why you're telling us this. Are you trying to gain our trust?~
 @9   = ~You appear out of nowhere and your demonic energy is too evident. Give me a good reason why I shouldn't destroy you here and now.~
 @10  = ~There's no need for violence here and now, child of Bhaal. I do not intend to attack you.~
 @11  = ~If you trust Ardusk, then you can trust me. I am bound to his will, since... I have taken some of his life energy to be able to materialize in this plane.~
-@12  = ~But enough explanations... I see you have a particular question, mortal, do you not?~
+@12  = ~But enough explanations... I see you have a particular question, mortal, do you not?~ [p_danc04]
 @13  = ~What use will you be to us? At least the leprechaun was useful for crafting things.~
-@14  = ~~
 @15  = ~I have absorbed the power of the magical creature. I can manipulate its creation power with considerable improvement. Do you still have its recipe book? I can forge those artifacts without the need for gold, although the rest of the ingredients are still necessary.~
 
 @17  = ~In fact, I see you have obtained a Cormyrean shipment from your recent... expedition in your battle against Alabarza. It will be very useful to us, you'll see..~
-@18  = ~I can forge special artifacts for you. Even something more... personalized for your companions, son of Bhaal.~ ~I can forge special artifacts for you. Even something more... personalized for your companions, daughter  of Bhaal.~
+@18  = ~I can forge special artifacts for you. Even something more... personalized for your companions, son of Bhaal.~ [p_danc05] ~I can forge special artifacts for you. Even something more... personalized for your companions, daughter  of Bhaal.~ [p_danc05]
 @19  = ~That's true, <CHARNAME>. The Shadow Fiend is, for now, an extension of me. However, it will remain here, in Athkatla.~
 @20  = ~The truth is... Danctian was supposed to possess me to fulfill the will of the mages we encountered.~
 @21  = ~It wasn't until one of the mages made a mistake.~
@@ -104,7 +103,7 @@
 @95  = ~A scimitar.~
 @96  = ~A greatsword.~
 @97  = ~Hm... I have changed my mind. I prefer to choose something else.~
-@98  = ~Greetings, mortal. Have you come to forge any artifact? I will ensure an efficient result, especially for those who are close to Ardusk. And remember... the use of my powers does not require gold.~
+@98  = ~Greetings, mortal. Have you come to forge any artifact? I will ensure an efficient result, especially for those who are close to Ardusk. And remember... the use of my powers does not require gold.~ [p_danc06]
 @99  = ~We have not yet gathered what is necessary, Danctian.~
 @100  = ~I see. I will be here if you need me. I will be waiting for you... in the shadows...~
 @101  = ~Danctian, we have obtained what is necessary to improve Dusk's sword.~
@@ -114,11 +113,11 @@
 
   // Espada de Disrupción
 
-@105  = ~Very well. You'll see that my work is just as good as that magical creature from Shilmista, if not better.~
+@105  = ~Very well. You'll see that my work is just as good as that magical creature from Shilmista, if not better.~ [p_danc07]
 @106  = ~Ardusk, hand over your sword. I'll use my powers to greatly improve it.~
-@107  = ~I assure you, Ardusk... you'll be pleased with the results. Now... step aside!~
+@107  = ~I assure you, Ardusk... you'll be pleased with the results. Now... step aside!~ [p_danc08]
 @108  = ~*It seems the ritual has ended and the fiend appears unfazed by the event*~
-@109  = ~The ritual has ended, mortal.~
+@109  = ~The ritual has ended, mortal.~ [p_danc09]
 @110  = ~How did it go, Danctian?~
 @111  = ~The Cormyrean Disruption Sword has been forged. It's a notable improvement, Ardusk. I'm sure you'll appreciate it.~
 @112  = ~I've done what you asked. You know where to find me if you need me to forge another artifact, mortals. See you soon.~
@@ -163,7 +162,7 @@
   // Vengadora Real
 
 @129  = ~Danctian, we have obtained the artifacts of Duke Benork.~
-@130  = ~Hmm... interesting. The magical creature from Shilmista had the last artifact of the late Benork. Now, the Royal Avenger is in my possession.~
+@130  = ~Hmm... interesting. The magical creature from Shilmista had the last artifact of the late Benork. Now, the Royal Avenger is in my possession.~ [p_danc10]
 @131  = ~It has not been easy to obtain all the artifacts, Danctian. Will you give us the final piece of the Wizard Slayer Set?~
 @132  = ~Nothing would give me more pleasure than to see the Wizard Slayer Set complete in your possession, my <LADYLORD>. After all, you and Ardusk have collaborated in my release from Pandemonium.~
 @133  = ~You have achieved the unthinkable, mortals. Today, you have taken one step closer in your just quest to accumulate power. As the veil of night inexorably falls over the light, so shall the steel that you wield in your hands fall upon the heart of the enemy...~
@@ -191,7 +190,7 @@
 
 @144  = ~Once again, I congratulate you on what you have achieved here and gratitude for my liberation. I assure you that you won't regret it. I will be here in case you need to forge any artifact. And Dusk... if I have any news about the Order that is after you, I will find you myself... in the shadows...~
 
-@145  = ~Ardusk... <CHARNAME>...~
+@145  = ~Ardusk... <CHARNAME>...~ [p_danc11]
 @146  = ~We need to talk... a matter of the utmost importance will concern you... both of you...~
 @147  = ~Danctian! Where did you come from? Damn, how did you find us?~
 @148  = ~As I have mentioned before, you and I have a connection due to... the sacrifice you made to free me.~
@@ -206,15 +205,15 @@
 @157  = ~You should at least reconsider... since it is directly related to the Forgotten Crypt.~
 @158  = ~This is not the best place to talk... Come to the hideout that used to belong to the Shilmists in the Athkatla's Docks. There we will talk... about the Forgotten Crypt...~
 @159  = ~W-what? Danctian, what are you talking about?~
-@160  = ~I will tell you everything when we meet again... Remember: Athkatla's Docks, in the hideout that once belonged to the Shilmista elf.~
+@160  = ~I will tell you everything when we meet again... Remember: Athkatla's Docks, in the hideout that once belonged to the Shilmista elf.~ [p_danc12]
 @161  = ~Ah... the spawn of Bhaal, <CHARNAME>'s sister. It is a great honor to be able to serve you as well.~
 @162  = ~Hm... I'm not sure if that makes me feel safe, shadow sir.~
 @163  = ~Don't worry, I have no ill intentions towards you. In fact, this divine tome is for you.~
 @164  = ~A divine tome? Well... thank you, I guess. (Dusk, did you really release this creature on purpose?)~
 
-@165  = ~I see... then, what must I forge for you?~
-@166  = ~You have answered my call. Good, good...~
-@167  = ~<CHARNAME>, I don't see Ardusk with you. You should return with him so we can talk about the Forgotten Crypt.~
+@165  = ~I see... then, what must I forge for you?~ [p_danc13]
+@166  = ~You have answered my call. Good, good...~ [p_danc14]
+@167  = ~<CHARNAME>, I don't see Ardusk with you. You should return with him so we can talk about the Forgotten Crypt.~ [p_danc15]
 @168  = ~Very well, Danctian. I'll go back to Dusk.~
 
 @169  = ~Very well, Danctian. Although, first I'd like to see if we can forge something.~
@@ -245,9 +244,9 @@
 @192  = ~His Order will meet us in a sort of... neutral ground.~
 @193  = ~The mage is not lacking in insight, and his doubts will test you one last time, <CHARNAME>.~
 @194  = ~<CHARNAME>, I don't see Ardusk with you. You should return with him if you want to use the Necromancer's cursed orb.~
-@195  = ~Very well... are you ready to depart? I recommend being well prepared before the encounter.~
+@195  = ~Very well... are you ready to depart? I recommend being well prepared before the encounter.~ [p_danc17]
 @196  = ~We're ready, Danctian. Activate the orb!~
-@197  = ~Very well... the cursed orb will be activated. May the power of Pandemonium bless you!~
+@197  = ~Very well... the cursed orb will be activated. May the power of Pandemonium bless you!~ [p_danc18]
 @198  = ~It will be as you wish, <CHARNAME>. When you are ready, simply ask me to activate the orb, and I will take you to that place. By the way... Ardusk...~
 @199  = ~I see you still carry the Crimson Sword. The heart of the abyssal demon has made it stronger, indeed.~
 @200  = ~Now then... I release you to prepare for the journey through the Cursed Orb. Speak to me again when you are ready...~
@@ -264,7 +263,7 @@
 @210  = ~¿Ira?~
 @211  = ~That is the true name of the weapon, Ardusk. And it is destined to be in your hands.~
 @212  = ~Your enemies will tremble... and they will be killed in the name of the shadows.~
-@213  = ~<CHARNAME>, we are back on your plane.~
+@213  = ~<CHARNAME>, we are back on your plane.~ [p_danc19]
 @214  = ~It has been... an interesting journey, Danctian.~
 @215  = ~Ardusk Aldant has fallen in combat. His vengeance has been fulfilled, and his soul, if it does not return to this plane, will be found by me, for it is tied to my essence and thus my will.~
 @216  = ~The Pandemonium will become his new home, and he will live in the shadows for a good while.~
@@ -272,13 +271,13 @@
 @218  = ~Because the Cormyrean has tied his blood with mine, and we are destined to share the same fate.~
 @219  = ~My work here is done... I will regroup on my plane... I leave you with this substantial amount of gold, <CHARNAME>. I am sure it will be useful in your fight against Irenicus. I wish you fortune to your loved ones... and terror to your enemies. Farewell, son of Bhaal!~ ~My work here is done... I will regroup on my plane... I leave you with this substantial amount of gold, <CHARNAME>. I am sure it will be useful in your fight against Irenicus. I wish you fortune to your loved ones... and terror to your enemies. Farewell, daughter of Bhaal!~
 
-@220  = ~Your vengeance is complete, Ardusk Aldant. The Forgotten Crypt has been destroyed.~
+@220  = ~Your vengeance is complete, Ardusk Aldant. The Forgotten Crypt has been destroyed.~ [p_danc20]
 @221  = ~Verily, Ardusk. Prepare yourself, for I will take you to a distant plane...~
 @222  = ~Yes...~
 @223  = ~Anthagar had a talisman of Mellifleur, an item imbued by the gods themselves in the Time of Troubles.~
 @224  = ~I can channel some of its power and bring her back for a while.~
 @225  = ~What have you said? ... Bring her back? You mean...~
-@226  = ~We have returned to Athkatla.~
+@226  = ~We have returned to Athkatla.~ [p_danc21]
 @227  = ~I assume that what we have seen has been... real...~
 @228  = ~You are correct. I don't think Mielikki was too amused that you invaded his... precious Grove.~
 @229  = ~Why did you do it, Danctian?~

@@ -1,12 +1,12 @@
-@0=~<CHARNAME>, w końcu się spotykamy...~
-@1=~Jestem Morgrath, Królowa Rachnidry. Moje wpływy zaczęły rozprzestrzeniać się w Dreach-naga. To tylko wstęp do tego, co zobaczysz na Planie Materialnym.~
+@0=~<CHARNAME>, w końcu się spotykamy...~ [p_morg01]
+@1=~Jestem Morgrath, Królowa Rachnidry. Moje wpływy zaczęły rozprzestrzeniać się w Dreach-naga. To tylko wstęp do tego, co zobaczysz na Planie Materialnym.~ [p_morg02]
 @2=~Morgrath... byłaś głupia, pokazując się przede mną. Przygotuj się na śmierć!~
 @3=~Potworze, co tu robisz? Pokonałem wiele twojego rodzaju. To tylko kwestia czasu, zanim zostaniesz pokonana.~
-@4=~Jesteś taka, jak w moich snach. Istota, jak ja, która pozostawiła za sobą szlak trupów. Nie różnimy się tak bardzo, <CHARNAME>.~
-@5=~Musiałam cię zobaczyć. Niewiele stworzeń potrafiło sprzeciwić się moim snom. Ty jesteś jednym z nich.~
-@6=~Tak, zabiłeś wielu moich synów i córek. Jaką byłabym matką, gdyby mnie to nie obchodziło?~
-@7=~Ci, którzy zginęli z twojej ręki, zostaną ożywieni w moim Wiecznym Królestwie. Ale boli mnie widok ich zniszczenia.~
-@8=~Twoja siła będzie teraz moją rozrywką, <CHARNAME>. Chodź, czas zmierzyć się ze mną.~
+@4=~Jesteś taka, jak w moich snach. Istota, jak ja, która pozostawiła za sobą szlak trupów. Nie różnimy się tak bardzo, <CHARNAME>.~ [p_morg03]
+@5=~Musiałam cię zobaczyć. Niewiele stworzeń potrafiło sprzeciwić się moim snom. Ty jesteś jednym z nich.~  [p_morg23]
+@6=~Tak, zabiłeś wielu moich synów i córek. Jaką byłabym matką, gdyby mnie to nie obchodziło?~ [p_morg04]
+@7=~Ci, którzy zginęli z twojej ręki, zostaną ożywieni w moim Wiecznym Królestwie. Ale boli mnie widok ich zniszczenia.~ [p_morg05]
+@8=~Twoja siła będzie teraz moją rozrywką, <CHARNAME>. Chodź, czas zmierzyć się ze mną.~ [p_morg06]
 @9=~*jej oczy wydają się martwe*~
 @10=~Ach, widzę, że także dotarłeś...~
 @11=~Ty... jesteś Morgrath.~
@@ -35,13 +35,13 @@
 @34=~Twoja reputacja cię wyprzedza. Ale to nie jest moja pełna moc. Zobaczysz, jak przy każdym naszym spotkaniu moja siła wzrasta. Spotkamy się ponownie, <CHARNAME>. Bardzo szybko.~
 
 // 2nd Encounter
-@35=~Twoja przebiegłość jest niezrównana, <CHARNAME>.~
+@35=~Twoja przebiegłość jest niezrównana, <CHARNAME>.~ [p_morg07]
 @36=~Czy chciałbyś zostać moim potomkiem? Pod moim jarzmem nigdy nie umrzesz.~
 @37=~A co niby mam zrobić? Pozwolić ci, byś zamieniła mnie w driadera? To nigdy się nie wydarzy.~
 @38=~Nie robię układów z potworami. Zwłaszcza nie z kimś tak złym jak ty.~
 @39=~Myślę, że się boisz. W desperacji szukasz ucieczki u mnie, ponieważ wiesz, że mogę zakłócić twoje plany.~
-@40=~Nie znam strachu, <CHARNAME>. I nie znam porażki.~
-@41=~Szkoda. Twoja odmowa nie zostawia mi wyboru, muszę znowu z tobą walczyć.~
+@40=~Nie znam strachu, <CHARNAME>. I nie znam porażki.~ [p_morg08]
+@41=~Szkoda. Twoja odmowa nie zostawia mi wyboru, muszę znowu z tobą walczyć.~ [p_morg09]
 @42=~Gdybyś tylko urodził się pająkiem...~
 @43=~To samo dotyczy ciebie, córko Gemystary. Czy nie rozważyłabyś zostania moją córką? Mogłabym przemienić cię w driadera. Twoja moc byłaby równa mocy półbogini. Razem podbijemy plany. Nasi wrogowie byliby ucztą, którą smakowalibyśmy w Pajęczynach Rachnidry.~
 @44=~Wolałabym umrzeć tysiąc razy, niż mieć z tobą cokolwiek wspólnego, Morgrath.~
@@ -54,39 +54,39 @@
 @51=~Lojalna nawet w śmierci. Jak mówiłam wcześniej, Generale: Inspirujące.~
 @52=~Ale dość tego. To <CHARNAME> mnie interesuje.~
 @53=~Ale dość z tobą, kobieto. To <CHARNAME> mnie interesuje.~
-@54=~Bardzo dobrze. Twoje umiejętności bojowe dorównują moim najlepszym żołnierzom. Od wieków nie miałam tyle zabawy. Spotkamy się ponownie wkrótce, <CHARNAME>.~
+@54=~Bardzo dobrze. Twoje umiejętności bojowe dorównują moim najlepszym żołnierzom. Od wieków nie miałam tyle zabawy. Spotkamy się ponownie wkrótce, <CHARNAME>.~ [p_morg10]
 @55=~Nie waż się mówić o mojej Królowej, potworze!~
 
 // 3rd Encounter
-@56=~To już się staje nawykiem, co nie sądzisz, <CHARNAME>?~
+@56=~To już się staje nawykiem, co nie sądzisz, <CHARNAME>?~ [p_morg11]
 @57=~Co myślisz o pomniku, który stworzyły moje dzieci? Myślę, że to był dobry pomysł, by zmniejszyć nadzieje jaszczuroludzi. Działa doskonale. Myślę, że popełnili błąd co do jego wielkości. W tym sensie nie oddaje mi sprawiedliwości.~
 @58=~Myślę, że to okropny pomnik. Szkoda, że jaszczuroludzie nie zdołali go zburzyć na czas.~
 @59=~Nie obchodzi mnie to. Przyszedłeś tu znowu, by zostać pokonanym, prawda? Chodź, czas na krew, Królowo.~
-@60=~A jednak będzie to latarnia mojej mocy w tej warstwie Otchłani. Symbol początku mojego panowania nad planami, gdzie rozciągnie się moja potężna sieć.~
-@61=~Dość gadania. Czas na naszą walkę.~
+@60=~A jednak będzie to latarnia mojej mocy w tej warstwie Otchłani. Symbol początku mojego panowania nad planami, gdzie rozciągnie się moja potężna sieć.~ [p_morg12]
+@61=~Dość gadania. Czas na naszą walkę.~[p_morg13]
 @62=~Będzie to świadectwo twojego upadku, Morgrath. Może nikt nie będzie w stanie go zburzyć... ale nie będzie nikogo, kto by go czcił. Ty zginiesz. Wszyscy twoi zginą.~
 @63=~Jesteś żywym świadectwem Dreach-naga, Generale Cho'Nuja. Ostatnim z twojej linii. Dowodem umierającego narodu. Zajmiemy się tym. Poczekaj i zobaczysz.~
-@64=~Małe zwycięstwo dla ciebie, <CHARNAME>. Pamiętaj, że nie jest ważne, kto wygrywa wiele bitew... ale ten, kto wygra wojnę. Idź do Enklawy. Koniec wojny się zbliża...~
+@64=~Małe zwycięstwo dla ciebie, <CHARNAME>. Pamiętaj, że nie jest ważne, kto wygrywa wiele bitew... ale ten, kto wygra wojnę. Idź do Enklawy. Koniec wojny się zbliża...~ [p_morg14]
 
 // FINAL BATTLE
 // POSIBILIDAD 1 -> CHO/FALL/VID
-@65=~W końcu... wpadli w moją pajęczynę...~
-@66=~Upadnij, <CHARNAME>. To była tylko kwestia czasu, zanim doszło do naszego ostatecznego spotkania. Wszystko idzie zgodnie z moimi planami.~
+@65=~W końcu... wpadli w moją pajęczynę...~ [p_morg15]
+@66=~Upadnij, <CHARNAME>. To była tylko kwestia czasu, zanim doszło do naszego ostatecznego spotkania. Wszystko idzie zgodnie z moimi planami.~ [p_morg18]
 @67=~Naprawdę oczekujesz, że uwierzymy, iż tego chciałaś? Pokonałem cię więcej niż raz. Wiem, że wiesz, iż twój koniec jest bliski.~
 @68=~"Zgodnie z twoimi planami"? Wyjaśnij się, Morgrath.~
-@69=~Jesteś głupcem, jeśli myślisz, że widziałeś pełnię mojej mocy, <CHARNAME>. Wkrótce zrozumiesz moje słowa.~
-@70=~Dreach-naga już nie istnieje, a w rezultacie moja moc znacznie wzrosła. Tylko czarodziejka selu'taar powstrzymywała moje prawdziwe ujawnienie się z tego pustkowia.~
+@69=~Jesteś głupcem, jeśli myślisz, że widziałeś pełnię mojej mocy, <CHARNAME>. Wkrótce zrozumiesz moje słowa.~ [p_morg17]
+@70=~Dreach-naga już nie istnieje, a w rezultacie moja moc znacznie wzrosła. Tylko czarodziejka selu'taar powstrzymywała moje prawdziwe ujawnienie się z tego pustkowia.~ [p_morg19]
 @71=~"Prawdziwe ujawnienie"? O czym ty mówisz? Pokonałem cię w Dreach-naga. Nie wyglądało, jakbyś była uwięziona.~
 @72=~Choć selu'taar mnie uwięziła, mogłam się projektować do Dreach-naga. Wszystko dzięki zabójstwu Tisiphone. Coś, czego nie mogłabym osiągnąć bez twojego udziału, oczywiście.~
 @73=~W obliczu braku moich dzieci, logicznym krokiem było zniszczenie Dreach-naga. Coś, co <CHARNAME> osiągnął z mocą i gracją. Żadne z tego nie byłoby możliwe bez ciebie.~
 @74=~Nie, nie wiedziałem o niczym z tego, potworze. Nigdy nie pomogłabym komuś twojego pokroju.~
 @75=~Nie musisz mi dziękować, Morgrath, bo wkrótce twoje zwłoki ozdobią twoją własną Leżę.~
 @76=~Twój plan spełzł na niczym. Jeśli tu zginiesz, wszystko się skończy.~
-@77=~Ale zrobiłeś to. Od momentu, kiedy wkroczyłeś do Rachnidry, stałeś się moją marionetką. Ale czas przeciąć nici. Czas wyrównać rachunki. Jak to mówią śmiertelnicy: "Czas zebrać to, co zasialiśmy."~
+@77=~Ale zrobiłeś to. Od momentu, kiedy wkroczyłeś do Rachnidry, stałeś się moją marionetką. Ale czas przeciąć nici. Czas wyrównać rachunki. Jak to mówią śmiertelnicy: "Czas zebrać to, co zasialiśmy."~  [p_morg20]
 @78=~Twoje groźby są bez znaczenia. Czas wyrównać rachunki. Jak to mówią śmiertelnicy: "Czas zebrać to, co zasialiśmy."~
 @79=~Koniec będzie dopiero początkiem, <CHARNAME>. Czas wyrównać rachunki. Jak to mówią śmiertelnicy: "Czas zebrać to, co zasialiśmy."~
 @80=~Jesteś gotów?~
-@81=~Nazywam się Legion... bo jest nas wielu...~
+@81=~Nazywam się Legion... bo jest nas wielu...~ [p_morg21]
 @82=~Mój chomik, <CHARNAME>, Fall i ja bronimy Natury! Złe potwory, które grożą zniszczeniem wszystkiego, co kochamy, nie zasługują na przebaczenie. Ty, Królowo Pająków, przedstawiam ci mój miecz! Mieczu, przedstawiam ci Królową Pająków!~
 @83=~Quayle nauczył mnie wiele o współczuciu, jak i o dogmacie Baervana. Ale dziś nie mamy wyboru i musimy walczyć bez pardonu. Bez litości dla demonów, które są wrogami życia!~
 @84=~<CHARNAME>, Fall... Stoimy przed jedną z najważniejszych bitew na tych dziwnych ziemiach. Dla Torma, oddam życie, jeśli będzie trzeba, by wyplenić to zło!~
@@ -150,10 +150,10 @@
 @140=~Wiedziałem, że tu dotrzecie. To była kwestia czasu. Mój syn, Mesothel, informował mnie o postępach <CHARNAME> w Faerûnie.~
 @141=~Dlatego zdecydowałem się wycofać moje dzieci z Otchłani, ukrywając je w cieniach. Wiedziałem, że Czarownica Enklawy pomoże im, ponieważ jej pragnienie ucieczki z Otchłani również było moją korzyścią.~
 @142=~Morgrath!~
-@143=~Życie lub śmierć, nie ma innych alternatyw.~
+@143=~Życie lub śmierć, nie ma innych alternatyw.~ [p_morg22]
 @144=~Matko, nie martw się: uratuję cię. Morgrath! Nadszedł czas twojego upadku. W imieniu Imnescara i Ojca Dębu. W imieniu upadłych odkrywców. W imieniu mojego ojca, Gerwulfa! Twoje złe istnienie kończy się tutaj. Do walki!~
 @145=~Nie, selu'taar. Nie mogę być zniszczony. Nie mogę umrzeć. Jestem wieczny. <CHARNAME> nie ma mocy arkanów, by wypędzić mnie z tej otchłannej warstwy.~
-@146=~<CHARNAME>. To była kwestia czasu, zanim doszło do naszego ostatecznego spotkania. Wszystko idzie zgodnie z moimi planami.~
+@146=~<CHARNAME>. To była kwestia czasu, zanim doszło do naszego ostatecznego spotkania. Wszystko idzie zgodnie z moimi planami.~ [p_morg18]
 @147=~Kankra jest gotowy, by pokazać Matce swoją miłość do niej.~
 @148=~Jak powiedziała moja matka: Życie lub śmierć, nie ma innych alternatyw.~
 @149=~Zniszczenie Dreach-naga było dzięki tobie, <CHARNAME>. To przez ciebie dotrę do Materialnego Plan, a zniszczenie twojego rodzaju będzie nieuniknione.~

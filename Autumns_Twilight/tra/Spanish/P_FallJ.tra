@@ -67,10 +67,6 @@ y llevar a su familia a la paz que siempre buscaron.~
 @54  = ~La batalla final ha llegado, Irenicus. Hemos viajado incansablemente para llegar a este momento. ¡Y habrás de devolver aquello que has arrebatado a <CHARNAME>! Prepárate. ¡Por Imnescar!~
 @55  = ~Tu amor por tu familia es incondicional, mi joven semielfa. Pero cuidado, una misteriosa sombra, amenazante y tenebrosa, os rodea a todos. Tu amor puede ser tu perdición y está en ti decidir si arriesgar tu alma por ello.~
 @56  = ~Si hay algo por lo que vale la pena morir, mi dama, es por amor. Aceptaré mi destino, sea cual sea.~
-@57  = ~~
-@58  = ~~
-@59  = ~~
-
 
 // T1
 
@@ -753,90 +749,14 @@ De más está decir que se convirtieron en mis amigos.~
 // Dusk Crossmod
 @4000    = ~Admito que nunca me ha gustado ver esas jaulas. Estoy con Fall en esto.~
 @4001    = ~El dinero va y viene, <CHARNAME>. Entiendo que lo necesitamos, pero siempre podemos encontrar la forma de ganar más.~
-//@4002    = ~No sabía que las tortas de miel eran un alimento liviano. He visto cómo te devorabas varias porciones en cuestión de segundos.~
-//@4003    = ~*susurro* ¡Silencio, Dusk! Estoy hablando con <CHARNAME> sobre mis estudios, no sobre mi dieta, ¿sabes?~
+
 
 @4004    = ~¡Es el momento de luchar, camaradas! Luchad por lo que más queráis. ¡Yo lucharé en el nombre de Cormyr!~
 @4005    = ~Una criatura de los planos del Frío... No merece existir en nuestro Plano, <CHARNAME>. ¡Déjame que lo corte en cubitos de hielo con mi espada!~
 
 
-
-// Sand Crossmod
-@5000    = ~Una movida ilegal podría atraer atención indeseada, <CHARNAME>. Sin embargo, no creo que algo de este calibre deba preocuparnos. Haz lo que debas.~
-@5001    = ~No te olvides de esos pasteles de nuez, Dusk. Esta niña come golosinas como si no hubiera un mañana.~
-@5002    = ~*susurro* ¡Dusk, Sandro! Estoy hablando con <CHARNAME> sobre mis estudios, no sobre mi dieta, ¿saben?~
-
-// JOURNAL ENTRIES
-@310002 = ~Fall: Animales enjaulados
-
-Hemos hablado con Andrew Oliva, un empleado del circo dispuesto a liberar los animales enjaulados por la exorbitante suma de 7500 piezas de oro. Cuando reúna esa cantidad, debería volver a hablar con él para zanjar el asunto de una vez por todas. Puede que incluso pueda convencerlo de reducir el precio y así ahorrarnos una buena cantidad de monedas.~
-
-
-@310003 = ~Fall: Animales enjaulados
-
-Me he negado a dar oro por el rescate de los animales enjaulados. Esto provocó la ira de Fall y se ha ido del grupo. Bueno, al menos me he ahorrado una buena cantidad de oro.~
-
-@310004 = ~Fall: Animales enjaulados
-
-Hemos pagado a Andrew para que libere a los animales del circo cuanto antes. Si bien parecía que todo apuntaba a que Andrew nos iba a estafar, al momento en que Fall mencionó a un tal Alendir, éste pareció retomar el trato y prometer que en menos de un día los animales ya no estarían en sus jaulas, sino que estarían libres en los bosques australes de Amn. Todo ha salido bien aunque me pregunto: ¿Quién es Alendir?~
-
-@310005 = ~Fall: El ritual de Alendir
-
-Luego de una breve conversación con Fall, ésta me ha dicho que ya es hora de conocer a Alendir. Acorde a Fall, Alendir podría tener información importante sobre el paradero de su madre. Podremos encontrar al elfo en el piso superior de la Posada de las Cinco Jarras en el Distrito del Puente.~
-
-@310006 = ~Fall: El ritual de Alendir
-
-He conocido a Alendir, un elfo Selu'taar de Evereska. Es un anciano con una personalidad un tanto agria, y que, sorpresivamente, sabía de mi linaje divino. Nos ha encomendado buscar a un Gran Basilisco en las cuevas de las Colinas de Umar. Como la criatura permanece oculta, nos ha dado una extraña gema naranja que hará salir al basilisco de su escondite. Deberemos acabar con cualquier enemigo que encontremos allí.~
-
-@310010 = ~Fall: El Maestro de la Escarcha
-
-Fall cree que ya es hora de regresar con Alendir para obtener respuestas sobre el paradero de Gemystara, su madre. La Dama de las Bestias nos ha contado lo poco que sabe sobre el pasado de Alendir y, al parecer, el elfo obtuvo un gran poder convirtiéndose en Maestro de la Escarcha, pero a costa de su juventud élfica. Fall también sospecha de su actitud con respecto a su familia, tanto de su desprecio hacia su padre como de sus verdaderas intenciones con su madre. Por ahora, debemos dirigirnos hacia el piso superior de las Cinco Jarras en el Distrito del Puente para encontrarnos con él.~
-
-
-@310011 = ~Fall: El Maestro de la Escarcha
-
-Hemos regresado a la posada de las Cinco Jarras, pero Alendir no estaba allí. En su lugar, se encontraba Kitochi, un gato feérico que fue compañero de batalla de los exploradores en el ataque a Imnescar. Kitochi nos ha informado que Alendir pudo realizar el ritual, pero lo que averiguó le perturbo en gran manera. Ante esto, Alendir se retiró hacia las cloacas de los Barrios Bajos, ingresando por la entrada de la taberna La Corona de Cobre. Por las cloacas, Kitochi indicó que podremos seguirle si avanzamos por el este, por el pasaje donde suelen encontrarse unos kóbolds. Sin embargo, para seguir más allá, Kitochi nos ha indicado que necesitaremos la clave para poder superar la pared invisible allí. La clave es una frase que reza lo siguiente: "En el susurro del viento helado, se encuentra el camino." Luego de darnos la información necesaria, Kitochi desapareció, no sin antes pedirle a Fall que no le convoque ya que... aparentemente, le insulté demasiado.~
-
-@310012 = ~Fall: El Maestro de la Escarcha
-
-Hemos regresado a la posada de las Cinco Jarras, pero Alendir no estaba allí. En su lugar, se encontraba Kitochi, un gato feérico que fue compañero de batalla de los exploradores en el ataque a Imnescar. Kitochi nos ha informado que Alendir pudo realizar el ritual, pero lo que averiguó le perturbo en gran manera. Ante esto, Alendir se retiró hacia las cloacas de los Barrios Bajos, ingresando por la entrada de la taberna La Corona de Cobre. Por las cloacas, Kitochi indicó que podremos seguirle si avanzamos por el este, por el pasaje donde suelen encontrarse unos kóbolds. Sin embargo, para seguir más allá, Kitochi nos ha indicado que necesitaremos la clave para poder superar la pared invisible allí. La clave es una frase que reza lo siguiente: "En el susurro del viento helado, se encuentra el camino." Luego de darnos la información necesaria, Kitochi le dijo a Fall que ya estaba listo para ser una más de sus convocaciones. También dijo que podía hablarle si así quisiera. Puede que tenga algo interesante que contar.~
-
-@310013 = ~Fall: El Maestro de la Escarcha
-
-Siguiendo las pistas sobre Alendir nos hemos topado con un gigantesco escarabajo rinoceronte. Extrañamente no parece ser una criatura hostil, pero también evita el paso a la habitación siguiente. Sin más ideas, Fall recomendó llamar a sus convocaciones especiales y volver a interactuar con la criatura gigante. Si con ello no podemos solucionarlo, me temo que no tendremos más opciones que atacarlo.~
-
-@310014 = ~Fall: Tabitha, guerrera de Malar
-
-Fall ha logrado convencer al Señor de las Bestias para que nos ayude en la búsqueda de la liberación de los esclavos en la Corona de Cobre. Aparentemente, el elfo conocía al padre de Fall cuando Imnescar cayó. La amistad con su padre fue de vital importancia para ganarnos su alianza. Ivor, como dijo que se llamaba, buscará a Fall una vez que Lehtinan haya muerto.~
-
-@310015 = ~Fall: Tabitha, guerrera de Malar
-
-Ivor nos ha encontrado luego de que se ha enterado de la muerte de Lehtinan. Nos ha comentado que los esclavistas de Athkatla han puesto un precio por su cabeza debido a su traición en la Corona de Cobre. El Señor de las Bestias teme por la vida de su compañera animal, Tabitha, por lo que ha buscado a Fall para que lleve a cabo un ritual y pueda llevarla al Plano Astral para mantenerla a salvo. Fall ha aceptado y ahora lleva consigo una estatuilla de Malar que deberá estudiar para lograr llevar a la leopardo al Plano Astral junto al resto de sus convocaciones.~
-
-@310016 = ~Fall: Tabitha, guerrera de Malar
-
-Fall me ha dicho que para completar el ritual de Tabitha debe hacerse con la armadura de un poderoso oso gigante llamado Aeger. Cree que la criatura fue la campeona del Dios de la Sangre, Malar y que examinándola será capaz de llevar a la leopardo al Plano Astral. Puede que podamos conseguirla en el Mercado del Aventurero, en el Paseo de Athkatla.~
-
-@310017 = ~Fall: Tabitha, guerrera de Malar
-
-Hemos obtenido una armadura hecha con las pieles de Aeger. Fall la tendrá para su estudio para poder avanzar en su ritual para llevar a Tabitha al Plano Astral. Según sus palabras, no debería tomarle mucho tiempo desentrañar sus misterios.~
-
-@310018 = ~Fall: Tabitha, guerrera de Malar
-
-Fall ha logrado llevar a Tabitha al Plano Astral. A partir de ahora, la Dama de las Bestias debería ser capaz de invocarla como una de sus convocaciones más. Sin lugar a dudas, puede ser una habilidad especial muy útil.~
-
-@310019 = ~Fall: El Maestro de la Escarcha
-
-Fall ha logrado resolver el asunto del escarabajo gigante, una criatura imponente llamada Kakuto. Gracias a sus convocaciones especiales, la Dama de las Bestias logró llevar a Kakuto al Plano Astral, aunque para ello tuvo que sacrificar parte de su energía vital. Ahora, tenemos el camino libre para seguir a Alendir.~
-
-@310020 = ~Fall: El Maestro de la Escarcha
-
-El escarabajo gigante ha sido destruido. Fall ha expresado su pesar, pero también su determinación en seguir adelante y encontrar a Alendir. Ahora el camino está libre, deberíamos continuar.~
-
-@310035  = ~Rachnidra: las Fosas de la Telaraña Demoníaca
-
-Una proyección de Alendir ha aparecido indicando que la Rosa de Hielo estaba a punto de derretirse, lo que significaría que el portal hacia Rachnidra habría de abrirse. Sin embargo, mencionó que dicho portal sólo era una entrada hacia el Abismo y que no habría vuelta atrás al cruzar su umbral. He declinado seguir con dicha búsqueda debido a los grandes riesgos que conlleva. Después de todo, aún debo lidiar con Irenicus y los elfos. Ante esto, Fall me ha abandonado, visiblemente decepcionada por mi decisión.~
-
+//@4002    = ~No sabía que las tortas de miel eran un alimento liviano. He visto cómo te devorabas varias porciones en cuestión de segundos.~
+//@4003    = ~*susurro* ¡Silencio, Dusk! Estoy hablando con <CHARNAME> sobre mis estudios, no sobre mi dieta, ¿sabes?~
 
 
 // La oscuridad es el tormento que debemos afrontar.

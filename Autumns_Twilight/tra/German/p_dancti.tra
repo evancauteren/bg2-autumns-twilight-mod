@@ -1,24 +1,23 @@
 //EVIL
 
-@0   = ~Frei... endlich...~
-@1   = ~Ardusk Aldant und <CHARNAME>. Ich schulde euch meine Loyalität...~
+@0   = ~Frei... endlich...~ [p_danc01]
+@1   = ~Ardusk Aldant und <CHARNAME>. Ich schulde euch meine Loyalität...~ [p_danc02]
 @2   = ~Ein Schattenfürst?! Dämmerung, sei auf der Hut! Wir müssen ihn besiegen.~
 @3   = ~Bei Kerzenburg! Wer zum Teufel bist du?~
 @4   = ~Du musst keine Angst um mich haben, Kind Bhaal's. Ich glaube nicht, dass ich das erste nicht feindselige Wesen bin, dem du begegnet bist. Wie Ardusk wird auch meine Loyalität bei dir liegen, solange er dich begleitet.~
-@5   = ~Mein Name ist Danctian Schatten. Mein Nachname mag überflüssig sein, aber so, soweit ich mich erinnere, werde ich genannt.~
+@5   = ~Mein Name ist Danctian Schatten. Mein Nachname mag überflüssig sein, aber so, soweit ich mich erinnere, werde ich genannt.~ [p_danc03]
 @6   = ~Für kurze Zeit wurde ich als Kanal zwischen Pandämonium und dieser Ebene benutzt. Der Orden der Magier, der Ardusk verfolgt, ist ebenfalls daran interessiert, direkten Kontakt mit der Ebene der Negativen Energie herzustellen.~
 @7   = ~Ich spüre, dass es mit Nekromantie zu tun hat, wegen der Spezialisierung des Anführers.~
 @8   = ~Ich verstehe nicht, warum du uns das erzählst. Versuchst du, unser Vertrauen zu gewinnen?~
 @9   = ~Du tauchst aus dem Nichts auf und deine dämonische Energie ist allzu offensichtlich. Gib mir einen guten Grund, warum ich dich nicht hier und jetzt vernichten sollte.~
 @10  = ~Es gibt keinen Grund für Gewalt hier und jetzt, Kind Bhaal's. Ich habe nicht die Absicht, dich anzugreifen.~
 @11  = ~Wenn du Ardusk vertraust, dann kannst du mir vertrauen. Ich bin an seinen Willen gebunden, da... ich einen Teil seiner Lebensenergie aufgenommen habe, um in dieser Ebene zu materialisieren.~
-@12  = ~Aber genug der Erklärungen... Ich sehe, dass du eine besondere Frage hast, Sterblicher, nicht wahr?~
+@12  = ~Aber genug der Erklärungen... Ich sehe, dass du eine besondere Frage hast, Sterblicher, nicht wahr?~ [p_danc04]
 @13  = ~Welchen Nutzen wirst du für uns haben? Zumindest war der Kobold nützlich, um Dinge zu erschaffen.~
-@14  = ~~
 @15  = ~Ich habe die Macht der magischen Kreatur absorbiert. Ich kann ihre Erschaffungskraft mit beträchtlicher Verbesserung manipulieren. Hast du noch das Rezeptbuch? Ich kann diese Artefakte ohne Gold schmieden, obwohl die restlichen Zutaten immer noch notwendig sind.~
 
 @17  = ~Tatsächlich sehe ich, dass du eine kormyrische Lieferung von deiner jüngsten... Expedition im Kampf gegen Alabarza erhalten hast. Sie wird uns sehr nützlich sein, wie du sehen wirst.~
-@18  = ~Ich kann spezielle Artefakte für dich schmieden. Sogar etwas... Persönlicheres für deine Gefährten, Sohn Bhaal's.~ ~Ich kann spezielle Artefakte für dich schmieden. Sogar etwas... Persönlicheres für deine Gefährten, Tochter Bhaal's.~
+@18  = ~Ich kann spezielle Artefakte für dich schmieden. Sogar etwas... Persönlicheres für deine Gefährten, Sohn Bhaal's.~ [p_danc05]~Ich kann spezielle Artefakte für dich schmieden. Sogar etwas... Persönlicheres für deine Gefährten, Tochter Bhaal's.~[p_danc05]
 @19  = ~Das stimmt, <CHARNAME>. Der Schattenfürst ist vorerst eine Erweiterung von mir. Allerdings wird er hier, in Athkatla, bleiben.~
 @20  = ~Die Wahrheit ist... Danctian sollte mich besitzen, um den Willen der Magier, denen wir begegnet sind, zu erfüllen.~
 @21  = ~Es war nicht bis zu einem Fehler eines der Magier.~
@@ -102,7 +101,7 @@
 @95  = ~Ein Krummsäbel.~
 @96  = ~Ein Großschwert.~
 @97  = ~Hm... Ich habe es mir anders überlegt. Ich möchte etwas anderes wählen.~
-@98  = ~Sei gegrüßt, Sterblicher. Bist du hier, um ein Artefakt zu schmieden? Ich werde für ein effizientes Ergebnis sorgen, besonders für diejenigen, die Ardusk nahestehen. Und vergiss nicht... die Nutzung meiner Kräfte erfordert kein Gold.~
+@98  = ~Sei gegrüßt, Sterblicher. Bist du hier, um ein Artefakt zu schmieden? Ich werde für ein effizientes Ergebnis sorgen, besonders für diejenigen, die Ardusk nahestehen. Und vergiss nicht... die Nutzung meiner Kräfte erfordert kein Gold.~ [p_danc06]
 @99  = ~Wir haben noch nicht alles Nötige zusammengetragen, Danctian.~
 @100 = ~Verstehe. Ich werde hier sein, wenn du mich brauchst. Ich werde auf dich warten... im Schatten...~
 @101 = ~Danctian, wir haben alles, was wir brauchen, um Dusks Schwert zu verbessern.~
@@ -112,11 +111,11 @@
 
 // Schwert der Zerstörung
 
-@105 = ~Sehr gut. Du wirst sehen, dass meine Arbeit genauso gut ist wie die dieses magischen Wesens aus Shilmista, wenn nicht sogar besser.~
+@105 = ~Sehr gut. Du wirst sehen, dass meine Arbeit genauso gut ist wie die dieses magischen Wesens aus Shilmista, wenn nicht sogar besser.~ [p_danc07]
 @106 = ~Ardusk, gib mir dein Schwert. Ich werde meine Kräfte einsetzen, um es erheblich zu verbessern.~
-@107 = ~Ich versichere dir, Ardusk... du wirst mit den Ergebnissen zufrieden sein. Nun... tritt zurück!~
+@107 = ~Ich versichere dir, Ardusk... du wirst mit den Ergebnissen zufrieden sein. Nun... tritt zurück!~ [p_danc08]
 @108 = ~*Es scheint, dass das Ritual beendet ist und der Dämon unbeeindruckt von dem Ereignis erscheint*~
-@109 = ~Das Ritual ist beendet, Sterblicher.~
+@109 = ~Das Ritual ist beendet, Sterblicher.~ [p_danc09]
 @110 = ~Wie ist es gelaufen, Danctian?~
 @111 = ~Das Cormyreische Zerstörungsschwert wurde geschmiedet. Es ist eine bemerkenswerte Verbesserung, Ardusk. Ich bin sicher, du wirst es zu schätzen wissen.~
 @112 = ~Ich habe getan, was du verlangt hast. Du weißt, wo du mich findest, wenn du ein weiteres Artefakt geschmiedet haben möchtest, Sterbliche. Bis bald.~
@@ -160,7 +159,7 @@
 
   // Vengadora Real
 @129  = ~Danctian, wir haben die Artefakte von Herzog Benork erhalten.~
-@130  = ~Hm... interessant. Die magische Kreatur aus Shilmista hatte das letzte Artefakt des verstorbenen Benork. Nun ist der Königliche Rächer in meinem Besitz.~
+@130  = ~Hm... interessant. Die magische Kreatur aus Shilmista hatte das letzte Artefakt des verstorbenen Benork. Nun ist der Königliche Rächer in meinem Besitz.~ [p_danc10]
 @131  = ~Es war nicht leicht, alle Artefakte zu erlangen, Danctian. Wirst du uns das letzte Stück des Zaubererjäger-Sets geben?~
 @132  = ~Nichts würde mir mehr Freude bereiten, als das Zaubererjäger-Set vollständig in deinem Besitz zu sehen, mein/e <LADYLORD>. Schließlich haben du und Ardusk zusammengearbeitet, um mich aus dem Pandämonium zu befreien.~
 @133  = ~Ihr habt das Unvorstellbare erreicht, Sterbliche. Heute habt ihr einen weiteren Schritt in eurer gerechten Suche nach Macht gemacht. So wie der Schleier der Nacht unerbittlich über das Licht fällt, so soll auch der Stahl, den ihr in den Händen haltet, auf das Herz des Feindes fallen...~
@@ -188,7 +187,7 @@
 
 @144  = ~Noch einmal gratuliere ich dir zu dem, was du hier erreicht hast, und danke dir für meine Befreiung. Ich versichere dir, du wirst es nicht bereuen. Ich werde hier sein, falls du ein Artefakt schmieden möchtest. Und Dämmerung... wenn ich Neuigkeiten über den Orden habe, der dich verfolgt, werde ich dich selbst finden... im Schatten...~
 
-@145  = ~Ardusk... <CHARNAME>...~
+@145  = ~Ardusk... <CHARNAME>...~ [p_danc11]
 @146  = ~Wir müssen reden... eine Angelegenheit von größter Wichtigkeit wird euch beide betreffen...~
 @147  = ~Danctian! Woher kommst du? Verdammt, wie hast du uns gefunden?~
 @148  = ~Wie ich schon erwähnt habe, haben du und ich eine Verbindung aufgrund... des Opfers, das du gebracht hast, um mich zu befreien.~
@@ -203,15 +202,15 @@
 @157  = ~Du solltest es zumindest überdenken... denn es hat direkt mit der Vergessenen Krypta zu tun.~
 @158  = ~Das ist nicht der beste Ort, um zu reden... Komm zu dem Versteck, das einst den Shilmisten im Hafen von Athkatla gehörte. Dort werden wir über die Vergessene Krypta sprechen...~
 @159  = ~W-was? Danctian, wovon sprichst du?~
-@160  = ~Ich werde dir alles erzählen, wenn wir uns wiedersehen... Denk daran: Athkatlas Hafen, in dem Versteck, das einst den Elfen von Shilmista gehörte.~
+@160  = ~Ich werde dir alles erzählen, wenn wir uns wiedersehen... Denk daran: Athkatlas Hafen, in dem Versteck, das einst den Elfen von Shilmista gehörte.~ [p_danc12]
 @161  = ~Ah... die Brut des Bhaal, <CHARNAME>s Schwester. Es ist mir eine große Ehre, auch dir dienen zu dürfen.~
 @162  = ~Hm... Ich bin mir nicht sicher, ob mich das sicher fühlen lässt, Schattenherr.~
 @163  = ~Keine Sorge, ich habe keine bösen Absichten dir gegenüber. Tatsächlich ist dieser göttliche Foliant für dich.~
 @164  = ~Ein göttlicher Foliant? Nun... danke, schätze ich. (Dämmerung, hast du dieses Wesen wirklich absichtlich freigelassen?)~
 
-@165  = ~Ich verstehe... was soll ich für dich schmieden?~
-@166  = ~Du hast meinem Ruf geantwortet. Gut, gut...~
-@167  = ~<CHARNAME>, ich sehe Ardusk nicht bei dir. Du solltest mit ihm zurückkommen, damit wir über die Vergessene Krypta sprechen können.~
+@165  = ~Ich verstehe... was soll ich für dich schmieden?~ [p_danc13]
+@166  = ~Du hast meinem Ruf geantwortet. Gut, gut...~ [p_danc14]
+@167  = ~<CHARNAME>, ich sehe Ardusk nicht bei dir. Du solltest mit ihm zurückkommen, damit wir über die Vergessene Krypta sprechen können.~ [p_danc15]
 @168  = ~Sehr gut, Danctian. Ich werde zu Dämmerung zurückkehren.~
 
 @169  = ~Sehr gut, Danctian. Aber zuerst möchte ich sehen, ob wir etwas schmieden können.~
@@ -242,9 +241,9 @@
 @192  = ~Sein Orden wird uns an einem Ort treffen, der eine Art... neutraler Boden ist.~
 @193  = ~Der Magier mangelt es nicht an Einsicht, und seine Zweifel werden dich ein letztes Mal prüfen, <CHARNAME>.~
 @194  = ~<CHARNAME>, ich sehe Ardusk nicht bei dir. Du solltest mit ihm zurückkehren, wenn du die verfluchte Kugel des Nekromanten nutzen möchtest.~
-@195  = ~Sehr gut... bist du bereit aufzubrechen? Ich empfehle, gut vorbereitet zu sein, bevor wir uns auf das Treffen einlassen.~
+@195  = ~Sehr gut... bist du bereit aufzubrechen? Ich empfehle, gut vorbereitet zu sein, bevor wir uns auf das Treffen einlassen.~ [p_danc17]
 @196  = ~Wir sind bereit, Danctian. Aktiviere die Kugel!~
-@197  = ~Sehr gut... die verfluchte Kugel wird aktiviert. Möge die Macht des Pandämoniums euch segnen!~
+@197  = ~Sehr gut... die verfluchte Kugel wird aktiviert. Möge die Macht des Pandämoniums euch segnen!~ [p_danc18]
 @198  = ~Es wird so sein, wie du es wünschst, <CHARNAME>. Wenn du bereit bist, bitte mich einfach, die Kugel zu aktivieren, und ich werde dich an diesen Ort bringen. Übrigens... Ardusk...~
 @199  = ~Ich sehe, du trägst immer noch das Karmesinschwert. Das Herz des abgründigen Dämons hat es tatsächlich stärker gemacht.~
 @200  = ~Nun denn... ich entlasse dich, damit du dich auf die Reise durch die Verfluchte Kugel vorbereiten kannst. Sprich mich erneut an, wenn du bereit bist...~
@@ -262,7 +261,7 @@
 
 @211  = ~Das ist der wahre Name der Waffe, Ardusk. Und sie ist dazu bestimmt, in deinen Händen zu sein.~
 @212  = ~Deine Feinde werden zittern... und sie werden im Namen der Schatten getötet.~
-@213  = ~<CHARNAME>, wir sind zurück auf deiner Ebene.~
+@213  = ~<CHARNAME>, wir sind zurück auf deiner Ebene.~ [p_danc19]
 @214  = ~Es war... eine interessante Reise, Danctian.~
 @215  = ~Ardusk Aldant ist im Kampf gefallen. Seine Rache ist erfüllt, und seine Seele, falls sie nicht auf diese Ebene zurückkehrt, wird von mir gefunden, denn sie ist an mein Wesen gebunden und somit meinem Willen unterworfen.~
 @216  = ~Das Pandämonium wird sein neues Zuhause, und er wird für eine lange Zeit in den Schatten leben.~
@@ -270,13 +269,13 @@
 @218  = ~Weil der Cormyreaner sein Blut mit meinem verbunden hat, und wir dazu bestimmt sind, dasselbe Schicksal zu teilen.~
 @219  = ~Meine Arbeit hier ist getan... Ich werde mich auf meiner Ebene sammeln... Ich hinterlasse dir eine beträchtliche Menge Gold, <CHARNAME>. Ich bin sicher, es wird dir im Kampf gegen Irenicus nützlich sein. Ich wünsche dir Glück für deine Lieben... und Schrecken für deine Feinde. Leb wohl, Sohn des Bhaal!~ ~Meine Arbeit hier ist getan... Ich werde mich auf meiner Ebene sammeln... Ich hinterlasse dir eine beträchtliche Menge Gold, <CHARNAME>. Ich bin sicher, es wird dir im Kampf gegen Irenicus nützlich sein. Ich wünsche dir Glück für deine Lieben... und Schrecken für deine Feinde. Leb wohl, Tochter des Bhaal!~
 
-@220  = ~Deine Rache ist vollendet, Ardusk Aldant. Die Vergessene Krypta wurde zerstört.~
+@220  = ~Deine Rache ist vollendet, Ardusk Aldant. Die Vergessene Krypta wurde zerstört.~ [p_danc20]
 @221  = ~Wahrlich, Ardusk. Bereite dich vor, denn ich werde dich zu einer fernen Ebene bringen...~
 @222  = ~Ja...~
 @223  = ~Anthagar hatte ein Amulett von Mellifleur, ein von den Göttern selbst während der Zeit der Sorgen erschaffenes Artefakt.~
 @224  = ~Ich kann etwas von seiner Macht kanalisieren und sie für eine Weile zurückbringen.~
 @225  = ~Was hast du gesagt? ... Sie zurückbringen? Du meinst...~
-@226  = ~Wir sind nach Athkatla zurückgekehrt.~
+@226  = ~Wir sind nach Athkatla zurückgekehrt.~ [p_danc21]
 @227  = ~Ich nehme an, das, was wir gesehen haben, war... real...~
 @228  = ~Du hast recht. Ich glaube nicht, dass Mielikki allzu erfreut war, dass du seinen... kostbaren Hain betreten hast.~
 @229  = ~Warum hast du es getan, Danctian?~

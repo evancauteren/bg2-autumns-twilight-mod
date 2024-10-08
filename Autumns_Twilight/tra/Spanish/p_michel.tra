@@ -1,4 +1,3 @@
-
 @0 = ~(El leprechaun te ve llegar y luego de abrir bien sus ojos, se echa a correr como un desquiciado, alejándose de ti mientras se ríe)~ [P_Mich04]
 
 @1 = ~(El pequeño te atisba con la mirada y ves cómo prepara sus piecitos para la huida. Sin embargo, se detiene al ver a Dusk entre tus filas)~ [P_Mich04]
@@ -128,7 +127,6 @@
 @108 = ~¡Excelente! Bien, pueden usar esas mismas gemas para ser devueltos a los cuarteles de la Orden. Michelson se ha encargado de ello.~
 @109 = ~Bien. <CHARNAME>, será mejor que partamos de inmediato. Mathyus, volveremos aquí cuando tengamos novedades al respecto, ¿sí?~
 @110 = ~Los estaremos esperando, amigos míos.~
-@111 = ~~
 @112 = ~(Michelson agita con fuerza sus bracitos. Ríe y se despide, mientras baila y silba como un desquiciado)~ [P_Mich01]
 @113 = ~(De la nada, una risa se percibe hasta en los rincones más oscuros del Túmulo)~ [P_Mich00]
 @114 = ~(Finalmente, Michelson hace aparición desde las sombras, bailando y riendo, como si de una fiesta se tratase)~ [P_Mich02]
@@ -154,15 +152,3 @@
 @131 = ~Gracias, Michelson. Dusk, espero que la armadura sea de tu agrado.~
 @132 = ~(Michelson, sorprendentemente recuperado, baila y se acerca, correteando peligrosamente mientras blande la flamante espada cormyreana)~ [P_Mich04]
 @133 = ~Gracias, Michelson. Dusk, espero que la espada sea de tu agrado.~
-
-
-
-
-@210005 = ~Dusk Aldant: La armadura Shilmista
-
-Regresamos a la guarida de Mathyus Davis y encontramos a Michelson a su lado. Luego de una breve conversación en la que nos narró de su primer encuentro con Michelson y su posterior conversión de color de cabello, Mathyus hizo entrega a Dusk de la Armadura Shilmista.
-También nos entregó un libro de fórmulas para forjar poderosos artefactos, Michelson mediante. Si conseguimos los ingredientes correctos, deberemos hablar con Mathyus para que podamos forjar el artefacto descrito en el libro.~
-
-@210026 = ~Dusk Aldant: La Venganza de la Primera Espada
-
-Arribamos a la guarida de Mathyus y nos informó que el grupo responsable del ataque al destacamento de Dusk se encuentra en las cercanías de la Arboleda Druídica de la región. Por las características brindadas por el explorador, el responsable sería un jefe orco llamado Alabarza. Lo encontraremos en el Túmulo troll al oeste de la región. También nos informó que el orco cuenta con un repertorio variado de monstruos, listos para defenderlo. Afortunadamente, Dusk contará con la ayuda de Sir Ryan Espinel y de Falon y su tribu. Llegado el momento, una gema de activación brindada por Michelson los traerá para el enfrentamiento.~

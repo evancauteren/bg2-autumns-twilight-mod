@@ -471,3 +471,19 @@ SAY NAME2 @200339 /* Shehad Ibahalii */
 SAY DESC @200340 /*  */
 SAY 0xD6 @200175
 LPF ALTER_EFFECT INT_VAR match_opcode = 53 parameter1 = (IDS_OF_SYMBOL (~animate~ ~P_REPTILE2~)) END
+
+
+// Couatl
+//ACTION_DEFINE_ASSOCIATIVE_ARRAY P_COUATL_ANIMS_Exxx BEGIN
+//    ~couatl~ => ~P_COUATL~
+//  END
+//  ACTION_PHP_EACH P_COUATL_ANIMS_Exxx AS folder => symbol BEGIN
+//    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ //~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+//      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+//    END
+//    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+//    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+//    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+//    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+//    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+//END

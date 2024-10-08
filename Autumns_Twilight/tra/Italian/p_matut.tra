@@ -1,13 +1,13 @@
-@0 = ~Saluti, amico. Mi dispiace, ma non ti conosco, quindi non ho tempo per te.~
+@0 = ~Saluti, amico. Mi dispiace, ma non ti conosco, quindi non ho tempo per te. Puoi parlare se vuoi con Hakamir o Acrull, stanno raccogliendo oro per Brost. Sono brave persone.~ [p_math01] ~Saluti, amica. Mi dispiace, ma non ti conosco, quindi non ho tempo per te. Puoi parlare se vuoi con Hakamir o Acrull, stanno raccogliendo oro per Brost. Sono brave persone.~ [p_math01]
 
-@1 = ~Saluti! Beh, beh, se non è il soldato prodigo che è tornato. Come stai, mio buon capitano Aldant?~
-
+@1 = ~Saluti! Beh, beh, se non è il soldato prodigo che è tornato. Come stai, mio buon capitano Aldant?~ [p_math02]
+ 
 @2 = ~Se il capitano ti ha considerato suo amico, è perché vede qualcosa di speciale in te. Non dovresti sottovalutare il suo giudizio, <LORDLADY> <CHARNAME>.~
 
 @3 = ~Saluti, <CHARNAME>. Sono passati così tanti anni.~
 
 @4 = ~Vedo che hai portato un interessante seguito di... personaggi.~
-@5 = ~Saluti, <CHARNAME>. È un piacere conoscerti. Chiunque sia amico del Signor Aldant è amico anche mio.~
+@5 = ~Saluti, <CHARNAME>. È un piacere conoscerti. Chiunque sia amico del Signor Aldant è amico anche mio.~ [p_math03] ~Saluti, <CHARNAME>. È un piacere conoscerti. Chiunque sia amica del Signor Aldant è amica anche mio.~ [p_math03]
 @6 = ~È un piacere, Mathyus.~
 @7 = ~È un po' presto per chiamarci amici, non credi?~
 @8 = ~Mi dispiace, elfo. Non riesco a smettere di fissare i tuoi capelli verdi e lucenti.~
@@ -19,7 +19,7 @@
 @14 = ~Oh, sono reali, <CHARNAME>. Ma non chiamare Michelson "cosa". È molto sensibile. Una volta qualcuno lo chiamò "una cosa così carina" e Michelson lo trasformò in--~
 
 
-@15 = ~Non dovrebbe essere troppo lontano. Molto probabilmente sta esplorando i dintorni di qui. Probabilmente riuscirai a trovarlo nelle strade dei Docks.~
+@15 = ~Non dovrebbe essere troppo lontano. Molto probabilmente sta esplorando i dintorni di qui. Probabilmente riuscirai a trovarlo nelle strade dei Docks.~ [p_math04]
 @16 = ~Puoi darci ulteriori informazioni, Mathyus?~
 @17 = ~Perché non vai a cercarlo tu? Dopotutto sei un elfo. Puoi usare i tuoi sensi per trovarlo.~
 @18 = ~Cosa ci darai se lo troviamo? Siamo persone occupate e il nostro tempo è prezioso.~
@@ -42,7 +42,7 @@
 @32 = ~Non devi necessariamente spendere oro, <CHARNAME>. Anche se chiaramente funzionerebbe.~
 @33 = ~Potresti anche dargli della birra. Oppure, se non vuoi spendere nulla fisicamente, potresti semplicemente raccontargli una barzelletta.~
 @34 = ~Una barzelletta? Stai scherzando?~
-@35 = ~Che posso dire? Sono un elfo affascinante.~
+@35 = ~Che posso dire? Sono un elfo affascinante.~ [p_math05]
 @36 = ~*sussurro* Dusk, quella non era una cosa da dire.~
 @37 = ~Va bene, va bene. Sappiamo entrambi che Michelson sa badare a se stesso. E beh, <CHARNAME>, riuscirai a gestire l'incarico?~
 @38 = ~Forse più avanti, Mathyus. Al momento stiamo lavorando su questioni più importanti.~
@@ -50,15 +50,15 @@
 @40 = ~Sì, sì. Dusk, andiamo.~
 @41 = ~Hmm... è un peccato... anche se non mi preoccupo per lui, spero che tu riprenda presto questo compito, <CHARNAME>.~
 @42 = ~Grazie, <CHARNAME>. Aspetto con ansia il tuo ritorno.~
-@43 = ~Come sta andando la ricerca, amici? Spero che ci siano progressi. Non che mi manchi quel rosso birichino, ma mi sentirei più tranquillo se fosse qui intorno.~
-@44 = ~Salve, <CHARNAME>. Spero che tutto vada bene.~
+@43 = ~Come sta andando la ricerca, amici? Spero che ci siano progressi. Non che mi manchi quel rosso birichino, ma mi sentirei più tranquillo se fosse qui intorno.~ [p_math06]
+@44 = ~Salve, <CHARNAME>. Spero che tutto vada bene.~ [p_math10]
 
 
 
 @45 = ~Wow! *tosse* È un argomento piuttosto scomodo da affrontare... Preferirei parlarne più avanti.~
 @46 = ~Capitano Aldant...~
 @47 = ~Oh, beh, sai cosa dicono! Le vecchie abitudini sono dure a morire.~
-@48 = ~<CHARNAME>, Dusk! Come puoi vedere, Michelson è già con noi.~
+@48 = ~<CHARNAME>, Dusk! Come puoi vedere, Michelson è già con noi.~ [p_math07]
 @49 = ~Credimi, capisco perfettamente.~
 @50 = ~Comunque, mentre facevate il vostro cammino fino qui, Michelson ha finito di riparare la tua armatura, Dusk.~
 @51 = ~Ah, mio caro <CHARNAME>! Non devi preoccuparti di nulla. E non pensare che mi sia dimenticato della tua ricompensa per i tuoi sforzi.~
@@ -78,27 +78,27 @@
 @63 = ~Di conseguenza, riesco a capire quello che dice Michelson... e mi ha avvertito che se i raggi del sole o della luna toccassero i miei capelli, sarei calvo per sempre.~
 @64 = ~Ha anche accennato a qualcosa riguardo ad avere i poteri di un dio e a una lotta contro Cyric.~
 @65 = ~Ancora oggi, non capisco molto di quello che intendeva, ma sicuramente non ho deciso di ignorarlo. Col tempo, ho capito che il suo potere non è uno scherzo.~
-@66 = ~Comunque, il punto è che Michelson ed io saremo alleati per voi, forgiando potenti artefatti (a patto che riusciate ad ottenere quegli ingredienti).~
+@66 = ~Comunque, il punto è che Michelson ed io saremo alleati per voi, forgiando potenti artefatti (a patto che riusciate ad ottenere quegli ingredienti).~ [p_math09]
 @67 = ~Molto bene, Mathyus. Darò un'occhiata al tuo libro delle ricette, e se riusciremo a ottenere ciò di cui abbiamo bisogno, torneremo.~
 @68 = ~Spero che ne valga la pena, elfo. Non mi piace perdere tempo in questioni futili.~
 
 @69 = ~Va bene, va bene. Per quanto riguarda te, mio buon Capitano Aldant, se ho notizie su ciò che stai cercando, te le farò sapere.~
 @70 = ~Eccellente, compagni. Ogni volta che vorrete forgiare qualcosa di speciale, Michelson ed io saremo qui ad aspettarvi, giusto, amico?~
 
-@71 = ~Ah! Se non sono i miei avventurieri preferiti. Come state? Siete venuti per forgiare qualche artefatto con Michelson?~
+@71 = ~Ah! Se non sono i miei avventurieri preferiti. Come state? Siete venuti per forgiare qualche artefatto con Michelson?~ [p_math11]
 @72 = ~Non siamo ancora riusciti a raccogliere ciò di cui abbiamo bisogno, Mathyus.~
 @73 = ~Mathyus, abbiamo ottenuto ciò di cui abbiamo bisogno per migliorare la spada di Dusk.~
 @74 = ~Capisco, capisco. Beh, saremo qui quando lo farete. Ho piena fiducia che siete capaci di ottenere ciò che serve per il nostro amico magico, giusto?~
 @75 = ~Certo.~
 @76 = ~Non ancora, Mathyus. Magari più avanti.~
 @77 = ~Capisco, capisco. Beh, saremo qui se cambierete idea.~
-@78 = ~Avete sentito, Michelson? Sembra che abbiamo del lavoro da fare.~
+@78 = ~Avete sentito, Michelson? Sembra che abbiamo del lavoro da fare.~ [p_math12]
 @79 = ~Così sia! Capitano, sareste così gentile da darmi la tua spada?~
 
 
 
 @80 = ~Apprezzo la tua fiducia in me, amico mio. Molto bene, Michelson. Sembra che abbiamo dei compiti da completare. Iniziamo immediatamente!~
-@81 = ~Wow, non mi abituerò mai a vederlo esausto.~
+@81 = ~Wow, non mi abituerò mai a vederlo esausto.~ [p_math13]
 @82 = ~Starà bene?~
 @83 = ~Certo! Guardalo, sta già ballando di nuovo.~
 @84 = ~Non c'è bisogno di gratitudine, compagni. Spero che facciate buon uso del lavoro che abbiamo svolto qui oggi.~
@@ -106,7 +106,7 @@
 @86 = ~È meglio che tu parli con Michelson, <CHARNAME>.~
 @87 = ~Sta per iniziare, <CHARNAME>. Parla con Michelson in modo da poter assistere al processo di costruzione.~
 
-@88 = ~Salve, <CHARNAME>. Michelson è già con noi. Se vuoi la ricompensa, devi portare con te Dusk.~
+@88 = ~Salve, <CHARNAME>. Michelson è già con noi. Se vuoi la ricompensa, devi portare con te Dusk.~ [p_math08]
 
 @89 = ~Mathyus, abbiamo ottenuto ciò di cui abbiamo bisogno per migliorare l'armatura di Dusk.~
 @90 = ~Molto bene! Dusk, saresti così gentile da prestare la tua armatura?~
@@ -140,7 +140,7 @@
 
 ///// MISION 2
 
-@114 = ~Dusk! Sono contento che tu abbia ricevuto il messaggio del mio amico. Ottimo lavoro, Demolitore!~
+@114 = ~Dusk! Sono contento che tu abbia ricevuto il messaggio del mio amico. Ottimo lavoro, Demolitore!~ [p_math14]
 @115 = ~Esatto, Capitano. Demolitore, con il suo ottimo senso dell'olfatto, ha ottenuto la posizione del gruppo che state cercando.~
 @116 = ~Quando il Capitano Aldant ci ha parlato delle sue visioni, ho consultato Michelson a riguardo. Mi ha detto che è possibile che quelle visioni siano reali e che potrebbero essere i veri responsabili dell'attacco al distaccamento di Cormyr.~
 @117 = ~Per qualche motivo, Michelson enfatizza la parola 'possibile'.~
@@ -151,14 +151,14 @@
 @122 = ~Il luogo è conosciuto come le Colline di Vento. Potete trovarle a sudest della regione, vicino a un grande lago.~
 @123 = ~Nessun problema... ma, Dusk... non fare nulla di avventato.~
 @124 = ~Molto bene, Capitano... una volta che avrete completato il vostro obiettivo, tornate da noi, per favore.~
-@125 = ~<CHARNAME>! È bello vederti. Ho bisogno di parlare urgentemente con Dusk. Quando puoi, vieni con lui.~
+@125 = ~<CHARNAME>! È bello vederti. Ho bisogno di parlare urgentemente con Dusk. Quando puoi, vieni con lui.~ [p_math15]
 @126 = ~Veramente, caro. Sei riuscito a raccogliere gli "ingredienti" necessari per il nostro amico Michelson?~
 @127 = ~Molto bene, Mathyus. Torno indietro con Dusk.~
 @128 = ~Molto bene, Mathyus. Tuttavia, prima mi piacerebbe vedere se possiamo forgiare qualcosa con il leprecauno.~
 @129 = ~Gratitudine, <CHARNAME>. Torna presto.~
 
 
-@130 = ~Sono felice di rivederti. Hai qualche novità?~
+@130 = ~Sono felice di rivederti. Hai qualche novità?~ [p_math16]
 @131 = ~Non ancora, Mathyus. Ma non appena sapremo qualcosa, torneremo.~
 @132 = ~Non ancora, Mathyus. Prima vorremmo vedere se possiamo forgiare qualcosa con il leprecauno.~
 @133 = ~Esatto, Mathyus. Ma è meglio se Dusk te lo racconta.~
@@ -254,7 +254,7 @@
 
 // M3 FINISHED
 @208 = ~Mathyus... abbiamo sconfitto l'esercito di Alabarza... ma mi dispiace informarti che Dusk è caduto in battaglia.~
-@209 = ~C-capisco... non siete riusciti a resuscitarlo...~
+@209 = ~C-capisco... non siete riusciti a resuscitarlo...~ [p_math17]
 @210 = ~*Michelson abbassa la testa e la scuote leggermente, cercando di nascondere le lacrime sulle sue guance*~
 @211 = ~*Devastato, abbattuto, Demolitore geme sommessamente e cade a terra alle parole di <CHARNAME>*~
 @212 = ~<CHARNAME>, t-ti ringrazio per avercelo comunicato...~
@@ -266,7 +266,7 @@
 @218 = ~Ritorneremo a Shilmista. Dubito che le nostre strade si incroceranno di nuovo, <CHARNAME>. Tuttavia, ti auguro fortuna e salute nei tuoi viaggi. Spero che tu possa trovare ciò che cerchi.~
 @219 = ~*Demolitore ti guarda con i suoi occhi luminosi, come se stesse dicendo addio*~
 @220 = ~*Michelson ti saluta con poca enfasi e procede a muovere le mani, evocando un incantesimo di teletrasporto*~
-@231 = ~Addio, <CHARNAME>.~
+@231 = ~Addio, <CHARNAME>.~ [p_math18]
 @222 = ~*Michelson abbassa la testa e la scuote lentamente, e per la prima volta sembri sentire un sospiro dalle sue labbra*~
 @223 = ~*sospiro* Potresti odiarmi per questo, <CHARNAME>... ma non posso fare a meno di provare un leggero sollievo nel mio cuore per Dusk.~
 @224 = ~*Demolitore guarda Mathyus in modo strano*~
@@ -409,8 +409,8 @@
 
 
 
-@339 = ~Oh, è passato un po' di tempo dall'ultima volta che ci siamo visti!~
-@340 = ~Oh, è passato un po' di tempo dall'ultima volta che ci siamo visti! Sono contento di rivederti. È con te Dusk? Ho bisogno di parlarci urgentemente.~
+@339 = ~Oh, è passato un po' di tempo dall'ultima volta che ci siamo visti!~ [p_math19]
+@340 = ~Oh, è passato un po' di tempo dall'ultima volta che ci siamo visti! Sono contento di rivederti. È con te Dusk? Ho bisogno di parlarci urgentemente.~ [p_math19]
 @341 = ~Dusk! <CHARNAME>! È un piacere vedervi insieme, sani e salvi. Immagino che sia stata un'avventura affascinante viaggiare in barca ed esplorare l'pericolosa Underdark.~
 @342 = ~Mathyus, Michelson! È un piacere rivedere i vostri volti. Anche a te, Demolitore.~
 @343 = ~*Demolitore, con sorprendente agilità, gira su se stesso al riconoscimento del suo amico*~ [P_Demo02]
@@ -484,7 +484,7 @@ Anthagar."~
 @399 = ~Ah, finalmente vedremo questo arciere in azione. Mi stavo stancando di sentirlo parlare di quanto sia potente senza dimostrarlo con i fatti.~
 @400 = ~Penso di non avere altro da dire per ora, Dusk. Quando sarai pronto a partire, parla di nuovo con me.~
 @401 = ~Ti consiglio di andare preparato. Ricorda che puoi forgiare artefatti con il nostro amico dai capelli verdi, giusto?~
-@402 = ~Quando sarai pronto... torna. Gli Shilmisti opporranno resistenza.~
+@402 = ~Quando sarai pronto... torna. Gli Shilmisti opporranno resistenza.~ [p_math20]
 @403 = ~S-sei sicuro di questo, <CHARNAME>?~
 
 
@@ -504,7 +504,7 @@ Anthagar."~
 
 
 
-@416 = ~<CHARNAME>! Non hai idea di quanto sia bello vederti... e di quanto sia meraviglioso poter respirare di nuovo!~
+@416 = ~<CHARNAME>! Non hai idea di quanto sia bello vederti... e di quanto sia meraviglioso poter respirare di nuovo!~ [p_math21]
 @417 = ~Mathyus! Vedo che Michelson è riuscito a farti rivivere, dopo tutto.~
 @418 = ~*Demolitore gira in cerchio, dimostrando una gioia immensa alle parole del suo padrone*~ [P_Demo01]
 @419 = ~*Michelson batte i piedi e balla in segno di gioia*~ [P_Mich03]
