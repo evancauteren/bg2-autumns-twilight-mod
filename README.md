@@ -3,7 +3,7 @@
 **Autumns Twilight Mod** features several new NPC joining to the party, new enemies and a plethora of items.
 
 <p align="center">
-    <img src="docs/images/screenshots/screenshot01.jpg?raw=true" width="820">
+    <img src="docs/images/screenshot01.jpg?raw=true" width="820">
 </p>
 
 ## Features
