@@ -5700,6 +5700,10 @@ Anforderung: Stärke 3~
 @91042   = ~Was soll ich für dich schmieden?~ [p_danc13]
 @91043   = ~Du hast meinem Ruf geantwortet. Gut, gut...~ [p_danc14]
 
+@91044   = ~Du bist in mein Netz gefallen!~ [p_morg16]
+@91045   = ~Leben oder Tod, es gibt keine anderen Alternativen.~ [p_morg22]
+@91046   = ~Mein Name ist Legion... denn wir sind viele...~ [p_morg21]
+
 
 // P_ALENGH
 @9110 = ~Kleines Caraneth... <CHARNAME>...~

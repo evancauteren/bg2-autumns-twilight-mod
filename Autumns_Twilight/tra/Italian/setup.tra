@@ -5776,6 +5776,16 @@ Requisito: Forza 3~
 
 @91038  = ~Io sono la Regina di Dreach-naga!~ [p_tisi09]
 
+@91039   = ~Proverai il potere delle ombre del Pandemonium!~ [p_danc25]
+@91040   = ~Stai all'erta!~ [p_danc16]
+@91041   = ~Finalmente... libero...~ [p_danc01]
+@91042   = ~Cosa vuoi che forgia per te?~ [p_danc13]
+@91043   = ~Hai risposto alla mia chiamata. Bene, bene...~ [p_danc14]
+
+@91044   = ~Sei caduto nella mia rete!~ [p_morg16]
+@91045   = ~Vita o morte, non ci sono altre alternative.~ [p_morg22]
+@91046   = ~Il mio nome è Legione... perché siamo molti...~ [p_morg21]
+
 
 // P_ALENGH
 @9110 = ~Piccola Caraneth... <CHARNAME>...~

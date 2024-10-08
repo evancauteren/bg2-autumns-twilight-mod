@@ -5921,6 +5921,10 @@ El poderoso elfo de Shilmista."~
 @91042   = ~¿Qué debo forjar para ti?~ [p_danc13]
 @91043   = ~Has respondido a mi llamada. Bien, bien...~ [p_danc14]
 
+@91044   = ~¡Has caído en mi telaraña!~ [p_morg16]
+@91045   = ~Vida o muerte, no hay otras alternativas.~ [p_morg22]
+@91046   = ~Mi nombre es Legión... porque somos muchos...~ [p_morg21]
+
 
 // P_ALENGH
 @9110    = ~Pequeña Caraneth... <CHARNAME>...~

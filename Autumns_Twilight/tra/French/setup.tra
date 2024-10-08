@@ -5811,6 +5811,10 @@ Exigence : Force 3~
 @91042   = ~Que dois-je forger pour vous ?~ [p_danc13]
 @91043   = ~Vous avez répondu à mon appel. Bien, bien...~ [p_danc14]
 
+@91044   = ~Tu es tombé dans ma toile !~ [p_morg16]
+@91045   = ~La vie ou la mort, il n'y a pas d'autres alternatives.~ [p_morg22]
+@91046   = ~Mon nom est Légion... car nous sommes nombreux...~ [p_morg21]
+
 
 // P_ALENGH
 @9110    = ~Petite Caraneth... <CHARNAME>...~ 
