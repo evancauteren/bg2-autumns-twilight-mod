@@ -40,7 +40,7 @@ Copy the content of the ZIP file into you BG2 directory and:
 - Write me an email: pablo.alejandro.ramos@gmail.com 
 
 [![Facebook](https://img.shields.io/badge/Facebook-blue.svg?style=flat&logo=facebook)](https://www.facebook.com/bg2duskmod)
-[![Discord](https://img.shields.io/discord/1295832308133134337?style=flat&logo=discord)](https://discord.gg/bFR5dchK)
+[![Discord](https://img.shields.io/discord/1295832308133134337?style=flat&logo=discord&label=Discord)](https://discord.gg/bFR5dchK)
 
 
 ## Current Release
