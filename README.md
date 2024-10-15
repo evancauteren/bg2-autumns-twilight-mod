@@ -34,12 +34,14 @@ Copy the content of the ZIP file into you BG2 directory and:
 
 [![Github Downloads](https://img.shields.io/github/downloads/evancauteren/bg2-autumns-twilight-mod/total.svg)](https://github.com/evancauteren/bg2-autumns-twilight-mod/releases)
 
-## Contacts
+## Contact
 
 - Follow us on social networks: [Facebook](https://www.facebook.com/bg2duskmod "Facebook")
 - Write me an email: pablo.alejandro.ramos@gmail.com 
 
-[![Facebook](https://img.shields.io/badge/Facebook-blue.svg)](https://www.facebook.com/bg2duskmod)
+[![Facebook](https://img.shields.io/badge/Facebook-blue.svg?style=flat&logo=facebook)](https://www.facebook.com/bg2duskmod)
+[![Discord](https://img.shields.io/discord/1295832308133134337?style=flat&logo=discord)](https://discord.gg/bFR5dchK)
+
 
 ## Current Release
 
