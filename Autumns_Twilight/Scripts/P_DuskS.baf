@@ -15,6 +15,68 @@ Wait (6)
 SetGlobal("P_Dusk_UpdateK","GLOBAL",0)
 END
 
+// Parche EVIL Dusk si tiene las 2 espadas IRA
+IF
+  InParty(Myself)
+  PartyHasItem("p_swevi4")
+  Global ("P_DuskPatchEvilSwordDuplicated","GLOBAL",0)
+  //PartyHasItem("p_orbef")
+  PartyHasItem("p_swevi3")
+THEN
+  RESPONSE #100
+  Wait(1)
+  TakePartyItem ("p_swevi3")
+  DestroyItem ("p_swevi3")
+  SetGlobal ("P_DuskPatchEvilSwordDuplicated","GLOBAL",1)
+END
+
+// Parche EVIL Dusk si tiene las 2 espadas IRA y el ORBE
+IF
+  InParty(Myself)
+  PartyHasItem("p_swevi4")
+  Global ("P_DuskPatchEvilSwordDuplicatedORB","GLOBAL",0)
+  PartyHasItem("p_orbef")
+THEN
+  RESPONSE #100
+  Wait(1)
+  TakePartyItem ("p_orbef")
+  UseItem ("p_orbef", Myself)
+  DestroyItem ("p_orbef")
+  SetGlobal ("P_DuskPatchEvilSwordDuplicatedORB","GLOBAL",1)
+END
+
+// Parche GOOD Dusk si tiene las 2 espadas IRA
+IF
+  InParty(Myself)
+  PartyHasItem("p_swgoo4")
+  Global ("P_DuskPatchGoodSwordDuplicated","GLOBAL",0)
+  //PartyHasItem("p_orbef")
+  PartyHasItem("p_swgoo3")
+THEN
+  RESPONSE #100
+  Wait(1)
+  TakePartyItem ("p_swgoo3")
+  DestroyItem ("p_swgoo3")
+  SetGlobal ("P_DuskPatchGoodSwordDuplicated","GLOBAL",1)
+END
+
+// Parche GOOD Dusk si tiene las 2 espadas IRA y el ORBE
+IF
+  InParty(Myself)
+  PartyHasItem("p_swgoo4")
+  Global ("P_DuskPatchGoodSwordDuplicatedORB","GLOBAL",0)
+  PartyHasItem("p_orbef")
+THEN
+  RESPONSE #100
+  Wait(1)
+  TakePartyItem ("p_orbef")
+  UseItem ("p_orbef", Myself)
+  DestroyItem ("p_orbef")
+  SetGlobal ("P_DuskPatchGoodSwordDuplicatedORB","GLOBAL",1)
+END
+
+
+
 // Dusk se va si CHARNAME mata a Hendak a pedido de Lehtinan
 IF
   InParty(Myself)
@@ -161,7 +223,7 @@ Global("P_DuskMatMission1","GLOBAL",5)
 Global("P_Dusk_T2","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) // TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) // TTT 3600
 SetGlobal("P_Dusk_T2","GLOBAL",1)  
 END
 
@@ -172,7 +234,7 @@ InParty(Myself)
 Global("P_Dusk_T3","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T3","GLOBAL",1)  
 END	
 
@@ -183,7 +245,7 @@ InParty(Myself)
 Global("P_Dusk_T3","GLOBAL",3)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 900
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 900
 SetGlobal("P_Dusk_Demole","GLOBAL",1)
 SetGlobal("P_Dusk_T3","GLOBAL",4)
 END	
@@ -196,7 +258,7 @@ Global("P_DuskMatMission2","GLOBAL",8)
 Global("P_Dusk_T4","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T4","GLOBAL",1)  
 END	
 
@@ -208,7 +270,7 @@ Global("P_Dusk_T4","GLOBAL",3)
 Global("P_Dusk_T5","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T5","GLOBAL",1)  
 END	
 
@@ -220,7 +282,7 @@ Global("P_Dusk_T5","GLOBAL",3)
 Global("P_Dusk_T6","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T6","GLOBAL",1)  
 END	
 
@@ -234,7 +296,7 @@ Global("P_DuskMatMission3","GLOBAL",0)
 Global("P_DuskDemoleApp2","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 900
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",900) //TTT 900
 SetGlobal("P_DuskMatMission3","GLOBAL",1)
 SetGlobal("P_DuskDemoleApp2","GLOBAL",1)
 END
@@ -242,12 +304,11 @@ END
 // TIMER P_Dusk_T7
 IF 
 InParty(Myself) 
-	
 Global("P_Dusk_T6","GLOBAL",3)
 Global("P_Dusk_T7","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T7","GLOBAL",1)  
 END	
 
@@ -259,7 +320,7 @@ Global("P_Dusk_T7","GLOBAL",3)
 Global("P_Dusk_T8","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T8","GLOBAL",1)  
 END	
 
@@ -273,7 +334,7 @@ Global("P_Dusk_T8","GLOBAL",3)
 Global("P_Dusk_T9","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T9","GLOBAL",1)  
 END	
 
@@ -285,7 +346,7 @@ Global("P_Dusk_T9","GLOBAL",3)
 Global("P_Dusk_T10","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T10","GLOBAL",1)  
 END	
 
@@ -297,7 +358,7 @@ Global("P_Dusk_T10","GLOBAL",3)
 Global("P_Dusk_T11","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T11","GLOBAL",1)  
 END	
 
@@ -309,7 +370,7 @@ Global("P_Dusk_T11","GLOBAL",3)
 Global("P_Dusk_T12","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T12","GLOBAL",1)  
 END	
 
@@ -321,7 +382,7 @@ Global("P_Dusk_T12","GLOBAL",3)
 Global("P_Dusk_T13","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 1500
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",1500) //TTT 1500
 SetGlobal("P_Dusk_T13","GLOBAL",1)  
 END	
 
@@ -380,6 +441,7 @@ Global("P_Dusk_Demole","GLOBAL",1)
 Global ("P_Dusk_Demole_Enc1","GLOBAL",0)
 THEN
 RESPONSE #100
+  ClearAllActions()
   StartCutSceneMode()
   IncrementGlobal("P_Dusk_Demole","GLOBAL",1)
   CreateCreatureObjectDoor ("p_demole","p_dusk",0,0,0)
@@ -429,6 +491,7 @@ Global ("P_DuskEvil","GLOBAL",1)
 PartyHasItem("p_brkshl")
 THEN
 RESPONSE #100
+  ClearAllActions()
   StartCutSceneMode()
   Wait(2) 
   SetGlobal ("P_DuskEvil","GLOBAL",2)
@@ -528,6 +591,7 @@ Global ("P_SORNHIL_APP_GOOD","GLOBAL",0)
 //!AreaCheck("AR1200")
 THEN
 RESPONSE #100
+  ClearAllActions()
   Wait (1)
   SetGlobal ("P_SORNHIL_APP_GOOD","GLOBAL",1)
   StartCutSceneMode()
@@ -635,7 +699,6 @@ IF
 InParty(Myself)
 RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
 Global("P_Dusk_T4","GLOBAL",3)
-
 See(Player1)								
 !StateCheck(Player1,CD_STATE_NOTVALID) 
 !StateCheck(Myself,CD_STATE_NOTVALID)
@@ -653,7 +716,6 @@ IF
 InParty(Myself)
 RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
 Global("P_Dusk_T5","GLOBAL",3)
-
 See(Player1)								
 !StateCheck(Player1,CD_STATE_NOTVALID) 
 !StateCheck(Myself,CD_STATE_NOTVALID)
@@ -671,7 +733,6 @@ IF
 InParty(Myself)
 RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
 Global("P_Dusk_T6","GLOBAL",3)
-
 See(Player1)								
 !StateCheck(Player1,CD_STATE_NOTVALID) 
 !StateCheck(Myself,CD_STATE_NOTVALID)
@@ -689,7 +750,6 @@ IF
 InParty(Myself)
 RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
 Global("P_Dusk_T7","GLOBAL",3)
-
 See(Player1)								
 !StateCheck(Player1,CD_STATE_NOTVALID) 
 !StateCheck(Myself,CD_STATE_NOTVALID)
@@ -719,6 +779,7 @@ CombatCounter(0)
 Global ("P_Dusk_Demole_Enc2","GLOBAL",0)
 THEN
 RESPONSE #100
+  ClearAllActions()
   StartCutSceneMode()
   IncrementGlobal("P_Dusk_Demole","GLOBAL",1)
   CreateCreatureObjectDoor ("p_demole","p_dusk",0,0,0)
@@ -773,6 +834,7 @@ Global ("P_DUSK_IS_GOOD","GLOBAL",1)
 THEN
 RESPONSE #100
   Wait(2)
+  ClearAllActions()
   StartCutSceneMode()
   Wait(2)  
   CreateCreatureObjectDoor("p_anthag","p_dusk",0,0,0) 
@@ -790,6 +852,7 @@ InParty(Myself)
 Global ("P_Dusk_Anthag_Army","GLOBAL",1)
 THEN
 RESPONSE #100
+  ClearAllActions()
   StartCutSceneMode()
   Wait(2)
   CreateCreatureObjectDoor("p_veneno","p_dusk",0,0,0) 
@@ -834,6 +897,7 @@ AreaCheck("AR1800")
 AreaCheck("AR0900")
 THEN
 RESPONSE #100
+  ClearAllActions()
   StartCutSceneMode()
   CreateCreatureObjectDoor ("p_demole","p_dusk",0,0,0)
   SetGlobal ("P_Dusk_Demole_FinalEnc","GLOBAL",1)
@@ -890,6 +954,7 @@ AreaCheck("AR0900")
 THEN
 RESPONSE #100
   Wait(2)
+  ClearAllActions()
   StartCutSceneMode()
   Wait(2)  
   CreateCreatureObjectDoor("p_dancti","p_dusk",0,0,0) 

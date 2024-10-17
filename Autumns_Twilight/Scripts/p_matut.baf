@@ -79,3 +79,29 @@ THEN
   Wait (5)
   StartDialogueNoSet(Player1)
 END
+
+// Parche GOOD Dusk si tiene las 2 espadas IRA
+IF
+  PartyHasItem("p_swgoo4")
+  Global ("P_MatuPatchGoodSwordDuplicated","GLOBAL",0)
+  PartyHasItem("p_swgoo3")
+THEN
+  RESPONSE #100
+  Wait(6)
+  TakePartyItem ("p_swgoo3")
+  DestroyItem ("p_swgoo3")
+  SetGlobal ("P_MatuPatchGoodSwordDuplicated","GLOBAL",1)
+END
+
+// Parche GOOD Dusk si tiene las 2 espadas IRA y el ORBE
+IF
+  PartyHasItem("p_swgoo4")
+  Global ("P_MatuPatchGoodSwordDuplicatedORB","GLOBAL",0)
+  PartyHasItem("p_orbef")
+THEN
+  RESPONSE #100
+  Wait(6)
+  TakePartyItem ("p_orbef")
+  DestroyItem ("p_orbef")
+  SetGlobal ("P_MatuPatchGoodSwordDuplicatedORB","GLOBAL",1)
+END

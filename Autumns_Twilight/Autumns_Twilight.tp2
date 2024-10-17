@@ -2,7 +2,7 @@ BACKUP ~Autumns_Twilight/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v0.9~
+VERSION ~v1.0~
 
 README ~Autumns_Twilight/Readme-Autumns_Twilight.txt~
 
@@ -86,6 +86,7 @@ COPY ~Autumns_Twilight/Audio/p_alen~ ~override~
 COPY ~Autumns_Twilight/Items~ ~override~ 
 COPY ~Autumns_Twilight/Spells~ ~override~ 
 COPY ~Autumns_Twilight/Characters~ ~override~ 
+COPY ~Autumns_Twilight/Characters/rask~ ~override~ 
 // METER BAMs
 COPY ~Autumns_Twilight/Characters/lizard_army~ ~override~
 //COPY ~Autumns_Twilight/Characters/gorm~ ~override~ 
@@ -2399,6 +2400,10 @@ COPY ~Autumns_Twilight/Characters/P_kitoch.bmp~ ~override~
 COPY ~Autumns_Twilight/Characters/P_kitoch.cre~ ~override~
 SAY NAME1 @200036 /* Kitochi */
 SAY NAME2 @200036 /* Kitochi */
+SAY SELECT_COMMON1 ~~ [p_kito01]
+SAY SELECT_COMMON2 ~~ [p_kito02]
+SAY SELECT_COMMON3 ~~ [p_kito03]
+SAY SELECT_COMMON4 ~~ [p_kito04]
 WRITE_ASCII 0x2cc ~P_kitoch~ #8 // dialog file
 WRITE_ASCII 0X34  ~P_kitoch~ #8  // small portrait
 WRITE_ASCII 0x248 ~P_kitoch~ #8  // OVERRIDE SCRIPT
@@ -2409,6 +2414,10 @@ WRITE_ASCII 0x280 ~P_kitoch~ #8
 COPY ~Autumns_Twilight/Characters/p_kitoc2.cre~ ~override~
 SAY NAME1 @200036 /* Kitochi */
 SAY NAME2 @200036 /* Kitochi */
+SAY SELECT_COMMON1 ~~ [p_kito01]
+SAY SELECT_COMMON2 ~~ [p_kito02]
+SAY SELECT_COMMON3 ~~ [p_kito03]
+SAY SELECT_COMMON4 ~~ [p_kito04]
 WRITE_ASCII 0x2cc ~p_kitoch~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_kitoch~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_kitoch~ #8  // OVERRIDE SCRIPT
@@ -2481,6 +2490,7 @@ COPY ~Autumns_Twilight/Characters/Icelock/P_ICELOC.bmp~ ~override~
 COPY ~Autumns_Twilight/Characters/Icelock/P_ICELOC.cre~ ~override~
 SAY NAME1 @200045 /* Icelock */
 SAY NAME2 @200045 /* Icelock */
+SAY SELECT_COMMON1 ~~ [p_icel00]
 WRITE_ASCII 0x2cc ~P_ICELOC~ #8 // dialog file
 WRITE_ASCII 0X34  ~P_ICELOC~ #8  // small portrait
 WRITE_ASCII 0x248 ~P_ICELOC~ #8  // OVERRIDE SCRIPT

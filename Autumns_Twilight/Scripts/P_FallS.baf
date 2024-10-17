@@ -141,7 +141,7 @@ InParty(Myself)
 Global("P_FallTalk","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_FallTimer","GLOBAL",60) // TTT 2000
+RealSetGlobalTimer("P_FallTimer","GLOBAL",2000) // TTT 2000
 SetGlobal("P_FallTalk","GLOBAL",1)
 END
 
@@ -179,7 +179,7 @@ Global("P_FallMission1","GLOBAL",4) // Mission 1 Completada
 Global("P_Fall_T2","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_FallTimer","GLOBAL",60) // TTT 1800
+RealSetGlobalTimer("P_FallTimer","GLOBAL",1800) // TTT 1800
 SetGlobal("P_Fall_T2","GLOBAL",1)  
 END
 
@@ -209,7 +209,7 @@ Global("P_Fall_T2","GLOBAL",3) // Talk2 realizada
 Global("P_Fall_T3","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_FallTimer","GLOBAL",60) // TTT 3600
+RealSetGlobalTimer("P_FallTimer","GLOBAL",3600) // TTT 3600
 SetGlobal("P_Fall_T3","GLOBAL",1)  
 END
 
@@ -240,7 +240,7 @@ PartyHasItem("p_basgem") // Fall YA tiene la gema de Voragor
 Global("P_Fall_SP1_1","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_FallTimerSP","GLOBAL",60) // TTT 3600
+RealSetGlobalTimer("P_FallTimerSP","GLOBAL",3600) // TTT 3600
 SetGlobal("P_Fall_SP1_1","GLOBAL",1)  
 END
 
@@ -272,7 +272,7 @@ Global("P_Fall_SP1_1","GLOBAL",3)
 Global("P_Fall_SP1_2","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_FallTimerSP","GLOBAL",60) // TTT 3600
+RealSetGlobalTimer("P_FallTimerSP","GLOBAL",3600) // TTT 3600
 SetGlobal("P_Fall_SP1_2","GLOBAL",1)  
 END
 
@@ -304,7 +304,7 @@ Global("P_Fall_T3","GLOBAL",3) // Talk3 realizada
 Global("P_Fall_T4","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_FallTimer","GLOBAL",60) // TTT 3600
+RealSetGlobalTimer("P_FallTimer","GLOBAL",3600) // TTT 3600
 SetGlobal("P_Fall_T4","GLOBAL",1)  
 END
 
@@ -336,7 +336,7 @@ Global("P_Fall_T4","GLOBAL",3) // Talk3 realizada
 Global("P_Fall_T5","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_FallTimer","GLOBAL",60) // TTT 2200
+RealSetGlobalTimer("P_FallTimer","GLOBAL",3600) // TTT 2200
 SetGlobal("P_Fall_T5","GLOBAL",1)  
 END
 
@@ -368,7 +368,7 @@ Global("P_Fall_Kitochi_Stay","GLOBAL",1)
 Global("P_Fall_SP2_1","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_FallTimerSP","GLOBAL",60) // TTT 3600
+RealSetGlobalTimer("P_FallTimerSP","GLOBAL",3600) // TTT 3600
 SetGlobal("P_Fall_SP2_1","GLOBAL",1)  
 END
 
@@ -398,7 +398,7 @@ PartyHasItem ("P_MALAR") // Fall tiene la estatuilla de Ivor
 Global("P_Fall_SP3_1","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_FallTimerSP","GLOBAL",60) // TTT 3600
+RealSetGlobalTimer("P_FallTimerSP","GLOBAL",3600) // TTT 3600
 SetGlobal("P_Fall_SP3_1","GLOBAL",1)  
 END
 
@@ -429,7 +429,7 @@ Global("P_Fall_SP3_1","GLOBAL",3)
 Global("P_Fall_SP3_2","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_FallTimerSP","GLOBAL",60) // TTT 800
+RealSetGlobalTimer("P_FallTimerSP","GLOBAL",800) // TTT 800
 SetGlobal("P_Fall_SP3_2","GLOBAL",1)  
 END
 

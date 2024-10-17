@@ -1,7 +1,7 @@
 @0=~*Du siehst eine seltsame Katze, die mit halb geschlossenen Augen sitzt. Du kannst nicht anders, als den kleinen Hut zu bemerken, den sie trägt.*~
 @1=~*Du beobachtest die Katze genau. Sie scheint zu schlafen, während sie sitzt.*~
 @2=~*Die Katze, die anscheinend gemütlich schläft, wird wach, als sie Falls Stimme hört.*~
-@3=~Lächerlicher Hut? Für ein Kind von Bhaal siehst du aus wie ein Narr.~ ~Lächerlicher Hut? Für eine Tochter von Bhaal siehst du aus wie ein Narr.~
+@3=~Lächerlicher Hut? Für ein Kind von Bhaal siehst du aus wie ein Narr.~ [p_kito03] ~Lächerlicher Hut? Für eine Tochter von Bhaal siehst du aus wie ein Narr.~ [p_kito03]
 @4=~Versuchst du, meine Gefühle zu verletzen? Du musst es schon besser versuchen, Narr.~
 @5=~Ja, tut mir leid, Schwatzbase.~
 @6=~Was habe ich getan? Mach nicht, dass ich meine Krallen ausfahre, Ungeheuer.~
@@ -34,7 +34,7 @@
 @33=~Man kann bis zu einer anscheinend unpassierbaren Wand weitergehen. Eine Art unsichtbare Kraft.~
 @34=~Hier hielt Alendir an und... schien mit der Leere zu sprechen.~
 @35=~Hast du ihn gehört, Kitochi?~
-@36=~*miau* Natürlich, Schwatzbase. Der Elf sagte: „Im Flüstern des eisigen Winds wird der Weg gefunden.“~
+@36=~*miau* Natürlich, Schwatzbase. Der Elf sagte: „Im Flüstern des eisigen Winds wird der Weg gefunden.“~ [p_kito01]
 @37=~Danach schien das Hindernis zu verschwinden. Aber... ich bin ihm nicht weiter gefolgt. Ich weiß nicht, was jenseits dieses Ortes liegt.~
 @38=~Ich spürte Gefahr. Oder zumindest eine seltsame Präsenz, die fremd für diesen Plan war.~
 @39=~Wie auch immer, ich glaube, ich habe deine Bitte erfüllt, Schwatzbase.~
@@ -46,14 +46,14 @@
 @45=~Sehr gut, Schwatzbase. Ich hoffe, du kannst den Zauber entschlüsseln, der nötig ist, um mich zu beschwören.~
 @46=~Für jetzt verabschiede ich mich.~
 
-@47=~Bei den Schnurrhaaren meiner Mutter! Schwatzbase, dieser Käfer sieht mich sehr seltsam an.~
+@47=~Bei den Schnurrhaaren meiner Mutter! Schwatzbase, dieser Käfer sieht mich sehr seltsam an.~ [p_kito01]
 @48=~*Der Blick des Käfers ist auf Kitochi gerichtet.*~
 @49=~Ich verstehe. Nun, das wird ein bisschen knifflig. Seine Beine sind mit großen Ketten gebunden.~
 @50=~Wir sehen keine Ketten, Kitochi.~
 @51=~Nun, du hast nicht meine Augen, guter <CHARNAME>. Das Wesen wird nicht wegkommen, es sei denn, du besiegst es oder findest einen Weg, es von seinen Ketten zu befreien.~
 
-@52=~*gähnt* <CHARNAME>! Hast du Lust zu reden? Das hier ist vielleicht nicht der beste Ort für ein Gespräch, aber ich denke, dass ein paar Worte zwischen Freunden in Anbetracht der Gefahr die Stimmung aufhellen könnten.~
-@53=~*miau* Und? Komm schon, ich möchte mehr über dich erfahren.~
+@52=~*gähnt* <CHARNAME>! Hast du Lust zu reden? Das hier ist vielleicht nicht der beste Ort für ein Gespräch, aber ich denke, dass ein paar Worte zwischen Freunden in Anbetracht der Gefahr die Stimmung aufhellen könnten.~ [p_kito02]
+@53=~*miau* Und? Komm schon, ich möchte mehr über dich erfahren.~[p_kito01]
 @54=~Und was möchtest du wissen, Kitochi? Du weißt bereits, dass ich ein Nachkomme von Bhaal bin. Du hast die Gespräche in der Taverne der Fünf Krüge selbst gehört.~
 @55=~Es ist gerade keine gute Zeit zum Reden, Katze.~
 @56=~Hmpf. So sei es. Ich glaube, ich habe mich in dir geirrt.~
@@ -74,8 +74,8 @@
 @72=~Bevor wir beginnen... du solltest wissen, dass du die zweite Person bist, mit der ich darüber spreche. Fall ist ein gutes Mädchen und hat ähnliche Erfahrungen gemacht wie wir.~
 @73=~Ich musste es tun. Ich musste es tun.~
 @74=~Kitochi, geht es dir gut?~
-@75=~*scharfes Miau* Ja, <CHARNAME>. Danke, dass du fragst.~
-@76=~*miau* Ich denke, das ist genug für heute, Freund <CHARNAME>. Hier ist der Deal: Rufe mich das nächste Mal in einer Stadt-Taverne und ich werde meine Geschichte fortsetzen.~ ~*miau* Ich denke, das ist genug für heute, Freund <CHARNAME>. Hier ist der Deal: Rufe mich das nächste Mal in einer Stadt-Taverne und ich werde meine Geschichte fortsetzen.~
+@75=~*scharfes Miau* Ja, <CHARNAME>. Danke, dass du fragst.~ [p_kito02]
+@76=~*miau* Ich denke, das ist genug für heute, Freund <CHARNAME>. Hier ist der Deal: Rufe mich das nächste Mal in einer Stadt-Taverne und ich werde meine Geschichte fortsetzen.~ [p_kito03]~*miau* Ich denke, das ist genug für heute, Freund <CHARNAME>. Hier ist der Deal: Rufe mich das nächste Mal in einer Stadt-Taverne und ich werde meine Geschichte fortsetzen.~[p_kito03]
 @77=~Aber manchmal habe ich das Gefühl, dass ich mit jemand anderem reden muss, und ich kann an kein erfahreneres Wesen als dich denken.~
 @78=~Feenkatzen leben viele Jahre. Aber wir sind nicht unsterblich. Es gibt da viel Verwirrung darüber, weißt du?~
 @79=~Ich weiß, dass ich im Vergleich zu meinen Verwandten kein schönes Wesen bin. Aber ich kann mich entschuldigen, weil ich an vorderster Front mit den Kundschaftern und Druiden von Imnescar gekämpft habe.~
@@ -96,7 +96,7 @@
 @94=~Ich verstehe. Und ich respektiere das. In diesem Fall würde ich gerne, dass du meine Geschichte hörst. Was hältst du davon?~
 
 // Kitochi Quest -2nd Talk
-@95=~*scharfes Miau* Ja, dieser Ort ist ein guter Platz zum Reden.~
+@95=~*scharfes Miau* Ja, dieser Ort ist ein guter Platz zum Reden.~[p_kito02]
 @96=~*gähnt* Und? <CHARNAME>, wollen wir mit der Geschichte fortfahren?~
 @97=~Über deine Ankunft in den Imnescar-Wäldern? Du hast einen Druiden namens Aeris erwähnt.~
 @98=~Hast du nicht von einer Mission oder so etwas gesprochen? Wenn es etwas zu tun gibt, möchte ich, dass du es mir sagst.~
@@ -122,7 +122,7 @@
 @118=~Ich... gut... ich glaube nicht, dass wir wieder reden werden...~
 @119=~Der Unterschied ist, dass wir diese Kreatur wahrscheinlich nicht treffen werden, wenn wir Falls Weg folgen. Das möchte ich nicht.~
 @120=~Zuerst möchte ich klarstellen, dass das Wesen Schätze bewachen könnte. Wenn nicht, kann ich dir versichern, dass wir aus seinem faulenden Körper etwas machen können.~
-@121=~*miau* Es ist Zeit, das für jetzt zu beenden, <CHARNAME>. Wir werden die Details in unserem nächsten Gespräch abschließen. Ich muss noch einige Dinge im Astralraum planen. Rufe mich das nächste Mal in einem bewaldeten Gebiet und wir werden reden.~
+@121=~*miau* Es ist Zeit, das für jetzt zu beenden, <CHARNAME>. Wir werden die Details in unserem nächsten Gespräch abschließen. Ich muss noch einige Dinge im Astralraum planen. Rufe mich das nächste Mal in einem bewaldeten Gebiet und wir werden reden.~ [p_kito01]
 @122=~Das Letzte, was ich dir sagte, war von einem Dämon, der mich durch die Ebenen verfolgte. Am Ende schafften es die Kundschafter und Druiden, ihn zu töten, wenn auch nicht ohne Schwierigkeiten.~
 @123=~Die Kräfte der Natur in der materiellen Ebene sind eine Kraft, mit der man rechnen muss, <CHARNAME>.~
 @124=~Ihre Lebensspanne mag erheblich kürzer sein als die vieler abyssaler Kreaturen, aber das macht sie nicht schwächer.~
@@ -142,7 +142,7 @@
 
 // Kitochi Quest -3rd Talk
 
-@138=~*murmelt* Es erinnert mich ein wenig an Imnescar... <CHARNAME>, es ist Zeit für die Wahrheit.~
+@138=~*murmelt* Es erinnert mich ein wenig an Imnescar... <CHARNAME>, es ist Zeit für die Wahrheit.~ [p_kito04]
 @139=~Ich werde über das Wesen sprechen, das Aeris getötet hat.~
 @140=~Ich verstehe. Um welches Wesen handelt es sich, Kitochi? Um einen erfahrenen elfen Druiden zu töten, muss es ein mächtiges Monster gewesen sein.~
 @141=~Und müssen wir dieses Ding töten? Wir brauchen mehr Informationen über unser Ziel, Katze.~
@@ -191,12 +191,12 @@
 @184=~Das gleiche befindet sich im Besitz eines alten Bekannten, Fall.~
 @185=~Acrull Northshield.~
 @186=~Was?! Hat Acrull von deinem Plan die ganze Zeit gewusst?~
-@187=~*scharfes Miau* Es ist wahrscheinlich, Schwätzer. Wichtig ist, dass Acrull die Verbindung zwischen dieser Ebene und der abyssalen Ebene sein wird, indem er die Schuppe benutzt, die ich ihm vor einiger Zeit gegeben habe.~
+@187=~*scharfes Miau* Es ist wahrscheinlich, Schwätzer. Wichtig ist, dass Acrull die Verbindung zwischen dieser Ebene und der abyssalen Ebene sein wird, indem er die Schuppe benutzt, die ich ihm vor einiger Zeit gegeben habe.~ [p_kito03]
 @188=~<CHARNAME>, es ist wichtig, dass Fall bei dir ist, wenn du mit Acrull sprichst. Es ist nicht notwendig, dass ich anwesend bin, aber wenn wir Gorms Unterschlupf erreichen, ruf mich.~
 
 @189=~Acrull hat recht, <CHARNAME>. Bring Fall mit, damit wir zu Gorms Unterschlupf reisen können.~
 @190=~Ja, Acrull. Fall und <CHARNAME>s Kräfte werden zu Gorms Ebene reisen, zu seinem Unterschlupf.~
-@191=~*scharfes Miau* Gorm!!! Komm heraus, wo auch immer du dich versteckst, du widerliches Wesen. Wir sind gekommen, um dich zu töten!~
+@191=~*scharfes Miau* Gorm!!! Komm heraus, wo auch immer du dich versteckst, du widerliches Wesen. Wir sind gekommen, um dich zu töten!~ [p_kito02]
 @192=~Gorm! Das ist für meinen Freund... Angriff!~
 @193=~Endlich sind wir angekommen... <CHARNAME>, erinnere dich daran: Mein Tod ist belanglos... aber du musst Fall schützen. Wenn wir diesen Kampf gewinnen, wird sie die notwendige Verbindung sein, um nach Hause zurückzukehren.~
 @194=~Sei nicht pessimistisch, Kitochi. Niemand wird sterben. Das ist ein Versprechen!~

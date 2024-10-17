@@ -169,7 +169,7 @@
 
   // Amatista del Dragón Púrpura
 
-@134  = ~Danctian, we want to forge something with the Purple Dragon Amethyst."~
+@134  = ~Danctian, we want to forge something with the Purple Dragon Amethyst.~
 @135  = ~Ah, I see... well, mortal. What will we forge with it?~
 @136  = ~We will enhance the armor, Danctian: Cormyr's Defense.~
 @137  = ~We will enhance the weapon, Danctian: the Disruption Sword.~
@@ -260,7 +260,7 @@
 @208  = ~By Cormyr... the edge is even more radiant... What does this mean?~
 
 @209  = ~Ira...~
-@210  = ~¿Ira?~
+@210  = ~Ira?~
 @211  = ~That is the true name of the weapon, Ardusk. And it is destined to be in your hands.~
 @212  = ~Your enemies will tremble... and they will be killed in the name of the shadows.~
 @213  = ~<CHARNAME>, we are back on your plane.~ [p_danc19]
@@ -279,7 +279,7 @@
 @225  = ~What have you said? ... Bring her back? You mean...~
 @226  = ~We have returned to Athkatla.~ [p_danc21]
 @227  = ~I assume that what we have seen has been... real...~
-@228  = ~You are correct. I don't think Mielikki was too amused that you invaded his... precious Grove.~
+@228  = ~You are correct. I don't think Mielikki was too amused that you invaded her... precious Grove.~
 @229  = ~Why did you do it, Danctian?~
 @230  = ~I think you know that as well as I do, Ardusk.~
 
@@ -293,7 +293,7 @@
 @238  = ~Hmpf... Have you always been so talkative, Danctian? I hadn't realized how annoying you are.~
 @239  = ~I understand. My apologies, Ardusk.~
 @240  = ~Now, the time for the reward has come, <CHARNAME>. I hope the gold is to your liking.~
-@241  = ~old is always welcome, Danctian.~
+@241  = ~Gold is always welcome, Danctian.~
 @242  = ~It's not necessary, Danctian. We've obtained a good share by destroying that Forgotten Crypt.~
 @243  = ~Naturally, these yellowed metal pieces have no value to me. They're all yours, <CHARNAME>.~
 @244  = ~75,000 gold pieces. I hope it's an appropriate amount.~

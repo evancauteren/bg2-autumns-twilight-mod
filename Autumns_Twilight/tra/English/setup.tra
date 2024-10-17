@@ -4619,7 +4619,7 @@ Weight: 1 lbs.~
 
 @400447 = ~Jaheira! No... NOOOOooooooo!~
 @400448 = ~Minsc... Boo... No... You'll regret this!~
-@400449 = ~¡Aerie! Bastardos... ¡Mueran!~
+@400449 = ~Aerie! You bastards... Die!~
 @400450 = ~Imoen! IMOEN! No... NoooOOoo!!!~
 @400451 = ~Korgan... Darn it... I'll avenge you, dwarf.~
 @400452 = ~Nalia... no... In the name of your family, I'll avenge your fall!~
@@ -5901,7 +5901,7 @@ The powerful elf of Shilmista."~
 @91130   = ~I... I know, Alendir... I've read your final writings.~
 @91131   = ~It's not the time for sentimentality. The hour has come. The Ice Rose is about to melt.~
 @91132   = ~When that happens, Fall, a portal to Rachnidra will open in Icelock's chamber.~
-@91133   = ~You'll need to return to the Lower City of Athkatla and find my lair through the sewer passages.~
+@91133   = ~You'll need to return to the Athkatla's Slums and find my lair through the sewer passages.~
 @91134   = ~It's... a pity, <CHARNAME>. Here I bid you farewell, then... I pray to Mystra that Fall doesn't fall forever into the Abyss...~
 
 // p_celin
@@ -6321,7 +6321,7 @@ Tima: Cufa, remember we're on a diet. Hey, stranger, it would be better if you t
 @9219   = ~You don't have much life left, scum. Finally... you've paid.~
 @92110   = ~I-I would like to say... that this is not over yet... That... that I'll haunt you in the afterlife... b-but...~
 @92111   = ~But your deity, Gruumsh, I doubt he'll forgive you, doesn't he? After all... you've received help from an elf... and there's nothing Gruumsh hates more than elves...~
-@92112   = ~*laughs malevolently* You will spend eternity suffering, at the hand of your god. A fate more than deserved, I'd say...~
+@92112   = ~*laughs malevolently* You will spend eternity suffering, at the hand of your god. A fate more than deserved, I'd say...~ [p_dusk42]
 @92113   = ~Grr... *with difficulty, the half-orc reaches out in a desperate attempt to grab Dusk's neck*~
 @92114   = ~*But Dusk, mercilessly, severs it with his sword, filling the Mound with Alabarza's muffled screams*~
 @92115   = ~You won't have any last words or wishes, scum. Although perhaps this will comfort you: the elf who helped you, Kalanda, will have the same fate as you...~
@@ -6817,7 +6817,7 @@ But in the end, he consumed his youth and life.~
 @93824   = ~For now, no, General.~
 
 // P_VRESH
-@9390    = ~He... he has the talisman of Qyl'tar. That means...~
+@9390    = ~He... he has the talisman of Qyl'tar. That means...~ ~She... she has the talisman of Qyl'tar. That means...~
 @9391    = ~That Qyl'tar is dead. I suspected as much... these are not just ordinary surface adventurers.~
 @9392    = ~Qyl'tar is dead.~
 @9393    = ~Commander Vreshnak, wake up. Yes, Qyl'tar has fallen, but it is up to us to avenge him.~
@@ -7060,18 +7060,18 @@ But in the end, he consumed his youth and life.~
 @9538    = ~It is settled. I'll still be here, you know? It's better than wasting time in that stinky Copper Crown or whatever it's called.~
 
 // P_ICELOC
-@9540    = ~Who dares to intrude into the temple of the Monarch of Eternal Frost?~
+@9540    = ~Who dares to intrude into the temple of the Monarch of Eternal Frost?~ [p_icel01]
 @9541    = ~Selu'taar. I demand an explanation. Your life depends on it.~
 @9542    = ~Now I understand. You have brought these mortals as a sacrifice to prevent the rise of the Shyntquarra.~
 @9543    = ~The what?~
 @9544    = ~That doesn't sound good at all.~
 @9545    = ~We are no one's sacrifice, giant.~
 @9546    = ~Flesh creatures have little say about their fate at the hands of the gods.~
-@9547    = ~The Shyntquarra must be avoided at all costs. That is my lord's demand.~
-@9548    = ~What are you waiting for, selu'taar? Finish them off.~
+@9547    = ~The Shyntquarra must be avoided at all costs. That is my lord's demand.~ [p_icel02]
+@9548    = ~What are you waiting for, selu'taar? Finish them off.~ [p_icel03]
 @9549    = ~Icelock... wait, I can explain.~
 @95410   = ~Alendir? What is happening? Who (or what) is that creature?~
-@95411   = ~Weak elf. Do you dare to call yourself the Frostmaster? I will keep you alive just to witness us crush your friends.~
+@95411   = ~Weak elf. Do you dare to call yourself the Frostmaster? I will keep you alive just to witness us crush your friends.~ [p_icel04]
 @95412   = ~Alendir!~
 @95413   = ~Fall... *groan* Destroy the golem... it is weak to fire... finish it and its minions.~
 
@@ -7709,6 +7709,11 @@ But in the end, he consumed his youth and life.~
 @97070   = ~It's quite useful, isn't it?~
 @97071   = ~Diligent as ants is good old Verthan. His influence even reaches these very underground lands.~
 @97072   = ~Could you please ask him to step away from the threshold? We need to reach Alendir!~
+
+@97073   = ~He seems to have sympathy for us. I think if you tell him your intentions are not aggressive, he'll yield.~
+@97074   = ~We'll have a greater reward if we kill him, <CHARNAME>. Besides, a great basilisk is a worthy foe to test our skills against.~
+
+
 
 // P_BABA
 // Bloque 1 (FTF)

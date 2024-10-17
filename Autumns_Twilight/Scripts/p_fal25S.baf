@@ -64,7 +64,7 @@ Global("P_Fall_SP2_1","GLOBAL",3)
 Global("P_Fall_SP3_2","GLOBAL",3)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_FallTimerToB","GLOBAL",1800) //1800
+RealSetGlobalTimer("P_FallTimerToB","GLOBAL",1800) //TTT 1800
 SetGlobal("P_FallTalkToB","GLOBAL",1)
 END
 

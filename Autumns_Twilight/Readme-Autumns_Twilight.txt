@@ -102,11 +102,11 @@ New Animations:
 Voices:
 - Dusk by Nick  
 - Fall by Ivette  
-- Alendir/Cho'Nuja/Morgrath by Pol  
+- Alendir/Cho'Nuja/Morgrath/Icelock by Pol  
 - Mathyus/Danctian by Endarire  
 - Michelson by Franquito Rinaldi  
 - Kitochi by Disha (my cat)  
-- Vidomina, Gemystara and Tisiphone by DrTrenchcoatcat
+- Vidomina, Gemystara and Tisiphone by AmyAE
 
 
 -------------------

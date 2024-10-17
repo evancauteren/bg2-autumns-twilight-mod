@@ -1,7 +1,7 @@
 @0=~*Widzisz dziwnego kota siedzącego z półzamkniętymi oczami. Nie możesz nie zauważyć małego kapelusza, który ma na sobie.*~
 @1=~*Obserwujesz kota uważnie. Wygląda na to, że śpi, siedząc.*~
 @2=~*Kot, który wydawał się komfortowo śpiący, budzi się na dźwięk głosu Fall.*~
-@3=~Śmieszny kapelusz? Dla Dziecka Bhaal, wyglądasz jak głupiec.~ ~Śmieszny kapelusz? Dla Córki Bhaal, wyglądasz jak głupiec.~
+@3=~Śmieszny kapelusz? Dla Dziecka Bhaal, wyglądasz jak głupiec.~[p_kito03] ~Śmieszny kapelusz? Dla Córki Bhaal, wyglądasz jak głupiec.~ [p_kito03]
 @4=~Czy próbujesz zranić moje uczucia? Będziesz musiał się bardziej postarać, głupcze.~
 @5=~Tak, przepraszam, głośny.~
 @6=~Co zrobiłem? Nie zmuszaj mnie do wyciągania pazurów, dziwaku.~
@@ -34,7 +34,7 @@
 @33=~Można kontynuować, aż natknie się na pozornie nieprzekraczalną ścianę. Rodzaj niewidzialnej siły.~
 @34=~Tu Alendir się zatrzymał i... wydawało się, że rozmawia z pustką.~
 @35=~Czy go słyszałeś, Kitochi?~
-@36=~*miau* Oczywiście, głośny. Elf powiedział: "W szeptach lodowatego wiatru, droga jest odnajdywana."~
+@36=~*miau* Oczywiście, głośny. Elf powiedział: "W szeptach lodowatego wiatru, droga jest odnajdywana."~ [p_kito01]
 @37=~Po tym przeszkoda wydawała się znikać. Ale... nie poszedłem za nim dalej. Nie wiem, co leży poza tym miejscem.~
 @38=~Czułem niebezpieczeństwo. A przynajmniej dziwną obecność obcą temu wymiarowi.~
 @39=~W każdym razie, myślę, że spełniłem twoją prośbę, głośny.~
@@ -46,14 +46,14 @@
 @45=~Dobrze, głośny. Mam nadzieję, że potrafisz odczytać zaklęcie potrzebne do przywołania mnie.~
 @46=~Na razie żegnam cię.~
 
-@47=~Przez wąsy mojej matki! Głośny, ten chrząszcz patrzy na mnie bardzo dziwnie.~
+@47=~Przez wąsy mojej matki! Głośny, ten chrząszcz patrzy na mnie bardzo dziwnie.~ [p_kito01]
 @48=~*Spojrzenie chrząszcza utkwione jest w Kitochi.*~
 @49=~Widzę. Cóż, to będzie trochę skomplikowane. Jego nogi są związane dużymi łańcuchami.~
 @50=~Nie widzimy żadnych łańcuchów, Kitochi.~
 @51=~Cóż, nie masz moich oczu, dobry <CHARNAME>. Stworzenie nigdzie się nie wybiera, chyba że je pokonasz lub znajdziesz sposób, by uwolnić je z łańcuchów.~
 
-@52=~*ziewa* <CHARNAME>! Masz ochotę porozmawiać? To może nie być najlepsze miejsce na rozmowę, ale czuję, że w obliczu niebezpieczeństwa kilka słów między przyjaciółmi może poprawić nastrój.~
-@53=~*miau* I co? Chodź, chcę wiedzieć o tobie więcej.~
+@52=~*ziewa* <CHARNAME>! Masz ochotę porozmawiać? To może nie być najlepsze miejsce na rozmowę, ale czuję, że w obliczu niebezpieczeństwa kilka słów między przyjaciółmi może poprawić nastrój.~ [p_kito02]
+@53=~*miau* I co? Chodź, chcę wiedzieć o tobie więcej.~[p_kito01]
 @54=~A czego chcesz się dowiedzieć, Kitochi? Już wiesz, że jestem potomkiem Bhaal. Słyszałeś rozmowy w tawernie Pięciu Kufli.~
 @55=~Nie jest to dobry czas na rozmowę, kocie.~
 @56=~Hmpf. Niech tak będzie. Myślę, że pomyliłem się co do ciebie.~
@@ -74,8 +74,8 @@
 @72=~Zanim zaczniemy... powinieneś wiedzieć, że jesteś drugą osobą, z którą o tym rozmawiam. Fall to dobra dziewczyna i miała doświadczenia podobne do naszych.~
 @73=~Musiałem to zrobić. Musiałem to zrobić.~
 @74=~Kitochi, wszystko w porządku?~
-@75=~*ostre miau* Tak, <CHARNAME>. Dziękuję za pytanie.~
-@76=~*miau* Myślę, że to wystarczająco na dzisiaj, przyjacielu <CHARNAME>. Oto co: Następnym razem, przywołaj mnie w jakiejś tawernie miejskiej, a ja dokończę swoją opowieść.~ ~*miau* Myślę, że to wystarczająco na dzisiaj, przyjacielu <CHARNAME>. Oto co: Następnym razem, przywołaj mnie w jakiejś tawernie miejskiej, a ja dokończę swoją opowieść.~
+@75=~*ostre miau* Tak, <CHARNAME>. Dziękuję za pytanie.~ [p_kito02]
+@76=~*miau* Myślę, że to wystarczająco na dzisiaj, przyjacielu <CHARNAME>. Oto co: Następnym razem, przywołaj mnie w jakiejś tawernie miejskiej, a ja dokończę swoją opowieść.~ [p_kito03] ~*miau* Myślę, że to wystarczająco na dzisiaj, przyjacielu <CHARNAME>. Oto co: Następnym razem, przywołaj mnie w jakiejś tawernie miejskiej, a ja dokończę swoją opowieść.~ [p_kito03]
 @77=~Ale czasami czuję, że muszę porozmawiać z kimś innym, a nie mogę wymyślić bardziej doświadczonego stworzenia niż ty.~
 @78=~Wróżkowe koty żyją przez wiele lat. Ale nie jesteśmy nieśmiertelni. Wiesz, że jest z tym wiele zamieszania?~
 @79=~Wiem, że nie jestem pięknym stworzeniem w porównaniu do moich pobratymców. Ale mogę się usprawiedliwić, ponieważ walczyłem na pierwszej linii z zwiadowcami i druidami Imnescar.~
@@ -96,7 +96,7 @@
 @94=~Rozumiem. I szanuję to. W takim razie chciałbym, żebyś usłyszał moją historię. Co ty na to?~
 
 // Kitochi Quest -2nd Talk
-@95=~*ostre miau* Tak, to miejsce jest dobre do rozmowy.~
+@95=~*ostre miau* Tak, to miejsce jest dobre do rozmowy.~[p_kito02]
 @96=~*ziewa* I co? <CHARNAME>, czy możemy kontynuować opowieść?~
 @97=~O twoim przybyciu do lasów Imnescar? Wspomniałeś o druidzie imieniem Aeris.~
 @98=~Czy nie mówiłeś o jakiejś misji lub coś w tym stylu? Jeśli jest coś do zrobienia, chciałbym, żebyś mi powiedział.~
@@ -122,7 +122,7 @@
 @118=~Ja... w porządku... nie sądzę, że znowu porozmawiamy...~
 @119=~Różnica polega na tym, że prawdopodobnie nie napotkamy tego stworzenia, jeśli pójdziemy ścieżką Fall. Nie chcę, żeby tak się stało.~
 @120=~Przede wszystkim chcę wyjaśnić, że stworzenie może strzec skarbów. Jeśli nie, mogę ci zapewnić, że będziemy w stanie coś wydobyć z jego gnijącego ciała.~
-@121=~*miau* Czas zakończyć to na teraz, <CHARNAME>. Ustalimy szczegóły w naszej następnej rozmowie. Muszę jeszcze skończyć planować kilka spraw w Astralnym Wymiarze. Następnym razem, przywołaj mnie w zalesionym obszarze, a porozmawiamy.~
+@121=~*miau* Czas zakończyć to na teraz, <CHARNAME>. Ustalimy szczegóły w naszej następnej rozmowie. Muszę jeszcze skończyć planować kilka spraw w Astralnym Wymiarze. Następnym razem, przywołaj mnie w zalesionym obszarze, a porozmawiamy.~ [p_kito01]
 @122=~Ostatnią rzeczą, którą ci powiedziałem, było o demonie, który mnie prześladował przez wymiary. Ostatecznie zwiadowcy i druidzi zdołali go zabić, chociaż nie bez trudności.~
 @123=~Siły natury w Materialnym Wymiarze to siła, z którą trzeba się liczyć, <CHARNAME>.~
 @124=~Ich życie może być znacznie krótsze niż wiele istot z otchłani, ale to nie czyni ich słabszymi.~
@@ -141,7 +141,7 @@
 @137=~Uratował wiele żyć podczas Plagi Wybrzeża.~
 
 // Kitochi Quest -3rd Talk
-@138=~*mruczy* To przypomina mi trochę Imnescar... <CHARNAME>, nadszedł czas na prawdę.~
+@138=~*mruczy* To przypomina mi trochę Imnescar... <CHARNAME>, nadszedł czas na prawdę.~ [p_kito04]
 @139=~Zamierzam mówić o stworzeniu, które zabiło Aerisa.~
 @140=~Rozumiem. Jakiego rodzaju stworzenie to jest, Kitochi? Żeby zabić doświadczonego elfi druid, musiało to być potężne monstrum.~
 @141=~I musimy zabić to coś? Potrzebujemy więcej informacji o naszym celu, kocie.~
@@ -190,11 +190,11 @@
 @184=~To samo ma w posiadaniu stary znajomy, Fall.~
 @185=~Acrull Northshield.~
 @186=~Co?! Czy Acrull wiedział o twoim planie przez cały czas?~
-@187=~*ostre miau* To prawdopodobne, gaduło. Ważne jest, że Acrull będzie ogniwem między tym wymiarem a otchłannym, używając łuski, którą dałem mu jakiś czas temu.~
+@187=~*ostre miau* To prawdopodobne, gaduło. Ważne jest, że Acrull będzie ogniwem między tym wymiarem a otchłannym, używając łuski, którą dałem mu jakiś czas temu.~ [p_kito03]
 @188=~<CHARNAME>, ważne jest, aby Fall był z tobą, gdy rozmawiasz z Acrullem. Nie jest konieczne, żebym był obecny, ale gdy dotrzemy do legowiska Gorma, przywołaj mnie.~
 @189=~Acrull ma rację, <CHARNAME>. Przyprowadź Falla, żebyśmy mogli podróżować do legowiska Gorma.~
 @190=~Tak, Acrull. Siły Falla i <CHARNAME> udadzą się do płaszczyzny Gorma, do jego legowiska.~
-@191=~*ostre miau* Gorm!!! Wyjdź, gdziekolwiek się ukrywasz, ty obrzydliwe stworzenie. Przybyliśmy, aby cię zabić!~
+@191=~*ostre miau* Gorm!!! Wyjdź, gdziekolwiek się ukrywasz, ty obrzydliwe stworzenie. Przybyliśmy, aby cię zabić!~ [p_kito02]
 @192=~Gorm! To jest za mojego przyjaciela... Atakuj!~
 @193=~W końcu dotarliśmy... <CHARNAME>, pamiętaj to: Moja śmierć jest bez znaczenia... ale musisz chronić Falla. Jeśli wygramy tę bitwę, ona będzie niezbędnym ogniwem, aby wrócić do domu.~
 @194=~Nie bądź pesymistyczny, Kitochi. Nikt nie zginie. To obietnica!~

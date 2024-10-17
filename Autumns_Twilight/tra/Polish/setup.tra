@@ -6132,7 +6132,7 @@ Tima: Cufa, pamiętaj, że jesteśmy na diecie. Hej, nieznajomy, lepiej porozmaw
 @9219   = ~Nie zostało ci wiele życia, łajdaku. W końcu... zapłaciłeś.~
 @92110   = ~Ch-chciałbym powiedzieć... że to jeszcze nie koniec... Że... że nawiedzę cię w życiu po śmierci... a-le...~
 @92111   = ~Ale twój bóg, Gruumsh, wątpię, żeby cię wybaczył, nieprawdaż? W końcu... otrzymałeś pomoc od elfa... a nie ma niczego, czego Gruumsh nienawidzi bardziej niż elfów...~
-@92112   = ~*śmieje się złowrogo* Spędzisz wieczność cierpiąc, z rąk swojego boga. Los, który zasługujesz, powiedziałbym...~
+@92112   = ~*śmieje się złowrogo* Spędzisz wieczność cierpiąc, z rąk swojego boga. Los, który zasługujesz, powiedziałbym...~ [p_dusk42]
 @92113   = ~Grr... *z trudem półork próbuje chwycić Zmierzch za szyję*~
 @92114   = ~*Ale Zmierzch, bezlitośnie, odcina ją swoim mieczem, wypełniając Wzgórze stłumionymi krzykami Alabarzy*~
 @92115   = ~Nie będziesz miał żadnych ostatnich słów ani życzeń, łajdaku. Chociaż może to cię pocieszy: elf, który ci pomógł, Kalanda, będzie miał taki sam los jak ty...~
@@ -6595,7 +6595,8 @@ Ale w końcu pochłonął swoją młodość i życie.~
 @93824 = ~Na razie nie, Generale.~
 
 // P_VRESH
-@9390 = ~On... on ma talizman Qyl'tara. To oznacza...~
+@9390 = ~On... on ma talizman Qyl'tara. To oznacza...~ ~Ona... ona ma talizman Qyl'tara. To oznacza...~
+
 @9391 = ~Że Qyl'tar nie żyje. Tak się spodziewałem... to nie są zwykli poszukiwacze przygód z powierzchni.~
 @9392 = ~Qyl'tar nie żyje.~
 @9393 = ~Dowódco Vreshnak, obudź się. Tak, Qyl'tar upadł, ale to na nas spoczywa zemsta za niego.~
@@ -6821,18 +6822,18 @@ Ale w końcu pochłonął swoją młodość i życie.~
 @9537    = ~Stary człowiek? Zazdrościsz mi mojego niedawno nabytego młodzieńczego wyglądu, prawda? Nie martw się, to zrozumiałe. Chodźmy.~
 @9538    = ~Ustalono. Nadal będę tutaj, wiesz? Lepiej niż marnować czas w tym śmierdzącym Copper Crown lub jak to się nazywa.~
 
-@9540    = ~Kto śmie wkraczać do świątyni Monarchii Wiecznego Mrozu?~
+@9540    = ~Kto śmie wkraczać do świątyni Monarchii Wiecznego Mrozu?~ [p_icel01]
 @9541    = ~Selu'taar. Żądam wyjaśnienia. Twoje życie od tego zależy.~
 @9542    = ~Teraz rozumiem. Przywiodłeś tych śmiertelników jako ofiarę, aby zapobiec wstąpieniu Shyntquarry.~
 @9543    = ~Co to?~
 @9544    = ~To wcale nie brzmi dobrze.~
 @9545    = ~Nie jesteśmy czyjąkolwiek ofiarą, gigancie.~
 @9546    = ~Stworzenia z mięsa mają mało do powiedzenia o swoim losie w rękach bogów.~
-@9547    = ~Shyntquarra musi być unikana za wszelką cenę. Tak żąda mój pan.~
-@9548    = ~Na co czekasz, selu'taar? Dokończ ich.~
+@9547    = ~Shyntquarra musi być unikana za wszelką cenę. Tak żąda mój pan.~ [p_icel02]
+@9548    = ~Na co czekasz, selu'taar? Dokończ ich.~ [p_icel03]
 @9549    = ~Icelock... poczekaj, mogę to wyjaśnić.~
 @95410   = ~Alendir? Co się dzieje? Kim (lub czym) jest to stworzenie?~
-@95411   = ~Słaby elfie. Czy odważysz się nazywać siebie Mistrzem Mrozu? Utrzymam cię przy życiu tylko po to, byś był świadkiem, jak miażdżymy twoich przyjaciół.~
+@95411   = ~Słaby elfie. Czy odważysz się nazywać siebie Mistrzem Mrozu? Utrzymam cię przy życiu tylko po to, byś był świadkiem, jak miażdżymy twoich przyjaciół.~ [p_icel04]
 @95412   = ~Alendir!~
 @95413   = ~Fall... *jęczy* Zniszcz golem... jest słaby na ogień... dokończ to i jego sługi.~
 
@@ -7461,6 +7462,10 @@ Ale w końcu pochłonął swoją młodość i życie.~
 @97070 = ~Jest całkiem użyteczny, prawda?~
 @97071 = ~Pracowity jak mrówki to dobry stary Verthan. Jego wpływ sięga nawet tych podziemnych ziem.~
 @97072 = ~Czy mógłbyś poprosić go, aby się odsunął od progu? Musimy dotrzeć do Alendira!~
+
+@97073   = ~Wydaje się, że ma do nas sympatię. Myślę, że jeśli powiesz mu, że twoje intencje nie są agresywne, ustąpi.~
+@97074   = ~Otrzymamy większą nagrodę, jeśli go zabijemy, <CHARNAME>. Poza tym, wielki bazyliszek to godny przeciwnik do przetestowania naszych umiejętności.~
+
 
 // P_BABA
 // Bloque 1 (FTF)

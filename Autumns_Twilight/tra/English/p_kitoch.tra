@@ -1,7 +1,7 @@
 @0=~*You see a strange cat sitting with its eyes half-closed. You can't help but notice the little hat it's wearing.*~
 @1=~*You observe the cat closely. It seems to be sleeping while sitting.*~
 @2=~*The cat, who seemed to be comfortably asleep, perks up upon hearing Fall's voice.*~
-@3=~Ridiculous hat? For a Child of Bhaal, you look like a fool.~ ~Ridiculous hat? For a Daughter of Bhaal, you look like a fool.~
+@3=~Ridiculous hat? For a Child of Bhaal, you look like a fool.~[p_kito03] ~Ridiculous hat? For a Daughter of Bhaal, you look like a fool.~ [p_kito03]
 @4=~Are you trying to hurt my feelings? You'll have to try harder, fool.~
 @5=~Yes, sorry, loudmouth.~
 @6=~What did I do? Don't make me unsheath my claws, freak.~
@@ -12,7 +12,7 @@
 @11=~Apologies accepted, <LADYLORD> <CHARNAME>. And I apologize for calling you a fool.~
 @12=~Now we can continue.~
 @13=~The grumpy elf took some time to perform the spell he intended to use to find your mother.~
-@14=~Honestly, I thought he would perform it in a somewhat more... discreet place than here in the tavern. But the truth is there aren't many people in this part of the tavern.~
+@14=~Honestly, I thought he would perform it in a somewhat more... discreet place than here in the tavern. But the truth is there aren't many people in this part of the inn.~
 @15=~The ritual was somewhat... strange. It seemed to imbue a sword with the necessary ingredients, including the basilisk fang you brought him.~
 @16=~From the blade of the sword emerged a yellowish flame.~
 @17=~The old elf began to invoke strange incantations and waited. It seemed he was speaking to the flames, calling, reciting...~
@@ -34,13 +34,13 @@
 @33=~One can continue until they bump into an apparently impassable wall. A kind of invisible force.~
 @34=~Here is where Alendir stopped and... seemed to speak to the void.~
 @35=~Did you hear him, Kitochi?~
-@36=~*meow* Of course, loudmouth. The elf said "In the whisper of the icy wind, the path is found."~
+@36=~*meow* Of course, loudmouth. The elf said "In the whisper of the icy wind, the path is found."~ [p_kito01]
 @37=~After that, the obstacle seemed to disappear. But... I didn't follow him further. I don't know what lies beyond that place.~
 @38=~I sensed danger. Or at least a strange presence foreign to this plane.~
 @39=~Anyway, I think I've fulfilled your request, loudmouth.~
 @40=~Oh, and don't bother summoning me again. Your new companion rubs me the wrong way. I can't be around someone who insults me.~ ~Oh, and don't bother summoning me again. Your new companion rubs me the wrong way. I can't be around someone who insults me.~
 @41=~Goodbye, loudmouth.~
-@42=~You can take me to the Astral Plane if you wish. <CHARNAME> doesn't seem so bad after all. Though her taste in fashion is non-existent.~ ~You can take me to the Astral Plane if you wish. <CHARNAME> doesn't seem so bad after all. Though her taste in fashion is non-existent.~
+@42=~You can take me to the Astral Plane if you wish. <CHARNAME> doesn't seem so bad after all. Though his taste in fashion is non-existent.~ ~You can take me to the Astral Plane if you wish. <CHARNAME> doesn't seem so bad after all. Though her taste in fashion is non-existent.~
 @43=~I heard that, Kitochi.~
 @44=~If Fall manages to summon me, Child of Bhaal, speak with me. I'd like to exchange stories.~ ~If Fall manages to summon me, Daughter of Bhaal, speak with me. I'd like to exchange stories.~
 @45=~Very well, loudmouth. I hope you can decipher the spell needed to summon me.~
@@ -48,14 +48,14 @@
 
 
 
-@47=~By my mother's whiskers! Loudmouth, that beetle is looking at me very strangely.~
+@47=~By my mother's whiskers! Loudmouth, that beetle is looking at me very strangely.~ [p_kito01]
 @48=~*The beetle's gaze is fixed on Kitochi.*~
 @49=~I see. Well, that's going to be a bit tricky. Its legs are bound by large chains.~
 @50=~We don't see any chains, Kitochi.~
 @51=~Well, you don't have my eyes, good <CHARNAME>. The creature isn't going anywhere unless you either defeat it or find a way to free it from its chains.~
 
-@52=~*yawn* <CHARNAME>! Do you feel like talking? This might not be the best place for a chat, but I feel that in the face of danger, a few words between friends might lighten the mood.~
-@53=~*meow* So? Come on, I want to know more about you.~
+@52=~*yawn* <CHARNAME>! Do you feel like talking? This might not be the best place for a chat, but I feel that in the face of danger, a few words between friends might lighten the mood.~ [p_kito02]
+@53=~*meow* So? Come on, I want to know more about you.~ [p_kito01]
 @54=~And what do you want to know, Kitochi? You already know I'm a descendant of Bhaal. You've heard the conversations in the Five Flagons tavern yourself.~
 @55=~It's not a good time to talk, cat.~
 @56=~Hmpf. So be it. I think I made a mistake about you.~
@@ -76,8 +76,8 @@
 @72=~Before we begin... you should know that you are the second person I've talked about this with. Fall is a good girl and has had experiences similar to ours.~
 @73=~I had to do it. I had to do it.~
 @74=~Kitochi, are you alright?~
-@75=~*sharp meow* Yes, <CHARNAME>. Thank you for asking.~
-@76=~*meow* I think that's enough for today, friend <CHARNAME>. Here's what: Next time, summon me in some city tavern and I'll continue my tale.~ ~*meow* I think that's enough for today, friend <CHARNAME>. Here's what: Next time, summon me in some city tavern and I'll continue my tale.~
+@75=~*sharp meow* Yes, <CHARNAME>. Thank you for asking.~ [p_kito02]
+@76=~*meow* I think that's enough for today, friend <CHARNAME>. Here's what: Next time, summon me in some city tavern and I'll continue my tale.~ [p_kito03] ~*meow* I think that's enough for today, friend <CHARNAME>. Here's what: Next time, summon me in some city tavern and I'll continue my tale.~[p_kito03]
 @77=~But sometimes I feel I need to talk to someone else, and I can't think of a more experienced creature than you.~
 @78=~Faerie cats live for many years. But we are not immortal. There's a lot of confusion about that, you know?~
 @79=~I know I'm not a beautiful creature compared to my kin. But I can excuse myself because I've fought on the front lines with the scouts and druids of Imnescar.~
@@ -100,7 +100,7 @@
 
 // Kitochi Quest -2nd Talk
 
-@95=~*sharp meow* Yes, this place is a good spot for talking.~
+@95=~*sharp meow* Yes, this place is a good spot for talking.~ [p_kito02]
 @96=~*yawn* So? <CHARNAME>, shall we continue with the story?~
 @97=~About your arrival in the Imnescar forests? You mentioned a druid named Aeris.~
 @98=~Did you not speak of a mission or something like that? If there's something to be done, I'd like you to tell me.~
@@ -126,7 +126,7 @@
 @118=~I... fine... I don't think we'll talk again...~
 @119=~The difference is that we're unlikely to encounter this creature if we follow Fall's path. I don't want that to happen.~
 @120=~First of all, I want to clarify that the creature may be guarding treasures. If not, I can assure you we'll be able to make something of what we can extract from its rotting corpse.~
-@121=~*meow* It's time to end this for now, <CHARNAME>. We'll finalize details in our next conversation. I still need to finish planning some matters in the Astral Plane. Next time, summon me in a forested area and we'll talk.~
+@121=~*meow* It's time to end this for now, <CHARNAME>. We'll finalize details in our next conversation. I still need to finish planning some matters in the Astral Plane. Next time, summon me in a forested area and we'll talk.~ [p_kito01]
 @122=~The last thing I told you was about a demon that was pursuing me through the planes. In the end, the scouts and druids managed to kill it, though not without difficulty.~
 @123=~The forces of nature in the Material Plane are a force to be reckoned with, <CHARNAME>.~
 @124=~Their lives may be considerably shorter than many abyssal creatures, but that doesn't make them weaker.~
@@ -148,7 +148,7 @@
 
 // Kitochi Quest -3rd Talk
 
-@138=~*purring* It reminds me a bit of Imnescar... <CHARNAME>, it's time for the truth.~
+@138=~*purring* It reminds me a bit of Imnescar... <CHARNAME>, it's time for the truth.~ [p_kito04]
 @139=~I'm going to talk about the creature that killed Aeris.~
 @140=~I see. What kind of creature is it, Kitochi? To kill an experienced elven druid, it must have been a powerful monster.~
 @141=~And we need to kill this thing? We need more information about our target, cat.~
@@ -197,14 +197,14 @@
 @184=~The same is in the possession of an old acquaintance, Fall.~
 @185=~Acrull Northshield.~
 @186=~What?! Did Acrull know about your plan all along?~
-@187=~*sharp meow* It's likely, loudmouth. What's important is that Acrull will be the link between this plane and the abyssal one, using the scale I gave him some time ago.~
+@187=~*sharp meow* It's likely, loudmouth. What's important is that Acrull will be the link between this plane and the abyssal one, using the scale I gave him some time ago.~ [p_kito03]
 @188=~<CHARNAME>, it's important that Fall is with you when talking to Acrull. It's not necessary for me to be present, but when we reach Gorm's lair, summon me.~
 
 
 
 @189=~Acrull is right, <CHARNAME>. Bring Fall so we can travel to Gorm's lair.~
 @190=~Yes, Acrull. Fall and <CHARNAME>'s forces will travel to Gorm's plane, to his lair.~
-@191=~*sharp meow* Gorm!!! Come out from wherever you're hiding, you disgusting creature. We've come to kill you!~
+@191=~*sharp meow* Gorm!!! Come out from wherever you're hiding, you disgusting creature. We've come to kill you!~ [p_kito02]
 @192=~Gorm! This is for my friend... Attack!~
 @193=~At last we've arrived... <CHARNAME>, remember this: My death is inconsequential... but you must protect Fall. If we win this battle, she will be the necessary link to return home.~
 @194=~Don't be pessimistic, Kitochi. No one will die. It's a promise!~

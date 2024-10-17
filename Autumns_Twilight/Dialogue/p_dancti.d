@@ -880,6 +880,7 @@ IF ~~ THEN BEGIN 108 // from:
   EraseJournalEntry (@210035) EraseJournalEntry (@210036) EraseJournalEntry (@210037) EraseJournalEntry (@210038) EraseJournalEntry (@210039) EraseJournalEntry (@210040) EraseJournalEntry (@210041) EraseJournalEntry (@210043) EraseJournalEntry (@210044)EraseJournalEntry (@210045)
   AddexperienceParty(100000)
   GiveGoldForce(50000)
+  ForceSpell(Myself,POOF_GONE)
   ~ SOLVED_JOURNAL @210048 EXIT
 END
 
@@ -931,7 +932,7 @@ IF ~~ THEN BEGIN 115 // from:
   EraseJournalEntry (@210035) EraseJournalEntry (@210036) EraseJournalEntry (@210037) EraseJournalEntry (@210038) EraseJournalEntry (@210039) EraseJournalEntry (@210040) EraseJournalEntry (@210041) EraseJournalEntry (@210043) EraseJournalEntry (@210044)EraseJournalEntry (@210045)
   AddexperienceParty(200000)
   GiveGoldForce(75000)
-  ~ SOLVED_JOURNAL @210046 EXIT
+  ~ SOLVED_JOURNAL @210049 EXIT
 END
 
 I_C_T P_DANCTI 114 P_Dusk_FINALM9_DONT_HAVE_IRA

@@ -352,12 +352,16 @@ IF ~~ THEN BEGIN 58 // from:
 END
 
 IF ~Global("P_AttackedCho","GLOBAL",1)
-OR(5)
+OR(9)
 AreaCheck("P_F12B")
 AreaCheck("P_F11B")
 AreaCheck("P_F10B")
 AreaCheck("P_FA8B")
 AreaCheck("P_FA6B")
+AreaCheck("P_FAR5")
+AreaCheck("P_FA14")
+AreaCheck("P_FA15")
+AreaCheck("P_FA16")
 ~ THEN BEGIN 59 // from:
   SAY @107 /* ~¿Estás atacándome? Me has salvado, ¿sólo para destruirme? No puedo entenderlo... Me iré y no te enfrentaré sólo porque el honor me lo dicta. ¡Pero espero que nuestros caminos no vuelvan a cruzarse!~ */
   IF ~~ THEN DO ~SetGlobal("P_AttackedCho","GLOBAL",2) EraseJournalEntry (@310054) EraseJournalEntry (@310052) EraseJournalEntry (@310051) EraseJournalEntry (@310050)~ SOLVED_JOURNAL @310055 EXIT
