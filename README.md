@@ -32,7 +32,7 @@ Copy the content of the ZIP file into you BG2 directory and:
 - Grant execution permission to the installation scripts `chmod +x setup-Autumns_Twilight*`
 - Execute the script and follow the instructions `./setup-Autumns_Twilight.command`
 
-[![Github Downloads](https://img.shields.io/github/downloads/evancauteren/bg2-autumns-twilight-mod/total.svg)](https://github.com/evancauteren/bg2-autumns-twilight-mod/releases)
+[![Total Downloads (all assets, all releases)](https://img.shields.io/github/downloads/evancauteren/bg2-autumns-twilight-mod/total)](https://github.com/evancauteren/bg2-autumns-twilight-mod/releases)
 
 ## Contact
 
