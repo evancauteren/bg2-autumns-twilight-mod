@@ -1386,7 +1386,7 @@ END
 ///////////////////////////////////////////////////////
 
 // Aparición de Valatar - EVIL
-IF ~Global ("P_DUSK_VALATA_ENC1","GLOBAL",1) Global("P_DUSK_IS_GOOD","GLOBAL",0)~ THEN BEGIN 263 // from:
+IF ~Global ("P_DUSK_VALATA_ENC1","GLOBAL",1) Global("P_DUSK_IS_GOOD","GLOBAL",0) !Dead ("P_DEMPIT")~ THEN BEGIN 263 // from:
   SAY @3325 /* ~Rayos... ¡otro mago más!~ */
   IF ~~ THEN DO ~SetGlobal ("P_DUSK_VALATA_ENC1","GLOBAL",2)~ EXTERN ~p_valata~ 0
 END
@@ -1441,7 +1441,7 @@ IF ~~ THEN BEGIN 272 // from:
 END
 
 // Aparición de Valatar - GOOD
-IF ~Global ("P_DUSK_VALATA_ENC1","GLOBAL",1) Global("P_DUSK_IS_GOOD","GLOBAL",1)~ THEN BEGIN 273 // from:
+IF ~Global ("P_DUSK_VALATA_ENC1","GLOBAL",1) Global("P_DUSK_IS_GOOD","GLOBAL",1) !Dead ("P_DEMPIT")~ THEN BEGIN 273 // from:
   SAY @3325 /* ~Rayos... ¡otro mago más!~ */
   IF ~~ THEN DO ~SetGlobal ("P_DUSK_VALATA_ENC1","GLOBAL",2)~ EXTERN ~p_valata~ 4
 END
@@ -2448,11 +2448,11 @@ END
 
 // Faldorn
 I_C_T CERNDJ 69 P_DuskCEFALDOR9
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @62 /* Incluso yo puedo entender que esta Faldorn es una afrenta para la naturaleza. Usar a los animales para el asesinato por venganza es una maniobra soez y cobarde. Cernd, espero que puedas patearle el trasero. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @62 /* Incluso yo puedo entender que esta Faldorn es una afrenta para la naturaleza. Usar a los animales para el asesinato por venganza es una maniobra soez y cobarde. Cernd, espero que puedas patearle el trasero. */
 END
 
 I_C_T JAHEIRAJ 94 P_DuskCEFALDOR10
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @20003 /* Incluso yo puedo entender que esta Faldorn es una afrenta para la naturaleza. Usar a los animales para el asesinato por venganza es una maniobra soez y cobarde. Jaheira, espero que puedas patearle el trasero. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @20003 /* Incluso yo puedo entender que esta Faldorn es una afrenta para la naturaleza. Usar a los animales para el asesinato por venganza es una maniobra soez y cobarde. Jaheira, espero que puedas patearle el trasero. */
 END
 
 // Bodhi
@@ -2938,7 +2938,7 @@ END*/
 
 I_C_T P_DUSKJ 299 P_DuskHakam_AcrullReact1_EVIL1
 == P_HAKAM IF ~~ THEN @3529 /* *susurro* Oye... Acrull... Esto... no está bien, ¿no? ¿Deberíamos huir? */
-== P_ACRULL IF ~~ THEN @3441 /* *susurro* No... pero será mejor que esperemos a ver qué es lo que sucede. */
+== P_ACRULL IF ~~ THEN @3530 /* *susurro* No... pero será mejor que esperemos a ver qué es lo que sucede. */
 END
 
 

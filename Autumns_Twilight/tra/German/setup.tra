@@ -6149,7 +6149,7 @@ Tima: Cufa, denk daran, dass wir auf Diät sind. Hey, Fremder, es wäre besser, 
 @9219 = ~Du hast nicht mehr viel Leben, Abschaum. Endlich... hast du bezahlt.~
 @92110 = ~I-ich würde gerne sagen... dass das noch nicht vorbei ist... Dass... dass ich dich im Jenseits verfolgen werde... a-aber...~
 @92111 = ~Aber dein Gott, Gruumsh, ich bezweifle, dass er dir verzeihen wird, oder? Schließlich... hast du Hilfe von einem Elfen erhalten... und es gibt nichts, was Gruumsh mehr hasst als Elfen...~
-@92112 = ~*lacht bösartig* Du wirst die Ewigkeit leiden, durch die Hand deines Gottes. Ein Schicksal, das mehr als verdient ist, würde ich sagen...~
+@92112 = ~*lacht bösartig* Du wirst die Ewigkeit leiden, durch die Hand deines Gottes. Ein Schicksal, das mehr als verdient ist, würde ich sagen...~ [p_dusk42]
 @92113 = ~Grr... *mit Mühe streckt der Halb-Ork verzweifelt die Hand aus, um Dusk am Hals zu packen*~
 @92114 = ~*Doch Dusk, erbarmungslos, durchtrennt es mit seinem Schwert und erfüllt den Hügel mit Alabarzas gedämpften Schreien*~
 @92115 = ~Du wirst keine letzten Worte oder Wünsche haben, Abschaum. Obwohl vielleicht dies dich trösten wird: der Elf, der dir geholfen hat, Kalanda, wird das gleiche Schicksal wie du haben...~
@@ -6626,7 +6626,8 @@ Doch am Ende konsumierte er seine Jugend und sein Leben.~
 @93824   = ~Im Moment nein, General.~ 
 
 // P_VRESH
-@9390    = ~Er... er hat den Talisman von Qyl'tar. Das bedeutet...~ 
+@9390    = ~Er... er hat den Talisman von Qyl'tar. Das bedeutet...~ ~Sie... sie hat den Talisman von Qyl'tar. Das bedeutet...~
+
 @9391    = ~Dass Qyl'tar tot ist. Das habe ich befürchtet... das sind keine gewöhnlichen Abenteurer von der Oberfläche.~ 
 @9392    = ~Qyl'tar ist tot.~ 
 @9393    = ~Kommandant Vreshnak, wach auf. Ja, Qyl'tar ist gefallen, aber es liegt an uns, ihn zu rächen.~ 
@@ -6868,18 +6869,18 @@ Doch am Ende konsumierte er seine Jugend und sein Leben.~
 @9538    = ~Es ist beschlossen. Ich werde immer noch hier sein, weißt du? Es ist besser, als meine Zeit in diesem stinkenden Copper Crown oder wie auch immer es heißt zu verschwenden.~
 
 // P_ICELOC
-@9540    = ~Wer wagt es, in den Tempel des Monarchen des Ewigen Frosts einzudringen?~
+@9540    = ~Wer wagt es, in den Tempel des Monarchen des Ewigen Frosts einzudringen?~ [p_icel01]
 @9541    = ~Selu'taar. Ich verlange eine Erklärung. Dein Leben hängt davon ab.~
 @9542    = ~Jetzt verstehe ich. Du hast diese Sterblichen als Opfer gebracht, um den Aufstieg des Shyntquarra zu verhindern.~
 @9543    = ~Was?~
 @9544    = ~Das klingt überhaupt nicht gut.~
 @9545    = ~Wir sind kein Opfer für irgendjemanden, Riese.~
 @9546    = ~Fleischliche Wesen haben wenig zu sagen über ihr Schicksal in den Händen der Götter.~
-@9547    = ~Der Shyntquarra muss um jeden Preis vermieden werden. Das ist der Befehl meines Herrn.~
-@9548    = ~Was wartest du noch, selu'taar? Beende sie.~
+@9547    = ~Der Shyntquarra muss um jeden Preis vermieden werden. Das ist der Befehl meines Herrn.~ [p_icel02]
+@9548    = ~Was wartest du noch, selu'taar? Beende sie.~ [p_icel03]
 @9549    = ~Icelock... warte, ich kann es erklären.~
 @95410   = ~Alendir? Was passiert hier? Wer (oder was) ist dieses Wesen?~
-@95411   = ~Schwacher Elf. Wagst du es, dich den Frostmeister zu nennen? Ich werde dich am Leben lassen, nur um zu sehen, wie wir deine Freunde zerquetschen.~
+@95411   = ~Schwacher Elf. Wagst du es, dich den Frostmeister zu nennen? Ich werde dich am Leben lassen, nur um zu sehen, wie wir deine Freunde zerquetschen.~ [p_icel04]
 @95412   = ~Alendir!~
 @95413   = ~Fall... *stöhnt* Zerstöre den Golem... er ist schwach gegen Feuer... beende ihn und seine Untergebenen.~
 
@@ -7508,6 +7509,10 @@ Doch am Ende konsumierte er seine Jugend und sein Leben.~
 @97070   = ~Es ist ziemlich nützlich, nicht wahr?~
 @97071   = ~Fleißig wie Ameisen ist der gute alte Verthan. Sein Einfluss reicht sogar bis in diese unterirdischen Länder.~
 @97072   = ~Könntest du ihn bitte bitten, sich vom Schwellenbereich zurückzuziehen? Wir müssen Alendir erreichen!~
+
+@97073   = ~Er scheint Mitleid mit uns zu haben. Ich denke, wenn du ihm sagst, dass deine Absichten nicht aggressiv sind, wird er nachgeben.~
+@97074   = ~Wir werden eine größere Belohnung erhalten, wenn wir ihn töten, <CHARNAME>. Außerdem ist ein großer Basilisk ein würdiger Gegner, um unsere Fähigkeiten zu testen.~
+
 
 // P_BABA
 // Block 1 (FTF)

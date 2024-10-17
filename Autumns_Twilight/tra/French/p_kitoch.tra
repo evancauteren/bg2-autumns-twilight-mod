@@ -1,7 +1,7 @@
 @0 = ~*Tu vois un chat curieux assis, les yeux mi-clos. Tu ne peux t’empêcher de remarquer le petit chapeau qu’il porte sur la tête.*~
 @1 = ~*Tu observes attentivement le chat. Il semble dormir assis.*~
 @2 = ~*Le chat, qui semblait dormir confortablement, se redresse en entendant la voix de Fall.*~
-@3 = ~Un chapeau ridicule ? Eh bien, pour être un Fils de Bhaal, tu ressembles à un pantin.~ ~Un chapeau ridicule ? Eh bien, pour être une Fille de Bhaal, tu ressembles à un pantin.~
+@3 = ~Un chapeau ridicule ? Eh bien, pour être un Fils de Bhaal, tu ressembles à un pantin.~ [p_kito03] ~Un chapeau ridicule ? Eh bien, pour être une Fille de Bhaal, tu ressembles à un pantin.~ [p_kito03]
 @4 = ~Tu essaies de blesser mes sentiments ? Il te faudra faire mieux que ça, pantin.~
 @5 = ~Oui, je suis désolé, grande gueule.~
 @6 = ~Quoi, moi ? Ne me pousse pas à sortir mes griffes, monstruosité.~
@@ -34,7 +34,7 @@
 @33 = ~On peut continuer jusqu’à heurter un mur apparemment infranchissable. Une sorte de barrière invisible.~
 @34 = ~C’est là qu’Alendir s’est arrêté et... a semblé parler au néant.~
 @35 = ~Tu l’as entendu, Kitochi ?~
-@36 = ~*miaulement* Bien sûr, grande gueule. L’elfe a dit "Dans le murmure du vent glacial, se trouve le chemin."~
+@36 = ~*miaulement* Bien sûr, grande gueule. L’elfe a dit "Dans le murmure du vent glacial, se trouve le chemin."~ [p_kito01]
 @37 = ~Après cela, l'obstacle a semblé disparaître. Mais... je ne l'ai plus suivi. J'ignore ce qui se trouve au-delà de cet endroit.~
 @38 = ~J'ai ressenti du danger. Ou du moins une présence étrange et étrangère à ce plan.~
 @39 = ~Quoi qu'il en soit, je crois avoir accompli ce que tu m'as demandé, grande gueule.~
@@ -46,15 +46,15 @@
 @45 = ~Très bien, grande gueule. J'espère que tu pourras déchiffrer l'incantation nécessaire pour me convoquer.~
 @46 = ~Pour l'instant, je te dis au revoir.~
 
-@47 = ~Par les moustaches de ma mère ! Grande gueule, ce scarabée me regarde d'une manière très étrange.~
+@47 = ~Par les moustaches de ma mère ! Grande gueule, ce scarabée me regarde d'une manière très étrange.~ [p_kito01]
 @48 = ~*Le regard du scarabée est concentré sur Kitochi.*~
 @49 = ~Je vois. Eh bien, ça va être un peu compliqué. Ses pattes sont entravées par de grandes chaînes.~
 @50 = ~Nous ne voyons aucune chaîne, Kitochi.~
 @51 = ~Eh bien, tu n'as pas mes yeux, cher <CHARNAME>. La créature ne partira nulle part à moins que vous ne la détruisiez ou trouviez un moyen de la libérer de ses entraves.~
 
 // Quête de Kitochi - 1ère discussion
-@52 = ~*bâillement* <CHARNAME> ! Tu veux discuter ? Ce n'est peut-être pas le meilleur endroit pour une conversation, mais je sens que face au danger, quelques mots entre amis peuvent alléger la situation.~
-@53 = ~*miaulement* Alors ? Allons, je veux en savoir plus sur toi.~
+@52 = ~*bâillement* <CHARNAME> ! Tu veux discuter ? Ce n'est peut-être pas le meilleur endroit pour une conversation, mais je sens que face au danger, quelques mots entre amis peuvent alléger la situation.~ [p_kito02]
+@53 = ~*miaulement* Alors ? Allons, je veux en savoir plus sur toi.~ [p_kito01]
 @54 = ~Et que veux-tu savoir, Kitochi ? Tu sais déjà que je descends de Bhaal. Tu as toi-même entendu les conversations dans la taverne des Cinq Jarres.~
 @55 = ~Ce n'est pas un bon moment pour parler, chat.~
 @56 = ~Hmpf. D'accord. Je crois que je me suis trompé à ton sujet.~
@@ -76,8 +76,8 @@
 @72  = ~Avant de commencer... tu dois savoir que tu es la deuxième personne à qui j'en parle. Fall est une bonne fille et elle a vécu des expériences similaires aux nôtres.~
 @73  = ~Je devais le faire. Je devais le faire.~
 @74  = ~Kitochi, est-ce que ça va ?~
-@75  = ~*miaulement aigu* Oui, <CHARNAME>. Merci de t'en inquiéter.~
-@76  = ~*miaulement* Je pense que cela suffit pour aujourd'hui, ami <CHARNAME>. Je te dis quoi : La prochaine fois, appelle-moi dans une taverne de la ville et je continuerai mon récit.~ ~*miaulement* Je pense que cela suffit pour aujourd'hui, amie <CHARNAME>. Je te dis quoi : La prochaine fois, appelle-moi dans une taverne de la ville et je continuerai mon récit.~
+@75  = ~*miaulement aigu* Oui, <CHARNAME>. Merci de t'en inquiéter.~ [p_kito02]
+@76  = ~*miaulement* Je pense que cela suffit pour aujourd'hui, ami <CHARNAME>. Je te dis quoi : La prochaine fois, appelle-moi dans une taverne de la ville et je continuerai mon récit.~ [p_kito03] ~*miaulement* Je pense que cela suffit pour aujourd'hui, amie <CHARNAME>. Je te dis quoi : La prochaine fois, appelle-moi dans une taverne de la ville et je continuerai mon récit.~ [p_kito03]
 @77  = ~Mais parfois, je ressens le besoin de parler à quelqu'un d'autre, et je ne peux penser à une créature plus expérimentée que toi.~
 @78  = ~Les chats féériques vivent de très longues années. Mais nous ne sommes pas immortels. Il y a beaucoup de confusion à ce sujet, tu sais ?~
 @79  = ~Je sais que je ne suis pas une créature aussi belle que mes congénères. Mais je peux m'excuser car j'ai combattu en première ligne avec les éclaireurs et druides d'Imnescar.~
@@ -96,7 +96,7 @@
 @92  = ~Avec mes dernières forces, j'ai pu voir l'elfe qui me portait. Plus tard, j'ai appris son nom.~
 @93  = ~Aeris.~
 @94  = ~Je comprends. Et je le respecte. Dans ce cas, j'aimerais que tu écoutes mon histoire. Qu'en dis-tu ?~
-@95  = ~*miaulement aigu* Oui, cet endroit est parfait pour discuter.~
+@95  = ~*miaulement aigu* Oui, cet endroit est parfait pour discuter.~[p_kito02]
 @96  = ~*bâillement* Eh bien ? <CHARNAME>, continuons l'histoire, qu'en dis-tu ?~
 @97  = ~À propos de ton arrivée dans les bois d'Imnescar ? Tu as mentionné un druide nommé Aeris.~
 @98  = ~N'avais-tu pas parlé d'une mission ou quelque chose comme ça ? S'il y a quelque chose à faire, j'aimerais que tu me le dises.~
@@ -122,7 +122,7 @@
 @118 = ~Je... d'accord... je ne pense pas que nous reparlerons.~
 @119 = ~La différence est que nous ne rencontrerons probablement pas cette créature en suivant le chemin de Fall. Je ne veux pas que cela se produise.~
 @120 = ~Avant toute chose, je veux préciser qu'il est probable que la créature garde des trésors. Dans le cas contraire, je peux t'assurer que nous pourrons tirer quelque chose de son corps putride.~
-@121 = ~*miaulement* Il est temps d'en finir pour le moment, <CHARNAME>. Nous finaliserons les détails lors de notre prochaine conversation. Je dois encore régler certains problèmes dans le Plan Astral. La prochaine fois, convoque-moi dans une zone forestière et nous en discuterons.~
+@121 = ~*miaulement* Il est temps d'en finir pour le moment, <CHARNAME>. Nous finaliserons les détails lors de notre prochaine conversation. Je dois encore régler certains problèmes dans le Plan Astral. La prochaine fois, convoque-moi dans une zone forestière et nous en discuterons.~ [p_kito01]
 @122 = ~La dernière chose que je t'ai racontée concernait un démon qui me poursuivait à travers les plans. Finalement, les éclaireurs et les druides ont réussi à le tuer, bien que non sans difficulté.~
 @123 = ~Les forces de la nature dans le Plan Matériel sont une force à ne pas sous-estimer, <CHARNAME>.~
 @124 = ~Leur vie est peut-être considérablement plus courte que celle de nombreuses créatures abyssales, mais elles ne sont pas pour autant plus faibles.~
@@ -142,7 +142,7 @@
 
 // Kitochi Quest -3rd Talk
 
-@138 = ~*ronronnement* Cela me rappelle un peu Imnescar... <CHARNAME>, l'heure de vérité est arrivée.~
+@138 = ~*ronronnement* Cela me rappelle un peu Imnescar... <CHARNAME>, l'heure de vérité est arrivée.~ [p_kito04]
 @139 = ~Je vais te parler de la créature qui a tué Aeris.~
 @140 = ~Je vois. Quel genre de créature est-ce, Kitochi ? Pour qu'elle ait pu tuer un druide elfe expérimenté, cela devait être un monstre puissant.~
 @141 = ~Et devons-nous tuer cette bête ? Nous avons besoin de plus d'informations sur notre cible, chat.~
@@ -191,13 +191,13 @@
 @184 = ~Elle est entre les mains d'une vieille connaissance, Fall.~
 @185 = ~Acrull du Bouclier du Nord.~
 @186 = ~Quoi ?! Acrull a su tout ce temps ton plan ?~
-@187 = ~*miaulement aigu* C'est probable, bavarde. L'important, c'est qu'Acrull sera le lien entre ce plan et l'abyssal, grâce à l'écaille que je lui ai donnée il y a quelque temps.~
+@187 = ~*miaulement aigu* C'est probable, bavarde. L'important, c'est qu'Acrull sera le lien entre ce plan et l'abyssal, grâce à l'écaille que je lui ai donnée il y a quelque temps.~ [p_kito03]
 @188 = ~<CHARNAME>, il est important que Fall soit avec toi lorsque tu parleras à Acrull. Il n'est pas nécessaire que je sois présent, mais, cela dit, lorsque nous arriverons au repaire de Gorm, convoque-moi.~
 
 @189 = ~Acrull a raison, <CHARNAME>. Amène Fall pour que nous voyagions jusqu'à la tanière de Gorm.~
 
 @190 = ~Exactement, Acrull. Fall et les forces de <CHARNAME> voyageront vers le plan de Gorm, jusqu'à sa tanière.~
-@191 = ~*miaulement aigu* Gorm !!! Sors de ta cachette, sale créature. Nous sommes venus pour te tuer !~
+@191 = ~*miaulement aigu* Gorm !!! Sors de ta cachette, sale créature. Nous sommes venus pour te tuer !~ [p_kito02]
 @192 = ~Gorm ! Ceci est pour mon ami... À l'attaque !~
 @193 = ~Enfin, nous y sommes... <CHARNAME>, souviens-toi de ceci : ma mort n'a pas d'importance... mais tu dois protéger Fall. Si nous gagnons cette bataille, elle sera le lien nécessaire pour rentrer chez nous.~
 @194 = ~Ne sois pas si pessimiste, Kitochi. Personne ne mourra. C'est une promesse !~

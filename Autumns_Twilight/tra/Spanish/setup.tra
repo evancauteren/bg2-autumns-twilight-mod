@@ -6386,7 +6386,7 @@ Tima: Cufa, recuerda que estamos a dieta. Oye, forastera, será mejor que hables
 @9219   = ~No te queda mucho tiempo de vida, escoria. Finalmente... has pagado.~
 @92110   = ~Q-quisiera decir... que esto aún no ha terminado... Que... que te perseguiré en la otra vida... p-pero...~
 @92111   = ~Pero tu deidad, Gruumsh, dudo que te perdone, ¿verdad? Después de todo... has recibido ayuda de un elfo... y no hay nada que Gruumsh odie más que los elfos...~
-@92112   = ~*ríe con malevolencia* Pasarás la eternidad sufriendo, de la mano de tu dios. Un destino más que merecido, diría yo...~
+@92112   = ~*ríe con malevolencia* Pasarás la eternidad sufriendo, de la mano de tu dios. Un destino más que merecido, diría yo...~ [p_dusk42]
 @92113   = ~Grr... *con dificultad, el semiorco estira su mano en un intento desesperado por alcanzar el cuello de Dusk*~
 @92114   = ~*Pero Dusk, sin piedad, la cercena con su espada, inundando el Túmulo con los gritos ahogados de Alabarza*~
 @92115   = ~No tendrás últimas palabras ni deseos, escoria. Aunque quizás esto te reconforte: el elfo que te ha ayudado, el tal Kalanda, tendrá el mismo destino que tú...~
@@ -7131,18 +7131,18 @@ Por favor, permíteme acompañarte.~
 @9538    = ~De acuerdo. Seguiré estando aquí, ¿sabes? Es mejor que perder el tiempo en esa apestosa Corona del Cobre o como sea que se llame.~
 
 // P_ICELOC
-@9540    = ~¿Quién osa irrumpir en el templo del Monarca de la Congelación Eterna?~
+@9540    = ~¿Quién osa irrumpir en el templo del Monarca de la Congelación Eterna?~ [p_icel01]
 @9541    = ~Selu'taar. Exijo una explicación. Tu vida depende de ello.~
 @9542    = ~Ahora comprendo. Has traído a estos mortales como ofrenda para evitar el surgimiento del Shyntquarra.~
 @9543    = ~¿El qué?~
 @9544    = ~Eso no suena nada bien.~
 @9545    = ~No somos ofrenda de nadie, gigantón.~
 @9546    = ~Las criaturas de carne poco tienen que opinar sobre su destino a manos de los dioses.~
-@9547    = ~El Shyntquarra debe ser evitado a toda cosa. Así lo demanda mi señor.~
-@9548    = ~¿Qué estás esperando, selu'taar? Acaba con ellos.~
+@9547    = ~El Shyntquarra debe ser evitado a toda cosa. Así lo demanda mi señor.~ [p_icel02]
+@9548    = ~¿Qué estás esperando, selu'taar? Acaba con ellos.~ [p_icel03]
 @9549    = ~Icelock... espera, puedo explicarlo.~
 @95410   = ~¿Alendir?, ¿qué está pasando? ¿Quién (o qué) es esa criatura?~
-@95411   = ~Elfo débil. ¿Osas llamarte Maestro de la Escarcha? Te mantendré con vida sólo para que atestigues como aplastamos a tus amigos.~
+@95411   = ~Elfo débil. ¿Osas llamarte Maestro de la Escarcha? Te mantendré con vida sólo para que atestigues como aplastamos a tus amigos.~ [p_icel04]
 @95412   = ~¡Alendir!~
 @95413   = ~Fall... *quejido* Destruye al gólem... es débil al fuego... acaba con él y con sus esbirros.~
 
@@ -7768,6 +7768,9 @@ Por favor, permíteme acompañarte.~
 @97070   = ~A que es muy útil, ¿no lo crees?~
 @97071   = ~Laborioso como las hormigas es el buen Verthan. Su influjo recorre hasta estas mismas tierras subterráneas.~
 @97072   = ~¿Puedes pedirle que por favor se quite del umbral? ¡Necesitamos alcanzar a Alendir!~
+
+@97073   = ~Parece tener simpatía por nosotros. Creo que si le dices que tus intenciones no son agresivas, cederá.~
+@97074   = ~Tendremos una recompensa mayor si le matamos, <CHARNAME>. Además, un gran basilisco es un buen rival para poner a práctica nuestras habilidades.~
 
 // P_BABA
 // Bloque 1 (FTF)

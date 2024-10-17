@@ -65,6 +65,7 @@ AreaCheck("P_FAR7")
 ~ THEN BEGIN 7 // from:
   SAY @9240 /* ~Mortales. Vidomina me ha ordenado el brindarles mis sabios consejos y servicios curativos si así lo requirieran. Aunque es una nimiedad para mis verdaderas capacidades.~ */
     IF ~~ THEN REPLY @9241 /* Liche, necesitamos curación. */  GOTO 2
+    IF ~~ THEN REPLY @92419 /* Xsi, ¿tienes algún artefacto poderoso a la venta? */  GOTO 5E
 	IF ~PartyHasItem ("p_fbook3") PartyHasItem ("p_fbook4") PartyHasItem ("p_fbook5") PartyHasItem ("p_fbook2") PartyHasItem ("p_fbook6") PartyHasItem ("p_fbook7")~ THEN REPLY @92414 /* Xsi, he encontrado los seis tomos que buscabas. */  GOTO 8
     IF ~~ THEN REPLY @9243 /* Por ahora no necesito nada. Adiós. */  GOTO 4E
 END
@@ -80,6 +81,8 @@ AreaCheck("P_FA3B")
   SAY @92416 /* ~Bueno, mortal, parece ser que estaremos un tiempo ocultos en este templo. Si aún necesitas de mis servicios, lo tendrás. Por un pequeño precio, claro. Incluso un liche necesita algo de riqueza. ~ */
     IF ~~ THEN REPLY @92417 /* Xsi, necesitamos curación. */  GOTO 2
     IF ~~ THEN REPLY @92419 /* Xsi, ¿tienes algún artefacto poderoso a la venta? */  GOTO 5E
+	IF ~PartyHasItem ("p_fbook3") PartyHasItem ("p_fbook4") PartyHasItem ("p_fbook5") PartyHasItem ("p_fbook2") PartyHasItem ("p_fbook6") PartyHasItem ("p_fbook7")~ THEN REPLY @92414 /* Xsi, he encontrado los seis tomos que buscabas. */  GOTO 8
+
     IF ~~ THEN REPLY @9243 /* Por ahora no necesito nada. Adiós. */  GOTO 10
 END
 

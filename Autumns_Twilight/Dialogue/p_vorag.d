@@ -5,7 +5,6 @@ IF ~Global("P_FallMission2","GLOBAL",3)~ THEN BEGIN 0 // from:
   IF ~~ THEN DO ~SetGlobal("P_FallMission2","GLOBAL",4)~ GOTO 1
 END
 
-
 IF ~~ THEN BEGIN 1 // from:
   SAY @9701 /* ~*Te parece extraño que no te ataque. Más extraño es que la criatura te observe detenidamente hasta que podrías jurar escuchar una voz en tu mente*~*/
   IF ~~ THEN GOTO 2
@@ -143,6 +142,8 @@ I_C_T P_VORAG 17 P_Fall_VORAG17A
 == P_VORAG IF ~~ THEN @97028 /* Veo que estás rodeado de amistades. En cierto sentido te envidio. */
 == P_FallJ IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @97029 /* <CHARNAME>... Alendir recomendó matar a este basilisco... pero no me parece que sea malvado. Creo que lo correcto es dejarle vivir. Por favor, te lo pido. No lo mates. */
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @97030 /* ~Puede que sea un monstruo, pero Bubú dice que también es un animal. Si mi hámster dice que no es malo, ¡pues Minsc también lo creerá!~ */
+== P_DUSKJ IF ~Global("P_DUSK_IS_EVIL","GLOBAL",0) InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @97073 /* Parece tener simpatía por nosotros. Creo que si le dices que tus intenciones no son agresivas, cederá. */
+== P_DUSKJ IF ~Global("P_DUSK_IS_EVIL","GLOBAL",1) InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @97074 /* Tendremos una recompensa mayor si le matamos, <CHARNAME>. Además, un gran basilisco es un buen rival para poner a práctica nuestras habilidades. */
 == AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @97031 /* ~<CHARNAME>... Yo... n-no creo que sea necesario matarlo. Creo que podemos convencerlo de que nos dé alguna escama o colmillo, ¿no lo crees?~ */
 == KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @97032 /* ~La iglesia no dudaría en enviar un destacamento de soldados en acabar con esta bestia, <CHARNAME>. Sin embargo, es la primera vez que escucho a uno hablar. No estoy seguro de que matarlo sea justicia...~ */
 == YOSHJ IF ~InParty("Yoshimo") InMyArea("Yoshimo") !StateCheck("Yoshimo",CD_STATE_NOTVALID)~ THEN @97033 /* ~Tenemos una oportunidad de evitar un combate difícil, <CHARNAME>. Yo digo que lo aprovechemos.~ */

@@ -278,7 +278,7 @@ END
 
 IF ~~ THEN BEGIN 49 // from:
   SAY @3185 /* ~Adiós, amigo... Espero que volvamos a vernos.~ */
-IF ~~ THEN DO ~AddexperienceParty(30000) CreateItem ("p_fcur1",1,2,1) UseItem ("p_fcur1", Myself) SetGlobal("P_Fall_Kakuto_Rescued","GLOBAL",1)~ UNSOLVED_JOURNAL @310019 EXIT
+IF ~~ THEN DO ~SetGlobal("P_Fall_Kakuto_Rescued","GLOBAL",1) AddexperienceParty(30000) CreateItem ("p_fcur1",1,2,1) UseItem ("p_fcur1", Myself) ~ UNSOLVED_JOURNAL @310019 EXIT
 END
 
 IF ~~ THEN BEGIN 50 // from:
@@ -314,7 +314,7 @@ END
 
 IF ~~ THEN BEGIN 56 // from:
   SAY @3185 /* ~Adiós, amigo... Espero que volvamos a vernos.~ */
-IF ~~ THEN DO ~AddexperienceParty(30000) CreateItem ("p_fcur1",1,2,1) UseItem ("p_fcur1", Myself) SetGlobal("P_Fall_Kakuto_Rescued","GLOBAL",1)~ UNSOLVED_JOURNAL @310019 EXIT
+IF ~~ THEN DO ~SetGlobal("P_Fall_Kakuto_Rescued","GLOBAL",1) AddexperienceParty(30000) CreateItem ("p_fcur1",1,2,1) UseItem ("p_fcur1", Myself) ~ UNSOLVED_JOURNAL @310019 EXIT
 END
 
 IF ~Global("P_FallKakuto_Died","GLOBAL",1)~ THEN BEGIN 57 // from:

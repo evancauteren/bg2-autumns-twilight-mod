@@ -5,6 +5,8 @@ THEN
 RESPONSE #100
 CreateCreature("P_Fall",[2034.2067],12)
 SetGlobal("P_FallSpawn","GLOBAL",1)
+SetGlobal("CagedCreatures","AR0700",1)
+RealSetGlobalTimer("P_FallTimerAnimals0700","GLOBAL",120)
 Continue()
 END
 
@@ -69,56 +71,54 @@ AddXPObject("P_Fall",1039000)
 Continue()
 END
 
-// Squirrel
-IF
-Global("P_FAnimalsSpawnSquirrel","GLOBAL",0)
-Global("P_FallMission1","GLOBAL",0)
-!Exists("WAUKSQU")
-THEN
-RESPONSE #100
-CreateCreatureImpassable("WAUKSQU",[2353.1942],3)
-SetGlobal("P_FAnimalsSpawnSquirrel","GLOBAL",1)
-SetGlobal("CagedCreatures","AR0700",1)
-Continue()
-END
-
 // Animal Spawn Patch
-// Leopard
 IF
-Global("P_FAnimalsSpawnLeopard","GLOBAL",0)
-Global("P_FallMission1","GLOBAL",0)
-!Exists("WAUKLEO")
+  RealGlobalTimerExpired("P_FallTimerAnimals0700","GLOBAL")
+  Global("P_FAnimalsSpawnSquirrel","GLOBAL",0)
+  //Global("P_FallMission1","GLOBAL",0)
+  !Exists("WAUKSQU")  // ~Squirrel~
 THEN
-RESPONSE #100
-CreateCreatureImpassable("WAUKLEO",[2303.2314],3)
-SetGlobal("P_FAnimalsSpawnLeopard","GLOBAL",1)
-Continue()
+  RESPONSE #100
+    CreateCreatureImpassable("WAUKSQU",[2353.1942],SWW)
+    SetGlobal("P_FAnimalsSpawnSquirrel","GLOBAL",1)
+    SetGlobal("CagedCreatures","AR0700",1)
+    Continue()
 END
 
-// Moose
 IF
-Global("P_FAnimalsSpawnMoose","GLOBAL",0)
-Global("P_FallMission1","GLOBAL",0)
-!Exists("WAUKMOO")
-!Exists("MOOSE01")
+  RealGlobalTimerExpired("P_FallTimerAnimals0700","GLOBAL")
+  Global("P_FAnimalsSpawnLeopard","GLOBAL",0)
+  //Global("P_FallMission1","GLOBAL",0)
+  !Exists("WAUKLEO")  // ~Leopard~
 THEN
-RESPONSE #100
-CreateCreatureImpassable("WAUKMOO",[2426.1933],3)
-SetGlobal("P_FAnimalsSpawnMoose","GLOBAL",1)
-Continue()
+  RESPONSE #100
+    CreateCreatureImpassable("WAUKLEO",[2303.2314],SWW)
+    SetGlobal("P_FAnimalsSpawnLeopard","GLOBAL",1)
+    Continue()
 END
 
-// Snake
 IF
-Global("P_FAnimalsSpawnSnake","GLOBAL",0)
-Global("P_FallMission1","GLOBAL",0)
-!Exists("SNAKE01")
-!Exists("WAUKSNA")
+  RealGlobalTimerExpired("P_FallTimerAnimals0700","GLOBAL")
+  Global("P_FAnimalsSpawnMoose","GLOBAL",0)
+  //Global("P_FallMission1","GLOBAL",0)
+  !Exists("MOOSE01")  // ~Moose~
 THEN
-RESPONSE #100
-CreateCreatureImpassable("WAUKSNA",[2901.2167],3)
-SetGlobal("P_FAnimalsSpawnSnake","GLOBAL",1)
-Continue()
+  RESPONSE #100
+    CreateCreatureImpassable("WAUKMOO",[2426.1933],SWW)
+    SetGlobal("P_FAnimalsSpawnMoose","GLOBAL",1)
+    Continue()
+END
+
+IF
+  RealGlobalTimerExpired("P_FallTimerAnimals0700","GLOBAL")
+  Global("P_FAnimalsSpawnSnake","GLOBAL",0)
+  //Global("P_FallMission1","GLOBAL",0)
+  !Exists("SNAKE01")  // ~Snake~
+THEN
+  RESPONSE #100
+    CreateCreatureImpassable("WAUKSNA",[2901.2167],SWW)
+    SetGlobal("P_FAnimalsSpawnSnake","GLOBAL",1)
+    Continue()
 END
 
 // Quest 1 - Andrew Spawn

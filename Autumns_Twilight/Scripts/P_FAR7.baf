@@ -83,7 +83,9 @@ END
 
 IF
 Global("P_ChoDestroyF7","GLOBAL",0)
+OR (2)
 Dead("p_cho")
+Global("P_AttackedCho","GLOBAL",2)
 THEN
 RESPONSE #100
 ActionOverride("p_cho",DestroySelf())

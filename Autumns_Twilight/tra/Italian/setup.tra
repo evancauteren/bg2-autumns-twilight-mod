@@ -6234,7 +6234,7 @@ Tima: Cufa, ricorda che siamo a dieta. Ehi, forestiera, è meglio che parli con 
 @9219   = ~Non ti resta molto tempo di vita, scoria. Finalmente... hai pagato.~
 @92110   = ~Q-volevo dire... che questo non è ancora finito... Che... che ti perseguiterò nell'altra vita... p-però...~
 @92111   = ~Ma la tua divinità, Gruumsh, dubito che ti perdonerà, vero? Dopo tutto... hai ricevuto aiuto da un elfo... e non c'è niente che Gruumsh odia di più degli elfi...~
-@92112   = ~*ride con malizia* Trascorrerai l'eternità a soffrire, per mano del tuo dio. Un destino più che meritato, direi...~
+@92112   = ~*ride con malizia* Trascorrerai l'eternità a soffrire, per mano del tuo dio. Un destino più che meritato, direi...~ [p_dusk42]
 @92113   = ~Grr... *con difficoltà, il semiorco allunga la mano nel disperato tentativo di afferrare il collo di Dusk*~
 @92114   = ~*Ma Dusk, senza pietà, la recide con la sua spada, inondando il Tumulo con le grida soffocate di Alabarza*~
 @92115   = ~Non avrai ultime parole né desideri, scoria. Anche se forse questo ti consolerà: l'elfo che ti ha aiutato, il tale Kalanda, avrà lo stesso destino che hai tu...~
@@ -6713,7 +6713,7 @@ Ma alla fine, consumò la sua giovinezza e la sua vita.~
 @93824   = ~Per il momento no, Generale.~ 
 
 // P_VRESH
-@9390    = ~Ha... ha la pietra custode di Qyl'tar. Questo significa...~ 
+@9390    = ~Ha... ha la pietra custode di Qyl'tar. Questo significa...~ ~Lei... lei ha il talismano di Qyl'tar. Questo significa...~
 @9391    = ~Che Qyl'tar è morto. Lo sospettavo... non sono semplici avventurieri di superficie.~ 
 @9392    = ~Qyl'tar è morto.~ 
 @9393    = ~Comandante Vreshnak, svegliati. Sì, Qyl'tar è caduto, ma spetta a noi vendicarlo.~ 
@@ -6955,18 +6955,18 @@ Ma alla fine, consumò la sua giovinezza e la sua vita.~
 @9538 = ~Va bene. Rimarrò qui, sai? È meglio che perdere tempo in quella puzzolente Corona di Rame o come diavolo si chiama.~
 
 // P_ICELOC
-@9540 = ~Chi osa irrompere nel tempio del Monarca del Congelamento Eterno?~
+@9540 = ~Chi osa irrompere nel tempio del Monarca del Congelamento Eterno?~ [p_icel01]
 @9541 = ~Selu'taar. Esigo una spiegazione. La tua vita dipende da questo.~
 @9542 = ~Ora comprendo. Hai portato questi mortali come offerta per evitare l'emergere dello Shyntquarra.~
 @9543 = ~Il che?~
 @9544 = ~Questo non suona affatto bene.~
 @9545 = ~Non siamo offerta di nessuno, gigante.~
 @9546 = ~Le creature di carne hanno poco da dire sul loro destino nelle mani degli dèi.~
-@9547 = ~Lo Shyntquarra deve essere evitato a tutti i costi. Così richiede il mio signore.~
-@9548 = ~Cosa stai aspettando, selu'taar? Finiscili.~
+@9547 = ~Lo Shyntquarra deve essere evitato a tutti i costi. Così richiede il mio signore.~ [p_icel02]
+@9548 = ~Cosa stai aspettando, selu'taar? Finiscili.~ [p_icel03]
 @9549 = ~Icelock... aspetta, posso spiegare.~
 @95410 = ~Alendir? Cosa sta succedendo? Chi (o cosa) è quella creatura?~
-@95411 = ~Elfo debole. Osi chiamarti Maestro della Brina? Ti terrò in vita solo per farti assistere mentre schiacciamo i tuoi amici.~
+@95411 = ~Elfo debole. Osi chiamarti Maestro della Brina? Ti terrò in vita solo per farti assistere mentre schiacciamo i tuoi amici.~ [p_icel04]
 @95412 = ~Alendir!~
 @95413 = ~Fall... *lamento* Distruggi il golem... è debole al fuoco... finiscilo insieme ai suoi scagnozzi.~
 
@@ -7607,6 +7607,10 @@ Ma alla fine, consumò la sua giovinezza e la sua vita.~
 @97070   = ~È davvero utile, non credi?~
 @97071   = ~Laborioso come le formiche è il buon Verthan. La sua influenza arriva fino a queste stesse terre sotterranee.~
 @97072   = ~Puoi chiedergli di spostarsi per favore dall'entrata? Dobbiamo raggiungere Alendir!~
+
+@97073   = ~Sembra avere simpatia per noi. Penso che se gli dici che le tue intenzioni non sono aggressive, cederà.~
+@97074   = ~Avremo una ricompensa maggiore se lo uccidiamo, <CHARNAME>. Inoltre, un grande basilisco è un degno avversario per mettere alla prova le nostre abilità.~
+
 
 // P_BABA
 // Bloque 1 (FTF)

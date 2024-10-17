@@ -70,7 +70,7 @@ InParty(Myself)
 Global("P_DuskTalkToB","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimerToB","GLOBAL",1800) //1800
+RealSetGlobalTimer("P_DuskTimerToB","GLOBAL",1800) //TTT 1800
 SetGlobal("P_DuskTalkToB","GLOBAL",1)
 END
 
@@ -154,7 +154,7 @@ InParty(Myself)
 Global("P_DuskTalkToB2","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimerToB2","GLOBAL",60) //60
+RealSetGlobalTimer("P_DuskTimerToB2","GLOBAL",60) //TTT 60
 SetGlobal("P_DuskTalkToB2","GLOBAL",1)
 END
 

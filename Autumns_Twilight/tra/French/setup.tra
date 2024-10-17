@@ -6265,7 +6265,7 @@ Tima : Cufa, rappelle-toi que nous sommes au régime. Hé, étrangère, il vaut 
 @9219    = ~Il ne te reste pas beaucoup de temps à vivre, vermine. Enfin... tu as payé.~
 @92110   = ~J-aurais aimé dire... que ce n'est pas encore fini... Que... que je te poursuivrai dans l'autre vie... p-mais...~
 @92111   = ~Mais ta divinité, Gruumsh, je doute qu'elle te pardonne, n'est-ce pas ? Après tout... tu as reçu de l'aide d'un elfe... et il n'y a rien que Gruumsh déteste plus que les elfes...~
-@92112   = ~*rit avec malveillance* Tu passeras l'éternité à souffrir, sous la main de ton dieu. Un destin plus que mérité, dirais-je...~
+@92112   = ~*rit avec malveillance* Tu passeras l'éternité à souffrir, sous la main de ton dieu. Un destin plus que mérité, dirais-je...~ [p_dusk42]
 @92113   = ~Grr... *avec difficulté, le semi-orque tend la main dans une tentative désespérée d'atteindre le cou de Dusk*~
 @92114   = ~*Mais Dusk, sans pitié, la tranche avec son épée, inondant le Tumulus des cris étouffés d'Alabarza*~
 @92115   = ~Tu n'auras ni derniers mots ni souhaits, vermine. Bien que peut-être cela te réconforte : l'elfe qui t'a aidé, le tal Kalanda, aura le même destin que toi...~
@@ -6742,7 +6742,7 @@ Mais à la fin, il a consumé sa jeunesse et sa vie.~
 @93823   = ~Oui, nous avons besoin de ton expérience, Cho. Bienvenue à bord.~
 @93824   = ~Pour le moment, non, Général.~
 
-@9390    = ~Il a... il a la pierre garde de Qyl'tar. Cela veut dire...~
+@9390    = ~Il a... il a la pierre garde de Qyl'tar. Cela veut dire...~ ~Elle... elle a le talisman de Qyl'tar. Cela signifie...~
 @9391    = ~Que Qyl'tar est mort. Je m'en doutais... ce ne sont pas de simples aventuriers de la surface.~
 @9392    = ~Qyl'tar est mort.~
 @9393    = ~Commandant Vreshnak, réveille-toi. Oui, Qyl'tar est tombé, mais c'est à nous de venger cela.~
@@ -6982,18 +6982,18 @@ Mais à la fin, il a consumé sa jeunesse et sa vie.~
 
 // P_ICELOC
 
-@9540    = ~Qui ose pénétrer dans le temple du Monarque de la Congélation Éternelle ?~
+@9540    = ~Qui ose pénétrer dans le temple du Monarque de la Congélation Éternelle ?~ [p_icel01]
 @9541    = ~Selu'taar. Je demande une explication. Ta vie en dépend.~
 @9542    = ~Je comprends maintenant. Tu as amené ces mortels en offrande pour éviter le surgissement du Shyntquarra.~
 @9543    = ~Le quoi ?~
 @9544    = ~Ça ne présage rien de bon.~
 @9545    = ~Nous ne sommes l'offrande de personne, géant.~
 @9546    = ~Les créatures de chair ont peu de choses à dire sur leur destin aux mains des dieux.~
-@9547    = ~Le Shyntquarra doit être évité à tout prix. Mon seigneur l'exige.~
-@9548    = ~Qu'attends-tu, selu'taar ? Finis-en avec eux.~
+@9547    = ~Le Shyntquarra doit être évité à tout prix. Mon seigneur l'exige.~ [p_icel02]
+@9548    = ~Qu'attends-tu, selu'taar ? Finis-en avec eux.~ [p_icel03]
 @9549    = ~Icelock... attends, je peux tout expliquer.~
 @95410   = ~Alendir ? Qu'est-ce qui se passe ? Qui (ou quoi) est cette créature ?~
-@95411   = ~Elfe faible. Oserais-tu te prétendre Maître du Givre ? Je te garderai en vie juste assez longtemps pour que tu vois tes amis écrasés.~
+@95411   = ~Elfe faible. Oserais-tu te prétendre Maître du Givre ? Je te garderai en vie juste assez longtemps pour que tu vois tes amis écrasés.~ [p_icel04]
 @95412   = ~Alendir !~
 @95413   = ~Fall... *gémissement* Détruis le golem... il est faible face au feu... finis-le ainsi que ses sbires.~
 
@@ -7605,6 +7605,9 @@ Mais à la fin, il a consumé sa jeunesse et sa vie.~
 @97070   = ~C'est très utile, n'est-ce pas?~
 @97071   = ~Laborieux comme les fourmis est le bon Verthan. Son influence s'étend jusqu'à ces mêmes terres souterraines.~
 @97072   = ~Peux-tu lui demander de se retirer du seuil, s'il te plaît? Nous devons atteindre Alendir!~
+
+@97073   = ~Il semble avoir de la sympathie pour nous. Je pense que si tu lui dis que tes intentions ne sont pas agressives, il cédera.~
+@97074   = ~Nous aurons une plus grande récompense si nous le tuons, <CHARNAME>. De plus, un grand basilic est un adversaire digne pour mettre nos compétences à l'épreuve.~
 
 // P_BABA
 // Bloc 1 (FTF)

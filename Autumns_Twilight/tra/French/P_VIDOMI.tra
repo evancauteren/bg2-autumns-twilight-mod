@@ -240,7 +240,7 @@
 @228 = ~Que te faut-il de plus, ma Dame ?~
 @229 = ~Ce n'est pas facile à demander, mais j'aurai besoin de quelques composés de pouvoir significatif pour pouvoir exécuter mon sort de résurrection.~
 @230 = ~Quelque chose appartenant à Tisiphone. Quelque chose appartenant à Rask'tar Krathiss.~
-@231 = ~Je comprends. <CHARNAME> s'est emparé du Trident de ma Reine, ainsi que d'une des têtes de Rask'tar. La décision : elle lui appartient.~
+@231=~Je comprends. <CHARNAME> a acquis le Trident de la Reine, ainsi qu'une des têtes de Rask'tar. La décision : il lui appartient.~ ~Je comprends. <CHARNAME> a acquis le Trident de la Reine, ainsi qu'une des têtes de Rask'tar. La décision : elle lui appartient.~
 @232 = ~Peut-être que je pourrais la convaincre...~
 @233 = ~Bien que je le veuille, Lord Général, je ne pourrais pas la ressusciter. Pas au moins Tisiphone ou son champion, Rask'tar Krathiss. Ce sont des créatures puissantes et anciennes, et j'aurais besoin d'un pouvoir plus grand que celui que je possède pour les ramener.~
 @234 = ~Je... comprends...~

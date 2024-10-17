@@ -274,10 +274,30 @@ END
 
 IF ~AreaCheck("P_FAR7")
 Global ("P_SkelTharantQuest","GLOBAL",1)
+Global ("P_PhillipeReward","GLOBAL",0)
+Global ("P_PhillipeBravery","GLOBAL",9)
+!Dead("P_SKEL")~ 
+THEN BEGIN 40C // from:
+  SAY @97684 /* ~<CHARNAME>, Phillipe lamentar no poder ayudar. P-perdón...~ */
+  IF ~~ THEN EXIT
+END
+
+IF ~AreaCheck("P_FAR7")
+Global ("P_SkelTharantQuest","GLOBAL",1)
 Global ("P_PhillipeReward","GLOBAL",1)
 Global ("P_PhillipeBravery","GLOBAL",9)
 Dead("P_SKEL")~ 
 THEN BEGIN 40B // from:
+  SAY @976101 /* ~¡<CHARNAME>, derrotar a Skel'Tharant! Phillipe... sorprendido. <CHARNAME> tener poder increíble.~ */
+  IF ~~ THEN EXIT
+END
+
+IF ~AreaCheck("P_FAR7")
+Global ("P_SkelTharantQuest","GLOBAL",1)
+Global ("P_PhillipeReward","GLOBAL",0)
+Global ("P_PhillipeBravery","GLOBAL",9)
+Dead("P_SKEL")~ 
+THEN BEGIN 40D // from:
   SAY @976101 /* ~¡<CHARNAME>, derrotar a Skel'Tharant! Phillipe... sorprendido. <CHARNAME> tener poder increíble.~ */
   IF ~~ THEN EXIT
 END
@@ -297,6 +317,15 @@ Global ("P_SkelTharantQuest","GLOBAL",1)
 Global ("P_PhillipeReward","GLOBAL",1)
 Global ("P_PhillipeBravery","GLOBAL",3)~ 
 THEN BEGIN 43 // from:
+  SAY @97688 /* ~¡Phillipe ayudar a <CHARNAME> en su lucha contra Skel'Tharant!~ */
+  IF ~~ THEN EXIT
+END
+
+IF ~AreaCheck("P_FAR7")
+Global ("P_SkelTharantQuest","GLOBAL",1)
+Global ("P_PhillipeReward","GLOBAL",0)
+Global ("P_PhillipeBravery","GLOBAL",3)~ 
+THEN BEGIN 43B // from:
   SAY @97688 /* ~¡Phillipe ayudar a <CHARNAME> en su lucha contra Skel'Tharant!~ */
   IF ~~ THEN EXIT
 END

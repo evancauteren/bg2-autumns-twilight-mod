@@ -42,7 +42,7 @@ InParty(Myself)
 Global("P_AlenTalkToB","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_AlenTimerToB","GLOBAL",60) //2000
+RealSetGlobalTimer("P_AlenTimerToB","GLOBAL",2000) // TTT 2000
 SetGlobal("P_AlenTalkToB","GLOBAL",1)
 END
 
@@ -88,7 +88,7 @@ Global("P_AlenTalkToB","GLOBAL",3)
 Global("P_AlenTalkToB_Timer2","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_AlenTimerToB","GLOBAL",60) //3600
+RealSetGlobalTimer("P_AlenTimerToB","GLOBAL",3600) //TTT 3600
 SetGlobal("P_AlenTalkToB_Timer2","GLOBAL",1)
 END
 

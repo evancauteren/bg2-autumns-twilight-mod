@@ -1,7 +1,7 @@
 @0 = ~*Vedi un curioso gatto seduto, con gli occhi socchiusi. Non puoi fare a meno di osservare il cappellino che porta sulla testa.*~
 @1 = ~*Osservi attentamente il gatto. Sembra che stia dormendo seduto.*~
 @2 = ~*Il gatto, che sembrava stesse dormendo comodamente, si rizza all'ascolto della voce di Fall.*~
-@3 = ~Cappellino ridicolo? Beh, per essere un Figlio di Bhaal sembri un buffone.~ ~Cappellino ridicolo? Beh, per essere una Figlia di Bhaal sembri una buffona.~
+@3 = ~Cappellino ridicolo? Beh, per essere un Figlio di Bhaal sembri un buffone.~ [p_kito03]~Cappellino ridicolo? Beh, per essere una Figlia di Bhaal sembri una buffona.~ [p_kito03]
 @4 = ~Stai cercando di ferire i miei sentimenti? Dovrai impegnarti di più, buffone.~
 @5 = ~Sì, mi dispiace, chiacchierona.~
 @6 = ~Cosa? Non farmi tirare fuori le unghie, mostro.~
@@ -34,7 +34,7 @@
 @33 = ~Si può proseguire fino a scontrarsi con un muro apparentemente invalicabile. Una sorta di forza invisibile.~
 @34 = ~Qui è dove Alendir si è fermato e... sembrava parlare al nulla.~
 @35 = ~Hai sentito, Kitochi?~
-@36 = ~*miagolio* Certo, chiacchierona. L'elfo ha detto "Nel sussurro del vento gelido, si trova il cammino.".~
+@36 = ~*miagolio* Certo, chiacchierona. L'elfo ha detto "Nel sussurro del vento gelido, si trova il cammino.".~ [p_kito01]
 @37 = ~Dopo di che, l'ostacolo sembrava essere scomparso. Ma... non l'ho seguito oltre. Non so cosa ci sia più oltre quel punto.~
 @38 = ~Ho avvertito pericolo. O almeno una presenza strana e estranea a questo piano.~
 @39 = ~In ogni caso, credo di aver fatto quanto mi hai chiesto, chiacchierona.~
@@ -46,14 +46,14 @@
 @45 = ~Molto bene, chiacchierona. Spero che tu possa decifrare l'incantesimo necessario per convocarmi.~
 @46 = ~Per ora, mi congedo.~
 
-@47 = ~Per i baffi di mia madre! Bocconcino, quel scarabeo mi sta guardando in modo molto strano.~
+@47 = ~Per i baffi di mia madre! Bocconcino, quel scarabeo mi sta guardando in modo molto strano.~ [p_kito01]
 @48 = ~*Lo sguardo dello scarabeo è concentrato su Kitochi.*~
 @49 = ~Capisco. Beh, sarà un po' complicato. Le sue zampe sono intrappolate da grandi catene.~
 @50 = ~Non vediamo nessuna catena, Kitochi.~
 @51 = ~Beh, tu non hai i miei occhi, buon <CHARNAME>. La creatura non andrà da nessuna parte a meno che non venga uccisa o che non troviate un modo per liberarla dalle sue catene.~
 
-@52 = ~*sbadiglio* <CHARNAME>! Hai voglia di parlare? Potrebbe non essere il posto migliore per una chiacchierata, ma sento che di fronte al pericolo, qualche parola tra amici potrebbe alleviare le cose.~
-@53 = ~*miagolio* E allora? Su, voglio sapere di più su di te.~
+@52 = ~*sbadiglio* <CHARNAME>! Hai voglia di parlare? Potrebbe non essere il posto migliore per una chiacchierata, ma sento che di fronte al pericolo, qualche parola tra amici potrebbe alleviare le cose.~ [p_kito02]
+@53 = ~*miagolio* E allora? Su, voglio sapere di più su di te.~[p_kito01]
 @54 = ~E cosa vuoi sapere, Kitochi? Sai già che discendo da Bhaal. Tu stesso hai sentito le conversazioni nella taverna delle Cinque Boccali.~
 @55 = ~Non è un buon momento per parlare, gatto.~
 @56 = ~Hmpf. D'accordo. Credo di essermi sbagliato su di te.~
@@ -75,8 +75,8 @@
 @72 = ~Prima di iniziare... devi sapere che sei la seconda persona con cui parlo di questo. Fall è una brava ragazza e ha vissuto esperienze simili alle nostre.~
 @73 = ~Dovevo farlo. Dovevo farlo.~
 @74 = ~Kitochi, stai bene?~
-@75 = ~*miagolio acuto* Sì, <CHARNAME>. Grazie per aver chiesto.~
-@76 = ~*miagolio* Credo che sia stato abbastanza per oggi, amico <CHARNAME>. Ti dirò cosa: La prossima volta chiamami in qualche taverna della città e continuerò il mio racconto.~ ~*miagolio* Credo che sia stato abbastanza per oggi, amica <CHARNAME>. Ti dirò cosa: La prossima volta chiamami in qualche taverna della città e continuerò il mio racconto.~
+@75 = ~*miagolio acuto* Sì, <CHARNAME>. Grazie per aver chiesto.~ [p_kito02]
+@76 = ~*miagolio* Credo che sia stato abbastanza per oggi, amico <CHARNAME>. Ti dirò cosa: La prossima volta chiamami in qualche taverna della città e continuerò il mio racconto.~[p_kito03] ~*miagolio* Credo che sia stato abbastanza per oggi, amica <CHARNAME>. Ti dirò cosa: La prossima volta chiamami in qualche taverna della città e continuerò il mio racconto.~[p_kito03]
 @77 = ~Ma a volte sento che devo parlare con qualcun altro e non mi viene in mente una creatura più esperta di te.~
 @78 = ~I gatti fatati vivono molti anni. Ma non siamo immortali. C'è molta confusione al riguardo, sai?~
 @79 = ~So che non sono una creatura bella rispetto ai miei simili. Ma posso scusarmi perché ho combattuto al fronte con gli esploratori e i druidi di Imnescar.~
@@ -98,7 +98,7 @@
 
 // Kitochi Quest -2nd Talk
 
-@95 = ~*miagolio acuto* Sì, questo posto è un buon luogo per parlare.~
+@95 = ~*miagolio acuto* Sì, questo posto è un buon luogo per parlare.~[p_kito02]
 @96 = ~*sbadiglio* Ebbene? <CHARNAME>, continuiamo con la storia, va bene?~
 @97 = ~Sulla tua arrivata nei boschi di Imnescar? Hai menzionato un druido di nome Aeris.~
 @98 = ~Non avevi parlato di una missione o qualcosa del genere? Se c'è qualcosa da fare, mi piacerebbe che me lo dicessi.~
@@ -124,7 +124,7 @@
 @118 = ~Io... d'accordo... non credo che parleremo di nuovo...~
 @119 = ~La differenza è che è probabile che non incontreremo questa creatura se seguiamo il percorso di Fall. Non voglio che succeda.~
 @120 = ~Prima di tutto, voglio chiarire che è probabile che la creatura custodisca dei tesori. Se non lo farà, posso assicurarti che riusciremo a fare qualcosa con quello che potremo estrarre dal suo corpo putrido.~
-@121 = ~*miagolio* È il momento di terminare per ora, <CHARNAME>. Ultimeremo i dettagli nella nostra prossima conversazione. Devo ancora pianificare alcune questioni nel Piano Astrale. La prossima volta, convocami in una zona boschiva e parleremo.~
+@121 = ~*miagolio* È il momento di terminare per ora, <CHARNAME>. Ultimeremo i dettagli nella nostra prossima conversazione. Devo ancora pianificare alcune questioni nel Piano Astrale. La prossima volta, convocami in una zona boschiva e parleremo.~ [p_kito01]
 @122 = ~L'ultima cosa che ti ho raccontato è riguardo un demone che mi inseguiva attraverso i piani. Infine, gli esploratori e i druidi riuscirono ad ucciderlo, sebbene non senza difficoltà.~
 @123 = ~Le forze della natura nel Piano Materiale sono una forza da considerare, <CHARNAME>.~
 @124 = ~Può darsi che le loro vite siano notevolmente più brevi di quelle di molte creature abissali, ma non sono per questo più deboli.~
@@ -144,7 +144,7 @@
 
 // Kitochi Quest -3rd Talk
 
-@138 = ~*fusa* Mi ricorda un po' Imnescar... <CHARNAME>, è il momento della verità.~
+@138 = ~*fusa* Mi ricorda un po' Imnescar... <CHARNAME>, è il momento della verità.~ [p_kito04]
 @139 = ~Parlerò della creatura che ha ucciso Aeris.~
 @140 = ~Capisco. Che tipo di creatura è, Kitochi? Per uccidere un druido elfico esperto, deve essere stato un mostro potente.~
 @141 = ~E dobbiamo uccidere quel mostro? Abbiamo bisogno di più informazioni sul nostro obiettivo, gatto.~
@@ -193,14 +193,14 @@
 @184 = ~Essa si trova in possesso di un vecchio conoscente, Fall.~
 @185 = ~Acrull Scudonordico.~
 @186 = ~Cosa?! Acrull sapeva tutto il tempo del tuo piano?~
-@187 = ~*fusa acuta* Probabilmente, chiacchierona. L'importante è che Acrull sarà il legame tra questo piano e l'abisso, usando la scaglia che gli ho dato tempo fa.~
+@187 = ~*fusa acuta* Probabilmente, chiacchierona. L'importante è che Acrull sarà il legame tra questo piano e l'abisso, usando la scaglia che gli ho dato tempo fa.~ [p_kito03]
 @188 = ~<CHARNAME>, è importante che Fall sia con te quando parlerai con Acrull. Non è necessario che io sia presente, anche se, quando arriveremo alla tana di Gorm, invocami.~
 
 @189 = ~Acrull ha ragione <CHARNAME>. Porta Fall affinché possiamo viaggiare alla tana di Gorm.~
 
 @190 = ~Esatto, Acrull. Fall e le forze di <CHARNAME> viaggeranno al piano di Gorm, verso la sua tana.~
 
-@191 = ~*miagolio acuto*!!! Gorm!!! Esci da dove ti nascondi, creatura disgustosa. Siamo venuti per ucciderti!~
+@191 = ~*miagolio acuto* Gorm!!! Esci da dove ti nascondi, creatura disgustosa. Siamo venuti per ucciderti!~ [p_kito02]
 @192 = ~Gorm! Questo è per il mio amico... All'attacco!~
 @193 = ~Finalmente siamo arrivati... <CHARNAME>, ricorda questo: La mia morte è ininfluente... ma devi proteggere Fall. Se vinciamo questa battaglia, lei sarà il legame necessario per tornare a casa.~
 @194 = ~Non essere pessimista, Kitochi. Nessuno morirà. È una promessa!~

@@ -8,11 +8,11 @@ END
 IF
 InParty("P_Fall")
 See("P_Fall")
-Global("P_Fall_Kitoch_Talk","LOCALS",0)
+Global("P_Fall_Kitoch_Talk","GLOBAL",0)
 THEN
   RESPONSE #100
+  SetGlobal("P_Fall_Kitoch_Talk","GLOBAL",1)
   StartDialogueNoSet(Player1)
-  SetGlobal("P_Fall_Kitoch_Talk","LOCALS",1)
 END
 
 IF

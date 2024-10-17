@@ -142,3 +142,29 @@ THEN
   RESPONSE #100
   StartDialogueNoSet(Player1)
 END
+
+// Parche EVIL Dusk si tiene las 2 espadas IRA
+IF
+  PartyHasItem("p_swevi4")
+  Global ("P_DanctPatchEvilSwordDuplicated","GLOBAL",0)
+  PartyHasItem("p_swevi3")
+THEN
+  RESPONSE #100
+  Wait(6)
+  TakePartyItem ("p_swevi3")
+  DestroyItem ("p_swevi3")
+  SetGlobal ("P_DanctPatchEvilSwordDuplicated","GLOBAL",1)
+END
+
+// Parche EVIL Dusk si tiene las 2 espadas IRA y el ORBE
+IF
+  PartyHasItem("p_swevi4")
+  Global ("P_DanctPatchEvilSwordDuplicatedORB","GLOBAL",0)
+  PartyHasItem("p_orbef")
+THEN
+  RESPONSE #100
+  Wait(6)
+  TakePartyItem ("p_orbef")
+  DestroyItem ("p_orbef")
+  SetGlobal ("P_DanctPatchEvilSwordDuplicatedORB","GLOBAL",1)
+END

@@ -333,6 +333,7 @@ And bring her family the peace of their land.~
 @367  = ~I don't think he's effective in close combat, but that's something you can discuss with him if you like.~
 @368  = ~Animal companion? I see. Please continue.~
 
+// TABITHA 2
 @369  = ~I've unraveled the mystery of Malar, <CHARNAME>. Tabitha will be saved from this plane.~
 @370  = ~Fall, who is Malar?~
 @371  = ~Finally. Are you going to give me back my armor? It cost gold, you know.~
@@ -345,8 +346,7 @@ And bring her family the peace of their land.~
 @378  = ~The giant bear did terrorize those lands, it's true. But it was in its destructive nature. Nature can be brutal and relentless.~
 @379  = ~I don't support such behavior as it can destroy the balance that the Forest Father seeks. But I understand that sometimes violence is the only way to achieve such an objective.~
 @380  = ~The relationship between Malar and Silvanus in Faerûn is complex and marked by conflict due to their fundamental differences on how nature should be treated and perceived.~
-@381  = ~I don't like the idea of buying an animal's hide, <CHARNAME>. But I think it's the only way to complete Tabitha's ritual.~
-
+@381 = ~But... I think I have finally come to understand the God of Blood. Violence is sometimes unavoidable.~
 
 // TABITHA 1
 @382  = ~This... is getting more complicated than I expected.~
@@ -421,7 +421,7 @@ And bring her family the peace of their land.~
 @3039  = ~It's strange... Alendir is gone.~
 @3040  = ~Kitochi! Has Alendir left? Please tell me you know where he is.~
 @3041  = ~Fall, you realize you're talking to a cat wearing a ridiculous hat, right?~
-@3042    = ~¡Kitochi!~
+@3042    = ~Kitochi!~
 @3043    = ~So you know a talking cat. I'm not sure why I'm not surprised...~
 @3044    = ~Fall, would you mind sharing how this stinky feline knows about my lineage?~
 @3045    = ~<CHARNAME>, Kitochi is not an ordinary cat. He's a fey cat.~
@@ -575,17 +575,6 @@ And bring her family the peace of their land.~
 @3183    = ~*Kakuto's eyes shine upon hearing Fall's voice.*~
 @3184    = ~*Moments later, a golden light covers him and he finally disappears.*~
 @3185    = ~Goodbye, friend... I hope we meet again.~
-
-
-/*
-@3186    = ~Es buena idea. Recuerda llamar a mis invocaciones e interactuar con ellas, <CHARNAME>. Si están cerca del escarabajo, puede que obtengamos una respuesta.~
-@3187    = ~¡Hola! Eh... ¿podrías... podrías dejarnos pasar?~
-@3188    = ~Daren, ¿puedes comunicarte con el escarabajo de alguna manera?~
-@3189    = ~Sinna, ¿puedes comunicarte con el escarabajo de alguna manera?~
-@3190    = ~Quizás Voragor tenga éxito al comunicarse con el escarabajo.~
-@3191    = ~Kitochi, creo que puedes lograr comunicarte con el escarabajo, ¿no lo crees? Necesitamos que se mueva de su sitio.~
-@3192    = ~Tabitha, ¿puedes comunicarte con el escarabajo de alguna manera?~
-*/
 
 @3193    = ~It's a good idea. Remember to call on my summons and interact with them, <CHARNAME>. If they are near the beetle, we might get a response.~
 
