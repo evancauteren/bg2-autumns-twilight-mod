@@ -5713,9 +5713,12 @@ IF ~25FILE~
 
 // EET related code
 // Dusk
+
+/*
 ACTION_IF GAME_IS ~eet~ BEGIN 
   INCLUDE ~EET/other/EET_functions.tph~ 
-  LAF ~EET_NPC_TRANSITION~ 
+
+/*  LAF ~EET_NPC_TRANSITION~ 
     INT_VAR
       type = 2 
       default_ToB = 1 
@@ -5726,10 +5729,16 @@ ACTION_IF GAME_IS ~eet~ BEGIN
       override_ToB = "P_Dus25S" //Dusk ToB Override script
       dialog_ToB = "P_Dusk25" //Dusk ToB dialogue file
       cre_ToB = "P_Dusk25" //Dusk ToB CRE filename
-      string = "Bring me Dusk, the Wizard Slayer." //normally this should be reference to TRA file, but the mod is not traified
-      stringPosDV = "Cernd" //Dusk will be appended right above Cernd
-      clean_ToB_DV = "Dusk" //death variable of BG1 Dusk (see clean_ToB comment)
-	  
+      string = "Bring me Dusk, the Wizard Slayer."
+      stringPosDV = "Cernd" //Dusk will be appended right above Cernd      
+  END
+  
+  LAF ~EET_NPC_TRANSITION~ 
+    INT_VAR
+      type = 2 
+      default_ToB = 1 
+      clean_ToB = 1 
+    STR_VAR
       dv = "P_Fall" //Fall Death Variable (script name)
       override_SoA = "P_FallS" //Fall SoA Override script
       override_ToB = "P_Fal25S" //Fall ToB Override script
@@ -5737,8 +5746,14 @@ ACTION_IF GAME_IS ~eet~ BEGIN
       cre_ToB = "P_Fall25" //Fall ToB CRE filename
       string = "Bring me Fall, the Beastmaster."
       stringPosDV = "Imoen" //Fall will be appended right above Imoen
-      clean_ToB_DV = "Fall"
-	  
+  END
+  
+  LAF ~EET_NPC_TRANSITION~ 
+    INT_VAR
+      type = 2 
+      default_ToB = 1 
+      clean_ToB = 1 
+    STR_VAR
       dv = "P_Chon" //Chon Death Variable (script name)
       override_SoA = "P_ChonS" //Chon SoA Override script
       override_ToB = "P_Cho25S" //Chon ToB Override script
@@ -5746,8 +5761,14 @@ ACTION_IF GAME_IS ~eet~ BEGIN
       cre_ToB = "P_Chon25" //Chon ToB CRE filename
       string = "Bring me Cho, the Wildguard."
       stringPosDV = "Cernd" //Chon will be appended right above Cernd
-      clean_ToB_DV = "Chon"
-
+  END
+  
+  LAF ~EET_NPC_TRANSITION~ 
+    INT_VAR
+      type = 2 
+      default_ToB = 1 
+      clean_ToB = 1 
+    STR_VAR
       dv = "P_Alen" //Alen Death Variable (script name)
       override_SoA = "P_AlenS" //Alen SoA Override script
       override_ToB = "P_Ale25S" //Alen ToB Override script
@@ -5755,13 +5776,13 @@ ACTION_IF GAME_IS ~eet~ BEGIN
       cre_ToB = "P_Alen25" //Alen ToB CRE filename
       string = "Bring me Alendir, the Frostmaster."
       stringPosDV = "Anomen" //Alen will be appended right above Anomen
-      clean_ToB_DV = "Alen"
-
   END
+*/
 END ELSE BEGIN 
   COMPILE ~Autumns_Twilight/Dialogue/FATESP.d~
-END
-/*
+END */
+
+
 // Fall
 ACTION_IF GAME_IS ~eet~ BEGIN 
   INCLUDE ~EET/other/EET_functions.tph~ 
@@ -5827,4 +5848,28 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 END ELSE BEGIN 
   COMPILE ~Autumns_Twilight/Dialogue/FATESP.d~
 END
-*/
+
+// Dusk
+ACTION_IF GAME_IS ~eet~ BEGIN 
+  INCLUDE ~EET/other/EET_functions.tph~ 
+  LAF ~EET_NPC_TRANSITION~ 
+    INT_VAR
+      type = 2 
+      default_ToB = 1 
+      clean_ToB = 1 
+    STR_VAR
+      dv = "P_Dusk" //Dusk Death Variable (script name)
+      override_SoA = "P_DuskS" //Dusk SoA Override script
+      override_ToB = "P_Dus25S" //Dusk ToB Override script
+      dialog_ToB = "P_Dusk25" //Dusk ToB dialogue file
+      cre_ToB = "P_Dusk25" //Dusk ToB CRE filename
+      string = "Bring me Dusk, the Wizard Slayer."
+      stringPosDV = "Cernd" //Dusk will be appended right above Cernd
+      clean_ToB_DV = "Dusk"	  
+  END
+END ELSE BEGIN 
+  COMPILE ~Autumns_Twilight/Dialogue/FATESP.d~
+END
+
+
+    
