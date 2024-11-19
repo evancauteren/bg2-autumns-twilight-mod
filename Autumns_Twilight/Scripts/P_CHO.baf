@@ -37,6 +37,9 @@ END
 
 IF
   See(NearestEnemyOf(Myself))
+  OR (2)
+  !AreaCheck("P_FAR8")
+  !AreaCheck("P_FA10")
 THEN
   RESPONSE #100
     AttackReevaluate(NearestEnemyOf(Myself),45)
@@ -93,6 +96,9 @@ END
 IF
   See(NearestEnemyOf(Myself))
   Global("P_FHasteCho","LOCALS",0)
+   OR (2)
+  !AreaCheck("P_FAR8")
+  !AreaCheck("P_FA10")
 THEN
   RESPONSE #100
     SetGlobal("P_FHasteCho","LOCALS",1)

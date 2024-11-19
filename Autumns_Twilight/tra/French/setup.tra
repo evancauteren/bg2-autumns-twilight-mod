@@ -1364,7 +1364,7 @@ Aptitudes spéciales :
 
 - Régénération reptilienne : Cho'Nuja régénérera 1 point de vie toutes les 10 secondes.
 
-- Dégâts : 1D10 +5
+- Dégâts : 1D6 +5
 - THAC0 : +5
 - Type de dégâts de base : Tranchant
 - Facteur de vitesse : 2
@@ -1381,7 +1381,7 @@ Aptitudes spéciales :
 
 - Accélération améliorée : Chaque attaque a 20% de chances d'Accélérer le Gardien Sauvage pendant 6 secondes.
 
-- Dégâts : 1D8 +5, +2 points de dégâts tranchants
+- Dégâts : 1D4 +5, +1 points de dégâts tranchants
 - THAC0 : +5
 - Type de dégâts de base : Perforant
 - Facteur de vitesse : 0
@@ -1399,7 +1399,7 @@ Aptitudes spéciales :
 
 - Paralysie : Chaque attaque a 15% de chances d'Étourdir l'adversaire pendant 6 secondes.
 
-- Dégâts : 1D4 +5, +2 points de dégâts tranchants
+- Dégâts : 1D2 +5, +1 points de dégâts tranchants
 - THAC0 : +5
 - Type de dégâts de base : Contondant
 - Facteur de vitesse : 1
@@ -1415,9 +1415,9 @@ CARACTÉRISTIQUES :
 
 Aptitudes spéciales :
 
-- Guérison : Chaque attaque a 25% de chances de guérir Cho de 25 points de vie.
+- Guérison : Chaque attaque a 15% de chances de guérir Cho de 25 points de vie.
 
-- Dégâts : 1D4 +5
+- Dégâts : 1D2 +5
 - Dégâts acides : 1D3
 - THAC0 : +5
 - Type de dégâts de base : Perforant
@@ -1435,8 +1435,8 @@ Aptitudes spéciales :
 
 - Ralentissement : Chaque attaque a 10% de chances de ralentir l'adversaire pendant 20 secondes.
 
-- Dégâts : 1D6 +5, +1 point de dégâts perforants
-- Dégâts de froid : 1D4
+- Dégâts : 1D3 +5, +1 point de dégâts perforants
+- Dégâts de froid : 1D2
 - THAC0 : +5
 - Type de dégâts de base : Tranchant
 - Facteur de vitesse : 2
@@ -1459,7 +1459,6 @@ Aptitudes possédées :
 
 - Célérité draconienne : 1 fois par jour, Cho'Nuja pourra activer son facteur d'accélération draconienne qui durera 8 heures. Cela peut être dissipé.
 
-Classe d'armure : +1
 Classe d'armure contre les attaques de projectiles : +5
 Défense contre les dégâts de projectiles : +10%
 Poids : 0~
@@ -1472,7 +1471,6 @@ Aptitudes possédées :
 
 - Célérité draconienne : 1 fois par jour, Cho'Nuja pourra activer son facteur d'accélération draconienne qui durera 8 heures. Cela peut être dissipé.
 
-Classe d'armure : +1
 Classe d'armure contre les attaques tranchantes : +5
 Défense contre les dégâts tranchants, perforants et contondants : +10%
 Vision dans l'infrarouge
@@ -1488,7 +1486,6 @@ Poids : 0~
 
 CARACTÉRISTIQUES :
 
-Classe d'armure : +1
 Classe d'armure contre les attaques contondantes : +5
 THAC0 : +1
 
@@ -3057,7 +3054,7 @@ Compétences de Combat :
 - Poison : La victime doit réussir un jet de sauvegarde contre Mort/Poison ou subir 4 points de dégâts par seconde pendant 3 rounds.
 
 THAC0 : +6
-Dégâts : 1D10+6, +1d4 de dégâts de Poison.
+Dégâts : 1D6+6, +1d4 de dégâts de Poison.
 Type de dégâts : Perforant
 Poids : 7 lbs
 Facteur de vitesse : 0
@@ -4753,14 +4750,17 @@ Type : une main~
 @600047 = ~Cape de Minuit
 Niveau : Innée
 Portée : Le guerrier
-Durée : 3 tours
 Temps d'incantation : Immédiat
 Zone d'effet : Le guerrier
 Jet de sauvegarde : Aucun
 
 DESCRIPTION :
 
-Semblable à Invisibilité améliorée, le guerrier elfe se couvrira d'ombres et restera dans celles-ci même s'il est découvert (bien qu'il puisse être attaqué). Pendant la durée de l'effet, il obtiendra un bonus de +4 aux jets de sauvegarde et les attaques ennemies subiront une pénalité de -4. L'effet durera 3 tours. Il peut être dissipé.~
+Semblable à l'Invisibilité Améliorée, le guerrier elfe se couvre d'ombres et reste dans celles-ci même lorsqu'il est découvert (bien qu'il puisse toujours être attaqué). Pendant la durée de l'effet, il bénéficie d'un bonus de +4 aux jets de sauvegarde et les attaques ennemies subissent un malus de -4. Il peut être dissipié. Il fournira également les effets de Bénédiction tant que l'effet dure (augmentant les jets d'attaque, les dégâts et le moral). 
+Les effets dureront en fonction du niveau du lanceur : 
+Au niveau 5 : 3 tours 
+Au niveau 10 : 6 tours 
+Au niveau 15 : 10 tours~
 @600048 = ~Épée du Crépuscule~
 @600049 = ~épée du crépuscule~
 @600050 = ~ÉPÉE DU CRÉPUSCULE : les elfes guerriers tirent le meilleur parti de leur capacité raciale à maîtriser l'art de la guerre.
@@ -4773,8 +4773,11 @@ Avantages :
 - Peuvent poignarder dans le dos. Le multiplicateur sera x2 jusqu'au niveau 12, puis passera à x3.
 - Peut utiliser la Cape de Minuit tous les 5 niveaux (commence avec une utilisation au niveau 5).
 
-CAPE DE MINUIT : 
-Semblable à Invisibilité améliorée, le guerrier elfe se couvrira d'ombres et restera dans celles-ci même s'il est découvert (bien qu'il puisse être attaqué). Pendant la durée de l'effet, il obtiendra un bonus de +4 aux jets de sauvegarde et les attaques ennemies subiront une pénalité de -4. L'effet durera 3 tours. Il peut être dissipé.
+CAPE DE MINUIT: Semblable à l'Invisibilité Améliorée, le guerrier elfe se couvre d'ombres et reste dans celles-ci même lorsqu'il est découvert (bien qu'il puisse toujours être attaqué). Pendant la durée de l'effet, il bénéficie d'un bonus de +4 aux jets de sauvegarde et les attaques ennemies subissent un malus de -4. Il peut être dissipié. Il fournira également les effets de Bénédiction tant que l'effet dure (augmentant les jets d'attaque, les dégâts et le moral). 
+Les effets dureront en fonction du niveau du lanceur : 
+Au niveau 5 : 3 tours 
+Au niveau 10 : 6 tours 
+Au niveau 15 : 10 tours
 
 Inconvénients :
 
@@ -4793,60 +4796,97 @@ Inconvénients :
 Avantages :
 
 - Spécialisation maîtrisée : Frondes (peuvent mettre jusqu'à 5 points au maximum dans cette arme)
-- Obtiennent un bonus de +1 à l'attaque et +1 aux dégâts avec les armes à distance tous les 6 niveaux jusqu'au niveau 18.
-- En sélection d'attributs : Bonus à la Dextérité +1
-- Peut utiliser Tir Précis une fois par jour tous les 4 niveaux.
+- Gagne un bonus de +1 à l'attaque et +1 aux dégâts avec les armes à distance tous les 6 niveaux.
+- Sélection des Attributs : bonus de +1 à la Force et à la Dextérité.
 
-TIR PRÉCIS : Chaque attaque à distance effectuée avec succès pendant les 10 secondes suivant l'activation de cette compétence infligera des effets supplémentaires cumulatifs en plus des dégâts normaux en fonction du niveau de l'archer.
+- Les Fronde Sombre augmenteront leur vitesse d'attaque selon la progression suivante :
+ Niveau 7 : +0.5 APR et +1 au Facteur de Vitesse d'Attaque.
+ Niveau 10 : +0.5 à APR.
+ Niveau 16 : +0.5 à APR et +1 au Facteur de Vitesse d'Attaque.
+ Niveau 20 : +0.5 à APR.
 
- Niveau 4 : -1 à la CA du cible.
- Niveau 8 : -1 aux jets de sauvegarde contre les sorts de la cible.
- Niveau 12 : -1 à la Force de la cible.
- Niveau 16 : bonus +2 aux dégâts.
+- Peut utiliser la Chance du Champion une fois par jour tous les 4 niveaux.
+
+CHANCE DU CHAMPION : En activant cette capacité innée, le Fronde améliorera ses attaques à distance ainsi que ses propres capacités offensives :
+
+ Niveau 4 : -1 au THAC0 de la cible et +1 à la Chance de l'utilisateur. Durée : 10 secondes.
+ Niveau 8 : -1 aux jets de sauvegarde de la cible contre les sorts et +2 de Force pour l'utilisateur. Durée : 15 secondes.
+ Niveau 12 : -1 à la Force de la cible et +2 de Dégâts par attaque réussie. Durée : 20 secondes.
+ Niveau 16 : Un autre bonus de +2 aux dégâts et +1 à APR. Durée : 25 secondes.
 
 Inconvénients :
 
 - Doivent être des halfelins.
-- La seule arme à distance dans laquelle ils peuvent mettre des points de compétence est la fronde.
-- Bien qu'ils puissent manier des armes de corps à corps, restreintes à la classe de vol, ils ne peuvent mettre qu'1 point dans Épée Courte, Bâton et Dague.
-- Le coup de poignard dans le dos n'atteint qu'un maximum de x3 (à partir du niveau 12)
-- Ne reçoivent que 20 points par niveau à attribuer aux compétences.~
+- La seule arme à distance à laquelle ils peuvent attribuer des points de compétence est la fronde.
+- Bien qu'ils puissent manier des armes de mêlée restreintes à la classe des voleurs, ils ne peuvent attribuer qu'un point au Couteau, au Bâton et à la Dague.
+- Le multiplicateur de coup par derrière est limité à x2.
+- Ils ne gagnent que 15 points de compétence par niveau à attribuer aux compétences de voleur.~
 @600055 = ~FRONDE SOMBRE : le voleur halfelin s'est spécialisé dans l'utilisation de la fronde, sacrifiant un peu le combat rapproché et ses compétences de vol.~
 @600056 = ~Agent Hybride~
 @600057 = ~agent hybride~
-@600058 = ~AGENT HYBRIDE : Les semi-elfes sont formés à partir de leur sang hybride pour maximiser les compétences de barde et de vol.
+@600058 = ~AGENT HYBRIDE : Les demi-elfes sont formés pour exploiter leur sang hybride afin d'optimiser leurs compétences de barde et de voleur.
 
 Avantages :
 
-- En tant que compétence spéciale, ils peuvent utiliser Détecter les Pièges et Ouverture 1 fois par jour par niveau (commencent avec 1 utilisation au niveau 1).
-- Ils peuvent placer des pièges avec l'efficacité d'un voleur expert (1 fois par jour tous les 5 niveaux).
+- En tant que capacité spéciale, ils peuvent utiliser Détection des pièges et Crochetage une fois par jour et par niveau (commençant avec une utilisation au niveau 1).
+- Peuvent effectuer une attaque sournoise. Le multiplicateur est x2 jusqu'au niveau 12, puis il passe à x3.
+- Peuvent devenir invisibles : 1 utilisation tous les 6 niveaux.
+- Peuvent utiliser la Hâte améliorée comme capacité spéciale : 1 utilisation tous les 9 niveaux.
+- Ils peuvent poser des pièges avec l'expertise d'un maître voleur :
+ * Poser un piège : Une fois par jour tous les 6 niveaux.
+ * Poser un piège de confusion : Une fois par jour tous les 8 niveaux (à partir du niveau 8).
+ * Poser un piège de silence : Une fois par jour tous les 8 niveaux (à partir du niveau 8).
+
+- Chant du Barde : En plus des effets de base du Chant du Barde, le chant de l'Agent Hybride dissipera également les illusions et l'invisibilité de toutes les créatures en dehors du groupe.
 
 Inconvénients :
 
-- Doivent être semi-elfes.
-- Ne peuvent pas attribuer de points de compétence aux armes à distance à deux mains (Arc court, Arc long et Arbalète).~
+- Doivent être des demi-elfes.
+- Ne peuvent pas attribuer de points de compétence dans les armes à deux mains à distance (Arc court, Arc long et Arbalète).
+- Pénalité de résistance magique : -10%.
+- Pénalité de classe d'armure : -1~
 @600059 = ~AGENT HYBRIDE : Les semi-elfes sont formés à partir de leur sang hybride pour maximiser les compétences de barde et de vol.~
 
-@600060 = ~Marcheur des Rêves~
-@600061 = ~marcheur des rêves~
-@600062 = ~MARCHEUR DES RÊVES : Les chamans semi-orques nés avec cette capacité peuvent mélanger le monde des rêves avec le Plan Matériel.
+@600060  = ~Tisseur de Rêves~
+@600061  = ~tisseur de rêves~
+@600062  = ~TISSEUR DE RÊVES : Les chamanes demi-orques nés avec ce don sont capables de mélanger le monde des rêves avec le Plan Matériel.
 
 Avantages :
 
-- Ils peuvent lancer Voile des Rêves 1 fois par jour tous les 8 niveaux de chaman jusqu'au niveau 16 (commencent avec 1 utilisation au niveau 1).
+- Compétence : Le Tisseur de Rêves peut attribuer 2 points à chaque style de combat.
+- A accès aux sorts suivants :
 
-VOILE DES RÊVES : Le Marcheur des Rêves distord son image, rendant difficile pour ses adversaires de l'attaquer. Cette distorsion implique que toutes les attaques par projectiles et au corps à corps contre lui ont une pénalité de -3. De plus, il reçoit un bonus de +1 à tous ses jets de sauvegarde.
+ Au Niveau 1 : Sanctuaire et Commandement (niveau 1)
+ Au Niveau 3 : Sommeil (niveau 2)
+ Au Niveau 5 : Émotion : Désespoir et Mot de Pouvoir, Sommeil (niveau 3)
+ Au Niveau 7 : Grand Maléfice (niveau 4)
+ Au Niveau 9 : Grand Commandement et Invoquer Nishruu (niveau 5)
+ Au Niveau 11 : Invoquer Hakeashar et Image Projetée (niveau 6)
+ Au Niveau 13 : Simulacre (niveau 7)
 
-- Ils peuvent lancer Nuage des Rêves 1 fois par jour tous les 10 niveaux de chaman (commencent avec 1 utilisation au niveau 1).
+NOTE : L'Image Projetée et les duplicatas de Simulacre ne peuvent pas exécuter la Danse Chamanique.
 
-NUAGE DES RÊVES : Le Marcheur des Rêves lance une sorte de brume, qui a un rayon de 9 mètres. Toute créature qui s'y trouve doit réussir un jet de sauvegarde contre les sorts ou tomber inconsciente pendant 25 secondes.
+- Le Tisseur de Rêves peut se déplacer librement tout en invoquant la Danse Chamanique, faisant suivre les esprits de près jusqu'à ce qu'ils rencontrent des ennemis à combattre. Pendant cette transe, le Tisseur de Rêves peut également lancer des sorts et utiliser des capacités innées, bien que cela mette fin à la danse.
+- Les esprits du Tisseur de Rêves resteront proches même si la Danse Chamanique cesse. Ces esprits persistent environ 10 minutes, protégeant leur invocateur pour un temps au-delà de la danse elle-même. De plus, les Tisseurs de Rêves ne subissent aucune pénalité à la Classe d'Armure pendant qu'ils exécutent la Danse Chamanique.
+
+Capacités Innées:
+- Ils peuvent lancer Voile des Rêves une fois par jour tous les 4 niveaux de chaman (en commençant par 1 utilisation au niveau 1).
+
+VOILE DES RÊVES : Le Tisseur de Rêves déforme son image, rendant difficile pour les adversaires de le frapper. Cette distorsion impose un malus de -3 à toutes les attaques à projectile et de mêlée contre lui. De plus, il reçoit un bonus de +1 à tous les jets de sauvegarde. Le Voile des Rêves rend également le chaman invisible aux ennemis grâce à Sanctuaire. Même si l'ennemi peut dissiper l'invisibilité par divination, les effets défensifs de l'aptitude resteront actifs jusqu'à ce qu'ils expirent (10 minutes) ou soient dissipés avec succès.
+
+- Ils peuvent lancer Nuage des Rêves une fois par jour tous les 10 niveaux de chaman (en commençant par 1 utilisation au niveau 1).
+
+NUAGE DES RÊVES : Le Tisseur de Rêves libère une brume dans un rayon de 9 mètres. Toute créature prise dans celle-ci doit réussir un jet de sauvegarde contre les sorts ou tomber inconsciente pendant 25 secondes. Le chaman et les esprits de <PRO_HISHER> seront immunisés aux effets du Nuage des Rêves.
 
 Inconvénients :
 
-- Doivent être semi-orques.
-- Pénalité à la Charisme de -2 lors de la création du personnage.
-- Pénalité à la Classe d'Armure de 1.~
-@600063 = ~MARCHEUR DES RÊVES : Les chamans semi-orques nés avec cette capacité peuvent mélanger le monde des rêves avec le Plan Matériel.~
+- Doivent être demi-orcs.
+- La chance qu'un esprit réponde à l'appel est réduite à 50 %.
+- Leur compétence à Détecter les Illusions progresse à seulement un quart du rythme d'un chaman standard.
+- Pénalité de Charisme de -2 lors de la création du personnage.
+- Pénalité de Classe d'Armure de 1.~
+
+@600063  = ~TISSEUR DE RÊVES : Les demi-orcs chamanes nés avec ce don sont capables de mélanger le monde des rêves avec le Plan Matériel.~
 
 @600064 = ~Lame Miroir/Illusionniste~
 @600065 = ~lame miroir/illusionniste~
@@ -4894,13 +4934,13 @@ Avantages :
 
 Chaque 10 niveaux, 1 utilisation supplémentaire sera ajoutée pour chaque projectile selon le cas.
 
-Niveau 1 : Flèche explosive
-Niveau 3 : Balle explosive
-Niveau 5 : Virote explosive
-Niveau 7 : Dard explosif
-Niveau 9 : Dague explosive
-Niveau 11 : Hachette explosive
-Niveau 13 : Javelot explosif
+Niveau 1 : Flèche Explosive - Au NV 20, dégâts supplémentaires : Acide
+Niveau 3 : Balle Explosive - Au NV 20, dégâts supplémentaires : Électrique
+Niveau 5 : Carreau Explosif - Au NV 20, dégâts supplémentaires : Magique
+Niveau 7 : Dard Explosif - Au NV 20, dégâts supplémentaires : Froid
+Niveau 9 : Dague Explosive - Au NV 20, dégâts supplémentaires : Poison
+Niveau 11 : Hache de Jet Explosive - Au NV 20, dégâts supplémentaires : Contondant
+Niveau 13 : Javelot Explosif - Au NV 20, dégâts supplémentaires : Perforant
 
 Inconvénients :
 
@@ -5097,6 +5137,253 @@ Exigence : Force 3~
 @600107 = ~Cet étrange talisman ne peut pas être retiré de votre inventaire. Vous percevez un grand pouvoir et une grande malveillance en lui, presque comme s'il était maudit. Vous décidez de le laisser tranquille car il pourrait être dangereux de jouer avec lui.~
 
 @600108 = ~La malédiction de Liphix a disparu.~
+
+@600109  = ~Poser un Piège Confondant~
+@600110  = ~Poser un Piège Confondant
+Posez un piège à l'emplacement choisi lorsqu'aucune créature hostile n'est en vue. Ne peut être déclenché que par des ennemis :
+ * Inflige 4d8+5 de dégâts de projectile et confuse la cible pendant 5 rounds si elle échoue un Jet de Sauvegarde contre un Sort avec une pénalité de -1.~
+
+@600111  = ~Poser un Piège de Silence~
+@600112  = ~Poser un Piège de Silence
+Pose un piège à l'endroit choisi lorsqu'aucune créature hostile n'est en vue. Ne peut être déclenché que par des ennemis :
+ * Inflige 4d8+5 dégâts de projectile et rend la cible silencieuse pendant 5 rounds si elle échoue un Jet de Sauvegarde contre Sort avec une pénalité de -1.~
+
+@600113  = ~Champion Frondeur~
+@600114  = ~Champion Frondeur
+En activant cette capacité innée, le Frondeur améliorera ses attaques à distance ainsi que ses capacités offensives :
+* Niveau 4 : -1 au THAC0 de la cible et +1 à la Chance de l'utilisateur. Durée : 10 secondes.
+* Niveau 8 : -1 aux jets de sauvegarde contre les sorts de la cible et +2 de bonus en Force pour l'utilisateur. Durée : 15 secondes.
+* Niveau 12 : -1 à la Force de la cible et +2 aux Dégâts par attaque réussie. Durée : 20 secondes.
+* Niveau 16 : Un autre bonus de +2 aux dégâts et +1 à APR. Durée : 25 secondes.~
+
+@600115  = ~Garde du Venin~
+@600116  = ~Lobixon Cabal était un chevalier spécialisé dans le combat contre les araignées de phase. Membre des Gardiens des Champs, Lobixon menait toujours les batailles contre les arachnides qui rôdaient dans les terres de la Côte des Épées. Bien qu'il ait subi des morsures d'araignées, il semblait que leur venin ne pouvait pas pénétrer dans son sang. Finalement, les arachnides l'ont submergé et ont réussi à abattre son bouclier. C'est alors que les morsures ont eu un effet, au point que le venin a consumé son esprit. Bien qu'il ait survécu à l'attaque, Lobixon a sombré dans une folie irréparable. Le sort de son bouclier, la Garde du Venin, s'est perdu dans le temps.
+
+STATISTIQUES:
+
+Capacités en équipement:
+- Classe d'Armure : +3, un +1 supplémentaire contre les attaques à distance
+- Immunité contre le poison
+
+Requiert:
+ Force 10
+
+Poids : 10~
+
+///////////////////// PROYECTILES MEJORADOS
+
+@600117 = ~Flèche Explosive (Amélioré)~
+@600118 = ~Projectile créé par l'Artificier Nain. La flèche éclatera en une boule de feu infligeant 5d6 de dégâts de feu à toute créature se trouvant dans la zone d'effet. Si elle réussit son jet de sauvegarde, elle subira seulement la moitié des dégâts.
+
+CARACTÉRISTIQUES :
+
+Dégâts : 5d6 feu, +2d4 de dégâts d'acide
+Type de dégâts : Projectile
+Poids : 0 lbs
+Arme de projectile : Arc~
+
+@600119 = ~Balle Explosive (Amélioré)~
+@600120 = ~Projectile créé par l'Artificier Nain. La balle éclatera en une boule de feu infligeant 5d6 de dégâts de feu à toute créature se trouvant dans la zone d'effet. Si elle réussit son jet de sauvegarde, elle subira seulement la moitié des dégâts.
+
+CARACTÉRISTIQUES :
+
+Dégâts : 5d6 feu, +2d4 de dégâts électriques
+Type de dégâts : Projectile
+Poids : 0 lbs
+Arme de projectile : Fronde~
+
+@600121 = ~Virote Explosif (Amélioré)~
+@600122 = ~Projectile créé par l'Artificier Nain. Le virote éclatera en une boule de feu infligeant 5d6 de dégâts de feu à toute créature se trouvant dans la zone d'effet. Si elle réussit son jet de sauvegarde, elle subira seulement la moitié des dégâts.
+
+CARACTÉRISTIQUES :
+
+Dégâts : 5d6 feu, +2d4 de dégâts magiques
+Type de dégâts : Projectile
+Poids : 0 lbs
+Arme de projectile : Arbalète~
+
+@600123 = ~Dard Explosif (Amélioré)~
+@600124 = ~Projectile créé par l'Artificier Nain. Le dard éclatera en une boule de feu infligeant 5d6 de dégâts de feu à toute créature se trouvant dans la zone d'effet. Si elle réussit son jet de sauvegarde, elle subira seulement la moitié des dégâts.
+
+CARACTÉRISTIQUES :
+
+Dégâts : 1D3, +5d6 feu, +2d4 de dégâts de froid
+Type de dégâts : Projectile (perforant)
+Poids : 0 lbs
+Facteur de Vitesse : 0
+Talent Martial : Dard
+Type d'arme : À une main~
+
+@600125 = ~Dague Explosive (Amélioré)~
+@600126 = ~Projectile créé par l'Artificier Nain. La dague éclatera en une boule de feu infligeant 5d6 de dégâts de feu à toute créature se trouvant dans la zone d'effet. Si elle réussit son jet de sauvegarde, elle subira seulement la moitié des dégâts.
+
+STATISTIQUES :
+
+Dégâts : 1D6, +5d6 feu, +2d4 de dégâts de poison
+Type de dégâts : Projectile (perforant)
+Poids : 0 lbs
+Facteur de Vitesse : 0
+Talent Martial : Dague
+Type d'arme : À une main
+Exigence : Force 3~
+
+
+@600127 = ~Hache Explosive (Amélioré)~
+@600128 = ~Projectile créé par l'Artificier Nain. La hache éclatera en une boule de feu infligeant 5d6 de dégâts de feu à toute créature se trouvant dans la zone d'effet. Si elle réussit son jet de sauvegarde, elle subira seulement la moitié des dégâts.
+
+CARACTÉRISTIQUES :
+
+Dégâts : 1D6, +5d6 feu, +2d4 de dégâts contondants
+Type de dégâts : Projectile (perforant)
+Poids : 5 lbs
+Facteur de Vitesse : 1
+Talent Martial : Hache
+Type d'arme : À une main
+Exigence : Force 10~
+
+@600129 = ~Javelot Explosif (Amélioré)~
+@600130 = ~Projectile créé par l'Artificier Nain. La javelot éclatera en une boule de feu infligeant 5d6 de dégâts de feu à toute créature se trouvant dans la zone d'effet. Si elle réussit son jet de sauvegarde, elle subira seulement la moitié des dégâts.
+
+CARACTÉRISTIQUES :
+
+Dégâts : 1D6, +5d6 feu, +2d4 de dégâts perforants
+Type de dégâts : Projectile (perforant)
+Poids : 5 lbs
+Facteur de Vitesse : 2
+Talent Martial : Lance
+Type d'arme : À une main
+Exigence : Force 5~
+
+
+////// NEW Items
+
+@600131  = ~Breuvage Purifiant~
+@600132  = ~Lorsqu’il est consommé, cette potion restaure 40 points de vie à celui qui la boit et guérit tous les poisons et maladies ; elle offre ensuite une protection contre toutes les formes de poison, qu’il soit naturel ou magique. L’effet est instantané et la potion est détruite dans le processus.
+
+STATISTIQUES :
+
+Spécial : Restaure 40 points de vie, guérit le poison et les maladies, et
+confère une immunité contre le poison pour 6 heures.
+
+Poids : 1~
+
+@600133  = ~Vitesse du Faucon~
+@600134  = ~Vitesse du Faucon
+(Altération)
+
+Niveau : Innée
+Durée : Spéciale
+Temps d’Incantation : 1
+Zone d’Effet : Lanceur
+Jet de Sauvegarde : Aucun
+
+Fall peut canaliser sa vitesse et sa précision pour doubler sa vitesse de déplacement et ses attaques, gagnant un bonus de +2 à l'initiative.
+
+Progression de la Durée :
+
+- Niveau 1 : 1,5 tour
+- Niveau 10 : 3 tours
+- Niveau 15 : 6 tours~
+
+@600135  = ~Invocation de Scarabée~
+@600136  = ~Invocation de Scarabée
+(Invocation)
+
+Niveau : 1
+Sphère : Animal
+Portée : Ligne de vue du lanceur
+Durée : 8 heures
+Temps d’Incantation : 7
+Jet de Sauvegarde : Aucun
+
+DESCRIPTION :
+
+Ce sort permet au rôdeur d’invoquer un petit insecte et de l’agrandir ensuite à une taille gigantesque, le transformant en un allié redoutable. Le scarabée conserve ses capacités innées et apporte un soutien en combat, obéissant aux ordres du rôdeur pendant toute la durée du sort.~
+
+@600137  = ~Scarabée Noir~
+
+@600138  = ~Bénédiction du Tireur d'Élite~
+@600139  = ~Bénédiction du Tireur d'Élite
+(Invocation)
+
+Niveau : 2
+Sphère : Toutes
+Portée : 0
+Durée : Spéciale
+Temps d’Incantation : 3
+Zone d’Effet : Le rôdeur
+Jet de Sauvegarde : Aucun
+
+DESCRIPTION :
+
+Ce sort, une technique élaborée par le père de Fall, Gerwulf, lui accorde une concentration et une précision inégalées au combat. Lorsqu'il est invoqué, le moral et la confiance de Fall augmentent, lui conférant un bonus de +1 aux jets d’attaque et de dégâts, ainsi qu'un bonus de +2 à THAC0 spécifiquement avec les armes à distance.
+
+La durée évolue avec le niveau de Fall :
+
+Au niveau 1 : 1 heure
+Au niveau 10 : 2 heures
+Au niveau 15 : 3 heures~
+
+@600140  = ~Flèches Arcanes d'Evereska~
+@600141  = ~Flèches Arcanes d'Evereska
+(Invocation)
+
+Niveau: 3
+Portée: 0
+Durée: Spéciale
+Temps d'Incantation: 6
+Zone d'Effet: Le rôdeur
+Jet de Sauvegarde: Aucun
+
+DESCRIPTION:
+
+Ce sort, conçu par la mère de Fall—une sorcière d'Evereska—invoque une poignée de flèches enchantées pour arbalète. Chaque flèche brille faiblement d'une énergie arcanique, infligeant des dégâts magiques puissants à leurs cibles. Lorsqu'elles sont tirées, ces flèches infligent 1d4 points de dégâts magiques et accordent un bonus de +5 aux jets d'attaque, les rendant à la fois puissantes et précises.
+
+Le nombre de flèches créées augmente avec le niveau de Fall :
+
+Niveau 1 : 5 flèches
+Niveau 10 : 10 flèches
+Niveau 15 : 15 flèches~
+
+@600142  = ~Flèches Arcanes~
+@600143  = ~Ces flèches pour arbalète, créées par le sort de Fall, sont imprégnées de pouvoir arcanique, améliorant leur précision et infligeant des dégâts supplémentaires imprégnés de magie aux cibles.
+
+STATISTIQUES :
+
+THAC0 : +5
+Dégâts : 1d8 (projectile), +1d4 de dégâts magiques
+Arme : Arbalète
+
+Poids : 0~
+
+@600144  = ~Perforateur de Vermine~
+@600145  = ~Sylvaris Thornwood était une éclaireuse elfique des bois de Cormanthor. Elle mena d'innombrables raids contre les araignées qui envahissaient les forêts elfes, et son arme signature était cette arbalète. Pendant des décennies, elle a tenu les arachnides dangereux à distance, apparemment protégée contre leurs attaques de toiles. Comment un tel artefact est arrivé à Dreach-naga demeure un mystère que tu ne peux résoudre. Seuls les éclaireurs peuvent l'utiliser.
+
+STATISTIQUES:
+
+Compétences possédées:
+
+- Immunité à l'immobilisation et à la paralysie
+- Immunité aux toiles
+
+Compétences de combat:
+- L'arbalète tire des carreaux magiques si aucune munition n'est équipée
+- Les araignées doivent réussir un jet de sauvegarde contre la Mort à -4 ou être complètement détruites
+
+THAC0: +4
+Dégâts: 1d8+4, +1 dégâts magiques
+Facteur de vitesse: 0
+Type de compétence: Arbalète
+Type: Deux mains
+Nécessite:
+ 8 Force
+
+Poids: 4~
+@600146  = ~The orb... I couldn't concentrate due to the sudden combat... I have failed to call our allies! We must handle this on our own, <CHARNAME>.~
+@600147  = ~Update V1.1 - Fall learns a new innate ability, and 3 spells are added to her Ranger spellbook.~
+@600148  = ~Spider destroyed~
+
+
 
 // Alendir
 @700000 = ~Suis-je revenu... à la vie ?~ [p_aleni]
@@ -7788,6 +8075,15 @@ un rat amoureux, éternel amoureux.'~
 @9722028  = ~Souviens-toi de notre première conversation, petite. Ton enfance. Ton père. Les araignées. La nature.~
 @9722029  = ~Tout s'est produit pour une raison. Mais ne désespère pas, chère. Tant que tu es aux côtés de tes amis, tu es en sécurité.~
 @9722030  = ~Je comprends. Merci, Bellfame. C'est un soulagement de parler avec toi.~
+
+@9723254  = ~Mon petit ami, Michelson, a mentionné quelque chose sur une altération du temps. Je ne pensais pas qu'une telle chose était possible.~
+@9723255  = ~Le monde de la magie a la capacité d'altérer le temps et l'espace.~
+@9723256  = ~Lors de mon affrontement contre le détachement de Kartlzer, ma magie druidique a heurté la magie arcane de son sorcier.~
+@9723257  = ~L'anneau que ton groupe possède maintenant a été le conducteur de cet événement... Je ne crois pas pouvoir expliquer concrètement ce qui s'est passé...~
+@9723258  = ~Eh bien... quoi qu'il en soit, ton histoire dans la Forêt de Mir n'est pas encore arrivée. Cela me trouble...~
+@9723259  = ~Tu n'as pas besoin de comprendre tout ce qui t'entoure, mortel. Parfois, les choses... se produisent simplement.~
+@9723261  = ~C'est vrai que je suis un mortel, nymphe... mais mes amis m'appellent Dusk. Toi aussi, tu peux le faire.~
+
 
 // P_ALABAR
 @9730    = ~*grognement* Ça a fonctionné...~

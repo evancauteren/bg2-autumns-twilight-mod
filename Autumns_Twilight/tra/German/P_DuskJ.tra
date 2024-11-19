@@ -319,60 +319,63 @@ ahnungslos über die Tragödie, die ihn bald treffen würde...“~
 
 // **********************************************
 // t5 - P_Dusk_T5 GLOBAL 10
-@538  = ~<CHARNAME>, będę kontynuować swoją opowieść. Czy pamiętasz, co było ostatnią rzeczą, którą opowiedziałem?~
+@538  = ~<CHARNAME>, ich werde meine Geschichte fortsetzen. Erinnerst du dich, was das Letzte war, das ich erzählt habe?~
 
-@224  = ~Czy masz ochotę mnie posłuchać, <CHARNAME>? Mogę zacząć tam, gdzie ostatnio skończyliśmy.~
+@224  = ~Bist du in der Stimmung, mir zuzuhören, <CHARNAME>? Ich kann da weitermachen, wo wir letztes Mal aufgehört haben.~
 
-@225  = ~Czy masz na myśli to, że byłeś zauroczony leśną elfką? Nic bym nie chciał usłyszeć więcej.~
-@226  = ~Kontynuować historię o leśnej dziewczynie, która uratowała ci skórę? Pewnie, Dusk.~
+@225  = ~Sprichst du davon, dass du in eine Waldelfe verliebt warst? Es gibt nichts, das ich lieber hören würde.~
+@226  = ~Setzt du die Geschichte fort, in der ein Waldmädchen deinen Hintern gerettet hat? Klar doch, Dusk.~
+//Diese zwei gehen zu 229
 
-@227  = ~Myślę, że mówiłeś o swoim pobycie w Shilmista, prawda?~
-@228  = ~Może innym razem, Dusk. Mamy teraz ważniejsze sprawy do załatwienia.~
+// Gehe zu 230
+@227  = ~Ich glaube, du hast von deinem Aufenthalt in Shilmista gesprochen, oder?~
+// Gehe zu 203 und beende (t4)
+@228  = ~Vielleicht ein anderes Mal, Dusk. Wir haben jetzt Wichtigeres zu tun.~
 
-@229  = ~*kaszląc* Myślę, że nie mogę zaprzeczyć temu złośliwemu komentarzowi, mój drogi przyjacielu. Ale w każdym razie...~
+@229  = ~*hustet* Ich denke, ich kann diesen ironischen Kommentar nicht abstreiten, mein lieber Freund. Aber, wie auch immer...~
 
-@230  = ~To prawda... po wymianie historii, Celine i ja poznaliśmy się lepiej.~
-@231  = ~Była bardzo zainteresowana moim dzieciństwem, moją rodziną, moją ojczyzną. Zadawała mi wiele pytań o metody walki rycerzy z Zakonu Purpurowego Smoka i o moich poległych towarzyszy w bitwie.~
-@232  = ~Sama miała duże doświadczenie w walce z orkami, trollami, a nawet stworzeniami z innych wymiarów, takimi jak demony.~
-@233  = ~Na pierwszy rzut oka Celine mogłaby uchodzić za delikatną elfkę. Smukła, mała... ale lekceważenie jej mogłoby się skończyć śmiercią.~
-@234  = ~Była niezwykle zwinna i biegła w użyciu łuku i strzały. W walce wręcz doskonale radziła sobie z użyciem mieczy długich, scymitarów, a nawet sztyletów, w zależności od sytuacji.~
-@235  = ~Jej infravizja pozwalała jej obserwować duże odległości w lesie, a zawsze ostrzegała swoich towarzyszy, gdy coś było nie tak.~
-@236  = ~Mówię ci, <CHARNAME>, gdybyś ją spotkał, polubiłbyś ją. Była niemal tak uparta jak ty.~
+@230  = ~Richtig... nach einem Austausch von Geschichten lernten Celine und ich uns besser kennen.~
+@231  = ~Sie war sehr interessiert an meiner Kindheit, meiner Familie, meinem Heimatland. Sie stellte mir viele Fragen über die Kampfmethoden der Ritter des Ordens des Purpurnen Drachen und über meine gefallenen Kameraden im Kampf.~
+@232  = ~Sie selbst hatte umfassende Erfahrung im Kampf gegen Orks, Trolle und sogar Kreaturen aus anderen Ebenen, wie Dämonen.~
+@233  = ~Auf den ersten Blick könnte Celine wie eine zerbrechliche Elfe wirken. Schlank, klein... aber sie zu unterschätzen, könnte den Tod bedeuten.~
+@234  = ~Sie war äußerst agil und geschickt im Umgang mit Bogen und Pfeil. Im Nahkampf war sie ausgezeichnet im Umgang mit Langschwertern und Krummsäbeln, sogar Dolchen, je nach Situation.~
+@235  = ~Ihre Infravision erlaubte ihr, große Entfernungen im Wald zu überwachen, und sie warnte ihre Kameraden immer, wenn etwas nicht stimmte.~
+@236  = ~Ich sage dir, <CHARNAME>, wenn du sie getroffen hättest, hättest du sie gemocht. Sie war fast so stur wie du.~
 
-@237  = ~Naprawdę? Nikt nie jest bardziej uparty ode mnie, Dusk.~
-@238  = ~Jestem tego pewien, mój przyjacielu. Wędrowiec zawsze jest przydatny w drużynie przygód.~
+@237  = ~Wirklich? Niemand ist sturer als ich, Dusk.~
+@238  = ~Da bin ich mir sicher, mein Freund. Ein Waldläufer ist immer nützlich in einer Abenteurergruppe.~
 
-@239  = ~*uśmiechając się* To prawda...~
-@240  = ~Kontynuując moją opowieść, doszedłem do momentu, w którym powiedziałem jej o mojej misji w Tethyr. I zdecydowała, że nadszedł czas, aby poznać elfią plemię Shilmista.~
-@241  = ~Szczerze mówiąc... nie spodziewałem się spotkać ich illustriusza króla... dzikiego elfa Elberetha.~
+@239  = ~*lächelt* Es stimmt...~
+@240  = ~Um meine Geschichte fortzusetzen, erzählte ich ihr von meiner Mission in Tethyr. Und sie entschied, dass es an der Zeit war, dass ich den Elfenstamm von Shilmista kennenlerne.~
+@241  = ~Um die Wahrheit zu sagen... ich hatte nicht erwartet, ihrem berühmten König zu begegnen... dem wilden Elfen Elbereth.~
 
-@242  = ~Nie mów mi, że spotkałeś elfią króla, Dusk. To brzmi nieco niewiarygodnie.~
-@243  = ~Słyszałem o Elberethie. Był bohaterem wojennym, jak rozumiem. Miałeś szczęście.~
-@244  = ~Rzeczywiście... prawie bym się posikał w twoich butach, Dusk. W końcu właśnie sprowadziłeś inwazję trolli do jego lasu. Wyobrażam sobie, że nie było to ciepłe powitanie.~
+@242  = ~Sag nicht, dass du einen Elfenkönig getroffen hast, Dusk. Das klingt ein wenig unglaubwürdig.~
+@243  = ~Ich habe von Elbereth gehört. Er war ein Kriegsheld, soweit ich weiß. Du hattest Glück.~
+@244  = ~In der Tat... ich hätte mir fast in die Hose gemacht, wenn ich an deiner Stelle gewesen wäre, Dusk. Schließlich hattest du gerade eine Trollinvasion in seinen Wald gebracht. Ich stelle mir vor, dass es kein herzliches Willkommen war.~
 
-@245  = ~Cóż... tak... muszę przyznać, że szczęście było po mojej stronie... chociaż bardziej niż szczęście, to była Celine.~
-@246  = ~Przedstawiła mnie i, chociaż spodziewałem się zimnego przyjęcia od ich króla, szczerze mówiąc, zostałem dobrze przyjęty. Ponownie, Celine musiała wstawić się za mną.~
-@247  = ~Czułem ciekawski wzrok wielu elfów, którzy, ku mojemu zaskoczeniu, nie byli zdziwieni, widząc człowieka wśród nich.~
-@248  = ~Król Elbereth powiedział mi, że kilka lat temu był z nimi ludzki kapłan, więc już nie było tak dziwnie widzieć nas w ich lasach.~
-@249  = ~Nie zwracał zbytniej uwagi na szczegóły, ponieważ bardziej interesowało go to, co miałem do powiedzenia.~
-@250  = ~Więc natychmiast zaczynałem swoją opowieść; dlaczego Cormyr był zainteresowany uniknięciem wojny na południu.~
-@251  = ~Na moje szczęście, Elbereth zrozumiał moją sytuację. Chociaż odmówił udzielenia mi bezpośredniej pomocy. Powiedział, że jeśli plan Cormyru zawiedzie, a na dodatek Shilmista weźmie w tym udział, będą zaangażowani w krwawą wojnę z ludźmi.~
-@252  = ~Szczerze mówiąc, byłem nieco rozczarowany, słysząc to. Jednak Celine znów interweniowała. Powiedziała, że zaoferuje mi towarzyszenie. Ufała, że razem możemy uniknąć niepotrzebnej wojny.~
-@253  = ~Elbereth nie sprzeciwił się jej. Podejrzewałem, że pomimo jego monarszej pozycji, nie będzie w stanie odwieść upornej Celine. Więc w końcu zgodził się.~
-@254  = ~Dodatkowo Elbereth zaoferował naprawę mojego miecza, tego, który został pierwotnie wykuty w Cormyrze, a także wzmocnienie mojej laski, tej, którą odziedziczyłem po rodzinie Aldantów.~
-@255  = ~Naprawili także moją kolczugę, chociaż nie przywrócili emblemu Purpurowego Smoka; zamiast tego zostawili na niej kilka elfickich symboli, a kolor mojego ludu pozostał: rodzaj połączenia obu narodów.~
-@256  = ~W tym momencie poczułem dumę. W pewien sposób zostałem zaakceptowany wśród elfów.~
-@257  = ~I wtedy, następnego ranka, Celine i ja wyruszyliśmy w stronę Tethyr.~
-@258  = ~Niewiele wiedziałem o trudnościach, które czekały na nas po drodze... chociaż... chociaż nie wszystko było złe. W końcu... ona była ze mną... zawsze...~
-@259  = ~Myślę... myślę, że powinienem tu skończyć, <CHARNAME>. Lepiej będzie, jeśli kontynuujemy.~
+@245  = ~Nun... ja... ich muss zugeben, dass ich Glück hatte... obwohl es mehr Celine als Glück war.~
+@246  = ~Sie stellte mich vor, und obwohl ich ehrlich gesagt eine kühle Begrüßung vom König erwartete, wurde ich gut empfangen. Wieder einmal muss Celine für mich eingetreten sein.~
+@247  = ~Ich spürte die neugierigen Blicke vieler Elfen, die, zu meiner Überraschung, nicht erstaunt waren, einen Menschen unter ihnen zu sehen.~
+@248  = ~König Elbereth erzählte mir, dass vor ein paar Jahren ein menschlicher Kleriker bei ihnen war, daher war es nicht mehr so ungewöhnlich, uns in ihren Wäldern zu sehen.~
+@249  = ~Er legte nicht viel Wert auf Details, da er mehr daran interessiert war, was ich zu erzählen hatte.~
+@250  = ~Also begann ich sofort mit meiner Geschichte; warum Cormyr daran interessiert war, einen Krieg im Süden zu vermeiden.~
+@251  = ~Zu meinem Glück verstand Elbereth meine Situation. Obwohl er sich weigerte, mir direkte Hilfe zu leisten. Er sagte, wenn Cormyrs Plan scheitern würde und Shilmista dabei war, wären sie in einen blutigen Krieg gegen die Menschen verwickelt.~
+@252  = ~Ehrlich gesagt, war ich etwas enttäuscht, das zu hören. Doch Celine griff wieder ein. Sie sagte, dass sie anbot, mich zu begleiten. Sie vertraute darauf, dass wir zusammen einen unnötigen Krieg verhindern könnten.~
+@253  = ~Elbereth widersprach ihr nicht. Ich vermutete, dass er trotz seiner monarchischen Stellung nicht in der Lage sein würde, die sture Celine zu überzeugen. Also stimmte er schließlich zu.~
+@254  = ~Außerdem bot Elbereth an, mein Schwert zu reparieren, das ursprünglich in Cormyr geschmiedet wurde, und auch meinen Stab zu verstärken, den ich von meiner Familie Aldant geerbt hatte.~
+@255  = ~Sie reparierten auch mein Kettenhemd, obwohl sie das Emblem des Purpurnen Drachen nicht wiederherstellten; stattdessen hinterließen sie einige elfische Symbole darauf, und die Farbe des Ordens meines Volkes blieb: eine Art Kombination beider Nationen.~
+@256  = ~In diesem Moment fühlte ich mich stolz. In gewisser Weise war ich unter den Elfen akzeptiert worden.~
+@257  = ~Und so brachen Celine und ich am nächsten Morgen nach Tethyr auf.~
+@258  = ~Ich wusste wenig über die Schwierigkeiten, die uns auf dem Weg erwarteten... obwohl... obwohl nicht alles schlecht war. Schließlich... sie war bei mir... immer...~
+@259  = ~Ich glaube... ich glaube, ich sollte hier aufhören, <CHARNAME>. Es wäre besser, wenn wir fortfahren.~
 
-@539  = ~Celine była tą, która interweniowała, żebym mógł spotkać tę... osobistość.~
-@540  = ~Chociaż spodziewałem się zimnego przyjęcia od Elberetha, szczerze mówiąc, wszystko było akceptowalne.~
-@541  = ~Król elfów opowiedział, że kilka lat temu był z nimi ludzki kapłan, więc już nie było tak dziwnie widzieć nas w ich lasach.~
-@542  = ~Szczerze mówiąc, byłem rozczarowany elfami... Poza Celine. Znów interweniowała. Powiedziała, że zaoferuje mi towarzyszenie. Ufała, że razem możemy uniknąć niepotrzebnej wojny.~
-@543  = ~W tym momencie poczułem dumę. Bycie zaakceptowanym wśród elfów było powodem... byłem głupcem. Ale to teraz nie ma znaczenia...~
-@544  = ~Następnego ranka Celine i ja wyruszyliśmy w stronę Tethyr.~
-@545  = ~To wszystko na dzisiaj, <CHARNAME>. Lepiej będzie, jeśli kontynuujemy naszą podróż.~
+@539  = ~Celine war diejenige, die dafür sorgte, dass ich diese... Berühmtheit treffen konnte.~
+@540  = ~Obwohl ich eine kühle Begrüßung von Elbereth erwartet hatte, war, um ehrlich zu sein, alles akzeptabel.~
+@541  = ~Der Elfenkönig erzählte, dass vor ein paar Jahren ein menschlicher Kleriker bei ihnen war, daher war es nicht mehr so ungewöhnlich, uns in ihren Wäldern zu sehen.~
+@542  = ~Ehrlich gesagt, war ich von den Elfen enttäuscht... Außer von Celine. Sie griff wieder ein. Sie sagte, dass sie anbot, mich zu begleiten. Sie vertraute darauf, dass wir zusammen einen unnötigen Krieg verhindern könnten.~
+@543  = ~In diesem Moment fühlte ich mich stolz. Akzeptiert zu werden unter den Elfen war der Grund... Ich war ein Narr. Aber das spielt jetzt keine Rolle...~
+@544  = ~Am nächsten Morgen brachen Celine und ich nach Tethyr auf.~
+@545  = ~Das ist alles für heute, <CHARNAME>. Es wäre besser, wenn wir unsere Reise fortsetzen.~
 
 // **********************************************
 // t6 - P_Dusk_T6 GLOBAL 12

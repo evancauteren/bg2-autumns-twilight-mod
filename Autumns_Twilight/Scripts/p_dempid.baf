@@ -31,15 +31,6 @@ THEN
 END
 
 IF
-  See([ANYONE])
-  Global("hostile","LOCALS",0)
-THEN
-  RESPONSE #100
-    SetGlobal("hostile","LOCALS",1)
-    Enemy()
-END
-
-IF
   See(NearestEnemyOf(Myself))
   Global("PITFEAR","LOCALS",0)
 THEN

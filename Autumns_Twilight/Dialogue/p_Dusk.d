@@ -18,7 +18,6 @@ END
 ++ @93520007 /* Quizás más tarde, Dusk. Ahora debo atender otros asuntos. */  EXTERN P_Dusk b1.2
 
 CHAIN P_Dusk b1.3
-
 @93520009 /* Soy un guerrero, hábil con el bastón y la espada bastarda. He tenido un entrenamiento especial en la lucha contra los lanzadores de hechizos. Creo que alguien así puede serte útil en tu búsqueda, <CHARNAME>. */
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @93520010 /* <CHARNAME>, Boo y yo opinamos que el guerrero del bastón nos acompañe, parece ser que tiene sed de justicia, ¡justo como nosotros! */
 == JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @93520011 /* Pues, no sé si nos será útil o no, <CHARNAME>, dejo que eso sea a tu criterio. Lo único que me interesa es perseguir a Irenicus y vengar a Khalid. */

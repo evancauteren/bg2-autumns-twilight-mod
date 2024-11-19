@@ -1369,7 +1369,7 @@ Aptitudes especiales:
 
 - Regeneración reptiliana: Cho'Nuja regenerará 1 punto de golpe cada 10 segundos.
 
-- Daño: 1D10 +5
+- Daño: 1D6 +5
 - THAC0: +5
 - Tipo de daño base: Cortante
 - Factor de velocidad: 2
@@ -1387,7 +1387,7 @@ Aptitudes especiales:
 
 - Aceleración mejorada: Cada ataque tiene un %20 de chances de Acelerar al Guardián Salvaje durante 6 segundos.
 
-- Daño: 1D8 +5, +2 puntos de daño cortante
+- Daño: 1D4 +5, +1 puntos de daño cortante
 - THAC0: +5
 - Tipo de daño base: Perforante
 - Factor de velocidad: 0
@@ -1405,7 +1405,7 @@ Aptitudes especiales:
 
 - Parálisis: Cada ataque tiene un %15 de chances de Aturdir al oponente durante 6 segundos.
 
-- Daño: 1D4 +5, +2 puntos de daño cortante
+- Daño: 1D2 +5, +1 puntos de daño cortante
 - THAC0: +5
 - Tipo de daño base: Contundente
 - Factor de velocidad: 1
@@ -1421,9 +1421,9 @@ CARACTERÍSTICAS:
 
 Aptitudes especiales:
 
-- Curación: Cada ataque tiene un %25 de chances de curar a Cho por 25 puntos de golpe.
+- Curación: Cada ataque tiene un %15 de chances de curar a Cho por 25 puntos de golpe.
 
-- Daño: 1D4 +5
+- Daño: 1D2 +5
 - Daño ácido: 1D3
 - THAC0: +5
 - Tipo de daño base: Perforante
@@ -1442,8 +1442,8 @@ Aptitudes especiales:
 
 - Lentificación: Cada ataque tiene un %10 de chances de ralentizar al oponente durante 20 segundos.
 
-- Daño: 1D6 +5, +1 punto de daño perforante
-- Daño gélido: 1D4
+- Daño: 1D3 +5, +1 punto de daño perforante
+- Daño gélido: 1D2
 - THAC0: +5
 - Tipo de daño base: Cortante
 - Factor de velocidad: 2
@@ -1468,7 +1468,6 @@ Aptitudes poseídas:
 
 - Celeridad draconiana: 1 vez al día, Cho'Nuja podrá activar su factor de aceleración draconiana la cual tendrá una extensa duración de 8 horas. La misma puede ser disipada.
 
-Clase de armadura: +1
 Clase de armadura contra ataques de proyectiles: +5
 Defensa contra el daño de proyectiles: +%10
 Peso: 0~
@@ -1481,7 +1480,6 @@ Aptitudes poseídas:
 
 - Celeridad draconiana: 1 vez al día, Cho'Nuja podrá activar su factor de aceleración draconiana la cual tendrá una extensa duración de 8 horas. La misma puede ser disipada.
 
-Clase de armadura: +1
 Clase de armadura contra ataques cortantes: +5
 Defensa contra el daño cortante, perforante y contundente: +%10
 Infravisión
@@ -1497,7 +1495,6 @@ Peso: 0~
 
 CARACTERÍSTICAS:
 
-Clase de armadura: +1
 Clase de armadura contra ataques contundentes: +5
 THAC0: +1
 
@@ -3101,7 +3098,7 @@ Aptitudes de Combate:
 - Veneno: La víctima debe superar una tirada de salvación contra Muerte/Veneno o sufrir 4 puntos de daño por segundo durante 3 asaltos.
 
 THAC0: +6
-Daño: 1D10+6, +1d4 por daño de Veneno.
+Daño: 1D6+6, +1d4 por daño de Veneno.
 Tipo de daño: Perforante
 Peso: 7 lbs
 Factor de velocidad: 0
@@ -4842,14 +4839,16 @@ Tipo: una mano~
 @600047  = ~Capa de la Medianoche
 Nivel: Innato
 Alcance: El guerrero
-Duración: 3 turnos
 Tiempo de lanzamiento: Inmediato
 Área de efecto: El guerrero
 Tirada de salvación: Ninguna
 
 DESCRIPCIÓN:
 
-Similar a Invisibilidad mejorada, el guerrero elfo se cubrirá de sombras y se mantendrá en ellas pese a ser descubierto (aunque podrá ser atacado). Mientras dure el efecto, obtendrá una bonificación a las tiradas de salvación por +4 y los ataques enemigos tendrán una penalización de -4. El efecto se mantendrá durante 3 turnos. Puede ser disipada.~
+Similar a la Invisibilidad Mejorada, el guerrero élfico se envolverá en sombras y permanecerá en ellas incluso cuando sea descubierto (aunque aún puede ser atacado). Mientras dure el efecto, obtiene un bono de +4 a las tiradas de salvación y los ataques enemigos sufren una penalización de -4. Puede ser disipado. También proporcionará los efectos de Bendición mientras dure el efecto (aumentando las tiradas de ataque, el daño y la moral). Los efectos durarán dependiendo del nivel del lanzador: 
+A nivel 5: 3 turnos 
+A nivel 10: 6 turnos 
+A nivel 15: 10 turnos~
 @600048  = ~Espada del Crepúsculo~
 @600049  = ~espada del crepúsculo~
 @600050  = ~ESPADA DEL CREPÚSCULO: los elfos guerreros sacan el máximo provecho de su capacidad racial para dominar el arte de la guerra.
@@ -4862,9 +4861,10 @@ Ventajas:
 - Pueden apuñalar por la espalda. El multiplicador será x2 hasta nivel 12 que pasará a x3.
 - Puede utilizar Capa de la Medianoche cada 5 niveles (empiezan con un uso en nivel 5).
 
-CAPA DE LA MEDIANOCHE: 
-Similar a Invisibilidad mejorada, el guerrero elfo se cubrirá de sombras y se mantendrá en ellas pese a ser descubierto (aunque podrá ser atacado). Mientras dure el efecto, obtendrá una bonificación a las tiradas de salvación por +4 y los ataques enemigos tendrán una penalización de -4. El efecto se mantendrá durante 3 turnos. Puede ser disipada.
-
+CAPA DE LA MEDIANOCHE: Similar a la Invisibilidad Mejorada, el guerrero élfico se envolverá en sombras y permanecerá en ellas incluso cuando sea descubierto (aunque aún puede ser atacado). Mientras dure el efecto, obtiene un bono de +4 a las tiradas de salvación y los ataques enemigos sufren una penalización de -4. Puede ser disipado. También proporcionará los efectos de Bendición mientras dure el efecto (aumentando las tiradas de ataque, el daño y la moral). Los efectos durarán dependiendo del nivel del lanzador: 
+A nivel 5: 3 turnos 
+A nivel 10: 6 turnos 
+A nivel 15: 10 turnos
 
 Desventajas:
 
@@ -4883,24 +4883,31 @@ Desventajas:
 Ventajas:
 
 - Especialización maestra: Hondas (pueden poner hasta 5 puntos como máximo en esa arma)
-- Obtienen una bonificación de +1 al ataque y +1 al daño con armas a distancias cada 6 niveles hasta nivel 18.
-- En la selección de atributos: Bonificación a la Destreza +1
-- Puede utilizar Tiro Certero una vez al día cada 4 niveles.
+- Gana un bono de +1 a ataque y +1 a daño con armas a distancia cada 6 niveles.
+- Selección de Atributos: +1 bono a Fuerza y Destreza.
 
-TIRO CERTERO: Todo ataque a distancia efectuado con éxito durante los 10 segundos siguientes a la activación de esta habilidad causará efectos adicionales acumulativos además del daño normal en función del nivel del arquero.
+- Los Honderos Sombríos escalarán sus velocidades de ataque con la siguiente progresión:
+ Nivel 7: +0.5 a APR y +1 al Factor de Velocidad de Ataque.
+ Nivel 10: +0.5 a APR.
+ Nivel 16: +0.5 a APR y +1 al Factor de Velocidad de Ataque.
+ Nivel 20: +0.5 a APR.
 
- Nivel 4: -1 al GAC0 del objetivo.
- Nivel 8: -1 a las tiradas de salvación contra conjuro del objetivo.
- Nivel 12: -1 a la Fuerza del objetivo.
- Nivel 16: bonificación +2 al daño.
+- Puede usar la Suerte del Campeón una vez al día cada 4 niveles.
+
+SUERTE DEL CAMPEÓN: Al activar esta habilidad innata, el Hondero mejorará sus ataques a distancia, así como sus propias capacidades ofensivas:
+
+ Nivel 4: -1 al THAC0 del objetivo y +1 a la Suerte del usuario. Duración: 10 segundos.
+ Nivel 8: -1 a las tiradas de salvación del objetivo contra hechizos y +2 de bono a Fuerza para el usuario. Duración: 15 segundos.
+ Nivel 12: -1 a la Fuerza del objetivo y +2 de Daño por ataque exitoso. Duración: 20 segundos.
+ Nivel 16: Otro bono de +2 al daño y +1 a APR. Duración: 25 segundos.
 
 Desventajas:
 
 - Deben ser medianos.
-- La única arma a distancia que pueden poner puntos de proficiencia es la honda.
-- Si bien pueden blandir armas cuerpo a cuerpo, restringidas a la clase latrocinia, sólo podrán poner 1 punto en Espada Corta, Bastón y Daga.
-- El apuñalamiento por la espalda sólo llega a x3 como máximo (a partir del nivel 12)
-- Solo obtienen 20 puntos por nivel para asignar a las habilidades~
+- La única arma a distancia a la que pueden asignar puntos de competencia es la honda.
+- Aunque pueden empuñar armas cuerpo a cuerpo restringidas a la clase de ladrón, solo pueden asignar 1 punto en Espada Corta, Bastón y Daga.
+- El multiplicador por ataque por la espalda está limitado a x2.
+- Solo ganan 15 puntos de habilidad por nivel para asignar a habilidades de ladrón.~
 @600055  = ~HONDERO SOMBRÍO: el mediano pícaro se ha especializado en extremo en el uso de la honda, sacrificando un poco el combate cuerpo a cuerpo y sus habilidades latrocinias.~
 
 @600056  = ~Agente Híbrido~
@@ -4909,35 +4916,64 @@ Desventajas:
 
 Ventajas:
 
-- Como habilidad especial pueden usar Detectar Trampas y Apertura 1 vez al día por nivel (empiezan con un uso a nivel 1).
-- Pueden colocar trampas con la eficacia de un ladrón experto (1 vez al día cada 5 niveles).
+- Como habilidad especial, pueden usar Detectar Trampas y Forzar Cerraduras una vez por día por nivel (comenzando con un uso en el nivel 1).
+- Pueden apuñalar por la espalda. El multiplicador es x2 hasta nivel 12, luego aumenta a x3.
+- Pueden hacerse Invisible: 1 uso cada 6 niveles.
+- Pueden usar Celeridad Mejorada como habilidad especial: 1 uso cada 9 niveles.
+- Pueden colocar trampas con la pericia de un maestro ladrón:
+ * Colocar Trampa: Una vez por día cada 6 niveles.
+ * Colocar Trampa de Confusión: Una vez por día cada 8 niveles (a partir del nivel 8).
+ * Colocar Trampa de Silencio: Una vez por día cada 8 niveles (a partir del nivel 8).
+
+- Canción del Bardo: Además de los efectos base de la Canción del Bardo, la canción del Agente Híbrido también disipará ilusiones e invisibilidad de todas las criaturas fuera del grupo.
 
 Desventajas:
 
 - Deben ser semielfos.
-- No pueden asignar puntos de habilidad en armas a distancia de dos manos (Arco corto, Arco largo y Ballesta).~
+- No pueden asignar puntos de competencia en armas a distancia de dos manos (Arco Corto, Arco Largo y Ballesta).
+- Penalización a la Resistencia a la Magia: -10%.
+- Penalización a la Clase de Armadura: -1~
 @600059  = ~AGENTE HÍBRIDO: Los semielfos son entrenados a raíz de su sangre híbrida para maximizar las habilidades de bardo y latrocinias.~
 
-@600060  = ~Caminante de los Sueños~
-@600061  = ~caminante de los sueños~
-@600062  = ~CAMINANTE DE LOS SUEÑOS: Los semiorcos chamanes que nacen con esta facultad son capaces de mezclar el mundo de los sueños con el Plano Material.
+@600060  = ~Tejedor de Sueños~
+@600061  = ~tejedor de sueños~
+@600062  = ~TEJEDOR DE SUEÑOS: Los chamanes semi-orcos nacidos con este don son capaces de mezclar el mundo de los sueños con el Plano Material.
 
 Ventajas:
 
-- Pueden lanzar Velo de los Sueños 1 vez al día cada 8 niveles de chamán hasta nivel 16 (comienzan con 1 uso a nivel 1).
+- Competencia: El Tejedor de Sueños puede asignar 2 puntos en cada estilo de combate.
+- Tiene acceso a los siguientes hechizos:
 
-VELO DE LOS SUEÑOS: El Caminante de los Sueños distorsiona su imagen dificultando a sus oponentes el atacarlo. Esta distorsión implica que todos los ataques por proyectiles y cuerpo a cuerpo contra él tengan una penalización de -3. Además, recibe una bonificación de +1 a todas sus tiradas de salvación.
+ En el Nivel 1: Santuario y Orden (nivel 1)
+ En el Nivel 3: Sueño (nivel 2)
+ En el Nivel 5: Emoción: Desesperanza y Palabra Mágica, Sueño (nivel 3)
+ En el Nivel 7: Gran Maleficio (nivel 4)
+ En el Nivel 9: Gran Orden y Convocar Nishruu (nivel 5)
+ En el Nivel 11: Convocar Hakeashar y Proyección de Imagen (nivel 6)
+ En el Nivel 13: Simulacro (nivel 7)
+ 
+NOTA: Las Imágenes Proyectadas y los duplicados de Simulacro no pueden realizar la Danza Chamánica.
+ 
+- El Tejedor de Sueños puede moverse libremente mientras invoca la Danza Chamánica, haciendo que los espíritus lo sigan de cerca hasta que encuentren enemigos con los que enfrentarse. Durante este trance, el Tejedor de Sueños también puede lanzar hechizos y emplear habilidades innatas, aunque hacerlo terminará la danza.
+- Los espíritus del Tejedor de Sueños permanecerán cerca incluso si la Danza Chamánica cesa. Estos espíritus perduran aproximadamente 10 minutos, protegiendo a su invocador durante un tiempo más allá de la danza misma. Además, los Tejedores de Sueños no sufren penalizaciones a la Clase de Armadura mientras realizan la Danza Chamánica.
 
-- Pueden lanzar Nube de los Sueños 1 vez al día cada 10 niveles de chamán (comienzan con 1 uso a nivel 1).
+Habilidades Innatas:
+- Pueden lanzar Velo de Sueños una vez al día cada 4 niveles de chamán (comenzando con 1 uso en el nivel 1).
 
-NUBE DE LOS SUEÑOS: El Caminante de los Sueños lanza una especie de bruma, la cual tiene un radio de 9 metros. Toda criatura que se encuentre en ella debe salvarse contra conjuros o quedar inconscientes durante 25 segundos.
+VELO DE SUEÑOS: El Tejedor de Sueños distorsiona su imagen, dificultando que los oponentes le golpeen. Esta distorsión impone un penalizador de -3 en todos los ataques de proyectiles y cuerpo a cuerpo en su contra. Además, reciben un bono de +1 en todas las tiradas de salvación. Velo de Sueños también hará que el chamán sea invisible para los enemigos a través de Santuario. Incluso si el enemigo puede disipar la invisibilidad a través de adivinación, los efectos defensivos de la habilidad permanecerán hasta que expiren (10 minutos) o sean disipados con éxito.
+
+- Pueden lanzar Nube de Sueños una vez al día cada 10 niveles de chamán (comenzando con 1 uso en el nivel 1).
+
+NUBE DE SUEÑOS: El Tejedor de Sueños libera una neblina en un radio de 9 metros. Cualquier criatura atrapada en ella debe realizar una tirada de salvación contra conjuros o caer inconsciente durante 25 segundos. El chamán y sus espíritus serán inmunes a los efectos de Nube de Sueños.
 
 Desventajas:
 
-- Deben ser semiorcos.
-- Penalización al Carisma en -2 a la hora de creación de personaje.
-- Penalización a la Clase de Armadura en 1.~
-@600063  = ~CAMINANTE DE LOS SUEÑOS: Los semiorcos chamanes que nacen con esta facultad son capaces de mezclar el mundo de los sueños con el Plano Material.~
+- Deben ser semi-orcos.
+- La probabilidad de que un espíritu responda a la llamada se reduce al 50%.
+- Su habilidad en Detectar Ilusiones progresa a solo una cuarta parte de la tasa de un chamán estándar.
+- Penalización de Carisma de -2 al crear el personaje.
+- Penalización de Clase de Armadura de 1.~
+@600063  = ~TEJEDOR DE SUEÑOS: Los semiorcos chamanes que nacen con este don son capaces de mezclar el mundo de los sueños con el Plano Material.~
 
 @600064  = ~FiloEspejo/Ilusionista~
 @600065  = ~filoespejo/ilusionista~
@@ -4987,13 +5023,13 @@ Ventajas:
 
 Cada 10 niveles se sumará 1 uso para cada proyectil según corresponda.
 
-Nivel 1: Flecha explosiva
-Nivel 3: Bala explosiva
-Nivel 5: Virote explosivo
-Nivel 7: Dardo explosivo 
-Nivel 9: Daga explosiva 
-Nivel 11: Hacha arrojadiza explosiva
-Nivel 13: Jabalina explosiva
+Nivel 1: Flecha Explosiva - En NVL 20, daño adicional: Ácido
+Nivel 3: Bala Explosiva - En NVL 20, daño adicional: Eléctrico
+Nivel 5: Virote Explosivo - En NVL 20, daño adicional: Mágico
+Nivel 7: Dardo Explosivo - En NVL 20, daño adicional: Frío
+Nivel 9: Daga Explosiva - En NVL 20, daño adicional: Veneno
+Nivel 11: Hacha Arrojadiza Explosiva - En NVL 20, daño adicional: Contundente
+Nivel 13: Jabalina Explosiva - En NVL 20, daño adicional: Perforante
 
 Desventajas:
 
@@ -5194,6 +5230,253 @@ Requisito: Fuerza 3~
 @600106  = ~Maldición de Liphix~
 @600107  = ~Este extraño talismán no puede ser removido de tu inventario. Percibes un gran poder y una gran maldad en él, casi como si estuviera maldito. Decides dejarlo en paz ya que puede ser peligroso jugar con él.~
 @600108  = ~La maldición de Liphix ha desaparecido.~
+
+@600109  = ~Colocar Trampa Confusa~
+@600110  = ~Colocar Trampa Confusa
+Coloca una trampa en la ubicación elegida cuando no haya criaturas hostiles a la vista. Solo puede ser activada por enemigos:
+ * Inflige 4d8+5 de daño por proyectiles y confunde al objetivo durante 5 rondas si falla un Tiro de Salvación contra Hechizo con una penalización de -1.~
+
+@600111  = ~Colocar Trampa de Silencio~
+@600112  = ~Colocar Trampa de Silencio
+Coloca una trampa en el lugar elegido cuando no haya criaturas hostiles a la vista. Solo puede ser activada por enemigos:
+ * Inflige 4d8+5 de daño de proyectil y silencia al objetivo durante 5 asaltos si falla una Salvación contra Hechizo con una penalización de -1.~
+
+@600113  = ~Campeón Hondero~
+@600114  = ~Campeón Hondero
+Al activar esta habilidad innata, el Hondero Sombrío mejorará sus ataques a distancia y sus propias capacidades ofensivas:
+* Nivel 4: -1 al THAC0 del objetivo y +1 a la Suerte del usuario. Duración: 10 segundos.
+* Nivel 8: -1 a las tiradas de salvación contra conjuros del objetivo y +2 de bonificación a la Fuerza del usuario. Duración: 15 segundos.
+* Nivel 12: -1 a la Fuerza del objetivo y +2 de Daño por cada ataque exitoso. Duración: 20 segundos.
+* Nivel 16: Otro bono de +2 al daño y +1 a APR. Duración: 25 segundos.~
+
+@600115  = ~Venomguard~
+@600116  = ~Lobixon Cabal fue un caballero especializado en luchar contra arañas fase. Miembro de la Orden del Guantelete, Lobixon siempre lideró las batallas contra los arácnidos que acechaban en las tierras de la Costa de la Espada. A pesar de sufrir mordeduras de las arañas, parecía que su veneno no podía entrar en su sangre. Finalmente, los arácnidos lo abrumaron y lograron derribar su escudo. Fue entonces cuando las mordeduras hicieron efecto, hasta el punto en que el veneno consumió su mente. Aunque sobrevivió al ataque, Lobixon cayó en una locura irreparable. El destino de su escudo, Venomguard, se perdió en el tiempo.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +3, un extra de +1 contra ataques a distancia
+- Inmunidad al veneno
+
+Requiere:
+ 10 de Fuerza
+
+Peso: 10~
+
+//////////////// Proyectiles mejorados
+
+@600117  = ~Flecha Explosiva (Mejorado)~
+@600118  = ~Proyectil creado por el Artífice Enano. La flecha estallará en una bola de fuego que causará 5d6 de daño ígneo a toda criatura que se encuentre en el área de efecto. Si supera la tirada de salvación, sólo sufrirá la mitad de daño.
+
+CARACTERÍSTICAS:
+
+Daño: 5d6 ígneo, +2d4 de daño ácido
+Tipo de daño: Proyectil
+Peso: 0 lbs
+Arma de proyectil: Arco~
+
+
+@600119  = ~Bala Explosiva (Mejorado)~
+@600120  = ~Proyectil creado por el Artífice Enano. La bala estallará en una bola de fuego que causará 5d6 de daño ígneo a toda criatura que se encuentre en el área de efecto. Si supera la tirada de salvación, sólo sufrirá la mitad de daño.
+
+CARACTERÍSTICAS:
+
+Daño: 5d6 ígneo, +2d4 de daño eléctrico
+Tipo de daño: Proyectil
+Peso: 0 lbs
+Arma de proyectil: Honda~
+
+@600121  = ~Virote Explosivo (Mejorado)~
+@600122  = ~Proyectil creado por el Artífice Enano. El virote estallará en una bola de fuego que causará 5d6 de daño ígneo a toda criatura que se encuentre en el área de efecto. Si supera la tirada de salvación, sólo sufrirá la mitad de daño.
+
+CARACTERÍSTICAS:
+
+Daño: 5d6 ígneo, +2d4 de daño mágico
+Tipo de daño: Proyectil
+Peso: 0 lbs
+Arma de proyectil: Ballesta~
+
+@600123  = ~Dardo Explosivo (Mejorado)~
+@600124  = ~Proyectil creado por el Artífice Enano. El dardo estallará en una bola de fuego que causará 5d6 de daño ígneo a toda criatura que se encuentre en el área de efecto. Si supera la tirada de salvación, sólo sufrirá la mitad de daño.
+
+CARACTERÍSTICAS:
+
+Daño: 1D3, +5d6 ígneo, +2d4 de daño por frío
+Tipo de daño: Proyectil (perforante)
+Peso: 0 lbs
+Factor de Velocidad: 0
+Talento Marcial: Dardo
+Tipo de arma: A una mano~
+
+@600125  = ~Daga Explosiva (Mejorado)~
+@600126  = ~Proyectil creado por el Artífice Enano. La daga estallará en una bola de fuego que causará 5d6 de daño ígneo a toda criatura que se encuentre en el área de efecto. Si supera la tirada de salvación, sólo sufrirá la mitad de daño.
+
+STATISTICS:
+
+Daño: 1D6, +5d6 ígneo, +2d4 de daño por veneno
+Tipo de daño: Proyectil (perforante)
+Peso: 0 lbs
+Factor de Velocidad: 0
+Talento Marcial: Daga
+Tipo de arma: A una mano
+Requisito: Fuerza 3~
+
+
+@600127  = ~Hacha Explosiva (Mejorado)~
+@600128  = ~Proyectil creado por el Artífice Enano. El hacha estallará en una bola de fuego que causará 5d6 de daño ígneo a toda criatura que se encuentre en el área de efecto. Si supera la tirada de salvación, sólo sufrirá la mitad de daño.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6, +5d6 ígneo, +2d4 de daño contundente
+Tipo de daño: Proyectil (perforante)
+Peso: 5 lbs
+Factor de Velocidad: 1
+Talento Marcial: Hacha
+Tipo de arma: A una mano
+Requisito: Fuerza 10~
+
+@600129  = ~Jabalina Explosiva (Mejorado)~
+@600130  = ~Proyectil creado por el Artífice Enano. La jabalina estallará en una bola de fuego que causará 5d6 de daño ígneo a toda criatura que se encuentre en el área de efecto. Si supera la tirada de salvación, sólo sufrirá la mitad de daño.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6, +5d6 ígneo, +2d4 de daño perforante
+Tipo de daño: Proyectil (perforante)
+Peso: 5 lbs
+Factor de Velocidad: 2
+Talento Marcial: Lanza
+Tipo de arma: A una mano
+Requisito: Fuerza 5~
+
+////////// NEW ITEMS
+
+@600131  = ~Brebaje Purificador~
+@600132  = ~Al ser consumido, esta poción restaura 40 puntos de vida al bebedor y cura todos los venenos y enfermedades; luego ofrece protección al objetivo contra todas las formas de veneno, sean de naturaleza natural o mágica. El efecto es instantáneo, y la poción se destruye en el proceso.
+
+ESTADÍSTICAS:
+
+Especial: Restaura 40 puntos de vida, cura veneno y enfermedad, y
+otorga inmunidad al veneno por 6 horas.
+
+Peso: 1~
+
+@600133  = ~Velocidad de Halcón~
+@600134  = ~Velocidad de Halcón
+(Alteración)
+
+Nivel: Innato
+Duración: Especial
+Tiempo de Lanzamiento: 1
+Área de Efecto: El lanzador
+Tirada de Salvación: Ninguna
+
+Fall puede canalizar su velocidad y precisión para duplicar su velocidad de movimiento y ataques, obteniendo un bono de +2 a la iniciativa.
+
+Progresión de Duración:
+
+- Nivel 1: 1,5 turnos
+- Nivel 10: 3 turnos
+- Nivel 15: 6 turnos~
+
+@600135  = ~Invocar Escarabajo~
+@600136  = ~Invocar Escarabajo
+(Invocación)
+
+Nivel: 1
+Esfera: Animal
+Alcance: Línea de visión del lanzador
+Duración: 8 horas
+Tiempo de Lanzamiento: 7
+Tirada de Salvación: Ninguna
+
+DESCRIPCIÓN:
+
+Este hechizo permite al explorador invocar un pequeño insecto y luego agrandarlo hasta un tamaño gigantesco, convirtiéndolo en un aliado formidable. El escarabajo retiene sus habilidades inherentes y ofrece apoyo en combate, sirviendo al mando del explorador durante la duración del hechizo.~
+
+@600137  = ~Escarabajo Negro~
+
+@600138  = ~Bendición del Tirador~
+@600139  = ~Bendición del Tirador
+(Conjuración)
+
+Nivel: 2
+Esfera: Todas
+Alcance: 0
+Duración: Especial
+Tiempo de Lanzamiento: 3
+Área de Efecto: El explorador
+Tirada de Salvación: Ninguna
+
+DESCRIPCIÓN:
+
+Este hechizo, una técnica creada por el padre de Fall, Gerwulf, le otorga una concentración y precisión inigualables en combate. Al invocarlo, la moral y confianza de Fall aumentan, proporcionando un bono de +1 a las tiradas de ataque y daño, junto con un bono de +2 a THAC0 específicamente con armas a distancia.
+
+La duración escala con el nivel de Fall:
+
+En nivel 1: 1 hora
+En nivel 10: 2 horas
+En nivel 15: 3 horas~
+
+@600140  = ~Virotes Arcanos de Evereska~
+@600141  = ~Virotes Arcanos de Evereska
+(Evocación)
+
+Nivel: 3
+Alcance: 0
+Duración: Especial
+Tiempo de Lanzamiento: 6
+Área de Efecto: El explorador
+Tirada de Salvación: Ninguna
+
+DESCRIPCIÓN:
+
+Este hechizo, diseñado por la madre de Fall—una hechicera de Evereska—convoca un puñado de virotes encantados de ballesta. Cada virote brilla débilmente con energía arcana, causando daño mágico potente a sus objetivos. Al ser disparados, estos virotes infligen 1d4 puntos de daño mágico y otorgan un bono de +5 a las tiradas de ataque, haciéndolos tanto poderosos como precisos.
+
+El número de virotes creados escala con el nivel de Fall:
+
+Nivel 1: 5 virotes
+Nivel 10: 10 virotes
+Nivel 15: 15 virotes~
+
+@600142  = ~Virotes Arcanos~
+@600143  = ~Estos virotes de ballesta, creados por el hechizo de Fall, están imbuidos con poder arcano, lo que mejora su precisión y causa daño adicional infundido con magia a los objetivos.
+
+ESTADÍSTICAS:
+
+THAC0: +5
+Daño: 1d8 (proyectil), +1d4 de daño mágico
+Lanzador: Ballesta
+
+Peso: 0~
+
+@600144  = ~Perforador de Alimañas~
+@600145  = ~Sylvaris Thornwood fue una exploradora elfa de los bosques de Cormanthor. Lideró innumerables incursiones contra las arañas que invadieron los bosques élficos, y su arma característica era esta ballesta. Durante décadas, mantuvo a raya a los peligrosos arácnidos, aparentemente protegida de sus ataques de telaraña. Cómo llegó este artefacto a Dreach-naga sigue siendo un misterio que no puedes resolver. Solo los exploradores pueden usarla.
+
+ESTADÍSTICAS:
+
+Habilidades poseídas:
+
+- Inmunidad a la Inmovilización y la Parálisis
+- Inmunidad a las Telarañas
+
+Habilidades de combate:
+- La ballesta dispara virotes mágicos si no se equipa munición
+- Las arañas deben salvar contra la Muerte a -4 o serán destruidas por completo
+
+THAC0: +4
+Daño: 1d8+4, +1 daño mágico
+Factor de velocidad: 0
+Tipo de proficiencia: Ballesta
+Tipo: A dos manos
+Requiere:
+ 8 Fuerza
+
+Peso: 4~
+@600146  = ~El orbe... no pude concentrarme debido al combate repentido... ¡He fallado en llamar a nuestros aliados! Debemos arreglarnos por nuestra propia cuenta, <CHARNAME>.~
+
+@600147  = ~Actualización a V1.1 - Fall aprende una nueva habilidad innata y 3 conjuros son agregados a su libro de Explorador.~
+@600148  = ~Araña destruída~
+
 
 
 // Alendir
@@ -7957,6 +8240,14 @@ un ratón enamorado, eterno enamorador.'~
 @9722028  = ~Recuerda nuestra primera conversación, pequeña. Tu infancia. Tu padre. Las arañas. La naturaleza.~
 @9722029  = ~Todo sucedió por una razón. Pero no desesperes, querida. Mientras sigas al lado de tus amigos, estarás a salvo.~
 @9722030  = ~Entiendo. Gracias, Bellfame. Es un alivio hablar contigo.~
+
+@9723254  = ~Mi pequeño amigo, Michelson, mencionó algo sobre una alteración en el tiempo. No creí que algo así fuese posible.~
+@9723255  = ~El mundo de la magia tiene la capacidad de alterar el tiempo y el espacio.~
+@9723256  = ~En mi enfrentamiento contra el destacamento de Kartlzer, mi magia druídica colisionó contra la magia arcana de su hechicero.~
+@9723257  = ~El anillo que ahora tu grupo posee, fue el conductor de dicho evento... No creo que pueda explicar concretamente lo que sucedió...~
+@9723258  = ~Pues... sea lo que sea, tu historia en el Bosque de Mir aún no ha sucedido. Eso me confunde...~
+@9723259  = ~No tienes necesidad de entender todo lo que te rodea, mortal. A veces, las cosas... simplemente suceden.~
+@9723261  = ~Es verdad que soy un mortal, ninfa... pero mis amigos me llaman Dusk. Tú también puedes hacerlo.~
 
 // P_ALABAR
 @9730    = ~*gruñido* Ha funcionado...~

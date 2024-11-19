@@ -1391,7 +1391,7 @@ Abilità speciali:
 
 - Rigenerazione rettiliana: Cho'Nuja rigenererà 1 punto vita ogni 10 secondi.
 
-- Danno: 1D10 +5
+- Danno: 1D6 +5
 - THAC0: +5
 - Tipo di danno base: Tagliente
 - Fattore di velocità: 2
@@ -1409,7 +1409,7 @@ Abilità speciali:
 
 - Accelerazione migliorata: Ogni attacco ha il 20% di probabilità di Accelerare il Guardiano Selvaggio per 6 secondi.
 
-- Danno: 1D8 +5, +2 punti di danno tagliente
+- Danno: 1D4 +5, +1 punti di danno tagliente
 - THAC0: +5
 - Tipo di danno base: Perforante
 - Fattore di velocità: 0
@@ -1428,7 +1428,7 @@ Abilità speciali:
 
 - Paralisi: Ogni attacco ha il 15% di probabilità di Stordire l'avversario per 6 secondi.
 
-- Danno: 1D4 +5, +2 punti di danno tagliente
+- Danno: 1D2 +5, +1 punti di danno tagliente
 - THAC0: +5
 - Tipo di danno base: Contundente
 - Fattore di velocità: 1
@@ -1445,9 +1445,9 @@ CARATTERISTICHE:
 
 Abilità speciali:
 
-- Cura: Ogni attacco ha il 25% di probabilità di curare Cho per 25 punti vita.
+- Cura: Ogni attacco ha il 15% di probabilità di curare Cho per 25 punti vita.
 
-- Danno: 1D4 +5
+- Danno: 1D2 +5
 - Danno acido: 1D3
 - THAC0: +5
 - Tipo di danno base: Perforante
@@ -1466,8 +1466,8 @@ Abilità speciali:
 
 - Rallentamento: Ogni attacco ha il 10% di probabilità di rallentare l'avversario per 20 secondi.
 
-- Danno: 1D6 +5, +1 punto di danno perforante
-- Danno gelido: 1D4
+- Danno: 1D3 +5, +1 punto di danno perforante
+- Danno gelido: 1D2
 - THAC0: +5
 - Tipo di danno base: Tagliente
 - Fattore di velocità: 2
@@ -1494,7 +1494,6 @@ Abilità possedute:
 
 - Celerità Draconica: 1 volta al giorno, Cho'Nuja può attivare il suo fattore di accelerazione draconica, che avrà una lunga durata di 8 ore. Può essere dissipato.
 
-Classe di armatura: +1
 Classe di armatura contro attacchi da proiettili: +5
 Difesa contro danno da proiettili: +10%
 Peso: 0
@@ -1509,7 +1508,6 @@ Abilità possedute:
 
 - Celerità Draconica: 1 volta al giorno, Cho'Nuja può attivare il suo fattore di accelerazione draconica, che avrà una lunga durata di 8 ore. Può essere dissipato.
 
-Classe di armatura: +1
 Classe di armatura contro attacchi taglienti: +5
 Difesa contro danno tagliente, perforante e contundente: +10%
 Infravisioni
@@ -1525,7 +1523,6 @@ Peso: 0~
 
 CARATTERISTICHE:
 
-Classe di armatura: +1
 Classe di armatura contro attacchi contundenti: +5
 THAC0: +1
 
@@ -3083,7 +3080,7 @@ Abilità di Combattimento:
 - Veleno: La vittima deve superare un tiro salvezza contro Morte/Veleno o subire 4 punti di danno al secondo per 3 turni.
 
 THAC0: +6
-Danno: 1D10+6, +1d4 per danno da Veleno.
+Danno: 1D6+6, +1d4 per danno da Veleno.
 Tipo di danno: Perforante
 Peso: 7 lbs
 Fattore di velocità: 0
@@ -4717,14 +4714,17 @@ Tipo: una mano~
 @600047  = ~Mantello della Mezzanotte
 Livello: Innato
 Portata: Il guerriero
-Durata: 3 turni
 Tempo di lancio: Immediato
 Area d'effetto: Il guerriero
 Tiro di salvezza: Nessuno
 
 DESCRIZIONE:
 
-Simile all'Invisibilità migliorata, il guerriero elfo si coprirà di ombre e rimarrà in esse nonostante venga scoperto (anche se potrà essere attaccato). Mentre l'effetto dura, otterrà un bonus di +4 ai tiri di salvezza e gli attacchi nemici subiranno una penalità di -4. L'effetto durerà per 3 turni. Può essere dissipato.~
+Simile all'Invisibilità Migliorata, il guerriero elfico si avvolge nelle ombre e rimane in esse anche quando viene scoperto (anche se può comunque essere attaccato). Mentre l'effetto dura, guadagna un bonus di +4 ai tiri salvezza e gli attacchi nemici subiscono una penalizzazione di -4. Può essere annullato. Fornirà anche gli effetti della Benedizione mentre l'effetto dura (aumentando i tiri di attacco, il danno e il morale). 
+Gli effetti dureranno a seconda del livello del lanciatore: 
+Al livello 5: 3 turni 
+Al livello 10: 6 turni 
+Al livello 15: 10 turni~
 @600048  = ~Spada del Crepuscolo~
 @600049  = ~spada del crepuscolo~
 @600050  = ~SPADA DEL CREPUSCOLO: gli elfi guerrieri sfruttano al massimo la loro capacità razziale per dominare l'arte della guerra.
@@ -4737,8 +4737,11 @@ Vantaggi:
 - Possono infliggere colpi alle spalle. Il moltiplicatore sarà x2 fino al livello 12, poi passerà a x3.
 - Può utilizzare Mantello della Mezzanotte ogni 5 livelli (iniziano con un uso al livello 5).
 
-MANTELLO DELLA MEZZANOTTE: 
-Simile all'Invisibilità migliorata, il guerriero elfo si coprirà di ombre e rimarrà in esse nonostante venga scoperto (anche se potrà essere attaccato). Mentre l'effetto dura, otterrà un bonus di +4 ai tiri di salvezza e gli attacchi nemici subiranno una penalità di -4. L'effetto durerà per 3 turni. Può essere dissipato.
+MANTELLO DELLA MEZZANOTTE: Simile all'Invisibilità Migliorata, il guerriero elfico si avvolge nelle ombre e rimane in esse anche quando viene scoperto (anche se può comunque essere attaccato). Mentre l'effetto dura, guadagna un bonus di +4 ai tiri salvezza e gli attacchi nemici subiscono una penalizzazione di -4. Può essere annullato. Fornirà anche gli effetti della Benedizione mentre l'effetto dura (aumentando i tiri di attacco, il danno e il morale). 
+Gli effetti dureranno a seconda del livello del lanciatore: 
+Al livello 5: 3 turni 
+Al livello 10: 6 turni 
+Al livello 15: 10 turni
 
 Svantaggi:
 
@@ -4757,61 +4760,98 @@ Svantaggi:
 Vantaggi:
 
 - Specializzazione Maestra: Fionde (possono mettere fino a 5 punti al massimo in questa arma)
-- Ottengono un bonus di +1 all'attacco e +1 al danno con armi a distanza ogni 6 livelli fino al livello 18.
-- Nella selezione degli attributi: Bonus a Destrezza +1
-- Può utilizzare Tiro Preciso una volta al giorno ogni 4 livelli.
+- Ottiene un bonus di +1 all'attacco e +1 ai danni con armi a distanza ogni 6 livelli.
+- Selezione degli Attributi: bonus di +1 a Forza e Destrezza.
 
-TIRO PRECISO: Ogni attacco a distanza effettuato con successo nei 10 secondi successivi all'attivazione di questa abilità causerà effetti aggiuntivi cumulativi oltre al danno normale in base al livello dell'arciere.
+- I Fionda Ombra scaleranno le loro velocità di attacco con la seguente progressione:
+ Livello 7: +0.5 APR e +1 al Fattore di Velocità di Attacco.
+ Livello 10: +0.5 a APR.
+ Livello 16: +0.5 a APR e +1 al Fattore di Velocità di Attacco.
+ Livello 20: +0.5 a APR.
 
- Livello 4: -1 al CA del bersaglio.
- Livello 8: -1 ai tiri di salvezza contro incantesimo del bersaglio.
- Livello 12: -1 alla Forza del bersaglio.
- Livello 16: bonus +2 al danno.
+- Può usare la Fortuna del Campione una volta al giorno ogni 4 livelli.
+
+FORTUNA DEL CAMPIONE: Attivando questa abilità innata, il Fionda migliorerà i suoi attacchi a distanza, così come le sue capacità offensive:
+
+ Livello 4: -1 al THAC0 del bersaglio e +1 alla Fortuna dell'utente. Durata: 10 secondi.
+ Livello 8: -1 ai tiri salvezza del bersaglio contro gli incantesimi e +2 bonus alla Forza per l'utente. Durata: 15 secondi.
+ Livello 12: -1 alla Forza del bersaglio e +2 danno per attacco riuscito. Durata: 20 secondi.
+ Livello 16: Un ulteriore bonus di +2 al danno e +1 a APR. Durata: 25 secondi.
 
 Svantaggi:
 
 - Devono essere mezzorchi.
-- L'unica arma a distanza in cui possono mettere punti di competenza è la fionda.
-- Anche se possono brandire armi corpo a corpo, limitate alla classe ladro, possono mettere solo 1 punto in Spada Corta, Bastone e Pugnale.
-- Il colpo alle spalle arriva solo a x3 come massimo (a partire dal livello 12)
-- Ottengono solo 20 punti per livello da assegnare alle abilità~
+- L'unica arma a distanza a cui possono allocare punti di competenza è la fionda.
+- Anche se possono impugnare armi corpo a corpo limitate alla classe dei ladri, possono mettere solo 1 punto in Spada Corta, Bastone e Pugnale.
+- Il moltiplicatore di attacco alle spalle è limitato a x2.
+- Ottengono solo 15 punti abilità per livello da assegnare alle abilità da ladro.~
 @600055  = ~FIONDA OMBRA: il mezzorco ladro si è specializzato estremamente nell'uso della fionda, sacrificando un po' il combattimento corpo a corpo e le sue abilità di ladro.~
 
 @600056  = ~Agente Ibrido~
 @600057  = ~agente ibrido~
-@600058  = ~AGENTE IBRIDO: I mezzelfi sono addestrati grazie al loro sangue ibrido per massimizzare le abilità di bardo e di ladro.
+@600058 = ~AGENTE IBRIDO: I mezzelfi sono addestrati, grazie al loro sangue ibrido, per massimizzare le abilità di bardo e di ladro.
 
 Vantaggi:
 
-- Come abilità speciale possono usare Individuazione Trappole e Apertura 1 volta al giorno per livello (iniziano con 1 uso al livello 1).
-- Possono piazzare trappole con l'efficacia di un ladro esperto (1 volta al giorno ogni 5 livelli).
+- Come abilità speciale, possono usare Rilevamento Trappole e Scassinare una volta al giorno per livello (a partire da un uso al livello 1).
+- Possono colpire alle spalle. Il moltiplicatore è x2 fino al livello 12, poi diventa x3.
+- Possono diventare invisibili: 1 utilizzo ogni 6 livelli.
+- Possono usare Velocità Migliorata come abilità speciale: 1 utilizzo ogni 9 livelli.
+- Possono piazzare trappole con l'abilità di un maestro ladro:
+ * Piazzare Trappola: Una volta al giorno ogni 6 livelli.
+ * Piazzare Trappola Confondente: Una volta al giorno ogni 8 livelli (a partire dal livello 8).
+ * Piazzare Trappola Silenziosa: Una volta al giorno ogni 8 livelli (a partire dal livello 8).
+
+- Canto del Bardo: Oltre agli effetti base del Canto del Bardo, il canto dell'Agente Ibrido disperderà anche illusioni e invisibilità da tutte le creature fuori dal gruppo.
 
 Svantaggi:
 
 - Devono essere mezzelfi.
-- Non possono assegnare punti di abilità in armi a distanza a due mani (Arco corto, Arco lungo e Balestra).~
+- Non possono assegnare punti competenza nelle armi a distanza a due mani (Arco Corto, Arco Lungo e Balestra).
+- Penalità alla Resistenza Magica: -10%.
+- Penalità alla Classe Armatura: -1~
 @600059  = ~AGENTE IBRIDO: I mezzelfi sono addestrati grazie al loro sangue ibrido per massimizzare le abilità di bardo e di ladro.~
 
-@600060  = ~Camminatore dei Sogni~
-@600061  = ~camminatore dei sogni~
-@600062  = ~CAMMINATORE DEI SOGNI: I mezzorchi sciamani che nascono con questa abilità sono in grado di mescolare il mondo dei sogni con il Piano Materiale.
+@600060  = ~Intrecciatore di Sogni~
+@600061  = ~intrecciatore di sogni~
+@600062  = ~INTRECCIATORE DI SOGNI: Gli sciamani mezzorchi nati con questo dono sono in grado di mescolare il mondo dei sogni con il Piano Materiale.
 
 Vantaggi:
 
-- Possono lanciare Velum dei Sogni 1 volta al giorno ogni 8 livelli di sciamano fino al livello 16 (iniziano con 1 uso al livello 1).
+- Competenza: L'Intrecciatore di Sogni può mettere 2 punti in ciascuno stile di combattimento.
+- Ha accesso ai seguenti incantesimi:
 
-VELUM DEI SOGNI: Il Camminatore dei Sogni distorce la propria immagine rendendo più difficile agli avversari colpirlo. Questa distorsione implica che tutti gli attacchi a distanza e corpo a corpo contro di lui abbiano una penalità di -3. Inoltre, riceve un bonus di +1 a tutti i suoi tiri di salvezza.
+ Al Livello 1: Santuario e Comando (livello 1)
+ Al Livello 3: Sonno (livello 2)
+ Al Livello 5: Emozione: Disperazione e Parola Potente, Sonno (livello 3)
+ Al Livello 7: Grande Maleficio (livello 4)
+ Al Livello 9: Grande Comando e Evoca Nishruu (livello 5)
+ Al Livello 11: Evoca Hakeashar e Immagine Proiettata (livello 6)
+ Al Livello 13: Simulacro (livello 7)
+ 
+NOTA: L'Immagine Proiettata e i duplicati del Simulacro non possono eseguire la Danza Sciamanica.
+ 
+- L'Intrecciatore di Sogni può muoversi liberamente mentre invoca la Danza Sciamanica, facendo sì che gli spiriti lo seguano da vicino fino a quando non incontrano nemici con cui combattere. Durante questo trance, l'Intrecciatore di Sogni può anche lanciare incantesimi e utilizzare abilità innate, anche se farlo terminerà la danza.
+- Gli spiriti dell'Intrecciatore di Sogni rimarranno vicini anche se la Danza Sciamanica cessa. Questi spiriti durano circa 10 minuti, proteggendo il loro evocatore per un tempo oltre la danza stessa. Inoltre, gli Intrecciatori di Sogni non subiscono penalità alla Classe Armatura mentre eseguono la Danza Sciamanica.
 
-- Possono lanciare Nuvola dei Sogni 1 volta al giorno ogni 10 livelli di sciamano (iniziano con 1 uso al livello 1).
+Abilità Innate:
+- Possono lanciare Velum dei Sogni una volta al giorno ogni 4 livelli di sciamano (a partire da 1 utilizzo al livello 1).
 
-NUVOLA DEI SOGNI: Il Camminatore dei Sogni lancia una sorta di nebbia, che ha un raggio di 9 metri. Ogni creatura che si trovi al suo interno deve salvare contro incantesimi o rimanere incosciente per 25 secondi.
+VELUM DEI SOGNI: L'Intrecciatore di Sogni distorce la propria immagine, rendendo difficile per gli avversari colpirlo. Questa distorsione impone una penalità di -3 su tutti gli attacchi a distanza e in mischia contro di lui. Inoltre, ricevono un bonus di +1 a tutti i tiri salvezza. Velum dei Sogni renderà anche lo sciamano invisibile per i nemici tramite Santuario. Anche se il nemico riesce a disperdere l'invisibilità tramite divinazione, gli effetti difensivi dell'abilità rimarranno attivi fino alla scadenza (10 minuti) o fino a quando non vengono dispersi con successo.
+
+- Possono lanciare Nuvola dei Sogni una volta al giorno ogni 10 livelli di sciamano (a partire da 1 utilizzo al livello 1).
+
+NUVOLA DEI SOGNI: L'Intrecciatore di Sogni rilascia una nebbia in un raggio di 9 metri. Qualsiasi creatura catturata in essa deve effettuare un tiro salvezza contro incantesimi o cadere svenuta per 25 secondi. Lo sciamano e gli spiriti di <PRO_HISHER> saranno immuni agli effetti della Nuvola dei Sogni.
 
 Svantaggi:
 
-- Devono essere mezzorchi.
-- Penalità al Carisma di -2 alla creazione del personaggio.
-- Penalità alla Classe Armatura di 1.~
-@600063  = ~CAMMINATORE DEI SOGNI: I mezzorchi sciamani che nascono con questa abilità sono in grado di mescolare il mondo dei sogni con il Piano Materiale.~
+- Devono essere mezz'orchi.
+- La possibilità che uno spirito risponda alla chiamata è ridotta al 50%.
+- La loro abilità di Rilevare Illusioni progredisce solo a un quarto della velocità di uno sciamano standard.
+- Penalizzazione di Carisma di -2 alla creazione del personaggio.
+- Penalizzazione della Classe Armatura di 1.~
+
+@600063  = ~INTRECCIATORE DI SOGNI: I semi-orchi sciamani nati con questo dono sono in grado di mescolare il mondo dei sogni con il Piano Materiale.~
 
 @600064  = ~Lama Speculare/Illusionista~
 @600065  = ~lama speculare/illusionista~
@@ -4859,13 +4899,13 @@ Vantaggi:
 
 Ogni 10 livelli si aggiunge 1 uso per ogni proiettile, come segue:
 
-Livello 1: Freccia esplosiva
-Livello 3: Pallottola esplosiva
-Livello 5: Bollo esplosivo
-Livello 7: Dardo esplosivo
-Livello 9: Pugnale esplosivo
-Livello 11: Ascia da lancio esplosiva
-Livello 13: Giavellotto esplosivo
+Livello 1: Freccia Esplosiva - Al LIV 20, danno aggiuntivo: Acido
+Livello 3: Proiettile Esplosivo - Al LIV 20, danno aggiuntivo: Elettrico
+Livello 5: Dardo Esplosivo - Al LIV 20, danno aggiuntivo: Magico
+Livello 7: Dardo Esplosivo - Al LIV 20, danno aggiuntivo: Freddo
+Livello 9: Pugnale Esplosivo - Al LIV 20, danno aggiuntivo: Veleno
+Livello 11: Ascia da Lancio Esplosiva - Al LIV 20, danno aggiuntivo: Schiacciamento
+Livello 13: Giavellotto Esplosivo - Al LIV 20, danno aggiuntivo: Perforante
 
 Svantaggi:
 
@@ -5076,6 +5116,255 @@ Requisito: Forza 3~
 
 
 @600108  = ~Il maleficio di Liphix è scomparso.~ 
+
+@600109  = ~Posizionare una Trappola Confondente~
+@600110  = ~Posizionare una Trappola Confondente
+Posiziona una trappola nella posizione scelta quando non ci sono creature ostili in vista. Può essere attivata solo da nemici:
+ * Infligge 4d8+5 danni da missili e confonde il bersaglio per 5 turni se fallisce un Tiro di Salvataggio contro un Incantesimo con una penalità di -1.~
+
+@600111  = ~Piazzare Trappola del Silenzio~
+@600112  = ~Piazzare Trappola del Silenzio
+Piazza una trappola nel luogo scelto quando non ci sono creature ostili in vista. Può essere attivata solo dai nemici:
+ * Infligge 4d8+5 danni da proiettile e silenzia il bersaglio per 5 turni se fallisce un Tiro Salvezza contro Incantesimo con una penalità di -1.~
+
+@600113  = ~Campione Fiondatore~
+@600114  = ~Campione Fiondatore
+Attivando questa abilità innata, il Fiondatore migliorerà i suoi attacchi a distanza e le sue capacità offensive:
+* Livello 4: -1 al THAC0 del bersaglio e +1 alla Fortuna dell'utente. Durata: 10 secondi.
+* Livello 8: -1 ai tiri salvezza contro incantesimi del bersaglio e +2 di Forza per l'utente. Durata: 15 secondi.
+* Livello 12: -1 alla Forza del bersaglio e +2 al Danno per ogni attacco riuscito. Durata: 20 secondi.
+* Livello 16: Ulteriore bonus di +2 al danno e +1 a APR. Durata: 25 secondi.~
+
+@600115  = ~Guardia Venefica~
+@600116  = ~Lobixon Cabal era un cavaliere specializzato nel combattere i ragni fatati. Membro dei Guardiani del Campo, Lobixon guidava sempre le battaglie contro gli aracnidi che si nascondevano nelle terre della Costa della Spada. Nonostante le punture dei ragni, sembrava che il loro veleno non potesse entrare nel suo sangue. Alla fine, gli aracnidi lo sopraffecero e riuscirono a far cadere il suo scudo. Fu allora che le punture ebbero effetto, fino a consumare la sua mente col veleno. Anche se sopravvisse all'attacco, Lobixon sprofondò in una follia irreparabile. Il destino del suo scudo, Guardia Venefica, si perse nel tempo.
+
+STATISTICHE:
+
+Abilità equipaggiata:
+- Classe Armatura: +3, +1 aggiuntivo contro attacchi da proiettili
+- Immunità al veleno
+
+Richiede:
+ Forza 10
+
+Peso: 10~
+
+//////////// Proyectiles Mejorados
+@600117  = ~Freccia Esplosiva (Migliorato)~
+@600118  = ~Proiettile creato dall'Artigiano Nano. La freccia esploderà in una palla di fuoco causando 5d6 di danno infuocato a tutte le creature nell'area di effetto. Se supera il tiro salvezza, subirà solo metà danno.
+
+CARATTERISTICHE:
+
+Danno: 5d6 infuocato, +2d4 danni da acido
+Tipo di danno: Proiettile
+Peso: 0 lbs
+Arma da proiettile: Arco~
+
+
+@600119  = ~Proiettile Esplosivo (Migliorato)~
+@600120  = ~Proiettile creato dall'Artigiano Nano. Il proiettile esploderà in una palla di fuoco causando 5d6 di danno infuocato a tutte le creature nell'area di effetto. Se supera il tiro salvezza, subirà solo metà danno.
+
+CARATTERISTICHE:
+
+Danno: 5d6 infuocato, +2d4 danni da elettricità
+Tipo di danno: Proiettile
+Peso: 0 lbs
+Arma da proiettile: Fionda~
+
+
+@600121  = ~Virote Esplosivo (Migliorato)~
+@600122  = ~Proiettile creato dall'Artigiano Nano. Il virote esploderà in una palla di fuoco causando 5d6 di danno infuocato a tutte le creature nell'area di effetto. Se supera il tiro salvezza, subirà solo metà danno.
+
+CARATTERISTICHE:
+
+Danno: 5d6 infuocato, +2d4 danni magici
+Tipo di danno: Proiettile
+Peso: 0 lbs
+Arma da proiettile: Balista~
+
+
+@600123  = ~Dardo Esplosivo (Migliorato)~
+@600124  = ~Proiettile creato dall'Artigiano Nano. Il dardo esploderà in una palla di fuoco causando 5d6 di danno infuocato a tutte le creature nell'area di effetto. Se supera il tiro salvezza, subirà solo metà danno.
+
+CARATTERISTICHE:
+
+Danno: 1D3, +5d6 infuocato, +2d4 danni da freddo
+Tipo di danno: Proiettile (penetrante)
+Peso: 0 lbs
+Fattore di Velocità: 0
+Talento Marziale: Dardo
+Tipo di arma: A una mano~
+
+@600125  = ~Daga Esplosiva (Migliorato)~
+@600126  = ~Proiettile creato dall'Artigiano Nano. La daga esploderà in una palla di fuoco causando 5d6 di danno infuocato a tutte le creature nell'area di effetto. Se supera il tiro salvezza, subirà solo metà danno.
+
+STATISTICHE:
+
+Danno: 1D6, +5d6 infuocato, +2d4 danni da veleno
+Tipo di danno: Proiettile (penetrante)
+Peso: 0 lbs
+Fattore di Velocità: 0
+Talento Marziale: Daga
+Tipo di arma: A una mano
+Requisito: Forza 3~
+
+
+@600127  = ~Ascia Esplosiva (Migliorato)~
+@600128  = ~Proiettile creato dall'Artigiano Nano. L'ascia esploderà in una palla di fuoco causando 5d6 di danno infuocato a tutte le creature nell'area di effetto. Se supera il tiro salvezza, subirà solo metà danno.
+
+CARATTERISTICHE:
+
+Danno: 1D6, +5d6 infuocato, +2d4 danni contundenti
+Tipo di danno: Proiettile (penetrante)
+Peso: 5 lbs
+Fattore di Velocità: 1
+Talento Marziale: Ascia
+Tipo di arma: A una mano
+Requisito: Forza 10~
+
+
+@600129  = ~Giavellotto Esplosivo (Migliorato)~
+@600130  = ~Proiettile creato dall'Artigiano Nano. Il giavellotto esploderà in una palla di fuoco causando 5d6 di danno infuocato a tutte le creature nell'area di effetto. Se supera il tiro salvezza, subirà solo metà danno.
+
+CARATTERISTICHE:
+
+Danno: 1D6, +5d6 infuocato, +2d4 danni perforanti
+Tipo di danno: Proiettile (penetrante)
+Peso: 5 lbs
+Fattore di Velocità: 2
+Talento Marziale: Lancia
+Tipo di arma: A una mano
+Requisito: Forza 5~
+
+
+////// NEW Items
+
+@600131  = ~Bevanda Purificante~
+@600132  = ~Quando viene bevuta, questa pozione ripristina 40 punti ferita a chi la beve e cura tutti i veleni e le malattie; quindi offre protezione al bersaglio contro tutte le forme di veleno, sia naturali che magiche. L’effetto è istantaneo e la pozione si distrugge nel processo.
+
+STATISTICHE:
+
+Speciale: Ripristina 40 punti ferita, cura avvelenamento e malattie e
+conferisce immunità al veleno per 6 ore.
+
+Peso: 1~
+
+@600133  = ~Velocità del Falco~
+@600134  = ~Velocità del Falco
+(Alterazione)
+
+Livello: Innato
+Durata: Speciale
+Tempo di Lancio: 1
+Area di Effetto: Incantatore
+Tiro Salvezza: Nessuno
+
+Fall può incanalare la sua velocità e precisione per raddoppiare la sua normale velocità di movimento e attacco, ottenendo un bonus di +2 all’iniziativa.
+
+Progressione della Durata:
+
+- Livello 1: 1,5 turni
+- Livello 10: 3 turni
+- Livello 15: 6 turni~
+
+@600135  = ~Evoca Scarabeo~
+@600136  = ~Evoca Scarabeo
+(Invocazione)
+
+Livello: 1
+Sfera: Animale
+Portata: Linea di vista dell’incantatore
+Durata: 8 ore
+Tempo di Lancio: 7
+Tiro Salvezza: Nessuno
+
+DESCRIZIONE:
+
+Questo incantesimo permette al ranger di evocare un piccolo insetto e poi ingrandirlo fino a dimensioni giganti, trasformandolo in un formidabile alleato. Lo scarabeo mantiene le sue abilità innate e offre supporto in battaglia, servendo agli ordini del ranger per la durata dell’incantesimo.~
+
+@600137  = ~Scarabeo Nero~
+
+@600138  = ~Benedizione del Tiratore~
+@600139  = ~Benedizione del Tiratore
+(Conjurazione)
+
+Livello: 2
+Sfera: Tutti
+Portata: 0
+Durata: Speciale
+Tempo di Lancio: 3
+Area di Effetto: Il ranger
+Tiro Salvezza: Nessuno
+
+DESCRIZIONE:
+
+Questo incantesimo, una tecnica creata dal padre di Fall, Gerwulf, le conferisce una concentrazione e una precisione senza pari in battaglia. Quando evocato, il morale e la fiducia di Fall aumentano, fornendo un bonus di +1 ai tiri per attaccare e al danno, insieme a un bonus di +2 a THAC0 specificamente con le armi da lancio.
+
+La durata aumenta con il livello di Fall:
+
+Al livello 1: 1 ora
+Al livello 10: 2 ore
+Al livello 15: 3 ore~
+
+@600140  = ~Virotti Arcanici di Evereska~
+@600141  = ~Virotti Arcanici di Evereska
+(Evocazione)
+
+Livello: 3
+Raggio: 0
+Durata: Speciale
+Tempo di Lancio: 6
+Area di Effetto: Il ranger
+Tiro Salvezza: Nessuno
+
+DESCRIZIONE:
+
+Questo incantesimo, creato dalla madre di Fall—una strega di Evereska—evoca una manciata di virotti incantati per balestra. Ogni virotto emana una debole luce di energia arcana, infliggendo danni magici potenti ai loro bersagli. Quando vengono sparati, questi virotti infliggono 1d4 punti di danno magico e conferiscono un bonus di +5 ai tiri per colpire, rendendoli potenti e precisi.
+
+Il numero di virotti creati aumenta con il livello di Fall:
+
+Al livello 1: 5 virotti
+Al livello 10: 10 virotti
+Al livello 15: 15 virotti~
+
+@600142  = ~Virotti Arcanici~
+@600143  = ~Questi virotti per balestra, creati dal sortilegio di Fall, sono imbevuti di potere arcano, migliorandone la precisione e infliggendo danni aggiuntivi infusi di magia ai bersagli.
+
+STATISTICHE:
+
+THAC0: +5
+Danno: 1d8 (proiettile), +1d4 danni magici
+Lanciatrice: Balestra
+
+Peso: 0~
+
+@600144  = ~Perforatore di Vermi~
+@600145  = ~Sylvaris Thornwood era una ranger elfica dei boschi di Cormanthor. Ha guidato innumerevoli incursioni contro i ragni che invasevano le foreste elfiche, e la sua arma distintiva era questa balestra. Per decenni, ha tenuto a bada gli aracnidi pericolosi, apparentemente protetta dai loro attacchi con la ragnatela. Come un artefatto simile sia arrivato a Dreach-naga rimane un mistero che non puoi risolvere. Solo i ranger possono usarlo.
+
+STATISTICHE:
+
+Abilità possedute:
+
+- Immunità a Immobilizzazione e Paralisi
+- Immunità alle Ragnatele
+
+Abilità in combattimento:
+- La balestra spara dardi magici se non sono equipaggiati proiettili
+- I ragni devono fare un salvataggio contro la Morte con -4 o essere completamente distrutti
+
+THAC0: +4
+Danno: 1d8+4, +1 danno magico
+Fattore di velocità: 0
+Tipo di abilità: Balestra
+Tipo: A due mani
+Richiede:
+ 8 Forza
+
+Peso: 4~
+@600146  = ~The orb... I couldn't concentrate due to the sudden combat... I have failed to call our allies! We must handle this on our own, <CHARNAME>.~
+@600147  = ~Update V1.1 - Fall learns a new innate ability, and 3 spells are added to her Ranger spellbook.~
+@600148  = ~Spider destroyed~
+
 
 
 // Alendir
@@ -7808,6 +8097,15 @@ un topo innamorato, eterno innamoratore."~
 @9722028  = ~Ricorda la nostra prima conversazione, piccola. La tua infanzia. Tuo padre. I ragni. La natura.~
 @9722029  = ~Tutto è successo per una ragione. Ma non disperare, cara. Finché rimani al fianco dei tuoi amici, sarai al sicuro.~
 @9722030  = ~Capisco. Grazie, Bellfame. È un sollievo parlare con te.~
+
+@9723254 = ~Il mio piccolo amico Michelson ha menzionato qualcosa riguardo una perturbazione nel tempo. Non pensavo che una cosa del genere fosse possibile.~
+@9723255 = ~Il mondo della magia ha la capacità di alterare il tempo e lo spazio.~
+@9723256 = ~Nel mio confronto con il distaccamento di Kartlzer, la mia magia druidica ha colliso con la magia arcana del loro stregone.~
+@9723257 = ~L'anello che la vostra compagnia possiede ora è stato il conduttore di quell'evento... Non credo di poter spiegare esattamente cosa sia successo...~
+@9723258 = ~Bene... qualunque cosa sia stata, la tua storia nella Foresta di Mir non è ancora accaduta. Questo mi confonde...~
+@9723259 = ~Non è necessario comprendere tutto ciò che ti circonda, mortale. A volte, le cose... semplicemente accadono.~
+@9723261 = ~È vero che sono un mortale, ninfa... ma i miei amici mi chiamano Dusk. Puoi chiamarmi così anche tu.~
+
 
 // P_ALABAR
 @9730 = ~*ringhio* Ha funzionato...~

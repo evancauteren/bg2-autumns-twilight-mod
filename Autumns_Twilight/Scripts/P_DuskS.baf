@@ -129,6 +129,19 @@ THEN
   DisplayStringHead(Myself,@400462)
 END
 
+// Parche p_stf1
+IF
+  InParty(Myself)  
+  PartyHasItem("p_stf1")
+  PartyHasItem("p_stf2")
+  Global ("P_Dusk_Patch_p_stf1","GLOBAL",0)
+THEN
+  RESPONSE #100
+  TakePartyItem("p_stf1")
+  DestroyItem("p_stf1")
+  SetGlobal ("P_Dusk_Patch_p_stf1","GLOBAL",1)
+END
+
 
 // Bastón de combate de Dusk ha sido mejorado - 2
 IF
@@ -143,6 +156,19 @@ THEN
   CreateItem ("p_stf3A",1,1,1)
   SetGlobal ("P_Dusk_ImproveStaff_1","GLOBAL",4)
   DisplayStringHead(Myself,@400462)
+END
+
+// Parche p_stf2
+IF
+  InParty(Myself)  
+  PartyHasItem("p_stf2")
+  PartyHasItem("p_stf3A")
+  Global ("P_Dusk_Patch_p_stf2","GLOBAL",0)
+THEN
+  RESPONSE #100
+  TakePartyItem("p_stf2")
+  DestroyItem("p_stf2")
+  SetGlobal ("P_Dusk_Patch_p_stf2","GLOBAL",1)
 END
 
 // ***************************************************************

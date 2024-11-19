@@ -1,0 +1,71 @@
+IF
+  Allegiance(Myself,GOODCUTOFF)
+  !CheckSpellState(Player1,SHAMANIC_DANCE)
+  !CheckSpellState(Player2,SHAMANIC_DANCE)
+  !CheckSpellState(Player3,SHAMANIC_DANCE)
+  !CheckSpellState(Player4,SHAMANIC_DANCE)
+  !CheckSpellState(Player5,SHAMANIC_DANCE)
+  !CheckSpellState(Player6,SHAMANIC_DANCE)
+THEN
+  RESPONSE #100
+    ApplySpellRES("BDSHUNSU",Myself)  // <Invalid Strref -1>
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+  Allegiance(Myself,GOODCUTOFF)
+  Detect([PC.0.0.SHAMAN])
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    MoveToObject([PC.0.0.SHAMAN])
+END
+
+IF
+  Allegiance(Myself,GOODCUTOFF)
+  !Detect([PC.0.0.SHAMAN])
+THEN
+  RESPONSE #100
+    ApplySpellRES("BDSHUNSU",Myself)  // <Invalid Strref -1>
+END
+
+IF
+  Allegiance(Myself,EVILCUTOFF)
+  !CheckSpellState(LastSummonerOf(Myself),SHAMANIC_DANCE)
+THEN
+  RESPONSE #100
+    ApplySpellRES("BDSHUNSU",Myself)  // <Invalid Strref -1>
+END
+
+IF
+  Allegiance(Myself,EVILCUTOFF)
+  !Range([EVILCUTOFF.0.0.SHAMAN],30)
+THEN
+  RESPONSE #100
+    ApplySpellRES("BDSHUNSU",Myself)  // <Invalid Strref -1>
+END
+
+IF
+  Global("BDHELM16","LOCALS",0)
+  HasItemEquiped("BDHELM16",LastSummonerOf(Myself))
+THEN
+  RESPONSE #100
+    SetGlobal("BDHELM16","LOCALS",1)
+    ApplySpellRES("BDHELM16",Myself)  // <Invalid Strref -1>
+END
+
+IF
+  Global("BDAMUL26","LOCALS",0)
+  HasItemEquiped("BDAMUL26",LastSummonerOf(Myself))
+THEN
+  RESPONSE #100
+    SetGlobal("BDAMUL26","LOCALS",1)
+    ApplySpellRES("BDAMUL26",Myself)  // <Invalid Strref -1>
+END
+

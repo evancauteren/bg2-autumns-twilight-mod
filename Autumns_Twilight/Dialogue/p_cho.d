@@ -125,7 +125,7 @@ END
 
 IF ~Global ("P_FallChoNujaNearestDead1","GLOBAL",1) AreaCheck("P_FA11")~ THEN BEGIN 21 // from:
   SAY @43 /* *tos* N-no puede ser... tu poder es demasiado. Debo... debo advertir a los demás. Puede que me hayas derrotado y quitado mi piedra, soldado, pero no podrás derrotar a Rask'tar Krathiss. Nadie jamás le ha vencido... Nos vemos en el Pantano... */
-  IF ~~ THEN DO ~SetGlobal ("P_FallMesothelNearestDead1","GLOBAL",2) GiveItem("P_FTALI5", LastTalkedToBy) RunAwayFrom([PC],20) DestroySelf()~ UNSOLVED_JOURNAL @310047 EXIT
+  IF ~~ THEN DO ~SetGlobal ("P_FallChoNujaNearestDead1","GLOBAL",2) GiveItem("P_FTALI5", LastTalkedToBy) RunAwayFrom([PC],20) DestroySelf()~ UNSOLVED_JOURNAL @310047 EXIT
 END
 
 // AREA 12A

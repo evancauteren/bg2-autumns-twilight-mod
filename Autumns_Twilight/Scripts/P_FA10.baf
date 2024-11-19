@@ -2,7 +2,7 @@ IF
 Global("P_ChoF10Spawn","GLOBAL",0)
 THEN
 RESPONSE #100
-CreateCreature("P_CHO",[637.476],SW)
+CreateCreature("P_CHO",[510.432],SW)
 SetGlobal("P_ChoF10Spawn","GLOBAL",1)
 END
 
@@ -12,6 +12,18 @@ THEN
 RESPONSE #100
 CreateCreature("P_VRESH",[584.472],SW)
 SetGlobal("P_VreshF10Spawn","GLOBAL",1)
+END
+
+// Parche para eliminar a Cho
+IF
+Exists("P_CHO")
+Global("P_FMeetingCho","GLOBAL",2)
+Global("P_ChoPatch_DS_FA10","GLOBAL",0)
+THEN
+RESPONSE #100
+Wait(4)
+ActionOverride("P_CHO",DestroySelf())
+SetGlobal("P_ChoPatch_DS_FA10","GLOBAL",1)
 END
 
 IF

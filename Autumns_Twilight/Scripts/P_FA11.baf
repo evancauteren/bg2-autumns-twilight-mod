@@ -34,3 +34,15 @@ CreateCreature("p_flizc1",[765.501],4)
 SetGlobal("P_FallM4F11_SpawnEnemies","GLOBAL",1)
 Continue()
 END
+
+// Parche para eliminar a Cho
+IF
+Exists("P_CHO")
+Global ("P_FallChoNujaNearestDead1","GLOBAL",2)
+Global("P_ChoPatch_DS_FA11","GLOBAL",0)
+THEN
+RESPONSE #100
+Wait(4)
+ActionOverride("P_CHO",DestroySelf())
+SetGlobal("P_ChoPatch_DS_FA11","GLOBAL",1)
+END
