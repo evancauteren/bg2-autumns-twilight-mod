@@ -122,15 +122,21 @@ Yes, feel free to crossmod your mod with ours. It's not mandatory to credit us, 
 </p>
 <p align="center">
     <img src="docs/images/v1.1/06.jpg?raw=true" width="820">
-</p>
+</p>  
+
 - Adjusted experience points gained from defeating enemies (affects all minions). See below:
+
 <p align="center">
     <img src="docs/images/v1.1/07.jpg?raw=true" width="820">
 </p>
 <p align="center">
     <img src="docs/images/v1.1/08.jpg?raw=true" width="820">
 </p>
-- Lots of other changes. Please, refer to the release notes in Current Release page.
+
+- Added difficulty level selector.
+<p align="center">
+    <img src="docs/images/v1.1/09.jpg?raw=true" width="820">
+</p>
 
 ## Credits
 
