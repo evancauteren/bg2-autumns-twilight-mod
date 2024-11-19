@@ -2887,15 +2887,7 @@ I_C_T SUELHAN 6 P_DuskSUELHAN6
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0) Global("P_Dusk_T12","GLOBAL",3) ~ THEN @127 /* ¡Debemos apresurarnos, <CHARNAME>! La ciudad de los elfos corre peligro. ¡Por la memoria de Celine protegeré a los suyos! */
 END
 
-I_C_T p_belld 5 P_DuskBelld1
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3254 /* Mi pequeño amigo, Michelson, mencionó algo sobre una alteración en el tiempo. No creí que algo así fuese posible. */
-== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3255 /* El mundo de la magia tiene la capacidad de alterar el tiempo y el espacio. */
-== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3256 /* En mi enfrentamiento contra el destacamento de Kartlzer, mi magia druídica colisionó contra la magia arcana de su hechicero. */
-== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3257 /* El anillo que ahora tu grupo posee, fue el conductor de dicho evento... No creo que pueda explicar concretamente lo que sucedió... */
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3258 /* Pues... sea lo que sea, tu historia en el Bosque de Mir aún no ha sucedido. Eso me confunde... */
-== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3259 /* No tienes necesidad de entender todo lo que te rodea, mortal. A veces, las cosas... simplemente suceden. */
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3261 /* Es verdad que soy un mortal, ninfa... pero mis amigos me llaman Dusk. Tú también puedes hacerlo. */
-END
+
 
 
 // Agregados

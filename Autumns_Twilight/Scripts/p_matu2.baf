@@ -17,6 +17,7 @@ Allegiance("p_kaland", ENEMY)
 Allegiance("p_dempid", ENEMY)
 THEN
 RESPONSE #100
+  Wait(2)
   Enemy()
 END
 
@@ -42,6 +43,7 @@ IF
 THEN
   RESPONSE #100
 	SetGlobal ("P_Dusk_Mat2_enem","GLOBAL",1)
+	Wait(1)
 	Enemy()
 	Continue()
 END
@@ -62,6 +64,7 @@ IF
   AttackedBy([ANYONE],DEFAULT)
 THEN
   RESPONSE #100
+    Wait(1)
     Enemy()
 	AttackReevaluate(NearestEnemyOf(Myself),45)
 END

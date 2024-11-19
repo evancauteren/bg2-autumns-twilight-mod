@@ -48,3 +48,15 @@ ActionOverride ("P_RASK", DestroySelf())
 SetGlobal("P_IsRaskDead","GLOBAL",1)
 Continue()
 END
+
+// Parche para eliminar a Cho
+IF
+Exists("P_CHO")
+Global("P_FMeetingCho","GLOBAL",4)
+Global("P_ChoPatch_DS_FA12","GLOBAL",0)
+THEN
+RESPONSE #100
+Wait(4)
+ActionOverride("P_CHO",DestroySelf())
+SetGlobal("P_ChoPatch_DS_FA12","GLOBAL",1)
+END

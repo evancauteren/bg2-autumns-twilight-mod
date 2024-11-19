@@ -42,6 +42,18 @@ StartDialogueNoSet(Player1)
 SetGlobal ("P_FallMetBrostFriendsAR14TLK","GLOBAL",1)
 END
 
+// Patch V1.0 to V1.1
+IF
+InParty(Myself)
+Global ("P_FallEraseFamiliarSpell","GLOBAL",1)
+Global ("P_FallUpdateV1_1","GLOBAL",0)
+THEN
+RESPONSE #100
+ApplySpellRES ("P_FPATC1", Myself)
+DisplayStringHead (Myself, @600147)
+SetGlobal ("P_FallUpdateV1_1","GLOBAL",1)
+Continue ()
+END
 
 // Erasing FamiliarSpell
 IF
@@ -56,6 +68,7 @@ RESPONSE #100
   UseItem ("p_fremo1", Myself)
   DestroyItem ("p_fremo1")
   SetGlobal ("P_FallEraseFamiliarSpell","GLOBAL",1)
+  SetGlobal ("P_FallUpdateV1_1","GLOBAL",1)
 END
 
 //Patch Kakuto Loss Stats

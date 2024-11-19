@@ -356,7 +356,15 @@ I_C_T P_BELLD 7 P_Dusk_Bellf_Cernd1
 == CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @97216 /* Tenía mis sospechas de eso, pero no estaba tan seguro. Aún así, el Equilibrio indica que deberías estar en este Plano, ninfa. Espero que puedas encontrar el camino a casa... la madre naturaleza así lo quiere. */
 END
 
-
+I_C_T P_BELLD 5 P_DuskBelld1
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @9723254 /* Mi pequeño amigo, Michelson, mencionó algo sobre una alteración en el tiempo. No creí que algo así fuese posible. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @9723255 /* El mundo de la magia tiene la capacidad de alterar el tiempo y el espacio. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @9723256 /* En mi enfrentamiento contra el destacamento de Kartlzer, mi magia druídica colisionó contra la magia arcana de su hechicero. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @9723257 /* El anillo que ahora tu grupo posee, fue el conductor de dicho evento... No creo que pueda explicar concretamente lo que sucedió... */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @9723258 /* Pues... sea lo que sea, tu historia en el Bosque de Mir aún no ha sucedido. Eso me confunde... */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @9723259 /* No tienes necesidad de entender todo lo que te rodea, mortal. A veces, las cosas... simplemente suceden. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @9723261 /* Es verdad que soy un mortal, ninfa... pero mis amigos me llaman Dusk. Tú también puedes hacerlo. */
+END
 
 
 I_C_T P_BELLD 16 P_Dusk_M3_DecisionBF

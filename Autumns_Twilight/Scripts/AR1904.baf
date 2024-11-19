@@ -8,6 +8,31 @@ SetGlobal("p_huronSpawn","GLOBAL",1)
 Continue()
 END
 
+// Si el combate empieza antes de tiempo, Dusk fallará en llamar a los aliados y el orbe desaparecerá del inventario
+IF
+Global("P_DuskM3LLAMA_ORBET_CHEESE","GLOBAL",0)
+PartyHasItem("p_orbet1")
+Global("P_DuskM3LLAMA_ORBET","GLOBAL",0)
+OR(9)
+Allegiance("p_alabar", ENEMY)
+Allegiance("p_bob", ENEMY)
+Allegiance("p_kocha", ENEMY)
+Allegiance("p_komar", ENEMY)
+Allegiance("p_mike", ENEMY)
+Allegiance("p_serra", ENEMY)
+Allegiance("p_toxsan", ENEMY)
+Allegiance("p_xeb", ENEMY)
+Allegiance("p_toxsan", ENEMY)
+THEN
+RESPONSE #100
+Wait(3)
+ActionOverride("P_DUSK", DestroyItem("p_orbet1"))
+ActionOverride("P_DUSK", DisplayStringHead(Myself, @600146))
+SetGlobal("P_DuskM3LLAMA_ORBET_CHEESE","GLOBAL",1)
+Continue()
+END
+
+
 IF
 Global("p_alabarSpawn","GLOBAL",0)
 Global("P_DuskMatMission3","GLOBAL",6)

@@ -1391,7 +1391,7 @@ Besondere Fähigkeiten:
 
 - Reptilianische Regeneration: Cho'Nuja regeneriert 1 Trefferpunkt alle 10 Sekunden.
 
-- Schaden: 1D10 +5
+- Schaden: 1D6 +5
 - THAC0: +5
 - Basisschadenstyp: Schneiden
 - Geschwindigkeitsfaktor: 2
@@ -1410,7 +1410,7 @@ Besondere Fähigkeiten:
 
 - Verbesserte Beschleunigung: Jeder Angriff hat eine 20%ige Chance, den Wildguard für 6 Sekunden zu beschleunigen.
 
-- Schaden: 1D8 +5, +2 Punkte Schneidenschaden
+- Schaden: 1D4 +5, +1 Punkte Schneidenschaden
 - THAC0: +5
 - Basisschadenstyp: Durchdringend
 - Geschwindigkeitsfaktor: 0
@@ -1429,7 +1429,7 @@ Besondere Fähigkeiten:
 
 - Lähmung: Jeder Angriff hat eine 15%ige Chance, den Gegner für 6 Sekunden zu betäuben.
 
-- Schaden: 1D4 +5, +2 Punkte Schneidenschaden
+- Schaden: 1D2 +5, +1 Punkte Schneidenschaden
 - THAC0: +5
 - Basisschadenstyp: Schlag
 - Geschwindigkeitsfaktor: 1
@@ -1446,9 +1446,9 @@ CHARAKTERISTIKEN:
 
 Besondere Fähigkeiten:
 
-- Heilung: Jeder Angriff hat eine 25%ige Chance, Cho um 25 Trefferpunkte zu heilen.
+- Heilung: Jeder Angriff hat eine 15%ige Chance, Cho um 25 Trefferpunkte zu heilen.
 
-- Schaden: 1D4 +5
+- Schaden: 1D2 +5
 - Säureschaden: 1D3
 - THAC0: +5
 - Basisschadenstyp: Durchdringend
@@ -1468,8 +1468,8 @@ Besondere Fähigkeiten:
 
 - Verlangsamung: Jeder Angriff hat eine 10%ige Chance, den Gegner für 20 Sekunden zu verlangsamen.
 
-- Schaden: 1D6 +5, +1 Punkt Durchdringungsschaden
-- Kälteschaden: 1D4
+- Schaden: 1D3 +5, +1 Punkt Durchdringungsschaden
+- Kälteschaden: 1D2
 - THAC0: +5
 - Basisschadenstyp: Schneiden
 - Geschwindigkeitsfaktor: 2
@@ -1495,7 +1495,6 @@ Besondere Fähigkeiten:
 
 - Drachenbeschleunigung: Einmal pro Tag kann Cho'Nuja seine drachenspezifische Beschleunigung aktivieren, die eine lange Dauer von 8 Stunden hat. Sie kann aufgehoben werden.
 
-Rüstungswert: +1
 Rüstungswert gegen Projektilangriffe: +5
 Verteidigung gegen Projektilschaden: +10%
 Gewicht: 0
@@ -1510,7 +1509,6 @@ Besondere Fähigkeiten:
 
 - Drachenbeschleunigung: Einmal pro Tag kann Cho'Nuja seine drachenspezifische Beschleunigung aktivieren, die für verlängerte 8 Stunden anhält. Sie kann aufgehoben werden.
 
-Rüstungswert: +1
 Rüstungswert gegen Schneidangriffe: +5
 Verteidigung gegen Schneid-, Durchdringungs- und Schlag-Schaden: +10%
 Infravision
@@ -1527,7 +1525,6 @@ Gewicht: 0
 
 CHARAKTERISTIKEN:
 
-Rüstungswert: +1
 Rüstungswert gegen Schlagangriffe: +5
 THAC0: +1
 
@@ -3013,7 +3010,7 @@ Kampfeigenschaften:
 - Gift: Das Opfer muss einen Todes-/Gift-Rettungswurf (von 0) ablegen oder erleidet 4 Punkte Schaden pro Sekunde für 3 Runden.
 
 THAC0: +6
-Schaden: 1D10+6, +1d4 Giftschaden.
+Schaden: 1D6+6, +1d4 Giftschaden.
 Schadenstyp: Durchdringend
 Gewicht: 7 lbs
 Geschwindigkeitsfaktor: 0
@@ -4645,14 +4642,17 @@ Typ: einhändig~
 @600047  = ~Mitternachtsumhang
 Level: Innate
 Reichweite: Der Krieger
-Dauer: 3 Runden
 Zauberzeit: Sofort
 Bereich der Wirkung: Der Krieger
 Rettungswurf: Keine
 
 BESCHREIBUNG:
 
-Ähnlich wie bei Verbessertem Unsichtbarwerden wird sich der elven Krieger in Schatten hüllen und darin bleiben, selbst wenn er entdeckt wird (obwohl er trotzdem angegriffen werden kann). Während der Effekt anhält, erhält er einen +4 Bonus auf Rettungswürfe und Angriffe des Gegners erleiden einen -4 Malus. Der Effekt hält 3 Runden an. Er kann aufgehoben werden.~
+Ähnlich wie bei der Verbesserte Unsichtbarkeit hüllt sich der elfische Krieger in Schatten und bleibt in ihnen, selbst wenn er entdeckt wird (obwohl er trotzdem angegriffen werden kann). Während der Effekt anhält, erhält er einen Bonus von +4 auf seine Rettungswürfe, und die Angriffe der Feinde erleiden einen Malus von -4. Der Effekt kann aufgehoben werden. Er wird auch die Effekte des Segens bieten, während der Effekt anhält (Erhöhung der Angriffswürfe, des Schadens und der Moral). 
+Die Effekte halten je nach Level des Zaubernden an: 
+Auf Stufe 5: 3 Runden 
+Auf Stufe 10: 6 Runden 
+Auf Stufe 15: 10 Runden~
 @600048  = ~Dämmerungsklinge~
 @600049  = ~dämmerungsklinge~
 @600050  = ~DÄMMERUNGSKLINGE: Elfenkrieger machen das Beste aus ihrer Rassenfähigkeit, die Kunst des Krieges zu meistern.
@@ -4665,8 +4665,11 @@ Vorteile:
 - Kann zurückstechen. Der Multiplikator beträgt x2 bis Stufe 12, dann erhöht er sich auf x3.
 - Kann alle 5 Stufen Mitternachtsumhang nutzen (beginnt mit einer Verwendung auf Stufe 5).
 
-MITTERNACHTSUMHANG:
-Ähnlich wie bei Verbessertem Unsichtbarwerden wird sich der elven Krieger in Schatten hüllen und darin bleiben, selbst wenn er entdeckt wird (obwohl er trotzdem angegriffen werden kann). Während der Effekt anhält, erhält er einen +4 Bonus auf Rettungswürfe und Angriffe des Gegners erleiden einen -4 Malus. Der Effekt hält 3 Runden an. Er kann aufgehoben werden.
+MITTERNACHTSUMHANG: Ähnlich wie bei der Verbesserte Unsichtbarkeit hüllt sich der elfische Krieger in Schatten und bleibt in ihnen, selbst wenn er entdeckt wird (obwohl er trotzdem angegriffen werden kann). Während der Effekt anhält, erhält er einen Bonus von +4 auf seine Rettungswürfe, und die Angriffe der Feinde erleiden einen Malus von -4. Der Effekt kann aufgehoben werden. Er wird auch die Effekte des Segens bieten, während der Effekt anhält (Erhöhung der Angriffswürfe, des Schadens und der Moral). 
+Die Effekte halten je nach Level des Zaubernden an: 
+Auf Stufe 5: 3 Runden 
+Auf Stufe 10: 6 Runden 
+Auf Stufe 15: 10 Runden
 
 Nachteile:
 
@@ -4684,61 +4687,98 @@ Nachteile:
 Vorteile:
 
 - Meisterschaftsspezialisierung: Schleudern (kann bis zu 5 Punkte in diese Waffe setzen)
-- Er erhält alle 6 Stufen bis zur Stufe 18 einen +1 Bonus auf Angriff und +1 auf Schaden mit Fernkampfwaffen.
-- Attributswahl: +1 Bonus auf Geschicklichkeit
-- Kann einmal pro Tag alle 4 Stufen einen gezielten Schuss verwenden.
+- Erhält alle 6 Stufen einen Bonus von +1 auf Angriff und +1 auf Schaden mit Fernkampfwaffen.
+- Attributsauswahl: +1 Bonus auf Stärke und Geschicklichkeit.
 
-GEZIELTER SCHUSS: Jeder erfolgreiche Fernangriff, der innerhalb von 10 Sekunden nach Aktivierung dieser Fähigkeit durchgeführt wird, verursacht kumulative zusätzliche Effekte neben normalem Schaden, abhängig von der Stufe des Werfers.
+- Die Schattenwerfer erhöhen ihre Angriffsgeschwindigkeit mit folgender Progression:
+ Stufe 7: +0,5 APR und +1 zum Angriffs-Geschwindigkeitsfaktor.
+ Stufe 10: +0,5 zu APR.
+ Stufe 16: +0,5 zu APR und +1 zum Angriffs-Geschwindigkeitsfaktor.
+ Stufe 20: +0,5 zu APR.
 
- Stufe 4: -1 auf den THAC0 des Ziels.
- Stufe 8: -1 auf die Rettungswürfe des Ziels gegen Zauber.
- Stufe 12: -1 auf die Stärke des Ziels.
- Stufe 16: +2 Bonus auf Schaden.
+- Kann das Glück des Champions einmal pro Tag alle 4 Stufen verwenden.
+
+GLÜCK DES CHAMPIONS: Durch Aktivierung dieser angeborenen Fähigkeit verbessert der Schattenwerfer seine Fernangriffe sowie seine eigenen offensiven Fähigkeiten:
+
+ Stufe 4: -1 zum THAC0 des Ziels und +1 zur Glück des Benutzers. Dauer: 10 Sekunden.
+ Stufe 8: -1 zu den Rettungswürfen des Ziels gegen Zauber und +2 zur Stärke des Benutzers. Dauer: 15 Sekunden.
+ Stufe 12: -1 zur Stärke des Ziels und +2 Schaden pro erfolgreichem Angriff. Dauer: 20 Sekunden.
+ Stufe 16: Ein weiterer Bonus von +2 zum Schaden und +1 zu APR. Dauer: 25 Sekunden.
 
 Nachteile:
 
-- Muss Halblinge sein.
-- Die einzige Fernkampfwaffe, in die sie Fertigkeitspunkte investieren können, ist die Schleuder.
-- Obwohl sie Nahkampfwaffen, die der Diebesklasse zugeordnet sind, führen können, können sie nur 1 Punkt in Kurzschwert, Stab und Dolch setzen.
-- Der Rückstichmultiplikator ist auf x3 begrenzt (ab Stufe 12).
-- Sie erhalten nur 20 Fertigkeitspunkte pro Stufe, um sie in Diebesfähigkeiten zu investieren.~
+- Müssen Halblinge sein.
+- Die einzige Fernkampfwaffe, die sie mit Fertigkeitspunkten versehen können, ist die Schleuder.
+- Obwohl sie Nahkampfwaffen, die auf die Diebesklasse beschränkt sind, führen können, dürfen sie nur 1 Punkt in Kurzschwert, Stab und Dolch investieren.
+- Der Hinterhalt-Multiplikator ist auf x2 begrenzt.
+- Sie erhalten nur 15 Fertigkeitspunkte pro Level, um ihnen Diebesfähigkeiten zuzuweisen.~
 @600055  = ~SCHATTENWERFER: Der Halbling-Schurke hat sich stark auf den Einsatz der Schleuder spezialisiert und dabei einige Fähigkeiten im Nahkampf und im Diebstahl geopfert.~
 
 @600056  = ~Hybrid-Agent~
 @600057  = ~hybrid-agent~
-@600058  = ~HYBRID-AGENT: Halb-Elfen werden aufgrund ihres hybriden Blutes ausgebildet, um bardische und Diebesfähigkeiten zu maximieren.
+@600058 = ~HYBRIDAGENT: Halbelfen werden aufgrund ihres hybriden Blutes trainiert, um ihre bardischen und diebischen Fähigkeiten zu maximieren.
 
 Vorteile:
 
-- Als besondere Fähigkeit können sie einmal pro Tag und Stufe (beginnend mit einer Verwendung auf Stufe 1) Fallen entdecken und Schlösser öffnen.
-- Sie können Fallen mit der Expertise eines Meisterdiebs stellen (einmal pro Tag alle 5 Stufen).
+- Als Spezialfähigkeit können sie Fallen entdecken und Schlösser knacken einmal pro Tag und pro Stufe verwenden (beginnend mit einer Nutzung auf Stufe 1).
+- Kann Rückenschläge ausführen. Der Multiplikator ist x2 bis Stufe 12, dann steigt er auf x3.
+- Kann unsichtbar werden: 1 Nutzung alle 6 Stufen.
+- Kann verbesserte Hast als Spezialfähigkeit einsetzen: 1 Nutzung alle 9 Stufen.
+- Sie können Fallen mit der Expertise eines Meisterdiebs aufstellen:
+ * Falle stellen: Einmal täglich alle 6 Stufen.
+ * Verwirrfalle stellen: Einmal täglich alle 8 Stufen (ab Stufe 8).
+ * Stillefalle stellen: Einmal täglich alle 8 Stufen (ab Stufe 8).
+
+- Bardenlied: Neben den Grundeigenschaften des Bardenlieds wird das Lied des Hybridagenten auch Illusionen und Unsichtbarkeit bei allen Kreaturen außerhalb der Gruppe bannen.
 
 Nachteile:
 
-- Muss Halb-Elfen sein.
-- Können keine Fertigkeitspunkte in zweihändigen Fernkampfwaffen (Kurzbogen, Langbogen und Armbrust) investieren.~
+- Müssen Halbelfen sein.
+- Können keine Fertigkeitspunkte in zweihändige Fernkampfwaffen (Kurzbogen, Langbogen und Armbrust) vergeben.
+- Magieresistenzabzug: -10%.
+- Rüstungsabwehr-Abzug: -1~
 @600059  = ~HYBRID-AGENT: Halb-Elfen werden aufgrund ihres hybriden Blutes ausgebildet, um bardische Fähigkeiten und Diebstahl zu maximieren.~
 
-@600060  = ~Nebelweber~
-@600061  = ~nebelweber~
-@600062  = ~NEBELWEBER: Halb-Ork-Schamanen, die mit diesem Geschenk geboren wurden, können die Welt der Träume mit der materiellen Ebene verbinden.
+@600060  = ~Traumweber~
+@600061  = ~traumweber~
+@600062  = ~TRAUMWEBER: Halbork-Schamanen, die mit diesem Geschenk geboren wurden, können die Welt der Träume mit der Materiellen Ebene verbinden.
 
 Vorteile:
 
-- Sie können den Schleier der Träume einmal pro Tag alle 8 Schamanenstufen bis zur Stufe 16 wirken (beginnend mit 1 Verwendung auf Stufe 1).
+- Fertigkeit: Der Traumweber kann 2 Punkte in jeden Kampfstil investieren.
+- Hat Zugang zu den folgenden Zaubern:
 
-SCHLEIER DER TRÄUME: Der Nebelweber verzerrt sein Bild, was es Gegnern erschwert, ihn zu treffen. Diese Verzerrung verursacht einen -3 Malus auf alle Projektile und Nahkampfangriffe gegen ihn. Zusätzlich erhält er einen +1 Bonus auf alle Rettungswürfe.
+ Auf Stufe 1: Schutz und Befehl (Stufe 1)
+ Auf Stufe 3: Schlaf (Stufe 2)
+ Auf Stufe 5: Emotion: Hoffnungslosigkeit und Machtwort Schlaf (Stufe 3)
+ Auf Stufe 7: Großes Unheil (Stufe 4)
+ Auf Stufe 9: Großes Kommando und Nishruu Beschwören (Stufe 5)
+ Auf Stufe 11: Hakeashar Beschwören und Bildprojizierung (Stufe 6)
+ Auf Stufe 13: Simulakrum (Stufe 7)
+ 
+HINWEIS: Projektiertes Bild und Simulakrum-Duplikate können den Schamanentanz nicht ausführen.
+ 
+- Der Traumweber kann sich frei bewegen, während er den Schamanentanz anruft, wodurch die Geister dicht folgen, bis sie auf Feinde treffen. Während dieser Trance kann der Traumweber auch Zauber wirken und angeborene Fähigkeiten einsetzen, obwohl dies den Tanz beenden wird.
+- Die Geister des Traumwebers bleiben in der Nähe, auch wenn der Schamanentanz endet. Diese Geister verweilen etwa 10 Minuten lang und schützen ihren Beschwörer über die Tanzdauer hinaus. Darüber hinaus erleiden Traumweber keine Strafpunkte auf die Rüstungsklasse, während sie den Schamanentanz ausführen.
 
-- Sie können die Wolke der Träume einmal pro Tag alle 10 Schamanenstufen wirken (beginnend mit 1 Verwendung auf Stufe 1).
+Angeborene Fähigkeiten:
+- Sie können Schleier der Träume einmal pro Tag alle 4 Schamanenlevel (beginnt mit 1 Verwendung auf Stufe 1) wirken.
 
-WOLKE DER TRÄUME: Der Nebelweber entlässt einen Nebel in einem Radius von 9 Metern. Jede Kreatur, die sich darin befindet, muss einen Rettungswurf gegen Zauber ablegen oder wird für 25 Sekunden ohnmächtig.
+SCHLEIER DER TRÄUME: Der Traumweber verzerrt sein Bild, was es den Gegnern erschwert, ihn zu treffen. Diese Verzerrung verhängt eine Strafe von -3 auf alle Geschoss- und Nahkampfangriffe gegen ihn. Zusätzlich erhalten sie einen Bonus von +1 auf alle Rettungswürfe. Der Schleier der Träume macht den Schamanen auch unsichtbar für Feinde durch Zuflucht. Selbst wenn der Feind die Unsichtbarkeit durch Wahrsagerei aufheben kann, bleiben die defensiven Effekte der Fähigkeit bestehen, bis sie ablaufen (10 Minuten) oder erfolgreich aufgehoben werden.
+
+- Sie können einmal pro Tag alle 10 Schamanenlevel (beginnt mit 1 Verwendung auf Stufe 1) die Wolke der Träume wirken.
+
+WOLKE DER TRÄUME: Der Traumweber setzt einen Nebel in einem Radius von 9 Metern frei. Jedes Wesen, das darin gefangen ist, muss einen Rettungswurf gegen Zauber ablegen oder 25 Sekunden lang bewusstlos werden. Der Schamane und die Geister von <PRO_HISHER> sind immun gegen die Effekte der Wolke der Träume.
 
 Nachteile:
 
-- Muss Halb-Ork sein.
-- Charisma-Malus von -2 bei der Charaktererstellung.
-- Rüstungswert-Malus von 1.~
-@600063  = ~NEBELWEBER: Halb-Ork-Schamanen, die mit diesem Geschenk geboren wurden, können die Welt der Träume mit der materiellen Ebene verbinden.~
+- Sie müssen Halb-Orks sein.
+- Die Chance, dass ein Geist auf den Ruf reagiert, wird auf 50% reduziert.
+- Ihre Fähigkeit zur Illusionserkennung steigt nur mit einem Viertel der Geschwindigkeit eines Standard-Schamanen.
+- Charisma-Strafe von -2 bei der Charaktererstellung.
+- Rüstungswertstrafe von 1.~
+
+@600063  = ~TRAUMWEBER: Halb-Ork-Schamanen, die mit diesem Geschenk geboren werden, sind in der Lage, die Welt der Träume mit der Materiellen Ebene zu vermischen.~
 
 @600064  = ~Spiegelklinge/Illusionist~
 @600065  = ~spiegelklinge/illusionist~
@@ -4786,13 +4826,13 @@ Vorteile:
 
 Alle 10 Stufen wird entsprechend 1 Verwendung zu jedem Projektile hinzugefügt.
 
-Stufe 1: Explosive Pfeil
-Stufe 3: Explosive Kugel
-Stufe 5: Explosiver Bolzen
-Stufe 7: Explosive Wurfgeschoss
-Stufe 9: Explosiver Dolch
-Stufe 11: Explosive Wurfaxt
-Stufe 13: Explosives Wurfjavelin
+Stufe 1: Explosiver Pfeil - Auf STUFE 20, zusätzlicher Schaden: Säure
+Stufe 3: Explosives Geschoss - Auf STUFE 20, zusätzlicher Schaden: Elektrisch
+Stufe 5: Explosiver Bolzen - Auf STUFE 20, zusätzlicher Schaden: Magisch
+Stufe 7: Explosiver Pfeil - Auf STUFE 20, zusätzlicher Schaden: Kälte
+Stufe 9: Explosiver Dolch - Auf STUFE 20, zusätzlicher Schaden: Gift
+Stufe 11: Explosive Wurfaxt - Auf STUFE 20, zusätzlicher Schaden: Wucht
+Stufe 13: Explosiver Speer - Auf STUFE 20, zusätzlicher Schaden: Stich
 
 Nachteile:
 
@@ -4984,6 +5024,253 @@ Anforderung: Stärke 3~
 @600106  = ~Fluch von Liphix~
 @600107  = ~Dieses seltsame Amulett kann nicht aus deinem Inventar entfernt werden. Du spürst große Macht und Bosheit in ihm, fast so, als wäre es verflucht. Du entscheidest dich, es in Ruhe zu lassen, da das Herumspielen damit gefährlich sein könnte.~
 @600108  = ~Der Fluch von Liphix ist verschwunden.~
+
+@600109  = ~Verwirrende Falle Stellen~
+@600110  = ~Verwirrende Falle Stellen
+Stelle eine Falle an dem gewählten Ort auf, wenn keine feindlichen Kreaturen in Sicht sind. Kann nur von Feinden ausgelöst werden:
+ * Verursacht 4d8+5 Fernkampfschaden und verwirrt das Ziel für 5 Runden, wenn es einen Rettungswurf gegen Zauber mit einer -1-Strafe nicht besteht.~
+
+@600111  = ~Stille-Falle legen~
+@600112  = ~Stille-Falle legen
+Platziere eine Falle am gewählten Ort, wenn keine feindlichen Kreaturen in Sicht sind. Kann nur von Feinden ausgelöst werden:
+ * Verursacht 4d8+5 Projektilschaden und bringt das Ziel für 5 Runden zum Schweigen, wenn ein Rettungswurf gegen Zauber mit -1 Malus misslingt.~
+
+@600113  = ~Schleuder-Champion~
+@600114  = ~Schleuder-Champion
+Beim Aktivieren dieser angeborenen Fähigkeit verbessert der Schleuderer seine Fernangriffe sowie seine eigenen Offensivfähigkeiten:
+* Stufe 4: -1 auf das THAC0 des Ziels und +1 auf das Glück des Benutzers. Dauer: 10 Sekunden.
+* Stufe 8: -1 auf die Rettungswürfe des Ziels gegen Zauber und +2 Stärkebonus für den Benutzer. Dauer: 15 Sekunden.
+* Stufe 12: -1 auf die Stärke des Ziels und +2 Schaden pro erfolgreichem Angriff. Dauer: 20 Sekunden.
+* Stufe 16: Weitere +2 Schadensbonus und +1 auf APR. Dauer: 25 Sekunden.~
+
+@600115  = ~Giftwache~
+@600116  = ~Lobixon Cabal war ein Ritter, der sich auf den Kampf gegen Phasenspinnen spezialisierte. Als Mitglied der Feldwächter führte Lobixon stets die Kämpfe gegen die Arachniden an, die in den Landen der Schwertküste lauerten. Obwohl er von den Spinnen gebissen wurde, schien ihr Gift nicht in sein Blut eindringen zu können. Schließlich überwältigten ihn die Arachniden und schafften es, seinen Schild zu durchbrechen. Erst dann wirkten die Bisse, und das Gift verzehrte seinen Verstand. Obwohl er den Angriff überlebte, verfiel Lobixon in einen unheilbaren Wahnsinn. Das Schicksal seines Schildes, der Giftwache, ging im Laufe der Zeit verloren.
+
+STATISTIKEN:
+
+Ausrüstungsfähigkeiten:
+- Rüstungsklasse: +3, zusätzlich +1 gegen Fernangriffe
+- Immunität gegen Gift
+
+Benötigt:
+ 10 Stärke
+
+Gewicht: 10~
+
+///////// Proyectiles Mejorados
+
+@600117  = ~Explosiver Pfeil (Verbessert)~
+@600118  = ~Projektile, die vom Zwerge-Artificer erschaffen wurden. Der Pfeil detoniert in einem Feuerball und verursacht 5d6 Feuerschaden an allen Kreaturen im Wirkungsbereich. Bei einem Rettungswurf erleidet das Ziel nur die Hälfte des Schadens.
+
+MERKMALE:
+
+Schaden: 5d6 Feuer, +2d4 Säureschaden
+Schadenstyp: Projektil
+Gewicht: 0 lbs
+Projektile-Waffe: Bogen~
+
+@600119  = ~Explosive Kugel (Verbessert)~
+@600120  = ~Projektile, die vom Zwerge-Artificer erschaffen wurden. Die Kugel detoniert in einem Feuerball und verursacht 5d6 Feuerschaden an allen Kreaturen im Wirkungsbereich. Bei einem Rettungswurf erleidet das Ziel nur die Hälfte des Schadens.
+
+MERKMALE:
+
+Schaden: 5d6 Feuer, +2d4 Elektrizitätsschaden
+Schadenstyp: Projektil
+Gewicht: 0 lbs
+Projektile-Waffe: Schleuder~
+@600121  = ~Explosiver Bolzen (Verbessert)~
+@600122  = ~Projektile, die vom Zwerge-Artificer erschaffen wurden. Der Bolzen detoniert in einem Feuerball und verursacht 5d6 Feuerschaden an allen Kreaturen im Wirkungsbereich. Bei einem Rettungswurf erleidet das Ziel nur die Hälfte des Schadens.
+
+MERKMALE:
+
+Schaden: 5d6 Feuer, +2d4 Magieschaden
+Schadenstyp: Projektil
+Gewicht: 0 lbs
+Projektile-Waffe: Armbrust~
+
+@600123  = ~Explosives Wurfgeschoss (Verbessert)~
+@600124  = ~Projektile, die vom Zwerge-Artificer erschaffen wurden. Das Wurfgeschoss detoniert in einem Feuerball und verursacht 5d6 Feuerschaden an allen Kreaturen im Wirkungsbereich. Bei einem Rettungswurf erleidet das Ziel nur die Hälfte des Schadens.
+
+MERKMALE:
+
+Schaden: 1D3, +5d6 Feuer, +2d4 Kälteschaden
+Schadenstyp: Projektil (durchdringend)
+Gewicht: 0 lbs
+Geschwindigkeitsfaktor: 0
+Fertigkeit: Wurfgeschoss
+Waffentyp: Einhand~
+
+@600125  = ~Explosives Messer (Verbessert)~
+@600126  = ~Projektile, die vom Zwerge-Artificer erschaffen wurden. Das Messer wird in einem Feuerball explodieren und 5d6 Feuerschaden an jeder Kreatur im Wirkungsbereich verursachen. Bei einem erfolgreichen Rettungswurf erleidet das Ziel nur die Hälfte des Schadens.
+
+STATISTIKEN:
+
+Schaden: 1D4, +5d6 Feuer, +2d4 Giftschaden
+Schadenstyp: Projektil (durchdringend)
+Gewicht: 0 lbs
+Geschwindigkeitsfaktor: 0
+Fertigkeit: Messer
+Typ: Einhand
+Anforderung: Stärke 3~
+
+
+@600127  = ~Explosiven Axt (Verbessert)~
+@600128  = ~Projektile, die vom Zwerge-Artificer erschaffen wurden. Die Axt detoniert in einem Feuerball und verursacht 5d6 Feuerschaden an allen Kreaturen im Wirkungsbereich. Bei einem Rettungswurf erleidet das Ziel nur die Hälfte des Schadens.
+
+MERKMALE:
+
+Schaden: 1D6, +5d6 Feuer, +2d4 Wucht-Schaden
+Schadenstyp: Projektil (durchdringend)
+Gewicht: 5 lbs
+Geschwindigkeitsfaktor: 1
+Fertigkeit: Axt
+Waffentyp: Einhand
+Anforderung: Stärke 10~
+
+@600129  = ~Explosiven Wurfjavelin (Verbessert)~
+@600130  = ~Projektile, die vom Zwerge-Artificer erschaffen wurden. Der Wurfjavelin detoniert in einem Feuerball und verursacht 5d6 Feuerschaden an allen Kreaturen im Wirkungsbereich. Bei einem Rettungswurf erleidet das Ziel nur die Hälfte des Schadens.
+
+MERKMALE:
+
+Schaden: 1D6, +5d6 Feuer, +2d4 Stich-Schaden
+Schadenstyp: Projektil (durchdringend)
+Gewicht: 5 lbs
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Speer
+Waffentyp: Einhand
+Anforderung: Stärke 5~
+
+
+////// NEW Items
+
+@600131  = ~Reinigender Trank~
+@600132  = ~Bei Konsum stellt dieses Elixier 40 Trefferpunkte für den Trinker wieder her und heilt alle Gifte und Krankheiten; anschließend bietet es dem Ziel Schutz vor allen Arten von Giften, ob natürlicher oder magischer Art. Die Wirkung tritt sofort ein, und der Trank wird dabei zerstört.
+
+STATISTIK:
+
+Besonderes: Stellt 40 Trefferpunkte wieder her, heilt Gift und Krankheiten und
+verleiht dem Ziel 6 Stunden Immunität gegen Gifte.
+
+Gewicht: 1~
+
+@600133  = ~Falkengeschwindigkeit~
+@600134  = ~Falkengeschwindigkeit
+(Veränderung)
+
+Stufe: Angeboren
+Dauer: Speziell
+Zauberdauer: 1
+Wirkungsbereich: Selbst
+Rettungswurf: Keiner
+
+Fall kann ihre Geschwindigkeit und Präzision kanalisieren, um ihre normale Bewegungs- und Angriffsgeschwindigkeit zu verdoppeln und erhält einen +2-Bonus auf die Initiative.
+
+Dauerprogression:
+
+- Stufe 1: 1,5 Runden
+- Stufe 10: 3 Runden
+- Stufe 15: 6 Runden~
+
+@600135  = ~Skarabäus Beschwören~
+@600136  = ~Skarabäus Beschwören
+(Beschwörung)
+
+Stufe: 1
+Sphäre: Tier
+Reichweite: Sichtlinie des Zaubernden
+Dauer: 8 Stunden
+Zauberdauer: 7
+Rettungswurf: Keiner
+
+BESCHREIBUNG:
+
+Dieser Zauber erlaubt es dem Waldläufer, ein kleines Insekt herbeizurufen und es dann auf gigantische Größe zu vergrößern, wodurch es zu einem beeindruckenden Verbündeten wird. Der Skarabäus behält seine angeborenen Fähigkeiten bei und unterstützt im Kampf, indem er den Befehlen des Waldläufers während der Wirkungsdauer des Zaubers gehorcht.~
+
+@600137  = ~Schwarzer Skarabäus~
+
+@600138  = ~Segen des Scharfschützen~
+@600139  = ~Segen des Scharfschützen
+(Beschwörung)
+
+Stufe: 2
+Sphäre: Alle
+Reichweite: 0
+Dauer: Speziell
+Zauberdauer: 3
+Wirkungsbereich: Der Waldläufer
+Rettungswurf: Keiner
+
+BESCHREIBUNG:
+
+Dieser Zauber, eine Technik, die von Falls Vater Gerwulf erschaffen wurde, verleiht ihr unvergleichliche Konzentration und Präzision im Kampf. Wenn er gewirkt wird, steigen Falls Moral und Selbstvertrauen, da sie einen +1 Bonus auf Angriffs- und Schadenswürfe sowie einen +2 Bonus auf THAC0 speziell bei der Verwendung von Fernkampfwaffen erhält.
+
+Die Dauer skaliert mit Falls Level:
+
+Auf Stufe 1: 1 Stunde
+Auf Stufe 10: 2 Stunden
+Auf Stufe 15: 3 Stunden~
+
+@600140  = ~Arkane Bolzen von Evereska~
+@600141  = ~Arkane Bolzen von Evereska
+(Beschwörung)
+
+Stufe: 3
+Reichweite: 0
+Dauer: Spezial
+Zauberzeit: 6
+Wirkungsbereich: Der Waldläufer
+Rettungswurf: Kein
+
+BESCHREIBUNG:
+
+Dieser Zauber, entwickelt von Falls Mutter—einer Zauberin aus Evereska—beschwört eine Handvoll verzauberter Armbrustbolzen. Jeder Bolzen leuchtet schwach mit arkaner Energie und verursacht mächtigen magischen Schaden an den Zielen. Beim Abschießen fügt jeder dieser Bolzen 1d4 Punkte magischen Schadens zu und gewährt einen Bonus von +5 auf Angriffswürfe, wodurch sie sowohl mächtig als auch präzise sind.
+
+Die Anzahl der erzeugten Bolzen skaliert mit Falls Stufe:
+
+Stufe 1: 5 Bolzen
+Stufe 10: 10 Bolzen
+Stufe 15: 15 Bolzen~
+
+@600142  = ~Arkane Bolzen~
+@600143  = ~Diese Bolzen für die Armbrust, erschaffen durch Falls Zauber, sind mit arkaner Macht durchzogen, was ihre Genauigkeit erhöht und zusätzlichen magischen Schaden an den Zielen verursacht.
+
+STATISTIKEN:
+
+THAC0: +5
+Schaden: 1d8 (Geschoss), +1d4 magischer Schaden
+Waffe: Armbrust
+
+Gewicht: 0~
+
+@600144  = ~Schädlingsdurchbohrer~
+@600145  = ~Sylvaris Thornwood war eine elbische Waldläuferin aus den Wäldern von Cormanthor. Sie führte zahllose Angriffe gegen die Spinnen an, die die elbischen Wälder überfielen, und ihre charakteristische Waffe war diese Armbrust. Jahrzehntelang hielt sie die gefährlichen Spinnen in Schach, scheinbar vor ihren Spinnennetz-Attacken geschützt. Wie dieses Artefakt nach Dreach-naga gelangt ist, bleibt ein Rätsel, das du nicht lösen kannst. Nur Waldläufer können es verwenden.
+
+STATISTIKEN:
+
+Besessene Fähigkeiten:
+
+- Immunität gegen Immobilisierung und Lähmung
+- Immunität gegen Spinnennetze
+
+Kampf-Fähigkeiten:
+- Die Armbrust schießt magische Bolzen, wenn keine Munition ausgerüstet ist
+- Spinnen müssen gegen den Tod mit -4 bestehen oder werden völlig zerstört
+
+THAC0: +4
+Schaden: 1d8+4, +1 magischer Schaden
+Geschwindigkeitsfaktor: 0
+Profi-Typ: Armbrust
+Typ: Zwei-Hand
+Benötigt:
+ 8 Stärke
+
+Gewicht: 4~
+@600146  = ~The orb... I couldn't concentrate due to the sudden combat... I have failed to call our allies! We must handle this on our own, <CHARNAME>.~
+@600147  = ~Update V1.1 - Fall learns a new innate ability, and 3 spells are added to her Ranger spellbook.~
+@600148  = ~Spider destroyed~
+
+
+
 
 // Alendir
 @700000  = ~Bin ich... zurück im Leben?~ [p_aleni]
@@ -7698,6 +7985,15 @@ eine Maus in Liebe, ein ewiger Liebhaber.'~
 @9722028 = ~Erinnere dich an unser erstes Gespräch, kleines Wesen. Deine Kindheit. Dein Vater. Die Spinnen. Die Natur.~
 @9722029 = ~Alles geschah aus einem Grund. Aber verzweifle nicht, mein Lieber. Solange du an der Seite deiner Freunde bleibst, wirst du sicher sein.~
 @9722030 = ~Ich verstehe. Danke, Bellfame. Es ist eine Erleichterung, mit dir zu sprechen.~
+
+@9723254  = ~Mein kleiner Freund Michelson erwähnte etwas über eine Störung in der Zeit. Ich hätte nicht gedacht, dass so etwas möglich ist.~
+@9723255  = ~Die Welt der Magie hat die Fähigkeit, Zeit und Raum zu verändern.~
+@9723256  = ~In meinem Zusammenstoß mit Kartlzer's Trupp kollidierte meine druide Magie mit der arkanen Magie ihres Zauberers.~
+@9723257  = ~Der Ring, den eure Gemeinschaft jetzt besitzt, war der Leiter dieses Ereignisses... Ich glaube nicht, dass ich genau erklären kann, was passiert ist...~
+@9723258  = ~Nun... egal was es war, deine Geschichte im Wald von Mir ist noch nicht geschehen. Das verwirrt mich...~
+@9723259  = ~Du musst nicht alles um dich herum verstehen, Sterblicher. Manchmal geschehen Dinge einfach...~
+@9723261  = ~Es ist wahr, dass ich ein Sterblicher bin, Nymphe... aber meine Freunde nennen mich Dusk. Du kannst mich auch so nennen.~
+
 
 // P_ALABAR
 @9730    = ~*knurrt* Es hat funktioniert...~

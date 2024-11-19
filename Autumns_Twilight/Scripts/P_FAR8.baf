@@ -27,6 +27,18 @@ CreateCreature("P_QYL",[1420.613],S)
 SetGlobal("P_QylF8Spawn","GLOBAL",1)
 END
 
+// Parche para eliminar a Cho
+IF
+Exists("P_CHO")
+Global("P_FMeetingQyl","GLOBAL",1)
+Global("P_ChoPatch_DS_FAR8","GLOBAL",0)
+THEN
+RESPONSE #100
+Wait(4)
+ActionOverride("P_CHO",DestroySelf())
+SetGlobal("P_ChoPatch_DS_FAR8","GLOBAL",1)
+END
+
 IF
 Global("P_FMeetingCho","GLOBAL",1)
 Global("P_FBeforeFightF8","GLOBAL",0)

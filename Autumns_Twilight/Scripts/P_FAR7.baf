@@ -3,7 +3,12 @@ IF
 THEN
   RESPONSE #100
     Explore()
+    ClearAllActions()
+	StartCutSceneMode()
+	Wait(3)
 	SetGlobal ("P_FAR7Explored","GLOBAL",1)
+	EndCutSceneMode()
+	Continue()
 END
 
 IF
@@ -16,6 +21,14 @@ THEN
 	// Se activan nuevas Travelling Regions
     TriggerActivation("P_ftr1_ff6b",TRUE) // Debe estar check Deactivated en DLTC
     SetGlobal ("P_Fall_Final_Mission_InitP_F6toB","GLOBAL",1)	
+END
+
+IF
+Global("P_VidomiF7Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_VIDOMI",[582.813],SE)
+SetGlobal("P_VidomiF7Spawn","GLOBAL",1)
 END
 
 IF
@@ -50,13 +63,7 @@ CreateCreature("P_TOBIAS",[451.917],SW)
 SetGlobal("P_TobiasF7Spawn","GLOBAL",1)
 END
 
-IF
-Global("P_VidomiF7Spawn","GLOBAL",0)
-THEN
-RESPONSE #100
-CreateCreature("P_VIDOMI",[582.813],SE)
-SetGlobal("P_VidomiF7Spawn","GLOBAL",1)
-END
+
 
 IF
 Global("P_PhillipeF7Spawn","GLOBAL",0)

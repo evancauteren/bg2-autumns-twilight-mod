@@ -69,7 +69,7 @@ LAF ADD_KIT_EX
 	
     // dualclas      = ~0 0 0 0 0 0~
 	
-    // luabbr        = ~P_HAGE~
+    luabbr        = ~P_LUAGE~
 	
     // stweap        = ~CHAN09 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN4,2 POTN14,5 HAM07 SW1H27 STAF08~
 	
@@ -107,7 +107,7 @@ LAF ADD_KIT_EX
 	
 	thiefscl = ~100 0 0 0 0 0 100 0~
 	
-	// backstab = ~2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3~
+	backstab = ~2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3~
 	
 	// sneakatt = ~2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3~
 	
