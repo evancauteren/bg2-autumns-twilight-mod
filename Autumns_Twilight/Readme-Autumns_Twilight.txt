@@ -190,13 +190,43 @@ Voices:
 
 
 -------------------
-6. Version History
+6. Current Version
 -------------------
 
-Version 1.0.0
-- Initial release
-- Two new secret NPCs will be revealed one week after the mod's release (October 18, 2024)
+Version 1.1.0
 
+* General Fixes and Balancing.
+* Fixed several minor bugs.
+* A disclaimer about language clarity during installation has been added.
+* Balanced five kits. See table.
+
+New Dungeon update:
+* Cho'Nuja as an ally can now die (previously, his HP couldn't drop below 20, so you'll need to be careful to keep him alive if you plan to recruit him as an NPC later).
+* Added difficulty settings: Normal and Hard. These impact enemies’ HP, saving throws, and attributes. They do not affect scripting, and some enemies (like Morgrath or Skel'Tharant) remain the same in both modes.
+* Adjusted experience points gained from defeating enemies (affects all minions). See table.
+* Added new items available in shops and on some enemy corpses:
+* Verminpiercer: A powerful crossbow once wielded by Sylvaris Thornwood, granting immunity to paralysis, and webs. Fires magical bolts if no ammo is equipped and has a lethal effect against spiders.
+* Venomguard: A shield once wielded by knight Lobixon Cabal, granting +3 AC (+4 vs. missiles) and poison immunity.
+* Purifying Draught: This potion heals 40 HP, cures poisons and diseases, and grants poison immunity for 6 hours.
+NPC Tweaks and Updates
+
+Dusk:
+* Reward for Haer-Dalis in Dusk’s quest "Revenge of the First Sword" has been fixed.
+* Royal Avenger base damage was nerfed.
+
+Fall:
+* The Summon Voragor spell has been modified. It can now be summoned up to 20 meters away from the ranger.
+* Added innate ability for Fall: Falcon Speed.
+* Added exclusive spells for Fall:
+* Level 1: Summon Scarab
+* Level 2: Marksman's Blessing
+* Level 3: Arcane Bolts of Evereska
+
+Alendir: 
+* The innate abilities Ice Summoning have been updated: all summons can now be called up to 30 meters away from the Frostmaster.
+
+Cho’Nuja: 
+* Cho'Nuja has been nerfed: this includes his attributes, stats, and passive ability features.
 
 ---------------------
 7. Legal Information
