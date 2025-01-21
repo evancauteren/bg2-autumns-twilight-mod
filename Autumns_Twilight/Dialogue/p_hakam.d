@@ -1,6 +1,9 @@
 BEGIN P_HAKAM
 
-IF ~!See("P_DANCTI") AreaCheck("P_AR14")~ THEN BEGIN 0 // from:
+IF ~!See("P_DANCTI") 
+OR(2)
+AreaCheck("P_AR14")
+AreaCheck("P_BR14")~ THEN BEGIN 0 // from:
   SAY @9040 /* ~Saludos, viajeros. Hakamir ibn Alix de Brest a su servicio. Poseo una interesante variedad de artefactos mágicos a mi disposición, listos para ser vendidos. Muchos provienen de Calimshan. ¿Estáis interesados en mi repertorio?~ */
     IF ~~ THEN REPLY @9041 /* De acuerdo, Hakamir. Muéstrame lo que tienes a la venta. */  GOTO 2
 	IF ~~ THEN REPLY @9042 /* ¿Eres calishita? No lo pareces. */  GOTO 5
@@ -8,7 +11,10 @@ IF ~!See("P_DANCTI") AreaCheck("P_AR14")~ THEN BEGIN 0 // from:
     IF ~PartyHasItem("p_hgorms")~ THEN REPLY @90410 /* Hakamir, tengo la cabeza de este monstruo llamado Gorm. Acrull me ha mencionado que eres capaz de forjar algo de ella, ¿es posible? */  GOTO 5E
 END
 
-IF ~See("P_DANCTI") AreaCheck("P_AR14")~ THEN BEGIN 0B // from:
+IF ~See("P_DANCTI")
+OR(2)
+AreaCheck("P_AR14")
+AreaCheck("P_BR14")~ THEN BEGIN 0B // from:
   SAY @9040 /* ~Saludos, viajeros. Hakamir ibn Alix de Brest a su servicio. Poseo una interesante variedad de artefactos mágicos a mi disposición, listos para ser vendidos. Muchos provienen de Calimshan. ¿Estáis interesados en mi repertorio?~ */
     IF ~~ THEN REPLY @9041 /* De acuerdo, Hakamir. Muéstrame lo que tienes a la venta. */  GOTO 2
 	IF ~~ THEN REPLY @9042 /* ¿Eres calishita? No lo pareces. */  GOTO 5

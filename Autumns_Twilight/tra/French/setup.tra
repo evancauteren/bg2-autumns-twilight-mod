@@ -4614,6 +4614,7 @@ Poids : 1 lbs.~
 @400453 = ~Valygar, non... non... !!!NON !!!~
 @400454 = ~Es-tu devenu fou ? Je ne peux pas te laisser faire cela !~
 @400455 = ~Cachette de Mathyus~
+@400456 = ~Docks~
 
 @400457 = ~Chemin des Ancêtres
 
@@ -4695,6 +4696,8 @@ Poids : 5
 Facteur de vitesse : 3
 Talent martial : Lance
 Type : une main~
+@400465 = ~Temple of Mask~
+
 
 // CHO Nuja
 @600000 = ~Nous nous rencontrons à nouveau, soldat.~ [p_choni]
@@ -5309,20 +5312,14 @@ Ce sort permet au rôdeur d’invoquer un petit insecte et de l’agrandir ensui
 Niveau : 2
 Sphère : Toutes
 Portée : 0
-Durée : Spéciale
+Durée : 2 heures
 Temps d’Incantation : 3
 Zone d’Effet : Le rôdeur
 Jet de Sauvegarde : Aucun
 
 DESCRIPTION :
 
-Ce sort, une technique élaborée par le père de Fall, Gerwulf, lui accorde une concentration et une précision inégalées au combat. Lorsqu'il est invoqué, le moral et la confiance de Fall augmentent, lui conférant un bonus de +1 aux jets d’attaque et de dégâts, ainsi qu'un bonus de +2 à THAC0 spécifiquement avec les armes à distance.
-
-La durée évolue avec le niveau de Fall :
-
-Au niveau 1 : 1 heure
-Au niveau 10 : 2 heures
-Au niveau 15 : 3 heures~
+Ce sort, une technique élaborée par le père de Fall, Gerwulf, lui accorde une concentration et une précision inégalées au combat. Lorsqu'il est invoqué, le moral et la confiance de Fall augmentent, lui conférant un bonus de +1 aux jets d’attaque et de dégâts, ainsi qu'un bonus de +2 à THAC0 spécifiquement avec les armes à distance.~
 
 @600140  = ~Flèches Arcanes d'Evereska~
 @600141  = ~Flèches Arcanes d'Evereska
@@ -5339,11 +5336,7 @@ DESCRIPTION:
 
 Ce sort, conçu par la mère de Fall—une sorcière d'Evereska—invoque une poignée de flèches enchantées pour arbalète. Chaque flèche brille faiblement d'une énergie arcanique, infligeant des dégâts magiques puissants à leurs cibles. Lorsqu'elles sont tirées, ces flèches infligent 1d4 points de dégâts magiques et accordent un bonus de +5 aux jets d'attaque, les rendant à la fois puissantes et précises.
 
-Le nombre de flèches créées augmente avec le niveau de Fall :
-
-Niveau 1 : 5 flèches
-Niveau 10 : 10 flèches
-Niveau 15 : 15 flèches~
+Quantité : 10 flèches~
 
 @600142  = ~Flèches Arcanes~
 @600143  = ~Ces flèches pour arbalète, créées par le sort de Fall, sont imprégnées de pouvoir arcanique, améliorant leur précision et infligeant des dégâts supplémentaires imprégnés de magie aux cibles.

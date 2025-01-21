@@ -33,9 +33,11 @@ IF
 InParty(Myself)
 Global ("P_FallMetBrostFriends","GLOBAL",0)
 Global ("P_FallMetBrostFriendsAR14TLK","GLOBAL",0)
-AreaCheck("P_AR14")
 See("P_HAKAM")
 See("P_ACRULL")
+OR (2)
+AreaCheck("P_BR14")
+AreaCheck("P_AR14")
 THEN
 RESPONSE #100
 StartDialogueNoSet(Player1)

@@ -1,5 +1,5 @@
 			Autumns Twilight Mod for Baldur's Gate II
-				          Version 1.1.0
+				          Version 1.2.0
 
 CONTENTS
 
@@ -190,13 +190,13 @@ Voices:
 
 
 -------------------
-6. Version History
+6. Current Version
 -------------------
 
-Version 1.0.0
-- Initial release
-- Two new secret NPCs will be revealed one week after the mod's release (October 18, 2024)
-
+Version 1.2.0
+- Fixed several minor bugs.
+- The known issues from v1.1 were fixed.
+- Hidden adventures compatibility: AT is now compatible with the Temple of Mask component from the Hidden Adventures mod. AT must be installed AFTER the mentioned mod for the compatibility to take effect.
 
 ---------------------
 7. Legal Information

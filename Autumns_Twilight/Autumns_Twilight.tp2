@@ -2,7 +2,7 @@ BACKUP ~Autumns_Twilight/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v1.1~
+VERSION ~v1.2~
 
 README ~Autumns_Twilight/Readme-Autumns_Twilight.txt~
 
@@ -852,13 +852,15 @@ SAY 80 @400387 /*  */
 //COPY ~Dusk/Scripts/are/AR0300.are~ ~override~         
 //SAY 61388 @400455 /* Mathyus's Hideout */ 
 
-
+// Chequea mod Hidden Adventures -> Temple of Mask
+ACTION_IF !FILE_EXISTS_IN_GAME ~RRSPMASK.CRE~
+THEN BEGIN
 COPY_EXISTING ~ar0300.are~ ~override~
     LPF fj_are_structure
       INT_VAR
       fj_loc_x          = 992
       fj_loc_y          = 1367
-      fj_note_strref    = RESOLVE_STR_REF(@400455)    // Beyond Sewers
+      fj_note_strref    = RESOLVE_STR_REF(@400455)    // Mathyus's Hideout
       STR_VAR
       fj_structure_type = note
     END
@@ -887,7 +889,6 @@ COPY_EXISTING ~ar0300.are~ ~override~
       fj_destination_area = P_AR14
       fj_destination_name = P_ENTRANCE1
     END
-
     // Entrance: from Hideout
     LPF fj_are_structure
       INT_VAR
@@ -898,6 +899,7 @@ COPY_EXISTING ~ar0300.are~ ~override~
       fj_structure_type = entrance
       fj_name           = P_ENTRANCEAR0300
     END	
+END
 
 ////////////////////////////////////////////
 //NPCs Items Personalizados
@@ -4180,10 +4182,11 @@ COPY_EXISTING ~ar0404.are~ ~override~
       fj_box_right      = 2694
       fj_box_bottom     = 1295
 	  fj_cursor_idx     = 42        // cursor
-      fj_flags          = (1 << 2)  // [Party required]      
+      fj_flags          = (1 << 2)  // [Party required]
+	  // Launching Point
       fj_loc_x          = 3485
       fj_loc_y          = 1380
-	  //fj_alt posiblemente sea necesario. Poner similar/mayor en el "y" valor
+	  // Operating Point
 	  fj_alt_x          = 3485
       fj_alt_y          = 1395
       fj_vertex_0       = 2483 + (1155 << 16)
@@ -4195,6 +4198,7 @@ COPY_EXISTING ~ar0404.are~ ~override~
       fj_name             = P_travel_to_pfar1
       fj_destination_area = P_FAR1
       fj_destination_name = P_f1e1
+	  //fj_reg_script = P_TEST
     END
 
     // Entrance: from Beyond
@@ -5763,6 +5767,53 @@ ACTION_IF FILE_EXISTS_IN_GAME ~BWILSON.dlg~ AND FILE_EXISTS_IN_GAME ~P_BDusk.dlg
 THEN BEGIN
   PRINT ~Adding crossmod between Dusk and Wilson~
 COMPILE ~%MOD_FOLDER%/dialogue/crossmod/bwilson.d~
+END
+
+// Hidden Adventures -> Mask Temple (Tweak) detected
+// RRSPMASK
+ACTION_IF FILE_EXISTS_IN_GAME ~RRSPMASK.CRE~
+THEN BEGIN
+  PRINT ~Hidden Adventures -> Mask Temple (Tweak) detected~
+  PRINT ~Adding crossmod~
+COPY ~Autumns_Twilight/Scripts/crossmod/hidden_adventures~ ~override~
+//EXTEND_TOP ~AR0300.bcs~ ~Autumns_Twilight/Scripts/crossmod/hidden_adventures/AR0300.baf~
+
+COMPILE ~%MOD_FOLDER%/Scripts/crossmod/hidden_adventures/P_BR14.are~
+COMPILE ~%MOD_FOLDER%/Scripts/crossmod/hidden_adventures/P_BR14.baf~
+// P_AR14
+  COPY_EXISTING ~P_BR14.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_G1%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_G1%~ //night song
+
+COPY_EXISTING ~P_BR14.are~ ~override~
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1142
+      fj_loc_y          = 1143
+      fj_note_strref    = RESOLVE_STR_REF(@400465)    // Temple of Mask
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+COPY_EXISTING ~JA#D00.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 415
+      fj_loc_y          = 96
+      fj_note_strref    = RESOLVE_STR_REF(@400455)    // Mathyus's Hideout
+      STR_VAR
+      fj_structure_type = note
+    END
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 677
+      fj_loc_y          = 267
+      fj_note_strref    = RESOLVE_STR_REF(@400456)    // Docks
+      STR_VAR
+      fj_structure_type = note
+    END
+	SAY 0x354 ~<NO TEXT>~
 END
 
 // END Test Crossmods

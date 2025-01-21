@@ -4579,6 +4579,7 @@ Peso: 1 lbs.~
 @400453 = ~Valygar, no... no...!!! NOooOOOoooo!!!~
 @400454 = ~Sei impazzito? Non posso permettere che tu faccia questo!~
 @400455 = ~Rifugio di Mathyus~
+@400456 = ~Docks~
 
 @400457 = ~Sentiero degli Antenati
 
@@ -4659,6 +4660,7 @@ Peso: 5
 Fattore di velocità: 3
 Talento marziale: Lancia
 Tipo: una mano~
+@400465 = ~Temple of Mask~
 
 
 @600000 = ~Ci ritroviamo di nuovo, soldato.~ [p_choni]
@@ -5291,20 +5293,14 @@ Questo incantesimo permette al ranger di evocare un piccolo insetto e poi ingran
 Livello: 2
 Sfera: Tutti
 Portata: 0
-Durata: Speciale
+Durata: 2 ore
 Tempo di Lancio: 3
 Area di Effetto: Il ranger
 Tiro Salvezza: Nessuno
 
 DESCRIZIONE:
 
-Questo incantesimo, una tecnica creata dal padre di Fall, Gerwulf, le conferisce una concentrazione e una precisione senza pari in battaglia. Quando evocato, il morale e la fiducia di Fall aumentano, fornendo un bonus di +1 ai tiri per attaccare e al danno, insieme a un bonus di +2 a THAC0 specificamente con le armi da lancio.
-
-La durata aumenta con il livello di Fall:
-
-Al livello 1: 1 ora
-Al livello 10: 2 ore
-Al livello 15: 3 ore~
+Questo incantesimo, una tecnica creata dal padre di Fall, Gerwulf, le conferisce una concentrazione e una precisione senza pari in battaglia. Quando evocato, il morale e la fiducia di Fall aumentano, fornendo un bonus di +1 ai tiri per attaccare e al danno, insieme a un bonus di +2 a THAC0 specificamente con le armi da lancio.~
 
 @600140  = ~Virotti Arcanici di Evereska~
 @600141  = ~Virotti Arcanici di Evereska
@@ -5321,11 +5317,7 @@ DESCRIZIONE:
 
 Questo incantesimo, creato dalla madre di Fall—una strega di Evereska—evoca una manciata di virotti incantati per balestra. Ogni virotto emana una debole luce di energia arcana, infliggendo danni magici potenti ai loro bersagli. Quando vengono sparati, questi virotti infliggono 1d4 punti di danno magico e conferiscono un bonus di +5 ai tiri per colpire, rendendoli potenti e precisi.
 
-Il numero di virotti creati aumenta con il livello di Fall:
-
-Al livello 1: 5 virotti
-Al livello 10: 10 virotti
-Al livello 15: 15 virotti~
+Quantità: 10 virotti~
 
 @600142  = ~Virotti Arcanici~
 @600143  = ~Questi virotti per balestra, creati dal sortilegio di Fall, sono imbevuti di potere arcano, migliorandone la precisione e infliggendo danni aggiuntivi infusi di magia ai bersagli.

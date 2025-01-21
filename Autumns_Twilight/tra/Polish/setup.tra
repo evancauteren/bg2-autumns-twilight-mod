@@ -4500,6 +4500,7 @@ Waga: 1 lbs.~
 @400453 = ~Valygar, nie... nie... NIEEEEEEE!~
 @400454 = ~Czy oszalałeś? Nie mogę pozwolić ci tego zrobić!~
 @400455 = ~Kryjówka Mathyusa~
+@400456 = ~Docks~
 
 @400457 = ~Ścieżka Przodków
 
@@ -4576,6 +4577,8 @@ Waga: 5
 Czas ataku: 3
 Biegłość: Włócznia
 Typ: jednoręczna~
+@400465 = ~Temple of Mask~
+
 
 // CHO Nuja
 @600000  = ~Znowu się spotykamy, żołnierzu.~ [p_choni]
@@ -5201,20 +5204,14 @@ Ten czar pozwala tropicielowi przywołać małego owada, a następnie powiększy
 Poziom: 2
 Sfera: Wszystkie
 Zasięg: 0
-Czas Trwania: Specjalny
+Czas Trwania: 2 godziny
 Czas Rzucania: 3
 Obszar Działania: Tropiciel
 Rzut Obrony: Brak
 
 OPIS:
 
-To zaklęcie, technika stworzona przez ojca Fall, Gerwulfa, daje jej niespotykaną koncentrację i precyzję w walce. Po jego przywołaniu, morale i pewność siebie Fall rosną, zapewniając +1 do rzutów na atak i obrażenia, a także +2 do THAC0 przy używaniu broni strzeleckiej.
-
-Czas trwania zaklęcia rośnie wraz z poziomem Fall:
-
-Na poziomie 1: 1 godzina
-Na poziomie 10: 2 godziny
-Na poziomie 15: 3 godziny~
+To zaklęcie, technika stworzona przez ojca Fall, Gerwulfa, daje jej niespotykaną koncentrację i precyzję w walce. Po jego przywołaniu, morale i pewność siebie Fall rosną, zapewniając +1 do rzutów na atak i obrażenia, a także +2 do THAC0 przy używaniu broni strzeleckiej.~
 
 @600140  = ~Zaklęte Wiroty Evereski~
 @600141  = ~Zaklęte Wiroty Evereski
@@ -5231,11 +5228,7 @@ OPIS:
 
 To zaklęcie, stworzone przez matkę Falla—czarownicę z Evereski—przywołuje garść zaczarowanych wiatrów do kuszy. Każdy wiatr słabo świeci się magiczną energią, zadając potężne obrażenia magiczne celom. Po wystrzeleniu te wiotry zadają 1d4 punkty obrażeń magicznych i dają premię +5 do rzutów ataku, co czyni je zarówno potężnymi, jak i precyzyjnymi.
 
-Liczba wiatrów tworzonych przez zaklęcie zależy od poziomu Falla:
-
-Poziom 1: 5 wiatrów
-Poziom 10: 10 wiatrów
-Poziom 15: 15 wiatrów~
+Ilość: 10 wiatrów~
 
 @600142  = ~Zaklęte Wiroty~
 @600143  = ~Te wiotry do kuszy, stworzone przez zaklęcie Falla, są napełnione mocą arkanów, co poprawia ich celność i zadaje dodatkowe obrażenia nasycone magią celom.

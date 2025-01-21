@@ -4624,7 +4624,7 @@ Weight: 1 lbs.~
 @400453 = ~Valygar, no... no... NOooOOOoooo!!!~
 @400454 = ~Have you gone mad? I can't allow you to do this!~
 @400455 = ~Mathyus's Hideout~
-
+@400456 = ~Docks~
 
 
 @400457 = ~Path of the Ancestors
@@ -4707,7 +4707,7 @@ Speed Factor: 3
 Proficiency: Spear
 Type: one-handed~
 
-
+@400465 = ~Temple of Mask~
 
 
 // CHO Nuja
@@ -5342,20 +5342,14 @@ This spell allows the ranger to summon a small insect and then enlarge it to gia
 Level: 2
 Sphere: All
 Range: 0
-Duration: Special
+Duration: 2 hours
 Casting Time: 3
 Area of Effect: The ranger
 Saving Throw: None
 
 DESCRIPTION:
 
-This spell, a technique crafted by Fall's father, Gerwulf, grants her unmatched focus and precision in battle. When invoked, Fall's morale and confidence surge, providing a +1 bonus to attack and damage rolls, along with a +2 THAC0 bonus specifically with missile weapons.
-
-The duration scales with Fall's level:
-
-At level 1: 1 hour
-At level 10: 2 hours
-At level 15: 3 hours~
+This spell, a technique crafted by Fall's father, Gerwulf, grants her unmatched focus and precision in battle. When invoked, Fall's morale and confidence surge, providing a +1 bonus to attack and damage rolls, along with a +2 THAC0 bonus specifically with missile weapons.~
 
 @600140  = ~Arcane Bolts of Evereska~
 @600141  = ~Arcane Bolts of Evereska
@@ -5372,11 +5366,7 @@ DESCRIPTION:
 
 This spell, designed by Fall's mother—a sorceress from Evereska—summons a handful of enchanted crossbow bolts. Each bolt glows faintly with arcane energy, delivering powerful magical damage to their targets. When fired, these bolts inflict 1d4 points of magical damage and grant a +5 bonus to attack rolls, making them both potent and precise.
 
-The number of bolts created scales with Fall's level:
-
-At level 1: 5 bolts
-At level 10: 10 bolts
-At level 15: 15 bolts~
+Quantity: 10 bolts~
 
 @600142  = ~Arcane Bolts~
 @600143  = ~These crossbow bolts, crafted by Fall’s spell, are imbued with arcane power, enhancing their accuracy and dealing additional magic-infused damage to targets.

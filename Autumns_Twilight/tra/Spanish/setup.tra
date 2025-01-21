@@ -4699,6 +4699,7 @@ Peso: 1 lbs.~
 @400453 = ~Valygar, no... no... ¡¡¡NOooOOOoooo!!!~
 @400454 = ~¿Has enloquecido? ¡No puedo permitir que hagas esto!~
 @400455 = ~Guarida de Mathyus~
+@400456 = ~Al Puerto~
 
 
 @400457 = ~Camino de los Ancestros
@@ -4782,6 +4783,7 @@ Factor de velocidad: 3
 Talento marcial: Lanza
 Tipo: una mano~
 
+@400465 = ~Templo de Máscara~
 
 
 
@@ -5402,20 +5404,14 @@ Este hechizo permite al explorador invocar un pequeño insecto y luego agrandarl
 Nivel: 2
 Esfera: Todas
 Alcance: 0
-Duración: Especial
+Duración: 2 horas
 Tiempo de Lanzamiento: 3
 Área de Efecto: El explorador
 Tirada de Salvación: Ninguna
 
 DESCRIPCIÓN:
 
-Este hechizo, una técnica creada por el padre de Fall, Gerwulf, le otorga una concentración y precisión inigualables en combate. Al invocarlo, la moral y confianza de Fall aumentan, proporcionando un bono de +1 a las tiradas de ataque y daño, junto con un bono de +2 a THAC0 específicamente con armas a distancia.
-
-La duración escala con el nivel de Fall:
-
-En nivel 1: 1 hora
-En nivel 10: 2 horas
-En nivel 15: 3 horas~
+Este hechizo, una técnica creada por el padre de Fall, Gerwulf, le otorga una concentración y precisión inigualables en combate. Al invocarlo, la moral y confianza de Fall aumentan, proporcionando un bono de +1 a las tiradas de ataque y daño, junto con un bono de +2 a THAC0 específicamente con armas a distancia.~
 
 @600140  = ~Virotes Arcanos de Evereska~
 @600141  = ~Virotes Arcanos de Evereska
@@ -5432,11 +5428,7 @@ DESCRIPCIÓN:
 
 Este hechizo, diseñado por la madre de Fall—una hechicera de Evereska—convoca un puñado de virotes encantados de ballesta. Cada virote brilla débilmente con energía arcana, causando daño mágico potente a sus objetivos. Al ser disparados, estos virotes infligen 1d4 puntos de daño mágico y otorgan un bono de +5 a las tiradas de ataque, haciéndolos tanto poderosos como precisos.
 
-El número de virotes creados escala con el nivel de Fall:
-
-Nivel 1: 5 virotes
-Nivel 10: 10 virotes
-Nivel 15: 15 virotes~
+Cantidad: 10 virotes~
 
 @600142  = ~Virotes Arcanos~
 @600143  = ~Estos virotes de ballesta, creados por el hechizo de Fall, están imbuidos con poder arcano, lo que mejora su precisión y causa daño adicional infundido con magia a los objetivos.

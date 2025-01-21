@@ -4507,6 +4507,7 @@ Gewicht: 0,5 kg.~
 @400453 = ~Valygar, nein... nein... NEIN!!!~
 @400454 = ~Bist du verrückt geworden? Ich kann nicht zulassen, dass du das tust!~
 @400455 = ~Mathyus' Versteck~
+@400456 = ~Docks~
 
 @400457 = ~Pfad der Ahnen
 
@@ -4588,6 +4589,8 @@ Gewicht: 2,3 kg
 Geschwindigkeitsfaktor: 3
 Profi: Speer
 Typ: einhändig~
+@400465 = ~Temple of Mask~
+
 
 // CHO Nuja
 @600000  = ~Wir treffen uns wieder, Soldat.~ [p_choni]
@@ -5195,20 +5198,14 @@ Dieser Zauber erlaubt es dem Waldläufer, ein kleines Insekt herbeizurufen und e
 Stufe: 2
 Sphäre: Alle
 Reichweite: 0
-Dauer: Speziell
+Dauer: 2 Stunden
 Zauberdauer: 3
 Wirkungsbereich: Der Waldläufer
 Rettungswurf: Keiner
 
 BESCHREIBUNG:
 
-Dieser Zauber, eine Technik, die von Falls Vater Gerwulf erschaffen wurde, verleiht ihr unvergleichliche Konzentration und Präzision im Kampf. Wenn er gewirkt wird, steigen Falls Moral und Selbstvertrauen, da sie einen +1 Bonus auf Angriffs- und Schadenswürfe sowie einen +2 Bonus auf THAC0 speziell bei der Verwendung von Fernkampfwaffen erhält.
-
-Die Dauer skaliert mit Falls Level:
-
-Auf Stufe 1: 1 Stunde
-Auf Stufe 10: 2 Stunden
-Auf Stufe 15: 3 Stunden~
+Dieser Zauber, eine Technik, die von Falls Vater Gerwulf erschaffen wurde, verleiht ihr unvergleichliche Konzentration und Präzision im Kampf. Wenn er gewirkt wird, steigen Falls Moral und Selbstvertrauen, da sie einen +1 Bonus auf Angriffs- und Schadenswürfe sowie einen +2 Bonus auf THAC0 speziell bei der Verwendung von Fernkampfwaffen erhält.~
 
 @600140  = ~Arkane Bolzen von Evereska~
 @600141  = ~Arkane Bolzen von Evereska
@@ -5225,11 +5222,7 @@ BESCHREIBUNG:
 
 Dieser Zauber, entwickelt von Falls Mutter—einer Zauberin aus Evereska—beschwört eine Handvoll verzauberter Armbrustbolzen. Jeder Bolzen leuchtet schwach mit arkaner Energie und verursacht mächtigen magischen Schaden an den Zielen. Beim Abschießen fügt jeder dieser Bolzen 1d4 Punkte magischen Schadens zu und gewährt einen Bonus von +5 auf Angriffswürfe, wodurch sie sowohl mächtig als auch präzise sind.
 
-Die Anzahl der erzeugten Bolzen skaliert mit Falls Stufe:
-
-Stufe 1: 5 Bolzen
-Stufe 10: 10 Bolzen
-Stufe 15: 15 Bolzen~
+Menge: 10 Bolzen~
 
 @600142  = ~Arkane Bolzen~
 @600143  = ~Diese Bolzen für die Armbrust, erschaffen durch Falls Zauber, sind mit arkaner Macht durchzogen, was ihre Genauigkeit erhöht und zusätzlichen magischen Schaden an den Zielen verursacht.
