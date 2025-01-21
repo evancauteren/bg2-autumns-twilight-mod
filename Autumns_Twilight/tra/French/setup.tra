@@ -1365,7 +1365,6 @@ Aptitudes spéciales :
 - Régénération reptilienne : Cho'Nuja régénérera 1 point de vie toutes les 10 secondes.
 
 - Dégâts : 1D6 +5
-- Dégâts : 1D6 +5
 - THAC0 : +5
 - Type de dégâts de base : Tranchant
 - Facteur de vitesse : 2
@@ -1382,7 +1381,6 @@ Aptitudes spéciales :
 
 - Accélération améliorée : Chaque attaque a 20% de chances d'Accélérer le Gardien Sauvage pendant 6 secondes.
 
-- Dégâts : 1D4 +5, +1 points de dégâts tranchants
 - Dégâts : 1D4 +5, +1 points de dégâts tranchants
 - THAC0 : +5
 - Type de dégâts de base : Perforant
@@ -1402,7 +1400,6 @@ Aptitudes spéciales :
 - Paralysie : Chaque attaque a 15% de chances d'Étourdir l'adversaire pendant 6 secondes.
 
 - Dégâts : 1D2 +5, +1 points de dégâts tranchants
-- Dégâts : 1D2 +5, +1 points de dégâts tranchants
 - THAC0 : +5
 - Type de dégâts de base : Contondant
 - Facteur de vitesse : 1
@@ -1419,9 +1416,7 @@ CARACTÉRISTIQUES :
 Aptitudes spéciales :
 
 - Guérison : Chaque attaque a 15% de chances de guérir Cho de 25 points de vie.
-- Guérison : Chaque attaque a 15% de chances de guérir Cho de 25 points de vie.
 
-- Dégâts : 1D2 +5
 - Dégâts : 1D2 +5
 - Dégâts acides : 1D3
 - THAC0 : +5
@@ -1440,8 +1435,6 @@ Aptitudes spéciales :
 
 - Ralentissement : Chaque attaque a 10% de chances de ralentir l'adversaire pendant 20 secondes.
 
-- Dégâts : 1D3 +5, +1 point de dégâts perforants
-- Dégâts de froid : 1D2
 - Dégâts : 1D3 +5, +1 point de dégâts perforants
 - Dégâts de froid : 1D2
 - THAC0 : +5
@@ -3061,7 +3054,6 @@ Compétences de Combat :
 - Poison : La victime doit réussir un jet de sauvegarde contre Mort/Poison ou subir 4 points de dégâts par seconde pendant 3 rounds.
 
 THAC0 : +6
-Dégâts : 1D6+6, +1d4 de dégâts de Poison.
 Dégâts : 1D6+6, +1d4 de dégâts de Poison.
 Type de dégâts : Perforant
 Poids : 7 lbs
@@ -4772,11 +4764,6 @@ Les effets dureront en fonction du niveau du lanceur :
 Au niveau 5 : 3 tours 
 Au niveau 10 : 6 tours 
 Au niveau 15 : 10 tours~
-Semblable à l'Invisibilité Améliorée, le guerrier elfe se couvre d'ombres et reste dans celles-ci même lorsqu'il est découvert (bien qu'il puisse toujours être attaqué). Pendant la durée de l'effet, il bénéficie d'un bonus de +4 aux jets de sauvegarde et les attaques ennemies subissent un malus de -4. Il peut être dissipié. Il fournira également les effets de Bénédiction tant que l'effet dure (augmentant les jets d'attaque, les dégâts et le moral). 
-Les effets dureront en fonction du niveau du lanceur : 
-Au niveau 5 : 3 tours 
-Au niveau 10 : 6 tours 
-Au niveau 15 : 10 tours~
 @600048 = ~Épée du Crépuscule~
 @600049 = ~épée du crépuscule~
 @600050 = ~ÉPÉE DU CRÉPUSCULE : les elfes guerriers tirent le meilleur parti de leur capacité raciale à maîtriser l'art de la guerre.
@@ -4789,11 +4776,6 @@ Avantages :
 - Peuvent poignarder dans le dos. Le multiplicateur sera x2 jusqu'au niveau 12, puis passera à x3.
 - Peut utiliser la Cape de Minuit tous les 5 niveaux (commence avec une utilisation au niveau 5).
 
-CAPE DE MINUIT: Semblable à l'Invisibilité Améliorée, le guerrier elfe se couvre d'ombres et reste dans celles-ci même lorsqu'il est découvert (bien qu'il puisse toujours être attaqué). Pendant la durée de l'effet, il bénéficie d'un bonus de +4 aux jets de sauvegarde et les attaques ennemies subissent un malus de -4. Il peut être dissipié. Il fournira également les effets de Bénédiction tant que l'effet dure (augmentant les jets d'attaque, les dégâts et le moral). 
-Les effets dureront en fonction du niveau du lanceur : 
-Au niveau 5 : 3 tours 
-Au niveau 10 : 6 tours 
-Au niveau 15 : 10 tours
 CAPE DE MINUIT: Semblable à l'Invisibilité Améliorée, le guerrier elfe se couvre d'ombres et reste dans celles-ci même lorsqu'il est découvert (bien qu'il puisse toujours être attaqué). Pendant la durée de l'effet, il bénéficie d'un bonus de +4 aux jets de sauvegarde et les attaques ennemies subissent un malus de -4. Il peut être dissipié. Il fournira également les effets de Bénédiction tant que l'effet dure (augmentant les jets d'attaque, les dégâts et le moral). 
 Les effets dureront en fonction du niveau du lanceur : 
 Au niveau 5 : 3 tours 
@@ -4834,23 +4816,6 @@ CHANCE DU CHAMPION : En activant cette capacité innée, le Fronde améliorera s
  Niveau 8 : -1 aux jets de sauvegarde de la cible contre les sorts et +2 de Force pour l'utilisateur. Durée : 15 secondes.
  Niveau 12 : -1 à la Force de la cible et +2 de Dégâts par attaque réussie. Durée : 20 secondes.
  Niveau 16 : Un autre bonus de +2 aux dégâts et +1 à APR. Durée : 25 secondes.
-- Gagne un bonus de +1 à l'attaque et +1 aux dégâts avec les armes à distance tous les 6 niveaux.
-- Sélection des Attributs : bonus de +1 à la Force et à la Dextérité.
-
-- Les Fronde Sombre augmenteront leur vitesse d'attaque selon la progression suivante :
- Niveau 7 : +0.5 APR et +1 au Facteur de Vitesse d'Attaque.
- Niveau 10 : +0.5 à APR.
- Niveau 16 : +0.5 à APR et +1 au Facteur de Vitesse d'Attaque.
- Niveau 20 : +0.5 à APR.
-
-- Peut utiliser la Chance du Champion une fois par jour tous les 4 niveaux.
-
-CHANCE DU CHAMPION : En activant cette capacité innée, le Fronde améliorera ses attaques à distance ainsi que ses propres capacités offensives :
-
- Niveau 4 : -1 au THAC0 de la cible et +1 à la Chance de l'utilisateur. Durée : 10 secondes.
- Niveau 8 : -1 aux jets de sauvegarde de la cible contre les sorts et +2 de Force pour l'utilisateur. Durée : 15 secondes.
- Niveau 12 : -1 à la Force de la cible et +2 de Dégâts par attaque réussie. Durée : 20 secondes.
- Niveau 16 : Un autre bonus de +2 aux dégâts et +1 à APR. Durée : 25 secondes.
 
 Inconvénients :
 
@@ -4859,14 +4824,9 @@ Inconvénients :
 - Bien qu'ils puissent manier des armes de mêlée restreintes à la classe des voleurs, ils ne peuvent attribuer qu'un point au Couteau, au Bâton et à la Dague.
 - Le multiplicateur de coup par derrière est limité à x2.
 - Ils ne gagnent que 15 points de compétence par niveau à attribuer aux compétences de voleur.~
-- La seule arme à distance à laquelle ils peuvent attribuer des points de compétence est la fronde.
-- Bien qu'ils puissent manier des armes de mêlée restreintes à la classe des voleurs, ils ne peuvent attribuer qu'un point au Couteau, au Bâton et à la Dague.
-- Le multiplicateur de coup par derrière est limité à x2.
-- Ils ne gagnent que 15 points de compétence par niveau à attribuer aux compétences de voleur.~
 @600055 = ~FRONDE SOMBRE : le voleur halfelin s'est spécialisé dans l'utilisation de la fronde, sacrifiant un peu le combat rapproché et ses compétences de vol.~
 @600056 = ~Agent Hybride~
 @600057 = ~agent hybride~
-@600058 = ~AGENT HYBRIDE : Les demi-elfes sont formés pour exploiter leur sang hybride afin d'optimiser leurs compétences de barde et de voleur.
 @600058 = ~AGENT HYBRIDE : Les demi-elfes sont formés pour exploiter leur sang hybride afin d'optimiser leurs compétences de barde et de voleur.
 
 Avantages :
@@ -4881,23 +4841,9 @@ Avantages :
  * Poser un piège de silence : Une fois par jour tous les 8 niveaux (à partir du niveau 8).
 
 - Chant du Barde : En plus des effets de base du Chant du Barde, le chant de l'Agent Hybride dissipera également les illusions et l'invisibilité de toutes les créatures en dehors du groupe.
-- En tant que capacité spéciale, ils peuvent utiliser Détection des pièges et Crochetage une fois par jour et par niveau (commençant avec une utilisation au niveau 1).
-- Peuvent effectuer une attaque sournoise. Le multiplicateur est x2 jusqu'au niveau 12, puis il passe à x3.
-- Peuvent devenir invisibles : 1 utilisation tous les 6 niveaux.
-- Peuvent utiliser la Hâte améliorée comme capacité spéciale : 1 utilisation tous les 9 niveaux.
-- Ils peuvent poser des pièges avec l'expertise d'un maître voleur :
- * Poser un piège : Une fois par jour tous les 6 niveaux.
- * Poser un piège de confusion : Une fois par jour tous les 8 niveaux (à partir du niveau 8).
- * Poser un piège de silence : Une fois par jour tous les 8 niveaux (à partir du niveau 8).
-
-- Chant du Barde : En plus des effets de base du Chant du Barde, le chant de l'Agent Hybride dissipera également les illusions et l'invisibilité de toutes les créatures en dehors du groupe.
 
 Inconvénients :
 
-- Doivent être des demi-elfes.
-- Ne peuvent pas attribuer de points de compétence dans les armes à deux mains à distance (Arc court, Arc long et Arbalète).
-- Pénalité de résistance magique : -10%.
-- Pénalité de classe d'armure : -1~
 - Doivent être des demi-elfes.
 - Ne peuvent pas attribuer de points de compétence dans les armes à deux mains à distance (Arc court, Arc long et Arbalète).
 - Pénalité de résistance magique : -10%.
@@ -4907,9 +4853,6 @@ Inconvénients :
 @600060  = ~Tisseur de Rêves~
 @600061  = ~tisseur de rêves~
 @600062  = ~TISSEUR DE RÊVES : Les chamanes demi-orques nés avec ce don sont capables de mélanger le monde des rêves avec le Plan Matériel.
-@600060  = ~Tisseur de Rêves~
-@600061  = ~tisseur de rêves~
-@600062  = ~TISSEUR DE RÊVES : Les chamanes demi-orques nés avec ce don sont capables de mélanger le monde des rêves avec le Plan Matériel.
 
 Avantages :
 
@@ -4931,43 +4874,15 @@ NOTE : L'Image Projetée et les duplicatas de Simulacre ne peuvent pas exécuter
 
 Capacités Innées:
 - Ils peuvent lancer Voile des Rêves une fois par jour tous les 4 niveaux de chaman (en commençant par 1 utilisation au niveau 1).
-- Compétence : Le Tisseur de Rêves peut attribuer 2 points à chaque style de combat.
-- A accès aux sorts suivants :
 
- Au Niveau 1 : Sanctuaire et Commandement (niveau 1)
- Au Niveau 3 : Sommeil (niveau 2)
- Au Niveau 5 : Émotion : Désespoir et Mot de Pouvoir, Sommeil (niveau 3)
- Au Niveau 7 : Grand Maléfice (niveau 4)
- Au Niveau 9 : Grand Commandement et Invoquer Nishruu (niveau 5)
- Au Niveau 11 : Invoquer Hakeashar et Image Projetée (niveau 6)
- Au Niveau 13 : Simulacre (niveau 7)
-
-NOTE : L'Image Projetée et les duplicatas de Simulacre ne peuvent pas exécuter la Danse Chamanique.
-
-- Le Tisseur de Rêves peut se déplacer librement tout en invoquant la Danse Chamanique, faisant suivre les esprits de près jusqu'à ce qu'ils rencontrent des ennemis à combattre. Pendant cette transe, le Tisseur de Rêves peut également lancer des sorts et utiliser des capacités innées, bien que cela mette fin à la danse.
-- Les esprits du Tisseur de Rêves resteront proches même si la Danse Chamanique cesse. Ces esprits persistent environ 10 minutes, protégeant leur invocateur pour un temps au-delà de la danse elle-même. De plus, les Tisseurs de Rêves ne subissent aucune pénalité à la Classe d'Armure pendant qu'ils exécutent la Danse Chamanique.
-
-Capacités Innées:
-- Ils peuvent lancer Voile des Rêves une fois par jour tous les 4 niveaux de chaman (en commençant par 1 utilisation au niveau 1).
-
-VOILE DES RÊVES : Le Tisseur de Rêves déforme son image, rendant difficile pour les adversaires de le frapper. Cette distorsion impose un malus de -3 à toutes les attaques à projectile et de mêlée contre lui. De plus, il reçoit un bonus de +1 à tous les jets de sauvegarde. Le Voile des Rêves rend également le chaman invisible aux ennemis grâce à Sanctuaire. Même si l'ennemi peut dissiper l'invisibilité par divination, les effets défensifs de l'aptitude resteront actifs jusqu'à ce qu'ils expirent (10 minutes) ou soient dissipés avec succès.
 VOILE DES RÊVES : Le Tisseur de Rêves déforme son image, rendant difficile pour les adversaires de le frapper. Cette distorsion impose un malus de -3 à toutes les attaques à projectile et de mêlée contre lui. De plus, il reçoit un bonus de +1 à tous les jets de sauvegarde. Le Voile des Rêves rend également le chaman invisible aux ennemis grâce à Sanctuaire. Même si l'ennemi peut dissiper l'invisibilité par divination, les effets défensifs de l'aptitude resteront actifs jusqu'à ce qu'ils expirent (10 minutes) ou soient dissipés avec succès.
 
 - Ils peuvent lancer Nuage des Rêves une fois par jour tous les 10 niveaux de chaman (en commençant par 1 utilisation au niveau 1).
-- Ils peuvent lancer Nuage des Rêves une fois par jour tous les 10 niveaux de chaman (en commençant par 1 utilisation au niveau 1).
 
-NUAGE DES RÊVES : Le Tisseur de Rêves libère une brume dans un rayon de 9 mètres. Toute créature prise dans celle-ci doit réussir un jet de sauvegarde contre les sorts ou tomber inconsciente pendant 25 secondes. Le chaman et les esprits de <PRO_HISHER> seront immunisés aux effets du Nuage des Rêves.
 NUAGE DES RÊVES : Le Tisseur de Rêves libère une brume dans un rayon de 9 mètres. Toute créature prise dans celle-ci doit réussir un jet de sauvegarde contre les sorts ou tomber inconsciente pendant 25 secondes. Le chaman et les esprits de <PRO_HISHER> seront immunisés aux effets du Nuage des Rêves.
 
 Inconvénients :
 
-- Doivent être demi-orcs.
-- La chance qu'un esprit réponde à l'appel est réduite à 50 %.
-- Leur compétence à Détecter les Illusions progresse à seulement un quart du rythme d'un chaman standard.
-- Pénalité de Charisme de -2 lors de la création du personnage.
-- Pénalité de Classe d'Armure de 1.~
-
-@600063  = ~TISSEUR DE RÊVES : Les demi-orcs chamanes nés avec ce don sont capables de mélanger le monde des rêves avec le Plan Matériel.~
 - Doivent être demi-orcs.
 - La chance qu'un esprit réponde à l'appel est réduite à 50 %.
 - Leur compétence à Détecter les Illusions progresse à seulement un quart du rythme d'un chaman standard.
@@ -5022,13 +4937,6 @@ Avantages :
 
 Chaque 10 niveaux, 1 utilisation supplémentaire sera ajoutée pour chaque projectile selon le cas.
 
-Niveau 1 : Flèche Explosive - Au NV 20, dégâts supplémentaires : Acide
-Niveau 3 : Balle Explosive - Au NV 20, dégâts supplémentaires : Électrique
-Niveau 5 : Carreau Explosif - Au NV 20, dégâts supplémentaires : Magique
-Niveau 7 : Dard Explosif - Au NV 20, dégâts supplémentaires : Froid
-Niveau 9 : Dague Explosive - Au NV 20, dégâts supplémentaires : Poison
-Niveau 11 : Hache de Jet Explosive - Au NV 20, dégâts supplémentaires : Contondant
-Niveau 13 : Javelot Explosif - Au NV 20, dégâts supplémentaires : Perforant
 Niveau 1 : Flèche Explosive - Au NV 20, dégâts supplémentaires : Acide
 Niveau 3 : Balle Explosive - Au NV 20, dégâts supplémentaires : Électrique
 Niveau 5 : Carreau Explosif - Au NV 20, dégâts supplémentaires : Magique
@@ -8160,15 +8068,6 @@ un rat amoureux, éternel amoureux.'~
 @9722028  = ~Souviens-toi de notre première conversation, petite. Ton enfance. Ton père. Les araignées. La nature.~
 @9722029  = ~Tout s'est produit pour une raison. Mais ne désespère pas, chère. Tant que tu es aux côtés de tes amis, tu es en sécurité.~
 @9722030  = ~Je comprends. Merci, Bellfame. C'est un soulagement de parler avec toi.~
-
-@9723254  = ~Mon petit ami, Michelson, a mentionné quelque chose sur une altération du temps. Je ne pensais pas qu'une telle chose était possible.~
-@9723255  = ~Le monde de la magie a la capacité d'altérer le temps et l'espace.~
-@9723256  = ~Lors de mon affrontement contre le détachement de Kartlzer, ma magie druidique a heurté la magie arcane de son sorcier.~
-@9723257  = ~L'anneau que ton groupe possède maintenant a été le conducteur de cet événement... Je ne crois pas pouvoir expliquer concrètement ce qui s'est passé...~
-@9723258  = ~Eh bien... quoi qu'il en soit, ton histoire dans la Forêt de Mir n'est pas encore arrivée. Cela me trouble...~
-@9723259  = ~Tu n'as pas besoin de comprendre tout ce qui t'entoure, mortel. Parfois, les choses... se produisent simplement.~
-@9723261  = ~C'est vrai que je suis un mortel, nymphe... mais mes amis m'appellent Dusk. Toi aussi, tu peux le faire.~
-
 
 @9723254  = ~Mon petit ami, Michelson, a mentionné quelque chose sur une altération du temps. Je ne pensais pas qu'une telle chose était possible.~
 @9723255  = ~Le monde de la magie a la capacité d'altérer le temps et l'espace.~
