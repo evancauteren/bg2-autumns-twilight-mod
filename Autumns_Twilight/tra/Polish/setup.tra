@@ -1387,6 +1387,7 @@ Specjalne umiejętności:
 - Regeneracja Reptilian: Cho'Nuja będzie regenerował 1 punkt życia co 10 sekund.
 
 - Obrażenia: 1D6 +5
+- Obrażenia: 1D6 +5
 - THAC0: +5
 - Podstawowy typ obrażeń: Cięcie
 - Współczynnik prędkości: 2
@@ -1405,6 +1406,7 @@ Specjalne umiejętności:
 
 - Wzmocnione Przyspieszenie: Każdy atak ma 20% szansy na przyspieszenie Wildguard przez 6 sekund.
 
+- Obrażenia: 1D4 +5, +1 punkty obrażeń ciętych
 - Obrażenia: 1D4 +5, +1 punkty obrażeń ciętych
 - THAC0: +5
 - Podstawowy typ obrażeń: Przebicie
@@ -1426,6 +1428,7 @@ Specjalne umiejętności:
 - Paraliż: Każdy atak ma 15% szansy na ogłuszenie przeciwnika na 6 sekund.
 
 - Obrażenia: 1D2 +5, +1 punkty obrażeń ciętych
+- Obrażenia: 1D2 +5, +1 punkty obrażeń ciętych
 - THAC0: +5
 - Podstawowy typ obrażeń: Tłuczenie
 - Współczynnik prędkości: 1
@@ -1443,7 +1446,9 @@ CHARAKTERYSTYKI:
 Specjalne umiejętności:
 
 - Leczenie: Każdy atak ma 15% szansy na wyleczenie Cho o 25 punktów życia.
+- Leczenie: Każdy atak ma 15% szansy na wyleczenie Cho o 25 punktów życia.
 
+- Obrażenia: 1D2 +5
 - Obrażenia: 1D2 +5
 - Obrażenia kwasowe: 1D3
 - THAC0: +5
@@ -1464,6 +1469,8 @@ Specjalne umiejętności:
 
 - Spowolnienie: Każdy atak ma 10% szansy na spowolnienie przeciwnika na 20 sekund.
 
+- Obrażenia: 1D3 +5, +1 punkt obrażeń przebijających
+- Obrażenia zimne: 1D2
 - Obrażenia: 1D3 +5, +1 punkt obrażeń przebijających
 - Obrażenia zimne: 1D2
 - THAC0: +5
@@ -2994,6 +3001,7 @@ Atrybuty walki:
 - Trucizna: Ofiara musi wykonać rzut obronny przeciwko Śmierci/Truciznie (0) lub cierpieć 4 punkty obrażeń na sekundę przez 3 tury.
 
 THAC0: +6
+Obrażenia: 1D6+6, +1d4 obrażeń trucizną.
 Obrażenia: 1D6+6, +1d4 obrażeń trucizną.
 Typ obrażeń: Przeszywające
 Waga: 7 lbs
@@ -4644,6 +4652,11 @@ Efekty będą trwały w zależności od poziomu czarującego:
 Na poziomie 5: 3 tury 
 Na poziomie 10: 6 tur 
 Na poziomie 15: 10 tur~
+Podobnie jak Ulepszona Niewidzialność, elficki wojownik przykrywa się cieniami i pozostaje w nich nawet po odkryciu (choć wciąż można go zaatakować). Gdy efekt trwa, zyskuje +4 do rzutów obronnych, a ataki wrogów mają -4 do trafienia. Może zostać rozproszony. Zapewni również efekty Błogosławieństwa, gdy efekt trwa (zwiększając rzuty ataku, obrażenia i morale). 
+Efekty będą trwały w zależności od poziomu czarującego: 
+Na poziomie 5: 3 tury 
+Na poziomie 10: 6 tur 
+Na poziomie 15: 10 tur~
 @600048  = ~Ostrze Zmierzchu~
 @600049  = ~ostrze zmierzchu~
 @600050  = ~OSTRZE ZMierzchu: Elfi wojownicy w pełni wykorzystują swoje rasowe zdolności w mistrzostwie sztuki wojny.
@@ -4656,6 +4669,11 @@ Zalety:
 - Może zadawać ciosy w plecy. Mnożnik wynosi x2 do poziomu 12, potem wzrasta do x3.
 - Może używać Płaszcza Północy co 5 poziomów (zaczyna z jednym użyciem na poziomie 5).
 
+PŁASZCZ PÓŁNOCY: Podobnie jak Ulepszona Niewidzialność, elficki wojownik przykrywa się cieniami i pozostaje w nich nawet po odkryciu (choć wciąż można go zaatakować). Gdy efekt trwa, zyskuje +4 do rzutów obronnych, a ataki wrogów mają -4 do trafienia. Może zostać rozproszony. Zapewni również efekty Błogosławieństwa, gdy efekt trwa (zwiększając rzuty ataku, obrażenia i morale). 
+Efekty będą trwały w zależności od poziomu czarującego: 
+Na poziomie 5: 3 tury 
+Na poziomie 10: 6 tur 
+Na poziomie 15: 10 tur
 PŁASZCZ PÓŁNOCY: Podobnie jak Ulepszona Niewidzialność, elficki wojownik przykrywa się cieniami i pozostaje w nich nawet po odkryciu (choć wciąż można go zaatakować). Gdy efekt trwa, zyskuje +4 do rzutów obronnych, a ataki wrogów mają -4 do trafienia. Może zostać rozproszony. Zapewni również efekty Błogosławieństwa, gdy efekt trwa (zwiększając rzuty ataku, obrażenia i morale). 
 Efekty będą trwały w zależności od poziomu czarującego: 
 Na poziomie 5: 3 tury 
@@ -4691,7 +4709,23 @@ Zalety:
 - Może używać Szczęścia Mistrza raz dziennie co 4 poziomy.
 
 SZCZĘŚCIE MISTRZA: Po aktywacji tej wrodzonej zdolności, Strzelec poprawi swoje ataki z dystansu oraz swoje własne możliwości ofensywne:
+- Zyskuje bonus +1 do ataku i +1 do obrażeń z broni dystansowej co 6 poziomów.
+- Wybór Atrybutów: bonus +1 do Siły i Zręczności.
 
+- Strzelcy Cieni będą zwiększać swoją prędkość ataku według następującej progresji:
+ Poziom 7: +0.5 APRE i +1 do Wskaźnika Prędkości Ataku.
+ Poziom 10: +0.5 do APR.
+ Poziom 16: +0.5 do APR i +1 do Wskaźnika Prędkości Ataku.
+ Poziom 20: +0.5 do APR.
+
+- Może używać Szczęścia Mistrza raz dziennie co 4 poziomy.
+
+SZCZĘŚCIE MISTRZA: Po aktywacji tej wrodzonej zdolności, Strzelec poprawi swoje ataki z dystansu oraz swoje własne możliwości ofensywne:
+
+ Poziom 4: -1 do THAC0 celu i +1 do Szczęścia użytkownika. Czas trwania: 10 sekund.
+ Poziom 8: -1 do rzutów obronnych celu przeciwko czarom i +2 bonus do Siły dla użytkownika. Czas trwania: 15 sekund.
+ Poziom 12: -1 do Siły celu i +2 do Obrażeń za udany atak. Czas trwania: 20 sekund.
+ Poziom 16: Kolejny bonus +2 do obrażeń i +1 do APR. Czas trwania: 25 sekund.
  Poziom 4: -1 do THAC0 celu i +1 do Szczęścia użytkownika. Czas trwania: 10 sekund.
  Poziom 8: -1 do rzutów obronnych celu przeciwko czarom i +2 bonus do Siły dla użytkownika. Czas trwania: 15 sekund.
  Poziom 12: -1 do Siły celu i +2 do Obrażeń za udany atak. Czas trwania: 20 sekund.
@@ -4705,14 +4739,31 @@ Wady:
 - Mnożnik za atak od tyłu jest ograniczony do x2.
 - Zyskują tylko 15 punktów umiejętności na poziom do przydzielenia do umiejętności złodziejskich.~
 
+- Muszą być halflingami.
+- Jedyną bronią dystansową, do której mogą przypisać punkty biegłości, jest proca.
+- Chociaż mogą używać broni wręcz ograniczonej do klasy złodzieja, mogą przypisać tylko 1 punkt do Krótkiego Miecza, Kija i Sztyletu.
+- Mnożnik za atak od tyłu jest ograniczony do x2.
+- Zyskują tylko 15 punktów umiejętności na poziom do przydzielenia do umiejętności złodziejskich.~
+
 @600055  = ~STRZELEC CIENI: Pół-elfi złodziej stał się wysoko wyspecjalizowany w używaniu procy, poświęcając część umiejętności walki w zwarciu i kradzieży.~
 
 @600056  = ~Agent Hybryda~
 @600057  = ~agent hybryda~
 @600058 = ~AGENT HYBRYDOWY: Półelfowie są szkoleni, aby dzięki swojej hybrydowej krwi maksymalizować umiejętności bardowskie i złodziejskie.
+@600058 = ~AGENT HYBRYDOWY: Półelfowie są szkoleni, aby dzięki swojej hybrydowej krwi maksymalizować umiejętności bardowskie i złodziejskie.
 
 Zalety:
 
+- Jako zdolność specjalna mogą używać Wykrywania Pułapek i Otwierania Zamków raz dziennie na poziom (zaczynając od jednego użycia na poziomie 1).
+- Mogą wykonać atak z zaskoczenia. Mnożnik wynosi x2 do poziomu 12, potem wzrasta do x3.
+- Mogą stawać się niewidzialni: 1 użycie co 6 poziomów.
+- Mogą używać Ulepszonego Przyspieszenia jako zdolność specjalną: 1 użycie co 9 poziomów.
+- Mogą zastawiać pułapki z wprawą mistrza złodziei:
+ * Zastawianie pułapki: Raz dziennie co 6 poziomów.
+ * Zastawianie pułapki dezorientującej: Raz dziennie co 8 poziomów (począwszy od poziomu 8).
+ * Zastawianie pułapki wyciszającej: Raz dziennie co 8 poziomów (począwszy od poziomu 8).
+
+- Pieśń Barda: Oprócz podstawowych efektów Pieśni Barda, pieśń Agenta Hybrydowego rozprasza iluzje i niewidzialność każdej istoty spoza drużyny.
 - Jako zdolność specjalna mogą używać Wykrywania Pułapek i Otwierania Zamków raz dziennie na poziom (zaczynając od jednego użycia na poziomie 1).
 - Mogą wykonać atak z zaskoczenia. Mnożnik wynosi x2 do poziomu 12, potem wzrasta do x3.
 - Mogą stawać się niewidzialni: 1 użycie co 6 poziomów.
@@ -4730,8 +4781,15 @@ Wady:
 - Nie mogą przypisywać punktów biegłości do broni dwuręcznych dystansowych (krótki łuk, długi łuk i kusza).
 - Kara do Odporności na Magię: -10%.
 - Kara do Klasy Pancerza: -1~
+- Muszą być półelfami.
+- Nie mogą przypisywać punktów biegłości do broni dwuręcznych dystansowych (krótki łuk, długi łuk i kusza).
+- Kara do Odporności na Magię: -10%.
+- Kara do Klasy Pancerza: -1~
 @600059  = ~AGENT HYBRYDA: Pół-elfy są szkolone dzięki swojej hybrydowej krwi, aby maksymalizować umiejętności bardzkie i złodziejskie.~
 
+@600060  = ~Tkacz Snów~
+@600061  = ~tkacz snów~
+@600062  = ~TKACZ SNÓW: Półorkowie-szamany urodzeni z tym darem potrafią łączyć świat snów z Materialnym Planem.
 @600060  = ~Tkacz Snów~
 @600061  = ~tkacz snów~
 @600062  = ~TKACZ SNÓW: Półorkowie-szamany urodzeni z tym darem potrafią łączyć świat snów z Materialnym Planem.
@@ -4756,15 +4814,41 @@ UWAGA: Obraz Projekcyjny i duplikaty Symulakrum nie mogą wykonywać Tańca Szam
 
 Wrodzone zdolności:
 - Mogą rzucać Welon Snów raz dziennie co 4 poziomy szamana (zaczynając od 1 użycia na poziomie 1).
+- Umiejętność: Tkacz Snów może przydzielić 2 punkty do każdego stylu walki.
+- Ma dostęp do następujących zaklęć:
 
+ Na poziomie 1: Sanktuarium i Rozkaz (poziom 1)
+ Na poziomie 3: Sen (poziom 2)
+ Na poziomie 5: Emocja: Beznadzieja i Słowo Mocy, Sen (poziom 3)
+ Na poziomie 7: Wielkie Zło (poziom 4)
+ Na poziomie 9: Wielki Rozkaz i Przywołanie Nishruu (poziom 5)
+ Na poziomie 11: Przywołanie Hakeashara i Obraz Projekcyjny (poziom 6)
+ Na poziomie 13: Symulakrum (poziom 7)
+ 
+UWAGA: Obraz Projekcyjny i duplikaty Symulakrum nie mogą wykonywać Tańca Szamańskiego.
+ 
+- Tkacz Snów może poruszać się swobodnie podczas przyzywania Tańca Szamańskiego, sprawiając, że duchy podążają blisko, aż napotkają wrogów do walki. W tym transie Tkacz Snów może również rzucać zaklęcia i korzystać z wrodzonych umiejętności, chociaż ich użycie zakończy taniec.
+- Duchy Tkacza Snów pozostaną blisko, nawet jeśli Taniec Szamański ustanie. Te duchy utrzymują się przez około 10 minut, chroniąc swojego przyzywacza przez czas przekraczający sam taniec. Ponadto, Tkacze Snów nie doznają kar do Klasy Pancerza podczas wykonywania Tańca Szamańskiego.
+
+Wrodzone zdolności:
+- Mogą rzucać Welon Snów raz dziennie co 4 poziomy szamana (zaczynając od 1 użycia na poziomie 1).
+
+WELON SNÓW: Tkacz Snów zniekształca swój obraz, co utrudnia przeciwnikom trafienie w niego. To zniekształcenie nakłada karę -3 na wszystkie ataki projektile i wręcz w jego stronę. Dodatkowo otrzymują bonus +1 do wszystkich rzutów obronnych. Welon Snów uczyni także szamana niewidzialnym dla wrogów przez Sanktuarium. Nawet jeśli wróg zdoła rozwiać niewidzialność poprzez wróżenie, efekty obronne zdolności pozostaną aktywne do wygaśnięcia (10 minut) lub skutecznego rozwiania.
 WELON SNÓW: Tkacz Snów zniekształca swój obraz, co utrudnia przeciwnikom trafienie w niego. To zniekształcenie nakłada karę -3 na wszystkie ataki projektile i wręcz w jego stronę. Dodatkowo otrzymują bonus +1 do wszystkich rzutów obronnych. Welon Snów uczyni także szamana niewidzialnym dla wrogów przez Sanktuarium. Nawet jeśli wróg zdoła rozwiać niewidzialność poprzez wróżenie, efekty obronne zdolności pozostaną aktywne do wygaśnięcia (10 minut) lub skutecznego rozwiania.
 
 - Mogą rzucać Chmurę Snów raz dziennie co 10 poziomów szamana (zaczynając od 1 użycia na poziomie 1).
 
 CHMURA SNÓW: Tkacz Snów uwalnia mgłę w promieniu 9 metrów. Każda istota złapana w nią musi wykonać rzut obronny przeciwko zaklęciom lub stracić przytomność na 25 sekund. Szaman i duchy <PRO_HISHER> będą odporni na efekty Chmury Snów.
+CHMURA SNÓW: Tkacz Snów uwalnia mgłę w promieniu 9 metrów. Każda istota złapana w nią musi wykonać rzut obronny przeciwko zaklęciom lub stracić przytomność na 25 sekund. Szaman i duchy <PRO_HISHER> będą odporni na efekty Chmury Snów.
 
 Wady:
 
+- Muszą być półorkami.
+- Szansa, że duch odpowie na wezwanie, jest zmniejszona do 50%.
+- Ich umiejętność Wykrywania Iluzji postępuje tylko w jednej czwartej szybkości standardowego szamana.
+- Kara Charyzmy -2 przy tworzeniu postaci.
+- Kara Klasy Pancerza 1.~
+@600063  = ~TKACZ SNÓW: Półorkowie-szamany, którzy rodzą się z tym darem, mogą łączyć świat snów z Materialnym Planem.~
 - Muszą być półorkami.
 - Szansa, że duch odpowie na wezwanie, jest zmniejszona do 50%.
 - Ich umiejętność Wykrywania Iluzji postępuje tylko w jednej czwartej szybkości standardowego szamana.
@@ -4818,6 +4902,13 @@ Zalety:
 
 Co 10 poziomów, dodawana jest 1 użycie do każdego pocisku.
 
+Poziom 1: Eksplozywna Strzała - Na PZM 20, dodatkowe obrażenia: Kwas
+Poziom 3: Eksplozywny Pocisk - Na PZM 20, dodatkowe obrażenia: Elektryczne
+Poziom 5: Eksplozywny Bełt - Na PZM 20, dodatkowe obrażenia: Magiczne
+Poziom 7: Eksplozywny Rzutka - Na PZM 20, dodatkowe obrażenia: Zimno
+Poziom 9: Eksplozywny Sztylet - Na PZM 20, dodatkowe obrażenia: Trucizna
+Poziom 11: Eksplozywny Toporek - Na PZM 20, dodatkowe obrażenia: Miażdżenie
+Poziom 13: Eksplozywna Włócznia - Na PZM 20, dodatkowe obrażenia: Przebicie
 Poziom 1: Eksplozywna Strzała - Na PZM 20, dodatkowe obrażenia: Kwas
 Poziom 3: Eksplozywny Pocisk - Na PZM 20, dodatkowe obrażenia: Elektryczne
 Poziom 5: Eksplozywny Bełt - Na PZM 20, dodatkowe obrażenia: Magiczne
@@ -7931,6 +8022,15 @@ mysz zakochana, wieczny kochanek.'~
 @9722028 = ~Pamiętaj naszą pierwszą rozmowę, mała. Twoje dzieciństwo. Twój ojciec. Pająki. Natura.~
 @9722029 = ~Wszystko wydarzyło się z jakiegoś powodu. Ale nie rozpaczaj, droga. Dopóki będziesz przy swoich przyjaciołach, będziesz bezpieczna.~
 @9722030 = ~Rozumiem. Dziękuję, Bellfame. To ulga rozmawiać z tobą.~
+
+@9723254  = ~Mój mały przyjaciel Michelson wspomniał coś o zakłóceniu czasu. Nie sądziłem, że coś takiego jest możliwe.~
+@9723255  = ~Świat magii ma zdolność do zmiany czasu i przestrzeni.~
+@9723256  = ~W moim starciu z oddziałem Kartlzera moja magia druidyczna zderzyła się z arcanym czarami ich czarodzieja.~
+@9723257  = ~Pierścień, który twoje towarzystwo teraz posiada, był przewodnikiem tego wydarzenia... Nie sądzę, że mogę dokładnie wyjaśnić, co się stało...~
+@9723258  = ~Cóż... cokolwiek to było, twoja historia w Lesie Mir jeszcze się nie wydarzyła. To mnie myli...~
+@9723259  = ~Nie musisz rozumieć wszystkiego wokół siebie, śmiertelniku. Czasami rzeczy... po prostu się zdarzają.~
+@9723261  = ~To prawda, że jestem śmiertelnikiem, nimfo... ale moi przyjaciele nazywają mnie Dusk. Możesz mnie tak również nazywać.~
+
 
 @9723254  = ~Mój mały przyjaciel Michelson wspomniał coś o zakłóceniu czasu. Nie sądziłem, że coś takiego jest możliwe.~
 @9723255  = ~Świat magii ma zdolność do zmiany czasu i przestrzeni.~

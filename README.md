@@ -8,7 +8,7 @@
 
 ## Features
 
-**NEW JOINABLE NPCS:** Dusk, the Wizard Slayer, and Fall, the Beastmaster, plus 2 secret NPCs that will be revealed one week after the mod's release.
+**NEW JOINABLE NPCS:** Dusk, the Wizard Slayer, and Fall, the Beastmaster, plus 2 secret NPCs: Alendir, the Frostmaster and Cho'Nuja, the Wildguard.
 
 **NEW CONTENT:** Over 10 new quests for Shadow of Amn, more than 100 new items, 3 new vendors available, 7 new spells for mages, possibility to upgrade existing items, 6 new race-exclusive kits
 
@@ -30,7 +30,7 @@ Copy the content of the ZIP file into your BG2 directory and:
 Copy the content of the ZIP file into you BG2 directory and:
 - Open Terminal then go to game directory
 - Grant execution permission to the installation scripts `chmod +x setup-Autumns_Twilight*`
-- Execute the script and follow the instructions `./setup-Autumns_Twilight.command`
+- Execute the script and follow the instructions `./setup-Autumns_Twilight`
 
 [![Total Downloads (all assets, all releases)](https://img.shields.io/github/downloads/evancauteren/bg2-autumns-twilight-mod/total)](https://github.com/evancauteren/bg2-autumns-twilight-mod/releases)
 
@@ -43,14 +43,100 @@ Copy the content of the ZIP file into you BG2 directory and:
 [![Discord](https://img.shields.io/discord/1295832308133134337?style=flat&logo=discord&label=Discord)](https://discord.gg/zr85cBtDjR)
 
 
+## FAQ
+
+1. **What is Autumn's Twilight?**  
+Autumn's Twilight is a mod for Baldur's Gate 2 EE and BGTEE, designed exclusively for Enhanced Editions, that adds new characters, storylines, and challenges to the original game.
+ 
+2. **How do I install the mod?**  
+    - Download the mod from the https://github.com/evancauteren/bg2-autumns-twilight-mod
+    - Extract the files into your game’s main folder.
+    - Run the installer (setup-Autumns_Twilight.exe) and follow the instructions.
+ 
+3. **Is the mod compatible with other mods?**  
+Yes, you shouldn't encounter conflicts with other mods unless they use the same map points (e.g., Mathyus's Hideout in the Docks). 
+
+4. **What languages does the mod support?**  
+The mod is available in English and Spanish. Other translations come with a disclaimer that they may not be fully accurate.
+ 
+5. **Is there content tailored for specific characters?**  
+Yes! For example, Fall and Dusk have unique storylines that adapt based on your in-game choices.
+ 
+6. **Where are Dusk and Fall?**  
+Dusk and Fall are in the Waukeen's Promenade of Athkatla. Dusk will approach you after your escape from Irenicus's dungeon, and Fall can be found near the circus's animal cages.  
+- 6.1 *Why are they not there?*  
+    - Make sure you have installed the mod correctly according to the instructions. If the required files are missing, repeat the installation process.  
+- 6.2 *Dusk's select/confirm sounds are all mixed up! And his name, too! The same happens to Fall! What can I do?*  
+    - Select Dusk or Fall and press the K key..
+ 
+7. **Does the mod include romances?**  
+No, the mod does not include romances. It only offers the possibility of building friendships with the 4 NPCs included.
+ 
+8. **I already have a save started. Can I continue it after installing the mod?**  
+Yes, you can continue your game. However, there are a few things to keep in mind. If you're far along in the story, you may not be able to access all the content added by the mod. For example, starting a game after visiting Spellhold will prevent the player from accessing the new dungeon, which becomes available after the journey through the Underdark.
+ 
+9. **Is BG2 AT compatible with the Classic Edition?**  
+No, currently the BG2 AT mod is not compatible with the Classic Edition. It will only work with the Enhanced Editions (EE).
+ 
+10. **If I already have the mod installed, can I access the updates by installing the new version?**  
+Yes. If you already have a saved game with the Autumn's Twilight mod installed, loading your save will apply the changes included in the new version. However, there are some exceptions:
+    - Items: For example, Venomguard is a shield found in Vreshnak's inventory. If you've already defeated her before installing the update, you won't be able to obtain the shield unless you start a new game.
+    - Enemies and Areas: If you load a save where you’re already in a map with pre-loaded enemies, they are likely to retain their old stats. The updated stats will only apply to newly loaded enemies or when entering a new area.
+ 
+11. **I already have a save started from v1.0. What happens if I choose Hard difficulty?**  
+Version 1.0 of Autumn's Twilight had Hard difficulty as the default setting. In the update, the mod has been adjusted to use Normal difficulty by default. However, Hard difficulty is still available as an optional setting for players who prefer a tougher challenge.
+Keep in mind that Hard difficulty in the updated version is more challenging than in v1.0. This is because the experience points awarded by enemies have been significantly reduced.
+ 
+12. **Can I change the difficulty during a game?**  
+Yes. You can change the mod’s difficulty by re-installing it. The changes will take effect when you load your save, but keep in mind that enemies already present in your current map will retain the difficulty settings they were originally created with.
+The updated difficulty settings will only apply to creatures spawned when your party enters new areas.
+ 
+13. **I’ve defeated the lizards in Dreach-naga on Hard difficulty, but the spiders are too tough. Since I’ve already visited those areas, will changing the difficulty have no effect?**  
+The spiders in Dreach-naga are indeed created within those maps. However, when they are spawned, the difficulty setting applied will depend on how the mod is currently installed.
+This means that even if you’ve previously visited those areas, the difficulty changes will still affect the spiders when they appear.
+ 
+14. **Can I crossmod BG2AT with my project?**  
+Yes, feel free to crossmod your mod with ours. It's not mandatory to credit us, but It'd be nice.
+
 ## Current Release
 
-**v1.0.0**
+**v1.1.0**
 
-**Initial Release**
+- Fixed several minor bugs.
+- A disclaimer about language clarity during installation has been added.
+- Balanced five kits. See pictures below:
+<p align="center">
+    <img src="docs/images/v1.1/01.jpg?raw=true" width="820">
+</p>
+<p align="center">
+    <img src="docs/images/v1.1/02.jpg?raw=true" width="820">
+</p>
+<p align="center">
+    <img src="docs/images/v1.1/03.jpg?raw=true" width="820">
+</p>
+<p align="center">
+    <img src="docs/images/v1.1/04.jpg?raw=true" width="820">
+</p>
+<p align="center">
+    <img src="docs/images/v1.1/05.jpg?raw=true" width="820">
+</p>
+<p align="center">
+    <img src="docs/images/v1.1/06.jpg?raw=true" width="820">
+</p>  
 
-- First stable version of the mod.
-- Two new secret NPCs will be revealed one week after the mod's release (October 18, 2024)
+- Adjusted experience points gained from defeating enemies (affects all minions). See below:
+
+<p align="center">
+    <img src="docs/images/v1.1/07.jpg?raw=true" width="820">
+</p>
+<p align="center">
+    <img src="docs/images/v1.1/08.jpg?raw=true" width="820">
+</p>
+
+- Added difficulty level selector.
+<p align="center">
+    <img src="docs/images/v1.1/09.jpg?raw=true" width="820">
+</p>
 
 ## Credits
 

@@ -1392,6 +1392,7 @@ Abilità speciali:
 - Rigenerazione rettiliana: Cho'Nuja rigenererà 1 punto vita ogni 10 secondi.
 
 - Danno: 1D6 +5
+- Danno: 1D6 +5
 - THAC0: +5
 - Tipo di danno base: Tagliente
 - Fattore di velocità: 2
@@ -1409,6 +1410,7 @@ Abilità speciali:
 
 - Accelerazione migliorata: Ogni attacco ha il 20% di probabilità di Accelerare il Guardiano Selvaggio per 6 secondi.
 
+- Danno: 1D4 +5, +1 punti di danno tagliente
 - Danno: 1D4 +5, +1 punti di danno tagliente
 - THAC0: +5
 - Tipo di danno base: Perforante
@@ -1429,6 +1431,7 @@ Abilità speciali:
 - Paralisi: Ogni attacco ha il 15% di probabilità di Stordire l'avversario per 6 secondi.
 
 - Danno: 1D2 +5, +1 punti di danno tagliente
+- Danno: 1D2 +5, +1 punti di danno tagliente
 - THAC0: +5
 - Tipo di danno base: Contundente
 - Fattore di velocità: 1
@@ -1446,7 +1449,9 @@ CARATTERISTICHE:
 Abilità speciali:
 
 - Cura: Ogni attacco ha il 15% di probabilità di curare Cho per 25 punti vita.
+- Cura: Ogni attacco ha il 15% di probabilità di curare Cho per 25 punti vita.
 
+- Danno: 1D2 +5
 - Danno: 1D2 +5
 - Danno acido: 1D3
 - THAC0: +5
@@ -1466,6 +1471,8 @@ Abilità speciali:
 
 - Rallentamento: Ogni attacco ha il 10% di probabilità di rallentare l'avversario per 20 secondi.
 
+- Danno: 1D3 +5, +1 punto di danno perforante
+- Danno gelido: 1D2
 - Danno: 1D3 +5, +1 punto di danno perforante
 - Danno gelido: 1D2
 - THAC0: +5
@@ -3080,6 +3087,7 @@ Abilità di Combattimento:
 - Veleno: La vittima deve superare un tiro salvezza contro Morte/Veleno o subire 4 punti di danno al secondo per 3 turni.
 
 THAC0: +6
+Danno: 1D6+6, +1d4 per danno da Veleno.
 Danno: 1D6+6, +1d4 per danno da Veleno.
 Tipo di danno: Perforante
 Peso: 7 lbs
@@ -4727,6 +4735,11 @@ Gli effetti dureranno a seconda del livello del lanciatore:
 Al livello 5: 3 turni 
 Al livello 10: 6 turni 
 Al livello 15: 10 turni~
+Simile all'Invisibilità Migliorata, il guerriero elfico si avvolge nelle ombre e rimane in esse anche quando viene scoperto (anche se può comunque essere attaccato). Mentre l'effetto dura, guadagna un bonus di +4 ai tiri salvezza e gli attacchi nemici subiscono una penalizzazione di -4. Può essere annullato. Fornirà anche gli effetti della Benedizione mentre l'effetto dura (aumentando i tiri di attacco, il danno e il morale). 
+Gli effetti dureranno a seconda del livello del lanciatore: 
+Al livello 5: 3 turni 
+Al livello 10: 6 turni 
+Al livello 15: 10 turni~
 @600048  = ~Spada del Crepuscolo~
 @600049  = ~spada del crepuscolo~
 @600050  = ~SPADA DEL CREPUSCOLO: gli elfi guerrieri sfruttano al massimo la loro capacità razziale per dominare l'arte della guerra.
@@ -4739,6 +4752,11 @@ Vantaggi:
 - Possono infliggere colpi alle spalle. Il moltiplicatore sarà x2 fino al livello 12, poi passerà a x3.
 - Può utilizzare Mantello della Mezzanotte ogni 5 livelli (iniziano con un uso al livello 5).
 
+MANTELLO DELLA MEZZANOTTE: Simile all'Invisibilità Migliorata, il guerriero elfico si avvolge nelle ombre e rimane in esse anche quando viene scoperto (anche se può comunque essere attaccato). Mentre l'effetto dura, guadagna un bonus di +4 ai tiri salvezza e gli attacchi nemici subiscono una penalizzazione di -4. Può essere annullato. Fornirà anche gli effetti della Benedizione mentre l'effetto dura (aumentando i tiri di attacco, il danno e il morale). 
+Gli effetti dureranno a seconda del livello del lanciatore: 
+Al livello 5: 3 turni 
+Al livello 10: 6 turni 
+Al livello 15: 10 turni
 MANTELLO DELLA MEZZANOTTE: Simile all'Invisibilità Migliorata, il guerriero elfico si avvolge nelle ombre e rimane in esse anche quando viene scoperto (anche se può comunque essere attaccato). Mentre l'effetto dura, guadagna un bonus di +4 ai tiri salvezza e gli attacchi nemici subiscono una penalizzazione di -4. Può essere annullato. Fornirà anche gli effetti della Benedizione mentre l'effetto dura (aumentando i tiri di attacco, il danno e il morale). 
 Gli effetti dureranno a seconda del livello del lanciatore: 
 Al livello 5: 3 turni 
@@ -4779,10 +4797,31 @@ FORTUNA DEL CAMPIONE: Attivando questa abilità innata, il Fionda migliorerà i 
  Livello 8: -1 ai tiri salvezza del bersaglio contro gli incantesimi e +2 bonus alla Forza per l'utente. Durata: 15 secondi.
  Livello 12: -1 alla Forza del bersaglio e +2 danno per attacco riuscito. Durata: 20 secondi.
  Livello 16: Un ulteriore bonus di +2 al danno e +1 a APR. Durata: 25 secondi.
+- Ottiene un bonus di +1 all'attacco e +1 ai danni con armi a distanza ogni 6 livelli.
+- Selezione degli Attributi: bonus di +1 a Forza e Destrezza.
+
+- I Fionda Ombra scaleranno le loro velocità di attacco con la seguente progressione:
+ Livello 7: +0.5 APR e +1 al Fattore di Velocità di Attacco.
+ Livello 10: +0.5 a APR.
+ Livello 16: +0.5 a APR e +1 al Fattore di Velocità di Attacco.
+ Livello 20: +0.5 a APR.
+
+- Può usare la Fortuna del Campione una volta al giorno ogni 4 livelli.
+
+FORTUNA DEL CAMPIONE: Attivando questa abilità innata, il Fionda migliorerà i suoi attacchi a distanza, così come le sue capacità offensive:
+
+ Livello 4: -1 al THAC0 del bersaglio e +1 alla Fortuna dell'utente. Durata: 10 secondi.
+ Livello 8: -1 ai tiri salvezza del bersaglio contro gli incantesimi e +2 bonus alla Forza per l'utente. Durata: 15 secondi.
+ Livello 12: -1 alla Forza del bersaglio e +2 danno per attacco riuscito. Durata: 20 secondi.
+ Livello 16: Un ulteriore bonus di +2 al danno e +1 a APR. Durata: 25 secondi.
 
 Svantaggi:
 
 - Devono essere mezzorchi.
+- L'unica arma a distanza a cui possono allocare punti di competenza è la fionda.
+- Anche se possono impugnare armi corpo a corpo limitate alla classe dei ladri, possono mettere solo 1 punto in Spada Corta, Bastone e Pugnale.
+- Il moltiplicatore di attacco alle spalle è limitato a x2.
+- Ottengono solo 15 punti abilità per livello da assegnare alle abilità da ladro.~
 - L'unica arma a distanza a cui possono allocare punti di competenza è la fionda.
 - Anche se possono impugnare armi corpo a corpo limitate alla classe dei ladri, possono mettere solo 1 punto in Spada Corta, Bastone e Pugnale.
 - Il moltiplicatore di attacco alle spalle è limitato a x2.
@@ -4792,9 +4831,20 @@ Svantaggi:
 @600056  = ~Agente Ibrido~
 @600057  = ~agente ibrido~
 @600058 = ~AGENTE IBRIDO: I mezzelfi sono addestrati, grazie al loro sangue ibrido, per massimizzare le abilità di bardo e di ladro.
+@600058 = ~AGENTE IBRIDO: I mezzelfi sono addestrati, grazie al loro sangue ibrido, per massimizzare le abilità di bardo e di ladro.
 
 Vantaggi:
 
+- Come abilità speciale, possono usare Rilevamento Trappole e Scassinare una volta al giorno per livello (a partire da un uso al livello 1).
+- Possono colpire alle spalle. Il moltiplicatore è x2 fino al livello 12, poi diventa x3.
+- Possono diventare invisibili: 1 utilizzo ogni 6 livelli.
+- Possono usare Velocità Migliorata come abilità speciale: 1 utilizzo ogni 9 livelli.
+- Possono piazzare trappole con l'abilità di un maestro ladro:
+ * Piazzare Trappola: Una volta al giorno ogni 6 livelli.
+ * Piazzare Trappola Confondente: Una volta al giorno ogni 8 livelli (a partire dal livello 8).
+ * Piazzare Trappola Silenziosa: Una volta al giorno ogni 8 livelli (a partire dal livello 8).
+
+- Canto del Bardo: Oltre agli effetti base del Canto del Bardo, il canto dell'Agente Ibrido disperderà anche illusioni e invisibilità da tutte le creature fuori dal gruppo.
 - Come abilità speciale, possono usare Rilevamento Trappole e Scassinare una volta al giorno per livello (a partire da un uso al livello 1).
 - Possono colpire alle spalle. Il moltiplicatore è x2 fino al livello 12, poi diventa x3.
 - Possono diventare invisibili: 1 utilizzo ogni 6 livelli.
@@ -4812,8 +4862,14 @@ Svantaggi:
 - Non possono assegnare punti competenza nelle armi a distanza a due mani (Arco Corto, Arco Lungo e Balestra).
 - Penalità alla Resistenza Magica: -10%.
 - Penalità alla Classe Armatura: -1~
+- Non possono assegnare punti competenza nelle armi a distanza a due mani (Arco Corto, Arco Lungo e Balestra).
+- Penalità alla Resistenza Magica: -10%.
+- Penalità alla Classe Armatura: -1~
 @600059  = ~AGENTE IBRIDO: I mezzelfi sono addestrati grazie al loro sangue ibrido per massimizzare le abilità di bardo e di ladro.~
 
+@600060  = ~Intrecciatore di Sogni~
+@600061  = ~intrecciatore di sogni~
+@600062  = ~INTRECCIATORE DI SOGNI: Gli sciamani mezzorchi nati con questo dono sono in grado di mescolare il mondo dei sogni con il Piano Materiale.
 @600060  = ~Intrecciatore di Sogni~
 @600061  = ~intrecciatore di sogni~
 @600062  = ~INTRECCIATORE DI SOGNI: Gli sciamani mezzorchi nati con questo dono sono in grado di mescolare il mondo dei sogni con il Piano Materiale.
@@ -4838,15 +4894,43 @@ NOTA: L'Immagine Proiettata e i duplicati del Simulacro non possono eseguire la 
 
 Abilità Innate:
 - Possono lanciare Velum dei Sogni una volta al giorno ogni 4 livelli di sciamano (a partire da 1 utilizzo al livello 1).
+- Competenza: L'Intrecciatore di Sogni può mettere 2 punti in ciascuno stile di combattimento.
+- Ha accesso ai seguenti incantesimi:
 
+ Al Livello 1: Santuario e Comando (livello 1)
+ Al Livello 3: Sonno (livello 2)
+ Al Livello 5: Emozione: Disperazione e Parola Potente, Sonno (livello 3)
+ Al Livello 7: Grande Maleficio (livello 4)
+ Al Livello 9: Grande Comando e Evoca Nishruu (livello 5)
+ Al Livello 11: Evoca Hakeashar e Immagine Proiettata (livello 6)
+ Al Livello 13: Simulacro (livello 7)
+ 
+NOTA: L'Immagine Proiettata e i duplicati del Simulacro non possono eseguire la Danza Sciamanica.
+ 
+- L'Intrecciatore di Sogni può muoversi liberamente mentre invoca la Danza Sciamanica, facendo sì che gli spiriti lo seguano da vicino fino a quando non incontrano nemici con cui combattere. Durante questo trance, l'Intrecciatore di Sogni può anche lanciare incantesimi e utilizzare abilità innate, anche se farlo terminerà la danza.
+- Gli spiriti dell'Intrecciatore di Sogni rimarranno vicini anche se la Danza Sciamanica cessa. Questi spiriti durano circa 10 minuti, proteggendo il loro evocatore per un tempo oltre la danza stessa. Inoltre, gli Intrecciatori di Sogni non subiscono penalità alla Classe Armatura mentre eseguono la Danza Sciamanica.
+
+Abilità Innate:
+- Possono lanciare Velum dei Sogni una volta al giorno ogni 4 livelli di sciamano (a partire da 1 utilizzo al livello 1).
+
+VELUM DEI SOGNI: L'Intrecciatore di Sogni distorce la propria immagine, rendendo difficile per gli avversari colpirlo. Questa distorsione impone una penalità di -3 su tutti gli attacchi a distanza e in mischia contro di lui. Inoltre, ricevono un bonus di +1 a tutti i tiri salvezza. Velum dei Sogni renderà anche lo sciamano invisibile per i nemici tramite Santuario. Anche se il nemico riesce a disperdere l'invisibilità tramite divinazione, gli effetti difensivi dell'abilità rimarranno attivi fino alla scadenza (10 minuti) o fino a quando non vengono dispersi con successo.
 VELUM DEI SOGNI: L'Intrecciatore di Sogni distorce la propria immagine, rendendo difficile per gli avversari colpirlo. Questa distorsione impone una penalità di -3 su tutti gli attacchi a distanza e in mischia contro di lui. Inoltre, ricevono un bonus di +1 a tutti i tiri salvezza. Velum dei Sogni renderà anche lo sciamano invisibile per i nemici tramite Santuario. Anche se il nemico riesce a disperdere l'invisibilità tramite divinazione, gli effetti difensivi dell'abilità rimarranno attivi fino alla scadenza (10 minuti) o fino a quando non vengono dispersi con successo.
 
 - Possono lanciare Nuvola dei Sogni una volta al giorno ogni 10 livelli di sciamano (a partire da 1 utilizzo al livello 1).
+- Possono lanciare Nuvola dei Sogni una volta al giorno ogni 10 livelli di sciamano (a partire da 1 utilizzo al livello 1).
 
+NUVOLA DEI SOGNI: L'Intrecciatore di Sogni rilascia una nebbia in un raggio di 9 metri. Qualsiasi creatura catturata in essa deve effettuare un tiro salvezza contro incantesimi o cadere svenuta per 25 secondi. Lo sciamano e gli spiriti di <PRO_HISHER> saranno immuni agli effetti della Nuvola dei Sogni.
 NUVOLA DEI SOGNI: L'Intrecciatore di Sogni rilascia una nebbia in un raggio di 9 metri. Qualsiasi creatura catturata in essa deve effettuare un tiro salvezza contro incantesimi o cadere svenuta per 25 secondi. Lo sciamano e gli spiriti di <PRO_HISHER> saranno immuni agli effetti della Nuvola dei Sogni.
 
 Svantaggi:
 
+- Devono essere mezz'orchi.
+- La possibilità che uno spirito risponda alla chiamata è ridotta al 50%.
+- La loro abilità di Rilevare Illusioni progredisce solo a un quarto della velocità di uno sciamano standard.
+- Penalizzazione di Carisma di -2 alla creazione del personaggio.
+- Penalizzazione della Classe Armatura di 1.~
+
+@600063  = ~INTRECCIATORE DI SOGNI: I semi-orchi sciamani nati con questo dono sono in grado di mescolare il mondo dei sogni con il Piano Materiale.~
 - Devono essere mezz'orchi.
 - La possibilità che uno spirito risponda alla chiamata è ridotta al 50%.
 - La loro abilità di Rilevare Illusioni progredisce solo a un quarto della velocità di uno sciamano standard.
@@ -4901,6 +4985,13 @@ Vantaggi:
 
 Ogni 10 livelli si aggiunge 1 uso per ogni proiettile, come segue:
 
+Livello 1: Freccia Esplosiva - Al LIV 20, danno aggiuntivo: Acido
+Livello 3: Proiettile Esplosivo - Al LIV 20, danno aggiuntivo: Elettrico
+Livello 5: Dardo Esplosivo - Al LIV 20, danno aggiuntivo: Magico
+Livello 7: Dardo Esplosivo - Al LIV 20, danno aggiuntivo: Freddo
+Livello 9: Pugnale Esplosivo - Al LIV 20, danno aggiuntivo: Veleno
+Livello 11: Ascia da Lancio Esplosiva - Al LIV 20, danno aggiuntivo: Schiacciamento
+Livello 13: Giavellotto Esplosivo - Al LIV 20, danno aggiuntivo: Perforante
 Livello 1: Freccia Esplosiva - Al LIV 20, danno aggiuntivo: Acido
 Livello 3: Proiettile Esplosivo - Al LIV 20, danno aggiuntivo: Elettrico
 Livello 5: Dardo Esplosivo - Al LIV 20, danno aggiuntivo: Magico
@@ -8089,6 +8180,15 @@ un topo innamorato, eterno innamoratore."~
 @9722028  = ~Ricorda la nostra prima conversazione, piccola. La tua infanzia. Tuo padre. I ragni. La natura.~
 @9722029  = ~Tutto è successo per una ragione. Ma non disperare, cara. Finché rimani al fianco dei tuoi amici, sarai al sicuro.~
 @9722030  = ~Capisco. Grazie, Bellfame. È un sollievo parlare con te.~
+
+@9723254 = ~Il mio piccolo amico Michelson ha menzionato qualcosa riguardo una perturbazione nel tempo. Non pensavo che una cosa del genere fosse possibile.~
+@9723255 = ~Il mondo della magia ha la capacità di alterare il tempo e lo spazio.~
+@9723256 = ~Nel mio confronto con il distaccamento di Kartlzer, la mia magia druidica ha colliso con la magia arcana del loro stregone.~
+@9723257 = ~L'anello che la vostra compagnia possiede ora è stato il conduttore di quell'evento... Non credo di poter spiegare esattamente cosa sia successo...~
+@9723258 = ~Bene... qualunque cosa sia stata, la tua storia nella Foresta di Mir non è ancora accaduta. Questo mi confonde...~
+@9723259 = ~Non è necessario comprendere tutto ciò che ti circonda, mortale. A volte, le cose... semplicemente accadono.~
+@9723261 = ~È vero che sono un mortale, ninfa... ma i miei amici mi chiamano Dusk. Puoi chiamarmi così anche tu.~
+
 
 @9723254 = ~Il mio piccolo amico Michelson ha menzionato qualcosa riguardo una perturbazione nel tempo. Non pensavo che una cosa del genere fosse possibile.~
 @9723255 = ~Il mondo della magia ha la capacità di alterare il tempo e lo spazio.~
