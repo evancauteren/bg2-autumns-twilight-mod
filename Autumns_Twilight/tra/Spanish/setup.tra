@@ -1370,7 +1370,6 @@ Aptitudes especiales:
 - Regeneración reptiliana: Cho'Nuja regenerará 1 punto de golpe cada 10 segundos.
 
 - Daño: 1D6 +5
-- Daño: 1D6 +5
 - THAC0: +5
 - Tipo de daño base: Cortante
 - Factor de velocidad: 2
@@ -1388,7 +1387,6 @@ Aptitudes especiales:
 
 - Aceleración mejorada: Cada ataque tiene un %20 de chances de Acelerar al Guardián Salvaje durante 6 segundos.
 
-- Daño: 1D4 +5, +1 puntos de daño cortante
 - Daño: 1D4 +5, +1 puntos de daño cortante
 - THAC0: +5
 - Tipo de daño base: Perforante
@@ -1408,7 +1406,6 @@ Aptitudes especiales:
 - Parálisis: Cada ataque tiene un %15 de chances de Aturdir al oponente durante 6 segundos.
 
 - Daño: 1D2 +5, +1 puntos de daño cortante
-- Daño: 1D2 +5, +1 puntos de daño cortante
 - THAC0: +5
 - Tipo de daño base: Contundente
 - Factor de velocidad: 1
@@ -1425,9 +1422,7 @@ CARACTERÍSTICAS:
 Aptitudes especiales:
 
 - Curación: Cada ataque tiene un %15 de chances de curar a Cho por 25 puntos de golpe.
-- Curación: Cada ataque tiene un %15 de chances de curar a Cho por 25 puntos de golpe.
 
-- Daño: 1D2 +5
 - Daño: 1D2 +5
 - Daño ácido: 1D3
 - THAC0: +5
@@ -1447,8 +1442,6 @@ Aptitudes especiales:
 
 - Lentificación: Cada ataque tiene un %10 de chances de ralentizar al oponente durante 20 segundos.
 
-- Daño: 1D3 +5, +1 punto de daño perforante
-- Daño gélido: 1D2
 - Daño: 1D3 +5, +1 punto de daño perforante
 - Daño gélido: 1D2
 - THAC0: +5
@@ -3105,7 +3098,6 @@ Aptitudes de Combate:
 - Veneno: La víctima debe superar una tirada de salvación contra Muerte/Veneno o sufrir 4 puntos de daño por segundo durante 3 asaltos.
 
 THAC0: +6
-Daño: 1D6+6, +1d4 por daño de Veneno.
 Daño: 1D6+6, +1d4 por daño de Veneno.
 Tipo de daño: Perforante
 Peso: 7 lbs
@@ -4859,10 +4851,6 @@ Similar a la Invisibilidad Mejorada, el guerrero élfico se envolverá en sombra
 A nivel 5: 3 turnos 
 A nivel 10: 6 turnos 
 A nivel 15: 10 turnos~
-Similar a la Invisibilidad Mejorada, el guerrero élfico se envolverá en sombras y permanecerá en ellas incluso cuando sea descubierto (aunque aún puede ser atacado). Mientras dure el efecto, obtiene un bono de +4 a las tiradas de salvación y los ataques enemigos sufren una penalización de -4. Puede ser disipado. También proporcionará los efectos de Bendición mientras dure el efecto (aumentando las tiradas de ataque, el daño y la moral). Los efectos durarán dependiendo del nivel del lanzador: 
-A nivel 5: 3 turnos 
-A nivel 10: 6 turnos 
-A nivel 15: 10 turnos~
 @600048  = ~Espada del Crepúsculo~
 @600049  = ~espada del crepúsculo~
 @600050  = ~ESPADA DEL CREPÚSCULO: los elfos guerreros sacan el máximo provecho de su capacidad racial para dominar el arte de la guerra.
@@ -4875,10 +4863,6 @@ Ventajas:
 - Pueden apuñalar por la espalda. El multiplicador será x2 hasta nivel 12 que pasará a x3.
 - Puede utilizar Capa de la Medianoche cada 5 niveles (empiezan con un uso en nivel 5).
 
-CAPA DE LA MEDIANOCHE: Similar a la Invisibilidad Mejorada, el guerrero élfico se envolverá en sombras y permanecerá en ellas incluso cuando sea descubierto (aunque aún puede ser atacado). Mientras dure el efecto, obtiene un bono de +4 a las tiradas de salvación y los ataques enemigos sufren una penalización de -4. Puede ser disipado. También proporcionará los efectos de Bendición mientras dure el efecto (aumentando las tiradas de ataque, el daño y la moral). Los efectos durarán dependiendo del nivel del lanzador: 
-A nivel 5: 3 turnos 
-A nivel 10: 6 turnos 
-A nivel 15: 10 turnos
 CAPA DE LA MEDIANOCHE: Similar a la Invisibilidad Mejorada, el guerrero élfico se envolverá en sombras y permanecerá en ellas incluso cuando sea descubierto (aunque aún puede ser atacado). Mientras dure el efecto, obtiene un bono de +4 a las tiradas de salvación y los ataques enemigos sufren una penalización de -4. Puede ser disipado. También proporcionará los efectos de Bendición mientras dure el efecto (aumentando las tiradas de ataque, el daño y la moral). Los efectos durarán dependiendo del nivel del lanzador: 
 A nivel 5: 3 turnos 
 A nivel 10: 6 turnos 
@@ -4918,31 +4902,10 @@ SUERTE DEL CAMPEÓN: Al activar esta habilidad innata, el Hondero mejorará sus 
  Nivel 8: -1 a las tiradas de salvación del objetivo contra hechizos y +2 de bono a Fuerza para el usuario. Duración: 15 segundos.
  Nivel 12: -1 a la Fuerza del objetivo y +2 de Daño por ataque exitoso. Duración: 20 segundos.
  Nivel 16: Otro bono de +2 al daño y +1 a APR. Duración: 25 segundos.
-- Gana un bono de +1 a ataque y +1 a daño con armas a distancia cada 6 niveles.
-- Selección de Atributos: +1 bono a Fuerza y Destreza.
-
-- Los Honderos Sombríos escalarán sus velocidades de ataque con la siguiente progresión:
- Nivel 7: +0.5 a APR y +1 al Factor de Velocidad de Ataque.
- Nivel 10: +0.5 a APR.
- Nivel 16: +0.5 a APR y +1 al Factor de Velocidad de Ataque.
- Nivel 20: +0.5 a APR.
-
-- Puede usar la Suerte del Campeón una vez al día cada 4 niveles.
-
-SUERTE DEL CAMPEÓN: Al activar esta habilidad innata, el Hondero mejorará sus ataques a distancia, así como sus propias capacidades ofensivas:
-
- Nivel 4: -1 al THAC0 del objetivo y +1 a la Suerte del usuario. Duración: 10 segundos.
- Nivel 8: -1 a las tiradas de salvación del objetivo contra hechizos y +2 de bono a Fuerza para el usuario. Duración: 15 segundos.
- Nivel 12: -1 a la Fuerza del objetivo y +2 de Daño por ataque exitoso. Duración: 20 segundos.
- Nivel 16: Otro bono de +2 al daño y +1 a APR. Duración: 25 segundos.
 
 Desventajas:
 
 - Deben ser medianos.
-- La única arma a distancia a la que pueden asignar puntos de competencia es la honda.
-- Aunque pueden empuñar armas cuerpo a cuerpo restringidas a la clase de ladrón, solo pueden asignar 1 punto en Espada Corta, Bastón y Daga.
-- El multiplicador por ataque por la espalda está limitado a x2.
-- Solo ganan 15 puntos de habilidad por nivel para asignar a habilidades de ladrón.~
 - La única arma a distancia a la que pueden asignar puntos de competencia es la honda.
 - Aunque pueden empuñar armas cuerpo a cuerpo restringidas a la clase de ladrón, solo pueden asignar 1 punto en Espada Corta, Bastón y Daga.
 - El multiplicador por ataque por la espalda está limitado a x2.
@@ -4965,16 +4928,6 @@ Ventajas:
  * Colocar Trampa de Silencio: Una vez por día cada 8 niveles (a partir del nivel 8).
 
 - Canción del Bardo: Además de los efectos base de la Canción del Bardo, la canción del Agente Híbrido también disipará ilusiones e invisibilidad de todas las criaturas fuera del grupo.
-- Como habilidad especial, pueden usar Detectar Trampas y Forzar Cerraduras una vez por día por nivel (comenzando con un uso en el nivel 1).
-- Pueden apuñalar por la espalda. El multiplicador es x2 hasta nivel 12, luego aumenta a x3.
-- Pueden hacerse Invisible: 1 uso cada 6 niveles.
-- Pueden usar Celeridad Mejorada como habilidad especial: 1 uso cada 9 niveles.
-- Pueden colocar trampas con la pericia de un maestro ladrón:
- * Colocar Trampa: Una vez por día cada 6 niveles.
- * Colocar Trampa de Confusión: Una vez por día cada 8 niveles (a partir del nivel 8).
- * Colocar Trampa de Silencio: Una vez por día cada 8 niveles (a partir del nivel 8).
-
-- Canción del Bardo: Además de los efectos base de la Canción del Bardo, la canción del Agente Híbrido también disipará ilusiones e invisibilidad de todas las criaturas fuera del grupo.
 
 Desventajas:
 
@@ -4982,14 +4935,8 @@ Desventajas:
 - No pueden asignar puntos de competencia en armas a distancia de dos manos (Arco Corto, Arco Largo y Ballesta).
 - Penalización a la Resistencia a la Magia: -10%.
 - Penalización a la Clase de Armadura: -1~
-- No pueden asignar puntos de competencia en armas a distancia de dos manos (Arco Corto, Arco Largo y Ballesta).
-- Penalización a la Resistencia a la Magia: -10%.
-- Penalización a la Clase de Armadura: -1~
 @600059  = ~AGENTE HÍBRIDO: Los semielfos son entrenados a raíz de su sangre híbrida para maximizar las habilidades de bardo y latrocinias.~
 
-@600060  = ~Tejedor de Sueños~
-@600061  = ~tejedor de sueños~
-@600062  = ~TEJEDOR DE SUEÑOS: Los chamanes semi-orcos nacidos con este don son capaces de mezclar el mundo de los sueños con el Plano Material.
 @600060  = ~Tejedor de Sueños~
 @600061  = ~tejedor de sueños~
 @600062  = ~TEJEDOR DE SUEÑOS: Los chamanes semi-orcos nacidos con este don son capaces de mezclar el mundo de los sueños con el Plano Material.
@@ -5014,42 +4961,15 @@ NOTA: Las Imágenes Proyectadas y los duplicados de Simulacro no pueden realizar
 
 Habilidades Innatas:
 - Pueden lanzar Velo de Sueños una vez al día cada 4 niveles de chamán (comenzando con 1 uso en el nivel 1).
-- Competencia: El Tejedor de Sueños puede asignar 2 puntos en cada estilo de combate.
-- Tiene acceso a los siguientes hechizos:
 
- En el Nivel 1: Santuario y Orden (nivel 1)
- En el Nivel 3: Sueño (nivel 2)
- En el Nivel 5: Emoción: Desesperanza y Palabra Mágica, Sueño (nivel 3)
- En el Nivel 7: Gran Maleficio (nivel 4)
- En el Nivel 9: Gran Orden y Convocar Nishruu (nivel 5)
- En el Nivel 11: Convocar Hakeashar y Proyección de Imagen (nivel 6)
- En el Nivel 13: Simulacro (nivel 7)
- 
-NOTA: Las Imágenes Proyectadas y los duplicados de Simulacro no pueden realizar la Danza Chamánica.
- 
-- El Tejedor de Sueños puede moverse libremente mientras invoca la Danza Chamánica, haciendo que los espíritus lo sigan de cerca hasta que encuentren enemigos con los que enfrentarse. Durante este trance, el Tejedor de Sueños también puede lanzar hechizos y emplear habilidades innatas, aunque hacerlo terminará la danza.
-- Los espíritus del Tejedor de Sueños permanecerán cerca incluso si la Danza Chamánica cesa. Estos espíritus perduran aproximadamente 10 minutos, protegiendo a su invocador durante un tiempo más allá de la danza misma. Además, los Tejedores de Sueños no sufren penalizaciones a la Clase de Armadura mientras realizan la Danza Chamánica.
-
-Habilidades Innatas:
-- Pueden lanzar Velo de Sueños una vez al día cada 4 niveles de chamán (comenzando con 1 uso en el nivel 1).
-
-VELO DE SUEÑOS: El Tejedor de Sueños distorsiona su imagen, dificultando que los oponentes le golpeen. Esta distorsión impone un penalizador de -3 en todos los ataques de proyectiles y cuerpo a cuerpo en su contra. Además, reciben un bono de +1 en todas las tiradas de salvación. Velo de Sueños también hará que el chamán sea invisible para los enemigos a través de Santuario. Incluso si el enemigo puede disipar la invisibilidad a través de adivinación, los efectos defensivos de la habilidad permanecerán hasta que expiren (10 minutos) o sean disipados con éxito.
 VELO DE SUEÑOS: El Tejedor de Sueños distorsiona su imagen, dificultando que los oponentes le golpeen. Esta distorsión impone un penalizador de -3 en todos los ataques de proyectiles y cuerpo a cuerpo en su contra. Además, reciben un bono de +1 en todas las tiradas de salvación. Velo de Sueños también hará que el chamán sea invisible para los enemigos a través de Santuario. Incluso si el enemigo puede disipar la invisibilidad a través de adivinación, los efectos defensivos de la habilidad permanecerán hasta que expiren (10 minutos) o sean disipados con éxito.
 
 - Pueden lanzar Nube de Sueños una vez al día cada 10 niveles de chamán (comenzando con 1 uso en el nivel 1).
-- Pueden lanzar Nube de Sueños una vez al día cada 10 niveles de chamán (comenzando con 1 uso en el nivel 1).
 
-NUBE DE SUEÑOS: El Tejedor de Sueños libera una neblina en un radio de 9 metros. Cualquier criatura atrapada en ella debe realizar una tirada de salvación contra conjuros o caer inconsciente durante 25 segundos. El chamán y sus espíritus serán inmunes a los efectos de Nube de Sueños.
 NUBE DE SUEÑOS: El Tejedor de Sueños libera una neblina en un radio de 9 metros. Cualquier criatura atrapada en ella debe realizar una tirada de salvación contra conjuros o caer inconsciente durante 25 segundos. El chamán y sus espíritus serán inmunes a los efectos de Nube de Sueños.
 
 Desventajas:
 
-- Deben ser semi-orcos.
-- La probabilidad de que un espíritu responda a la llamada se reduce al 50%.
-- Su habilidad en Detectar Ilusiones progresa a solo una cuarta parte de la tasa de un chamán estándar.
-- Penalización de Carisma de -2 al crear el personaje.
-- Penalización de Clase de Armadura de 1.~
-@600063  = ~TEJEDOR DE SUEÑOS: Los semiorcos chamanes que nacen con este don son capaces de mezclar el mundo de los sueños con el Plano Material.~
 - Deben ser semi-orcos.
 - La probabilidad de que un espíritu responda a la llamada se reduce al 50%.
 - Su habilidad en Detectar Ilusiones progresa a solo una cuarta parte de la tasa de un chamán estándar.
@@ -5105,13 +5025,6 @@ Ventajas:
 
 Cada 10 niveles se sumará 1 uso para cada proyectil según corresponda.
 
-Nivel 1: Flecha Explosiva - En NVL 20, daño adicional: Ácido
-Nivel 3: Bala Explosiva - En NVL 20, daño adicional: Eléctrico
-Nivel 5: Virote Explosivo - En NVL 20, daño adicional: Mágico
-Nivel 7: Dardo Explosivo - En NVL 20, daño adicional: Frío
-Nivel 9: Daga Explosiva - En NVL 20, daño adicional: Veneno
-Nivel 11: Hacha Arrojadiza Explosiva - En NVL 20, daño adicional: Contundente
-Nivel 13: Jabalina Explosiva - En NVL 20, daño adicional: Perforante
 Nivel 1: Flecha Explosiva - En NVL 20, daño adicional: Ácido
 Nivel 3: Bala Explosiva - En NVL 20, daño adicional: Eléctrico
 Nivel 5: Virote Explosivo - En NVL 20, daño adicional: Mágico
@@ -8319,14 +8232,6 @@ un ratón enamorado, eterno enamorador.'~
 @9722028  = ~Recuerda nuestra primera conversación, pequeña. Tu infancia. Tu padre. Las arañas. La naturaleza.~
 @9722029  = ~Todo sucedió por una razón. Pero no desesperes, querida. Mientras sigas al lado de tus amigos, estarás a salvo.~
 @9722030  = ~Entiendo. Gracias, Bellfame. Es un alivio hablar contigo.~
-
-@9723254  = ~Mi pequeño amigo, Michelson, mencionó algo sobre una alteración en el tiempo. No creí que algo así fuese posible.~
-@9723255  = ~El mundo de la magia tiene la capacidad de alterar el tiempo y el espacio.~
-@9723256  = ~En mi enfrentamiento contra el destacamento de Kartlzer, mi magia druídica colisionó contra la magia arcana de su hechicero.~
-@9723257  = ~El anillo que ahora tu grupo posee, fue el conductor de dicho evento... No creo que pueda explicar concretamente lo que sucedió...~
-@9723258  = ~Pues... sea lo que sea, tu historia en el Bosque de Mir aún no ha sucedido. Eso me confunde...~
-@9723259  = ~No tienes necesidad de entender todo lo que te rodea, mortal. A veces, las cosas... simplemente suceden.~
-@9723261  = ~Es verdad que soy un mortal, ninfa... pero mis amigos me llaman Dusk. Tú también puedes hacerlo.~
 
 @9723254  = ~Mi pequeño amigo, Michelson, mencionó algo sobre una alteración en el tiempo. No creí que algo así fuese posible.~
 @9723255  = ~El mundo de la magia tiene la capacidad de alterar el tiempo y el espacio.~

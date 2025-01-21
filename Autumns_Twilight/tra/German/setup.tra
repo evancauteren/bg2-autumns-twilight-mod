@@ -1392,7 +1392,6 @@ Besondere Fähigkeiten:
 - Reptilianische Regeneration: Cho'Nuja regeneriert 1 Trefferpunkt alle 10 Sekunden.
 
 - Schaden: 1D6 +5
-- Schaden: 1D6 +5
 - THAC0: +5
 - Basisschadenstyp: Schneiden
 - Geschwindigkeitsfaktor: 2
@@ -1411,7 +1410,6 @@ Besondere Fähigkeiten:
 
 - Verbesserte Beschleunigung: Jeder Angriff hat eine 20%ige Chance, den Wildguard für 6 Sekunden zu beschleunigen.
 
-- Schaden: 1D4 +5, +1 Punkte Schneidenschaden
 - Schaden: 1D4 +5, +1 Punkte Schneidenschaden
 - THAC0: +5
 - Basisschadenstyp: Durchdringend
@@ -1432,7 +1430,6 @@ Besondere Fähigkeiten:
 - Lähmung: Jeder Angriff hat eine 15%ige Chance, den Gegner für 6 Sekunden zu betäuben.
 
 - Schaden: 1D2 +5, +1 Punkte Schneidenschaden
-- Schaden: 1D2 +5, +1 Punkte Schneidenschaden
 - THAC0: +5
 - Basisschadenstyp: Schlag
 - Geschwindigkeitsfaktor: 1
@@ -1450,9 +1447,7 @@ CHARAKTERISTIKEN:
 Besondere Fähigkeiten:
 
 - Heilung: Jeder Angriff hat eine 15%ige Chance, Cho um 25 Trefferpunkte zu heilen.
-- Heilung: Jeder Angriff hat eine 15%ige Chance, Cho um 25 Trefferpunkte zu heilen.
 
-- Schaden: 1D2 +5
 - Schaden: 1D2 +5
 - Säureschaden: 1D3
 - THAC0: +5
@@ -1473,8 +1468,6 @@ Besondere Fähigkeiten:
 
 - Verlangsamung: Jeder Angriff hat eine 10%ige Chance, den Gegner für 20 Sekunden zu verlangsamen.
 
-- Schaden: 1D3 +5, +1 Punkt Durchdringungsschaden
-- Kälteschaden: 1D2
 - Schaden: 1D3 +5, +1 Punkt Durchdringungsschaden
 - Kälteschaden: 1D2
 - THAC0: +5
@@ -3017,7 +3010,6 @@ Kampfeigenschaften:
 - Gift: Das Opfer muss einen Todes-/Gift-Rettungswurf (von 0) ablegen oder erleidet 4 Punkte Schaden pro Sekunde für 3 Runden.
 
 THAC0: +6
-Schaden: 1D6+6, +1d4 Giftschaden.
 Schaden: 1D6+6, +1d4 Giftschaden.
 Schadenstyp: Durchdringend
 Gewicht: 7 lbs
@@ -4664,11 +4656,6 @@ Die Effekte halten je nach Level des Zaubernden an:
 Auf Stufe 5: 3 Runden 
 Auf Stufe 10: 6 Runden 
 Auf Stufe 15: 10 Runden~
-Ähnlich wie bei der Verbesserte Unsichtbarkeit hüllt sich der elfische Krieger in Schatten und bleibt in ihnen, selbst wenn er entdeckt wird (obwohl er trotzdem angegriffen werden kann). Während der Effekt anhält, erhält er einen Bonus von +4 auf seine Rettungswürfe, und die Angriffe der Feinde erleiden einen Malus von -4. Der Effekt kann aufgehoben werden. Er wird auch die Effekte des Segens bieten, während der Effekt anhält (Erhöhung der Angriffswürfe, des Schadens und der Moral). 
-Die Effekte halten je nach Level des Zaubernden an: 
-Auf Stufe 5: 3 Runden 
-Auf Stufe 10: 6 Runden 
-Auf Stufe 15: 10 Runden~
 @600048  = ~Dämmerungsklinge~
 @600049  = ~dämmerungsklinge~
 @600050  = ~DÄMMERUNGSKLINGE: Elfenkrieger machen das Beste aus ihrer Rassenfähigkeit, die Kunst des Krieges zu meistern.
@@ -4681,11 +4668,6 @@ Vorteile:
 - Kann zurückstechen. Der Multiplikator beträgt x2 bis Stufe 12, dann erhöht er sich auf x3.
 - Kann alle 5 Stufen Mitternachtsumhang nutzen (beginnt mit einer Verwendung auf Stufe 5).
 
-MITTERNACHTSUMHANG: Ähnlich wie bei der Verbesserte Unsichtbarkeit hüllt sich der elfische Krieger in Schatten und bleibt in ihnen, selbst wenn er entdeckt wird (obwohl er trotzdem angegriffen werden kann). Während der Effekt anhält, erhält er einen Bonus von +4 auf seine Rettungswürfe, und die Angriffe der Feinde erleiden einen Malus von -4. Der Effekt kann aufgehoben werden. Er wird auch die Effekte des Segens bieten, während der Effekt anhält (Erhöhung der Angriffswürfe, des Schadens und der Moral). 
-Die Effekte halten je nach Level des Zaubernden an: 
-Auf Stufe 5: 3 Runden 
-Auf Stufe 10: 6 Runden 
-Auf Stufe 15: 10 Runden
 MITTERNACHTSUMHANG: Ähnlich wie bei der Verbesserte Unsichtbarkeit hüllt sich der elfische Krieger in Schatten und bleibt in ihnen, selbst wenn er entdeckt wird (obwohl er trotzdem angegriffen werden kann). Während der Effekt anhält, erhält er einen Bonus von +4 auf seine Rettungswürfe, und die Angriffe der Feinde erleiden einen Malus von -4. Der Effekt kann aufgehoben werden. Er wird auch die Effekte des Segens bieten, während der Effekt anhält (Erhöhung der Angriffswürfe, des Schadens und der Moral). 
 Die Effekte halten je nach Level des Zaubernden an: 
 Auf Stufe 5: 3 Runden 
@@ -4725,31 +4707,9 @@ GLÜCK DES CHAMPIONS: Durch Aktivierung dieser angeborenen Fähigkeit verbessert
  Stufe 8: -1 zu den Rettungswürfen des Ziels gegen Zauber und +2 zur Stärke des Benutzers. Dauer: 15 Sekunden.
  Stufe 12: -1 zur Stärke des Ziels und +2 Schaden pro erfolgreichem Angriff. Dauer: 20 Sekunden.
  Stufe 16: Ein weiterer Bonus von +2 zum Schaden und +1 zu APR. Dauer: 25 Sekunden.
-- Erhält alle 6 Stufen einen Bonus von +1 auf Angriff und +1 auf Schaden mit Fernkampfwaffen.
-- Attributsauswahl: +1 Bonus auf Stärke und Geschicklichkeit.
-
-- Die Schattenwerfer erhöhen ihre Angriffsgeschwindigkeit mit folgender Progression:
- Stufe 7: +0,5 APR und +1 zum Angriffs-Geschwindigkeitsfaktor.
- Stufe 10: +0,5 zu APR.
- Stufe 16: +0,5 zu APR und +1 zum Angriffs-Geschwindigkeitsfaktor.
- Stufe 20: +0,5 zu APR.
-
-- Kann das Glück des Champions einmal pro Tag alle 4 Stufen verwenden.
-
-GLÜCK DES CHAMPIONS: Durch Aktivierung dieser angeborenen Fähigkeit verbessert der Schattenwerfer seine Fernangriffe sowie seine eigenen offensiven Fähigkeiten:
-
- Stufe 4: -1 zum THAC0 des Ziels und +1 zur Glück des Benutzers. Dauer: 10 Sekunden.
- Stufe 8: -1 zu den Rettungswürfen des Ziels gegen Zauber und +2 zur Stärke des Benutzers. Dauer: 15 Sekunden.
- Stufe 12: -1 zur Stärke des Ziels und +2 Schaden pro erfolgreichem Angriff. Dauer: 20 Sekunden.
- Stufe 16: Ein weiterer Bonus von +2 zum Schaden und +1 zu APR. Dauer: 25 Sekunden.
 
 Nachteile:
 
-- Müssen Halblinge sein.
-- Die einzige Fernkampfwaffe, die sie mit Fertigkeitspunkten versehen können, ist die Schleuder.
-- Obwohl sie Nahkampfwaffen, die auf die Diebesklasse beschränkt sind, führen können, dürfen sie nur 1 Punkt in Kurzschwert, Stab und Dolch investieren.
-- Der Hinterhalt-Multiplikator ist auf x2 begrenzt.
-- Sie erhalten nur 15 Fertigkeitspunkte pro Level, um ihnen Diebesfähigkeiten zuzuweisen.~
 - Müssen Halblinge sein.
 - Die einzige Fernkampfwaffe, die sie mit Fertigkeitspunkten versehen können, ist die Schleuder.
 - Obwohl sie Nahkampfwaffen, die auf die Diebesklasse beschränkt sind, führen können, dürfen sie nur 1 Punkt in Kurzschwert, Stab und Dolch investieren.
@@ -4760,7 +4720,6 @@ Nachteile:
 @600056  = ~Hybrid-Agent~
 @600057  = ~hybrid-agent~
 @600058 = ~HYBRIDAGENT: Halbelfen werden aufgrund ihres hybriden Blutes trainiert, um ihre bardischen und diebischen Fähigkeiten zu maximieren.
-@600058 = ~HYBRIDAGENT: Halbelfen werden aufgrund ihres hybriden Blutes trainiert, um ihre bardischen und diebischen Fähigkeiten zu maximieren.
 
 Vorteile:
 
@@ -4774,23 +4733,9 @@ Vorteile:
  * Stillefalle stellen: Einmal täglich alle 8 Stufen (ab Stufe 8).
 
 - Bardenlied: Neben den Grundeigenschaften des Bardenlieds wird das Lied des Hybridagenten auch Illusionen und Unsichtbarkeit bei allen Kreaturen außerhalb der Gruppe bannen.
-- Als Spezialfähigkeit können sie Fallen entdecken und Schlösser knacken einmal pro Tag und pro Stufe verwenden (beginnend mit einer Nutzung auf Stufe 1).
-- Kann Rückenschläge ausführen. Der Multiplikator ist x2 bis Stufe 12, dann steigt er auf x3.
-- Kann unsichtbar werden: 1 Nutzung alle 6 Stufen.
-- Kann verbesserte Hast als Spezialfähigkeit einsetzen: 1 Nutzung alle 9 Stufen.
-- Sie können Fallen mit der Expertise eines Meisterdiebs aufstellen:
- * Falle stellen: Einmal täglich alle 6 Stufen.
- * Verwirrfalle stellen: Einmal täglich alle 8 Stufen (ab Stufe 8).
- * Stillefalle stellen: Einmal täglich alle 8 Stufen (ab Stufe 8).
-
-- Bardenlied: Neben den Grundeigenschaften des Bardenlieds wird das Lied des Hybridagenten auch Illusionen und Unsichtbarkeit bei allen Kreaturen außerhalb der Gruppe bannen.
 
 Nachteile:
 
-- Müssen Halbelfen sein.
-- Können keine Fertigkeitspunkte in zweihändige Fernkampfwaffen (Kurzbogen, Langbogen und Armbrust) vergeben.
-- Magieresistenzabzug: -10%.
-- Rüstungsabwehr-Abzug: -1~
 - Müssen Halbelfen sein.
 - Können keine Fertigkeitspunkte in zweihändige Fernkampfwaffen (Kurzbogen, Langbogen und Armbrust) vergeben.
 - Magieresistenzabzug: -10%.
@@ -4800,9 +4745,6 @@ Nachteile:
 @600060  = ~Traumweber~
 @600061  = ~traumweber~
 @600062  = ~TRAUMWEBER: Halbork-Schamanen, die mit diesem Geschenk geboren wurden, können die Welt der Träume mit der Materiellen Ebene verbinden.
-@600060  = ~Traumweber~
-@600061  = ~traumweber~
-@600062  = ~TRAUMWEBER: Halbork-Schamanen, die mit diesem Geschenk geboren wurden, können die Welt der Träume mit der Materiellen Ebene verbinden.
 
 Vorteile:
 
@@ -4824,44 +4766,15 @@ HINWEIS: Projektiertes Bild und Simulakrum-Duplikate können den Schamanentanz n
 
 Angeborene Fähigkeiten:
 - Sie können Schleier der Träume einmal pro Tag alle 4 Schamanenlevel (beginnt mit 1 Verwendung auf Stufe 1) wirken.
-- Fertigkeit: Der Traumweber kann 2 Punkte in jeden Kampfstil investieren.
-- Hat Zugang zu den folgenden Zaubern:
-
- Auf Stufe 1: Schutz und Befehl (Stufe 1)
- Auf Stufe 3: Schlaf (Stufe 2)
- Auf Stufe 5: Emotion: Hoffnungslosigkeit und Machtwort Schlaf (Stufe 3)
- Auf Stufe 7: Großes Unheil (Stufe 4)
- Auf Stufe 9: Großes Kommando und Nishruu Beschwören (Stufe 5)
- Auf Stufe 11: Hakeashar Beschwören und Bildprojizierung (Stufe 6)
- Auf Stufe 13: Simulakrum (Stufe 7)
- 
-HINWEIS: Projektiertes Bild und Simulakrum-Duplikate können den Schamanentanz nicht ausführen.
- 
-- Der Traumweber kann sich frei bewegen, während er den Schamanentanz anruft, wodurch die Geister dicht folgen, bis sie auf Feinde treffen. Während dieser Trance kann der Traumweber auch Zauber wirken und angeborene Fähigkeiten einsetzen, obwohl dies den Tanz beenden wird.
-- Die Geister des Traumwebers bleiben in der Nähe, auch wenn der Schamanentanz endet. Diese Geister verweilen etwa 10 Minuten lang und schützen ihren Beschwörer über die Tanzdauer hinaus. Darüber hinaus erleiden Traumweber keine Strafpunkte auf die Rüstungsklasse, während sie den Schamanentanz ausführen.
-
-Angeborene Fähigkeiten:
-- Sie können Schleier der Träume einmal pro Tag alle 4 Schamanenlevel (beginnt mit 1 Verwendung auf Stufe 1) wirken.
 
 SCHLEIER DER TRÄUME: Der Traumweber verzerrt sein Bild, was es den Gegnern erschwert, ihn zu treffen. Diese Verzerrung verhängt eine Strafe von -3 auf alle Geschoss- und Nahkampfangriffe gegen ihn. Zusätzlich erhalten sie einen Bonus von +1 auf alle Rettungswürfe. Der Schleier der Träume macht den Schamanen auch unsichtbar für Feinde durch Zuflucht. Selbst wenn der Feind die Unsichtbarkeit durch Wahrsagerei aufheben kann, bleiben die defensiven Effekte der Fähigkeit bestehen, bis sie ablaufen (10 Minuten) oder erfolgreich aufgehoben werden.
 
 - Sie können einmal pro Tag alle 10 Schamanenlevel (beginnt mit 1 Verwendung auf Stufe 1) die Wolke der Träume wirken.
-SCHLEIER DER TRÄUME: Der Traumweber verzerrt sein Bild, was es den Gegnern erschwert, ihn zu treffen. Diese Verzerrung verhängt eine Strafe von -3 auf alle Geschoss- und Nahkampfangriffe gegen ihn. Zusätzlich erhalten sie einen Bonus von +1 auf alle Rettungswürfe. Der Schleier der Träume macht den Schamanen auch unsichtbar für Feinde durch Zuflucht. Selbst wenn der Feind die Unsichtbarkeit durch Wahrsagerei aufheben kann, bleiben die defensiven Effekte der Fähigkeit bestehen, bis sie ablaufen (10 Minuten) oder erfolgreich aufgehoben werden.
 
-- Sie können einmal pro Tag alle 10 Schamanenlevel (beginnt mit 1 Verwendung auf Stufe 1) die Wolke der Träume wirken.
-
-WOLKE DER TRÄUME: Der Traumweber setzt einen Nebel in einem Radius von 9 Metern frei. Jedes Wesen, das darin gefangen ist, muss einen Rettungswurf gegen Zauber ablegen oder 25 Sekunden lang bewusstlos werden. Der Schamane und die Geister von <PRO_HISHER> sind immun gegen die Effekte der Wolke der Träume.
 WOLKE DER TRÄUME: Der Traumweber setzt einen Nebel in einem Radius von 9 Metern frei. Jedes Wesen, das darin gefangen ist, muss einen Rettungswurf gegen Zauber ablegen oder 25 Sekunden lang bewusstlos werden. Der Schamane und die Geister von <PRO_HISHER> sind immun gegen die Effekte der Wolke der Träume.
 
 Nachteile:
 
-- Sie müssen Halb-Orks sein.
-- Die Chance, dass ein Geist auf den Ruf reagiert, wird auf 50% reduziert.
-- Ihre Fähigkeit zur Illusionserkennung steigt nur mit einem Viertel der Geschwindigkeit eines Standard-Schamanen.
-- Charisma-Strafe von -2 bei der Charaktererstellung.
-- Rüstungswertstrafe von 1.~
-
-@600063  = ~TRAUMWEBER: Halb-Ork-Schamanen, die mit diesem Geschenk geboren werden, sind in der Lage, die Welt der Träume mit der Materiellen Ebene zu vermischen.~
 - Sie müssen Halb-Orks sein.
 - Die Chance, dass ein Geist auf den Ruf reagiert, wird auf 50% reduziert.
 - Ihre Fähigkeit zur Illusionserkennung steigt nur mit einem Viertel der Geschwindigkeit eines Standard-Schamanen.
@@ -4916,13 +4829,6 @@ Vorteile:
 
 Alle 10 Stufen wird entsprechend 1 Verwendung zu jedem Projektile hinzugefügt.
 
-Stufe 1: Explosiver Pfeil - Auf STUFE 20, zusätzlicher Schaden: Säure
-Stufe 3: Explosives Geschoss - Auf STUFE 20, zusätzlicher Schaden: Elektrisch
-Stufe 5: Explosiver Bolzen - Auf STUFE 20, zusätzlicher Schaden: Magisch
-Stufe 7: Explosiver Pfeil - Auf STUFE 20, zusätzlicher Schaden: Kälte
-Stufe 9: Explosiver Dolch - Auf STUFE 20, zusätzlicher Schaden: Gift
-Stufe 11: Explosive Wurfaxt - Auf STUFE 20, zusätzlicher Schaden: Wucht
-Stufe 13: Explosiver Speer - Auf STUFE 20, zusätzlicher Schaden: Stich
 Stufe 1: Explosiver Pfeil - Auf STUFE 20, zusätzlicher Schaden: Säure
 Stufe 3: Explosives Geschoss - Auf STUFE 20, zusätzlicher Schaden: Elektrisch
 Stufe 5: Explosiver Bolzen - Auf STUFE 20, zusätzlicher Schaden: Magisch
@@ -8072,15 +7978,6 @@ eine Maus in Liebe, ein ewiger Liebhaber.'~
 @9722028 = ~Erinnere dich an unser erstes Gespräch, kleines Wesen. Deine Kindheit. Dein Vater. Die Spinnen. Die Natur.~
 @9722029 = ~Alles geschah aus einem Grund. Aber verzweifle nicht, mein Lieber. Solange du an der Seite deiner Freunde bleibst, wirst du sicher sein.~
 @9722030 = ~Ich verstehe. Danke, Bellfame. Es ist eine Erleichterung, mit dir zu sprechen.~
-
-@9723254  = ~Mein kleiner Freund Michelson erwähnte etwas über eine Störung in der Zeit. Ich hätte nicht gedacht, dass so etwas möglich ist.~
-@9723255  = ~Die Welt der Magie hat die Fähigkeit, Zeit und Raum zu verändern.~
-@9723256  = ~In meinem Zusammenstoß mit Kartlzer's Trupp kollidierte meine druide Magie mit der arkanen Magie ihres Zauberers.~
-@9723257  = ~Der Ring, den eure Gemeinschaft jetzt besitzt, war der Leiter dieses Ereignisses... Ich glaube nicht, dass ich genau erklären kann, was passiert ist...~
-@9723258  = ~Nun... egal was es war, deine Geschichte im Wald von Mir ist noch nicht geschehen. Das verwirrt mich...~
-@9723259  = ~Du musst nicht alles um dich herum verstehen, Sterblicher. Manchmal geschehen Dinge einfach...~
-@9723261  = ~Es ist wahr, dass ich ein Sterblicher bin, Nymphe... aber meine Freunde nennen mich Dusk. Du kannst mich auch so nennen.~
-
 
 @9723254  = ~Mein kleiner Freund Michelson erwähnte etwas über eine Störung in der Zeit. Ich hätte nicht gedacht, dass so etwas möglich ist.~
 @9723255  = ~Die Welt der Magie hat die Fähigkeit, Zeit und Raum zu verändern.~
