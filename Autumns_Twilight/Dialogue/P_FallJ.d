@@ -503,8 +503,10 @@ IF ~~ THEN BEGIN 89 // from:
   IF ~~ THEN EXTERN ~P_VIDOMI~ 118 
 END
 
-IF ~AreaCheck("P_AR14")
-Global ("P_FallMetBrostFriends","GLOBAL",0)~ THEN BEGIN 90 // from:
+IF ~Global ("P_FallMetBrostFriends","GLOBAL",0)
+OR(2)
+AreaCheck("P_AR14")
+AreaCheck("P_BR14")~ THEN BEGIN 90 // from:
   SAY @3313 /* ¡Hakamir!, ¡Acrull! ¿Qué hacen aquí? Creí que estaban en Brost. ¿Acaso ha sucedido algo grave? */
   IF ~~ THEN DO ~SetGlobal ("P_FallMetBrostFriends","GLOBAL",1)~ EXTERN ~P_HAKAM~ 7
 END

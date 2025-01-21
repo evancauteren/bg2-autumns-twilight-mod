@@ -85,7 +85,9 @@ END
 // In Athkatla
 
 IF ~Global("P_AcrullMet","GLOBAL",0)
-AreaCheck("P_AR14")~ THEN BEGIN 11 // from:
+OR(2)
+AreaCheck("P_AR14")
+AreaCheck("P_BR14")~ THEN BEGIN 11 // from:
   SAY @97525 /* ~Saludos, caminante del Norte. Acrull Escudonorteño está aquí para ayudar a su amigo Hakamir a reunir los fondos necesarios para ayudar en las reparaciones en Brost, la Villa de las Setas.~ */
     IF ~~ THEN REPLY @97526 /* Ya veo. ¿Y qué es lo que tienes para ofrecer? */  GOTO 12
 	IF ~~ THEN REPLY @97527 /* ¿Por qué un druida estaría dispuesto a ayudar a un comerciante calishita? Creí que el deber de los tuyos estaría para con el bosque. */  GOTO 13
@@ -119,7 +121,9 @@ END
 
 IF ~!See("P_DANCTI")
 Global("P_AcrullMet","GLOBAL",1)
-AreaCheck("P_AR14")~ THEN BEGIN 17 // from:
+OR(2)
+AreaCheck("P_AR14")
+AreaCheck("P_BR14")~ THEN BEGIN 17 // from:
   SAY @97533 /* ~Saludos, caminante del Norte. Acrull Escudonorteño está aquí para ayudar a su amigo Hakamir a reunir los fondos necesarios para ayudar en las reparaciones en Brost, la Villa de las Setas. Recuerda que si tienes botas de velocidad, puedo mejorar su encantamiento.~ */
     IF ~OR(5) 
 	PartyHasItem ("BOOT01")
@@ -134,7 +138,9 @@ END
 
 IF ~See("P_DANCTI")
 Global("P_AcrullMet","GLOBAL",1)
-AreaCheck("P_AR14")~ THEN BEGIN 17B // from:
+OR(2)
+AreaCheck("P_AR14")
+AreaCheck("P_BR14")~ THEN BEGIN 17B // from:
   SAY @97533 /* ~Saludos, caminante del Norte. Acrull Escudonorteño está aquí para ayudar a su amigo Hakamir a reunir los fondos necesarios para ayudar en las reparaciones en Brost, la Villa de las Setas. Recuerda que si tienes botas de velocidad, puedo mejorar su encantamiento.~ */
     IF ~OR(5) 
 	PartyHasItem ("BOOT01")

@@ -1412,6 +1412,7 @@ Special Abilities:
 - Reptilian Regeneration: Cho'Nuja will regenerate 1 hit point every 10 seconds.
 
 - Damage: 1D6 +5
+- Damage: 1D6 +5
 - THAC0: +5
 - Base Damage Type: Slashing
 - Speed Factor: 2
@@ -1429,6 +1430,7 @@ Special Abilities:
 
 - Enhanced Acceleration: Each attack has a 20% chance to Accelerate the Wildguard for 6 seconds.
 
+- Damage: 1D4 +5, +1 points of slashing damage
 - Damage: 1D4 +5, +1 points of slashing damage
 - THAC0: +5
 - Base Damage Type: Piercing
@@ -1448,6 +1450,7 @@ Special Abilities:
 - Paralysis: Each attack has a 15% chance to Stun the opponent for 6 seconds.
 
 - Damage: 1D2 +5, +1 points of slashing damage
+- Damage: 1D2 +5, +1 points of slashing damage
 - THAC0: +5
 - Base Damage Type: Blunt
 - Speed Factor: 1
@@ -1464,7 +1467,9 @@ CHARACTERISTICS:
 Special Abilities:
 
 - Healing: Each attack has a 15% chance to heal Cho for 25 hit points.
+- Healing: Each attack has a 15% chance to heal Cho for 25 hit points.
 
+- Damage: 1D2 +5
 - Damage: 1D2 +5
 - Acid Damage: 1D3
 - THAC0: +5
@@ -1484,6 +1489,8 @@ Special Abilities:
 
 - Slowing: Each attack has a 10% chance to slow the opponent for 20 seconds.
 
+- Damage: 1D3 +5, +1 point of piercing damage
+- Cold Damage: 1D2
 - Damage: 1D3 +5, +1 point of piercing damage
 - Cold Damage: 1D2
 - THAC0: +5
@@ -1552,6 +1559,7 @@ Advantages:
 
 - Additional spell memorization space per level.
 - Natural cold resistance: +50%
+- Specialist in the school of spells: Evocation.
 - Specialist in the school of spells: Evocation.
 - Special Ability: Learn Ice Summoning:
 	 * (Level 4) Ice Summoning I: Ice Mephit
@@ -3058,6 +3066,7 @@ Combat Attributes:
 - Poison: The victim must make a Death/Poison saving throw (of 0) or suffer 4 points of damage per second for 3 rounds.
 
 THAC0: +6
+Damage: 1D6+6, +1d4 Poison damage.
 Damage: 1D6+6, +1d4 Poison damage.
 Damage Type: Piercing
 Weight: 7 lbs
@@ -4624,7 +4633,7 @@ Weight: 1 lbs.~
 @400453 = ~Valygar, no... no... NOooOOOoooo!!!~
 @400454 = ~Have you gone mad? I can't allow you to do this!~
 @400455 = ~Mathyus's Hideout~
-
+@400456 = ~Docks~
 
 
 @400457 = ~Path of the Ancestors
@@ -4707,7 +4716,7 @@ Speed Factor: 3
 Proficiency: Spear
 Type: one-handed~
 
-
+@400465 = ~Temple of Mask~
 
 
 // CHO Nuja
@@ -4765,12 +4774,19 @@ Type: one-handed~
 Level: Innate
 Range: The warrior
 Duration: Special
+Duration: Special
 Casting Time: Instant
 Area of Effect: The warrior
 Saving Throw: None
 
 DESCRIPTION:
 
+Similar to Improved Invisibility, the elven warrior will cloak himself in shadows and remain within them even when discovered (though he can still be attacked). While the effect lasts, he gains a +4 bonus to saving throws and enemy attacks suffer a -4 penalty. It can be dispelled.
+It will also provide the effects of Blessing while the effect lasts (increased attack rolls, damage, and morale).
+The effects will last depending on the caster's level:
+At level 5: 3 turns
+At level 10: 6 turns
+At level 15: 10 turns~
 Similar to Improved Invisibility, the elven warrior will cloak himself in shadows and remain within them even when discovered (though he can still be attacked). While the effect lasts, he gains a +4 bonus to saving throws and enemy attacks suffer a -4 penalty. It can be dispelled.
 It will also provide the effects of Blessing while the effect lasts (increased attack rolls, damage, and morale).
 The effects will last depending on the caster's level:
@@ -4796,11 +4812,18 @@ The effects will last depending on the caster's level:
 At level 5: 3 turns
 At level 10: 6 turns
 At level 15: 10 turns
+Similar to Improved Invisibility, the elven warrior will cloak himself in shadows and remain within them even when discovered (though he can still be attacked). While the effect lasts, he gains a +4 bonus to saving throws and enemy attacks suffer a -4 penalty. It can be dispelled.
+It will also provide the effects of Blessing while the effect lasts (increased attack rolls, damage, and morale).
+The effects will last depending on the caster's level:
+At level 5: 3 turns
+At level 10: 6 turns
+At level 15: 10 turns
 
 Disadvantages:
 
 - Must be elves.
 - Hit Die: D8
+- Proficiency: Can only attain grandmastery in Long Swords, Short Swords, Daggers, Long Bows, Short Bows, Scimitars, and Katanas. For all other weapons, they can put in a maximum of 1 point.
 - Proficiency: Can only attain grandmastery in Long Swords, Short Swords, Daggers, Long Bows, Short Bows, Scimitars, and Katanas. For all other weapons, they can put in a maximum of 1 point.
 - Attribute Selection: -1 penalty to Constitution
 - Magic Resistance Penalty: -10%
@@ -4830,12 +4853,31 @@ CHAMPION'S LUCK: Upon activating this innate ability, the Slinger will enhance t
  Level 8: -1 to the target's saving throws against spells and +2 Strength bonus to the user. Duration: 15 seconds.
  Level 12: -1 to the target's Strength and +2 Damage per successful attack. Duration: 20 seconds.
  Level 16: Another +2 bonus to damage and +1 to APR. Duration: 25 seconds.
+- Grandmastery Specialization: Slings (can put up to 5 points in this weapon).
+- Gains a +1 bonus to attack and +1 to damage with ranged weapons every 6 levels.
+- Attribute Selection: +1 bonus to Strength and Dexterity.
+
+- The Shadow Slingers will scale their attack speeds with the following progression:
+ Level 7: +0.5 APR and +1 to Attack Speed Factor.
+ Level 10: +0.5 to APR.
+ Level 16: +0.5 to APR and +1 to Attack Speed Factor.
+ Level 20: +0.5 to APR.
+ 
+- Can use Champion's Luck once per day every 4 levels.
+
+CHAMPION'S LUCK: Upon activating this innate ability, the Slinger will enhance their ranged attacks as well as their own offensive capabilities:
+ Level 4: -1 to the target's THAC0 and +1 to the user's Luck. Duration: 10 seconds.
+ Level 8: -1 to the target's saving throws against spells and +2 Strength bonus to the user. Duration: 15 seconds.
+ Level 12: -1 to the target's Strength and +2 Damage per successful attack. Duration: 20 seconds.
+ Level 16: Another +2 bonus to damage and +1 to APR. Duration: 25 seconds.
 
 Disadvantages:
 
 - Must be halflings.
 - The only ranged weapon they can allocate proficiency points to is the sling.
 - Although they can wield melee weapons restricted to the thieving class, they can only put 1 point in Short Sword, Staff, and Dagger.
+- Backstab multiplier is capped at x2.
+- They only gain 15 skill points per level to assign to thieving abilities.~
 - Backstab multiplier is capped at x2.
 - They only gain 15 skill points per level to assign to thieving abilities.~
 @600055  = ~SHADOW SLINGER: The halfling rogue has become highly specialized in the use of the sling, sacrificing some melee combat prowess and thievery skills.~
@@ -4858,10 +4900,24 @@ Advantages:
 
 - Bard Song: Beside the base effects of the Bard Song, the Hybrid Agent song will also dispel illusions and invisibility from every creature outside the party.
 
+- Can backstab. The multiplier is x2 until level 12, then it increases to x3.
+- Can become Invisible: 1 use every 6 levels.
+- Can use Improved Haste as a special ability: 1 use every 9 levels.
+- They can set traps with the expertise of a master thief:
+ * Set Snare: Once per day every 6 levels.
+* Set Confounding Trap: Once per day every 8 levels (starting at level 8).
+* Set Silencing Trap: Once per day every 8 levels (starting at level 8).
+
+
+- Bard Song: Beside the base effects of the Bard Song, the Hybrid Agent song will also dispel illusions and invisibility from every creature outside the party.
+
 
 Disadvantages:
 
 - Must be half-elves.
+- Cannot assign proficiency points in two-handed ranged weapons (Shortbow, Longbow, and Crossbow).
+- Magic Resistance Penalty: -10%
+- Armor Class Penalty: -1~
 - Cannot assign proficiency points in two-handed ranged weapons (Shortbow, Longbow, and Crossbow).
 - Magic Resistance Penalty: -10%
 - Armor Class Penalty: -1~
@@ -4891,16 +4947,38 @@ NOTE: Projected Image y Simulacrum duplicates are unable to perform the Shamanic
 
 Innate Abilities:
 - They can cast Veil of Dreams once per day every 4 shaman levels (starting with 1 use at level 1).
+- Proficiency: The Mistweaver can put 2 points in each fighting style.
+- Has access to the following spells:
 
+ At Level 1: Sanctuary and Command (level 1)
+ At Level 3: Sleep (level 2)
+ At Level 5: Emotion: Hopelessness and Power Word, Sleep (level 3)
+ At Level 7: Greater Malison (level 4)
+ At Level 9: Greater Command and Summon Nishruu (level 5)
+ At Level 11: Summon Hakeashar and Project Image (level 6)
+ At Level 13: Simulacrum (level 7)
+ 
+NOTE: Projected Image y Simulacrum duplicates are unable to perform the Shamanic Dance.
+ 
+- The Mistweaver can move freely while invoking the Shamanic Dance, causing spirits to follow closely until they encounter foes to engage. During this trance, the Mistweaver may also cast spells and employ innate abilities, though doing so will end the dance.
+- The Mistweaver’s spirits will remain nearby even if the Shamanic Dance ceases. These spirits linger for approximately 10 minutes, safeguarding their summoner for a time beyond the dance itself. Furthermore, Mistweavers suffer no penalty to Armor Class while performing the Shamanic Dance.
+
+Innate Abilities:
+- They can cast Veil of Dreams once per day every 4 shaman levels (starting with 1 use at level 1).
+
+VEIL OF DREAMS: The Mistweaver distorts their image, making it difficult for opponents to hit them. This distortion imposes a -3 penalty on all projectile and melee attacks against them. Additionally, they receive a +1 bonus to all saving throws. Veil of Dreams will also make the shaman invisible to enemies through Sanctuary. Even if the enemy can dispel the invisibility through divination, the defensive effects of the ability will remain until they expire (10 minutes) or are successfully dispelled.
 VEIL OF DREAMS: The Mistweaver distorts their image, making it difficult for opponents to hit them. This distortion imposes a -3 penalty on all projectile and melee attacks against them. Additionally, they receive a +1 bonus to all saving throws. Veil of Dreams will also make the shaman invisible to enemies through Sanctuary. Even if the enemy can dispel the invisibility through divination, the defensive effects of the ability will remain until they expire (10 minutes) or are successfully dispelled.
 
 - They can cast Cloud of Dreams once per day every 10 shaman levels (starting with 1 use at level 1).
 
 CLOUD OF DREAMS: The Mistweaver releases a mist within a 9-meter radius. Any creature caught in it must save against spells or fall unconscious for 25 seconds. The shaman and <PRO_HISHER> spirits will be immune to the effects of Cloud of Dreams.
+CLOUD OF DREAMS: The Mistweaver releases a mist within a 9-meter radius. Any creature caught in it must save against spells or fall unconscious for 25 seconds. The shaman and <PRO_HISHER> spirits will be immune to the effects of Cloud of Dreams.
 
 Disadvantages:
 
 - Must be half-orcs.
+- The chance for a spirit to respond to the call is reduced to 50%.
+- Their skill in Detect Illusions progresses at only one-quarter the rate of a standard shaman.
 - The chance for a spirit to respond to the call is reduced to 50%.
 - Their skill in Detect Illusions progresses at only one-quarter the rate of a standard shaman.
 - Charisma penalty of -2 at character creation.
@@ -4962,10 +5040,18 @@ Level 7: Explosive Dart - At LVL 20, additional damage: Cold
 Level 9: Explosive Dagger - At LVL 20, additional damage: Poison
 Level 11: Explosive Throwing Axe - At LVL 20, additional damage: Crushing
 Level 13: Explosive Javelin - At LVL 20, additional damage: Piercing
+Level 1: Explosive Arrow - At LVL 20, additional damage: Acid
+Level 3: Explosive Bullet - At LVL 20, additional damage: Electric
+Level 5: Explosive Bolt - At LVL 20, additional damage: Magic
+Level 7: Explosive Dart - At LVL 20, additional damage: Cold
+Level 9: Explosive Dagger - At LVL 20, additional damage: Poison
+Level 11: Explosive Throwing Axe - At LVL 20, additional damage: Crushing
+Level 13: Explosive Javelin - At LVL 20, additional damage: Piercing
 
 Disadvantages:
 
 - Can only be dwarves.
+- Cannot set snares. This excludes high-level traps.
 - Cannot set snares. This excludes high-level traps.
 - Backstab multiplier cannot exceed x2.
 - Only receive 15 points per level to assign to skills.
@@ -5342,20 +5428,14 @@ This spell allows the ranger to summon a small insect and then enlarge it to gia
 Level: 2
 Sphere: All
 Range: 0
-Duration: Special
+Duration: 2 hours
 Casting Time: 3
 Area of Effect: The ranger
 Saving Throw: None
 
 DESCRIPTION:
 
-This spell, a technique crafted by Fall's father, Gerwulf, grants her unmatched focus and precision in battle. When invoked, Fall's morale and confidence surge, providing a +1 bonus to attack and damage rolls, along with a +2 THAC0 bonus specifically with missile weapons.
-
-The duration scales with Fall's level:
-
-At level 1: 1 hour
-At level 10: 2 hours
-At level 15: 3 hours~
+This spell, a technique crafted by Fall's father, Gerwulf, grants her unmatched focus and precision in battle. When invoked, Fall's morale and confidence surge, providing a +1 bonus to attack and damage rolls, along with a +2 THAC0 bonus specifically with missile weapons.~
 
 @600140  = ~Arcane Bolts of Evereska~
 @600141  = ~Arcane Bolts of Evereska
@@ -5372,11 +5452,7 @@ DESCRIPTION:
 
 This spell, designed by Fall's mother—a sorceress from Evereska—summons a handful of enchanted crossbow bolts. Each bolt glows faintly with arcane energy, delivering powerful magical damage to their targets. When fired, these bolts inflict 1d4 points of magical damage and grant a +5 bonus to attack rolls, making them both potent and precise.
 
-The number of bolts created scales with Fall's level:
-
-At level 1: 5 bolts
-At level 10: 10 bolts
-At level 15: 15 bolts~
+Quantity: 10 bolts~
 
 @600142  = ~Arcane Bolts~
 @600143  = ~These crossbow bolts, crafted by Fall’s spell, are imbued with arcane power, enhancing their accuracy and dealing additional magic-infused damage to targets.
@@ -5821,6 +5897,7 @@ The powerful elf of Shilmista."~
 @90528   = ~They've also defeated Morgrath's offspring. It's incredible.~
 @90529   = ~But... what will happen to Dreach-naga, Cho?~
 @90530   = ~Dreach-naga may have fallen with the death of our Queen and our Champion. And I understand you still need to process that. I've done so while fighting the spiders and still need to think about what comes next, if we survive.~
+@90531   = ~But Dreach-naga is not just the land now infected with Shyntquarra. Dreach-naga is us. Our kin will continue to exist as long as we keep fighting.~
 @90531   = ~But Dreach-naga is not just the land now infected with Shyntquarra. Dreach-naga is us. Our kin will continue to exist as long as we keep fighting.~
 @90532   = ~Vidomina and <CHARNAME> are in the final stages of the war against Morgrath. What will we do?~
 @90533   = ~What do you mean, Cho?~
@@ -8194,6 +8271,16 @@ a mouse in love, an eternal lover.'~
 @9722028 = ~Remember our first conversation, little one. Your childhood. Your father. The spiders. Nature.~
 @9722029 = ~Everything happened for a reason. But don't despair, dear. As long as you stay by your friends' side, you will be safe.~
 @9722030 = ~I understand. Thank you, Bellfame. It's a relief to talk to you.~
+
+@9723254  = ~My little friend Michelson mentioned something about a disruption in time. I didn't think such a thing was possible.~
+@9723255  = ~The world of magic has the ability to alter time and space.~
+@9723256  = ~In my confrontation with Kartlzer's detachment, my druidic magic collided with the arcane magic of their sorcerer.~
+@9723257  = ~The ring that your fellowship now possesses was the conductor of that event... I don't think I can explain exactly what happened...~
+@9723258  = ~Well... whatever it was, your story in the Forest of Mir has not happened yet. That confuses me...~
+@9723259  = ~You don't need to understand everything around you, mortal. Sometimes, things... just happen.~
+@9723261  = ~It is true that I am a mortal, nymph... but my friends call me Dusk. You can call me that too.~
+
+
 
 @9723254  = ~My little friend Michelson mentioned something about a disruption in time. I didn't think such a thing was possible.~
 @9723255  = ~The world of magic has the ability to alter time and space.~

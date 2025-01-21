@@ -44,9 +44,9 @@ EXIT
 APPEND P_Dusk
 
 IF ~Global("P_DuskMet","GLOBAL",1)~ b2 
-SAY @93516 /* ¿Has cambiado de opinión? La propuesta es unirme a ti, mi <LADYLORD>. Siento que la injusticia que ha sucedido en el Paseo de Waukin no debe quedar impune. */
-++ @93517 /* De hecho, sí. Bienvenido a bordo, Dusk. */ + b1.join
-++ @93518 /* Por el momento no. */ + b1.2
+SAY @93516 /* Have you changed your mind? The proposal is to join you, my <LADYLORD>. I feel that the injustice that has happened on Waukeen's Promenade must not go unpunished. */
+++ @93517 /* Actually yes. Welcome aboard, Dusk. */ + b1.join
+++ @93518 /* At the moment, no. */ + b1.2
 END 
 
 END

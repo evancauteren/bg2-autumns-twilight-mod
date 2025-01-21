@@ -801,7 +801,8 @@ See(Player1)
 CombatCounter(0)                         
 !See([ENEMY])
 !AreaType(DUNGEON)		
-!AreaCheck("P_AR14")	
+!AreaCheck("P_AR14")
+!AreaCheck("P_BR14")
 Global ("P_Dusk_Demole_Enc2","GLOBAL",0)
 THEN
 RESPONSE #100
@@ -1618,7 +1619,15 @@ RESPONSE #100
 SetGlobal("P_Dusk_in_Underdark","GLOBAL",1)
 END			
 
-
+// Dusk has been in the Temple of Mask
+IF
+InParty(Myself) 
+Global("P_Dusk_in_TempleMask","GLOBAL",0)	
+AreaCheck("JA#D00")
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_in_TempleMask","GLOBAL",1)
+END		
 
 // ***************************************************************
 
@@ -1947,6 +1956,26 @@ IF
   Global("P_DuskAlliesAttacked","GLOBAL",0)
   Global("P_DUSK_IS_EVIL","GLOBAL",0)
   AreaCheck("P_AR14")
+  OR(6)
+    Allegiance("p_matut",ENEMY)
+    Allegiance("p_michel",ENEMY)
+    Allegiance("p_demole",ENEMY)
+    Dead("p_matut")
+    Dead("p_michel")
+    Dead("p_demole")
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskAlliesAttacked","GLOBAL",1)
+    DisplayStringHead(Myself,@400454)
+    LeaveParty()
+    Enemy()
+END
+
+IF
+  IsValidForPartyDialog(Myself)
+  Global("P_DuskAlliesAttacked","GLOBAL",0)
+  Global("P_DUSK_IS_EVIL","GLOBAL",0)
+  AreaCheck("P_BR14")
   OR(6)
     Allegiance("p_matut",ENEMY)
     Allegiance("p_michel",ENEMY)
