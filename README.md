@@ -100,43 +100,11 @@ Yes, feel free to crossmod your mod with ours. It's not mandatory to credit us, 
 
 ## Current Release
 
-**v1.1.0**
+**v1.2.2**
 
 - Fixed several minor bugs.
-- A disclaimer about language clarity during installation has been added.
-- Balanced five kits. See pictures below:
-<p align="center">
-    <img src="docs/images/v1.1/01.jpg?raw=true" width="820">
-</p>
-<p align="center">
-    <img src="docs/images/v1.1/02.jpg?raw=true" width="820">
-</p>
-<p align="center">
-    <img src="docs/images/v1.1/03.jpg?raw=true" width="820">
-</p>
-<p align="center">
-    <img src="docs/images/v1.1/04.jpg?raw=true" width="820">
-</p>
-<p align="center">
-    <img src="docs/images/v1.1/05.jpg?raw=true" width="820">
-</p>
-<p align="center">
-    <img src="docs/images/v1.1/06.jpg?raw=true" width="820">
-</p>  
-
-- Adjusted experience points gained from defeating enemies (affects all minions). See below:
-
-<p align="center">
-    <img src="docs/images/v1.1/07.jpg?raw=true" width="820">
-</p>
-<p align="center">
-    <img src="docs/images/v1.1/08.jpg?raw=true" width="820">
-</p>
-
-- Added difficulty level selector.
-<p align="center">
-    <img src="docs/images/v1.1/09.jpg?raw=true" width="820">
-</p>
+- Known issues from v1.1 were fixed.
+- Hidden adventures compatibility: AT is now compatible with the Temple of Mask component from the Hidden Adventures mod. AT must be installed **AFTER** the mentioned mod for the compatibility to take effect.
 
 ## Credits
 
