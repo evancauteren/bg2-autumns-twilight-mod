@@ -97,9 +97,9 @@ I_C_T FIRKRA02 21 P_AlenFIRKRA21
 END
 
 // Firfraag: combate
-I_C_T FIRKRA02 25 P_AlenFIRKRA25
-== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @93115 /* <CHARNAME>, procura que ninguno de sus ataques de fuego me toque, ¿sí? No estoy de humor para ser calcinado. */
-END
+// I_C_T FIRKRA02 25 P_AlenFIRKRA25
+//== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ //THEN @93115 /* <CHARNAME>, procura que ninguno de sus ataques de fuego me toque, ¿sí? No estoy //de humor para ser calcinado. */ DO ~ActionOverride("firmag01",Enemy()) //ActionOverride("FIRKRA02",Enemy())~
+//END
 
 // Bodhi: Enfrentamiento final
 I_C_T C6BODHI 0 P_AlenC6BODHI15_GOOD

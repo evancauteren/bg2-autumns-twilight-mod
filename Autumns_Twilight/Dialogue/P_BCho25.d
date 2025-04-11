@@ -212,7 +212,7 @@ Global("P_ChonKorgan1","GLOBAL",0)~ THEN P_BCho25 P_ChonKorgan1
 @97779 /* Para ser tan pequeño, tu furia durante el combate es muy grande. */
 DO ~SetGlobal("P_ChonKorgan1","GLOBAL",1)~
 == BKORGA25 @97780 /* Muchos patas larga me han subestimado por mi tamaño. Y todos ellos han terminado con sus tripas por los suelos. ¿Tú buscas lo mismo, jodío lagarto? */
-== P_BCho25 @97781 /* Tu dialeto es tan rabioso como el balanceo de tu hacha. No era mi intención insultar-- */
+== P_BCho25 @97781 /* Tu dialecto es tan rabioso como el balanceo de tu hacha. No era mi intención insultar-- */
 == BKORGA25 @97782 /* Cierra el hocico, patético anfibio. El único motivo por el cual mi hacha no se encuentra incrustada en tus escamas es porque <CHARNAME> cree que serás útil en sus jodías aventuras. Ahora, vete de aquí. */
 == P_BCho25 @97783 /* *susurro* Supongo que debo aprender a socializar mejor con los enanos... */
 EXIT

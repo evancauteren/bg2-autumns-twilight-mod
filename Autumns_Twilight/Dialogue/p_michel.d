@@ -2,8 +2,10 @@ BEGIN P_MICHEL
 
 
 IF WEIGHT #2~!InParty("P_Dusk")
+Global("P_Dusk_Michel_Enc","LOCALS",0)
+OR (2)
 Global("P_DuskMatMission1","GLOBAL",2)
-Global("P_Dusk_Michel_Enc","LOCALS",0)~ THEN BEGIN 0 // from:
+Global("P_DuskMatMission1","GLOBAL",1)~ THEN BEGIN 0 // from:
   SAY @0 /* ~(El leprechaun te ve llegar y luego de abrir bien sus ojos, se echa a correr como un desquiciado, alejándose de ti mientras se ríe)~ */
   IF ~~ THEN DO ~RunAwayFrom([PC],20)~ EXIT
 END
@@ -28,8 +30,10 @@ END
 
 IF ~InParty("P_Dusk")
 !See("P_Dusk")
+Global("P_Dusk_Michel_Enc","LOCALS",0)
+OR (2)
 Global("P_DuskMatMission1","GLOBAL",2)
-Global("P_Dusk_Michel_Enc","LOCALS",0)~ THEN BEGIN 56 // from:
+Global("P_DuskMatMission1","GLOBAL",1)~ THEN BEGIN 56 // from:
   SAY @0 /* ~(El leprechaun te ve llegar y luego de abrir bien sus ojos, se echa a correr como un desquiciado, alejándose de ti mientras se ríe)~ */
   IF ~~ THEN DO ~RunAwayFrom([PC],20)~ EXIT
 END
@@ -38,6 +42,8 @@ IF ~InParty("P_Dusk")
 See("P_Dusk")
 !StateCheck("P_Dusk",STATE_SLEEPING)
 Global("P_Dusk_Michel_Enc","LOCALS",0)
+OR (2)
+Global("P_DuskMatMission1","GLOBAL",1)
 Global("P_DuskMatMission1","GLOBAL",2)~ THEN BEGIN 1 // from:
   SAY @1 /* ~(El pequeño te atisba con la mirada y ves cómo prepara sus piecitos para la huida. Sin embargo, se detiene al ver a Dusk entre tus filas)~ */
   IF ~~ THEN DO ~SetGlobal("P_Dusk_Michel_Enc","LOCALS",1)

@@ -57,7 +57,7 @@ Global("P_FallDiedInFinalBattle","GLOBAL",0)
 CombatCounter(0)
 ~ THEN BEGIN 4 // from:
   SAY @9074 /* La batalla se ha acabado... */
-  IF ~~ THEN DO ~SetGlobal("P_MorgrathSpawnPF16","GLOBAL",7)~ GOTO 5
+  IF ~~ THEN DO ~SetGlobal("P_MorgrathSpawnPF16","GLOBAL",7)~ GOTO 6
 END
 
 // Fall HA caído en batalla

@@ -412,6 +412,7 @@ IF ~~ THEN BEGIN 24C // from:
     IF ~~ THEN REPLY @97556 /* Acabo de cambiar de opinión, Acrull. Debo pensarlo un poco más. */  GOTO 4E
 END
 
+
 //1
 IF ~~ THEN BEGIN 24C_1 // from:
   SAY @97551 /* ~Muy bien. No me tomará mucho tiempo aplicar los encantamientos necesarios...~ */

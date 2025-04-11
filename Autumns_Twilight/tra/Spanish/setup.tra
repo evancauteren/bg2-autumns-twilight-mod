@@ -7622,6 +7622,221 @@ Por favor, permíteme acompañarte.~
 @96559  = ~En lugar de buscar una reconciliación, ambos estaban atrapados en un círculo vicioso de tortura mutua. Ella, con su resistencia sobrenatural al veneno, y él, con su sadismo mágico, crearon una especie de danza macabra y sensual. ¿No crees que los humanos son altamente sensuales? Por algo se reproducen como conejos.~
 @96560  = ~En eso estamos de acuerdo, gnomo. En lo de los conejos, claramente.~
 
+// KELDORN
+@96561  = ~Deberías tener cuidado con tus conjuros en la ciudad, Alendir. Lanzarlos está prohibido.~
+@96562  = ~Lo cual me parece una insensatez, Keldorn. De todas formas, ya estaba al tanto de ello. Cuando estuve hospedado en la posada, debía llevar a cabo mis pesquisas puertas adentro.~
+@96563  = ~Tener a los Magos Encapuchados respirando sobre mi nuca era lo último que necesitaba.~
+@96564  = ~Si es así, no lo haces notar, hechicero. No tienes el más mínimo problema a la hora de lanzar tus conjuraciones.~
+@96565  = ~¿Por qué habría de tenerlo? Mi situación no es la misma que cuando llegué por primera vez a Athkatla. Ahora estamos de aventuras con <CHARNAME>.~
+@96566  = ~Razón de más para tener más cuidado. En la ciudad viven muchos habitantes inocentes. No merecen ser congelados por algún ataque contingente de tu parte.~
+@96567  = ~Ah... Inocentes. Tiempo atrás me habría reído de tal afirmación. Pero creo que debo reflexionar sobre tus palabras.~
+@96568  = ~Sólo eso pido, buen Alendir.~
+@96569  = ~Para ser un humano anciano, no estás tan mal, Keldorn.~
+
+// KORGAN
+@96570  = ~Es insensato de tu parte lanzarte al combate en medio de una tormenta de hielo, enano. ¿Acaso buscas quedarte congelado?~
+@96571  = ~Hmpf. Tus conjuros no son tan jodíamente buenos, elfo. Puedo resistirlos si así me lo propusiera.~
+@96572  = ~Hasta cierto punto. No importa qué tan sangrienta sea tu furia. Ante el verdadero frío, nada puede moverse.~
+@96573  = ~¿Quieres intentarlo? Vamos, mequetrefe. Quiero saber qué es más rápido, si tu magia o mi hacha.~
+@96574  = ~No soy estúpido, bersérker. Si lucho bajo tus términos, la victoria seguramente estará de tu lado. No he vivido tanto tiempo como para caer en artimañas tan insulsas...~
+
+// MAZZY
+@96575  = ~Nunca entenderé tu fascinación con los humanos, mediana.~
+@96576  = ~¿A qué te refieres, Alendir?~
+@96577  = ~Actúas como un paladín. Al menos eso es lo que capto con tu forma de hablar y actuar. Aunque a mí no me engañas. Careces de ese fanatismo que puede inundar el corazón de los hombres.~
+@96578  = ~Lucho por Arvorin, querido elfo. Puede que no tenga las capacidades específicas que deba tener un paladín, pero trato de compensarlo con mi fe y ferviente creencia en la justicia.~
+@96579  = ~Entonces... ¿los humanos no han sido inspiración para ti?~
+@96580  = ~Creo que tienes toda esa cuestión racial muy a pecho, Alendir. No te culpo, yo lo he sentido. Ser mediana en mis circunstancias no ha sido fácil. Pero en ese sentido diferimos. No te veo como un selu'taar que reniega de sus orígenes.~
+@96581  = ~¿Y por qué habría de hacerlo? Los altos elfos son una raza antigua y orgullosa. Mucho de lo bueno del mundo ha sido gracias a nosotros.~
+@96582  = ~¿Nosotros? Creo recordar de "alguien" que casi ocasiona la invasión del Plano Para-Elemental de Hielo en Faerûn.~
+@96583  = ~*carraspeo* Tienes razón. Mystra me ha dado una nueva chance de enmendar mis pecados. Estoy encomendando mi vida a ello, tratando de descubrir cuál es mi destino.~
+@96584  = ~Espero ayudarte en lo que pueda en tu tarea, Alendir. Hay mucho potencial de bien en ti.~
+@96585  = ~Ehr... Será mejor que continuemos. Pero gracias, Lady Fentan.~
+
+
+// MINSC
+@96586  = ~Tus constantes miradas me cansan, bárbaro. ¿Qué es lo que quieres?~
+@96587  = ~Puede que Bubú tenga razón. Él dice que te conozco y en verdad te me haces conocido. Pero Minsc no logra recordar bien de dónde.~
+@96588  = ~Soy Alendir, el elfo que conociste en la posada de las Cinco Jarras. Puede que mi actual apariencia te confunda, pero ha sido obra de--~
+@96589  = ~¡Tú no puedes ser Alendir! Ese elfo era viejo y arrugado. También amargado. Tú, en cambio, te ves joven y amable.~
+@96590  = ~Pues, soy el mismo. He sido rejuvenecido en mi resurrección, Minsc.~
+@96591  = ~¿Comprendes lo que te estoy diciendo?~
+@96592  = ~Hm. No del todo. Pero Bubú me dice que debo creerte. Si él comprende, entonces puedo quedarme tranquilo.~
+@96593  = ~... (¿Cómo es posible que un hámster sea más listo que un hombre? Será mejor que lo siga estudiando de cerca)~
+
+
+// NALIA
+@96594  = ~Os lo he dicho, Alendir. No me importa en lo más mínimo mi linaje.~
+@96595  = ~Pero, ¿por qué no? El poder en esta nación es ostentado por los humanos. Alguien de cuna noble tiene posibilidades infinitas.~
+@96596  = ~Los de cuna noble no son mejores que aquellos que han nacido en la pobreza, Alendir.~
+@96597  = ~Con excepción a que sí son mejores. Especialmente si hablamos de los humanos. Su vida es tan corta que es difícil para la mayoría marcar la diferencia si nacen en la podredumbre.~
+@96598  = ~¿Podredumbre? No todos los pobres son corruptos. No puedo creer lo que estás diciendo.~
+@96599  = ~No todos, pero sí la mayoría. Una corrupción menor, que en verdad no afecta el destino de las naciones. Pero corrupción al fin.~
+@96600  = ~Para haber vivido tantos años, no puedo creer que digas tan insensatez.~
+@96601  = ~Eres joven, pero con el tiempo me darás la razón, Nalia De'Arnise.~
+@96602  = ~Lo dudo, Alendir. Realmente lo dudo.~
+
+
+// VALYGAR
+@96603  = ~Te lo advierto, hechicero. Aleja tus frías conjuraciones de mí.~
+@96604  = ~¿Me hablas a mí, hombre?~
+@96605  = ~Sí. Puede que hayas sido revivido por fuerzas que no logro comprender, pero no por ello debo confiar en que harás algo de bien con tu nueva vida.~
+@96606  = ~¿Por qué debería hacer el bien, explorador? Los villanos reviven todo el tiempo y su maldad sólo vuelve potenciada.~
+@96607  = ~*suspiro* Aunque nunca he considerado que lo que he hecho haya sido malvado. Tenía un objetivo, pero estaba equivocado.~
+@96608  = ~Mis errores me costaron la vida. Quiero creer que he aprendido de ellos.~
+@96609  = ~Tal vez, elfo. Pero te vigilaré de cerca. Tenlo por seguro. Al primer intento de traición, tu cabeza rodará por los suelos, no lo dudes.~
+@979160  = ~(Humanos: siempre tan... violentos)~
+
+
+
+// VICONIA
+@979161  = ~Me sorprende que <CHARNAME> haya permitido que sigas con vida, drow. En Evereska no dudarías ni dos asaltos. La magia de los Altos Elfos te pulverizaría.~
+@979162  = ~Ustedes los darthiir siempre tan... tajantes.~
+@979163  = ~¡Ja!... 'darthiir'. Sí, nosotros, los elfos de la superficie como ustedes nos llaman somos tajantes. Y creo que es un error. La determinación debe ser rápida y precisa. Si fuera por mí, los drows no durarían ni un segundo.~
+@979164  = ~El sentimiento es casi mutuo en la Infraoscuridad, faern. Casi, porque a muchos de ustedes primero os tomarían como esclavos para ser vendidos por puro entretenimiento. O quizás para ser exhibidos como los animales que son--~
+@979165  = ~No me asustas, servidora de Shar. He vivido en la Oscuridad y he visto más horrores de los que tú sólo podrías imaginar. El Frío Absoluto es un maestro cruel y no atiende a súplicas. Y nos llegará a todos... tarde o temprano.~
+@979166  = ~Interesante. No eres el típico darthirii lleno de estupideces en su boca. De vez en cuando sueltas cosas... seductoras.~
+@979167  = ~Hmpf. ¿Qué puedo esperar interactuando con alguien como tú? Adiós, drow.~
+@979168  = ~Adiós, Alendir. Esperaré con ansias a nuestra próxima charla. *sonríe burlonamente*~
+
+//////////////////////////////////////////
+
+// ALENDIR - GOOD DUSK (Archivo P_BDusk)
+@979169  = ~La vida ha sido demasiado amable contigo, Alendir. Más de lo que mereces.~
+@979170  = ~Mystra, joven humano. Mystra ha sido la generosa. Y no es necesario que escupas tu veneno conmigo. Sé muy bien que no merezco esta oportunidad. Pero aquí estoy.~
+@979171  = ~*gruñido* De todas formas... ¿qué harás ahora? Tu juventud ha sido restaurada también, aunque ello implique una disminución en tu poder arcano.~
+@979172  = ~Tú también lo has sentido, ¿verdad? Tu condición de Asesino de Magos puede llegar a percibir ciertos estados en los magos. Pero sé que no lo comprendes del todo.~
+@979173  = ~No necesito comprender a mis presas... sólo necesito saber cómo matarlas.~
+@979174  = ~*sonríe* Lo sé. He visto lo que eres capaz. Y sé lo que piensas:~
+@979175  = ~"El elfo es mucho más débil que antes. Me bastaría un par de movimientos de mi espada para despacharlo. Ni más, ni menos. <CHARNAME> ni siquiera le extrañara."~
+@979176  = ~Mi sed de sangre no es tan grande, Alendir. Te das demasiada importancia.~
+@979177  = ~Entonces... ¿por qué me molestas?~
+@979178  = ~Sólo intentaba analizarte un poco, Maestro de las Escarchas. Puede que sepa cómo penetrar tus defensas mágicas... pero me interesa más dilucidar tus verdaderas intenciones. Saber qué es lo que realmente buscas.~
+@979179  = ~Hmpf. Entonces somos dos, joven humano. Somos dos.~
+
+// ALENDIR - EVIL DUSK (Archivo P_BDusk)
+@979180  = ~Que <CHARNAME> permita que nos acompañes debe ser una de las decisiones más estúpidas que ha tomado. Si fuera por mí--~
+@979181  = ~Tomarías tu espada bastarda y separarías mi cabeza del cuello. ¿Eso ibas a decir, humano?~
+@979182  = ~...~
+@979183  = ~<CHARNAME> toma las decisiones, no tú. Si estoy con vosotros es porque <PRO_HESHE> así lo ha querido.~
+@979184  = ~Los accidentes suceden en medio del combate.~
+@979185  = ~¿Crees que Mystra ha permitido mi resurrección para que un simple humano tome mi vida? Tu mente es muy simple si cree eso, humano.~
+@979186  = ~Tú no conoces el verdadero poder del Pandemonium, elfo. Puede que hayas revivido para pasar de este plano a... otro.~
+@979187  = ~No le temo al plano de tus pecados, Ardusk Aldant.~
+@979188  = ~Oh... pero deberías... deberías...~
+
+
+// CHO'NUJA - GOOD DUSK (Archivo P_BDusk)
+@979189  = ~General, ¿qué le parece nuestro mundo? La presencia de los míos no parece incomodarte en lo absoluto.~
+@979190  = ~Ah, pero si es el mata-chamanes. Los humanos no me molestan en absoluto. De hecho, muchos me parecen interesantes, inofensivos. ¿Cómo es que dominan este plano? Es un misterio para mí.~
+@979191  = ~Bueno, no sé si "dominio" sería la palabra que yo elegiría. Creo que es más una cuestión de números. Somos muchos.~
+@979192  = ~También hay muchos de los míos por aquí, aunque no ha simple vista. ¿Por qué no han forjado alianzas con ustedes? Mira lo que logramos con <CHARNAME> en Rachnidra. Los lagartos y los humanos, juntos, serían imparables.~
+@979193  = ~Es un poco más complejo que eso. Los humanos somos complicados, e imagino que las grandes diferencias culturales con los lagartos dificultaría dicha alianza.~
+@979194  = ~Comprendo. En Rachnidra, luchábamos contra la extinción. No veo que haya un peligro cataclista que inste una alianza de tales magnitudes.~
+@979195  = ~Supongo que las cosas son como son.~
+@979196  = ~Así es... que no haya alianzas entre nuestras razas no tiene nada de malo, general. Quizás algún día. Creo que nosotros dos, peleando codo a codo, es un buen comienzo.~
+@979197  = ~Ah, bien dicho, mata-chamanes. Bien dicho.~
+
+// CHO'NUJA - EVIL DUSK (Archivo P_BDusk)
+@979198  = ~Tu poder es impresionante, Cho'Nuja. El fuego de tu ira es digno del Pandemonium.~
+@979199  = ~¿Pandemonium? No estoy seguro de comprenderte del todo, mata-chamanes.~
+@979200  = ~El plano de donde proviene mi poder. Mi venganza potenciada por los vientos ululantes del Phlegethon y el fuego oscuro de mi corazón en mi espada, obra de la antigua Agathion.~
+@979201  = ~¿Obtienes tu poder de otro plano? Entonces, no somos tan diferentes. El fuego de mi escudo proviene de los fuegos manantiales de Dreach-naga.~
+@979202  = ~Me gusta eso. Nuestros enemigos no tienen oportunidad alguna ante nosotros.~
+@979203  = ~Y lo hago con orgullo. Dreach-naga jamás morirá mientras mi fuego siga ardiendo. ¿Tú llevas el fuego del Pandemonium con la frente en alto?~
+@979204  = ~No creo que requiera de mi orgullo para ello. Solo debo blandir su poder y que mis enemigos sufran por ello. Eso es todo.~
+@979205  = ~Interesante, mata-chamanes.~
+
+
+// ALENDIR - Fall (Archivo P_BFall)
+@979206  = ~Caraneth, ¿cómo es que has terminado con esta panda de inadaptados? Esperaba mucho más de ti.~
+@979207  = ~¡Alendir! Bueno, sé que no es el típico grupo de aventureros, ¡pero hemos logrado mucho juntos!~
+@979208  = ~No puedo objetar eso. Icelock, Morgrath, Skel'Tharant. Sus victorias han sido impresionantes. Quizás...~
+@979209  = ~¿Quizás estés equivocado?~
+@979210  = ~*carraspeo* Bueno, eso el tiempo lo dirá. Pero, hasta ahora, <CHARNAME> ha demostrado ser de un valor incalculable. La sangre divina es innegable.~
+@979211  = ~No creo que solo sea eso, Alendir. Pero, entiendo lo que quieres decir. Todos cometemos juicios erróneos alguna vez.~
+
+// CHO'NUJA - Fall (Archivo P_BFall)
+@979212  = ~Nunca había visto a una criatura comer tantos insectos como tú, Cho. No creas que no te veo cuando usas esa lengua extraña que tienes para capturar varias moscas a la vez.~
+@979213  = ~¿Qué puedo decir, pequeña peluda? Tu mundo tiene una gran variedad de comida que difícilmente existía en Dreach-naga.~
+@979214  = ~Serías un gran controlador de plagas. Podríamos ganar mucho dinero. Bueno, no es que el dinero me motive, pero podríamos ayudar a muchos con eso.~
+@979215  = ~¿Control de plagas?~
+@979216  = ~¡Sí! Muchos granjeros suelen tener problemas con plagas de langostas o gusanos. ¿Podrías manejar algo así?~
+@979217  = ~Sería una actividad interesante, cuanto menos. ¿Y pagarían por eso? No puedo creerlo.~
+@979218  = ~Así es, Cho. Aunque algo me dice que lo harías gratis.~
+@979219  = ~Por supuesto. Comer tan delicioso manjar ya de por sí es un gran pago.~
+@979220  = ~Bueno, ya veremos adónde llegamos con estas conversaciones, mi buen Cho.~
+
+// CHONEE
+// Dorn
+@979221  = ~Hombre-lagarto, tu fuerza es encomiable. Ur-Gothoz habría hecho un buen uso de ti.~
+@979222  = ~¿Ur-Gothoz? No creo comprender a lo que te refieres, soldado.~
+@979223  = ~No importa. Aún sin su demoníaca influencia, tu sed de sangre es de temer.~
+@979224  = ~Sólo cumplo con los comandos de <CHARNAME>. Confío en que su guía me ayudará a encontrar mi lugar en este extraño mundo.~
+@979225  = ~No necesitas de <PRO_HESHE>. Tus capacidades son más que suficientes por sí mismas.~
+@979226  = ~Sabias palabras, soldado. Las tendré en cuenta.~
+
+// Hexxat
+@979227  = ~¿Por qué me observas tanto, hombre-lagarto?~
+@979228  = ~Me recuerdas un poco a Nimbus, hembra. Tu frialdad, al menos.~
+@979229  = ~¿Hm?~
+@979230  = ~Aunque, claramente, no eres como esa vampira. Su piel habrá carecido del calor de la sangre de los mamíferos, pero ciertamente era más... adepta a la belleza de la vida, sea lo que sea que eso signifique.~
+@979231  = ~Ja. Yo encuentro belleza en la vida, general. Sentir la sangre de mis enemigos en la palma de mis manos, por ejemplo. Ahora, déjame en paz.~
+
+// Neera
+@979232  = ~Te he observado con detenimiento, pequeña hembra. Ciertamente no eres como nuestros chamanes.~
+@979233  = ~¿Te refieres a que no tengo las suficientes escamas, Cho?~
+@979234  = ~No, no. Me refiero a lo impredecible de tus conjuros. Son poderosos, sí. Pero no puedo descifrar qué es lo que pasará cuando terminas tus conjuraciones.~
+@979235  = ~Oh, bueno. Somos dos entonces, Cho. Pero sabes cómo dice el dicho: "Mejor pedir disculpas que pedir permiso."~
+@979236  = ~Ehm... Claro, claro.~
+
+// Rasaad
+@979237  = ~Para ser tan pequeño, luchas muy bien a puño desnudo, humano.~
+@979238  = ~Viniendo de ti es un gran halago, general. Años de dedicación han fortalecido mis músculos y mi fuerza mental son vitales en el momento de la lucha.~
+@979239  = ~El entrenamiento es vital. En Dreach-naga las sesiones de combate eran mortíferas, pero aquellos que sobrevivían estaban listos para cualquier guerra abisal.~
+@979240  = ~Mi combate es resultado de mi fe en la justicia. No sé si haya sido algo similar para ti. Puede que sí.~
+@979241  = ~El Pantano era luchar para sobrevivir. Fuimos una gran nación, pero fuimos quebrantados, al fin, por otros que resultaron ser más ambiciosos y sanguinarios.~
+@979242  = ~Lamento oír eso, general.~
+@979243  = ~Que tu pesar no genere lástima por mí, pequeño humano. Hemos sobrevivido y eso es lo importante. Será mejor que continuemos con nuestro viaje.~
+
+// ALENEE
+// Dorn
+@979244  = ~¿Por qué sigas con vida, elfo?~
+@979245  = ~¿Es una pregunta filosófica, Dorn? Aunque, según tus hostiles facciones, estimo que debe venir un ataque de tu parte.~
+@979246  = ~Entregaste tu alma a un propósito mayor. Fracasaste. Y ahora aquí estás, de nuevo, como si nada hubiese pasado. En mi opinión, los débiles no merecen una segunda oportunidad.~
+@979247  = ~Tu opinión es intrascendente a los ojos de Mystra, semi-orco. Poco importan tus inocuos sentimientos ante la Gran Trama.~
+@979248  = ~Cuida tu lengua, hechicero. Podría enviarte de nuevo al otro mundo si así lo quisiera.~
+@979249  = ~Podrías intentarlo, Dorn. Eres bienvenido a hacerlo.~
+
+// Hexxat
+@979250  = ~Tu sangre es caliente, Alendir. Bien podrías haber regresado como lo he hecho yo.~
+@979251  = ~¿Como un muerto-vivo? No, gracias. Siempre he encontrado repulsión hacia los de tu clase.~
+@979252  = ~Y sin embargo, han sido los de mi clase aquellos que te han traído de nuevo a la vida.~
+@979253  = ~Lady Vidomina no es como tú. No podrías ser como ella ni con todos los milenios acumulados en la palma de tu mano.~
+@979254  = ~No busco ser una liche, Alendir. Estoy muy bien conmigo misma, así como estoy. Ahora y siempre.~
+@979255  = ~Hmpf. Como digas. Ahora, aléjate de mí.~
+
+// Neera
+@979256  = ~¡Por lo témpanos de Frostfell, Neera! ¿Cómo es que has sobrevivido tanto tiempo? Tu magia salvaje es un desastre.~
+@979257  = ~*se rasca la cabeza* Lo lamento, Alendir. Prometo no ser tan destructiva en nuestro próximo combate.~
+@979258  = ~No hagas promesas que no puedes cumplir, pequeña.~
+@979259  = ~Me atrapaste. Vamos, anciano, sé muy bien que puedes manejar cualquier contingente.~
+@979260  = ~Contigo, uno nunca se sabe.~
+
+// Rasaad
+@979261  = ~Para ser un humano, tu deidad es acorde a los estratos básicos de la vida, Rasaad. Eres uno entre muchos.~
+@979262  = ~Gracias, Alendir. Selûne es una aliada natural de Mystra, así que es natural que tengas el respeto que le tienes a la Doncella de la Luna.~
+@979263  = ~"Bajo la luz plateada de Selûne, caminamos sin miedo, pues su claridad guía a los perdidos y protege a los sueños de los mortales."~
+@979264  = ~"Los lobos aúllan en su nombre, los magos estudian sus secretos, y los viajeros rezan por su protección. ¿Acaso tú no ves su influencia?"~
+@979265  = ~Ja. Nunca creí que sería interesante hablar con un humano.~
+@979266  = ~Acepto el cumplido, Alendir.~
+
+
+@979267  = ~~
+@979268  = ~~
+@979269  = ~~
+
+
 // P_BDUS25
 // AERIE - EVIL
 @9660    = ~...~
@@ -8740,7 +8955,7 @@ un ratón enamorado, eterno enamorador.'~
 
 @97779  = ~Para ser tan pequeño, tu furia durante el combate es muy grande.~
 @97780  = ~Muchos patas larga me han subestimado por mi tamaño. Y todos ellos han terminado con sus tripas por los suelos. ¿Tú buscas lo mismo, jodío lagarto?~
-@97781  = ~Tu dialeto es tan rabioso como el balanceo de tu hacha. No era mi intención insultar--~
+@97781  = ~Tu dialecto es tan rabioso como el balanceo de tu hacha. No era mi intención insultar--~
 @97782  = ~Cierra el hocico, patético anfibio. El único motivo por el cual mi hacha no se encuentra incrustada en tus escamas es porque <CHARNAME> cree que serás útil en sus jodías aventuras. Ahora, vete de aquí.~
 @97783  = ~*susurro* Supongo que debo aprender a socializar mejor con los enanos...~
 
@@ -9872,3 +10087,6 @@ Con su renovada energía tras su resurrección, volvió a abandonar el Reino Ocu
 @720003 = ~Tras la conclusión de los eventos del Trono de Bhaal, Alendir volvió a Evereska. Muchos conocidos y maestros se sorprendieron de su lozana condición pese a haber partido como un anciano (al menos en apariencia). Sin embargo, los más perspicaces magos habían seguido su recorrido por Tethyr con interés ya que el Selu'taar había alcanzado un alto grado de poder. Fue aceptado en la Academia de Magia como especialista en magia gélida, pero dicha tarea le aburrió al poco tiempo.
 
 Con su renovada energía tras su resurrección, volvió a abandonar el Reino Oculto para aventurarse en las tierras de la Costa de la Espada. Finalmente se determinó a establecer una escuela de magia para invocadores en las cercanías de las ruinas de Ulcaster. Para sorpresa de muchos de sus conocidos, Alendir enseñó su magia a muchos humanos y semielfos teniendo como gran precaución que éstos no se descarriaran del camino de Mystra. Luego de forjar muchos invocadores y conjuradores de buena reputación, decidió pasar sus últimas décadas en Myth Drannor donde halló la paz hasta su retorno a los brazos de la Diosa de la Magia.~
+
+
+@729000 = ~¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla.~

@@ -46,7 +46,7 @@ And bring her family the peace of their land.~
 
 @37 = ~I never... never thought I'd be so happy to flee from a battle. It's not that I'm a coward, <CHARNAME>. It's just that we're not ready for this... confrontation.~
 
-@38 = ~Your crimes end here, evil dragon! As a representative of Imnescar, I will do my best in battle.~
+
 @39 = ~For a leader thief, he's quite the politician. It's hard for him to keep a promise.~
 
 
@@ -723,4 +723,6 @@ And bring her family the peace of their land.~
 
 @4004    = ~It's time to fight, comrades! Fight for what you hold most dear. I shall fight in the name of Cormyr!~
 @4005    = ~A creature from the planes of Cold... It doesn't deserve to exist in our Plane, <CHARNAME>. Let me slice it into ice cubes with my sword!~
+
+@4006 = ~Your crimes end here, evil dragon! As a representative of Imnescar, I will do my best in battle.~
 

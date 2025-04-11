@@ -68,6 +68,21 @@ SetGlobal ("P_FallMeso1stEnc","GLOBAL",1)
 StartDialogueNoSet(Player1)
 END
 
+// Patch Mesothel 1st Encounter
+IF
+Global ("P_FallMesoDestroyImmunityAR1514","GLOBAL",0)
+AreaCheck("AR1514")
+OR(2)
+Global ("P_FallMeso1stEnc","GLOBAL",1)
+Global ("P_FallMeso1stEnc","GLOBAL",2)
+THEN
+RESPONSE #100
+DestroyItem("IMMUNE1")
+SetGlobal ("P_FallMesoDestroyImmunityAR1514","GLOBAL",1)
+Continue()
+END
+
+
 IF
   HPLT(Myself,21)
   Global ("P_FallMesothelNearestDead1","GLOBAL",0)
