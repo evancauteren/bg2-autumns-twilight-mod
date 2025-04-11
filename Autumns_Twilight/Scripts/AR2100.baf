@@ -1,6 +1,7 @@
 IF
 Global("p_Dusk_Anthagar_Spawn","GLOBAL",0)
 Global("P_Dusk_FINAL_MISION_TRIGGER","GLOBAL",1)
+Global("P_Dusk_in_Underdark","GLOBAL",1)
 THEN
 RESPONSE #100
 CreateCreature("p_antha2",[1316.3097],1)  

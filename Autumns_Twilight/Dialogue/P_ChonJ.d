@@ -97,9 +97,9 @@ I_C_T FIRKRA02 21 P_ChonFIRKRA21
 END
 
 // Firfraag: combate
-I_C_T FIRKRA02 25 P_ChonFIRKRA25
-== P_ChonJ IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @93015 /* Serás una criatura antigua, alado, pero mi estilo de combate también lo es. ¡Siente la furia de mis garras! ¡¡¡Shehad Ibahalii!!! */
-END
+//I_C_T FIRKRA02 25 P_ChonFIRKRA25
+//== P_ChonJ IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ //THEN @93015 /* Serás una criatura antigua, alado, pero mi estilo de combate también lo es. //¡Siente la furia de mis garras! ¡¡¡Shehad Ibahalii!!! */ DO ~ActionOverride("firmag01",Enemy()//) ActionOverride("FIRKRA02",Enemy())~
+//END
 
 // Bodhi: Enfrentamiento final
 I_C_T C6BODHI 0 P_ChonC6BODHI15_GOOD

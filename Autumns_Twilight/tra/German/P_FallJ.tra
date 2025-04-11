@@ -44,7 +44,6 @@ Und ihrer Familie den Frieden ihres Landes bringen.~
 
 @37 = ~Ich hätte nie... nie gedacht, dass ich so glücklich wäre, vor einer Schlacht zu fliehen. Es liegt nicht daran, dass ich ein Feigling bin, <CHARNAME>. Es ist nur, dass wir für diese... Konfrontation nicht bereit sind.~
 
-@38 = ~Deine Verbrechen enden hier, böser Drache! Als Vertreter von Imnescar werde ich mein Bestes im Kampf geben.~
 @39 = ~Für einen Anführer-Dieb ist er ganz schön der Politiker. Es fällt ihm schwer, ein Versprechen zu halten.~
 
 
@@ -695,3 +694,5 @@ Und ihrer Familie den Frieden ihres Landes bringen.~
 
 @4004    = ~Es ist Zeit zu kämpfen, Kameraden! Kämpft für das, was euch am meisten am Herzen liegt. Ich werde im Namen von Cormyr kämpfen!~
 @4005    = ~Eine Kreatur aus den Ebenen der Kälte... Sie verdient es nicht, in unserer Ebene zu existieren, <CHARNAME>. Lass mich sie mit meinem Schwert in Eiswürfel schneiden!~
+
+@4006 = ~Deine Verbrechen enden hier, böser Drache! Als Vertreter von Imnescar werde ich mein Bestes im Kampf geben.~

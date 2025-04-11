@@ -39,7 +39,7 @@ e portare la sua famiglia alla pace che hanno sempre cercato.~
 @35   = ~Rejiek! Qui a Caravasar... È la nostra opportunità di finire ciò che non abbiamo potuto ad Athkatla.~
 @36   = ~È vero che la mia voce non è di esperienza, <CHARNAME>. Ma non credo che questi orchi siano i responsabili di quello che succede qui.~
 @37   = ~Mai... mai avrei creduto di essere così felice di fuggire da una battaglia. Non che sia codardo, <CHARNAME>. È solo che non siamo pronti per questo... confronto.~
-@38   = ~I tuoi crimini finiscono qui, malvagio drago! Come rappresentante di Imnescar, darò il massimo nella battaglia.~
+
 @39   = ~Per essere un capo ladro, ha molto di politico. È difficile che mantenga una promessa.~
 @41   = ~Sei accerchiata e ti permetti di insultarci. Sei a un passo dall'essere distrutta, vampira!~
 @42   = ~C-c-cosa? Io-Yoshimo? Non può essere vero... No...~
@@ -708,6 +708,8 @@ Evidentemente, divennero miei amici.~
 
 @4004    = ~È il momento di combattere, compagni! Lottate per ciò che desiderate di più. Io combatterò in nome di Cormyr!~
 @4005    = ~Una creatura dei piani del Freddo... Non merita di esistere nel nostro Piano, <CHARNAME>. Lasciami ridurla in cubetti di ghiaccio con la mia spada!~
+
+@4006   = ~I tuoi crimini finiscono qui, malvagio drago! Come rappresentante di Imnescar, darò il massimo nella battaglia.~
 
 
 

@@ -351,7 +351,7 @@ Global("P_Fall_T4","GLOBAL",3) // Talk3 realizada
 Global("P_Fall_T5","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_FallTimer","GLOBAL",3600) // TTT 2200
+RealSetGlobalTimer("P_FallTimer","GLOBAL",2200) // TTT 2200
 SetGlobal("P_Fall_T5","GLOBAL",1)  
 END
 

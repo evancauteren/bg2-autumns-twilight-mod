@@ -131,6 +131,22 @@ CHAIN P_FallJ pl2.1
 END
 COPY_TRANS PLAYER1 33 
 
+// Firfraag: combate
+/*I_C_T FIRKRA02 25 P_FallFIRKRA25
+== P_FallJ IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @38 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+END*/
+
+// Firkraag
+EXTEND_BOTTOM FIRKRA02 25
+IF ~~ EXTERN P_FALLJ P_FallFIRKRA25
+END
+
+CHAIN P_FALLJ P_FallFIRKRA25
+@38 /* ~¡El día de tu juicio ha llegado, dragón! ¡¡¡Prepárate a sentir nuestra ira!!!~ */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+== P_DuskJ @20011 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+EXIT
+
+
 
 // GAELAN BAYLE
 //I_C_T GAELAN 12 P_DuskGAELAN1
@@ -260,10 +276,7 @@ I_C_T FIRKRA02 21 P_FallFIRKRA21
 == P_FallJ IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @37 /* Nunca... nunca creí que me sentiría tan feliz de huir de una batalla. No es que sea cobarde, <CHARNAME>. Es sólo que no estamos listos para este... enfrentamiento. */
 END
 
-// Firfraag: combate
-I_C_T FIRKRA02 25 P_FallFIRKRA25
-== P_FallJ IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @38 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */
-END
+
 
 // Aran dice que el encargo del rescate se atrasará
 I_C_T ARAN 49 P_FallARAN49

@@ -152,27 +152,24 @@ DO ~SetGlobal("P_AlenJan1","GLOBAL",1)~
 == P_BAlen @96560 /* En eso estamos de acuerdo, gnomo. En lo de los conejos, claramente. */
 EXIT
 
-// KELDORN ///////////////////////////////////////////////
-
-
-/*
+// KELDORN 
 CHAIN 
 IF ~InParty("P_Alen")
 See("P_Alen")
+AreaType(CITY)
 !StateCheck("Keldorn",CD_STATE_NOTVALID)
 !StateCheck("P_Alen",CD_STATE_NOTVALID)
 Global("P_AlenKeldorn1","GLOBAL",0)~ THEN BKELDOR P_AlenKeldorn1
-@96569 /* General, debo admitir que nunca pasó por mi mente luchar al lado de un hombre-lagarto. */
+@96561 /* Deberías tener cuidado con tus conjuros en la ciudad, Alendir. Lanzarlos está prohibido. */
 DO ~SetGlobal("P_AlenKeldorn1","GLOBAL",1)~
-== P_BAlen @96570 /* Caballero, el sentimiento es mutuo. Aunque he de mencionar que en mi caso nunca se debió a una cuestión racial. Un buen soldado debe seguir órdenes. */
-== BKELDOR @96571 /* ¿Lo dices por tu Reina? Tengo entendido que desconfiaba en sobremanera de los forasteros. */
-== P_BAlen @96572 /* El Abismo es un lugar llamativo para los aventureros poderosos. Lleno de misterios y tesoros. Pero también de peligros y promesas de dolor. */
-== P_BAlen @96573 /* Mi Reina, Tisiphone, siempre odió a todo aquello que no fuera de nuestro pueblo. Muchos creyeron que siempre fue así, pero no es verdad.  */
-== BKELDOR @96574 /* Ya veo. Amabas a tu Reina, ¿no es así? */
-== P_BAlen @96575 /* Le serví durante décadas. Estuve siempre a su lado y sólo tras la intervención de Gemystara mis ojos fueron abiertos. */
-== P_BAlen @96576 /* La guerra contra las arañas había infectado su corazón. Al punto en que cualquier criatura que no fuese reptil debía morir en el momento en que pisase Dreach-naga. */
-== BKELDOR @96577 /* La guerra muestra facetas de nosotros que no creíamos conocer. Afecta a todos, es inevitable. */
-== P_BAlen @96578 /* Tienes razón, caballero. Tienes razón. */
+== P_BAlen @96562 /* Lo cual me parece una insensatez, Keldorn. De todas formas, ya estaba al tanto de ello. Cuando estuve hospedado en la posada, debía llevar a cabo mis pesquisas puertas adentro. */
+== P_BAlen @96563 /* Tener a los Magos Encapuchados respirando sobre mi nuca era lo último que necesitaba. */
+== BKELDOR @96564 /* Si es así, no lo haces notar, hechicero. No tienes el más mínimo problema a la hora de lanzar tus conjuraciones. */
+== P_BAlen @96565 /* ¿Por qué habría de tenerlo? Mi situación no es la misma que cuando llegué por primera vez a Athkatla. Ahora estamos de aventuras con <CHARNAME>. */
+== BKELDOR @96566 /* Razón de más para tener más cuidado. En la ciudad viven muchos habitantes inocentes. No merecen ser congelados por algún ataque contingente de tu parte. */
+== P_BAlen @96567 /* Ah... Inocentes. Tiempo atrás me habría reído de tal afirmación. Pero creo que debo reflexionar sobre tus palabras. */
+== BKELDOR @96568 /* Sólo eso pido, buen Alendir. */
+== P_BAlen @96569 /* Para ser un humano anciano, no estás tan mal, Keldorn. */
 EXIT
 
 
@@ -184,13 +181,14 @@ See("Korgan")
 !StateCheck("Korgan",CD_STATE_NOTVALID)
 !StateCheck("P_Alen",CD_STATE_NOTVALID)
 Global("P_AlenKorgan1","GLOBAL",0)~ THEN P_BAlen P_AlenKorgan1
-@96579 /* Para ser tan pequeño, tu furia durante el combate es muy grande. */
+@96570 /* Es insensato de tu parte lanzarte al combate en medio de una tormenta de hielo, enano. ¿Acaso buscas quedarte congelado? */
 DO ~SetGlobal("P_AlenKorgan1","GLOBAL",1)~
-== BKORGAN @96580 /* Muchos patas larga me han subestimado por mi tamaño. Y todos ellos han terminado con sus tripas por los suelos. ¿Tú buscas lo mismo, jodío lagarto? */
-== P_BAlen @96581 /* Tu dialeto es tan rabioso como el balanceo de tu hacha. No era mi intención insultar-- */
-== BKORGAN @96582 /* Cierra el hocico, patético anfibio. El único motivo por el cual mi hacha no se encuentra incrustada en tus escamas es porque <CHARNAME> cree que serás útil en sus jodías aventuras. Ahora, vete de aquí. */
-== P_BAlen @96583 /* *susurro* Supongo que debo aprender a socializar mejor con los enanos... */
+== BKORGAN @96571 /* Hmpf. Tus conjuros no son tan jodíamente buenos, elfo. Puedo resistirlos si así me lo propusiera. */
+== P_BAlen @96572 /* Hasta cierto punto. No importa qué tan sangrienta sea tu furia. Ante el verdadero frío, nada puede moverse. */
+== BKORGAN @96573 /* ¿Quieres intentarlo? Vamos, mequetrefe. Quiero saber qué es más rápido, si tu magia o mi hacha. */
+== P_BAlen @96574 /* No soy estúpido, bersérker. Si lucho bajo tus términos, la victoria seguramente estará de tu lado. No he vivido tanto tiempo como para caer en artimañas tan insulsas... */
 EXIT
+
 
 // MAZZY
 
@@ -200,40 +198,38 @@ See("Mazzy")
 !StateCheck("Mazzy",CD_STATE_NOTVALID)
 !StateCheck("P_Alen",CD_STATE_NOTVALID)
 Global("P_AlenMazzy1","GLOBAL",0)~ THEN P_BAlen P_AlenMazzy1
-@96584 /* Mazzy, en muchos sentidos me recuerdas a Vreshnak. Ella es una yuan-ti con grandes habilidades de combate pese a su tamaño. */
+@96575 /* Nunca entenderé tu fascinación con los humanos, mediana. */
 DO ~SetGlobal("P_AlenMazzy1","GLOBAL",1)~
-== BMAZZY @96585 /* Así que todo, aún en el Abismo, se reduce al tamaño, ¿no es así? */
-== P_BAlen @96586 /* ¿Huh? Oh, lo siento. No era mi intención-- */
-== BMAZZY @96587 /* Estoy bromeando, Cho. Por favor, cuéntame de Vreshnak. */
-== P_BAlen @96588 /* Ah, creo que entiendo. Bueno, Vreshnak se entrenó con muchos hombres-lagarto, incluyendo el gigante Qyl'tar. Nunca se dejó amedrentar por la fuerza de sus compatriotas, pues Vreshnak compensaba la falta de fuerza con una agilidad asombrosa. */
-== BMAZZY @96589 /* Golpes certeros y rápidos pueden ser más eficaces que la fuerza bruta. Sí, entiendo a que te refieres en tu comparación. */
-== P_BAlen @96590 /* Habrías sido una gran yuan-ti en mi ejército. Habríamos conquistado incontable cantidad de capas abisales. */
-== BMAZZY @96591 /* Me halaga pensar eso, buen General. */
-== P_BAlen @96592 /* Pero esos tiempos ya pasaron. La conquista no lo es todo. Comienzo a pensar que disfrutar del mundo puede ser un objetivo más... deseable para mí. */
-== BMAZZY @96593 /* En eso estamos de acuerdo, Cho. */
+== BMAZZY @96576 /* ¿A qué te refieres, Alendir? */
+== P_BAlen @96577 /* Actúas como un paladín. Al menos eso es lo que capto con tu forma de hablar y actuar. Aunque a mí no me engañas. Careces de ese fanatismo que puede inundar el corazón de los hombres. */
+== BMAZZY @96578 /* Lucho por Arvorin, querido elfo. Puede que no tenga las capacidades específicas que deba tener un paladín, pero trato de compensarlo con mi fe y ferviente creencia en la justicia. */
+== P_BAlen @96579 /* Entonces... ¿los humanos no han sido inspiración para ti? */
+== BMAZZY @96580 /* Creo que tienes toda esa cuestión racial muy a pecho, Alendir. No te culpo, yo lo he sentido. Ser mediana en mis circunstancias no ha sido fácil. Pero en ese sentido diferimos. No te veo como un selu'taar que reniega de sus orígenes. */
+== P_BAlen @96581 /* ¿Y por qué habría de hacerlo? Los altos elfos son una raza antigua y orgullosa. Mucho de lo bueno del mundo ha sido gracias a nosotros. */
+== BMAZZY @96582 /* ¿Nosotros? Creo recordar de "alguien" que casi ocasiona la invasión del Plano Para-Elemental de Hielo en Faerûn. */
+== P_BAlen @96583 /* *carraspeo* Tienes razón. Mystra me ha dado una nueva chance de enmendar mis pecados. Estoy encomendando mi vida a ello, tratando de descubrir cuál es mi destino. */
+== BMAZZY @96584 /* Espero ayudarte en lo que pueda en tu tarea, Alendir. Hay mucho potencial de bien en ti. */
+== P_BAlen @96585 /* Ehr... Será mejor que continuemos. Pero gracias, Lady Fentan. */
 EXIT
 
-
 // MINSC 
-
 CHAIN
 IF ~InParty("Minsc")
 See("Minsc")
+Global("P_MinscMeetAlendir","GLOBAL",1)
 !StateCheck("Minsc",CD_STATE_NOTVALID)
 !StateCheck("P_Alen",CD_STATE_NOTVALID)
 PartyHasItem("MISC84")
 Global("P_AlenMinsc1","GLOBAL",0)~ THEN P_BAlen P_AlenMinsc1
-@96594 /* Por quinta vez, guerrero. No estoy interesado en comerme a tu hámster. */
+@96586 /* Tus constantes miradas me cansan, bárbaro. ¿Qué es lo que quieres? */
 DO ~SetGlobal("P_AlenMinsc1","GLOBAL",1)~
-== BMINSC @96595 /* ¿Ah, sí? Pues Bubú opina lo contrario, hombre-lagarto. ¡Jura haber visto que babeas cuando miras su peludo pelaje! */
-== P_BAlen @96596 /* ¿En serio crees que buscaría comerme a tu amigo? *susurro* Es tan pequeño que no serviría ni para bocado. */
-== BMINSC @96597 /* ¿Qué has dicho? */
-== P_BAlen @96598 /* ¡Que mi dieta no se limita a comerme roedores! */
-== P_BAlen @96599 /* Pierde el cuidado. No voy a comerme a tu Bubú. Lo juro por la memoria de mi nación: Dreach-naga. */
-== BMINSC @965100 /* ¿Son tus juramentos como los de Rashemen? ¡Minsc tiene un gran sentido del deber y su palabra es tan grande como el corazón de la más pura Hathran! */
-== P_BAlen @965101 /* En eso somos similares, guerrero. Mis juramentos son para siempre. */
-== BMINSC @965102 /* Oh. De acuerdo. Creeré tu palabra entonces. Pero si veo que intentas si quiera saborear a Bubú, ¡te caeré con toda la fuerza de mi bota! */
-== P_BAlen @965103 /* *suspiro* No será necesario, guerrero. No llegaremos a eso. */
+== BMINSC @96587 /* Puede que Bubú tenga razón. Él dice que te conozco y en verdad te me haces conocido. Pero Minsc no logra recordar bien de dónde. */
+== P_BAlen @96588 /* Soy Alendir, el elfo que conociste en la posada de las Cinco Jarras. Puede que mi actual apariencia te confunda, pero ha sido obra de-- */
+== BMINSC @96589 /* ¡Tú no puedes ser Alendir! Ese elfo era viejo y arrugado. También amargado. Tú, en cambio, te ves joven y amable. */
+== P_BAlen @96590 /* Pues, soy el mismo. He sido rejuvenecido en mi resurrección, Minsc. */
+== P_BAlen @96591 /* ¿Comprendes lo que te estoy diciendo? */
+== BMINSC @96592 /* Hm. No del todo. Pero Bubú me dice que debo creerte. Si él comprende, entonces puedo quedarme tranquilo. */
+== P_BAlen @96593 /* ... (¿Cómo es posible que un hámster sea más listo que un hombre? Será mejor que lo siga estudiando de cerca) */
 EXIT
 
 
@@ -244,64 +240,54 @@ See("P_Alen")
 !StateCheck("Nalia",CD_STATE_NOTVALID)
 !StateCheck("P_Alen",CD_STATE_NOTVALID)
 Global("P_AlenNalia1","GLOBAL",0)~ THEN BNALIA P_AlenNalia1
-@965104 /* Cho'Nuja. Ya os he dicho que dejéis de mirarme. ¿Acaso quieres que os lance una nube aniquiladora? */
+@96594 /* Os lo he dicho, Alendir. No me importa en lo más mínimo mi linaje. */
 DO ~SetGlobal("P_AlenNalia1","GLOBAL",1)~
-== P_BAlen @965105 /* *gruñido* ¿Qué? Pequeña hembra, ¿por qué me evitas tanto? Creo haber demostrado no ser un enemigo para vosotros. */
-== BNALIA @965106 /* Yo... lo lamento, Cho. No quise faltarte el respeto. Es que... aún no me acostumbro a tu forma.  */
-== P_BAlen @965107 /* ¿Forma? */
-== BNALIA @965108 /* Tienes un cierto parecido a las Moles Sombrías. Y no tengo un buen recuerdo de tales criaturas. */
-== P_BAlen @965109 /* ¿Moles... sombrías? No logro comprender. */
-== BNALIA @965110 /* Son grandes criaturas subterráneas. En apariencia parecen una combinación horripilante de insectos y simios. No tienen escamas como tú, sino más bien una especie de exoesqueleto. Se la pasan excavando, trituran roca y carne por igual. Y son muy violentas. */
-== P_BAlen @965111 /* Creo comprender. Te refieres a los Tonashi. Una palabra draconiana a la que denominamos a esas criaturas. Algunos llegaron a nuestro Reino, e incluso excavaron túneles y devoraron a muchas de nuestras crías. */
-== P_BAlen @965112 /* Luchamos duro, pero finalmente pudimos exterminar a todos los tonashi. ¿A esas criaturas te recuerdo? Yo... lamento que eso sea así. */
-== BNALIA @965113 /* No me refería a su comportamiento. Has demostrado tener honor e incluso bondadoso, Cho. Lamento... lamento haber dicho lo que dije. No eres para nada parecido a las Moles Sombrías o Tonashi, cómo tú les llamas. */
-== P_BAlen @965114 /* Acepto tus palabras, pequeña hembra. */
-== BNALIA @965115 /* Dime Nalia si quieres que nos llevemos mejor, ¿te parece? */
-== P_BAlen @965116 /* Nalia serás entonces. */
-== BNALIA @965117 /* Así me gusta. */
+== P_BAlen @96595 /* Pero, ¿por qué no? El poder en esta nación es ostentado por los humanos. Alguien de cuna noble tiene posibilidades infinitas. */
+== BNALIA @96596 /* Los de cuna noble no son mejores que aquellos que han nacido en la pobreza, Alendir.  */
+== P_BAlen @96597 /* Con excepción a que sí son mejores. Especialmente si hablamos de los humanos. Su vida es tan corta que es difícil para la mayoría marcar la diferencia si nacen en la podredumbre. */
+== BNALIA @96598 /* ¿Podredumbre? No todos los pobres son corruptos. No puedo creer lo que estás diciendo. */
+== P_BAlen @96599 /* No todos, pero sí la mayoría. Una corrupción menor, que en verdad no afecta el destino de las naciones. Pero corrupción al fin. */
+== BNALIA @96600 /* Para haber vivido tantos años, no puedo creer que digas tan insensatez. */
+== P_BAlen @96601 /* Eres joven, pero con el tiempo me darás la razón, Nalia De'Arnise. */
+== BNALIA @96602 /* Lo dudo, Alendir. Realmente lo dudo. */
 EXIT 
 
-// VALYGAR
 
+// VALYGAR
 CHAIN 
 IF ~InParty("P_Alen")
 See("P_Alen")
 !StateCheck("Valygar",CD_STATE_NOTVALID)
 !StateCheck("P_Alen",CD_STATE_NOTVALID)
 Global("P_AlenValygar1","GLOBAL",0)~ THEN BVALYGA P_AlenValygar1
-@965118 /* No te noto muy incómodo cuando de asuntos arcanos se trata, Cho. */
+@96603 /* Te lo advierto, hechicero. Aleja tus frías conjuraciones de mí. */
 DO ~SetGlobal("P_AlenValygar1","GLOBAL",1)~
-== P_BAlen @965119 /* ¿Asuntos arcanos? */
-== BVALYGA @965120 /* Me refiero a la magia. Creo que tú llamas a los magos como chamanes. */
-== P_BAlen @965121 /* Entiendo. ¿Y por qué habría de sentirme incómodo? Los grandes chamanes yuan-ti enseñan a los Guardianes Salvajes a controlar la esencia interior de los guerreros. */
-== P_BAlen @965122 /* En mi caso, puedo canalizar mi energía en un escudo ígneo, al que llamamos Escudo Salvaje de Dreach-naga. */
-== P_BAlen @965123 /* Es esta habilidad, de origen chamánico (o arcano, como tú le llamas) que me ha salvado en más de una ocasión. */
-== BVALYGA @965124 /* Sí, comprendo. He visto tu habilidad y me sorprende. Dime, Cho, en tu pueblo la magia no es una prioridad. Es decir, no llegaría al punto de corromper a sus usuarios hasta la perversión. */
-== P_BAlen @965125 /* Mi pueblo es una nación de fuerza física. Los guerreros conforman la principal fuerza de defensa de nuestro pueblo. */
-== P_BAlen @965126 /* Pero los chamanes han sido parte vital para nuestra supervivencia. Ellos han creado runas de protección y las piedras guarda que han evitado el paso de visitantes indeseados durante tanto tiempo. */
-== P_BAlen @965127 /* ¿Por qué lo preguntas? He visto que tratan a los hechizos de una manera diferente aquí. */
-== BVALYGA @965128 /* La magia aquí se ha desviado de su curso. La gran mayoría de sus usuarios se han vueltos locos y sedientos de poder, como lo es el caso del enemigo de <CHARNAME> que arrebató su alma. */
-== BVALYGA @965129 /* Debes tener cuidado, Cho. En este plano, la magia puede ser algo sumamente peligroso y debemos ser cautos cuando tratamos con ella. */
-== P_BAlen @965130 /* Tendré en cuenta tus palabras, humano. */
+== P_BAlen @96604 /* ¿Me hablas a mí, hombre? */
+== BVALYGA @96605 /* Sí. Puede que hayas sido revivido por fuerzas que no logro comprender, pero no por ello debo confiar en que harás algo de bien con tu nueva vida. */
+== P_BAlen @96606 /* ¿Por qué debería hacer el bien, explorador? Los villanos reviven todo el tiempo y su maldad sólo vuelve potenciada. */
+== P_BAlen @96607 /* *suspiro* Aunque nunca he considerado que lo que he hecho haya sido malvado. Tenía un objetivo, pero estaba equivocado. */
+== P_BAlen @96608 /* Mis errores me costaron la vida. Quiero creer que he aprendido de ellos. */
+== BVALYGA @96609 /* Tal vez, elfo. Pero te vigilaré de cerca. Tenlo por seguro. Al primer intento de traición, tu cabeza rodará por los suelos, no lo dudes. */
+== P_BAlen @979160 /* (Humanos: siempre tan... violentos) */
 EXIT
 
-// VICONIA ALL
 
+
+// VICONIA ALL
 CHAIN
 IF ~InParty("Viconia")
 See("Viconia")
 !StateCheck("Viconia",CD_STATE_NOTVALID)
 !StateCheck("P_Alen",CD_STATE_NOTVALID)
 Global("P_AlenViconia1","GLOBAL",0)~ THEN P_BAlen P_AlenViconia1
-@965131 /* He visto a algunos de tu clase en mi Reino, chamán. */
+@979161 /* Me sorprende que <CHARNAME> haya permitido que sigas con vida, drow. En Evereska no dudarías ni dos asaltos. La magia de los Altos Elfos te pulverizaría. */
 DO ~SetGlobal("P_AlenViconia1","GLOBAL",1)~
-== BVICONI @965132 /* Entonces sabes cuán peligrosos podemos ser, ¿no es así, linddil? */
-== P_BAlen @965133 /* Lo sé de primera mano. Sin embargo, tú no pareces peligrosa. Al menos no has demostrado agresividad para conmigo. */
-== BVICONI @965134 /* ¿Y por qué habría de hacerlo? Tienes el aspecto de un phindar, pero has demostrado ser un aliado poderoso. */
-== P_BAlen @965135 /* Supongo que es verdad. */
-== BVICONI @965136 /* Si tienes alguna herida de gravedad, te curaré, no te preocupes. */
-== P_BAlen @965137 /* Y yo me aseguraré de destajar a cualquiera que ose atacarte. */
-== BVICONI @965138 /* No podría pedir más, linddil, no podría pedir más... */
+== BVICONI @979162 /* Ustedes los darthiir siempre tan... tajantes. */
+== P_BAlen @979163 /* ¡Ja!... 'darthiir'. Sí, nosotros, los elfos de la superficie como ustedes nos llaman somos tajantes. Y creo que es un error. La determinación debe ser rápida y precisa. Si fuera por mí, los drows no durarían ni un segundo. */
+== BVICONI @979164 /* El sentimiento es casi mutuo en la Infraoscuridad, faern. Casi, porque a muchos de ustedes primero os tomarían como esclavos para ser vendidos por puro entretenimiento. O quizás para ser exhibidos como los animales que son-- */
+== P_BAlen @979165 /* No me asustas, servidora de Shar. He vivido en la Oscuridad y he visto más horrores de los que tú sólo podrías imaginar. El Frío Absoluto es un maestro cruel y no atiende a súplicas. Y nos llegará a todos... tarde o temprano. */
+== BVICONI @979166 /* Interesante. No eres el típico darthirii lleno de estupideces en su boca. De vez en cuando sueltas cosas... seductoras. */
+== P_BAlen @979167 /* Hmpf. ¿Qué puedo esperar interactuando con alguien como tú? Adiós, drow. */
+== BVICONI @979168 /* Adiós, Alendir. Esperaré con ansias a nuestra próxima charla. *sonríe burlonamente* */
 EXIT
 
-*/

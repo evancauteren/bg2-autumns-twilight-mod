@@ -29,3 +29,11 @@ SetGlobal("P_KitochiSpawn","GLOBAL",1)
 Continue()
 END
 
+IF
+InParty("Minsc")
+Global ("P_MinscMeetAlendir","GLOBAL",0)
+Global ("P_FallMission2","GLOBAL",3)
+THEN
+RESPONSE #100
+SetGlobal("P_MinscMeetAlendir","GLOBAL",1)
+END

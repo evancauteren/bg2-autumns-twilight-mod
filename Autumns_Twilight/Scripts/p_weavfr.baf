@@ -5,6 +5,21 @@ RESPONSE #100
 SetName(@200267)
 END
 
+// Parche para crear TALI5
+/*
+IF
+AreaCheck("P_F12B")
+Global ("P_PatchTALI5_weavfr","GLOBAL",0)
+!HasItem("P_FTALI5")
+THEN
+RESPONSE #100
+Wait(1)
+CreateItem("P_FTALI5",1,2,1)
+SetGlobal ("P_PatchTALI5_weavfr","GLOBAL",1)
+Continue()
+END
+*/
+
 /*
 IF
 AreaCheck("AR1514")

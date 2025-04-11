@@ -44,7 +44,6 @@ I przynieść rodzinie pokój ich ziemi.~
 
 @37 = ~Nigdy... nigdy nie sądziłem, że będę tak szczęśliwy, uciekając z bitwy. To nie dlatego, że jestem tchórzem, <CHARNAME>. Po prostu nie jesteśmy gotowi na tę... konfrontację.~
 
-@38 = ~Twoje zbrodnie kończą się tutaj, zły smoku! Jako przedstawiciel Imnescara, dam z siebie wszystko w walce.~
 @39 = ~Na przywódcę złodziei jest całkiem niezłym politykiem. Trudno mu dotrzymać obietnicy.~
 
 @41 = ~Jesteś osaczony i odważasz się nas obrażać. Jesteś o krok od zniszczenia, wampirze!~
@@ -697,3 +696,5 @@ I przynieść rodzinie pokój ich ziemi.~
 @4001    = ~Monety przychodzą i odchodzą, <CHARNAME>. Rozumiem, że ich potrzebujemy, ale zawsze możemy znaleźć sposób, by zarobić więcej.~
 @4004    = ~Czas na walkę, towarzysze! Walczcie o to, co jest dla was najcenniejsze. Będę walczył w imieniu Cormyr!~
 @4005    = ~Stworzenie z wymiarów Zimna... Nie zasługuje na to, by istnieć w naszym Wymiarze, <CHARNAME>. Pozwól, że pokroję je na kostki lodu moim mieczem!~
+
+@4006 = ~Twoje zbrodnie kończą się tutaj, zły smoku! Jako przedstawiciel Imnescara, dam z siebie wszystko w walce.~
