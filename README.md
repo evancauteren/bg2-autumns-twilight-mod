@@ -100,11 +100,30 @@ Yes, feel free to crossmod your mod with ours. It's not mandatory to credit us, 
 
 ## Current Release
 
-**v1.2.2**
+**v1.3.0**
+**New Content:**
+- Completed remaining banters for NPCs Alendir and Cho'Nuja
+  - *Note:* The new banters will remain in English. This is to prevent the use of automated translation. If anyone wishes to provide a proper translation into their respective language, please contact me directly.
 
-- Fixed several minor bugs.
-- Known issues from v1.1 were fixed.
-- Hidden adventures compatibility: AT is now compatible with the Temple of Mask component from the Hidden Adventures mod. AT must be installed **AFTER** the mentioned mod for the compatibility to take effect.
+**General Fixes and Balancing:**  
+- Fixed version number in the log
+- Verminpiercer no longer requires ammunition
+- Added patch for Cho'Nuja's Guardian Stone (guarded by a Weaver in the Swamp)
+- Fixed issue where Dusk would turn hostile after commenting about Firkraag
+- Added anti-duplication patch for Dusk's custom items
+- Rune of Universality's innate ability now persists through death/revival
+- KEY items in Rachnidra now work properly with container bags
+- Mesothel in Spellhold can no longer be stunned/killed before dialogue (ensures Ice Temple portal opens)
+- Alendir (unconscious in Ice Temple) no longer casts Death Spell during battle
+- Kaiten-kenbu now correctly provides +3 AC bonus
+- Emblem of Valor (Fall's item) now properly grants poison immunity
+- Voragor's petrification now allows saving throw (vs. Spells)
+- Fixed Gemystara incorrectly assuming Fall's death when absent from quest
+- Fixed multiple typos across language files
+- Removed Time Stop from Xsi (balance adjustment)
+- Added Knock abilities:
+  - Baba (Mouse): Innate ability
+  - Kitochi (Cat): Spell
 
 ## Credits
 
