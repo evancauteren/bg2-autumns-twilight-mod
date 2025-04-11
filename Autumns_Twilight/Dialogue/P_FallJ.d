@@ -511,8 +511,6 @@ AreaCheck("P_BR14")~ THEN BEGIN 90 // from:
   IF ~~ THEN DO ~SetGlobal ("P_FallMetBrostFriends","GLOBAL",1)~ EXTERN ~P_HAKAM~ 7
 END
 
-
-
 I_C_T P_FALLJ 71 P_FallJ_Kitoch_Q_Acrull1
 == P_ACRULL IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @3276 /* Eso es algo que deberás hablar con él, querida Fall. Por ahora, sólo puedo darte las indicaciones sobre lo que habremos de hacer ahora. */ 
 END
@@ -856,8 +854,18 @@ Name("P_Fall",LastTalkedToBy)
 == P_FallJ @5 /* ¡Ya le dije que no! */
 EXIT
 
+// Firkraag
+/* EXTEND_BOTTOM FIRKRA02 25
+IF ~~ EXTERN P_FALLJ P_FallFIRKRA252
+END
 
-
+CHAIN P_FALLJ P_FallFIRKRA252
+@4006 /* ~¡El día de tu juicio ha llegado, dragón! ¡¡¡Prepárate a sentir nuestra ira!!!~ */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+== P_AlenJ @93115 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+== P_ChonJ @93015 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+== P_DuskJ @729001 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+EXIT
+*/
 
 
 // Diálogo por el Árbol de la Vida
@@ -1008,9 +1016,9 @@ I_C_T FIRKRA02 21 P_FallFIRKRA21
 END
 
 // Firfraag: combate
-I_C_T FIRKRA02 25 P_FallFIRKRA25
-== P_FallJ IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @38 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */
-END
+// I_C_T FIRKRA02 25 P_FallFIRKRA25
+// == P_FallJ IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ // THEN @38 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré //lo mejor de mí en la batalla. */ DO ~ActionOverride("firmag01",Enemy()) //ActionOverride("FIRKRA02",Enemy())~
+// END
 
 // Aran dice que el encargo del rescate se atrasará
 I_C_T ARAN 49 P_FallARAN49

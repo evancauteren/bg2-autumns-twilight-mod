@@ -9,7 +9,7 @@ OR(2)
 !InParty("P_Fall")
 ~ THEN BEGIN 0A // from:
   SAY @97467 /* *chirrido* Ah, finalmente has aparecido, descendiente de Bhaal. */
-  IF ~~ THEN DO ~SetGlobal ("P_FallMeso1stEnc","GLOBAL",2)~ GOTO 1A
+  IF ~~ THEN DO ~SetGlobal ("P_FallMeso1stEnc","GLOBAL",2) DestroyItem("IMMUNE1")~ GOTO 1A
 END
 
 IF ~~ THEN BEGIN 1A // from:
@@ -26,7 +26,7 @@ Global("P_FallMeso1stEnc","GLOBAL",1)
 Global("P_FallMission2","GLOBAL",8)
 ~ THEN BEGIN 0 // from:
   SAY @9740 /* *chirrido* Ah, finalmente ha aparecido: La hija selu'taar y el Engendro de Bhaal. */
-  IF ~~ THEN DO ~SetGlobal ("P_FallMeso1stEnc","GLOBAL",2)~ EXTERN ~P_FALLJ~ 75
+  IF ~~ THEN DO ~SetGlobal ("P_FallMeso1stEnc","GLOBAL",2) DestroyItem("IMMUNE1")~ EXTERN ~P_FALLJ~ 75
 END
 
 IF ~~ THEN BEGIN 1 // from:
@@ -87,7 +87,7 @@ END
 
 IF ~~ THEN BEGIN 10 // from:
   SAY @97415 /* ~¡Vamos! Déjame probar tu fuerza... a cambio, ¡te dejaré atisbar una fracción del poder de Rachnidra!~ */
-  IF ~~ THEN DO ~SetGlobal("P_FallMeso1stEnc","GLOBAL",2) Enemy()~EXIT
+  IF ~~ THEN DO ~SetGlobal("P_FallMeso1stEnc","GLOBAL",2) DestroyItem("IMMUNE1") Enemy()~EXIT
 END
 
 IF ~AreaCheck("P_F12B")

@@ -2708,7 +2708,7 @@ I_C_T FIRKRA02 21 P_DuskFIRKRA21
 END
 
 I_C_T FIRKRA02 25 P_DuskFIRKRA25
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @20011 /* ¡El día de tu juicio ha llegado, dragón! ¡¡¡Prepárate a sentir nuestra ira!!! */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @20011 /* ¡El día de tu juicio ha llegado, dragón! ¡¡¡Prepárate a sentir nuestra ira!!! */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
 END
 
 

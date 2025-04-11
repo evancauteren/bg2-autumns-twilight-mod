@@ -122,6 +122,17 @@ Continue()
 SetGlobal("P_SpidersF12BSpawn","GLOBAL",1)
 END
 
+IF
+Global ("P_PatchTALI5_weavfr","GLOBAL",0)
+!HasItem("P_FTALI5","p_weavfr")
+THEN
+RESPONSE #100
+Wait(1)
+ActionOverride("p_weavfr", CreateItem("P_FTALI5",1,2,1))
+SetGlobal ("P_PatchTALI5_weavfr","GLOBAL",1)
+Continue()
+END
+
 // Parche para destruir Items
 
 IF

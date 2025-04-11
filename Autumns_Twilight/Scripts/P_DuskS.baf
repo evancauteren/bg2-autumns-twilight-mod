@@ -60,6 +60,21 @@ THEN
   SetGlobal ("P_DuskPatchGoodSwordDuplicated","GLOBAL",1)
 END
 
+// Parche GOOD Dusk si tiene las 2 espadas ESMERALDA
+IF
+  InParty(Myself)
+  PartyHasItem("p_swgoo4")
+  Global ("P_DuskPatchGoodSwordDuplicated","GLOBAL",0)
+  //PartyHasItem("p_orbef")
+  PartyHasItem("p_swgoo3")
+THEN
+  RESPONSE #100
+  Wait(1)
+  TakePartyItem ("p_swgoo3")
+  DestroyItem ("p_swgoo3")
+  SetGlobal ("P_DuskPatchGoodSwordDuplicated","GLOBAL",1)
+END
+
 // Parche GOOD Dusk si tiene las 2 espadas IRA y el ORBE
 IF
   InParty(Myself)
@@ -271,7 +286,7 @@ InParty(Myself)
 Global("P_Dusk_T3","GLOBAL",3)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 900
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",900) //TTT 900
 SetGlobal("P_Dusk_Demole","GLOBAL",1)
 SetGlobal("P_Dusk_T3","GLOBAL",4)
 END	
@@ -437,7 +452,6 @@ IF
 InParty(Myself)
 RealGlobalTimerExpired("P_DuskTimer","GLOBAL")
 Global("P_Dusk_T2","GLOBAL",3)
-
 See(Player1)								
 !StateCheck(Player1,CD_STATE_NOTVALID) 
 !StateCheck(Myself,CD_STATE_NOTVALID)
@@ -1150,6 +1164,8 @@ THEN
 RESPONSE #100
   StartCutSceneMode()
   SetGlobal ("P_Dusk_Valata_Demon_FORGE","GLOBAL",2)
+  TakePartyItem("p_swevi1")
+  TakePartyItem("p_demhe")
   DestroyItem ("p_swevi1") 
   DestroyItem ("p_demhe")
   CreateItem ("p_fire1",1,1,0)   
@@ -1372,6 +1388,8 @@ THEN
 RESPONSE #100
   StartCutSceneMode()
   SetGlobal ("P_Dusk_Valata_Demon_FORGE","GLOBAL",2)
+  TakePartyItem("p_swgoo1")
+  TakePartyItem("p_demhe")
   DestroyItem ("p_swgoo1")
   DestroyItem ("p_demhe")
   CreateItem ("p_wis1",1,1,0)   

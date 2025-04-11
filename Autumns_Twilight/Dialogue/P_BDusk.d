@@ -687,3 +687,85 @@ DO ~SetGlobal("P_DuskFall3","GLOBAL",1)~
 == P_BDusk @209 /* Quizás, niña, quizás... */
 == P_BDusk @210 /* Será mejor que continuemos. */
 EXIT
+
+// ALENDIR - Good Dusk
+CHAIN
+IF ~InParty("P_Alen")
+See("P_Alen")
+!StateCheck("P_Alen",CD_STATE_NOTVALID)
+!StateCheck("P_Dusk",CD_STATE_NOTVALID)
+Global ("P_DUSK_IS_EVIL","GLOBAL",0)
+Global("P_DuskAlen1","GLOBAL",0)~ THEN P_BDusk P_DuskAlen1
+@979169 /* La vida ha sido demasiado amable contigo, Alendir. Más de lo que mereces. */
+DO ~SetGlobal("P_DuskAlen1","GLOBAL",1)~
+== P_BAlen @979170 /* Mystra, joven humano. Mystra ha sido la generosa. Y no es necesario que escupas tu veneno conmigo. Sé muy bien que no merezco esta oportunidad. Pero aquí estoy. */
+== P_BDusk @979171 /* *gruñido* De todas formas... ¿qué harás ahora? Tu juventud ha sido restaurada también, aunque ello implique una disminución en tu poder arcano. */
+== P_BAlen @979172 /* Tú también lo has sentido, ¿verdad? Tu condición de Asesino de Magos puede llegar a percibir ciertos estados en los magos. Pero sé que no lo comprendes del todo. */
+== P_BDusk @979173 /* No necesito comprender a mis presas... sólo necesito saber cómo matarlas. */
+== P_BAlen @979174 /* *sonríe* Lo sé. He visto lo que eres capaz. Y sé lo que piensas: */
+== P_BAlen @979175 /* "El elfo es mucho más débil que antes. Me bastaría un par de movimientos de mi espada para despacharlo. Ni más, ni menos. <CHARNAME> ni siquiera le extrañara." */
+== P_BDusk @979176 /* Mi sed de sangre no es tan grande, Alendir. Te das demasiada importancia. */
+== P_BAlen @979177 /* Entonces... ¿por qué me molestas? */
+== P_BDusk @979178 /* Sólo intentaba analizarte un poco, Maestro de las Escarchas. Puede que sepa cómo penetrar tus defensas mágicas... pero me interesa más dilucidar tus verdaderas intenciones. Saber qué es lo que realmente buscas. */
+== P_BAlen @979179 /* Hmpf. Entonces somos dos, joven humano. Somos dos. */
+EXIT
+
+// ALENDIR - Evil Dusk
+CHAIN
+IF ~InParty("P_Alen")
+See("P_Alen")
+!StateCheck("P_Alen",CD_STATE_NOTVALID)
+!StateCheck("P_Dusk",CD_STATE_NOTVALID)
+Global ("P_DUSK_IS_EVIL","GLOBAL",1)
+Global("P_DuskAlen2","GLOBAL",0)~ THEN P_BDusk P_DuskAlen2
+@979180 /* Que <CHARNAME> permita que nos acompañes debe ser una de las decisiones más estúpidas que ha tomado. Si fuera por mí-- */
+DO ~SetGlobal("P_DuskAlen2","GLOBAL",1)~
+== P_BAlen @979181 /* Tomarías tu espada bastarda y separarías mi cabeza del cuello. ¿Eso ibas a decir, humano? */
+== P_BDusk @979182 /* ... */
+== P_BAlen @979183 /* <CHARNAME> toma las decisiones, no tú. Si estoy con vosotros es porque <PRO_HESHE> así lo ha querido. */
+== P_BDusk @979184 /* Los accidentes suceden en medio del combate. */
+== P_BAlen @979185 /* ¿Crees que Mystra ha permitido mi resurrección para que un simple humano tome mi vida? Tu mente es muy simple si cree eso, humano. */
+== P_BDusk @979186 /* Tú no conoces el verdadero poder del Pandemonium, elfo. Puede que hayas revivido para pasar de este plano a... otro. */
+== P_BAlen @979187 /* No le temo al plano de tus pecados, Ardusk Aldant. */
+== P_BDusk @979188 /* Oh... pero deberías... deberías... */
+EXIT
+
+
+// CHO'NUJA - Good Dusk
+CHAIN
+IF ~InParty("P_Chon")
+See("P_Chon")
+!StateCheck("P_Chon",CD_STATE_NOTVALID)
+!StateCheck("P_Dusk",CD_STATE_NOTVALID)
+Global ("P_DUSK_IS_EVIL","GLOBAL",0)
+Global("P_DuskChon1","GLOBAL",0)~ THEN P_BDusk P_DuskChon1
+@979189 /* General, ¿qué le parece nuestro mundo? La presencia de los míos no parece incomodarte en lo absoluto. */
+DO ~SetGlobal("P_DuskChon1","GLOBAL",1)~
+== P_BChon @979190 /* Ah, pero si es el mata-chamanes. Los humanos no me molestan en absoluto. De hecho, muchos me parecen interesantes, inofensivos. ¿Cómo es que dominan este plano? Es un misterio para mí. */
+== P_BDusk @979191 /* Bueno, no sé si "dominio" sería la palabra que yo elegiría. Creo que es más una cuestión de números. Somos muchos. */
+== P_BChon @979192 /* También hay muchos de los míos por aquí, aunque no ha simple vista. ¿Por qué no han forjado alianzas con ustedes? Mira lo que logramos con <CHARNAME> en Rachnidra. Los lagartos y los humanos, juntos, serían imparables. */
+== P_BDusk @979193 /* Es un poco más complejo que eso. Los humanos somos complicados, e imagino que las grandes diferencias culturales con los lagartos dificultaría dicha alianza. */
+== P_BChon @979194 /* Comprendo. En Rachnidra, luchábamos contra la extinción. No veo que haya un peligro cataclista que inste una alianza de tales magnitudes. */
+== P_BChon @979195 /* Supongo que las cosas son como son. */
+== P_BDusk @979196 /* Así es... que no haya alianzas entre nuestras razas no tiene nada de malo, general. Quizás algún día. Creo que nosotros dos, peleando codo a codo, es un buen comienzo. */
+== P_BChon @979197 /* Ah, bien dicho, mata-chamanes. Bien dicho. */
+EXIT
+
+// CHO'NUJA - Evil Dusk
+CHAIN
+IF ~InParty("P_Chon")
+See("P_Chon")
+!StateCheck("P_Chon",CD_STATE_NOTVALID)
+!StateCheck("P_Dusk",CD_STATE_NOTVALID)
+Global ("P_DUSK_IS_EVIL","GLOBAL",1)
+Global("P_DuskChon2","GLOBAL",0)~ THEN P_BDusk P_DuskChon2
+@979198 /* Tu poder es impresionante, Cho'Nuja. El fuego de tu ira es digno del Pandemonium. */
+DO ~SetGlobal("P_DuskChon2","GLOBAL",1)~
+== P_BChon @979199 /* ¿Pandemonium? No estoy seguro de comprenderte del todo, mata-chamanes. */
+== P_BDusk @979200 /* El plano de donde proviene mi poder. Mi venganza potenciada por los vientos ululantes del Phlegethon y el fuego oscuro de mi corazón en mi espada, obra de la antigua Agathion. */
+== P_BChon @979201 /* ¿Obtienes tu poder de otro plano? Entonces, no somos tan diferentes. El fuego de mi escudo proviene de los fuegos manantiales de Dreach-naga. */
+== P_BDusk @979202 /* Me gusta eso. Nuestros enemigos no tienen oportunidad alguna ante nosotros. */
+== P_BChon @979203 /* Y lo hago con orgullo. Dreach-naga jamás morirá mientras mi fuego siga ardiendo. ¿Tú llevas el fuego del Pandemonium con la frente en alto? */
+== P_BDusk @979204 /* No creo que requiera de mi orgullo para ello. Solo debo blandir su poder y que mis enemigos sufran por ello. Eso es todo. */
+== P_BChon @979205 /* Interesante, mata-chamanes. */
+EXIT

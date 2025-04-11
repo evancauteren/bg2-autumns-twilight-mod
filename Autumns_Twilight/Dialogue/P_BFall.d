@@ -334,3 +334,38 @@ DO ~SetGlobal("P_FallYoshimo1","GLOBAL",1)~
 == P_BFall @979143 /* ¡Vamos, Yoshimo! Ya verás que buenos son ellos si tan sólo los acaricias un poco. Hmm, bueno, supongo que acariciar lobos no es para todo el mundo. */
 EXIT
 
+
+// Alendir
+CHAIN 
+IF ~InParty("P_Fall")
+See("P_Fall")
+!StateCheck("P_Alen",CD_STATE_NOTVALID)
+!StateCheck("P_Fall",CD_STATE_NOTVALID)
+Global("P_FallAlendir1","GLOBAL",0)~ THEN P_BAlen P_FallAlendir1
+@979206 /* Caraneth, ¿cómo es que has terminado con esta panda de inadaptados? Esperaba mucho más de ti. */
+DO ~SetGlobal("P_FallAlendir1","GLOBAL",1)~
+== P_BFall @979207 /* ¡Alendir! Bueno, sé que no es el típico grupo de aventureros, ¡pero hemos logrado mucho juntos! */
+== P_BAlen @979208 /* No puedo objetar eso. Icelock, Morgrath, Skel'Tharant. Sus victorias han sido impresionantes. Quizás...  */
+== P_BFall @979209 /* ¿Quizás estés equivocado? */
+== P_BAlen @979210 /* *carraspeo* Bueno, eso el tiempo lo dirá. Pero, hasta ahora, <CHARNAME> ha demostrado ser de un valor incalculable. La sangre divina es innegable. */
+== P_BFall @979211 /* No creo que solo sea eso, Alendir. Pero, entiendo lo que quieres decir. Todos cometemos juicios erróneos alguna vez. */
+EXIT 
+
+// CHO'NUJA - Good Fall
+CHAIN
+IF ~InParty("P_Chon")
+See("P_Chon")
+!StateCheck("P_Chon",CD_STATE_NOTVALID)
+!StateCheck("P_Fall",CD_STATE_NOTVALID)
+Global("P_FallChon1","GLOBAL",0)~ THEN P_BFall P_FallChon1
+@979212 /* Nunca había visto a una criatura comer tantos insectos como tú, Cho. No creas que no te veo cuando usas esa lengua extraña que tienes para capturar varias moscas a la vez. */
+DO ~SetGlobal("P_FallChon1","GLOBAL",1)~
+== P_BChon @979213 /* ¿Qué puedo decir, Fall? Tu mundo tiene una gran variedad de comida que difícilmente existía en Dreach-naga. */
+== P_BFall @979214 /* Serías un gran controlador de plagas. Podríamos ganar mucho dinero. Bueno, no es que el dinero me motive, pero podríamos ayudar a muchos con eso. */
+== P_BChon @979215 /* ¿Control de plagas? */
+== P_BFall @979216 /* ¡Sí! Muchos granjeros suelen tener problemas con plagas de langostas o gusanos. ¿Podrías manejar algo así? */
+== P_BChon @979217 /* Sería una actividad interesante, cuanto menos. ¿Y pagarían por eso? No puedo creerlo. */
+== P_BFall @979218 /* Así es, Cho. Aunque algo me dice que lo harías gratis. */
+== P_BChon @979219 /* Por supuesto. Comer tan delicioso manjar ya de por sí es un gran pago. */
+== P_BFall @979220 /* Bueno, ya veremos adónde llegamos con estas conversaciones, mi buen Cho. */
+EXIT

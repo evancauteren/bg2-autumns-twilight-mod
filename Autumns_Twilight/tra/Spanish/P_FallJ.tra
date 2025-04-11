@@ -47,7 +47,6 @@ y llevar a su familia a la paz que siempre buscaron.~
 
 @37  = ~Nunca... nunca creí que me sentiría tan feliz de huir de una batalla. No es que sea cobarde, <CHARNAME>. Es sólo que no estamos listos para este... enfrentamiento.~
 
-@38  = ~¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla.~
 @39  = ~Para ser un líder ladrón, tiene mucho de político. Difícilmente le cuesta mantener una promesa.~
 //@40  = ~~
 @41  = ~Estás acorralada y te atreves a insultarnos. ¡Estás a un paso de ser destruida, vampiresa!~
@@ -753,6 +752,9 @@ De más está decir que se convirtieron en mis amigos.~
 
 @4004    = ~¡Es el momento de luchar, camaradas! Luchad por lo que más queráis. ¡Yo lucharé en el nombre de Cormyr!~
 @4005    = ~Una criatura de los planos del Frío... No merece existir en nuestro Plano, <CHARNAME>. ¡Déjame que lo corte en cubitos de hielo con mi espada!~
+
+@4006  = ~¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla.~
+
 
 
 //@4002    = ~No sabía que las tortas de miel eran un alimento liviano. He visto cómo te devorabas varias porciones en cuestión de segundos.~

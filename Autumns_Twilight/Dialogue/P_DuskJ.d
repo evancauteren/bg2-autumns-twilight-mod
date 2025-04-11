@@ -2304,8 +2304,52 @@ Name("P_Dusk",LastTalkedToBy)
 == P_DuskJ @7 /* Rayos, deje de molestar, señora. */
 EXIT
 
+/*I_C_T FIRKRA02 25 P_DuskFIRKRA25
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @20011 /* ¡El día de tu juicio ha llegado, dragón! ¡¡¡Prepárate a sentir nuestra ira!!! */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+END
+*/
 
+// Firkraag
+EXTEND_BOTTOM FIRKRA02 25
+IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ EXTERN P_DUSKJ P_DuskFIRKRA25
+END
 
+CHAIN P_DUSKJ P_DuskFIRKRA25
+@20011 /* ~¡El día de tu juicio ha llegado, dragón! ¡¡¡Prepárate a sentir nuestra ira!!!~ */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ @93115 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+== P_ChonJ IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ @93015 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+== P_FallJ IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ @729000 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+EXIT
+
+// Fall Firkraag
+EXTEND_BOTTOM FIRKRA02 25
+IF ~!InParty("P_Dusk") !InMyArea("P_Dusk") InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ EXTERN P_FALLJ P_FallFIRKRA25
+END
+
+CHAIN P_FALLJ P_FallFIRKRA25
+@729000 /* ~¡El día de tu juicio ha llegado, dragón! ¡¡¡Prepárate a sentir nuestra ira!!!~ */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ @93115 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+== P_ChonJ IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ @93015 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+EXIT
+
+// Alendir Firkraag
+EXTEND_BOTTOM FIRKRA02 25
+IF ~!InParty("P_Dusk") !InMyArea("P_Dusk") !InParty("P_Fall") !InMyArea("P_Fall") InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ EXTERN P_ALENJ P_AlenFIRKRA25
+END
+
+CHAIN P_ALENJ P_AlenFIRKRA25
+@93115 /* ~¡El día de tu juicio ha llegado, dragón! ¡¡¡Prepárate a sentir nuestra ira!!!~ */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+== P_ChonJ IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ @93015 /* ¡Tus crímenes acaban aquí, malvado dragón! Como representante de Imnescar, daré lo mejor de mí en la batalla. */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+EXIT
+
+// Cho'Nuja Firkraag
+EXTEND_BOTTOM FIRKRA02 25
+IF ~!InParty("P_Dusk") !InMyArea("P_Dusk") !InParty("P_Fall") !InMyArea("P_Fall") InParty("P_Alen") !InMyArea("P_Alen") InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ EXTERN P_CHONJ P_ChonFIRKRA25
+END
+
+CHAIN P_CHONJ P_ChonFIRKRA25
+@93015 /* ~¡El día de tu juicio ha llegado, dragón! ¡¡¡Prepárate a sentir nuestra ira!!!~ */ DO ~ActionOverride("firmag01",Enemy()) ActionOverride("FIRKRA02",Enemy())~
+EXIT
 
 // Traición de Yoshimo
 
@@ -2702,9 +2746,6 @@ I_C_T FIRKRA02 21 P_DuskFIRKRA21
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @20010 /* Una criatura imponente... Dicen que los dragones ancianos se encuentran entre las criaturas más poderosas de los Reinos... Creo que es oportuno que posterguemos este combate... Creo... */
 END
 
-I_C_T FIRKRA02 25 P_DuskFIRKRA25
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @20011 /* ¡El día de tu juicio ha llegado, dragón! ¡¡¡Prepárate a sentir nuestra ira!!! */
-END
 
 
 // Castillo de'Arnise
