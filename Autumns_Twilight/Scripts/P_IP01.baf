@@ -1,0 +1,9 @@
+IF
+  //True()  
+  Global("O#XanWeatherRain","GLOBAL",0)
+THEN
+  RESPONSE #100
+	Weather(RAIN)
+	SetGlobal("O#XanWeatherRain","GLOBAL",1)
+	Continue()
+END

@@ -2,18 +2,34 @@ BEGIN P_Cho25J
 
 // Volo
 
-EXTEND_TOP SARVOLO 9 #2
-+ ~InParty("P_Chon") InMyArea("P_Chon")~ + @9670 /* Háblame de Cho'Nuja. */ + P_ChonVoloBio1
+EXTEND_BOTTOM SARVOLO 9
++ ~InParty("P_Chon") InMyArea("P_Chon") AreaCheck("AR5003")~ + @9670 /* Háblame de Cho'Nuja. */ + P_ChonVoloBio1
 
 END
 
 CHAIN SARVOLO P_ChonVoloBio1
 @9671 /* El guerrero del Abismo, de un extinto lugar llamado Dreach-naga. Un combatiente sinigual que representa de manera digna la lucha contra las fuerzas de la Oscuridad, procurando que la amenaza de las arañas no se expanda a nuestro Plano. Hace tiempo ya se ha dejado de creer que sea una invocación. */
-== P_Cho25J IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @9672 /* Bueno, yo seguiré diciendo que soy una convocación, buen señor. No quiero ocasionar problemas a <CHARNAME>. */
+== P_Cho25J IF ~AreaCheck("AR5003") InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @9672 /* Bueno, yo seguiré diciendo que soy una convocación, buen señor. No quiero ocasionar problemas a <CHARNAME>. */
 EXTERN SARVOLO 9
 
+// TEST Amelysan
+/*
+EXTEND_BOTTOM FINSOL01 27
+IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ DO ~SetGlobal("P_ChonFinSol","GLOBAL",1)~ EXTERN P_cho25J P_ChonSolarFriend1
+END
+
+CHAIN P_cho25J P_ChonSolarFriend1
+@979152 /* Soldado, tu camino ha sido largo y complejo. Viajar por los planos es una proeza que pocas criaturas son capaces de lograr y tú has sido una de ellas. La decisión que tomes, creo firmemente, que será la correcta. */
+COPY_TRANS FINSOL01 27
+*/
 
 
+
+I_C_T FINSOL01 27 P_ChoSolarFriend1
+== P_cho25J IF ~InParty("P_Chon") InMyArea("P_Chon") !InParty("P_Dusk") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @979152 /* Soldado, tu camino ha sido largo y complejo. Viajar por los planos es una proeza que pocas criaturas son capaces de lograr y tú has sido una de ellas. La decisión que tomes, creo firmemente, que será la correcta. */
+== P_ale25J IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @979153 /* He aprendido que el poder es algo que pocos son capaces de blandir, <CHARNAME>. Tú eres más que capaz de hacerlo. Por eso, tu decisión, estoy seguro, será de la más acertada. */
+== P_Fal25J IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @91831 /* No es una decisión fácil, <CHARNAME>. Pero tengo plena confianza en ti. Has sido capaz de superar dificultades que pocos habrían sido capaces de siquiera enfrentar. */
+END
 
 
 

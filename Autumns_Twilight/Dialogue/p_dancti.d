@@ -202,7 +202,7 @@ IF ~Global("P_DuskDanctialMISSION","GLOBAL",0) Global("P_Danctian_Forge","GLOBAL
   
   
   // Vengadora Real
-  IF ~Global ("P_VENGADORA_FIN", "GLOBAL", 0) Global ("P_WSSTP_vengadora_real", "GLOBAL", 0) PartyHasItem("p_wsam") PartyHasItem("p_wsbrac") PartyHasItem("p_wsboot") PartyHasItem("p_wsclk") PartyHasItem("p_wsash") PartyHasItem("p_wshelm")PartyHasItem("p_wsrng1")PartyHasItem("p_wsrng2") ~ THEN REPLY @129 /* ~Danctian, hemos conseguido los artefactos del Duque Benork.~ */ GOTO 70
+  IF ~Global ("P_VENGADORA_FIN", "GLOBAL", 0) Global ("P_WSSTP_vengadora_real", "GLOBAL", 0) PartyHasItem("p_wsam") PartyHasItem("p_wsbrac") PartyHasItem("p_wsclk") PartyHasItem("p_wsash") PartyHasItem("p_wshelm")PartyHasItem("p_wsrng1")PartyHasItem("p_wsrng2") OR(2) PartyHasItem("p_wsboot") PartyHasItem("p_wsboo2")~ THEN REPLY @129 /* ~Danctian, hemos conseguido los artefactos del Duque Benork.~ */ GOTO 70
 
 
 
@@ -723,7 +723,7 @@ IF ~~ THEN BEGIN 89 // from:
   IF ~Global ("p_sw1h06_ventisca_averno", "GLOBAL", 0) PartyGoldGT(12499) PartyHasItem("SW1H42") PartyHasItem("SCRL04") PartyHasItem("MISC17") PartyHasItem("MISC33") PartyHasItem("MISC42") ~ THEN REPLY @127 /* ~Danctian, hemos conseguido lo necesario para forjar la Ventisca del Averno.~ */ GOTO 65
   
   // Vengadora Real
-  IF ~Global ("P_VENGADORA_FIN", "GLOBAL", 0) Global ("P_WSSTP_vengadora_real", "GLOBAL", 0) PartyHasItem("p_wsam") PartyHasItem("p_wsbrac") PartyHasItem("p_wsboot") PartyHasItem("p_wsclk") PartyHasItem("p_wsash") PartyHasItem("p_wshelm")PartyHasItem("p_wsrng1")PartyHasItem("p_wsrng2") ~ THEN REPLY @129 /* ~Danctian, hemos conseguido los artefactos del Duque Benork.~ */ GOTO 70
+  IF ~Global ("P_VENGADORA_FIN", "GLOBAL", 0) Global ("P_WSSTP_vengadora_real", "GLOBAL", 0) PartyHasItem("p_wsam") PartyHasItem("p_wsbrac") PartyHasItem("p_wsclk") PartyHasItem("p_wsash") PartyHasItem("p_wshelm")PartyHasItem("p_wsrng1")PartyHasItem("p_wsrng2") OR(2) PartyHasItem("p_wsboot") PartyHasItem("p_wsboo2")~ THEN REPLY @129 /* ~Danctian, hemos conseguido los artefactos del Duque Benork.~ */ GOTO 70
 
 
 

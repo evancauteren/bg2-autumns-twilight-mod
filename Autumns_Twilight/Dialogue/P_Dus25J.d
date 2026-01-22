@@ -4,25 +4,25 @@ BEGIN P_Dus25J
 
 // Volo
 
-EXTEND_TOP SARVOLO 9 #2
-+ ~InParty("P_Dusk") InMyArea("P_Dusk") Global("P_Dusk_IS_NEUTRAL_TOB","GLOBAL",1)~ + @0 /*  */ + P_DuskVoloBio1
-+ ~InParty("P_Dusk") InMyArea("P_Dusk") Global("P_Dusk_IS_GOOD_TOB","GLOBAL",1)~ + @0 /* Tell me about Dusk. */ + P_DuskVoloBio2
-+ ~InParty("P_Dusk") InMyArea("P_Dusk") Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)~ + @0 /* Tell me about Dusk. */ + P_DuskVoloBio3
+EXTEND_BOTTOM SARVOLO 9
++ ~AreaCheck("AR5003") InParty("P_Dusk") InMyArea("P_Dusk") Global("P_Dusk_IS_NEUTRAL_TOB","GLOBAL",1)~ + @0 /*  */ + P_DuskVoloBio1
++ ~AreaCheck("AR5003") InParty("P_Dusk") InMyArea("P_Dusk") Global("P_Dusk_IS_GOOD_TOB","GLOBAL",1)~ + @0 /* Tell me about Dusk. */ + P_DuskVoloBio2
++ ~AreaCheck("AR5003") InParty("P_Dusk") InMyArea("P_Dusk") Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)~ + @0 /* Tell me about Dusk. */ + P_DuskVoloBio3
 END
 //NEUTRAL
 CHAIN SARVOLO P_DuskVoloBio1
 @1 /* Un hijo de Cormyr que viajó al sur para evitar una guerra. Su madre patria espera su regreso luego de incontables historias heroicas en su paso por Amn y de sus viajes junto a <CHARNAME>. */
-== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @2 /* ¿Esperan mi regreso? Quizás... quizás algún día lo haga... */
+== P_Dus25J IF ~AreaCheck("AR5003") InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @2 /* ¿Esperan mi regreso? Quizás... quizás algún día lo haga... */
 EXTERN SARVOLO 9
 //GOOD
 CHAIN SARVOLO P_DuskVoloBio2
 @3 /* Ha actuado con justicia en nombre de las naciones de Cormyr y Shilmista. Su lealtad a naciones ajenas como Amn y Tethyr recorren los oídos silvestres y citadinos. Los elfos del bosque lo esperan como un héroe, así como incontable cantidad de amigos en Athkatla, como la Noble Orden del Radiante Corazón. */
-== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @4 /* Es bueno saber que seré bienvenido en muchos lugares luego de que mi viaje finalice contigo, <CHARNAME>. Quizás puedas acompañarme... */
+== P_Dus25J IF ~AreaCheck("AR5003") InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @4 /* Es bueno saber que seré bienvenido en muchos lugares luego de que mi viaje finalice contigo, <CHARNAME>. Quizás puedas acompañarme... */
 EXTERN SARVOLO 9
 //EVIL
 CHAIN SARVOLO P_DuskVoloBio3
 @1000 /* Los actos crueles de Dusk han recorrido todos los oídos arcanos de Amn. Muchos temen caer presa de sus ambiciones o ser, repentinamente, el objetivo de alguna venganza imprevisible. Los Caballeros ya lo consideran un paladín caído y los orcos tiemblan ante la sola mención de su nombre. */
-== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @1001 /* Tal es el resultado de mis viajes contigo, <CHARNAME>. Lo que hemos logrado con nuestro poder finalmente ha sido reconocido. */
+== P_Dus25J IF ~AreaCheck("AR5003") InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @1001 /* Tal es el resultado de mis viajes contigo, <CHARNAME>. Lo que hemos logrado con nuestro poder finalmente ha sido reconocido. */
 EXTERN SARVOLO 9
 
 // General de Tethyr (GOOD / NEUTRAL)
@@ -69,10 +69,26 @@ CHAIN P_DUS25J p_amarch02_2
 @20010 /* ~¡¿Crees que dejaré que sigas con tu perversión, malnacido?! Las criaturas, incluso aquellas que vienen del Plano Etéreo, no deberían ser motivo de entrenamiento de nadie. ¡Morirás aquí y ahora!~ */  
 END AMARCH02 5
 
+// TEST Amelysan
+/*
+EXTEND_BOTTOM FINSOL01 27
+IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ DO ~SetGlobal("P_DuskFinSol","GLOBAL",1)~ EXTERN P_DUS25J P_DuskSolarFriend1
+END
+
+CHAIN P_DUS25J P_DuskSolarFriend1
+@5 /* Confío en que harás lo que debas hacer con el nuevo poder que has de adquirir, <CHARNAME>. Nadie lo merece más que tú. */
+COPY_TRANS FINSOL01 27
+*/
+
 
 I_C_T FINSOL01 27 P_DuskSolarFriend1
 == P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @5 /* Confío en que harás lo que debas hacer con el nuevo poder que has de adquirir, <CHARNAME>. Nadie lo merece más que tú. */
+== P_cho25J IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @979152 /* Soldado, tu camino ha sido largo y complejo. Viajar por los planos es una proeza que pocas criaturas son capaces de lograr y tú has sido una de ellas. La decisión que tomes, creo firmemente, que será la correcta. */
+== P_ale25J IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @979153 /* He aprendido que el poder es algo que pocos son capaces de blandir, <CHARNAME>. Tú eres más que capaz de hacerlo. Por eso, tu decisión, estoy seguro, será de la más acertada. */
+== P_Fal25J IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @91831 /* No es una decisión fácil, <CHARNAME>. Pero tengo plena confianza en ti. Has sido capaz de superar dificultades que pocos habrían sido capaces de siquiera enfrentar. */
 END
+
+
 
 I_C_T AMMERC02 1 P_DuskSaemonMet11
 == P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @46 /* Otra vez este depravado... ¿no crees que es hora de darle una lección, <CHARNAME>? */

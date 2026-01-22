@@ -74,3 +74,13 @@ RESPONSE #100
 CreateCreature("P_phill3",[759.265],SW)
 SetGlobal("P_PhillipeSpawnPF3B","GLOBAL",1)
 END
+
+// Arconti - Alendir Quest
+IF
+Global("P_Alen_Quest1","GLOBAL",4)
+Global ("P_ArcontiSpawnPF3B","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("p_arcont",[326.1090],SW)
+SetGlobal("P_ArcontiSpawnPF3B","GLOBAL",1)
+END

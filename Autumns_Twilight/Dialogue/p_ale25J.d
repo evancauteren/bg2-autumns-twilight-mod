@@ -2,7 +2,7 @@ BEGIN P_ale25J
 
 // Volo
 
-EXTEND_TOP SARVOLO 9 #2
+EXTEND_BOTTOM SARVOLO 9
 + ~InParty("P_alen") InMyArea("P_alen")~ + @9020 /* Háblame de Alendir. */ + P_alenVoloBio1
 
 END
@@ -12,6 +12,24 @@ CHAIN SARVOLO P_alenVoloBio1
 == P_ale25J IF ~InParty("P_alen") InMyArea("P_alen") !StateCheck("P_alen",CD_STATE_NOTVALID)~ THEN @9022 /* ¿Se supone que debo creer las palabras de un humano mequetrefe? Aunque debo admitir... hay algo extraño en ti. Puede que lo que digas no sea un sinsentido después de todo. */
 EXTERN SARVOLO 9
 
+
+// TEST Amelysan
+
+/*
+EXTEND_BOTTOM FINSOL01 27
+IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ DO ~SetGlobal("P_AlenFinSol","GLOBAL",1)~ EXTERN P_ALE25J P_AleSolarFriend_1
+END
+
+CHAIN P_ALE25J P_AleSolarFriend_1
+@979153 /* He aprendido que el poder es algo que pocos son capaces de blandir, <CHARNAME>. Tú eres más que capaz de hacerlo. Por eso, tu decisión, estoy seguro, será de la más acertada. */
+COPY_TRANS FINSOL01 27
+*/
+
+
+I_C_T FINSOL01 27 P_AleSolarFriend_1b
+== P_ale25J IF ~InParty("P_Alen") InMyArea("P_Alen") !InParty("P_Dusk") !InParty("P_Chon") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @979153 /* He aprendido que el poder es algo que pocos son capaces de blandir, <CHARNAME>. Tú eres más que capaz de hacerlo. Por eso, tu decisión, estoy seguro, será de la más acertada. */
+== P_Fal25J IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @91831 /* No es una decisión fácil, <CHARNAME>. Pero tengo plena confianza en ti. Has sido capaz de superar dificultades que pocos habrían sido capaces de siquiera enfrentar. */
+END
 
 
 

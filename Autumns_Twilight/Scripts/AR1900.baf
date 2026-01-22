@@ -39,3 +39,14 @@ THEN
     Wait(5)
     EndCutSceneMode()
 END
+
+IF
+Global ("P_PatchWSRNG1_dempit","GLOBAL",0)
+!HasItem("P_WSRNG1","P_DEMPIT")
+THEN
+RESPONSE #100
+Wait(1)
+ActionOverride("P_DEMPIT", CreateItem("P_WSRNG1",1,2,1))
+SetGlobal ("P_PatchWSRNG1_dempit","GLOBAL",1)
+Continue()
+END

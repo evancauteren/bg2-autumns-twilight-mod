@@ -256,23 +256,23 @@ END
 // DUSK Necesario para Mission3
 
 I_C_T P_BELLD 30 P_Alen_Talk2
-== P_ale25J IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800017 /* ¿Estamos mencionando obviedades? Claro que mi túnica es especial. Está hecha a medida para los Selu'taar de Cormanthyr. Sólo los hechiceros de alto rango pueden vestirla. Es muy interesante, cuando mandé a hacerla la pedí con ciertos ornamentos y- */
+== p_alenj IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800017 /* ¿Estamos mencionando obviedades? Claro que mi túnica es especial. Está hecha a medida para los Selu'taar de Cormanthyr. Sólo los hechiceros de alto rango pueden vestirla. Es muy interesante, cuando mandé a hacerla la pedí con ciertos ornamentos y- */
 == p_belld IF ~~ THEN @800018 /* Creo que puedo aplicar un hechizo para mejorarla. */
-== P_ale25J IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800019 /* ¿Qué? ¿Cómo puede una ninfa exhibicionista mejorar una prenda élfica del Reino Oculto? Querida, creo que finalmente la locura ha alcanzado tu mente astral. */
+== p_alenj IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800019 /* ¿Qué? ¿Cómo puede una ninfa exhibicionista mejorar una prenda élfica del Reino Oculto? Querida, creo que finalmente la locura ha alcanzado tu mente astral. */
 == p_belld IF ~~ THEN @800020 /* Eres una criatura que ha estado en varios planos en cuestión de pocos años. Has estado en el Plano Material, de Hielo, en el Abismo y en el Plano de los Muertos. Tu misma esencia se sacrifica a medida que te especializas en el arte arcano. */
 == p_belld IF ~~ THEN @800021 /* Puedo aplicar dicha mejora, Alendir. Tu túnica será acorde a la esencia que he mencionado anteriormente. */
-== P_ale25J IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800022 /* ¿Y por qué habrías de hacerlo? Tú misma lo has dicho. No tengo el mayor de los respetos hacia las convocaciones. */
+== p_alenj IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800022 /* ¿Y por qué habrías de hacerlo? Tú misma lo has dicho. No tengo el mayor de los respetos hacia las convocaciones. */
 == p_belld IF ~~ THEN @800023 /* Nadie ha dicho eso, Maestro de la Escarcha. Por el contrario, yo estoy convencida de que hay lugar para que tu redención arcana sea posible. */
 == p_belld IF ~~ THEN @800024 /* No habría de ofrecerte dicho poder si no fuese así. */ 
-== P_ale25J IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800025 /* Hm. De acuerdo. Haz lo que tengas que hacer. Y que sea rápido. A diferencia tuya, no me siento cómodo estando semidesnudo. */
+== p_alenj IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800025 /* Hm. De acuerdo. Haz lo que tengas que hacer. Y que sea rápido. A diferencia tuya, no me siento cómodo estando semidesnudo. */
 == p_belld IF ~~ THEN @800026 /* No os preocupéis. Como verás, todo será con presteza. */ DO ~TakePartyItem ("p_falrob") DestroyItem ("p_falrob") CreateItem ("p_alrob2",1,1,0) GiveItem ("p_alrob2", "P_ALEN")~
-== P_ale25J IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800027 /* No exagerabas con lo de presteza. ¿Ya está? Es... es verdad... */
-== P_ale25J IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800028 /* El cambio es significativo. No logro comprender cómo es que una criatura del Plano Astral, atada a un anillo, puede tener tanto poder. */
+== p_alenj IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800027 /* No exagerabas con lo de presteza. ¿Ya está? Es... es verdad... */
+== p_alenj IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800028 /* El cambio es significativo. No logro comprender cómo es que una criatura del Plano Astral, atada a un anillo, puede tener tanto poder. */
 == p_belld IF ~~ THEN @800029 /* Mi poder no es grande. Lo que consideras poderoso es mi capacidad de canalizar ciertas energías, joven selu'taar. */ 
-== P_ale25J IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800030 /* Comprendo. */
-== p_fal25J IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @800031 /* No te vendría mal decir gracias de vez en cuando, Alendir. */
-== P_ale25J IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @800032 /* *susurro* Silencio, niña. */
-== P_ale25J IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800033 /* *carraspeo* Bueno, esta mejora es algo que podría haber logrado yo si me lo hubiera propuesto. Pero... gracias, Bellfame. Os lo agradezco. */
+== p_alenj IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800030 /* Comprendo. */
+== p_fallj IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @800031 /* No te vendría mal decir gracias de vez en cuando, Alendir. */
+== p_alenj IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @800032 /* *susurro* Silencio, niña. */
+== p_alenj IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @800033 /* *carraspeo* Bueno, esta mejora es algo que podría haber logrado yo si me lo hubiera propuesto. Pero... gracias, Bellfame. Os lo agradezco. */
 END
 
 I_C_T P_BELLD 28 P_Alen_Talk1

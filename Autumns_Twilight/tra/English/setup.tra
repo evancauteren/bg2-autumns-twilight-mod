@@ -508,7 +508,7 @@ Phillipe has lost track of the days. Phillipe is alone. Phillipe misses his brot
 
 
 @200181  = ~Talisman for Phillipe~
-@200182  = ~Vidomina has given me this talisman for Phillipe, the Wererrat. With it, our furry friend will be able to enter the Enclave of Vidomina and be safe under the lich's protection.~
+@200182  = ~Vidomina has given me this talisman for Phillipe, the Wererat. With it, our furry friend will be able to enter the Enclave of Vidomina and be safe under the lich's protection.~
 
 @200183  = ~Jaculi~
 @200184  = ~Elite Yuan-ti Sorcerer~
@@ -3559,7 +3559,7 @@ Apparently, Michelson has been to an infernal plane where fire does not exist. H
 
 
 SECRET NOTE:
-When Michelson met Dusk, he became somewhat obsessed with him. Apparently, Wizard Assassins generate a deep respect in him, perhaps because he fears them since (as you will suppose) Michelson is a magical being. I discovered that he has a legendary artifact in his possession, called The Royal Avenger. It is the original weapon that Count Benork wielded when he fought against a Necromancer order in the North. How did it come into his possession? No idea... but the point of this is to tell you that if you find the rest of Benork's Assassin Set, he may give you his ultimate weapon. I'll tell you the necessary artifacts, although all I know about them are their names:
+When Michelson met Dusk, he became somewhat obsessed with him. Apparently, Wizard Slayers generate a deep respect in him, perhaps because he fears them since (as you will suppose) Michelson is a magical being. I discovered that he has a legendary artifact in his possession, called The Royal Avenger. It is the original weapon that Count Benork wielded when he fought against a Necromancer order in the North. How did it come into his possession? No idea... but the point of this is to tell you that if you find the rest of Benork's Slayer Set, he may give you his ultimate weapon. I'll tell you the necessary artifacts, although all I know about them are their names:
 
 - Calia's Heartbeat
 - Breath of Lineage
@@ -3602,7 +3602,7 @@ Weight: 10 lbs.~
 @400314 = ~Reforged Cormyrean sword
 
 This bastard sword was originally forged in Cormyr. A typical soldier's sword. However, its craftsmanship is exquisite, with its edge being dangerous to anything it touches.
-According to Dusk, it was broken in a battle against a giant troll. Later, it was reforged by the Elbereth king's elven artisans, enhancing its enchantments and adding acid damage to it, so as not to suffer the same consequences when facing those creatures of the mountains.
+According to Dusk, it was broken in a battle against a giant troll. Later, it was reforged by King Elbereth’s elven artisans, enhancing its enchantments and adding acid damage to it, so as not to suffer the same consequences when facing those creatures of the mountains.
 
 STATISTICS:
 
@@ -9364,6 +9364,16 @@ a mouse in love, an eternal lover.'~
 ////////////////////////////////
 // Pruebas de DIARIO ENTRIES
 
+
+// v1.4
+
+// CHO and ALENDIR Epilogues
+@979152 = ~Soldier, your path has been long and complex. Traveling across the planes is a feat that few creatures are capable of achieving, and you have been one of them. Whatever decision you make, I firmly believe it will be the right one.~
+@979153 = ~I have learned that power is something few can wield, <CHARNAME>. You are more than capable of doing so. That is why I am sure your decision will be the right one.~
+
+
+
+
 // MISIÓN 1
 
 @210001 = ~Dusk Aldant: The Shilmist Armor
@@ -9719,11 +9729,11 @@ A projection of Alendir has appeared, indicating that the Ice Rose was about to 
 
 @310037 = ~Rachnidra: The Abyssal Spider Pits
 
-We have arrived at Rachnidra, the Abyss of Spiders. We find ourselves in a sort of camp where a Wererrat was "having lunch." Apparently, the place serves as some kind of spider feeding ground. However, we haven't spotted any enemies around, which is strange and disturbing. Despite not being certain if Phillipe was a spider agent or not, I chose to end his life. One can never be too sure who to trust when in the Abyss.~
+We have arrived at Rachnidra, the Abyss of Spiders. We find ourselves in a sort of camp where a Wererat was "having lunch." Apparently, the place serves as some kind of spider feeding ground. However, we haven't spotted any enemies around, which is strange and disturbing. Despite not being certain if Phillipe was a spider agent or not, I chose to end his life. One can never be too sure who to trust when in the Abyss.~
 
 @310038 = ~Rachnidra: The Abyssal Spider Pits
 
-We have arrived at Rachnidra, the Abyss of Spiders. We find ourselves in a sort of camp where a Wererrat named Phillipe was "having lunch." Apparently, the place serves as some kind of spider feeding ground. However, we haven't spotted any enemies around, which is strange and disturbing. Phillipe has provided useful information about the cave: the southwestern cave leads to a passage that, in turn, leads to the lair of a monster named Skel'Tharant. The eastern cave would lead to the Spider Queen's chamber. Both places are currently inaccessible, so we are left with only one option: the northern cave, where a sorceress might provide useful information. Before accessing her Enclave, Phillipe mentioned that we would need to defeat her guardians. I wonder what kind of enemies await us...~
+We have arrived at Rachnidra, the Abyss of Spiders. We find ourselves in a sort of camp where a Wererat named Phillipe was "having lunch." Apparently, the place serves as some kind of spider feeding ground. However, we haven't spotted any enemies around, which is strange and disturbing. Phillipe has provided useful information about the cave: the southwestern cave leads to a passage that, in turn, leads to the lair of a monster named Skel'Tharant. The eastern cave would lead to the Spider Queen's chamber. Both places are currently inaccessible, so we are left with only one option: the northern cave, where a sorceress might provide useful information. Before accessing her Enclave, Phillipe mentioned that we would need to defeat her guardians. I wonder what kind of enemies await us...~
 
 
 @310039 = ~Dreach-naga: The Heart of Tisiphone
@@ -9738,18 +9748,18 @@ Xsi has tasked us with finding the six books he has written about the Abyss. The
 
 We have encountered the first line of defense of Dreach-naga. Unfortunately, the rest of the areas will be prepared for our arrival. We must be cautious until we reach Tisiphone's Throne. The General of the reptile forces is a lizardman named Cho'Nuja. He is the one who has ordered the defenses against us and will alert his other captains about our imminent arrival.~
 
-@310042 = ~Phillipe: A Home for the Wererrat
+@310042 = ~Phillipe: A Home for the Wererat
 
-We have arrived at Phillipe's Refuge in Dreach-naga. Strangely, it is a place where we can rest undisturbed and is not of interest to the lizards. After speaking with Phillipe, he revealed that while the Refuge is safe, he does not like living alone. He told us he lost his siblings in the spider caves and, although he is safe (for now), he would like me to live with him. Since it is not feasible for me to live with a Wererrat, I offered to speak with Vidomina to see if she could adopt him into her Enclave. I should return to the Enclave and speak to the lich on behalf of good Phillipe.~
+We have arrived at Phillipe's Refuge in Dreach-naga. Strangely, it is a place where we can rest undisturbed and is not of interest to the lizards. After speaking with Phillipe, he revealed that while the Refuge is safe, he does not like living alone. He told us he lost his siblings in the spider caves and, although he is safe (for now), he would like me to live with him. Since it is not feasible for me to live with a Wererat, I offered to speak with Vidomina to see if she could adopt him into her Enclave. I should return to the Enclave and speak to the lich on behalf of good Phillipe.~
 
-@310043 = ~Phillipe: A Home for the Wererrat
+@310043 = ~Phillipe: A Home for the Wererat
 
-I have spoken to Vidomina about Phillipe's desire for a new home. To my surprise, she had the same desire but her attempts to approach the Wererrat had failed due to his fear of undead creatures. She gave me a talisman to give to him so he could enter the Enclave. What I need to do now is head back to the Refuge with the talisman and deliver the good news to Phillipe.~
+I have spoken to Vidomina about Phillipe's desire for a new home. To my surprise, she had the same desire but her attempts to approach the Wererat had failed due to his fear of undead creatures. She gave me a talisman to give to him so he could enter the Enclave. What I need to do now is head back to the Refuge with the talisman and deliver the good news to Phillipe.~
 
 
-@310044 = ~Phillipe: A Home for the Wererrat
+@310044 = ~Phillipe: A Home for the Wererat
 
-I have given the Talisman to Phillipe so he can enter Vidomina's Enclave. Now, the Wererrat should be able to feel safer among powerful allies in a place that cannot be invaded by enemies.~
+I have given the Talisman to Phillipe so he can enter Vidomina's Enclave. Now, the Wererat should be able to feel safer among powerful allies in a place that cannot be invaded by enemies.~
 
 @310045 = ~Dreach-naga: The Heart of Tisiphone
 
@@ -9824,7 +9834,7 @@ Vidomina has advised us to deal with Rachnidra's Champion before our final confr
 
 @310062 = ~Skel'Tharant: Champion of Rachnidra
 
-Vidomina mentioned knowing a method to weaken Skel'Tharant in combat, but for this, we need the help of Phillipe, the Wererrat. I managed to convince him to assist us, so Vidomina will provide him with a type of magical oil. Phillipe will apply this oil during our fight against Skel'Tharant. The oil's effects should inflict a severe wound on the beast, causing irreparable damage to its regenerative abilities. I hope Vidomina is right. And I hope Phillipe won't fail us.~
+Vidomina mentioned knowing a method to weaken Skel'Tharant in combat, but for this, we need the help of Phillipe, the Wererat. I managed to convince him to assist us, so Vidomina will provide him with a type of magical oil. Phillipe will apply this oil during our fight against Skel'Tharant. The oil's effects should inflict a severe wound on the beast, causing irreparable damage to its regenerative abilities. I hope Vidomina is right. And I hope Phillipe won't fail us.~
 
 @310063 = ~Skel'Tharant: Champion of Rachnidra
 

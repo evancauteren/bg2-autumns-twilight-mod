@@ -362,7 +362,7 @@ END
 
 IF ~~ THEN BEGIN 48 // from:
   SAY @55 /* ~(Michelson recibe el arma de Dusk con gran reverencia y seriedad. Utilizando los mismos gestos con los que hizo aparecer la Vengadora Real, hace que el bastón shilmista se desvanezca en el aire)~ */
-  IF ~~ THEN DO ~TakePartyItem ("p_stf1") DestroyItem ("p_stf1") ~ EXTERN ~P_MATUT~ 107
+  IF ~~ THEN DO ~TakePartyItem ("p_stf1") DestroyItem ("p_stf1") TakePartyItem ("p_stf2") DestroyItem ("p_stf2") TakePartyItem ("p_stf3A") DestroyItem ("p_stf3A") TakePartyItem ("p_stf3B") DestroyItem ("p_stf3B") ~ EXTERN ~P_MATUT~ 107
 END
 
 IF ~~ THEN BEGIN 49 // from:

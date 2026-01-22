@@ -2,7 +2,7 @@ BACKUP ~Autumns_Twilight/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v1.3~
+VERSION ~v1.4~
 
 README ~Autumns_Twilight/Readme-Autumns_Twilight.txt~
 
@@ -52,7 +52,7 @@ LANGUAGE ~German (Not fully accurate)~ ~German~ ~Autumns_Twilight/tra/German/set
 LANGUAGE ~Polish (Not fully accurate)~ ~Polish~ ~Autumns_Twilight/tra/Polish/setup.tra~
 LANGUAGE ~French (Not fully accurate)~ ~French~ ~Autumns_Twilight/tra/French/setup.tra~
 LANGUAGE ~Russian (Not fully accurate)~ ~Russian~ ~Autumns_Twilight/tra/Russian/setup.tra~
-LANGUAGE ~Chinese(Simplified) (Not fully accurate)~ ~Chinese(Simplified)~ ~Autumns_Twilight/tra/Chinese(Simplified)/setup.tra~
+LANGUAGE ~Chinese by ghostcat~ ~Chinese(Simplified)~ ~Autumns_Twilight/tra/Chinese(Simplified)/setup.tra~
 
 
 
@@ -71,10 +71,7 @@ INCLUDE ~%MOD_FOLDER%/lib/mirrorblade.tpa~
 INCLUDE ~%MOD_FOLDER%/lib/dwarvenartificer.tpa~
 END
 
-//ACTION_IF NOT MOD_IS_INSTALLED ~setup-Fall.tp2~ ~5002~ THEN BEGIN
-//END
-PRINT ~CamDawg~
-// CamDawg. Definición del CD_STATE_NOTVALID
+
 APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
 UNLESS ~CD_STATE_NOTVALID~
 
@@ -85,7 +82,8 @@ COPY ~Autumns_Twilight/Characters/normal_mode~ ~override~
 
 
 
-COPY ~Autumns_Twilight/Characters/cre_and_portraits~ ~override~ 
+COPY ~Autumns_Twilight/Characters/cre_and_portraits~ ~override~
+COPY ~Autumns_Twilight/Animations/cd_jav~ ~override~
 COPY ~Autumns_Twilight/Characters/rask~ ~override~ 
 // COPY ~Autumns_Twilight/Characters/lizard_army~ ~override~
 COPY ~Autumns_Twilight/Characters/clan_orco~ ~override~ 
@@ -97,8 +95,9 @@ COPY ~Autumns_Twilight/Audio/p_chon~ ~override~
 COPY ~Autumns_Twilight/Audio/p_alen~ ~override~
 COPY ~Autumns_Twilight/Items~ ~override~ 
 COPY ~Autumns_Twilight/Spells~ ~override~ 
-COPY ~Autumns_Twilight/Characters/black_beetle~ ~override~ 
+
 // METER BAMs
+COPY ~Autumns_Twilight/Characters/black_beetle~ ~override~ 
 COPY ~Autumns_Twilight/Characters/icelock~ ~override~ 
 COPY ~Autumns_Twilight/Characters/kakuto~ ~override~
 COPY ~Autumns_Twilight/Characters/tabit~ ~override~ 
@@ -109,6 +108,7 @@ COPY ~Autumns_Twilight/Characters/iwd_lizard_man~ ~override~
 COPY ~Autumns_Twilight/Sounds~ ~override~
 COPY ~Autumns_Twilight/Scripts/are~ ~override~
 COPY ~Autumns_Twilight/Scripts/are/P_FAR~ ~override~
+COPY ~Autumns_Twilight/Scripts/are/P_IP~ ~override~
 COPY ~Autumns_Twilight/Summonings~ ~override~ 
 
 
@@ -486,8 +486,9 @@ COMPILE EVALUATE_BUFFER
     ~Autumns_Twilight/Dialogue/P_AlenP.d~
     ~Autumns_Twilight/Dialogue/P_HAKAM.d~
 	//test belld
-    ~Autumns_Twilight/Dialogue/P_ALE25J.d~
-    ~Autumns_Twilight/Dialogue/P_FAL25J.d~
+    //~Autumns_Twilight/Dialogue/P_ALE25J.d~
+    //~Autumns_Twilight/Dialogue/P_FAL25J.d~
+    //~Autumns_Twilight/Dialogue/P_ARCONT.d~	
 	
 
 	// Scripts
@@ -611,6 +612,10 @@ COMPILE EVALUATE_BUFFER
 	~Autumns_Twilight/Scripts/p_gerwul.baf~
 	~Autumns_Twilight/Scripts/p_chons.baf~
 	~Autumns_Twilight/Scripts/p_alens.baf~
+	
+	//v2.0 NEW AREAS
+	~Autumns_Twilight/Scripts/p_ip01.baf~
+	~Autumns_Twilight/Scripts/p_ip11.baf~
 
 	//Transiciones
 	~Autumns_Twilight/Scripts/P_FTRAN1.baf~
@@ -666,7 +671,7 @@ EXTEND_TOP ~BALDUR.bcs~ ~Autumns_Twilight/Scripts/BALDUR.baf~
 ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
 ADD_JOURNAL 
 // Fall Quests
-@310001  @310002 @310003 @310004 @310005 @310006 @310007 @310008 @310009  @310010 @310011 @310012 @310013 @310014 @310015 @310016 @310017 @310018 @310019 @310020 @310021 @310022 @310023 @310024 @310025 @310026 @310027 @310028 @310029 @310030 @310031 @310032 @310034 @310035 @310036 @310037 @310038 @310039 @310040 @310041 @310042 @310043 @310044 @310045 @310046 @310047 @310048 @310049 @310050 @310051 @310052 @310053 @310054 @310055 @310056 @310057 @310058 @310059 @310060 @310061 @310062 @310063 @310064 @310065 @310066 @310067 @310068 @310069 @310070
+@310001  @310002 @310003 @310004 @310005 @310006 @310007 @310008 @310009  @310010 @310011 @310012 @310013 @310014 @310015 @310016 @310017 @310018 @310019 @310020 @310021 @310022 @310023 @310024 @310025 @310026 @310027 @310028 @310029 @310030 @310031 @310032 @310034 @310035 @310036 @310037 @310038 @310039 @310040 @310041 @310042 @310043 @310044 @310045 @310046 @310047 @310048 @310049 @310050 @310051 @310052 @310053 @310054 @310055 @310056 @310057 @310058 @310059 @310060 @310061 @310062 @310063 @310064 @310065 @310066 @310067 @310068 @310069 @310070 /* @310071 @310072 @310073 @310074 */
 // Dusk Quests
 @210001  @210003 @210004 @210005 @210006 @210007 @210008 @210009 @210010 @210011 @210012 @210013 @210014 @210015 @210016 @210017 @210019 @210020 @210021 @210022 @210023 @210024 @210025 @210026 @210027 @210028 @210029 @210030 @210031 @210032 @210033 @210034 @210035 @210036 @210037 @210038 @210039 @210040 @210041  @210043 @210044 @210045 @210046 @210047 @210048 @210049
 END
@@ -4164,6 +4169,18 @@ SAY 8 @2 /*  */
 SAY 80 @2 /*  */
 
 
+// v1.3
+// Arconti
+/*
+COPY ~Autumns_Twilight/Characters/cre_and_portraits/p_arcont.cre~ ~override~
+SAY NAME1 @980016 /* Arconti */
+SAY NAME2 @980016 /* Arconti */
+WRITE_ASCII 0x248 ~p_arcont~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x2cc ~p_arcont~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_arcont~ #8  // small portrait
+WRITE_ASCII 0x280 ~p_arcont~ #8  // Death Script
+*/
+
 COPY_EXISTING ~ar0404.are~ ~override~
     LPF fj_are_structure
       INT_VAR
@@ -5104,6 +5121,9 @@ COPY ~Autumns_Twilight/Music/p_g3~ ~music/p_g3~
   COPY_EXISTING ~p_vidomi.bcs~ ~override/p_vidomi.bcs~
   REPLACE_TEXTUALLY 4442 ~%P_F1%~
   //REPLACE_TEXTUALLY 4443 ~%P_F2%~
+  
+  COPY_EXISTING ~P_AlenS.bcs~ ~override/P_AlenS.bcs~
+  REPLACE_TEXTUALLY 4444 ~%P_G2%~
  
 // P_AR14
   COPY_EXISTING ~P_AR14.are~ ~override~
@@ -5720,6 +5740,15 @@ APPEND ~racetext.2da~
 ~LIZARDMAN  162 1069 -1 1070 -1~
 UNLESS ~LIZARDMAN~
 
+// Adding Are to Master
+APPEND ~mastarea.2da~
+~P_IP11  value~
+UNLESS ~P_IP11~
+
+APPEND ~mastarea.2da~
+~P_IP01  value~
+UNLESS ~P_IP01~
+
 // Dusk
 APPEND ~pdialog.2da~
 ~P_Dusk        P_DuskP             P_DuskJ~
@@ -5953,11 +5982,39 @@ ACTION_IF GAME_IS ~eet~ BEGIN
       string = "Bring me Fall, the Beastmaster."
       stringPosDV = "Imoen" //Fall will be appended right above Imoen
       clean_ToB_DV = "Fall"
+	  // Dusk
+	  dv = "P_Dusk" //Dusk Death Variable (script name)
+      override_SoA = "P_DuskS" //Dusk SoA Override script
+      override_ToB = "P_Dus25S" //Dusk ToB Override script
+      dialog_ToB = "P_Dusk25" //Dusk ToB dialogue file
+      cre_ToB = "P_Dusk25" //Dusk ToB CRE filename
+      string = "Bring me Dusk, the Wizard Slayer."
+      stringPosDV = "Cernd" //Dusk will be appended right above Cernd
+      clean_ToB_DV = "Dusk"
+	  // Cho
+	  dv = "P_Chon" //Chon Death Variable (script name)
+      override_SoA = "P_ChonS" //Chon SoA Override script
+      override_ToB = "P_Cho25S" //Chon ToB Override script
+      dialog_ToB = "P_Chon25" //Chon ToB dialogue file
+      cre_ToB = "P_Chon25" //Chon ToB CRE filename
+      string = "Bring me Cho, the Wildguard."
+      stringPosDV = "Cernd" //Chon will be appended right above Cernd
+      clean_ToB_DV = "Chon"
+	  // Alendir
+	  dv = "P_Alen" //Alen Death Variable (script name)
+      override_SoA = "P_AlenS" //Alen SoA Override script
+      override_ToB = "P_Ale25S" //Alen ToB Override script
+      dialog_ToB = "P_Alen25" //Alen ToB dialogue file
+      cre_ToB = "P_Alen25" //Alen ToB CRE filename
+      string = "Bring me Alendir, the Frostmaster."
+      stringPosDV = "Anomen" //Alen will be appended right above Anomen
+      clean_ToB_DV = "Alen"
   END
 END ELSE BEGIN 
   COMPILE ~Autumns_Twilight/Dialogue/FATESP.d~
 END
 
+/*
 // Chon
 ACTION_IF GAME_IS ~eet~ BEGIN 
   INCLUDE ~EET/other/EET_functions.tph~ 
@@ -6023,7 +6080,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 END ELSE BEGIN 
   COMPILE ~Autumns_Twilight/Dialogue/FATESP.d~
 END
-
+*/
 
 BEGIN ~Enemy Difficulty: Hard~
 COPY ~Autumns_Twilight/Characters/hard_mode~ ~override~

@@ -2,24 +2,36 @@ BEGIN P_Fal25J
 
 // Volo
 
-EXTEND_TOP SARVOLO 9 #2
-+ ~InParty("P_Fall") InMyArea("P_Fall")~ + @9180 /* Háblame de Fall. */ + P_FallVoloBio1
+EXTEND_BOTTOM SARVOLO 9
++ ~InParty("P_Fall") InMyArea("P_Fall") AreaCheck("AR5003")~ + @9180 /* Háblame de Fall. */ + P_FallVoloBio1
 
 END
 
 CHAIN SARVOLO P_FallVoloBio1
 @9181 /* La hija de una poderosa elfa hechicera y un valiente explorador humano viaja por tierras que nunca soñó conocer. Como Dama de las Bestias, junto a sus infalibles lobos, se ha hecho un nombre como libertadora de aquellos que no tienen voz. */
-== P_Fal25J IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @9182 /* Vaya, eso ha sido muy bonito. Gracias, buen señor. */
+== P_Fal25J IF ~AreaCheck("AR5003") InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @9182 /* Vaya, eso ha sido muy bonito. Gracias, buen señor. */
 EXTERN SARVOLO 9
 
-
-I_C_T FINSOL01 27 P_FallSolarFriend1
-== P_Fal25J IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @91831 /* No es una decisión fácil, <CHARNAME>. Pero tengo plena confianza en ti. Has sido capaz de superar dificultades que pocos habrían sido capaces de siquiera enfrentar. */
+// TEST Amelysan
+/*
+EXTEND_BOTTOM FINSOL01 27
+IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ DO ~SetGlobal("P_FallFinSol","GLOBAL",1)~ EXTERN P_FAL25J P_FallSolarFriend1
 END
+
+CHAIN P_FAL25J P_FallSolarFriend1
+@91831 /* No es una decisión fácil, <CHARNAME>. Pero tengo plena confianza en ti. Has sido capaz de superar dificultades que pocos habrían sido capaces de siquiera enfrentar. */
+COPY_TRANS FINSOL01 27
+*/
 
 I_C_T AMMERC02 1 P_FallSaemonMet11
 == P_Fal25J IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @91832 /* Por el amor de Silvanus, imagino que ya a estas alturas estarás más que despierto a la hora de lidiar con este mentiroso, ¿no? */
 END 
+
+
+
+I_C_T FINSOL01 27 P_FallSolarFriend1
+== P_Fal25J IF ~InParty("P_Fall") InMyArea("P_Fall") !InParty("P_Dusk") !InParty("P_Chon") !InParty("P_Alen") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @91831 /* No es una decisión fácil, <CHARNAME>. Pero tengo plena confianza en ti. Has sido capaz de superar dificultades que pocos habrían sido capaces de siquiera enfrentar. */
+END
 
 
 

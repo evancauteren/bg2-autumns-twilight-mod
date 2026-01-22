@@ -9422,11 +9422,102 @@ Pero el buen tiefling compone belleza.~
 
 
 
+// v1.3.1
 
+// CHO and ALENDIR Epilogues
+@979152    = ~Soldado, tu camino ha sido largo y complejo. Viajar por los planos es una proeza que pocas criaturas son capaces de lograr y tú has sido una de ellas. La decisión que tomes, creo firmemente, que será la correcta.~
+@979153    = ~He aprendido que el poder es algo que pocos son capaces de blandir, <CHARNAME>. Tú eres más que capaz de hacerlo. Por eso, tu decisión, estoy seguro, será de la más acertada.~
 
 // P_BAle25 VER DLG FILE
 
+// P_ALENJ QUESTS 1
+@980000    = ~<CHARNAME>, veo que aún conservas la espada de Zafiro de Icelock.~
+@980001    = ~Teniendo en cuenta que debemos enfrentarnos a un peligroso enemigo en Suldanessellar, tengo una idea.~
+@980002    = ~¿Qué tienes en mente, Alendir?, ¿puedes mejorar esta espada para nuestra campaña?~
+@980003    = ~No tenemos tiempo para tus maquinaciones, elfo.~
+@980004    = ~Ignorar mis sabios consejos te hará perder oportunidades valiosas, <CHARNAME>. Pero, como prefieras. No volveré a importunarte.~
+@980005    = ~Mejorar no. Estudiar.~
+@980006    = ~Antes de mi muerte, la espada estuvo siempre en poder del gólem. La misma funciona como una llave hacia el Plano Para-Elemental de Hielo.~
+@980007    = ~Dame la espada y haré posible nuestro viaje allí.~
+@980008    = ~¿Y para qué querríamos ir allí, Alendir?~
+@980009    = ~No, elfo. La espada es más útil en mi poder. Piérdete.~
+@980010    = ~El Plano de Hielo es el reino de Cryonax, el Monarca de la Desolación. Hace no mucho tiempo, frustraste sus planes de invasión a Faerûn al derrotar a Icelock.~
+@980011    = ~Es cierto que Icelock es un gólem de hielo, pero es, a su vez, una criatura interplanar. Destruirle aquí no acabó, del todo, con su existencia.~
+@980012    = ~"¿Por qué ir allí?" me preguntas. Dame algunas horas y os lo diré. Sé que estoy pidiendo mucho, pero sólo os pido un voto de confianza.~
+@980013    = ~De acuerdo, Alendir. Espero que tus pesquisas den fruto.~
+@980014    = ~Ni loco, elfo. No te confiaré un artefacto tan poderoso.~
+@980015    = ~Oh, os lo aseguro, <CHARNAME>, no os arrepentirás. Ahora, con la espada en mi poder, me concentraré en mis estudios. ¡Procura no molestarme demasiado!~
 
+@980016    = ~Arconti~
+
+@980017    = ~Finalmente he comprendido cómo funciona...~
+@980018    = ~<CHARNAME>, mis investigaciones han terminado.~
+@980019    = ~¿Y bien? Te escucho, Alendir.~
+@980020    = ~¿Al fin me vas a devolver mi espada?~
+@980021    = ~Bien. La paciencia es un símbolo de virtud.~
+@980022    = ~Relájate, <CHARNAME>, o la ansiedad te robará la calma y el sueño.~
+@980023    = ~*carraspeo* Como os mencioné anteriormente, la espada Zafiro es una llave que nos permitirá viajar hacia el Plano del Elemento Hielo. Propongo viajar allí.~
+@980024    = ~¿Estás loco? Ese plano debe ser una trampa mortal para nosotros. ¿Por qué querríamos ir allí?~
+@980025    = ~¿Con qué propósito? Imagino que tus razones deben ser lo suficientemente sólidas para tan audaz propuesta.~
+@980026    = ~No entraríamos en el caos de una tormenta o en una emboscada de criaturas gélidas, <CHARNAME>. Por eso he estudiado este artefacto.~
+@980027    = ~Arribaríamos a una tierra gélida, sí, pero lo suficientemente desolada como para establecer un punto de refugio.~
+@980028    = ~Sigo sin entender la razón, Alendir.~
+@980029    = ~La razón es simple: derrotaremos, una vez más, a Icelock. De esa manera, seré capaz de controlarlo.~
+@980030    = ~¿Eres capaz de tal proeza, Alendir? Según recuerdo, el gólem te mató.~
+@980031    = ~Es difícil de creer, elfo. Recuerdo claramente como sucumbiste a esa criatura. Y eso que, en ese momento y supuestamente, eras más poderoso.~
+@980032    = ~¿Y cómo habremos de encontrarlo una vez que lleguemos? El Plano de Hielo debe ser un lugar inmenso.~
+@980033    = ~Soy más que capaz, <CHARNAME>. Además, cuento con tu alianza. Lo importante es su paradero.~
+@980034    = ~Puede que haya sido más poderoso, pero ahora comprendo más la situación. *tos* Eso no importa ahora. Lo que importa es su paradero.~
+@980035    = ~Buena pregunta, <CHARNAME>.~
+@980036    = ~Icelock puede ser encontrado cerca del lugar al que nos llevará la llave. Sus defensas no son grandiosas, pero tampoco mortales como aquellas que te habrás encontrado en Rachnidra.~
+@980037    = ~Con esta información, dejo la decisión en vuestras manos.~
+@980038    = ~De acuerdo, Alendir. Acepto tu propuesta. ¿Cómo haremos para emprender dicho viaje?~
+@980039    = ~No acepto, Alendir. Suena a algo muy peligroso y, además, necesito mi espada. Suldanessellar no puede esperar más.~
+@980040    = ~Ignorar mis sabios consejos te hará perder oportunidades valiosas, <CHARNAME>. Pero, como prefieras. No volveré a importunarte.~
+@980041    = ~Debemos volver a mi templo en Athkatla. He convocado a mi gólem mágico para que nos sirva de receptáculo hacia nuestro viaje interplanar. No es una criatura de combate, sólo nos servirá de puente entre este plano y el siguiente.~
+@980042    = ~Habremos de encontrarlo cerca de la entrada. Os lo aseguro, no te confundirás cuando lo veas.~
+@980043    = ~Mientras estemos allá, debes comprender que la espada no estará a vuestra disposición. La necesito para mantener el portal abierto hasta que encuentre la forma de que sea seguro.~
+@980044    = ~Con seguridad me refiero a que debo cerciorarme que no sea un peligro para este plano nuestro viaje allí. No propondría algo tan peligroso si no estuviera completamente confiado en que Cryonax no será un peligro para Faerûn.~
+
+// Arconti 1st Encounter
+
+@980045    = ~Arconti, te presento a <CHARNAME>. A partir de ahora, le servirás también a él cada vez que quiera viajar hacia el Plano de los Hielos.~ ~Arconti, te presento a <CHARNAME>. A partir de ahora, le servirás también a ella cada vez que quiera viajar hacia el Plano de los Hielos.~
+@980046    = ~Está hecho, <CHARNAME>. Cuando quieráis, hablad con Arconti y él nos teletransportará hacia el Plano Para-Elemental de Hielo. Una vez que estemos allí y si simplemente quieres regresar, no tienes más que volver a hablar con nuestro gólem, ¿sí?~
+@980047    = ~Amo, comprendo.~
+
+@980048    = ~Mortal, Arconti os da la bienvenida. ¿En qué os puedo ayudar?~
+@980049    = ~Hola, Arconti. ¿Podrías llevarnos al Plano de Hielo?~
+@980050    = ~Gólem, ¿tienes alguna otra utilidad para mí además de servir como recipiente interplanar?~
+@980051    = ~Por ahora no necesito nada, Arconti. Adiós.~
+@980052    = ~Adiós, mortal.~
+@980053    = ~Adiós, mortal.~
+@980054    = ~Adiós, mortal.~
+
+@980055    = ~~
+@980056    = ~~
+@980057    = ~~
+@980058    = ~~
+@980059    = ~~
+@980060    = ~~
+@980061    = ~~
+@980062    = ~~
+@980063    = ~~
+@980064    = ~~
+@980065    = ~~
+@980066    = ~~
+@980067    = ~~
+@980068    = ~~
+@980069    = ~~
+@980070    = ~~
+@980071    = ~~
+@980072    = ~~
+@980073    = ~~
+@980074    = ~~
+@980075    = ~~
+@980076    = ~~
+@980077    = ~~
+@980078    = ~~
+@980079    = ~~
 
 
 
@@ -9922,6 +10013,24 @@ Finalmente hemos regresado a Athkatla, gracias a la última fracción de poder d
 @310070  = ~Rachnidra: las Fosas de la Telaraña Demoníaca
 
 Nos hemos encontrado con una criatura llamada Mesothel, una araña gigante proveniente del Abismo que parecía esperar mi llegada a la Prisión del Hechicero. No parece poseer relación alguna con los Magos Encapuchados o con Bodhi. Sin embargo, parecía estar al tanto de mi linaje divino. Lamentablemente no pudimos acabar con ella y en consecuencia, la criatura escapó, vaticinando un futuro reencuentro. Nos dijo que podríamos encontrar un portal hacia su Reino en las cloacas de la Corona de Cobre. Si en algún momento regresamos, podríamos ir allí ya que el monstruo dijo que los suyos habrían de invadir este plano, pronto.~
+
+// Alendir Quest
+@310071  = ~Alendir: El Gólem de Hielo
+
+Le he entregado la espada de Zafiro a Alendir para que pueda estudiarla. Esto implica no tenerla a disposición, por ahora, pero el elfo nos ha indicado que tiene la posibilidad de abrir un portal hacia el Plano de Hielo, aunque ha sido bastante reservado a la hora de revelar los motivos que podría tener para ir allí. Tendremos que esperar a que sus estudios den resultado.~
+
+@310072  = ~Alendir: El Gólem de Hielo
+
+Finalmente, he declinado la propuesta de Alendir sobre viajar al Plano de Hielo. Creo que es una empresa muy peligrosa a la que no debería exponerme. Después de todo, aún debo resolver mi asunto con Irenicus. Alendir, de mala gana, ha aceptado mi decisión y me ha devuelto la espada Zafiro.~
+
+@310073  = ~Alendir: El Gólem de Hielo
+
+Alendir ha terminado sus pesquisas sobre la Espada de Zafiro, aunque aún no es capaz de devolverla, puesto a que he aceptado viajar al Plano de Hielo para seguir con sus planes. Para ello, debemos encontrar a su gólem mágico, quien nos servirá de puenta interplanar. Habremos de encontrarlo cerca de la entrada a su templo secreto, pasando por las cloacas de los Barrios Bajos.~
+
+@310074  = ~Alendir: El Gólem de Hielo
+
+Hemos regresado al Templo de Alendir y nos ha presentado a Arconti, un gólem mágico que nos servirá de intermediario hacia el viaje interplanar que debemos realizar si queremos cumplir con los planes del Maestro de la Escarcha. Sólo debemos hablar con el gólem para que nos teletransporte.~
+
 
 // EPILOGUES ---> FALL 1
 // Base Ending
