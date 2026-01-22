@@ -9220,7 +9220,11 @@ Mais le bon tiefling compose de la beauté.~
 
 // P_BAle25 VER DLG FILE
 
+// v1.4
 
+// CHO and ALENDIR Epilogues
+@979152 = ~Soldier, your path has been long and complex. Traveling across the planes is a feat that few creatures are capable of achieving, and you have been one of them. Whatever decision you make, I firmly believe it will be the right one.~
+@979153 = ~I have learned that power is something few can wield, <CHARNAME>. You are more than capable of doing so. That is why I am sure your decision will be the right one.~
 
 
 
