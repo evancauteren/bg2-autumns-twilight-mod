@@ -58,6 +58,7 @@ LANGUAGE ~Chinese by ghostcat~ ~Chinese(Simplified)~ ~Autumns_Twilight/tra/Chine
 
 
 
+
 BEGIN @1 /* Autumn's Twilight */ 
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~P_WGUACL.2da~ THEN BEGIN
