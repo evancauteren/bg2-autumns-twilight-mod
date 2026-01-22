@@ -8,11 +8,11 @@ THEN
     DisplayString(Myself,@200135)  // ~El Talismán de Dreach-naga ilumina tu camino. Ahora, las tinieblas ya no son un problema para llegar al Enclave de Vidomina.~
     StartCutSceneMode()
     //CreateVisualEffectObject("SPDIMNDR",Player1)
-    Wait(4)
+    Wait(2)
     FadeToColor([20.0],0)
     Wait(1)
     //PlaySound("PORTAL2")
-    Wait(2)
+    Wait(1)
     ActionOverride(Player1,LeaveAreaLUAPanic("P_FA6B","",[378.1642],NW))
     ActionOverride(Player1,LeaveAreaLUA("P_FA6B","",[378.1642],NW))
     ActionOverride(Player2,LeaveAreaLUA("P_FA6B","",[422.1622],NW))

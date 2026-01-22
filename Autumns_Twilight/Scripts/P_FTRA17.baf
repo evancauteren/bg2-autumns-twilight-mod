@@ -8,11 +8,11 @@ THEN
     DisplayString(Myself,@200137)  // ~La Piedra Guarda de Vreshnak ahora permite el paso hacia la siguiente zona, iluminando tu camino.~
     StartCutSceneMode()
     //CreateVisualEffectObject("SPDIMNDR",Player1)
-    Wait(4)
+    Wait(2)
     FadeToColor([20.0],0)
     Wait(1)
     //PlaySound("PORTAL2")
-    Wait(2)
+    Wait(1)
     ActionOverride(Player1,LeaveAreaLUAPanic("P_F10B","",[726.405],SW))
     ActionOverride(Player1,LeaveAreaLUA("P_F10B","",[726.405],SW))
     ActionOverride(Player2,LeaveAreaLUA("P_F10B","",[692.383],SW))

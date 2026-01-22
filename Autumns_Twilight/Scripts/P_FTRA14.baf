@@ -10,9 +10,9 @@ THEN
     SaveGame(0)
     DisplayString(Myself,@200143)  // ~El Talismán de Dreach-naga y las tres Piedras Guarda brillan incesantemente. Gracias a esto eres capaz de regresar al Pantano de Rask'tar Krathiss...~
     StartCutSceneMode()
-    Wait(4)
-    FadeToColor([20.0],0)
     Wait(2)
+    FadeToColor([20.0],0)
+    Wait(1)
     ActionOverride(Player1,LeaveAreaLUAPanic("P_F12B","",[788.1915],NE))
     ActionOverride(Player1,LeaveAreaLUA("P_F12B","",[788.1915],NE))
     ActionOverride(Player2,LeaveAreaLUA("P_F12B","",[744.1895],NE))

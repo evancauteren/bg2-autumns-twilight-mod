@@ -8,11 +8,11 @@ THEN
     DisplayString(Myself,@200136)  // ~La Piedra Guarda de Qyl'tar ahora permite el paso hacia la siguiente zona, iluminando tu camino.~
     StartCutSceneMode()
     //CreateVisualEffectObject("SPDIMNDR",Player1)
-    Wait(4)
+    Wait(2)
     FadeToColor([20.0],0)
     Wait(1)
     //PlaySound("PORTAL2")
-    Wait(2)
+    Wait(1)
     ActionOverride(Player1,LeaveAreaLUAPanic("P_FAR8","",[1506.567],SW))
     ActionOverride(Player1,LeaveAreaLUA("P_FAR8","",[1506.567],SW))
     ActionOverride(Player2,LeaveAreaLUA("P_FAR8","",[1545.589],SW))

@@ -7,9 +7,9 @@ THEN
     SaveGame(0)
     DisplayString(Myself,@200144)  // ~La fluorita toma un brillo radiante e ilumina tu camino hacia la siguiente zona.~
     StartCutSceneMode()
-    Wait(4)
-    FadeToColor([20.0],0)
     Wait(2)
+    FadeToColor([20.0],0)
+    Wait(1)
     ActionOverride(Player1,LeaveAreaLUAPanic("P_FA14","",[642.349],SW))
     ActionOverride(Player1,LeaveAreaLUA("P_FA14","",[642.349],SW))
     ActionOverride(Player2,LeaveAreaLUA("P_FA14","",[637.306],SW))

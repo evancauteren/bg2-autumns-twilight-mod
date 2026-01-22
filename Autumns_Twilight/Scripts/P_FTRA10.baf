@@ -10,9 +10,9 @@ THEN
     SaveGame(0)
     DisplayString(Myself,@200142)  // ~El Talismán de Dreach-naga y las tres Piedras Guarda brillan incesantemente. Ante ti se abre la cámara real de la Reina Tisiphone...~
     StartCutSceneMode()
-    Wait(4)
-    FadeToColor([20.0],0)
     Wait(2)
+    FadeToColor([20.0],0)
+    Wait(1)
     ActionOverride(Player1,LeaveAreaLUAPanic("P_FA13","",[982.431],SW))
     ActionOverride(Player1,LeaveAreaLUA("P_FA13","",[982.431],SW))
     ActionOverride(Player2,LeaveAreaLUA("P_FA13","",[961.396],SW))

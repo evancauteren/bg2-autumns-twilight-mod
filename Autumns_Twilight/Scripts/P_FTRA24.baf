@@ -9,11 +9,11 @@ THEN
     DisplayString(Myself,@200148)  // ~Al acercarte al umbral no puedes observar más que oscuridad. Sin darte cuenta, tú y los demás son atrapados en una extraña negrura. El vacío te arrastra y cuando abres los ojos te percatas que ya no te encuentras a salvo...~
     StartCutSceneMode()
     CreateVisualEffectObject("SPDIMNDR",Player1)
-    Wait(4)
+    Wait(2)
     FadeToColor([20.0],0)
     Wait(1)
     PlaySound("PORTAL2")
-    Wait(2)
+    Wait(1)
     ActionOverride(Player1,LeaveAreaLUAPanic("P_FAR5","",[1873.1160],NW))
     ActionOverride(Player1,LeaveAreaLUA("P_FAR5","",[1873.1160],NW))
     ActionOverride(Player2,LeaveAreaLUA("P_FAR5","",[1832.1146],NW))
