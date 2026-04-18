@@ -2030,3 +2030,4 @@ THEN
     LeaveParty()
     Enemy()
 END
+

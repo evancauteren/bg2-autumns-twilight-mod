@@ -595,7 +595,7 @@ END
 
 // Dark Ice Umber Hulk
 ACTION_DEFINE_ASSOCIATIVE_ARRAY P_DARK_ICE_UMBER_HULK_ANIMS_Exxx BEGIN
-    ~fallen_planetar~ => ~P_DARK_ICE_UMBER_HULK~
+    ~iceumberhulk~ => ~P_DARK_ICE_UMBER_HULK~
   END
   ACTION_PHP_EACH P_DARK_ICE_UMBER_HULK_ANIMS_Exxx AS folder => symbol BEGIN
     ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
@@ -607,3 +607,54 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY P_DARK_ICE_UMBER_HULK_ANIMS_Exxx BEGIN
     OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
     APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
 END
+
+// Venomous Scolopendra
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_VENOM_SCOLOPENDRA_ANIMS_Exxx BEGIN
+    ~ven_scolopendra~ => ~P_VENOM_SCOLOPENDRA~
+  END
+  ACTION_PHP_EACH P_VENOM_SCOLOPENDRA_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// Big Foot
+ACTION_DEFINE_ASSOCIATIVE_ARRAY P_BIGFOOT_ANIMS_Exxx BEGIN
+    ~bigfoot~ => ~P_BIGFOOT~
+  END
+  ACTION_PHP_EACH P_BIGFOOT_ANIMS_Exxx AS folder => symbol BEGIN
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bam~ ~%MOD_FOLDER%/Animations/%folder%~ ~.+\.bmp~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~override~
+    END
+    LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0xE000 RET slot END
+    LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+    COPY ~%MOD_FOLDER%/Animations/%folder%/Exxx.ini~ ~override/%hexNumber%.ini~
+    OUTER_SET EVAL ~slot_%folder%~ = slot   // save animation slot number for later
+    APPEND ~ANIMATE.IDS~ ~0x%hexNumber% %symbol%~
+END
+
+// Item
+COPY ~Autumns_Twilight/Animations/bigfoot/p_bfitm2.itm~ ~override~
+SAY NAME2 @10000195 /* Magic Berries */
+SAY DESC @10000196 /*  */
+SAY 0xDE @10000206
+SAY 0xD6 @10000199
+
+// Spell
+COPY ~Autumns_Twilight/Animations/bigfoot/p_bfspl1.bam~ ~override~
+COPY ~Autumns_Twilight/Animations/bigfoot/p_bfspl1.spl~ ~override~
+SAY 8 @10000197 /* Alaghi's Transformation */
+SAY 80 @10000198 /*  */
+
+// Item
+COPY ~Autumns_Twilight/Animations/bigfoot/p_bfitm1.bam~ ~override~
+COPY ~Autumns_Twilight/Animations/bigfoot/p_bfitm1.itm~ ~override~
+SAY NAME2 @10000200 /* Alaghi's Might */
+SAY DESC @10000201 /*  */
+SAY 0xD6 @10000199
+LPF ALTER_EFFECT INT_VAR match_opcode = 53 parameter1 = (IDS_OF_SYMBOL (~animate~ ~P_BIGFOOT~)) END

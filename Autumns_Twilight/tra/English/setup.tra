@@ -187,7 +187,7 @@ Immunity to petrification
 Armor Class: +5 bonus
 Weight: 3~
 
-@200035  = ~Invisible Strength~
+@200035  = ~Invisible Force~
 @200036  = ~Kitochi~
 @200037  = ~Summon Kitochi~
 @200038  = ~Summon Kitochi (Innate)
@@ -9371,8 +9371,505 @@ a mouse in love, an eternal lover.'~
 @979152 = ~Soldier, your path has been long and complex. Traveling across the planes is a feat that few creatures are capable of achieving, and you have been one of them. Whatever decision you make, I firmly believe it will be the right one.~
 @979153 = ~I have learned that power is something few can wield, <CHARNAME>. You are more than capable of doing so. That is why I am sure your decision will be the right one.~
 
+// v1.4.5
+// PAI'NA CROSSMOD
+// Dusk Neutral
+@979154 = /* Dusk */ ~Hmpf, Pai'Na... could you command your charges not to get so close to me?~
+@979155 = /* Pai'Na */ ~Why? They always lunged at our enemies. They have no interest in you.~
+@979156 = /* Dusk */ ~I know, but it's just that...~
+@979157 = /* Pai'Na */ ~*sigh* What is it, human? Do you fear them?~
+@979158 = /* Dusk */ ~It is one thing to have to fight against them... and quite another to have to live with them all the time.~
+@979159 = /* Pai'Na */ ~*snort* Very well, I will try to keep them away from you. Only because you might hurt them with your clumsiness.~
+@9079160 = /* Dusk */ ~*clear throat* Well, your consideration is appreciated, Pai'Na.~
+
+// Dusk Good
+@9079161 = /* Dusk */ ~I must say that as time has passed, Pai'Na, I have grown more and more accustomed to your charges.~
+@9079162 = /* Pai'Na */ ~It has taken its time, but at least prejudice has disappeared from your heart, human. It is progress.~
+@9079163 = /* Dusk */ ~Mielikki urges us to protect the life of the forest. To defend it. Spiders are also part of nature.~
+@9079164 = /* Pai'Na */ ~I care little for your dogma, human. However, those words are wise.~
+@9079165 = /* Dusk */ ~You can call me Dusk, Pai'Na, as all my friends do.~
+@9079166 = /* Pai'Na */ ~*snort* Very well, Dusk it shall be. Now, stop bothering me.~
+@9079167 = /* Dusk */ ~As you wish.~
+
+// Dusk Evil
+@9079168 = /* Dusk */ ~Pandemonium craves allies like you, Pai'Na. Your charges would be the natural predators instead of the victims they are here, in the land of men.~
+@9079169 = /* Pai'Na */ ~Pandemonium? I have no interest in such a place, and I doubt my charges are either.~
+@9079170 = /* Dusk */ ~Why? You think there is no safe place, don't you? There is a certain wisdom in thinking so. But truly I tell you, the tunnels and caverns of Pandemonium would be a welcome home for your children.~
+@9079171 = /* Pai'Na */ ~Why do you insist, fool? I told you that neither my daughters nor I am interested.~
+@9079172 = /* Dusk */ ~Think about it, Pai'Na. You and I would be formidable allies once our journey with <CHARNAME> has ended.~
+@9079173 = /* Pai'Na */ ~*snort* I highly doubt it.~
+
+// Fall 1
+@9079174 = /* Fall */ ~I... I don't understand your love for spiders, Pai'Na. It must... it must be something inherent to the drow, I imagine.~
+@9079175 = /* Pai'Na */ ~Half-drow, elf. And no, it is not because I am part drow that spiders attract me. It is my duty to protect them as a Hivemaster.~
+@9079176 = /* Fall */ ~Well, I am not an 'elf', Pai'Na. I am a half-elf.~
+@9079177 = /* Pai'Na */ ~Hmph. As if that matters to me. Do you think that should make me sympathize with you? Your mix is accepted, just as elves and humans are accepted in almost all of Faerûn.~
+@9079178 = /* Fall */ ~I was only looking to get to know you a little more... but I see that will not be an easy task...~
+
+// Fall 2
+@9079179 = /* Pai'Na */ ~I have noticed that you do not enjoy being near my charges, half-elf. For a ranger, you are disappointing.~
+@9079180 = /* Fall */ ~Watch what you're implying, Pai'Na! Your charges... I know... they are not to blame.~
+@9079181 = /* Pai'Na */ ~And why should they be to blame for anything? They have done nothing to you.~
+@9079182 = /* Fall */ ~And yet... it was those of their kind who razed my village.~
+@9079183 = /* Pai'Na */ ~You say... that it was spiders that destroyed a surface settlement? Explain yourself.~
+@9079184 = /* Fall */ ~When I was a child, I lived in Imnescar with my parents and my wolves. Surrounded by forests, the region was protected by druids and rangers... until the spiders came.~
+@9079185 = /* Fall */ ~I must... I must be fair to you, Pai'Na. My mother, a powerful sorceress from Evereska, concluded that the spiders came from another plane, possibly a demonic one.~
+@9079186 = /* Pai'Na */ ~Demonic spiders? My mistress has told me of such creatures. A clear example is the bebilith. They are formidable predators... It is extremely strange for them to attack a human or elven settlement out of nowhere.~
+@9079187 = /* Fall */ ~And yet, they did. I see... I see the story interests you.~
+@9079188 = /* Pai'Na */ ~It involves spiders, after all. Of course it interests me. However... I understand it is not easy for you to speak of it. I will understand if you do not wish to, Fall.~
+@9079189 = /* Fall */ ~No, it's fine... I will tell you what I remember of the attack, of the physiology, and of the creatures I recall seeing, Pai'Na. It might... it might help us in the future.~
+
+// Fall 3
+@9079190 = /* Pai'Na */ ~You have improved in your treatment of my charges, Fall. That is worthy of respect.~
+@9079191 = /* Fall */ ~I suppose talking to you has made my relationship with them more bearable.~
+@9079192 = /* Pai'Na */ ~You would make a good Hivemaster, woman. Perhaps you should consider stop fooling around with so many wolves and bears.~
+@9079193 = /* Fall */ ~*clear throat* I hope you are joking, Pai'Na. I would never be able to leave my beloved animals aside.~
+@9079194 = /* Pai'Na */ ~Arachnid superiority is evident over the 'furry' ones you usually command. Although time has shown me that even the lupines have been useful in combat. They are a good complement alongside my children.~
+@9079195 = /* Fall */ ~Well, we agree on that, yes.~
+
+// Cho'Nuja
+@9079196 = /* Cho'Nuja */ ~Female-shaman, do you have any small insects to spare? I am hungry.~
+@9079197 = /* Pai'Na */ ~W-what?! Get away from my daughters, you foul lizard.~
+@9079198 = /* Cho'Nuja */ ~Daughters? I see no resemblance to you. I mean, you are ugly, but your daughters are even more so.~
+@9079199 = /* Pai'Na */ ~Have you looked in a mirror? You give me a headache just by looking at you.~
+@9079200 = /* Cho'Nuja */ ~I was very popular in Dreach-naga. Many females killed each other just for the chance to speak with me.~
+@9079201 = /* Pai'Na */ ~Hmpf. Whatever, do not even think about getting close to my charges or you will feel my wrath.~
+@9079202 = /* Cho'Nuja */ ~*grunt* Fine... I suppose I'll have to settle for some frog I find around here...~
+
+// Alendir
+@9079203 = /* Alendir */ ~Hm. Tell me, half-drow, how have you mastered the summoning of arachnid creatures so well? As far as I know, Spider Spawns are a mastery dominated by arcane powers, not divine.~
+@9079204 = /* Pai'Na */ ~We Hivemasters have an innate affinity with arachnids, elf. That is why it is so easy for us to call them as formidable allies.~
+@9079205 = /* Alendir */~Interesting. Perhaps I can learn something from you, after all. There are arctic spiders that can be called in combat, although I have not yet fully mastered said spell preparation.~
+@9079206 = /* Pai'Na */ ~Arctic spiders? Is such a thing possible to learn?~
+@9079207 = /* Alendir */ ~Perhaps. Time will tell. For now, I will concentrate on my studies. When I obtain results, I will share them with you.~
+@9079208 = /* Pai'Na */ ~*snort* Very well, Frostmaster. I shall wait. I hope it is worth it.~
+
+// Dusk Decision (Quest 2): Dusk asks his companions for advice on whether or not to attack a humanoid detachment.
+@9079209 = ~*sigh* While they might make a fine feast for my charges, these creatures seem to only want to be at peace. I understand the desire for solitude, so I would say do not attack, human.~
+
+// Dusk Alabarza's Battle (Quest 3): NPCs' lines when attacking an orc detachment.
+@9079210 = ~I do not understand the reason for this conflict, but I shall not deny my charges their sustenance. Let my spiders feast upon your corpses!~
+
+// Venomous Scolopendra (Creature)
+@9079211 = ~Venomous Scolopendra~
+
+// Extract of Scolopendra
+@9079212 = ~Extract of Scolopendra~
+@9079213 = ~This flask contains a concentrated distillate of scolopendra glands, preserved in a solution of paralyzing venom. The liquid within is unnaturally dense, weighing far more than its small volume would suggest. When ingested by a Hivemaster, the extract permanently alters their bond with the swarm, granting them the ability to summon a venomous scolopendra.
+
+STATISTICS:
+
+Special Ability: Permanently learn "Summon Venomous Scolopendra" (3 times per day)
+Weight: 15~
+
+@9079214 = ~Extract of Scolopendra: Summon Venomous Scolopendra learned as an innate ability (3 times per day)~
+@9079215 = ~Pai'Na~
+
+@9079216  = ~Summon Venomous Scolopendra~
+@9079217  = ~Summon Venomous Scolopendra (Innate)
+Level: Innate
+Sphere: Conjuration
+Range: 30 meters
+Duration: 8 hours
+Casting Time: Immediate
+Area of Effect: Special
+Saving Throw: None
+
+DESCRIPTION:
+
+By using this ability, the Hivemaster summons a swift, venomous scolopendra from the depths of the earth. This creature is small but deadly, possessing a neurotoxic bite that can bypass heavy armor. The scolopendra will serve the caster for 8 hours or until it is destroyed.~
+
+// C0Paina
+// If Pai'Na is in the party when helping Dusk complete his 3rd Quest, depending on Dusk's alignment, either Michelson (a leprechaun) or Danctian (a shadow demon) will create a personalized item for each party member present at that moment. In this case, a potion will be created for Pai'Na, granting her a new innate ability to summon a venomous scolopendra.
+
+// Michelson
+@9079218 = ~(Michelson watches Pai'Na for a few seconds. Then, with visible effort, the leprechaun pulls a bottle from the Cormyrean cargo that seems far heavier than it looks. With deliberate slowness, he approaches the half-drow and carefully hands it to her.)~
+@9079219 = ~*sniff* What?! Extract of Scolopendra?! How did you manage to obtain this, strange creature? Hmph. It matters not. I shall put it to good use.~
+
+// Danctian
+@9079220 = ~Ah, the Hivemaster, the half-drow Pai'Na. This perilous Extract of Scolopendra should serve to bridge your connection with the mighty creature in the Astral Plane and pull it forth to do your bidding. It would kill any mortal who dared to drink it, but not you, of that I am certain...~
+@9079221 = ~Hmph. I trust in my own power, demon. I have no need for your lectures. However, I shall accept the Extract if it means furthering my power for my purpose.~
+
+// The Order of Mages Final Battle
+@9079222 = ~Wizards, you shall make a fine feast for my brood! For the Hive, attack!~
+
+// cambio de numeración para evitar sobreescritura ************
+
+// <CHARNAME> asks the group for their opinion on whether or not to attack an intelligent basilisk (Voragor)
+@10000000 = ~Hmph. Why do you hesitate so, <CHARNAME>? The creature did not attack us. Furthermore, it is an intelligent, thinking being. I say this out of common sense more than anything else.~
+
+// Icelock's Battle at the Alendir's Temple
+@10000001 = ~The creature is an unnatural foe. It is a danger not only to the fools of Athkatla, but also to my brood and everything I fight for. Destroy it!~
+
+// Morgrath's (Demon Spider Queen) Final Battle
+@10000002 = ~You are nothing like my precious ones, queen bitch! Spiders are pure creatures that belong to Nature. You are an abomination that must be destroyed, and my charges—true spiders—shall help me do it!~
+
+// Summons, missing lines
+// Sinna
+@10000003 = ~*Sinna watches you anxiously, waiting for you to pet her. Her eyes show love and trust in you.*~
+@10000004 = ~*Sinna moves at great speed, waiting for you to play with her.*~
+@10000005 = ~*Sinna perks up her ears, waiting for you to speak to her in a friendly, high-pitched tone.*~
+@10000006 = ~*Sinna runs around you, kicking up a considerable cloud of dust while dirtying your robes with grime.*~
+@10000007 = ~*Sinna lets out a small howl, as if trying to communicate with you. Probably to ask for food.*~
+
+// Daren
+@10000008 = ~*Daren has his gaze fixed on you. He shows confidence in you and a deep respect for your power.*~
+@10000009 = ~*Daren seems to observe the environment around him, attentive to any eventuality and ready to protect you.*~
+@10000010 = ~*Daren brings his head close to your hand and lets himself be petted. His eyes close, showing a surrender to your touch.*~
+@10000011 = ~*Daren lets out a small growl, showing that he wants to play with you in a perhaps somewhat rough way. For now you leave him be, but that doesn't diminish his desire to play.*~
+@10000012 = ~*Daren's claws dig into the ground. Perhaps he wants to play with you or he might be preparing for combat.*~
+
+// Kitochi
+@10000013 = ~*meow* Did you want something?~ [p_kito01]
+@10000014 = ~*loud meow* Not now! Can't you see I'm grooming myself?~ [p_kito02]
+@10000015 = ~*yawn* I'd prefer if you didn't bother me. I was planning to take a short nap.~ [p_kito03]
+@10000016 = ~*purr* Do you need me? I'm in a good mood now; I might just follow your orders.~ [p_kito04]
+@10000017 = ~*meow* I think my hat needs a wash...~ [p_kito01]
+
+// Tabitha
+@10000018 = ~*Tabitha fixes her piercing eyes on you. For a moment, you feel like she's going to attack, but she simply stays there, watching you with great interest.*~
+@10000019 = ~*Tabitha begins to lick her paws, ignoring everything happening around her.*~
+@10000020 = ~*Tabitha's eyes seem lost on the horizon. Perhaps she misses her old companion, Ivor, the Beastmaster.*~
+@10000021 = ~*Tabitha lies down to sleep, ignoring you completely.*~
+@10000022 = ~*Tabitha's claws can be glimpsed in her paws. She seems alert to her surroundings in case any prey appears.*~
+
+// Voragor
+@10000023 = ~Voragor is ready to help his friends.~
+@10000024 = ~I will do whatever you ask. After all, that's what friends are for, right?~
+@10000025 = ~I may be old, but my energies are renewed by this adventure with <CHARNAME> and Fall.~
+@10000026 = ~All right, all right. I'll try not to stare at you, I know you fear me turning you to stone. *hiss*~
+@10000027 = ~*yawn* No, I'm not sleepy. I'm simply readjusting my old bones.~
+
+// Kakuto
+@10000028 = ~*Kakuto watches you intently. His eyes shine and if you had to guess, he seems to be admiring you.*~
+@10000029 = ~*Kakuto lets out some chirps. You're not sure what they mean, but it seems friendly since, despite his large size, he seems to be making an effort not to disturb you.*~
+@10000030 = ~*Kakuto moves very slowly, as if wanting to avoid stepping on something he shouldn't. However, subtlety is not inherent to him and he makes more noise than silence, causing crashes all around.*~
+@10000031 = ~*Kakuto moves his head while watching you. Does he want you to feed him?*~
+@10000032 = ~*Kakuto shows off his great horn with pride. He is more than willing to follow your orders, whatever they may be.*~
+
+// Bellfame / PaiNa
+@10000033 = /* Bellfame */ ~Mistress of the Brood, your power is admirable. Defending those who cannot defend themselves is laudable.~
+
+@10000034 = /* PaiNa */ ~I do not seek praise, nymph. I do what is right, I do what I must do.~
+@10000035 = /* Bellfame */ ~And you do what you must. Your mission must continue, Pai'Na. Let me help you...~
+@10000036 = /* PaiNa */ ~Eh? What are you doing with your hands, nymph? Get away from me!~
+@10000037 = /* Bellfame */ ~Peace... let the power flow within you and accept Mir's gift.~
+@10000038 = /* PaiNa */ ~Mir? What are you talking about? I feel... I feel a bit different. As if I could... command new creatures.~
+
+@10000039 = /* Bellfame */ ~Divine power can be taught as well, Pai'Na. Hivemaster, may the Ethereal Plane serve you as an ally forever.~
+
+// Bellfame teaches spell to PaiNa
+@10000040 = ~Pai'Na has learned the Level 1 spell: Summon Scarab~
+
+// Pai'Na reacciona a chiste de CHARNAME
+@10000041 = ~*snort* All this just to please this little madman?~
+
+// SIRENE CROSSMOD
+// Dusk Alabarza's Battle (Quest 3)
+@10000042 = ~In Ilmater's name, we shall see this through, Dusk! Alabarza, you shall not emerge victorious, I swear it!~
+
+// Dusk Quest 2
+@10000043 = ~Dusk, these creatures have shown neither malice nor ill intent. We should listen to them, or at least give them the benefit of the doubt for now.~
+
+// Michelson reaction (GOLD)
+@10000044 = ~I am not one for materialism, <CHARNAME>, but surely those resources would have better served the wretched than... this fellow.~
+
+// The fight against the Ice Golem
+@10000045 = ~If the creature has its way, Athkatla will suffer the consequences. We must prevent it! Fall, I am with you. Attack!~
+
+// Fight against the Order of Mages (Demolisher)
+@10000046 = ~Little Demolisher, I admire your bravery. You shall not go into this battle alone! As long as I can draw breath, I shall be your shield!~
+
+// Fight against the Order of Mages (Danctian)
+@10000047 = ~I question your methods, Dusk, but I cannot deny that these enemies are wicked. Their victory would be the undoing of many, and I am not willing to let that happen. By the Crying God, I will help you defeat these sorcerers!~
+
+// Voragor
+@10000048 = ~We have heard of no basilisk attacks in the valley, <CHARNAME>. Furthermore, it is a creature capable of communication and is clearly intelligent. Slaying it would be an injustice.~
+
+// Morgrath
+@10000049 = ~Take my weariness upon Thyself, Ilmater; I shall take the pain of my enemies upon myself if it saves the innocent. Your reign comes to an end, Morgrath! Face your judgment!~
+
+// Banters
+// Dusk Neutral
+@10000050 = /* Dusk */ ~You are exceptional in combat, Sirene. Ilmater has certainly blessed you with considerable strength, which I see you use without hesitation to defend your ideals.~
+@10000051 = /* Sirene */ ~D-dusk, thank you. I did not expect you to say such a thing.~
+@10000052 = /* Dusk */  ~Why? I may not seem like a very spiritual man, but I know how to recognize divine strength when I see it.~
+@10000053 = /* Sirene */ ~I appreciate that you have not judged me for what I am.~
+@10000054 = /* Dusk */ ~Well... I admit it is not something I see every day: a creature of demonic ancestry fighting for the Crying God. However, <CHARNAME> has placed his trust in you. I see no reason why I should not do the same.~ ~Well... I admit it is not something I see every day: a creature of demonic ancestry fighting for the Crying God. However, <CHARNAME> has placed her trust in you. I see no reason why I should not do the same.~
+@10000055 = /* Sirene */ ~The feeling is mutual, Dusk. Fighting alongside you on the front lines is a satisfying experience. It gladdens me to know we fight for the same cause, even if we do not follow the same faith.~
+@10000056 = /* Dusk */ ~Justice is a faith shared by many dogmas. May our blades defend the weak.~
+@10000057 = /* Sirene */ ~I could not agree more.~
+
+// Dusk Good
+@10000058 = /* Dusk */ ~Hello, Sirene. Did you need something? I have noticed your curious glances.~
+@10000059 = /* Sirene */ ~Oh—I... I did not mean to be rude, Dusk. It is just... I cannot help but wonder how you have changed so much.~
+@10000060 = /* Dusk */ ~Truly? I myself believed that I had not changed all that much... I mean, in terms of who I am at my core.~
+@10000061 = /* Sirene */ ~Do not misunderstand me; it is true that your essence remains, as you say. But at the same time, I must disagree, and I believe you know why.~
+@10000062 = /* Dusk */ ~I understand. You are referring to Mielikki.~
+@10000063 = /* Sirene */ ~Indeed. During this time, you have openly embraced the Forest Queen.~
+@10000064 = /* Dusk */ ~Not so openly, Sirene. I do not think I am one to shout my devotion to the daughter of Silvanus from the rooftops. Nevertheless, I take your point.~
+@10000065 = /* Sirene */ ~I thought you were not a very spiritual man.~
+@10000066 = /* Dusk */ ~The orb... it has changed me, it is true. It has shown me who I truly am, and all of this is thanks to everything I have experienced leading up to Athkatla. <CHARNAME>, Falon, you. I believe that, in a sense, everything was connected so that we would reach this precise moment and these precise words.~
+@10000067 = /* Sirene */ ~It makes sense, now that you put it that way.~
+@10000068 = /* Sirene */ ~You know, Dusk?~
+@10000069 = /* Dusk */ ~Yes?~
+@10000070 = /* Sirene */ ~Faith suits you well.~
+
+// Dusk Evil
+@10000071 = /* Dusk */ ~You waste too much time trying to hide what you are, Sirene. I have seen what you are capable of. Why conceal your glorious power from the fools around us? Power is all that matters, and you possess it.~
+@10000072 = /* Sirene */ ~Power? Dusk, that has never interested me. And I do what I do so as not to cause trouble for <CHARNAME>.~
+@10000073 = /* Dusk */ ~*laughs* Are you joking? Trouble always haunts <CHARNAME>, regardless of what he do. Such is the fate of those who radiate power from their very fingertips. You, <CHARNAME>, and those who travel with us should know that.~ ~*laughs* Are you joking? Trouble always haunts <CHARNAME>, regardless of what she do. Such is the fate of those who radiate power from their very fingertips. You, <CHARNAME>, and those who travel with us should know that.~
+@10000074 = /* Sirene */ ~No... I cannot accept that. What has happened to you...? You have changed... too much.~
+@10000075 = /* Dusk */ ~For the better, Sirene. I am a superior version of the man I once was. Vengeance is on my side.~
+@10000076 = /* Sirene */ ~No, Dusk... you may be stronger, you may be capable of taking revenge on those who have wronged you... but you are not better than you were when I first met you.~
+@10000077 = /* Sirene */ ~The man from Cormyr, despite being flawed, had a genuine thirst for justice.~
+@10000078 = /* Dusk */ ~Justice? Do not speak nonsense, Sirene. Justice has led me nowhere. Everyone I ever loved now lies dead... Love... it makes you weak. Power cannot afford weakness; otherwise, death is the only possible outcome.~
+@10000079 = /* Sirene */ ~I know you do not believe that, Dusk. I know that deep down you are still the same man who sought justice for those who died at Irenicus's hands in the Promenade. You can be that man again.~
+@10000080 = /* Dusk */ ~No. N-no, Sirene... I have gone too far to turn back. It is already too late... it is too late for me.~
+@10000081 = /* Sirene */ ~No, Dusk. It is never too late. I hope that one day you will realize that...~
+
+// Fall 1
+@10000082 = /* Fall */ ~Oh, Sirene, your skill in melee combat is truly remarkable.~
+@10000083 = /* Sirene */ ~I thank you for your words, Fall. I must also thank you for covering me with your bolts while I am on the front lines. Your assistance is most welcome.~
+@10000084 = /* Fall */ ~Thank you. *blushes* I do what I can.~
+@10000085 = /* Sirene */ ~How is it that you have such fine aim? Such a thing requires years of practice.~
+@10000086 = /* Fall */ ~My father taught me everything I know about crossbows and ranged attacks. He was a great ranger from Imnescar.~
+@10000087 = /* Sirene */ ~Not many fathers are willing to teach the art of war to their daughters. You must be very proud of him.~
+@10000088 = /* Fall */ ~I am. I miss him dearly, to tell the truth. I try to honor him with every shot I take.~
+@10000089 = /* Sirene */ ~And you have been doing so perfectly, Fall. He would be very proud of you.~
+@10000090 = /* Fall */ ~Thank you, Sirene. That means a great deal to me.~
+
+// Fall 2
+@10000091 = /* Sirene */ ~Your dress is very beautiful, Fall. Despite appearing to be a simple robe, I can perceive a certain power within it. It is magical, is it not?~
+@10000092 = /* Fall */ ~It is, Sirene. It was embroidered by elven artisans and imbued with my mother's power. It has served its purpose, for now.~
+@10000093 = /* Sirene */ ~I like it. It teaches you that one should not judge something solely by its appearance. Something can appear exceedingly delicate and yet be as hard as stone.~
+@10000094 = /* Fall */ ~I had not thought of it that way. I appreciate the perspective.~
+
+// Fall 3
+@10000095 = /* Sirene */ ~I admire the love you have for your summons, Fall. Many treat them as mere fodder and forget that they are truly sentient beings.~
+@10000096 = /* Fall */ ~I try to do as my parents taught me, Sirene. These years I have learned too much about the Astral Plane to ignore the integrity of its inhabitants.~
+@10000097 = /* Fall */ ~Furthermore, some of my summons were born in the Material Plane. My wolves, for instance.~
+@10000098 = /* Fall */ ~Daren and Sinna lived with me in Imnescar before the spider attack. I have watched them grow, and they remain an important part of my life.~
+@10000099 = /* Sirene */ ~Yes. Your wolves are brave warriors, Fall. It is an honor to fight alongside them on the front lines.~
+@10000100 = /* Fall */ ~I know they cannot die permanently as long as they are summons from the Astral Plane... but I am always grateful that you are there to fight beside them, caring even for their well-being.~
+@10000101 = /* Sirene */ ~It is my pleasure, Fall. Everyone deserves compassion, even the creatures we summon from other planes.~
 
 
+// Cho'Nuja
+@10000102 = /* Cho'Nuja */ ~Female, why do you strive so hard to hide your scars? They should be a source of pride.~
+@10000103 = /* Sirene */ ~General... I—I would rather not speak of it.~
+@10000104 = /* Cho'Nuja */ ~Why not? I thought you soft-skins enjoyed speaking of your feelings.~
+@10000105 = /* Sirene */ ~It is... I do not think you would understand. Many of my scars represent painful moments... failures, lost battles.~
+@10000106 = /* Cho'Nuja */ ~I understand what you speak of, female. I have seen how you fight, and I must insist they should be reasons for pride. Your scars brought you to this moment, did they not?~
+@10000107 = /* Cho'Nuja */ ~<CHARNAME> has chosen you as a companion, and I see it is because of your strength.~
+@10000108 = /* Cho'Nuja */ ~In Dreach-naga, you would be a respected queen, and all would admire your scars.~
+@10000109 = /* Sirene */ ~Oh, thank you for your words, General.~
+@10000110 = /* Cho'Nuja */ ~Even many males would be willing to devour one another for the chance to be your consort.~
+@10000111 = /* Sirene */ ~*ahem* Well, I do not think I would want them to do that. *smiles* Still, thank you for your words.~
+
+
+// Alendir
+@10000112 = /* Alendir */ ~Why have you been watching me with such compassion for so long, little one? It is... rather annoying.~
+@10000113 = /* Sirene */ ~I—I am sorry, Alendir. It is just... it is good to see you alive once more.~
+@10000114 = /* Alendir */ ~Hm. That is not something I expected to hear. Not long ago, I was your enemy.~
+@10000115 = /* Sirene */ ~Yes, but it is precisely because of the courage you showed in doing what was right that you are alive again. I only hope you continue to do what is right.~
+@10000116 = /* Alendir */ ~Interesting. I detect no sarcasm or threat in your tone. I am beginning to like you, girl.~
+@10000117 = /* Sirene */ ~You may call me Sirene, Alendir.~
+@10000118 = /* Alendir */ ~*snort* Fine, fine. I shall try to remember it.~
+
+
+@10000119 = ~Cloak of Ilmater's Perseverance~
+@10000120 = ~This garment seems to possess a will of its own, hardening just before an impact to absorb the punishment that would otherwise wound its wearer. Furthermore, it grants the wearer the ability to Heal a target of their choice.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +3
+
+Charge abilities:
+– Heal (once per day)
+
+Weight: 10
+~
+
+@10000121 = ~Sirene~
+
+// Michelson Sirene's Item
+@10000122 = ~(Michelson pulls a somewhat dusty cloak from the cargo. He shakes it, completely removing the dust, and the garment seems to glow with an almost subtle brilliance. He approaches Sirene and hands it to her solemnly.)~
+@10000123 = ~Thank you, good Michelson. It is beautiful. I... I can feel its divine power in its very weight. I shall put it to good use, I assure you.~
+
+// Danctian Sirene's Item
+@10000124 = ~Sirene, the abyssal creature who fervently follows the Crying God. I shall never be able to comprehend your choice, but if you stand with <CHARNAME> and Dusk, I respect you. For you, I have obtained this sacred cloak that shall protect you in the most adverse moments.~
+@10000125 = ~I... I have my reservations. But I accept it. The moment I perceive any hint of treachery, I will not hesitate to cast it aside, Danctian.~
+
+
+// Sirene thoughts
+@10000126 = ~What do you think of Dusk?~
+@10000127 = ~What do you think of Fall?~
+@10000128 = ~What do you think of Cho'Nuja?~
+@10000129 = ~What do you think of Alendir?~
+
+// Dusk Neutral/Good
+@10000130 = ~He is a great warrior, one who shares my views on justice.~
+
+// Dusk Evil
+@10000131 = ~Dusk has changed a great deal. And not for the better, I fear. I hope that he may yet find again the path he once walked.~
+
+// Fall
+@10000132 = ~She is a remarkable crossbowwoman, a lover of nature and her animals. Her heart is in the right place.~
+
+// Cho'Nuja
+@10000133 = ~The General is an exceptional combatant, though I still do not fully comprehend his way of being or his customs.~
+
+// Alendir
+@10000134 = ~I believe Alendir has changed for the better, even if he is loath to admit it. The second chance Mystra granted him is something that, despite his age, has caused him to reconsider his destiny.~
+
+// HUBELPOT CROSSMOD
+// DUSK NEUTRAL
+@10000135 = ~So, Hubelpot, why are you so certain that trading vegetables is what suits me best?~
+@10000136 = ~Young Dusk, the greens be somethin' Ah hae great knowledge o', an' Ah can pass it tae ye so ye can keep it alive fer generations tae come.~
+@10000137 = ~Well, that wasn't exactly my idea. I was more interested in the trade of artifacts, much like Ribald does.~
+@10000138 = ~Ribald be naught but a refined elf. Ye be meant fer more than that, young Dusk.~
+@10000139 = ~Hm... even so, I shall give it some thought, good Hubelpot.~
+@10000140 = ~Mebbe Ah can convince ye with a fine soup o' tomatoes an' 'sparagus. Ye'll soon see that nae everyone needs "fine artifacts," but they surely need a belly full o' good food.~
+@10000141 = ~*smiles* Thank you, Hubelpot. I am certain it will be delicious.~
+
+// DUSK GOOD
+@10000151 = ~Hubelpot, I must say that your devotion to Chauntea is quite inspiring.~
+@10000152 = ~Inspirin'? Ah must confess 'tis the first time anyone's said such a thin' tae old Hubelpot. While 'tis—an' Ah dinnae mean tae brag—normal fer folks tae praise mah cookin', 'tis rare fer me tae be praised fer aught else but mah culinary arts.~
+@10000153 = ~The spiritual life should not be complex, nor reserved for a select few. What you do is, in my view, the proper form of divine worship.~
+@10000154 = ~Well, Ah do what Ah can wi' the little Ah hae. Ah must say, our good leader <CHARNAME> has a peculiar way o' doin' thin's, an' much o' what Ah see be new tae me. But mah love fer the Lady o' All Thin's tha' Grow goes back a long time, aye.~
+@10000155 = ~A blessing can be found in the simplest of meals, can it not?~
+@10000156 = ~Now ye're talkin', good Dusk! Come now, what'll ye hae? Think o' it as a thanks fer all those bruises ye get by chargin' tae the front o' the battle, eh?~
+@10000157 = ~*laughs* Whatever you choose to prepare will be fine, Hubelpot.~
+
+// DUSK EVIL
+@10000158 = ~I have told you several times now, Hubelpot. I am not old. My white hair is not due to age (at least, I don't think so).~
+@10000159 = ~Look, Dusk. Ye hae naught tae be ashamed o', ye know? When a man starts gettin' on in years, he starts tae notice certain changes in his body. Look at good ol' Hubelpot here; mah own hair took a permanent holiday.~
+@10000160 = ~*sighs* We are not even close to the same age, old man. My change is due to the Scarlet Orb of Pandemonium. Yours is more a matter of... I don't know, the sedentary life of a greengrocer.~
+@10000161 = ~Everyone thinks that, mah good ol' friend Dusk, but the truth be tha' time catches up tae us all, an' ye'll nae be the one tae be immune tae it, ye know? Now tha' Ah think on it, havin' white hair be better than havin' naught at all.~
+@10000162 = ~Hmpf. Whatever you say, old man.~
+
+// FALL 1
+@10000163 = ~Are you certain, Hubelpot?~
+@10000164 = ~Ah'm tellin' ye, lass, the rabbits Ah can summon be naught but creatures from what ye call the Alley Plane.~
+@10000165 = ~Astral Plane.~
+@10000166 = ~Well, they be much the same tae me. Mah point be tha' yer wolves can hunt 'em an' they wilnae die, since Ah can always call 'em back again, ye know?~
+@10000167 = ~Hm. Well, we shall do as you say and see how it goes, then.~
+@10000168 = ~Grand! Ah'm gettin' used tae seein' yer furry friends in action, ye know?~
+
+// FALL 2
+@10000169 = ~Lass! Remember tae eat all yer carrots next time. Ye know what Ah told ye. They be good fer the eyes, an' ye need good eyes if ye want tae keep shootin' wild wi' tha' crossbow o' yers.~
+@10000170 = ~*sighs* Is it really necessary, Uncle Hubelpot?~
+@10000171 = ~Listen tae me! Do ye nae like how Ah prepare mah stews?~
+@10000172 = ~The truth is, you are a great cook. And yes, it's better to have a full belly when it's time to fight. Verily, Uncle Hubelpot, I'll listen to you.~
+@10000173 = ~Tha's mah girl. Do as Ah say an' Ah'll reward ye wi' a fine dessert: honey and almond biscuits.~
+@10000174 = ~Oh, that sounds delicious!~
+
+// Cho'Nuja
+@10000175 = ~I tell you true, my furry friend. There are no greengrocers or cooks in Dreach-naga. Our prey, for the most part, is devoured swiftly and fresh.~
+@10000176 = ~Well now, mah good old general, ye hae nae idea what ye be missin'. Do ye hae any notion o' the delicacy tha' be frogs rolled in flour an' egg, fried in butter an' seasoned wi' garlic, wine, an' fine herbs?~
+@10000177 = ~I have no idea what you are talking about.~
+@10000178 = ~Ye'll soon see. When Ah can, Ah'll prepare ye a dish fit fer kings. Lizard kings, tha' is! *laughs*~
+@10000179 = ~Very well, human. I shall look forward to the result of your exotic labor.~
+
+// Alendir
+@10000180 = ~I shall never understand how you have come so far, human.~
+@10000181 = ~Well, if we be honest, mysterious elf, Ah dinnae understand how ye returned tae life neither. But this be a strange an' magical world, so much tha' Mystra saw fit tae bring ye back. Ah wonder if Chauntea would do the same fer good ol' Hubelpot.~
+@10000182 = ~Some time ago, I would have said no and made some comment about your poor condition as a greengrocer and a human. But today... I would not know how to answer you.~
+@10000183 = ~Be tha' as it may, good ol' Mystra took all yer wrinkles away. What Ah wouldn't give tae hae mah hair back. Well, in truth, Ah think Ah prefer a life o' peace an' stability. Wi' hair, mind ye, tha' would be grand.~
+@10000184 = ~There are wigs, you know?~
+@10000185 = ~Nah, too much gold. Ah dinnae know if mah wife would accept it.~
+@10000186 = ~I think I understand...~
+
+// Dusk Quest 3 - Alabarza's fight
+@10000187 = ~Ah reckon Ah can more or less understand Dusk's mood. I mean, all this business o' vengeance an' justice has gone an' turned his hair white. Ah wish Ah had such a problem, but as ye can see, mah own hair left me long ago, thanks tae time an' those hard days on the farm. Well, best keep mah wits about me so we can finish this soon.~
+
+// Dusk Quest 2 - Decision
+@10000188 = ~Ah, all this guessin' gives me a headache. Ah couldn't rightly say, good Dusk. But if ye can avoid a fight, then avoid it. These creatures dinnae seem like bad sorts tae me, so Ah'll leave it tae yer judgment.~
+
+// Michelson Joke interaction
+@10000189 = ~Haha! Tha' was a good one, <CHARNAME>. Ah didn't expect ye tae hae such a fine sense o' humor. This calls fer a proper snack!~
+
+// The Order of Mages Battle (Demolisher)
+@10000190 = ~Ah dinnae understand all this magic business, nor do Ah care fer it. Well done, mah furry friend Demolisher! Ye hae the help o' good Chauntea through this humble servant. Ah cannae wait tae celebrate wi' a fine corn soup.~
+
+// The Order of Mages Battle (Danctian)
+@10000191 = ~Ah dinnae understand all this magic business, nor do Ah care fer it. Ah dinnae understand this shadow-fellow neither. Still, ye hae the help o' good Chauntea through this humble servant. Ah cannae wait tae celebrate wi' a fine corn soup.~
+
+// Voragor
+@10000192 = ~All Ah can say is tha' Ah've never cooked a basilisk before, <CHARNAME>. Mebbe somethin' good can be made o' its meat, an' its scales might be useful fer yer needs. Though if ye want tae avoid the fight, by Chauntea, ye'll hear nae complaints from mah side.~
+
+// Morgrath's Final Battle
+@10000193 = ~Ah've dealt wi' pests in mah harvest before, believe me. But Ah'm up tae mah bald head wi' this cursed spider! 'Tis time tae root it out, an' ye'll see how Chauntea blesses the land it has fouled wi' its filth.~
+
+// Icelock battle
+@10000194 = ~Is this the weather tha' awaits Athkatla if we let this giant win? 'Tis nae good fer the crops, <CHARNAME> *shakes his head* Nope, nope. 'Tis better tae put all our effort into gettin' rid o' tha' thin'.~
+
+@10000195 = ~Magic Berries~
+@10000196 = ~The berries you hold in your hands look common enough; however, considering where they come from, one should be very careful before eating them. They will only have a magical effect on Hubelpot.
+
+STATISTICS:
+
+Special Ability: Learn "Shapeshift: Alaghi" permanently (3 times per day)
+Weight: 1 lb.~
+
+@10000197 = ~Shapeshift: Alaghi~
+@10000198 = ~Shapeshift: Alaghi
+
+Level: Innate
+Sphere: Transmutation
+Range: The Druid
+Duration: 5 turns
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: None 
+
+The druid transforms into a powerful Alaghi warrior, gaining bonuses to Strength, Dexterity, and Constitution at the cost of Charisma. The Alaghi's attacks have a chance to paralyze the opponent.
+
+Abilities:
+- Strength: +10 bonus
+- Dexterity: +10 bonus
+- Constitution: +10 bonus
+- Charisma: -5 penalty
+- Paralysis: Each attack has a 15% chance to Stun the opponent for 6 seconds.
+
+STATISTICS:
+
+THAC0: +5 bonus
+Damage: 2D4+5, +1D4 slashing damage
+Damage type: Crushing
+Speed Factor: 3
+Proficiency Type: Club~
+
+@10000199 = ~Hubelpot~
+
+@10000200 = ~Alaghi Might~
+@10000201 = ~Alaghi Might
+
+While the druid is shapeshifted into this powerful beast, he gains combat bonuses and the ability to paralyze his enemies.
+
+STATISTICS:
+
+Special Abilities:
+
+- Paralysis: Each attack has a 15% chance to Stun the opponent for 6 seconds.
+
+- Damage: 2D4+5, +1D4 slashing damage
+- THAC0: +5 bonus
+- Base damage type: Crushing
+- Speed Factor: 3
+- Proficiency Type: Club~
+
+// Michelson
+@10000202 = ~(Michelson sniffs with his nose, runs toward Hubelpot, and then back to the cargo. His expression suggests he doesn't much care for the druid's scent of onions. After a few seconds of exaggerated looks of disgust, Michelson practically dives into the cargo, emerging with a handful of dusty berries. He approaches Hubelpot laughing and hands them over.)~
+@10000203 = ~What be this? They look like solik berries. They hae a sweetish smell. Well, Ah reckon ye gave 'em tae me tae eat, did ye nae, ye little rascal? Ah didn't much care fer yer look o' disgust at mah clothes, neither. Cookin' has its downsides, ye know?~
+
+// Danctian
+@10000204 = ~The merchant druid of Athkatla. Rarely does a soul abandon its status of normalcy to change the history of Faerûn alongside a demigod. Hubelpot, feed upon these berries and experience a new power, worthy of those who seek to aid powerful beings such as <CHARNAME>.~ ~The merchant druid of Athkatla. Rarely does a soul abandon its status of normalcy to change the history of Faerûn alongside a demigoddess. Hubelpot, feed upon these berries and experience a new power, worthy of those who seek to aid powerful beings such as <CHARNAME>.~
+@10000205 = ~Ah dinnae fully understand what ye be sayin', shadow-fellow. However, these berries ye're givin' me hae a lovely aroma. *sighs* Ah suppose Ah won't be able tae use 'em in any recipe Ah had in mind, seein' as they must be magical trinkets or some such. Well, Ah'll put 'em tae good use.~
+
+@10000206 = ~Magic Berries: "Shapeshift: Alaghi" learned as an innate ability (3 times per day).~
 
 // MISIÓN 1
 

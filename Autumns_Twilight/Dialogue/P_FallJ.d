@@ -561,6 +561,7 @@ I_C_T P_FALLJ 61 P_FallJ_QUEST3_ALEN_61_2
 == HEXXATJ IF ~InParty("Hexxat") InMyArea("Hexxat") !StateCheck("Hexxat",CD_STATE_NOTVALID)~ THEN @3251 /* No existe el candor en mi cuerpo, pero aún así no comparto los deseos de esta gélida criatura. Serás destruido en las sombras de este paraje. */
 == P_DUSKJ IF ~Global("P_DUSK_IS_EVIL","GLOBAL",0) InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @4004 /* ¡Es el momento de luchar, camaradas! Luchad por lo que más queráis. ¡Yo lucharé en el nombre de Cormyr! */
 == P_DUSKJ IF ~Global("P_DUSK_IS_EVIL","GLOBAL",1) InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @4005 /* Una criatura de los planos del Frío... No merece existir en nuestro Plano, <CHARNAME>. ¡Déjame que lo corte en cubitos de hielo con mi espada! */
+
 == WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @3252 /* ~(Bufido, lamento).~ */
 == P_FallJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @3253 /* No estoy muy segura de lo que dices, Wilson. Pero se nota que no disfrutas del frío de este lugar. Vamos, es hora de combatir, mi buen oso. */
 == P_ICELOC IF ~~ THEN @3254 /* Soy el guardián de Cryonax, el Príncipe del Cruel Glacial. Icelock hará de ustedes una buena ofrenda a mi señor. */ DO ~Enemy ()~

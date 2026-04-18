@@ -1,0 +1,12 @@
+// PaiNa learns Summon Scarab
+IF
+InParty(Myself)
+Global ("P_Bellfame_C0Paina1","GLOBAL",1)
+Global ("P_Bellfame_C0Paina_SummonScarab","GLOBAL",0)
+THEN
+RESPONSE #100
+ApplySpellRES ("p_paitc1", Myself)
+DisplayStringHead (Myself, @10000040) /* Pai'Na ha aprendido el conjuro de Nivel 1: Convocar escarabajo */ 
+SetGlobal ("P_Bellfame_C0Paina_SummonScarab","GLOBAL",1)
+Continue ()
+END

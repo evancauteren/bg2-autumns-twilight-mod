@@ -2,7 +2,7 @@ BACKUP ~Autumns_Twilight/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v1.4~
+VERSION ~v1.4.5~
 
 README ~Autumns_Twilight/Readme-Autumns_Twilight.txt~
 
@@ -449,6 +449,7 @@ COMPILE EVALUATE_BUFFER
 	~Autumns_Twilight/Dialogue/P_kitoch.d~
 	~Autumns_Twilight/Dialogue/p_iddx.d~
 	~Autumns_Twilight/Dialogue/p_kakuto.d~
+	~Autumns_Twilight/Dialogue/p_kakut2.d~
 	~Autumns_Twilight/Dialogue/p_beast.d~
 	~Autumns_Twilight/Dialogue/p_tabit.d~
 	~Autumns_Twilight/Dialogue/p_daren.d~
@@ -686,6 +687,7 @@ SAY NAME2 @400310 /*  */
 SAY UNIDENTIFIED_DESC @400311 /* */
 SAY DESC @400312 /* */
 SAY 0x2B6 @4002
+// ITEM USABILITY -> Para poner el texto de la usabilidad del item personalizado, usar NI e ir al apartado del efecto Restrict Item y buscar Description note (tendrá el código HEX a poner en el SAY). Recordar poner el string (campo mismo nombre) del archivo de cre file que lo utilizará. En este caso -> String P_DUSK y Description note Dusk
 
 // 1 - Espada cormyreana reforjada
 COPY ~Autumns_Twilight/Items/p_swr1.itm~ ~override~
@@ -4171,6 +4173,16 @@ SAY 80 @2 /*  */
 
 
 // v1.3
+// v1.4.5
+// Venomous Scolopendra
+COPY ~Autumns_Twilight/Characters/cre_and_portraits/p_c1sum.cre~ ~override~
+SAY NAME1 @9079211 /* Venomous Scolopendra */
+SAY NAME2 @9079211 /* Venomous Scolopendra */
+WRITE_ASCII 0x280 ~p_c1sum~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_VENOM_SCOLOPENDRA~))
+
+
+
 // Arconti
 /*
 COPY ~Autumns_Twilight/Characters/cre_and_portraits/p_arcont.cre~ ~override~
@@ -5794,12 +5806,895 @@ APPEND ~pdialog.2da~
 UNLESS ~P_Alen~
 IF ~25POST~
 
-// TEST Crossmods
+// Crossmods
+// Wilson
 ACTION_IF FILE_EXISTS_IN_GAME ~BWILSON.dlg~ AND FILE_EXISTS_IN_GAME ~P_BDusk.dlg~
 THEN BEGIN
   PRINT ~Adding crossmod between Dusk and Wilson~
-COMPILE ~%MOD_FOLDER%/dialogue/crossmod/bwilson.d~
+COMPILE ~%MOD_FOLDER%/dialogue/crossmod/wilson/bwilson.d~
 END
+
+// SOLO Paina
+ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND !FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND !FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_BDusk.dlg~
+THEN BEGIN
+  PRINT ~Adding crossmod for Pai'Na NPC (Artisan's mod)~
+
+// Elixir
+COPY ~Autumns_Twilight/dialogue/crossmod/paina/P_PAITM1.BAM~ ~override~
+COPY ~Autumns_Twilight/dialogue/crossmod/paina/p_nbk13.itm~ ~override~
+SAY NAME2 @9079212 /* Extract of Scolopendra */
+SAY DESC @9079213 /* */
+SAY 366 @9079214 /* */
+SAY 0xd6 @9079215 /* */
+
+COPY ~Autumns_Twilight/dialogue/crossmod/paina/P_PAIT1B.BAM~ ~override~
+COPY ~Autumns_Twilight/dialogue/crossmod/paina/P_PAIT1C.BAM~ ~override~
+COPY ~Autumns_Twilight/dialogue/crossmod/paina/p_paii1.spl~ ~override~
+SAY 8 @9079216 /* Summon Venomous Scolopendra */ 
+SAY 80 @9079217 /*  */
+
+// PaiNa learns Summon Scarab
+EXTEND_BOTTOM ~C0PaiNa.bcs~ ~Autumns_Twilight/dialogue/crossmod/paina/C0PaiNa.baf~
+
+// Crossmods Dialogues
+COMPILE ~%MOD_FOLDER%/dialogue/crossmod/paina/BC0Paina.d~
+COMPILE EVALUATE_BUFFER 
+	~Autumns_Twilight/Dialogue/crossmod/paina/P_DuskJ.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/paina/p_matut.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/paina/p_belld.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/paina/p_danct2.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/paina/p_dancti.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/paina/p_demol2.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/paina/P_FallJ.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/paina/p_morgra.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/paina/p_vorag.d~
+	
+	///////////////
+	/// General////
+	///////////////
+		//~Autumns_Twilight/Dialogue/P_BDusk.d~ 
+		~Autumns_Twilight/Dialogue/P_Dusk.d~ 
+		~Autumns_Twilight/Dialogue/P_DuskP.d~ 
+		~Autumns_Twilight/Dialogue/p_jack.d~
+		~Autumns_Twilight/Dialogue/p_sayang.d~
+		~Autumns_Twilight/Dialogue/p_uma.d~
+		~Autumns_Twilight/Dialogue/p_baba.d~
+		~Autumns_Twilight/Dialogue/p_michel.d~
+		~Autumns_Twilight/Dialogue/p_demole.d~
+		~Autumns_Twilight/Dialogue/p_falon.d~
+		~Autumns_Twilight/Dialogue/p_cufati.d~
+		~Autumns_Twilight/Dialogue/p_ziben.d~
+		~Autumns_Twilight/Dialogue/p_coco.d~
+		~Autumns_Twilight/Dialogue/p_sornhi.d~
+		~Autumns_Twilight/Dialogue/p_bell2.d~
+		~Autumns_Twilight/Dialogue/p_alabar.d~
+		~Autumns_Twilight/Dialogue/p_alaba2.d~
+		~Autumns_Twilight/Dialogue/p_bob.d~
+		~Autumns_Twilight/Dialogue/p_mike.d~
+		~Autumns_Twilight/Dialogue/p_kocha.d~
+		~Autumns_Twilight/Dialogue/p_komar.d~
+		~Autumns_Twilight/Dialogue/p_xeb.d~
+		~Autumns_Twilight/Dialogue/p_toxsan.d~
+		~Autumns_Twilight/Dialogue/p_tongas.d~
+		~Autumns_Twilight/Dialogue/p_serra.d~
+		~Autumns_Twilight/Dialogue/p_huron.d~
+		~Autumns_Twilight/Dialogue/p_valata.d~
+		~Autumns_Twilight/Dialogue/p_kaland.d~
+		~Autumns_Twilight/Dialogue/p_anthag.d~
+		~Autumns_Twilight/Dialogue/p_celgh.d~
+		~Autumns_Twilight/Dialogue/p_matu2.d~
+		~Autumns_Twilight/Dialogue/p_miche2.d~
+		~Autumns_Twilight/Dialogue/p_celin.d~
+		~Autumns_Twilight/Dialogue/p_dempid.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_coc2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_cufat2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_falo2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_kayl2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_zibe2.d~    
+		//~Autumns_Twilight/Dialogue/P_BFall.d~ 
+		~Autumns_Twilight/Dialogue/P_Fall.d~ 
+		~Autumns_Twilight/Dialogue/P_FallP.d~
+		~Autumns_Twilight/Dialogue/P_andrew.d~
+		~Autumns_Twilight/Dialogue/P_alendi.d~
+		~Autumns_Twilight/Dialogue/P_kitoch.d~
+		~Autumns_Twilight/Dialogue/p_iddx.d~
+		~Autumns_Twilight/Dialogue/p_kakuto.d~
+		~Autumns_Twilight/Dialogue/p_kakut2.d~
+		~Autumns_Twilight/Dialogue/p_beast.d~
+		~Autumns_Twilight/Dialogue/p_tabit.d~
+		~Autumns_Twilight/Dialogue/p_daren.d~
+		~Autumns_Twilight/Dialogue/p_sinna.d~
+		~Autumns_Twilight/Dialogue/p_iceloc.d~
+		~Autumns_Twilight/Dialogue/p_acrull.d~
+		~Autumns_Twilight/Dialogue/p_gorm.d~
+		~Autumns_Twilight/Dialogue/p_meso.d~
+		~Autumns_Twilight/Dialogue/p_alengh.d~
+		~Autumns_Twilight/Dialogue/p_philli.d~
+		~Autumns_Twilight/Dialogue/p_vidomi.d~
+		~Autumns_Twilight/Dialogue/p_tamika.d~
+		~Autumns_Twilight/Dialogue/p_tobias.d~
+		~Autumns_Twilight/Dialogue/p_xsi.d~
+		~Autumns_Twilight/Dialogue/p_nimbus.d~
+		~Autumns_Twilight/Dialogue/p_xsirum.d~
+		~Autumns_Twilight/Dialogue/p_cho.d~
+		~Autumns_Twilight/Dialogue/p_qyl.d~
+		~Autumns_Twilight/Dialogue/p_vresh.d~
+		~Autumns_Twilight/Dialogue/p_tisiph.d~
+		~Autumns_Twilight/Dialogue/p_gass.d~
+		~Autumns_Twilight/Dialogue/p_kankra.d~
+		~Autumns_Twilight/Dialogue/p_liphix.d~
+		~Autumns_Twilight/Dialogue/p_arthro.d~
+		~Autumns_Twilight/Dialogue/p_skel.d~
+		~Autumns_Twilight/Dialogue/p_gem.d~
+		~Autumns_Twilight/Dialogue/p_gerwul.d~
+		~Autumns_Twilight/Dialogue/P_Chon.d~
+		//~Autumns_Twilight/Dialogue/P_BChon.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonJ.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonP.d~
+		~Autumns_Twilight/Dialogue/P_Alen.d~
+		//~Autumns_Twilight/Dialogue/P_BAlen.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenJ.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenP.d~
+		~Autumns_Twilight/Dialogue/P_HAKAM.d~
+
+END
+
+// SOLO Sirene
+ACTION_IF FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND !FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND !FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_BDusk.dlg~
+THEN BEGIN
+  PRINT ~Adding crossmod for Sirene NPC (Artisan's mod)~
+
+COPY ~Autumns_Twilight/dialogue/crossmod/sirene/p_nbk14.BAM~ ~override~
+COPY ~Autumns_Twilight/dialogue/crossmod/sirene/p_nbk14.itm~ ~override~
+SAY NAME2 @10000119 /* Manto de la Perseverancia de Ilmater */
+SAY DESC @10000120 /* */
+SAY 0x106 @10000121 /* Sirene */
+
+// Crossmods Dialogues
+COMPILE ~%MOD_FOLDER%/dialogue/crossmod/sirene/BC0Sire2.d~
+COMPILE EVALUATE_BUFFER 
+	~Autumns_Twilight/Dialogue/crossmod/sirene/P_DuskJ.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/sirene/p_matut.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/sirene/p_danct2.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/sirene/p_dancti.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/sirene/p_demol2.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/sirene/P_FallJ.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/sirene/p_morgra.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/sirene/p_vorag.d~ 	
+
+	~Autumns_Twilight/Dialogue/p_belld.d~
+	
+	///////////////
+	/// General////
+	///////////////
+		//~Autumns_Twilight/Dialogue/P_BDusk.d~ 
+		~Autumns_Twilight/Dialogue/P_Dusk.d~ 
+		~Autumns_Twilight/Dialogue/P_DuskP.d~ 
+		~Autumns_Twilight/Dialogue/p_jack.d~
+		~Autumns_Twilight/Dialogue/p_sayang.d~
+		~Autumns_Twilight/Dialogue/p_uma.d~
+		~Autumns_Twilight/Dialogue/p_baba.d~
+		~Autumns_Twilight/Dialogue/p_michel.d~
+		~Autumns_Twilight/Dialogue/p_demole.d~
+		~Autumns_Twilight/Dialogue/p_falon.d~
+		~Autumns_Twilight/Dialogue/p_cufati.d~
+		~Autumns_Twilight/Dialogue/p_ziben.d~
+		~Autumns_Twilight/Dialogue/p_coco.d~
+		~Autumns_Twilight/Dialogue/p_sornhi.d~
+		~Autumns_Twilight/Dialogue/p_bell2.d~
+		~Autumns_Twilight/Dialogue/p_alabar.d~
+		~Autumns_Twilight/Dialogue/p_alaba2.d~
+		~Autumns_Twilight/Dialogue/p_bob.d~
+		~Autumns_Twilight/Dialogue/p_mike.d~
+		~Autumns_Twilight/Dialogue/p_kocha.d~
+		~Autumns_Twilight/Dialogue/p_komar.d~
+		~Autumns_Twilight/Dialogue/p_xeb.d~
+		~Autumns_Twilight/Dialogue/p_toxsan.d~
+		~Autumns_Twilight/Dialogue/p_tongas.d~
+		~Autumns_Twilight/Dialogue/p_serra.d~
+		~Autumns_Twilight/Dialogue/p_huron.d~
+		~Autumns_Twilight/Dialogue/p_valata.d~
+		~Autumns_Twilight/Dialogue/p_kaland.d~
+		~Autumns_Twilight/Dialogue/p_anthag.d~
+		~Autumns_Twilight/Dialogue/p_celgh.d~
+		~Autumns_Twilight/Dialogue/p_matu2.d~
+		~Autumns_Twilight/Dialogue/p_miche2.d~
+		~Autumns_Twilight/Dialogue/p_celin.d~
+		~Autumns_Twilight/Dialogue/p_dempid.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_coc2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_cufat2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_falo2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_kayl2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_zibe2.d~    
+		//~Autumns_Twilight/Dialogue/P_BFall.d~ 
+		~Autumns_Twilight/Dialogue/P_Fall.d~ 
+		~Autumns_Twilight/Dialogue/P_FallP.d~
+		~Autumns_Twilight/Dialogue/P_andrew.d~
+		~Autumns_Twilight/Dialogue/P_alendi.d~
+		~Autumns_Twilight/Dialogue/P_kitoch.d~
+		~Autumns_Twilight/Dialogue/p_iddx.d~
+		~Autumns_Twilight/Dialogue/p_kakuto.d~
+		~Autumns_Twilight/Dialogue/p_kakut2.d~
+		~Autumns_Twilight/Dialogue/p_beast.d~
+		~Autumns_Twilight/Dialogue/p_tabit.d~
+		~Autumns_Twilight/Dialogue/p_daren.d~
+		~Autumns_Twilight/Dialogue/p_sinna.d~
+		~Autumns_Twilight/Dialogue/p_iceloc.d~
+		~Autumns_Twilight/Dialogue/p_acrull.d~
+		~Autumns_Twilight/Dialogue/p_gorm.d~
+		~Autumns_Twilight/Dialogue/p_meso.d~
+		~Autumns_Twilight/Dialogue/p_alengh.d~
+		~Autumns_Twilight/Dialogue/p_philli.d~
+		~Autumns_Twilight/Dialogue/p_vidomi.d~
+		~Autumns_Twilight/Dialogue/p_tamika.d~
+		~Autumns_Twilight/Dialogue/p_tobias.d~
+		~Autumns_Twilight/Dialogue/p_xsi.d~
+		~Autumns_Twilight/Dialogue/p_nimbus.d~
+		~Autumns_Twilight/Dialogue/p_xsirum.d~
+		~Autumns_Twilight/Dialogue/p_cho.d~
+		~Autumns_Twilight/Dialogue/p_qyl.d~
+		~Autumns_Twilight/Dialogue/p_vresh.d~
+		~Autumns_Twilight/Dialogue/p_tisiph.d~
+		~Autumns_Twilight/Dialogue/p_gass.d~
+		~Autumns_Twilight/Dialogue/p_kankra.d~
+		~Autumns_Twilight/Dialogue/p_liphix.d~
+		~Autumns_Twilight/Dialogue/p_arthro.d~
+		~Autumns_Twilight/Dialogue/p_skel.d~
+		~Autumns_Twilight/Dialogue/p_gem.d~
+		~Autumns_Twilight/Dialogue/p_gerwul.d~
+		~Autumns_Twilight/Dialogue/P_Chon.d~
+		//~Autumns_Twilight/Dialogue/P_BChon.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonJ.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonP.d~
+		~Autumns_Twilight/Dialogue/P_Alen.d~
+		//~Autumns_Twilight/Dialogue/P_BAlen.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenJ.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenP.d~
+		~Autumns_Twilight/Dialogue/P_HAKAM.d~
+
+END
+
+// SOLO Hubelpot
+ACTION_IF FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND !FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND !FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~P_BDusk.dlg~
+THEN BEGIN
+  PRINT ~Adding crossmod for Hubelpot NPC (The Vegetable Merchant)~
+
+// Crossmods Dialogues
+COMPILE ~%MOD_FOLDER%/dialogue/crossmod/hubelpot/bsc#hub.d~
+COMPILE EVALUATE_BUFFER 
+	~Autumns_Twilight/Dialogue/crossmod/hubelpot/P_DuskJ.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/hubelpot/p_matut.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/hubelpot/p_danct2.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/hubelpot/p_dancti.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/hubelpot/p_demol2.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/hubelpot/P_FallJ.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/hubelpot/p_morgra.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/hubelpot/p_vorag.d~ 	
+
+	~Autumns_Twilight/Dialogue/p_belld.d~
+	
+	///////////////
+	/// General////
+	///////////////
+		//~Autumns_Twilight/Dialogue/P_BDusk.d~ 
+		~Autumns_Twilight/Dialogue/P_Dusk.d~ 
+		~Autumns_Twilight/Dialogue/P_DuskP.d~ 
+		~Autumns_Twilight/Dialogue/p_jack.d~
+		~Autumns_Twilight/Dialogue/p_sayang.d~
+		~Autumns_Twilight/Dialogue/p_uma.d~
+		~Autumns_Twilight/Dialogue/p_baba.d~
+		~Autumns_Twilight/Dialogue/p_michel.d~
+		~Autumns_Twilight/Dialogue/p_demole.d~
+		~Autumns_Twilight/Dialogue/p_falon.d~
+		~Autumns_Twilight/Dialogue/p_cufati.d~
+		~Autumns_Twilight/Dialogue/p_ziben.d~
+		~Autumns_Twilight/Dialogue/p_coco.d~
+		~Autumns_Twilight/Dialogue/p_sornhi.d~
+		~Autumns_Twilight/Dialogue/p_bell2.d~
+		~Autumns_Twilight/Dialogue/p_alabar.d~
+		~Autumns_Twilight/Dialogue/p_alaba2.d~
+		~Autumns_Twilight/Dialogue/p_bob.d~
+		~Autumns_Twilight/Dialogue/p_mike.d~
+		~Autumns_Twilight/Dialogue/p_kocha.d~
+		~Autumns_Twilight/Dialogue/p_komar.d~
+		~Autumns_Twilight/Dialogue/p_xeb.d~
+		~Autumns_Twilight/Dialogue/p_toxsan.d~
+		~Autumns_Twilight/Dialogue/p_tongas.d~
+		~Autumns_Twilight/Dialogue/p_serra.d~
+		~Autumns_Twilight/Dialogue/p_huron.d~
+		~Autumns_Twilight/Dialogue/p_valata.d~
+		~Autumns_Twilight/Dialogue/p_kaland.d~
+		~Autumns_Twilight/Dialogue/p_anthag.d~
+		~Autumns_Twilight/Dialogue/p_celgh.d~
+		~Autumns_Twilight/Dialogue/p_matu2.d~
+		~Autumns_Twilight/Dialogue/p_miche2.d~
+		~Autumns_Twilight/Dialogue/p_celin.d~
+		~Autumns_Twilight/Dialogue/p_dempid.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_coc2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_cufat2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_falo2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_kayl2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_zibe2.d~    
+		//~Autumns_Twilight/Dialogue/P_BFall.d~ 
+		~Autumns_Twilight/Dialogue/P_Fall.d~ 
+		~Autumns_Twilight/Dialogue/P_FallP.d~
+		~Autumns_Twilight/Dialogue/P_andrew.d~
+		~Autumns_Twilight/Dialogue/P_alendi.d~
+		~Autumns_Twilight/Dialogue/P_kitoch.d~
+		~Autumns_Twilight/Dialogue/p_iddx.d~
+		~Autumns_Twilight/Dialogue/p_kakuto.d~
+		~Autumns_Twilight/Dialogue/p_kakut2.d~
+		~Autumns_Twilight/Dialogue/p_beast.d~
+		~Autumns_Twilight/Dialogue/p_tabit.d~
+		~Autumns_Twilight/Dialogue/p_daren.d~
+		~Autumns_Twilight/Dialogue/p_sinna.d~
+		~Autumns_Twilight/Dialogue/p_iceloc.d~
+		~Autumns_Twilight/Dialogue/p_acrull.d~
+		~Autumns_Twilight/Dialogue/p_gorm.d~
+		~Autumns_Twilight/Dialogue/p_meso.d~
+		~Autumns_Twilight/Dialogue/p_alengh.d~
+		~Autumns_Twilight/Dialogue/p_philli.d~
+		~Autumns_Twilight/Dialogue/p_vidomi.d~
+		~Autumns_Twilight/Dialogue/p_tamika.d~
+		~Autumns_Twilight/Dialogue/p_tobias.d~
+		~Autumns_Twilight/Dialogue/p_xsi.d~
+		~Autumns_Twilight/Dialogue/p_nimbus.d~
+		~Autumns_Twilight/Dialogue/p_xsirum.d~
+		~Autumns_Twilight/Dialogue/p_cho.d~
+		~Autumns_Twilight/Dialogue/p_qyl.d~
+		~Autumns_Twilight/Dialogue/p_vresh.d~
+		~Autumns_Twilight/Dialogue/p_tisiph.d~
+		~Autumns_Twilight/Dialogue/p_gass.d~
+		~Autumns_Twilight/Dialogue/p_kankra.d~
+		~Autumns_Twilight/Dialogue/p_liphix.d~
+		~Autumns_Twilight/Dialogue/p_arthro.d~
+		~Autumns_Twilight/Dialogue/p_skel.d~
+		~Autumns_Twilight/Dialogue/p_gem.d~
+		~Autumns_Twilight/Dialogue/p_gerwul.d~
+		~Autumns_Twilight/Dialogue/P_Chon.d~
+		//~Autumns_Twilight/Dialogue/P_BChon.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonJ.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonP.d~
+		~Autumns_Twilight/Dialogue/P_Alen.d~
+		//~Autumns_Twilight/Dialogue/P_BAlen.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenJ.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenP.d~
+		~Autumns_Twilight/Dialogue/P_HAKAM.d~
+
+END
+
+
+// MultiCrossmod 01: Pai'Na y Sirene (Sin Hubelpot)
+ACTION_IF FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND !FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_BDusk.dlg~
+THEN BEGIN
+  PRINT ~Adding crossmod for Sirene and Pai'Na NPCs (Artisan's mod)~
+
+COPY ~Autumns_Twilight/dialogue/crossmod/sirene/p_nbk14.BAM~ ~override~
+COPY ~Autumns_Twilight/dialogue/crossmod/sirene/p_nbk14.itm~ ~override~
+SAY NAME2 @10000119 /* Manto de la Perseverancia de Ilmater */
+SAY DESC @10000120 /* */
+SAY 0x106 @10000121 /* Sirene */
+
+// Elixir
+COPY ~Autumns_Twilight/dialogue/crossmod/paina/P_PAITM1.BAM~ ~override~
+COPY ~Autumns_Twilight/dialogue/crossmod/paina/p_nbk13.itm~ ~override~
+SAY NAME2 @9079212 /* Extract of Scolopendra */
+SAY DESC @9079213 /* */
+SAY 366 @9079214 /* */
+SAY 0xd6 @9079215 /* */
+
+COPY ~Autumns_Twilight/dialogue/crossmod/paina/P_PAIT1B.BAM~ ~override~
+COPY ~Autumns_Twilight/dialogue/crossmod/paina/P_PAIT1C.BAM~ ~override~
+COPY ~Autumns_Twilight/dialogue/crossmod/paina/p_paii1.spl~ ~override~
+SAY 8 @9079216 /* Summon Venomous Scolopendra */ 
+SAY 80 @9079217 /*  */
+
+// PaiNa learns Summon Scarab
+EXTEND_BOTTOM ~C0PaiNa.bcs~ ~Autumns_Twilight/dialogue/crossmod/paina/C0PaiNa.baf~
+
+// Crossmods Dialogues
+COMPILE ~%MOD_FOLDER%/dialogue/crossmod/paina/BC0Paina.d~
+~%MOD_FOLDER%/dialogue/crossmod/sirene/BC0Sire2.d~
+
+COMPILE EVALUATE_BUFFER 
+	// Multi_1
+	~Autumns_Twilight/Dialogue/crossmod/multi/1_paina_sirene/P_DuskJ.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/multi/1_paina_sirene/p_matut.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/multi/1_paina_sirene/p_danct2.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/multi/1_paina_sirene/p_dancti.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/multi/1_paina_sirene/p_demol2.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/multi/1_paina_sirene/P_FallJ.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/multi/1_paina_sirene/p_morgra.d~ 
+	~Autumns_Twilight/Dialogue/crossmod/multi/1_paina_sirene/p_vorag.d~
+	// Paina
+	~Autumns_Twilight/Dialogue/crossmod/paina/p_belld.d~
+
+	///////////////
+	/// General////
+	///////////////
+		//~Autumns_Twilight/Dialogue/P_BDusk.d~ 
+		~Autumns_Twilight/Dialogue/P_Dusk.d~ 
+		~Autumns_Twilight/Dialogue/P_DuskP.d~ 
+		~Autumns_Twilight/Dialogue/p_jack.d~
+		~Autumns_Twilight/Dialogue/p_sayang.d~
+		~Autumns_Twilight/Dialogue/p_uma.d~
+		~Autumns_Twilight/Dialogue/p_baba.d~
+		~Autumns_Twilight/Dialogue/p_michel.d~
+		~Autumns_Twilight/Dialogue/p_demole.d~
+		~Autumns_Twilight/Dialogue/p_falon.d~
+		~Autumns_Twilight/Dialogue/p_cufati.d~
+		~Autumns_Twilight/Dialogue/p_ziben.d~
+		~Autumns_Twilight/Dialogue/p_coco.d~
+		~Autumns_Twilight/Dialogue/p_sornhi.d~
+		~Autumns_Twilight/Dialogue/p_bell2.d~
+		~Autumns_Twilight/Dialogue/p_alabar.d~
+		~Autumns_Twilight/Dialogue/p_alaba2.d~
+		~Autumns_Twilight/Dialogue/p_bob.d~
+		~Autumns_Twilight/Dialogue/p_mike.d~
+		~Autumns_Twilight/Dialogue/p_kocha.d~
+		~Autumns_Twilight/Dialogue/p_komar.d~
+		~Autumns_Twilight/Dialogue/p_xeb.d~
+		~Autumns_Twilight/Dialogue/p_toxsan.d~
+		~Autumns_Twilight/Dialogue/p_tongas.d~
+		~Autumns_Twilight/Dialogue/p_serra.d~
+		~Autumns_Twilight/Dialogue/p_huron.d~
+		~Autumns_Twilight/Dialogue/p_valata.d~
+		~Autumns_Twilight/Dialogue/p_kaland.d~
+		~Autumns_Twilight/Dialogue/p_anthag.d~
+		~Autumns_Twilight/Dialogue/p_celgh.d~
+		~Autumns_Twilight/Dialogue/p_matu2.d~
+		~Autumns_Twilight/Dialogue/p_miche2.d~
+		~Autumns_Twilight/Dialogue/p_celin.d~
+		~Autumns_Twilight/Dialogue/p_dempid.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_coc2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_cufat2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_falo2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_kayl2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_zibe2.d~    
+		//~Autumns_Twilight/Dialogue/P_BFall.d~ 
+		~Autumns_Twilight/Dialogue/P_Fall.d~ 
+		~Autumns_Twilight/Dialogue/P_FallP.d~
+		~Autumns_Twilight/Dialogue/P_andrew.d~
+		~Autumns_Twilight/Dialogue/P_alendi.d~
+		~Autumns_Twilight/Dialogue/P_kitoch.d~
+		~Autumns_Twilight/Dialogue/p_iddx.d~
+		~Autumns_Twilight/Dialogue/p_kakuto.d~
+		~Autumns_Twilight/Dialogue/p_kakut2.d~
+		~Autumns_Twilight/Dialogue/p_beast.d~
+		~Autumns_Twilight/Dialogue/p_tabit.d~
+		~Autumns_Twilight/Dialogue/p_daren.d~
+		~Autumns_Twilight/Dialogue/p_sinna.d~
+		~Autumns_Twilight/Dialogue/p_iceloc.d~
+		~Autumns_Twilight/Dialogue/p_acrull.d~
+		~Autumns_Twilight/Dialogue/p_gorm.d~
+		~Autumns_Twilight/Dialogue/p_meso.d~
+		~Autumns_Twilight/Dialogue/p_alengh.d~
+		~Autumns_Twilight/Dialogue/p_philli.d~
+		~Autumns_Twilight/Dialogue/p_vidomi.d~
+		~Autumns_Twilight/Dialogue/p_tamika.d~
+		~Autumns_Twilight/Dialogue/p_tobias.d~
+		~Autumns_Twilight/Dialogue/p_xsi.d~
+		~Autumns_Twilight/Dialogue/p_nimbus.d~
+		~Autumns_Twilight/Dialogue/p_xsirum.d~
+		~Autumns_Twilight/Dialogue/p_cho.d~
+		~Autumns_Twilight/Dialogue/p_qyl.d~
+		~Autumns_Twilight/Dialogue/p_vresh.d~
+		~Autumns_Twilight/Dialogue/p_tisiph.d~
+		~Autumns_Twilight/Dialogue/p_gass.d~
+		~Autumns_Twilight/Dialogue/p_kankra.d~
+		~Autumns_Twilight/Dialogue/p_liphix.d~
+		~Autumns_Twilight/Dialogue/p_arthro.d~
+		~Autumns_Twilight/Dialogue/p_skel.d~
+		~Autumns_Twilight/Dialogue/p_gem.d~
+		~Autumns_Twilight/Dialogue/p_gerwul.d~
+		~Autumns_Twilight/Dialogue/P_Chon.d~
+		//~Autumns_Twilight/Dialogue/P_BChon.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonJ.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonP.d~
+		~Autumns_Twilight/Dialogue/P_Alen.d~
+		//~Autumns_Twilight/Dialogue/P_BAlen.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenJ.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenP.d~
+		~Autumns_Twilight/Dialogue/P_HAKAM.d~
+
+END
+
+// MultiCrossmod 02: Pai'Na y Hubelpot (SIN Sirene)
+ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND !FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~P_BDusk.dlg~
+THEN BEGIN
+    PRINT ~Adding crossmod for Pai'Na (Artisan's mod) and Hubelpot (The Vegetable Merchant)~
+
+    // --- CONTENIDO TÉCNICO DE PAI'NA ---
+    // Elixir
+    COPY ~Autumns_Twilight/dialogue/crossmod/paina/P_PAITM1.BAM~ ~override~
+    COPY ~Autumns_Twilight/dialogue/crossmod/paina/p_nbk13.itm~ ~override~
+        SAY NAME2 @9079212 /* Extract of Scolopendra */
+        SAY DESC @9079213
+        SAY 366 @9079214
+        SAY 0xd6 @9079215
+
+    COPY ~Autumns_Twilight/dialogue/crossmod/paina/P_PAIT1B.BAM~ ~override~
+    COPY ~Autumns_Twilight/dialogue/crossmod/paina/P_PAIT1C.BAM~ ~override~
+    COPY ~Autumns_Twilight/dialogue/crossmod/paina/p_paii1.spl~ ~override~
+        SAY 8 @9079216 /* Summon Venomous Scolopendra */ 
+        SAY 80 @9079217
+
+    // PaiNa learns Summon Scarab (Script)
+    EXTEND_BOTTOM ~C0PaiNa.bcs~ ~Autumns_Twilight/dialogue/crossmod/paina/C0PaiNa.baf~
+
+    // --- COMPILACIÓN DE DIÁLOGOS ---
+    
+    // Diálogos base de los NPCs (Banter/Joinable base)
+    COMPILE ~%MOD_FOLDER%/dialogue/crossmod/paina/BC0Paina.d~
+            ~%MOD_FOLDER%/dialogue/crossmod/hubelpot/bsc#hub.d~
+
+    COMPILE EVALUATE_BUFFER 
+        // Usamos la carpeta que acabas de crear para el Multi 2
+        ~Autumns_Twilight/Dialogue/crossmod/multi/2_paina_hubelpot/P_DuskJ.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/2_paina_hubelpot/p_matut.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/2_paina_hubelpot/p_danct2.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/2_paina_hubelpot/p_dancti.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/2_paina_hubelpot/p_demol2.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/2_paina_hubelpot/P_FallJ.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/2_paina_hubelpot/p_morgra.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/2_paina_hubelpot/p_vorag.d~
+        
+        // El de Pai'Na que es especial
+        ~Autumns_Twilight/Dialogue/crossmod/paina/p_belld.d~
+
+	///////////////
+	/// General////
+	///////////////
+		//~Autumns_Twilight/Dialogue/P_BDusk.d~ 
+		~Autumns_Twilight/Dialogue/P_Dusk.d~ 
+		~Autumns_Twilight/Dialogue/P_DuskP.d~ 
+		~Autumns_Twilight/Dialogue/p_jack.d~
+		~Autumns_Twilight/Dialogue/p_sayang.d~
+		~Autumns_Twilight/Dialogue/p_uma.d~
+		~Autumns_Twilight/Dialogue/p_baba.d~
+		~Autumns_Twilight/Dialogue/p_michel.d~
+		~Autumns_Twilight/Dialogue/p_demole.d~
+		~Autumns_Twilight/Dialogue/p_falon.d~
+		~Autumns_Twilight/Dialogue/p_cufati.d~
+		~Autumns_Twilight/Dialogue/p_ziben.d~
+		~Autumns_Twilight/Dialogue/p_coco.d~
+		~Autumns_Twilight/Dialogue/p_sornhi.d~
+		~Autumns_Twilight/Dialogue/p_bell2.d~
+		~Autumns_Twilight/Dialogue/p_alabar.d~
+		~Autumns_Twilight/Dialogue/p_alaba2.d~
+		~Autumns_Twilight/Dialogue/p_bob.d~
+		~Autumns_Twilight/Dialogue/p_mike.d~
+		~Autumns_Twilight/Dialogue/p_kocha.d~
+		~Autumns_Twilight/Dialogue/p_komar.d~
+		~Autumns_Twilight/Dialogue/p_xeb.d~
+		~Autumns_Twilight/Dialogue/p_toxsan.d~
+		~Autumns_Twilight/Dialogue/p_tongas.d~
+		~Autumns_Twilight/Dialogue/p_serra.d~
+		~Autumns_Twilight/Dialogue/p_huron.d~
+		~Autumns_Twilight/Dialogue/p_valata.d~
+		~Autumns_Twilight/Dialogue/p_kaland.d~
+		~Autumns_Twilight/Dialogue/p_anthag.d~
+		~Autumns_Twilight/Dialogue/p_celgh.d~
+		~Autumns_Twilight/Dialogue/p_matu2.d~
+		~Autumns_Twilight/Dialogue/p_miche2.d~
+		~Autumns_Twilight/Dialogue/p_celin.d~
+		~Autumns_Twilight/Dialogue/p_dempid.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_coc2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_cufat2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_falo2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_kayl2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_zibe2.d~    
+		//~Autumns_Twilight/Dialogue/P_BFall.d~ 
+		~Autumns_Twilight/Dialogue/P_Fall.d~ 
+		~Autumns_Twilight/Dialogue/P_FallP.d~
+		~Autumns_Twilight/Dialogue/P_andrew.d~
+		~Autumns_Twilight/Dialogue/P_alendi.d~
+		~Autumns_Twilight/Dialogue/P_kitoch.d~
+		~Autumns_Twilight/Dialogue/p_iddx.d~
+		~Autumns_Twilight/Dialogue/p_kakuto.d~
+		~Autumns_Twilight/Dialogue/p_kakut2.d~
+		~Autumns_Twilight/Dialogue/p_beast.d~
+		~Autumns_Twilight/Dialogue/p_tabit.d~
+		~Autumns_Twilight/Dialogue/p_daren.d~
+		~Autumns_Twilight/Dialogue/p_sinna.d~
+		~Autumns_Twilight/Dialogue/p_iceloc.d~
+		~Autumns_Twilight/Dialogue/p_acrull.d~
+		~Autumns_Twilight/Dialogue/p_gorm.d~
+		~Autumns_Twilight/Dialogue/p_meso.d~
+		~Autumns_Twilight/Dialogue/p_alengh.d~
+		~Autumns_Twilight/Dialogue/p_philli.d~
+		~Autumns_Twilight/Dialogue/p_vidomi.d~
+		~Autumns_Twilight/Dialogue/p_tamika.d~
+		~Autumns_Twilight/Dialogue/p_tobias.d~
+		~Autumns_Twilight/Dialogue/p_xsi.d~
+		~Autumns_Twilight/Dialogue/p_nimbus.d~
+		~Autumns_Twilight/Dialogue/p_xsirum.d~
+		~Autumns_Twilight/Dialogue/p_cho.d~
+		~Autumns_Twilight/Dialogue/p_qyl.d~
+		~Autumns_Twilight/Dialogue/p_vresh.d~
+		~Autumns_Twilight/Dialogue/p_tisiph.d~
+		~Autumns_Twilight/Dialogue/p_gass.d~
+		~Autumns_Twilight/Dialogue/p_kankra.d~
+		~Autumns_Twilight/Dialogue/p_liphix.d~
+		~Autumns_Twilight/Dialogue/p_arthro.d~
+		~Autumns_Twilight/Dialogue/p_skel.d~
+		~Autumns_Twilight/Dialogue/p_gem.d~
+		~Autumns_Twilight/Dialogue/p_gerwul.d~
+		~Autumns_Twilight/Dialogue/P_Chon.d~
+		//~Autumns_Twilight/Dialogue/P_BChon.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonJ.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonP.d~
+		~Autumns_Twilight/Dialogue/P_Alen.d~
+		//~Autumns_Twilight/Dialogue/P_BAlen.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenJ.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenP.d~
+		~Autumns_Twilight/Dialogue/P_HAKAM.d~
+
+END
+
+// MultiCrossmod 03: Sirene y Hubelpot (SIN Pai'Na)
+ACTION_IF FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND !FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~P_BDusk.dlg~
+THEN BEGIN
+    PRINT ~Adding crossmod for Sirene (Artisan's mod) and Hubelpot (The Vegetable Merchant)~
+
+    // --- CONTENIDO TÉCNICO DE SIRENE ---
+    COPY ~Autumns_Twilight/dialogue/crossmod/sirene/p_nbk14.BAM~ ~override~
+    COPY ~Autumns_Twilight/dialogue/crossmod/sirene/p_nbk14.itm~ ~override~
+        SAY NAME2 @10000119 /* Manto de la Perseverancia de Ilmater */
+        SAY DESC @10000120 
+        SAY 0x106 @10000121 /* Sirene */
+
+    // --- COMPILACIÓN DE DIÁLOGOS ---
+    
+    // Diálogos base (Banter/Joinable base)
+    COMPILE ~%MOD_FOLDER%/dialogue/crossmod/sirene/BC0Sire2.d~
+            ~%MOD_FOLDER%/dialogue/crossmod/hubelpot/bsc#hub.d~
+
+    COMPILE EVALUATE_BUFFER 
+        // Carpeta específica para el Multi 3
+        ~Autumns_Twilight/Dialogue/crossmod/multi/3_sirene_hubelpot/P_DuskJ.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/3_sirene_hubelpot/p_matut.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/3_sirene_hubelpot/p_danct2.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/3_sirene_hubelpot/p_dancti.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/3_sirene_hubelpot/p_demol2.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/3_sirene_hubelpot/P_FallJ.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/3_sirene_hubelpot/p_morgra.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/3_sirene_hubelpot/p_vorag.d~
+        
+        // En este caso, como no está Pai'Na, usamos el p_belld.d general
+        ~Autumns_Twilight/Dialogue/p_belld.d~
+
+	///////////////
+	/// General////
+	///////////////
+		//~Autumns_Twilight/Dialogue/P_BDusk.d~ 
+		~Autumns_Twilight/Dialogue/P_Dusk.d~ 
+		~Autumns_Twilight/Dialogue/P_DuskP.d~ 
+		~Autumns_Twilight/Dialogue/p_jack.d~
+		~Autumns_Twilight/Dialogue/p_sayang.d~
+		~Autumns_Twilight/Dialogue/p_uma.d~
+		~Autumns_Twilight/Dialogue/p_baba.d~
+		~Autumns_Twilight/Dialogue/p_michel.d~
+		~Autumns_Twilight/Dialogue/p_demole.d~
+		~Autumns_Twilight/Dialogue/p_falon.d~
+		~Autumns_Twilight/Dialogue/p_cufati.d~
+		~Autumns_Twilight/Dialogue/p_ziben.d~
+		~Autumns_Twilight/Dialogue/p_coco.d~
+		~Autumns_Twilight/Dialogue/p_sornhi.d~
+		~Autumns_Twilight/Dialogue/p_bell2.d~
+		~Autumns_Twilight/Dialogue/p_alabar.d~
+		~Autumns_Twilight/Dialogue/p_alaba2.d~
+		~Autumns_Twilight/Dialogue/p_bob.d~
+		~Autumns_Twilight/Dialogue/p_mike.d~
+		~Autumns_Twilight/Dialogue/p_kocha.d~
+		~Autumns_Twilight/Dialogue/p_komar.d~
+		~Autumns_Twilight/Dialogue/p_xeb.d~
+		~Autumns_Twilight/Dialogue/p_toxsan.d~
+		~Autumns_Twilight/Dialogue/p_tongas.d~
+		~Autumns_Twilight/Dialogue/p_serra.d~
+		~Autumns_Twilight/Dialogue/p_huron.d~
+		~Autumns_Twilight/Dialogue/p_valata.d~
+		~Autumns_Twilight/Dialogue/p_kaland.d~
+		~Autumns_Twilight/Dialogue/p_anthag.d~
+		~Autumns_Twilight/Dialogue/p_celgh.d~
+		~Autumns_Twilight/Dialogue/p_matu2.d~
+		~Autumns_Twilight/Dialogue/p_miche2.d~
+		~Autumns_Twilight/Dialogue/p_celin.d~
+		~Autumns_Twilight/Dialogue/p_dempid.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_coc2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_cufat2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_falo2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_kayl2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_zibe2.d~    
+		//~Autumns_Twilight/Dialogue/P_BFall.d~ 
+		~Autumns_Twilight/Dialogue/P_Fall.d~ 
+		~Autumns_Twilight/Dialogue/P_FallP.d~
+		~Autumns_Twilight/Dialogue/P_andrew.d~
+		~Autumns_Twilight/Dialogue/P_alendi.d~
+		~Autumns_Twilight/Dialogue/P_kitoch.d~
+		~Autumns_Twilight/Dialogue/p_iddx.d~
+		~Autumns_Twilight/Dialogue/p_kakuto.d~
+		~Autumns_Twilight/Dialogue/p_kakut2.d~
+		~Autumns_Twilight/Dialogue/p_beast.d~
+		~Autumns_Twilight/Dialogue/p_tabit.d~
+		~Autumns_Twilight/Dialogue/p_daren.d~
+		~Autumns_Twilight/Dialogue/p_sinna.d~
+		~Autumns_Twilight/Dialogue/p_iceloc.d~
+		~Autumns_Twilight/Dialogue/p_acrull.d~
+		~Autumns_Twilight/Dialogue/p_gorm.d~
+		~Autumns_Twilight/Dialogue/p_meso.d~
+		~Autumns_Twilight/Dialogue/p_alengh.d~
+		~Autumns_Twilight/Dialogue/p_philli.d~
+		~Autumns_Twilight/Dialogue/p_vidomi.d~
+		~Autumns_Twilight/Dialogue/p_tamika.d~
+		~Autumns_Twilight/Dialogue/p_tobias.d~
+		~Autumns_Twilight/Dialogue/p_xsi.d~
+		~Autumns_Twilight/Dialogue/p_nimbus.d~
+		~Autumns_Twilight/Dialogue/p_xsirum.d~
+		~Autumns_Twilight/Dialogue/p_cho.d~
+		~Autumns_Twilight/Dialogue/p_qyl.d~
+		~Autumns_Twilight/Dialogue/p_vresh.d~
+		~Autumns_Twilight/Dialogue/p_tisiph.d~
+		~Autumns_Twilight/Dialogue/p_gass.d~
+		~Autumns_Twilight/Dialogue/p_kankra.d~
+		~Autumns_Twilight/Dialogue/p_liphix.d~
+		~Autumns_Twilight/Dialogue/p_arthro.d~
+		~Autumns_Twilight/Dialogue/p_skel.d~
+		~Autumns_Twilight/Dialogue/p_gem.d~
+		~Autumns_Twilight/Dialogue/p_gerwul.d~
+		~Autumns_Twilight/Dialogue/P_Chon.d~
+		//~Autumns_Twilight/Dialogue/P_BChon.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonJ.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonP.d~
+		~Autumns_Twilight/Dialogue/P_Alen.d~
+		//~Autumns_Twilight/Dialogue/P_BAlen.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenJ.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenP.d~
+		~Autumns_Twilight/Dialogue/P_HAKAM.d~
+
+END
+
+// MultiCrossmod 04: Pai'Na + Sirene + Hubelpot
+ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_BDusk.dlg~
+THEN BEGIN
+    PRINT ~Adding crossmod for Pai'Na, Sirene and Hubelpot~
+
+    // --- CONTENIDO TÉCNICO: SIRENE ---
+    COPY ~Autumns_Twilight/dialogue/crossmod/sirene/p_nbk14.BAM~ ~override~
+    COPY ~Autumns_Twilight/dialogue/crossmod/sirene/p_nbk14.itm~ ~override~
+        SAY NAME2 @10000119 /* Manto de la Perseverancia de Ilmater */
+        SAY DESC @10000120 
+        SAY 0x106 @10000121 /* Sirene */
+
+    // --- CONTENIDO TÉCNICO: PAI'NA ---
+    COPY ~Autumns_Twilight/dialogue/crossmod/paina/P_PAITM1.BAM~ ~override~
+    COPY ~Autumns_Twilight/dialogue/crossmod/paina/p_nbk13.itm~ ~override~
+        SAY NAME2 @9079212 /* Extract of Scolopendra */
+        SAY DESC @9079213
+        SAY 366 @9079214
+        SAY 0xd6 @9079215
+
+    COPY ~Autumns_Twilight/dialogue/crossmod/paina/P_PAIT1B.BAM~ ~override~
+    COPY ~Autumns_Twilight/dialogue/crossmod/paina/P_PAIT1C.BAM~ ~override~
+    COPY ~Autumns_Twilight/dialogue/crossmod/paina/p_paii1.spl~ ~override~
+        SAY 8 @9079216 /* Summon Venomous Scolopendra */ 
+        SAY 80 @9079217
+
+    // Script de Pai'Na
+    EXTEND_BOTTOM ~C0PaiNa.bcs~ ~Autumns_Twilight/dialogue/crossmod/paina/C0PaiNa.baf~
+
+    // --- COMPILACIÓN DE DIÁLOGOS ---
+    
+    // Diálogos base de los tres NPCs
+    COMPILE ~%MOD_FOLDER%/dialogue/crossmod/paina/BC0Paina.d~
+            ~%MOD_FOLDER%/dialogue/crossmod/sirene/BC0Sire2.d~
+            ~%MOD_FOLDER%/dialogue/crossmod/hubelpot/bsc#hub.d~
+			
+
+	COMPILE EVALUATE_BUFFER 
+        // Carpeta Paina + Sirene + Hubelpot
+        ~Autumns_Twilight/Dialogue/crossmod/multi/4_paina_sirene_hubelpot/P_DuskJ.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/4_paina_sirene_hubelpot/p_matut.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/4_paina_sirene_hubelpot/p_danct2.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/4_paina_sirene_hubelpot/p_dancti.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/4_paina_sirene_hubelpot/p_demol2.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/4_paina_sirene_hubelpot/P_FallJ.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/4_paina_sirene_hubelpot/p_morgra.d~ 
+        ~Autumns_Twilight/Dialogue/crossmod/multi/4_paina_sirene_hubelpot/p_vorag.d~
+        
+        // El de Pai'Na (especial)
+        ~Autumns_Twilight/Dialogue/crossmod/paina/p_belld.d~
+	
+	///////////////
+	/// General////
+	///////////////
+		//~Autumns_Twilight/Dialogue/P_BDusk.d~ 
+		~Autumns_Twilight/Dialogue/P_Dusk.d~ 
+		~Autumns_Twilight/Dialogue/P_DuskP.d~ 
+		~Autumns_Twilight/Dialogue/p_jack.d~
+		~Autumns_Twilight/Dialogue/p_sayang.d~
+		~Autumns_Twilight/Dialogue/p_uma.d~
+		~Autumns_Twilight/Dialogue/p_baba.d~
+		~Autumns_Twilight/Dialogue/p_michel.d~
+		~Autumns_Twilight/Dialogue/p_demole.d~
+		~Autumns_Twilight/Dialogue/p_falon.d~
+		~Autumns_Twilight/Dialogue/p_cufati.d~
+		~Autumns_Twilight/Dialogue/p_ziben.d~
+		~Autumns_Twilight/Dialogue/p_coco.d~
+		~Autumns_Twilight/Dialogue/p_sornhi.d~
+		~Autumns_Twilight/Dialogue/p_bell2.d~
+		~Autumns_Twilight/Dialogue/p_alabar.d~
+		~Autumns_Twilight/Dialogue/p_alaba2.d~
+		~Autumns_Twilight/Dialogue/p_bob.d~
+		~Autumns_Twilight/Dialogue/p_mike.d~
+		~Autumns_Twilight/Dialogue/p_kocha.d~
+		~Autumns_Twilight/Dialogue/p_komar.d~
+		~Autumns_Twilight/Dialogue/p_xeb.d~
+		~Autumns_Twilight/Dialogue/p_toxsan.d~
+		~Autumns_Twilight/Dialogue/p_tongas.d~
+		~Autumns_Twilight/Dialogue/p_serra.d~
+		~Autumns_Twilight/Dialogue/p_huron.d~
+		~Autumns_Twilight/Dialogue/p_valata.d~
+		~Autumns_Twilight/Dialogue/p_kaland.d~
+		~Autumns_Twilight/Dialogue/p_anthag.d~
+		~Autumns_Twilight/Dialogue/p_celgh.d~
+		~Autumns_Twilight/Dialogue/p_matu2.d~
+		~Autumns_Twilight/Dialogue/p_miche2.d~
+		~Autumns_Twilight/Dialogue/p_celin.d~
+		~Autumns_Twilight/Dialogue/p_dempid.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_coc2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_cufat2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_falo2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_kayl2.d~
+		~Autumns_Twilight/Characters/m3good_allies/p_zibe2.d~    
+		//~Autumns_Twilight/Dialogue/P_BFall.d~ 
+		~Autumns_Twilight/Dialogue/P_Fall.d~ 
+		~Autumns_Twilight/Dialogue/P_FallP.d~
+		~Autumns_Twilight/Dialogue/P_andrew.d~
+		~Autumns_Twilight/Dialogue/P_alendi.d~
+		~Autumns_Twilight/Dialogue/P_kitoch.d~
+		~Autumns_Twilight/Dialogue/p_iddx.d~
+		~Autumns_Twilight/Dialogue/p_kakuto.d~
+		~Autumns_Twilight/Dialogue/p_kakut2.d~
+		~Autumns_Twilight/Dialogue/p_beast.d~
+		~Autumns_Twilight/Dialogue/p_tabit.d~
+		~Autumns_Twilight/Dialogue/p_daren.d~
+		~Autumns_Twilight/Dialogue/p_sinna.d~
+		~Autumns_Twilight/Dialogue/p_iceloc.d~
+		~Autumns_Twilight/Dialogue/p_acrull.d~
+		~Autumns_Twilight/Dialogue/p_gorm.d~
+		~Autumns_Twilight/Dialogue/p_meso.d~
+		~Autumns_Twilight/Dialogue/p_alengh.d~
+		~Autumns_Twilight/Dialogue/p_philli.d~
+		~Autumns_Twilight/Dialogue/p_vidomi.d~
+		~Autumns_Twilight/Dialogue/p_tamika.d~
+		~Autumns_Twilight/Dialogue/p_tobias.d~
+		~Autumns_Twilight/Dialogue/p_xsi.d~
+		~Autumns_Twilight/Dialogue/p_nimbus.d~
+		~Autumns_Twilight/Dialogue/p_xsirum.d~
+		~Autumns_Twilight/Dialogue/p_cho.d~
+		~Autumns_Twilight/Dialogue/p_qyl.d~
+		~Autumns_Twilight/Dialogue/p_vresh.d~
+		~Autumns_Twilight/Dialogue/p_tisiph.d~
+		~Autumns_Twilight/Dialogue/p_gass.d~
+		~Autumns_Twilight/Dialogue/p_kankra.d~
+		~Autumns_Twilight/Dialogue/p_liphix.d~
+		~Autumns_Twilight/Dialogue/p_arthro.d~
+		~Autumns_Twilight/Dialogue/p_skel.d~
+		~Autumns_Twilight/Dialogue/p_gem.d~
+		~Autumns_Twilight/Dialogue/p_gerwul.d~
+		~Autumns_Twilight/Dialogue/P_Chon.d~
+		//~Autumns_Twilight/Dialogue/P_BChon.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonJ.d~ 
+		~Autumns_Twilight/Dialogue/P_ChonP.d~
+		~Autumns_Twilight/Dialogue/P_Alen.d~
+		//~Autumns_Twilight/Dialogue/P_BAlen.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenJ.d~ 
+		~Autumns_Twilight/Dialogue/P_AlenP.d~
+		~Autumns_Twilight/Dialogue/P_HAKAM.d~
+		
+END
+
 
 // Hidden Adventures -> Mask Temple (Tweak) detected
 // RRSPMASK
@@ -6760,3 +7655,4 @@ WRITE_ASCII 0x2cc ~p_skel~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_skel~ #8  // small portrait
 WRITE_ASCII 0x280 ~p_skel~ #32  // Death Script
     WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_BEBILITH_NWN~))
+

@@ -751,7 +751,7 @@ EndCutSceneMode()
 Continue()
 END
 
-// FURIA por muerte de Fall
+// FURIA por muerte de Dusk
 IF
   InParty("P_Dusk") 
   !Dead("P_Dusk")

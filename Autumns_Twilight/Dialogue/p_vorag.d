@@ -117,6 +117,39 @@ IF ~~ THEN BEGIN 24 // from:
   IF ~~ THEN EXTERN ~P_KAKUTO~ 5
 END
 
+
+IF
+~RandomNum(5,1)~ THEN BEGIN 25 // from:
+  SAY @10000023 /* ~Estoy listo para ayudar a mis amigos.~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,2)~ THEN BEGIN 26 // from:
+  SAY @10000024 /* ~Lo que pidas lo haré. Después de todo, para eso están los amigos, ¿verdad?~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,3)~ THEN BEGIN 27 // from:
+  SAY @10000025 /* ~Puede que esté viejo, pero mis energías están renovadas por esta aventura de <CHARNAME> y Fall.~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,4)~ THEN BEGIN 28 // from:
+  SAY @10000026 /* ~De acuerdo, de acuerdo. Trataré de no verte fijamente, sé que temes a que te convierta en piedra. *siseo*~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,5)~ THEN BEGIN 29 // from:
+  SAY @10000027 /* ~*bostezo* No, no tengo sueño. Simplemente, estoy reacomodando mis viejos huesos.~ */
+  IF ~~ THEN EXIT
+END
+
+
+
 I_C_T P_VORAG 24 P_Fall_VORAG_KAKUT2
 == P_VORAG IF ~~ THEN @97070 /* A que es muy útil, ¿no lo crees? */
 == CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @97071 /* ~Laborioso como las hormigas es el buen Verthan. Su influjo recorre hasta estas mismas tierras subterráneas.~ */

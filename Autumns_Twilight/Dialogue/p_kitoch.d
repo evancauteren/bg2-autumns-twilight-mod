@@ -409,7 +409,38 @@ Dead("P_GORM")~ THEN BEGIN 67 // from:
   IF ~~ THEN DO ~SetGlobal("P_FallAboutGormsDeath_KitAlive","GLOBAL",2)~ EXTERN ~P_FALLJ~ 73
 END
 
-//BOTTOM
+IF
+~RandomNum(5,1)~ THEN BEGIN 68 // from:
+  SAY @10000013 /* ~*maullido* ¿Querías algo?~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,2)~ THEN BEGIN 69 // from:
+  SAY @10000014 /* ~*maullido fuerte* ¡Ahora no! ¿No ves que me estoy acicalando?~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,3)~ THEN BEGIN 70 // from:
+  SAY @10000015 /* ~*bostezo* Preferiría que no me molestes. Tenía pensado tomar una breve siesta.~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,4)~ THEN BEGIN 71 // from:
+  SAY @10000016 /* ~*ronroneo* ¿Me necesitas? Ahora estoy de buen humor, puede que cumpla tus órdenes.~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,5)~ THEN BEGIN 72 // from:
+  SAY @10000017 /* ~*maullido* Creo que mi gorro necesita una lavada...~ */
+  IF ~~ THEN EXIT
+END
+
+
+//EXTEND
 
 EXTEND_BOTTOM P_ACRULL 0
 IF ~~ EXTERN P_KITOCH p_kit1
@@ -443,6 +474,8 @@ END
 CHAIN P_KITOCH p_kit4
 @192 /* ¡Gorm! Esto es por mi amigo... ¡Al ataque! */
 EXIT
+
+
 
 
 I_C_T P_KITOCH 62 P_Fall_KITOCH_62GORMQUEST

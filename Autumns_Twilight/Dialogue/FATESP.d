@@ -19,7 +19,7 @@ SetGlobal("P_DuskSummoned","GLOBAL",1)~ GOTO 8
 END
 
 EXTEND_TOP FATESP 6 #4
-+ ~!Dead("P_Alen") !InMyArea("P_Alen") Global("P_AlenSummoned","GLOBAL",0)~ 
++ ~!Dead("P_Alen") !InMyArea("P_Alen") Global("P_YoungAlendirSpawn","GLOBAL",1) Global("P_AlenSummoned","GLOBAL",0)~ 
 + @9632 /* Tráeme a Alendir, el Maestro de la Escarcha. */
 DO ~CreateVisualEffect("SPPORTAL",[1999.1228])
 Wait(2) 
@@ -28,7 +28,7 @@ SetGlobal("P_AlenSummoned","GLOBAL",1)~ GOTO 8
 END
 
 EXTEND_TOP FATESP 6 #5
-+ ~!Dead("P_Chon") !InMyArea("P_Chon") Global("P_ChonSummoned","GLOBAL",0)~ 
++ ~!Dead("P_Chon") !InMyArea("P_Chon") Global("P_ChoCommandersSpawnPFA3B","GLOBAL",1) Global("P_ChonSummoned","GLOBAL",0)~ 
 + @9633 /* Tráeme a Cho'Nuja, el Guardián Salvaje. */
 DO ~CreateVisualEffect("SPPORTAL",[1999.1228])
 Wait(2) 

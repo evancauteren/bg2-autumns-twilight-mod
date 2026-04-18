@@ -9428,6 +9428,683 @@ Pero el buen tiefling compone belleza.~
 @979152    = ~Soldado, tu camino ha sido largo y complejo. Viajar por los planos es una proeza que pocas criaturas son capaces de lograr y tú has sido una de ellas. La decisión que tomes, creo firmemente, que será la correcta.~
 @979153    = ~He aprendido que el poder es algo que pocos son capaces de blandir, <CHARNAME>. Tú eres más que capaz de hacerlo. Por eso, tu decisión, estoy seguro, será de la más acertada.~
 
+// v1.4.5
+// PAI'NA CROSSMOD
+// Dusk Neutral
+@979154 = ~Hmpf, Pai'Na... ¿podrías comandar a tus protegidas que no se acerquen tanto a mí?~
+@979155 = ~¿Por qué? Ellas siempre se lanzan contra nuestros enemigos. Tú no les interesas.~
+@979156 = ~Lo sé, pero es que...~
+@979157 = ~*suspiro* ¿Qué pasa, humano? ¿Les temes?~
+@979158 = ~Una cosa es tener que luchar contra ellas... y otra muy diferente es tener que convivir con ellas todo el tiempo.~
+@979159 = ~*resoplido* Muy bien, trataré de que no se acerquen a ti. Sólo porque puedes lastimarlas con tu torpeza.~
+@9079160 = ~*carraspeo* Bueno, tu consideración es agradecida, Pai'Na.~
+
+// Dusk Good
+@9079161 = ~Debo decir que a medida que ha pasado el tiempo, Pai'Na, me he ido acostumbrando más y más a tus protegidas.~
+@9079162 = ~Ha tomado su tiempo, pero al menos el prejuicio a desaparecido de tu corazón, humano. Es un avance.~
+@9079163 = ~Mielikki insta a proteger la vida del bosque. A defenderla. Las arañas son parte, también, de la naturaleza.~
+@9079164 = ~Me importa poco tu dogma, humano. Sin embargo, esas palabras son sabias.~
+@9079165 = ~Puedes llamarme Dusk, Pai'Na, como lo hacen todos mis amigos.~
+@9079166 = ~*resoplido* Muy bien, Dusk será. Ahora, deja de importunarme.~
+@9079167 = ~Como desees.~
+
+// Dusk Evil
+@9079168 = ~El Pandemonium ansía aliados como tú, Pai'Na. Tus protegidas serían los depredadores naturales en vez de las víctimas que son aquí, en la tierra de los hombres.~
+@9079169 = ~¿Pandemonium? No tengo interés en un lugar así y dudo que mis protegidas lo estén.~
+@9079170 = ~¿Por qué? Piensas que no existe un lugar seguro, ¿verdad? Hay una cierta sabiduría en pensar ello. Pero en verdad te digo, los túneles y las cavernas del Pandemonium serían un hogar bienvenido por tus hijas.~
+@9079171 = ~¿Por qué insistes, hombre? Te dije que ni mis hijas ni yo estamos interesadas.~
+@9079172 = ~Piénsalo, Pai'Na. Tú y yo seríamos aliados formidables una vez que nuestro viaje con <CHARNAME> haya finalizado.~
+@9079173 = ~*resoplido* Lo dudo mucho.~
+
+// Fall 1
+@9079174 = ~Yo... No comprendo tu amor por las arañas, Pai'Na. Debe... debe ser algo inherente a los drows, imagino.~
+@9079175 = ~Semi-drow, elfa. Y no, no es porque yo sea parte drow que las arañas me atraen. Es mi deber protegerlas como Maestra del Enjambre.~
+@9079176 = ~Pues yo no soy 'elfa', Pai'Na. Soy semielfa.~
+@9079177 = ~Hmph. Como si eso me importara. ¿Piensas que eso debería hacerme congeniar contigo? Tu mezcla es aceptada, como son aceptados los elfos y humanos en casi todo Faerûn.~
+@9079178 = ~Sólo buscaba conocerte un poco más... Pero veo que eso no será tarea fácil...~
+
+// Fall 2
+@9079179 = ~He notado que no disfrutas estar cerca de mis protegidas, semielfa. Para ser una exploradora, eres decepcionante.~
+@9079180 = ~¡Cuidado con lo que insinúas, Pai'Na! Tus protegidas... lo sé... no tienen la culpa.~
+@9079181 = ~¿Y por qué habrían de tener culpa de algo? No te han hecho nada.~
+@9079182 = ~Y aún así... fueron los de su clase los que arrasaron con mi aldea.~
+@9079183 = ~¿Dices... que fueron arañas las que destruyeron un asentamiento en la superficie? Explícate.~
+@9079184 = ~Cuando era niña, vivía en Imnescar junto a mis padres y mis lobos. Rodeado por bosques, la región era protegida por druidas y exploradores... hasta que las arañas llegaron.~
+@9079185 = ~Debo... debo ser justa contigo, Pai'Na. Mi madre, una poderosa hechicera de Evereska, llegó a la conclusión que las arañas venían de otro plano, posiblemente de uno demoníaco.~
+@9079186 = ~¿Arañas demoníacas? Mi maestra me ha hablado de criaturas así. Un ejemplo claro son los bebilith. Son depredadores formidables... Es sumamente extraño que busquen atacar, de la nada, un asentamiento elfo o humano.~
+@9079187 = ~Y sin embargo, lo hicieron. Veo... veo que la historia te interesa.~
+@9079188 = ~Involucra arañas, después de todo. Por supuesto que me interesa. Sin embargo... entiendo que no es fácil para ti hablarlo. Entenderé si no quieres hacerlo, Fall.~
+@9079189 = ~No, está bien... te contaré lo que recuerdo del ataque, de la fisionomía y de las criaturas que recuerdo haber visto, Pai'Na. Puede... puede que eso nos ayude en un futuro.~
+
+// Fall 3
+@9079190 = ~Has mejorado en tu trato hacia mis protegidas, Fall. Eso es digno de respeto.~
+@9079191 = ~Supongo que hablar contigo ha hecho que mi relación con ellas sea más llevadera.~
+@9079192 = ~Serías una buena Maestra del Enjambre, mujer. Quizás debas considerar dejar de tontear con tantos lobos y osos.~
+@9079193 = ~*carraspeo* Espero que estés bromeando, Pai'Na. Jamás sería capaz de dejar a mis amados animales de lado.~
+@9079194 = ~La superioridad arácnida es evidente ante los 'peludos' que tú sueles comandar. Aunque el tiempo me ha demostrado que incluso los lupinos han sido útiles en el combate. Son un buen complemento junto a mis hijas.~
+@9079195 = ~Bueno, coincidimos en ello, sí.~
+
+// Cho'Nuja
+@9079196 = ~Chamán-hembra, ¿tienes algún insecto pequeño de sobra? Tengo hambre.~
+@9079197 = ~¡¿Q-qué?! Aléjate de mis hijas, inmundo lagarto.~
+@9079198 = ~¿Hijas? No veo ninguna semejanza contigo. Es decir, tú eres fea, pero tus hijas lo son aún más.~
+@9079199 = ~¿Te has visto en un espejo? Das dolor de cabeza de sólo verte.~
+@9079200 = ~En Dreach-naga era muy popular. Muchas hembras se mataban entre sí sólo por la oportunidad de hablar conmigo.~
+@9079201 = ~Hmpf. Como sea, ni se te ocurra acercarte a mis protegidas o sentirás mi ira.~
+@9079202 = ~*gruñido* De acuerdo... supongo que tendré que conformarme con alguna rana que encuentre por ahí...~
+
+// Alendir
+@9079203 = ~Hm. Dime, semi-drow, ¿cómo es que has dominado tan bien la invocación de criaturas arácnidas? Hasta donde sé, los Engendros Arácnidos son una maestría dominada por poderes arcanos, no divinos.~
+@9079204 = ~Los Maestros del Enjambre tenemos una afinidad innata con los arácnidos, elfo. Por eso nos es tan fácil llamarlos como formidables aliados.~
+@9079205 = ~Interesante. Quizás pueda aprender algo de ti, después de todo. Existen arañas árticas que pueden ser llamadas en combate, aunque todavía no he dominado del todo dicha preparación de conjuro.~
+@9079206 = ~¿Arañas árticas? ¿Algo así es posible de aprender?~
+@9079207 = ~Quizás. El tiempo lo dirá. Por ahora, me concentraré en mis estudios. Cuando obtenga resultados, los compartiré contigo.~
+@9079208 = ~*resoplido* De acuerdo, Maestro de la Escarcha. Esperaré. Espero que valga la pena.~
+
+// Dusk Decision (Quest 2)
+@9079209 = ~*suspiro* Si bien podrían ser un buen manjar para mis protegidas, estas criaturas parece que sólo quieren estar en paz. Entiendo lo que es el deseo por la soledad, por lo que yo diría que no ataques, humano.~
+
+// Dusk Alabarza's Battle (Quest 3)
+@9079210 = ~No entiendo a qué se deba este combate, pero no negaré alimento a mis protegidas. ¡Que mis arañas se den un festín con sus cadáveres!~
+
+// Venomous Scolopendra (Creature)
+@9079211 = ~Escolopendra Venenosa~
+
+// Extract of Scolopendra
+@9079212 = ~Extracto de Escolopendra~
+@9079213 = ~Este frasco contiene un destilado concentrado de glándulas de escolopendra, preservado en una solución de veneno paralizante. El líquido en su interior es sobrenaturalmente denso, pesando mucho más de lo que su pequeño volumen sugiere. Al ser ingerido por un Maestro de la Colmena, el extracto altera permanentemente su vínculo con el enjambre, otorgándole la capacidad de convocar una escolopendra venenosa.
+
+ESTADÍSTICAS:
+
+Capacidad especial: Aprende "Convocar escolopendra venenosa" permanentemente (3 veces al día)
+Peso: 15 lbs.~
+
+@9079214 = ~Extracto de escolopendra: "Convocar escolopendra venenosa" aprendida como habilidad innata (3 veces al día).~
+
+@9079215 = ~Pai'Na~
+
+@9079216 = ~Convocar escolopendra venenosa~
+
+@9079217 = ~Convocar escolopendra venenosa (Innata)
+Nivel: Innato
+Esfera: Conjuración
+Alcance: 30 metros
+Duración: 8 horas
+Tiempo de lanzamiento: Instantáneo
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+DESCRIPCIÓN:
+
+Mediante esta habilidad, el Maestro de la Colmena convoca una veloz escolopendra venenosa desde las profundidades de la tierra. Esta criatura es pequeña pero letal, poseyendo una mordedura neurotóxica capaz de ignorar armaduras pesadas. La escolopendra servirá al lanzador durante 8 horas o hasta que sea destruida.~
+
+// Michelson
+@9079218 = ~(Michelson observa unos segundos a Pai'Na. Luego, con cierta dificultad, el leprechaun extrae del cargamento cormyreano una botella que parece más pesada de lo que aparenta. Con parsimonia, se acerca a la semi-drow y se la entrega cuidadosamente)~
+@9079219 = ~*olfatea* ¡¿Qué?! ¡¿Extracto de Escolopendra?! ¿Cómo has hecho para obtener ésto, criatura extraña? Hmpf. No importa. Le daré un buen uso.~
+
+// Danctian
+@9079220 = ~Ah, la Maestra de la Colmena, la semi-drow Pai'Na. Este peligroso Extracto de Escolopendra debería servirte para conectar con la poderosa criatura en el Plano Astral y traerla para que siga tus órdenes. Mataría a cualquier mortal que lo bebiese, pero no a ti, de eso estoy seguro...~
+@9079221 = ~Hmpf. Confío en mi poder, demonio. No necesito que me sermonees al respecto. Sin embargo, aceptaré el Extracto si eso significa aumentar mi poder para mi cometido.~
+
+// The Order of Mages Final Battle
+@9079222 = ~¡Magos, serán un gran aperitivo para mis protegidas! ¡Por la Colmena, atacad!~
+
+// cambio de numeración para evitar sobreescritura **********************
+
+
+// Voragor
+ @10000000 = ~Hmpf. ¿Por qué lo piensas tanto, <CHARNAME>? La criatura no nos atacó. Además de que es un ser inteligente y pensante. Lo digo más por sentido común que por otra cosa.~
+
+// Icelock
+@10000001 = ~La criatura es un enemigo antinatural. No sólo es un peligro para los estúpidos de Athkatla, sino también para mis protegidas y todo aquello por lo que lucho. ¡Destruidle!~
+
+// Morgrath
+@10000002 = ~¡No eres nada como mis preciosas, perra! Las arañas son criaturas puras que forman parte de la Naturaleza. ¡Tú eres una abominación que debe ser destruida y mis protegidas, verdaderas arañas, me ayudarán a hacerlo!~
+
+// Convocaciones, líneas faltantes
+// Sinna
+@10000003 = ~*Sinna te observa ansiosa, esperando que la acaricies. Sus ojos demuestran amor y confianza en ti.*~
+@10000004 = ~*Sinna se mueve a gran velocidad, esperando a que juegues con ella.*~
+@10000005 = ~*Sinna deja tiesas sus orejas, esperando a que le hables en un tono de voz amigable y agudo.*~
+@10000006 = ~*Sinna corretea a tu alrededor, levantando una polvareda considerable al tiempo en que ensucia tus túnicas con polvillo.*~
+@10000007 = ~*Sinna deja escapar un pequeño aullido, como si intentara comunicarse contigo. Probablemente para pedirte comida.*~
+
+// Daren
+@10000008 = ~*Daren tiene fija su mirada en ti. Demuestra confianza en ti y un profundo respeto por tu poder.*~
+@10000009 = ~*Daren parece observar el ambiente a su alrededor, atento a cualquier eventualidad y listo para protegerte.*~
+@10000010 = ~*Daren acerca su cabeza a tu mano y se deja acariciar. Sus ojos se cierran, demostrando una entrega a tu tacto.*~
+@10000011 = ~*Daren deja escapar un pequeño gruñido, demostrando que quiere jugar contigo de una manera, quizás, un poco brusca. Por ahora le dejas, pero eso no disminuye sus deseos de juego.*~
+@10000012 = ~*Las garras de Daren se clavan en el suelo. Quizás quiera jugar contigo o puede que se esté preparando para algún combate.*~
+
+// Kitochi
+@10000013 = ~*maullido* ¿Querías algo?~ [p_kito01]
+@10000014 = ~*maullido fuerte* ¡Ahora no! ¿No ves que me estoy acicalando?~ [p_kito02]
+@10000015 = ~*bostezo* Preferiría que no me molestes. Tenía pensado tomar una breve siesta.~ [p_kito03]
+@10000016 = ~*ronroneo* ¿Me necesitas? Ahora estoy de buen humor, puede que cumpla tus órdenes.~ [p_kito04]
+@10000017 = ~*maullido* Creo que mi gorro necesita una lavada...~ [p_kito01]
+
+// Tabitha
+@10000018 = ~*Tabitha clava sus ojos punzantes en ti. Por un momento, sientes que va a atacarte, pero simplemente se queda allí, observándote con gran interés.*~
+@10000019 = ~*Tabitha comienza a lamerse las patas, ignorando todo lo que ocurre a su alrededor.*~
+@10000020 = ~*Los ojos de Tabitha parecen estar perdidos en el horizonte. Quizás extraña a su antiguo compañero, el Señor de las Bestias.*~
+@10000021 = ~*Tabitha se echa a dormir, ignorándote completamente.*~
+@10000022 = ~*Las garras de Tabitha se dejan entrever en sus patas. Parece estar atenta a su alrededor por si alguna presa llega a aparecer.*~
+
+// Voragor
+@10000023 = ~Estoy listo para ayudar a mis amigos.~
+@10000024 = ~Lo que pidas lo haré. Después de todo, para eso están los amigos, ¿verdad?~
+@10000025 = ~Puede que esté viejo, pero mis energías están renovadas por esta aventura de <CHARNAME> y Fall.~
+@10000026 = ~De acuerdo, de acuerdo. Trataré de no verte fijamente, sé que temes a que te convierta en piedra. *siseo*~
+@10000027 = ~*bostezo* No, no tengo sueño. Simplemente, estoy reacomodando mis viejos huesos.~
+
+// Kakuto
+@10000028 = ~*Kakuto te observa fijamente. Sus ojos brillan y si tuvieras que adivinar, parece estar admirándote.*~
+@10000029 = ~*Kakuto deja escapar algunos chirridos. No estás seguro de qué signifique, pero parece algo amigable ya que, pese a su gran tamaño, parece esforzarse para no molestarte.*~
+@10000030 = ~*Kakuto se mueve muy lentamente, como si quisiera evitar pisar algo que no debiera. Sin embargo, la sutileza no es algo inherente a él y hace más ruido que silencio, provocando estruendos a su alrededor.*~
+@10000031 = ~*Kakuto mueve su cabeza mientras te observa. ¿Querrá que lo alimentes?*~
+@10000032 = ~*Kakuto muestra su gran cuerno con orgullo. Está más que dispuesto a seguir tus órdenes, sean cuales sean.*~
+
+// Bellfame / PaiNa
+@10000033 = /* Bellfame */ ~Maestra de los Enjambres, tu poder es admirable. Defender a aquellos que no pueden defenderse es loable.~
+
+@10000034 = /* PaiNa */ ~No busco alabanzas, ninfa. Hago lo correcto, hago lo que debo hacer.~
+@10000035 = /* Bellfame */ ~Y haces lo que debes. Tu misión debe continuar, Pai'Na. Déjame ayudarte...~
+@10000036 = /* PaiNa */ ~¿Eh? ¿Qué haces con tus manos, ninfa? ¡Aléjate de mí!~
+@10000037 = /* Bellfame */ ~Tranquila... deja que el poder fluya dentro de ti y acepta el obsequio de Mir.~
+@10000038 = /* PaiNa */ ~¿Mir? ¿De qué estás hablando? Siento... me siento un poco diferente. Como si pudiera... comandar nuevas criaturas.~
+
+@10000039 = /* Bellfame */ ~El poder divino se puede enseñar también, Pai'Na. Maestra del Enjambre, que el Plano Etéro te sirva de aliado para siempre.~
+
+
+// Bellfame enseña conjuro a PaiNa
+@10000040 = ~Pai'Na ha aprendido el conjuro de Nivel 1: Convocar escarabajo~
+
+// PaiNa reacciona a chiste de CHARNAME
+@10000041 = ~*resoplido* ¿Todo esto para complacer a este loquito?~
+
+// SIRENE CROSSMOD
+// Dusk Alabarza's Battle (Quest 3)
+@10000042 = ~¡En el nombre de Ilmater, saldremos de ésta, Dusk! Alabarza, ¡no saldrás victorioso, os lo juro!~
+
+// Dusk Quest 2
+@10000043 = ~Dusk, estas criaturas no han demostrado malicia ni malas intenciones. Deberíamos escucharles, al menos darles el beneficio de la duda, por ahora.~
+
+// Michelson reaction (GOLD)
+@10000044 = ~No soy alguien materialista, <CHARNAME>, pero ciertamente esos recursos habrían servido más a los desdichados que a... este tipejo.~
+
+// The fight against the Ice Golem
+@10000045 = ~Si la criatura se sale con la suya, Athkatla sufrirá las consecuencias. ¡Debemos evitarlo! Fall, estoy contigo. ¡Atacad!~
+
+// Fight against the Order of Mages (Demolisher)
+@10000046 = ~Pequeño Demoledor, admiro tu valentía. ¡No irás sólo a esta batalla! Mientras pueda mantenerme en pie, ¡seré tu escudo!~
+
+// Fight against the Order of Mages (Danctian)
+@10000047 = ~Cuestiono tus métodos, Dusk, pero no puedo negar que estos enemigos son malvados. Su victoria sería la perdición de muchos y no estoy dispuesta a dejar que eso pase. ¡Por el Dios que Llora, te ayudaré a vencer a estos hechiceros!~
+
+// Voragor
+@10000048 = ~No hemos oído ataques de un basilisco en el valle, <CHARNAME>. Además, es una criatura capaz de comunicarse y claramente inteligente. Matarle sería una injusticia.~
+
+// Morgrath
+@10000049 = ~Toma sobre ti mi cansancio, Ilmater; yo tomaré sobre mí el dolor de mis enemigos si así salvo a los inocentes. ¡Tu Reinado llega a su fin, Morgrath! ¡En guardia!~
+
+// Banthers
+// Dusk Neutral
+@10000050 = ~Eres excepcional en combate, Sirene. Ilmater ciertamente te ha bendecido con una fuerza considerable, la cual veo usas sin pensarlo para defender tus ideales.~
+@10000051 = ~D-dusk, gracias. No esperaba que dijeras algo así.~
+@10000052 = ~¿Por qué? Puede que no parezca un hombre muy espiritual, pero sé reconocer la fuerza divina cuando la veo.~
+@10000053 = ~Agradezco que no me hayas juzgado por lo que soy.~
+@10000054 = ~Bueno... admito que no es algo que vea todos los días, me refiero a una criatura ascendencia demoníaca pelear por el Dios que Llora. Sin embargo, <CHARNAME> ha depositado tu confianza en ti. No veo por qué no deba hacer lo mismo.~
+@10000055 = ~El sentimiento es mutuo, Dusk. Pelear junto a ti en el frente de batalla es una experiencia satisfactoria. Me alegra saber que luchamos por lo mismo, aún si no seguimos la misma fe.~
+@10000056 = ~La justicia es una fe compartida por varios dogmas. Que nuestras espadas defiendan al débil.~
+@10000057 = ~No podría estar más de acuerdo.~
+
+// Dusk Good
+@10000058 = ~Hola Sirene. ¿Querías algo? He notado tus miradas de curiosidad.~
+@10000059 = ~Oh--- Y-yo, no quería ser ruda, Dusk. Es que... no puedo evitar preguntarme, sobre cómo has cambiado tanto.~
+@10000060 = ~¿De verdad? Yo mismo creí que no había cambiado tanto... me refiero a quien soy, en esencia.~
+@10000061 = ~No me malinterpretes, es verdad que no has cambiado mucho en esencia, como dices. Pero a su vez debo discrepar, y creo que sabes por qué.~
+@10000062 = ~Entiendo. Te refieres a Mielikki.~
+@10000063 = ~Así es. Este tiempo has adoptado, abiertamente, a la Dama del Bosque.~
+@10000064 = ~No tan abiertamente, Sirene. No creo ser alguien que vaya gritando a los cuatro vientos mi devoción a la hija de Silvanus. Sin embargo, entiendo tu punto.~
+@10000065 = ~Creí que no eras un hombre muy espiritual.~
+@10000066 = ~El orbe... me ha cambiado, es verdad. Me ha mostrado quien soy realmente y todo esto es gracias a todo lo que he vivido hasta llegar a Athkatla. <CHARNAME>, Falon, tú. Creo que, en cierto sentido, todo estuvo conectado para que llegásemos a este preciso momento y a estas precisas palabras.~
+@10000067 = ~Tiene sentido ahora que lo dices, Dusk.~
+@10000068 = ~¿Sabes, Dusk?~
+@10000069 = ~¿Sí?~
+@10000070 = ~La fe te sienta bien.~
+
+// Dusk Evil
+@10000071 = ~Pierdes mucho el tiempo intentando ocultar quien eres, Sirene. He visto lo que eres capaz de hacer. ¿Por qué ocultar tu glorioso poder de los imbéciles que nos rodean? El poder es todo lo que importa y tú lo posees.~
+@10000072 = ~¿Poder? Dusk, eso nunca me ha interesado. Y hago lo que hago para no ocasionar problemas a <CHARNAME>.~
+@10000073 = ~*risas* ¿Es broma? Los problemas siempre persiguen a <CHARNAME>, sin importar lo que haga. Tal es el destino de aquellos que desprenden poder de la yema de sus dedos. Tú, <CHARNAME>, y aquellos que nos acompañan deberían saberlo.~
+@10000074 = ~No... no puedo aceptarlo. ¿Qué te ha pasado...? Has cambiado... demasiado.~
+@10000075 = ~Para mejor, Sirene. Soy una versión mejorada del hombre que una vez fui. La venganza está de mi lado.~
+@10000076 = ~No, Dusk... puede que seas más fuerte, puede que seas capaz de vengarte de aquellos que te han hecho daño... pero no eres mejor de lo que eras cuando te conocí.~
+@10000077 = ~El hombre de Cormyr, pese a ser imperfecto, tenía una sed genuina por justicia.~
+@10000078 = ~¿Justicia? No digas estupideces, Sirene. La justicia no me ha llevado a ningún lado. Todos los que amé alguna vez ahora yacen muertos... El amor... te debilita. El poder no puede permitirse debilidad, de lo contrario, la muerte es el único resultado posible.~
+@10000079 = ~Sé que no crees eso, Dusk. Sé que en el fondo aún eres el mismo, aquel que buscaba justicia por los que murieron a manos de Irenicus en el Paseo. Puedes volver a ser el mismo.~
+@10000080 = ~No. N-no, Sirene... he ido demasiado lejos para retroceder. Ya es demasiado tarde.... es demasiado tarde para mí.~
+@10000081 = ~No, Dusk. Nunca es demasiado tarde. Espero que algún día puedas darte cuenta de ello...~
+
+// Fall 1
+@10000082 = ~Oh, Sirene, tu habilidad en el combate cuerpo a cuerpo es sorprendente.~
+@10000083 = ~Os agradezco tus palabras, Fall. Debo agradecer, también, que me cubras con proyectiles mientras estoy en el frente. Tu ayuda es muy bienvenida.~
+@10000084 = ~Gracias. *se sonroja* Hago lo que puedo.~
+@10000085 = ~¿Cómo es que tienes tan buena puntería? Algo así requiere años de práctica.~
+@10000086 = ~Mi padre me enseñó todo lo que sé sobre ballestas y ataques a distancia. Él era un gran explorador de Imnescar.~
+@10000087 = ~No muchos padres están dispuestos a enseñar el arte de la guerra a sus hijas. Debes estar muy orgullosa de él.~
+@10000088 = ~Sí. Le extraño mucho, a decir verdad. Trato de honrarlo con cada disparo.~
+@10000089 = ~Y lo vienes haciendo a la perfección, Fall. Él estaría muy orgulloso de ti.~
+@10000090 = ~Gracias, Sirene. Eso significa mucho para mí.~
+
+// Fall 2
+@10000091 = ~Tu vestido es muy hermoso, Fall. Pese a parecer una simple túnica, puedo percibir un cierto poder en él. Es mágico, ¿no es así?~
+@10000092 = ~Así es, Sirene. Fue bordado por elfos artesanos e imbuido por el poder de mi madre. Ha cumplido su cometido, por ahora.~
+@10000093 = ~Me gusta. Te enseña que no debes juzgar algo sólo por su apariencia. Algo puede ser de apariencia sumamente delicada y, a su vez, dura como la roca.~
+@10000094 = ~No lo había pensado de esa forma. Me agrada.~
+
+// Fall 3
+@10000095 = ~Admiro el amor que tienes a tus invocaciones, Fall. Muchos los tratan como carne de cañón y olvidan que realmente son seres sintientes.~
+@10000096 = ~Trato de hacer lo que mis padres me enseñaron, Sirene. Estos años he aprendido mucho sobre el Plano Astral como para ignorar la integridad de sus habitantes.~
+@10000097 = ~Además, algunas de mis invocaciones nacieron en el Plano Material. Mis lobos, por ejemplo.~
+@10000098 = ~Daren y Sinna vivieron conmigo en Imnescar antes del ataque de las arañas. Les he visto crecer y aún siguen siendo una parte importante de mi vida.~
+@10000099 = ~Sí. Tus lobos son valientes guerreros, Fall. Es un honor pelear a su lado en el frente de batalla.~
+@10000100 = ~Sé que no pueden morir permanentemente mientras sean invocaciones del Plano Astral... pero siempre agradezco que estés allí para pelear junto a ellos, cuidando incluso de su integridad.~
+@10000101 = ~Es un placer, Fall. Todos merecen compasión, incluso las criaturas que invocamos de otros planos.~
+
+// Cho'Nuja
+@10000102 = ~Hembra, ¿por qué te esmeras tanto en ocultar tus cicatrices? Deberían ser motivo de orgullo.~
+@10000103 = ~General... Y-yo... prefiero no hablar de ello.~
+@10000104 = ~¿Por qué no? Creí que a ustedes, los peludos, gustaban de hablar de sus sentimientos.~
+@10000105 = ~Es... no creo que lo entiendas. Muchas de mis cicatrices representan momentos dolorosos... fracasos, batallas.~
+@10000106 = ~Entiendo lo que hablas, hembra. He visto cómo peleas y debo insistir en que deberían ser motivos de orgullo. Las cicatrices te trajeron hasta este momento, ¿no es así?~
+@10000107 = ~<CHARNAME> te ha elegido como acompañante y veo que es por tu fortaleza.~
+@10000108 = ~En Dreach-naga, serías una reina respetada y todos admirarían tus cicatrices.~
+@10000109 = ~Oh, gracias por tus palabras, General.~
+@10000110 = ~Incluso muchos machos estarían dispuestos a comerse entre ellos para tener la oportunidad de ser tu consorte.~
+@10000111 = ~*carraspeo* Bueno, creo que no querría que lo hicieran. *sonríe* Igual, gracias por tus palabras.~
+
+// Alendir
+@10000112 = ~¿Por qué llevas tanto tiempo observándome con compasión, pequeña? Es algo... molesto.~
+@10000113 = ~L-lo lamento, Alendir. Es sólo que... Es bueno ver que estés de nuevo con vida.~
+@10000114 = ~Hm. No es algo que esperaba escuchar. No hace mucho tiempo fui enemigo de ustedes.~
+@10000115 = ~Sí, pero es precisamente el coraje que has tenido para hacer lo correcto que estás vivo otra vez. Sólo espero que hagas lo correcto.~
+@10000116 = ~Interesante. No noto sarcasmo o amenaza en tu tono. Comienzas a caerme bien, muchacha.~
+@10000117 = ~Puedes llamarme Sirene, Alendir.~
+@10000118 = ~*resoplido* Bien, bien. Intentaré recordarlo.~
+
+@10000119 = ~Manto de la Perseverancia de Ilmater~
+@10000120 = ~La prenda parece tener una voluntad propia, endureciéndose justo antes de un impacto para absorber el castigo que debería herir a su portadora. Además, le da a la portadora la capacidad de Sanar al objetivo de su elección.
+
+ESTADÍSTICAS:
+
+Habilidades poseídas:
+- Clase de Armadura: +3
+
+Habilidades de uso:
+- Sanar (una vez al día)
+
+Peso: 10
+~
+
+@10000121 = ~Sirene~
+
+// Michelson Sirene's Item
+@10000122 = ~(Michelson saca un manto un poco polvoriento del cargamento. Lo sacude, quitándole por completo el polvillo y el mismo parece brillar de manera casi sutil. Se acerca a Sirene y se lo entrega solemnemente)~
+@10000123 = ~Gracias, buen Michelson. Es hermosa. Siento... siento su poder divino en su peso. Le daré un buen uso, os lo aseguro.~
+
+// Danctian Sirene's Item
+@10000124 = ~Sirene, la criatura abisal que sigue fervientemente al Dios que Llora. Jamás podré comprender tu elección, pero si estás con <CHARNAME> y Dusk, os respeto. Para ti, pude obtener este sagrado manto que os protegerá en los momentos más adversos.~
+@10000125 = ~Y-yo... Tengo mis reservas. Pero lo acepto. En el momento en que perciba algún tipo de traición, no dudaré en deshacerme de ella, Danctian.~
+
+
+// Sirene thoughts
+@10000126 = ~¿Qué piensas de Dusk?~
+@10000127 = ~¿Qué piensas de Fall?~
+@10000128 = ~¿Qué piensas de Cho'Nuja?~
+@10000129 = ~¿Qué piensas de Alendir?~
+
+// Dusk Neutral/Good
+@10000130 = ~Es un gran guerrero, afín a mis pensamientos sobre la justicia.~
+// Dusk Evil
+@10000131 = ~Dusk ha cambiado mucho. Y no para bien, creo. Espero que pueda volver a encontrar el camino en el que alguna vez anduvo.~
+// Fall
+@10000132 = ~Es una gran ballestera, amante de la naturaleza y sus animales. Su corazón está en el lugar correcto.~
+// Cho'Nuja
+@10000133 = ~El General es un combatiente excepcional, aunque aún no comprendo del todo su forma de ser ni sus costumbres.~
+// Alendir
+@10000134 = ~Creo que Alendir ha cambiado para bien, aunque él no quiera admitirlo. La segunda oportunidad que Mystra le otorgó es algo que, pese a su edad, le ha hecho recapacitar respecto a su destino.~
+
+// HUBELPOT CROSSMOD
+// BANTERS AT NPCS
+// DUSK NEUTRAL
+@10000135 = ~Entonces, Hubelpot, ¿por qué estás tan seguro de que comerciar vegetales es lo que me conviene?~
+@10000136 = ~Joven Dusk, los vegetales es algo de lo que tengo conocimiento y puedo pasártelo para que, a su vez, tú lo mantengas por generaciones.~
+@10000137 = ~Bueno, mi idea no era precisamente esa. Estaba más interesado en el comercio de artefactos, como lo hace Ribald.~
+@10000138 = ~Ribald no es más que un elfo refinado. Tú estás para más, joven Dusk.~
+@10000139 = ~Hm... aún así, me lo pensaré, buen Hubelpot.~
+@10000140 = ~Quizás pueda convencerte con una buena sopa de tomates y espárragos. Entenderás que no todos necesitan "buenos artefactos" y sí necesitan un estómago lleno de rica comida.~
+@10000141 = ~*sonríe* Gracias, Hubelpot. Estoy seguro de que estará delicioso.~
+
+
+// DUSK GOOD
+@10000151 = ~Hubelpot, debo decir que tu devoción hacia Chauntea es inspiradora.~
+@10000152 = ~¿Inspirador? Debo confesar que es la primera vez que le dicen algo así al buen Hubelpot. Sí bien es, y lo que voy a decir no es por presumir, normal que alaben mi cocina, son pocas las veces que elogian a este buen comerciante por algo que no sea relacionado al arte culinario.~
+@10000153 = ~La vida espiritual no debería ser compleja ni tampoco reservada para unos pocos. Lo que haces es, a mi parecer, la forma correcta de adoración divina.~
+@10000154 = ~Bueno, hago lo que puedo con lo poco que tengo. Debo decir que nuestro buen líder, el bueno de <CHARNAME>, tiene una forma particular de hacer las cosas y para mí mucho de lo que veo es nuevo. Pero, mi amor por la Señora de Todo lo que Crece viene de hace más tiempo.~ ~Bueno, hago lo que puedo con lo poco que tengo. Debo decir que nuestra buena líder, la buena de <CHARNAME>, tiene una forma particular de hacer las cosas y para mí mucho de lo que veo es nuevo. Pero, mi amor por la Señora de Todo lo que Crece viene de hace más tiempo.~
+@10000155 = ~La bendición puede encontrarse en el más simple de los platos de comida, ¿verdad?~
+@10000156 = ~¡Así se habla, buen Dusk! Venga, ¿qué quieres comer? En agradecimiento por tus constantes magulladuras yendo al frente de batalla, ¿eh?~
+@10000157 = ~*risas* Lo que quieras preparar estoy seguro que estará bien, Hubelpot.~
+
+// DUSK EVIL
+@10000158 = ~Te lo he dicho ya varias veces, Hubelpot. No soy viejo. Mi cabello blanco no son canas (al menos eso creo).~
+@10000159 = ~Mira, Dusk. No tienes de qué avergonzarte, ¿sabes? Cuando uno va envejeciendo, uno va notando ciertos cambios en su cuerpo. Mira al buen Hubelpot, mi cabellera se tomó vacaciones permanentes.~
+@10000160 = ~*suspiro* No tenemos ni de cerca la misma edad, viejo. Mi cambio se debe al orbe escarlata del Pandemonium. Lo tuyo es más una cuestión de... no sé, vida sedentaria de verdulero.~
+@10000161 = ~Todos piensan eso, mi buen viejo Dusk, pero lo cierto es que el tiempo a todos nos pasa y no serás tú el que sea inmune a ello, ¿sabes? Ahora que lo pienso, tener canas es mejor a no tener nada.~
+@10000162 = ~Hmpf. Lo que digas, anciano.~
+
+
+// FALL 1
+@10000163 = ~¿Estás seguro, Hubelpot?~
+@10000164 = ~Te lo digo, niña, los conejos que puedo evocar no son más que criaturas de lo que tú llamas el Plano Callejero.~
+@10000165 = ~Plano Astral.~
+@10000166 = ~Bueno, son casi lo mismo. Mi punto es que tus lobos pueden cazarlos y no morirán, ya que puedo volver a llamarlos, ¿sabes?~
+@10000167 = ~Hm. Bueno, haremos lo que tú dices y veremos cómo va, ¿sí?~
+@10000168 = ~¡Bien! Se me está haciendo costumbre ver a tus peludos amigos en acción, ¿sabes?~
+
+
+// FALL 2
+@10000169 = ~¡Niña! Recuerda comer todas tus zanahorias la próxima vez. Ya sabes lo que te he dicho. Son buenas para la vista y tú necesitas buenos ojos si quieres seguir disparando a lo loco con tu ballesta.~
+@10000170 = ~*suspiro* ¿Es necesario, tío Hubelpot?~
+@10000171 = ~¡Házme caso! ¿Acaso no te gusta cómo preparo mis guisos?~
+@10000172 = ~La verdad es que eres un gran cocinero. Y sí, es mejor tener la panza llena a la hora de combatir. De acuerdo, tío Hubelpot, te haré caso.~
+@10000173 = ~Así me gusta, niña. Hazlo y te recompensaré con un buen postre: galletas de miel y almendra.~
+@10000174 = ~¡Oh, eso suena delicioso!~
+
+// Cho'Nuja
+@10000175 = ~Te lo digo de verdad, mi amigo peludo. No existen verduleros o cocineros en Dreach-naga. Nuestras presas, por lo general, son devoradas de manera rápida y fresca.~
+@10000176 = ~Vaya, mi buen viejo general, no tienes idea de lo que se pierden. ¿Tienes idea del manjar que son las ranas pasadas por harina y huevo, fritas en mantequilla y sasonadas con ajo, vino y finas hierbas?~
+@10000177 = ~No tengo idea de lo que estás hablando.~
+@10000178 = ~Ya verás. Cuando pueda, te prepararé un plato digno de reyes. Reyes lagarto *risa*.~
+@10000179 = ~De acuerdo, humano. Esperaré con ansias el resultado de tu exótico trabajo.~
+
+// Alendir
+@10000180 = ~Nunca entenderé cómo es que has llegado tan lejos, humano.~
+@10000181 = ~Bueno, si vamos al caso, elfo misterioso, yo tampoco entiendo cómo es que has vuelto a la vida. Pero este mundo es extraño y mágico, tanto que Mystra quiso traerte de nuevo. Me pregunto si Chauntea haría lo mismo por el buen viejo Hubelpot.~
+@10000182 = ~Hace un tiempo te habría dicho que no y habría hecho algún comentario sobre tu pobre condición de verdulero y humano. Pero hoy... no sabría qué responderte.~
+@10000183 = ~Sea como fuere, la buena de Mystra te quitó todas las arrugas. Lo que no daría yo por tener cabello de nuevo. Bueno, en realidad creo que prefiero una vida de paz y estabilidad. Con cabello estaría bien.~
+@10000184 = ~Hay pelucas, ¿sabes?~
+@10000185 = ~Nah, mucho dinero, no sé si mi esposa lo aceptaría.~
+@10000186 = ~Creo que entiendo...~
+
+// Dusk Quest 3 - Alabarza's fight
+@10000187 = ~Creo que más o menos puedo entender el malestar de Dusk. O sea, a él lo han dejado con el cabello blanco con todo este asunto de venganza o justicia. Ya quisiera yo tener ese problema, pero como verán a mí se me ha ido el cabello con el tiempo y las arduas jornadas en la granja. Ah, mejor espabilar pa'que esto se termine pronto.~
+
+// Dusk Quest 2 - Decision
+@10000188 = ~Ah esto de suponer me da dolor de cabeza. No sabría decirte, buen Dusk. Pero si puedes evitar una pelea, evítala. Estos bichos no parecen ser malos bichos, así que lo dejo a tu criterio.~
+
+// Michelson Joke interaction
+@10000189 = ~¡Jaja! Ha sido muy bueno, <CHARNAME>. No esperaba que tuvieras tan buen sentido del humor. Esto amerita una buena merienda.~
+
+// The Order of Mages Battle (Demolisher)
+@10000190 = ~Todo este asunto de la magia no la comprendo ni la comparto. ¡Muy bien, mi peludo amigo Demoledor! Cuentas con la asistencia de la buena de Chauntea a través de este humilde servidor. No veo las horas de celebrar con una buena sopa de maíz.~
+
+// The Order of Mages Battle (Danctian)
+@10000191 = ~Todo este asunto de la magia no la comprendo ni la comparto. Tampoco entiendo a este tipejo de negro o sombras o lo que sea. Sin embargo, cuentas con la asistencia de la buena de Chauntea a través de este humilde servidor. No veo las horas de celebrar con una buena sopa de maíz.~
+
+// Voragor
+@10000192 = ~Todo lo que puedo decir es que nunca he cocinado a un basilisco, <CHARNAME>. Puede que algo bueno se pueda hacer con su carne y con sus escamas quizás algo más acorde a las necesidades tuyas o algo así. Aunque si quieres evitar la pelea, por Chauntea que no escucharás quejas de mi parte.~
+
+// Morgrath's Final Battle
+@10000193 = ~He tratado con alimañas en mi cosecha, créeme. ¡Pero estoy hasta mi calva de esta condenada araña! Ya es hora de erradicarla y verás cómo Chauntea bendice la tierra que ha contaminado con su suciedad.~
+
+// Icelock battle
+@10000194 = ~¿Este es el clima que espera a Athkatla si dejamos que este gigantón gane este combate? No es bueno para las cosechas, <CHARNAME> *menea la cabeza* Nope, nope. Es mejor poner todo nuestro empeño para deshacernos de eso.~
+
+
+@10000195 = ~Bellotas Mágicas~
+@10000196 = ~Las bellotas que tienes en tus manos parecen comunes y corrientes, sin embargo, teniendo en cuenta de dónde provienen, lo más probable es que haya que tener mucho cuidado a la hora de comerlas. Sólo en Hubelpot tendrán un efecto mágico.
+
+ESTADÍSTICAS:
+
+Capacidad especial: Aprende "Transformación en Alaghi" permanentemente (3 veces al día)
+Peso: 1 lb.~
+
+@10000197 = ~Transformación en Alaghi~
+@10000198 = ~Transformación en Alaghi
+
+Level: Innato
+Esfera: Transmutación
+Alcance: El Druida
+Duration: 5 turnos
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: None 
+
+El druida se transformará en un poderoso Alaghi de combate, obteniendo bonificadores de Fuerza, Destreza y Constitución, aunque a costa de Carisma. Los ataques del Alaghi tendrán la posibilidad de paralizar al oponente.
+
+Habilidades poseídas:
+- Bonificadores a la Fuerza: +10
+- Bonificadores a la Destreza: +10
+- Bonificadores a la Constitución: +10
+- Penalizadores al Carisma: -5
+- Parálisis: Cada ataque tiene un %15 de chances de Aturdir al oponente durante 6 segundos.
+
+ESTADÍSTICAS
+
+THAC0: +5
+Daño: 2D4+5, +1D4 por daño cortante
+Tipo de daño: Contundente
+Factor de velocidad: 3
+Talento marcial: Clava~
+
+@10000199 = ~Hubelpot~
+
+@10000200 = ~Poder de Alaghi~
+@10000201 = ~Poder de Alaghi
+
+Mientras el druida esté transformado en esta poderosa bestia, obtendrá bonificadores de combate y habilidades de parálisis contra sus enemigos.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+
+- Parálisis: Cada ataque tiene un %15 de chances de Aturdir al oponente durante 6 segundos.
+
+- Daño: 2D4 +5, +1D4 puntos de daño cortante
+- THAC0: +5
+- Tipo de daño base: Contundente
+- Factor de velocidad: 3
+- Talento marcial: Clava~
+
+// Michelson
+@10000202 = ~(Michelson huele con su nariz, corre hacia Hubelpot y luego vuelve hacia el cargamento. Parece que por su expresión no le gustó demasiado el olor a cebollas del druida. Al cabo de unos segundos de exageradas expresiones de desagrado, Michelson prácticamente se introduce en el cargamento y al salir muestra unas polvorientas bayas. Se acerca riendo hacia Hubelpot y se las entrega)~
+@10000203 = ~¿Qué es esto? Parecen bayas solik. Tienen un olor dulzón. Bueno, supongo que me las habrás dado para que me las coma, ¿no es así, pequeño granuja? Tampoco me gustó tu expresión de desagrado ante mis ropas. Cocinar tiene sus contraproducencias, ¿sabes?~
+
+// Danctian
+@10000204 = ~El druida comerciante de Athkatla. Pocas veces un alma abandona su estatus de normalidad para cambiar la historia de Faerûn junto a un semidiós. Hubelpot, aliméntate de estas bayas y experimente un nuevo poder, digno de aquellos que ostentan ayudar a seres poderosos como <CHARNAME>.~ ~El druida comerciante de Athkatla. Pocas veces un alma abandona su estatus de normalidad para cambiar la historia de Faerûn junto a una semidiosa. Hubelpot, aliméntate de estas bayas y experimente un nuevo poder, digno de aquellos que ostentan ayudar a seres poderosos como <CHARNAME>.~
+@10000205 = ~No comprendo del todo lo que dices, moreno. Sin embargo, estas bayas que me das tienen un aroma encantador. *suspiro* Supongo que no voy a poder usarlas en ninguna receta que tenga pensada, puesto a que deben ser cosillas mágicas o algo así. Bien, les daré un buen uso.~
+
+
+@10000206 = ~Bellotas Mágicas: "Transformación en Alaghi" aprendida como habilidad innata (3 veces al día).~
+
+@10000207 = ~~
+@10000208 = ~~
+@10000209 = ~~
+@10000210 = ~~
+@10000211 = ~~
+@10000212 = ~~
+@10000213 = ~~
+@10000214 = ~~
+@10000215 = ~~
+@10000216 = ~~
+@10000217 = ~~
+@10000218 = ~~
+@10000219 = ~~
+@10000220 = ~~
+@10000221 = ~~
+@10000222 = ~~
+@10000223 = ~~
+@10000224 = ~~
+@10000225 = ~~
+@10000226 = ~~
+@10000227 = ~~
+@10000228 = ~~
+@10000229 = ~~
+@10000230 = ~~
+@10000231 = ~~
+@10000232 = ~~
+@10000233 = ~~
+@10000234 = ~~
+@10000235 = ~~
+@10000236 = ~~
+@10000237 = ~~
+@10000238 = ~~
+@10000239 = ~~
+@10000240 = ~~
+@10000241 = ~~
+@10000242 = ~~
+@10000243 = ~~
+@10000244 = ~~
+@10000245 = ~~
+@10000246 = ~~
+@10000247 = ~~
+@10000248 = ~~
+@10000249 = ~~
+@10000250 = ~~
+@10000251 = ~~
+@10000252 = ~~
+@10000253 = ~~
+@10000254 = ~~
+@10000255 = ~~
+@10000256 = ~~
+@10000257 = ~~
+@10000258 = ~~
+@10000259 = ~~
+@10000260 = ~~
+@10000261 = ~~
+@10000262 = ~~
+@10000263 = ~~
+@10000264 = ~~
+@10000265 = ~~
+@10000266 = ~~
+@10000267 = ~~
+@10000268 = ~~
+@10000269 = ~~
+@10000270 = ~~
+@10000271 = ~~
+@10000272 = ~~
+@10000273 = ~~
+@10000274 = ~~
+@10000275 = ~~
+@10000276 = ~~
+@10000277 = ~~
+@10000278 = ~~
+@10000279 = ~~
+@10000280 = ~~
+@10000281 = ~~
+@10000282 = ~~
+@10000283 = ~~
+@10000284 = ~~
+@10000285 = ~~
+@10000286 = ~~
+@10000287 = ~~
+@10000288 = ~~
+@10000289 = ~~
+@10000290 = ~~
+@10000291 = ~~
+@10000292 = ~~
+@10000293 = ~~
+@10000294 = ~~
+@10000295 = ~~
+@10000296 = ~~
+@10000297 = ~~
+@10000298 = ~~
+@10000299 = ~~
+@10000300 = ~~
+@10000301 = ~~
+@10000302 = ~~
+@10000303 = ~~
+@10000304 = ~~
+@10000305 = ~~
+@10000306 = ~~
+@10000307 = ~~
+@10000308 = ~~
+@10000309 = ~~
+@10000310 = ~~
+@10000311 = ~~
+@10000312 = ~~
+@10000313 = ~~
+@10000314 = ~~
+@10000315 = ~~
+@10000316 = ~~
+@10000317 = ~~
+@10000318 = ~~
+@10000319 = ~~
+@10000320 = ~~
+@10000321 = ~~
+@10000322 = ~~
+@10000323 = ~~
+@10000324 = ~~
+@10000325 = ~~
+@10000326 = ~~
+@10000327 = ~~
+@10000328 = ~~
+@10000329 = ~~
+@10000330 = ~~
+@10000331 = ~~
+@10000332 = ~~
+@10000333 = ~~
+@10000334 = ~~
+@10000335 = ~~
+@10000336 = ~~
+@10000337 = ~~
+@10000338 = ~~
+@10000339 = ~~
+@10000340 = ~~
+@10000341 = ~~
+@10000342 = ~~
+@10000343 = ~~
+@10000344 = ~~
+@10000345 = ~~
+@10000346 = ~~
+@10000347 = ~~
+@10000348 = ~~
+@10000349 = ~~
+@10000350 = ~~
+@10000351 = ~~
+@10000352 = ~~
+@10000353 = ~~
+@10000354 = ~~
+@10000355 = ~~
+@10000356 = ~~
+@10000357 = ~~
+@10000358 = ~~
+@10000359 = ~~
+@10000360 = ~~
+@10000361 = ~~
+@10000362 = ~~
+@10000363 = ~~
+@10000364 = ~~
+@10000365 = ~~
+@10000366 = ~~
+@10000367 = ~~
+@10000368 = ~~
+@10000369 = ~~
+@10000370 = ~~
+@10000371 = ~~
+@10000372 = ~~
+@10000373 = ~~
+@10000374 = ~~
+@10000375 = ~~
+@10000376 = ~~
+@10000377 = ~~
+@10000378 = ~~
+@10000379 = ~~
+@10000380 = ~~
+@10000381 = ~~
+
+// PARA MAS ADELANTE (SOLO ESTA AQUI EN SPANISH)
 // P_BAle25 VER DLG FILE
 
 // P_ALENJ QUESTS 1
