@@ -1,0 +1,184 @@
+// Estableciendo música
+
+  COPY_EXISTING ~p_dusks.bcs~ ~override/p_dusks.bcs~
+  REPLACE_TEXTUALLY 2220 ~%P_D1%~
+  REPLACE_TEXTUALLY 2221 ~%P_D2%~
+  REPLACE_TEXTUALLY 2222 ~%P_D3%~
+  REPLACE_TEXTUALLY 2223 ~%P_D4%~
+
+  COPY_EXISTING ~p_dancti.bcs~ ~override/p_dancti.bcs~
+  REPLACE_TEXTUALLY 2224 ~%P_D5%~
+
+  COPY_EXISTING ~p_matut.bcs~ ~override/p_matut.bcs~
+  REPLACE_TEXTUALLY 2225 ~%P_D6%~
+
+  COPY_EXISTING ~p_michel.bcs~ ~override/p_michel.bcs~
+  REPLACE_TEXTUALLY 2225 ~%P_D6%~
+  
+  COPY_EXISTING ~p_celin.bcs~ ~override/p_celin.bcs~
+  REPLACE_TEXTUALLY 2226 ~%P_D7%~
+  REPLACE_TEXTUALLY 2227 ~%P_D8%~
+  
+  COPY_EXISTING ~p_falls.bcs~ ~override/p_falls.bcs~
+  REPLACE_TEXTUALLY 4442 ~%P_F1%~
+  REPLACE_TEXTUALLY 4443 ~%P_F2%~
+  COPY_EXISTING ~p_kitoch.bcs~ ~override/p_kitoch.bcs~
+  REPLACE_TEXTUALLY 4444 ~%P_F3%~
+  COPY_EXISTING ~p_vidomi.bcs~ ~override/p_vidomi.bcs~
+  REPLACE_TEXTUALLY 4442 ~%P_F1%~
+  //REPLACE_TEXTUALLY 4443 ~%P_F2%~
+  
+  COPY_EXISTING ~P_AlenS.bcs~ ~override/P_AlenS.bcs~
+  REPLACE_TEXTUALLY 4444 ~%P_G2%~
+ 
+// P_AR14
+  COPY_EXISTING ~P_AR14.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_G1%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_G1%~ //night song
+  
+// P_FAR4
+  COPY_EXISTING ~p_far4.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_F4%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_F4%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_F5%~ // battle song
+  
+// p_far3
+COPY_EXISTING ~p_far3.are~ ~override~
+READ_LONG 0xbc song_offset
+WRITE_LONG song_offset ~%P_F4%~	//day song
+WRITE_LONG song_offset+0x4 ~%P_F4%~ //night song
+WRITE_LONG song_offset+0xc ~%P_F6%~ // battle song
+
+// p_far3
+COPY_EXISTING ~p_fa3b.are~ ~override~
+READ_LONG 0xbc song_offset
+WRITE_LONG song_offset ~%P_F4%~	//day song
+WRITE_LONG song_offset+0x4 ~%P_F4%~ //night song
+WRITE_LONG song_offset+0xc ~%P_F6%~ // battle song
+
+// p_far2
+  COPY_EXISTING ~p_far2.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_11%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_11%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_F5%~ // battle song
+
+//p_far5
+  COPY_EXISTING ~p_far5.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_F7%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_F7%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_13%~ // battle song
+  
+//P_FAR6
+  COPY_EXISTING ~p_far6.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_11%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_11%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_14%~ // battle song
+  
+//P_FA6B
+  COPY_EXISTING ~p_fa6b.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_11%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_11%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_23%~ // battle song 
+ 
+//P_FAR7
+  COPY_EXISTING ~p_far7.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_F9%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_F9%~ //night song
+
+//P_FAR8
+  COPY_EXISTING ~p_far8.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_12%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_12%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_15%~ // battle song
+  
+//P_FA8B
+  COPY_EXISTING ~p_fa8b.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_12%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_12%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_24%~ // battle song
+
+//P_FA10
+  COPY_EXISTING ~p_fa10.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_F4%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_F4%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_16%~ // battle song
+  
+//P_F10B
+  COPY_EXISTING ~p_f10b.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_F4%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_F4%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_26%~ // battle song
+  
+//P_FA11
+  COPY_EXISTING ~p_fa11.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_F7%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_F7%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_17%~ // battle song
+  
+ //P_F11B
+  COPY_EXISTING ~p_f11b.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_F7%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_F7%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_25%~ // battle song
+  
+//p_fa12  
+  COPY_EXISTING ~p_fa12.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_10%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_10%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_19%~ // battle song
+  
+//p_f12B  
+  COPY_EXISTING ~p_f12b.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_10%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_10%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_27%~ // battle song
+ 
+//P_fa13 
+  COPY_EXISTING ~P_fa13.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_12%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_12%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_18%~ // battle song
+  
+//P_FA14
+  COPY_EXISTING ~P_FA14.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_F8%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_F8%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_22%~ // battle song
+  
+//p_fa15  
+  COPY_EXISTING ~p_fa15.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_F4%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_F4%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_21%~ // battle song
+ 
+//P_fa16 
+  COPY_EXISTING ~P_fa16.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_F8%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_F8%~ //night song
+  WRITE_LONG song_offset+0xc ~%P_20%~ // battle song
+
+
+//p_2601 
+  COPY_EXISTING ~p_2601.are~ ~override~
+  READ_LONG 0xbc song_offset
+  WRITE_LONG song_offset ~%P_B1%~	//day song
+  WRITE_LONG song_offset+0x4 ~%P_B1%~ //night song  

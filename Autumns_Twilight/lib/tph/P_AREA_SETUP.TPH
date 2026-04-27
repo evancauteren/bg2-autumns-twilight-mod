@@ -1,0 +1,834 @@
+// P_AREA_SETUP
+// Chequea mod Hidden Adventures -> Temple of Mask
+ACTION_IF !FILE_EXISTS_IN_GAME ~RRSPMASK.CRE~
+THEN BEGIN
+COPY_EXISTING ~ar0300.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 992
+      fj_loc_y          = 1367
+      fj_note_strref    = RESOLVE_STR_REF(@400455)    // Mathyus's Hideout
+      STR_VAR
+      fj_structure_type = note
+    END
+// Travel region: to p_ar14
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 2         // travel trigger
+      fj_box_left       = 982
+      fj_box_top        = 1348
+      fj_box_right      = 1007
+      fj_box_bottom     = 1433
+	  fj_cursor_idx     = 42        // cursor
+      fj_flags          = (1 << 2)  // [Party required]      
+      fj_loc_x          = 1010
+      fj_loc_y          = 1419
+	  //fj_alt posiblemente sea necesario. Poner similar/mayor en el "y" valor
+	  fj_alt_x          = 3485
+      fj_alt_y          = 1395
+      fj_vertex_0       = 982 + (1389 << 16)
+      fj_vertex_1       = 1003 + (1348 << 16)
+      fj_vertex_2       = 1007 + (1393 << 16)
+      fj_vertex_3       = 988 + (1433 << 16)      
+      STR_VAR
+      fj_structure_type   = region
+      fj_name             = P_travel_to_p_ar14
+      fj_destination_area = P_AR14
+      fj_destination_name = P_ENTRANCE1
+    END
+    // Entrance: from Hideout
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 994
+      fj_loc_y          = 1398
+      fj_orientation    = 12    // E
+      STR_VAR
+      fj_structure_type = entrance
+      fj_name           = P_ENTRANCEAR0300
+    END	
+END
+
+
+COPY_EXISTING ~ar0404.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 2598
+      fj_loc_y          = 1220
+      fj_note_strref    = RESOLVE_STR_REF(@200072)    // Beyond Sewers
+      STR_VAR
+      fj_structure_type = note
+    END
+// Travel region: to P_FAR1
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 2         // travel trigger
+      fj_box_left       = 2483
+      fj_box_top        = 1137
+      fj_box_right      = 2694
+      fj_box_bottom     = 1295
+	  fj_cursor_idx     = 42        // cursor
+      fj_flags          = (1 << 2)  // [Party required]
+	  // Launching Point
+      fj_loc_x          = 3485
+      fj_loc_y          = 1380
+	  // Operating Point
+	  fj_alt_x          = 3485
+      fj_alt_y          = 1395
+      fj_vertex_0       = 2483 + (1155 << 16)
+      fj_vertex_1       = 2663 + (1295 << 16)
+      fj_vertex_2       = 2694 + (1271 << 16)
+      fj_vertex_3       = 2517 + (1137 << 16)      
+      STR_VAR
+      fj_structure_type   = region
+      fj_name             = P_travel_to_pfar1
+      fj_destination_area = P_FAR1
+      fj_destination_name = P_f1e1
+	  //fj_reg_script = P_TEST
+    END
+
+    // Entrance: from Beyond
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 2584
+      fj_loc_y          = 1217
+      fj_orientation    = 2    // SW
+      STR_VAR
+      fj_structure_type = entrance
+      fj_name           = P_F1E4
+    END
+
+COPY_EXISTING ~p_far1.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 123
+      fj_loc_y          = 252
+      fj_note_strref    = RESOLVE_STR_REF(@200088)    // Beyond Sewers
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 744
+      fj_loc_y          = 190
+      fj_note_strref    = RESOLVE_STR_REF(@200089)    // Hacia cuevas orientales
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+COPY_EXISTING ~p_far2.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 142
+      fj_loc_y          = 253
+      fj_note_strref    = RESOLVE_STR_REF(@200090)    // Hacia la cueva
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 418
+      fj_loc_y          = 926
+      fj_note_strref    = RESOLVE_STR_REF(@200091)    // Hacia el recinto interior
+      STR_VAR
+      fj_structure_type = note
+    END	
+
+COPY_EXISTING ~p_far3.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 689
+      fj_box_top        = 425
+      fj_box_right      = 729
+      fj_box_bottom     = 454
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200081)    // El pergamino es incomprensible a tus ojos. Las extrañas runas parecen no pertenecer a este plano.
+      fj_vertex_0       = 689 + (443 << 16)
+      fj_vertex_1       = 723 + (454 << 16)
+      fj_vertex_2       = 729 + (436 << 16)
+      fj_vertex_3       = 695 + (425 << 16)
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf3001
+    END	
+
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 233
+      fj_loc_y          = 1170
+      fj_note_strref    = RESOLVE_STR_REF(@200092)    // Hacia las catacumbas
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 697
+      fj_loc_y          = 485
+      fj_note_strref    = RESOLVE_STR_REF(@200093)    // Estudios de Alendir
+      STR_VAR
+      fj_structure_type = note
+    END	
+	
+COPY_EXISTING ~p_fa3b.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 689
+      fj_box_top        = 425
+      fj_box_right      = 729
+      fj_box_bottom     = 454
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200081)    // El pergamino es incomprensible a tus ojos. Las extrañas runas parecen no pertenecer a este plano.
+      fj_vertex_0       = 689 + (443 << 16)
+      fj_vertex_1       = 723 + (454 << 16)
+      fj_vertex_2       = 729 + (436 << 16)
+      fj_vertex_3       = 695 + (425 << 16)
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf3b001
+    END	
+
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 233
+      fj_loc_y          = 1170
+      fj_note_strref    = RESOLVE_STR_REF(@200092)    // Hacia las catacumbas
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 697
+      fj_loc_y          = 485
+      fj_note_strref    = RESOLVE_STR_REF(@200093)    // Estudios de Alendir
+      STR_VAR
+      fj_structure_type = note
+    END	
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 872
+      fj_loc_y          = 212
+      fj_note_strref    = RESOLVE_STR_REF(@200113)    // Rachnidra
+      STR_VAR
+      fj_structure_type = note
+    END	
+
+COPY_EXISTING ~p_far5.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 1243
+      fj_box_top        = 929
+      fj_box_right      = 1458
+      fj_box_bottom     = 1086
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200078)    // Una enorme cantidad de huesos y cadáveres de ganado se encuentra en este rincón. El hedor te inunda los pulmones al tiempo en que las moscas danzan sobre la sangre. Te preguntas quién o qué es el autor de tal masacre.
+      fj_vertex_0       = 1243 + (1038 << 16)
+      fj_vertex_1       = 1381 + (929 << 16)
+      fj_vertex_2       = 1458 + (976 << 16)
+      fj_vertex_3       = 1285 + (1086 << 16)
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf5001
+    END	
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 2206
+      fj_box_top        = 48
+      fj_box_right      = 2351
+      fj_box_bottom     = 276
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200079)    // Es imposible atisbar la oscuridad de esta cueva. No ves nada. No oyes nada. Sólo percibes una profunda maldad más allá de la honda negrura de telarañas.
+      fj_vertex_0       = 2206 + (219 << 16)
+      fj_vertex_1       = 2351 + (276 << 16)
+      fj_vertex_2       = 2350 + (48 << 16)
+      fj_vertex_3       = 2266 + (50 << 16)
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf5002
+    END
+
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 1956
+      fj_box_top        = 953
+      fj_box_right      = 2147
+      fj_box_bottom     = 1083
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200080)    // Los harapos exhalan un horrible hedor a desechos de rata. Aparentemente, este ha sido el hogar de un roedor carroñero de considerable tamaño.
+      fj_vertex_0       = 1956 + (1016 << 16)
+      fj_vertex_1       = 2013 + (1083 << 16)
+      fj_vertex_2       = 2112 + (1063 << 16)
+      fj_vertex_3       = 2147 + (1020 << 16)
+	  fj_vertex_4       = 2104 + (953 << 16)
+	  fj_vertex_5       = 2013 + (1008 << 16)
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf5003
+    END	
+
+// NOTAS
+
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1724
+      fj_loc_y          = 1087
+      fj_note_strref    = RESOLVE_STR_REF(@200094)    // Campamento abandonado
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 163
+      fj_loc_y          = 365
+      fj_note_strref    = RESOLVE_STR_REF(@200095)    // Pasaje septentrional
+      STR_VAR
+      fj_structure_type = note
+    END	
+
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 340
+      fj_loc_y          = 1168
+      fj_note_strref    = RESOLVE_STR_REF(@200096)    // Cuevas australes
+      STR_VAR
+      fj_structure_type = note
+    END	
+
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 2210
+      fj_loc_y          = 266
+      fj_note_strref    = RESOLVE_STR_REF(@200097)    // Paraje oscuro
+      STR_VAR
+      fj_structure_type = note
+    END	
+
+COPY_EXISTING ~p_far8.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 1061
+      fj_box_top        = 747
+      fj_box_right      = 1330
+      fj_box_bottom     = 966
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200082)    // La horrible estatua parece observarte con ojos sin vidas. Su sola presencia incomoda hasta la última fibra de tu ser y sólo puedes observar, entre algunos escritos incomprensibles tallados en su oscura piedra, unas palabras que se quedan resonando en tu mente: "Morgrath".
+      fj_vertex_0       = 1179 + (788 << 16)
+      fj_vertex_1       = 1146 + (798 << 16)
+      fj_vertex_2       = 1144 + (817 << 16)
+      fj_vertex_3       = 1141 + (827 << 16)
+      fj_vertex_4       = 1131 + (827 << 16)
+      fj_vertex_5       = 1114 + (826 << 16)
+      fj_vertex_6       = 1101 + (822 << 16)
+      fj_vertex_7       = 1097 + (838 << 16)
+      fj_vertex_8       = 1083 + (863 << 16)
+      fj_vertex_9       = 1061 + (876 << 16)
+      fj_vertex_10      = 1187 + (966 << 16)
+      fj_vertex_11      = 1228 + (903 << 16)
+      fj_vertex_12      = 1271 + (906 << 16)
+      fj_vertex_13      = 1330 + (860 << 16)
+      fj_vertex_14      = 1299 + (815 << 16)
+      fj_vertex_15      = 1268 + (747 << 16)  
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf8001
+    END	
+
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 393
+      fj_loc_y          = 345
+      fj_note_strref    = RESOLVE_STR_REF(@200101)    // Hacia los pasajes septentrionales
+      STR_VAR
+      fj_structure_type = note
+    END	
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 880
+      fj_loc_y          = 187
+      fj_note_strref    = RESOLVE_STR_REF(@200102)    // Refugio abandonado
+      STR_VAR
+      fj_structure_type = note
+    END	
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1622
+      fj_loc_y          = 487
+      fj_note_strref    = RESOLVE_STR_REF(@200103)    // Hacia los pasajes norestes
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1189
+      fj_loc_y          = 843
+      fj_note_strref    = RESOLVE_STR_REF(@200150)    // Estatua arácnida
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+COPY_EXISTING ~p_fa8b.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 1061
+      fj_box_top        = 747
+      fj_box_right      = 1330
+      fj_box_bottom     = 966
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200082)    // La horrible estatua parece observarte con ojos sin vidas. Su sola presencia incomoda hasta la última fibra de tu ser y sólo puedes observar, entre algunos escritos incomprensibles tallados en su oscura piedra, unas palabras que se quedan resonando en tu mente: "Morgrath".
+      fj_vertex_0       = 1179 + (788 << 16)
+      fj_vertex_1       = 1146 + (798 << 16)
+      fj_vertex_2       = 1144 + (817 << 16)
+      fj_vertex_3       = 1141 + (827 << 16)
+      fj_vertex_4       = 1131 + (827 << 16)
+      fj_vertex_5       = 1114 + (826 << 16)
+      fj_vertex_6       = 1101 + (822 << 16)
+      fj_vertex_7       = 1097 + (838 << 16)
+      fj_vertex_8       = 1083 + (863 << 16)
+      fj_vertex_9       = 1061 + (876 << 16)
+      fj_vertex_10      = 1187 + (966 << 16)
+      fj_vertex_11      = 1228 + (903 << 16)
+      fj_vertex_12      = 1271 + (906 << 16)
+      fj_vertex_13      = 1330 + (860 << 16)
+      fj_vertex_14      = 1299 + (815 << 16)
+      fj_vertex_15      = 1268 + (747 << 16)  
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf8001
+    END	
+
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 393
+      fj_loc_y          = 345
+      fj_note_strref    = RESOLVE_STR_REF(@200101)    // Hacia los pasajes septentrionales
+      STR_VAR
+      fj_structure_type = note
+    END	
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 880
+      fj_loc_y          = 187
+      fj_note_strref    = RESOLVE_STR_REF(@200102)    // Refugio abandonado
+      STR_VAR
+      fj_structure_type = note
+    END	
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1622
+      fj_loc_y          = 487
+      fj_note_strref    = RESOLVE_STR_REF(@200103)    // Hacia los pasajes norestes
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1189
+      fj_loc_y          = 843
+      fj_note_strref    = RESOLVE_STR_REF(@200150)    // Estatua arácnida
+      STR_VAR
+      fj_structure_type = note
+    END
+
+COPY_EXISTING ~p_far6.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 299
+      fj_box_top        = 272
+      fj_box_right      = 427
+      fj_box_bottom     = 418
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200083)    // Pese a denotar la incalculable antiguedad de la estructura, la misma parece tener un cierto mantenimiento en su infraestructura. Parece ser que existe alguien o algo en su interior.
+      fj_vertex_0       = 314 + (289 << 16)
+      fj_vertex_1       = 299 + (418 << 16)
+      fj_vertex_2       = 378 + (417 << 16)
+      fj_vertex_3       = 427 + (364 << 16)
+      fj_vertex_4       = 387 + (272 << 16)
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf6001
+    END	
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1203
+      fj_loc_y          = 264
+      fj_note_strref    = RESOLVE_STR_REF(@200098)    // Cuevas arácnidas
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 365
+      fj_loc_y          = 366
+      fj_note_strref    = RESOLVE_STR_REF(@200099)    // Enclave Arcano
+      STR_VAR
+      fj_structure_type = note
+    END	
+
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 426
+      fj_loc_y          = 1615
+      fj_note_strref    = RESOLVE_STR_REF(@200100)    // Parajes australes de Dreach-naga
+      STR_VAR
+      fj_structure_type = note
+    END	
+	
+COPY_EXISTING ~p_fa6b.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 299
+      fj_box_top        = 272
+      fj_box_right      = 427
+      fj_box_bottom     = 418
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200083)    // Pese a denotar la incalculable antiguedad de la estructura, la misma parece tener un cierto mantenimiento en su infraestructura. Parece ser que existe alguien o algo en su interior.
+      fj_vertex_0       = 314 + (289 << 16)
+      fj_vertex_1       = 299 + (418 << 16)
+      fj_vertex_2       = 378 + (417 << 16)
+      fj_vertex_3       = 427 + (364 << 16)
+      fj_vertex_4       = 387 + (272 << 16)
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf6001
+    END	
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1203
+      fj_loc_y          = 264
+      fj_note_strref    = RESOLVE_STR_REF(@200098)    // Cuevas arácnidas
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 365
+      fj_loc_y          = 366
+      fj_note_strref    = RESOLVE_STR_REF(@200099)    // Enclave Arcano
+      STR_VAR
+      fj_structure_type = note
+    END	
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 426
+      fj_loc_y          = 1615
+      fj_note_strref    = RESOLVE_STR_REF(@200100)    // Parajes australes de Dreach-naga
+      STR_VAR
+      fj_structure_type = note
+    END	
+
+COPY_EXISTING ~p_far7.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 244
+      fj_box_top        = 464
+      fj_box_right      = 391
+      fj_box_bottom     = 544
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200084)    // Extrañas luces danzan en este extraño contenedor. Puede que sea la fuente de poder de Vidomina, pero no tienes la certeza de ello.
+      fj_vertex_0       = 244 + (496 << 16)
+      fj_vertex_1       = 278 + (544 << 16)
+      fj_vertex_2       = 356 + (538 << 16)
+      fj_vertex_3       = 391 + (501 << 16)
+      fj_vertex_4       = 359 + (467 << 16)
+      fj_vertex_5       = 276 + (464 << 16)
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf7001
+    END	
+
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 176
+      fj_box_top        = 512
+      fj_box_right      = 230
+      fj_box_bottom     = 589
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200085)    // Te preguntas qué se supone que es el contenido burbujeante de este gran recipiente. Por si las dudas, prefieres no acercarte demasiado.
+      fj_vertex_0       = 176 + (582 << 16)
+      fj_vertex_1       = 221 + (589 << 16)
+      fj_vertex_2       = 230 + (515 << 16)
+      fj_vertex_3       = 180 + (512 << 16)
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf7002
+    END	
+	
+	LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 930
+      fj_loc_y          = 1049
+      fj_note_strref    = RESOLVE_STR_REF(@200101)    // Hacia los pasajes septentrionales
+      STR_VAR
+      fj_structure_type = note
+    END	
+
+COPY_EXISTING ~p_fa11.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 727
+      fj_box_top        = 192
+      fj_box_right      = 911
+      fj_box_bottom     = 333
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200086)    // No logras ver más que oscuridad a través del velo del portal. La negrura se entremezcla entre relámpagos violetas y estruendos de furiosos truenos.
+      fj_vertex_0       = 727 + (230 << 16)
+      fj_vertex_1       = 886 + (333 << 16)
+      fj_vertex_2       = 911 + (268 << 16)
+      fj_vertex_3       = 745 + (192 << 16)
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf11001
+    END	
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 199
+      fj_loc_y          = 751
+      fj_note_strref    = RESOLVE_STR_REF(@200103)    // Hacia los pasajes norestes
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 789
+      fj_loc_y          = 352
+      fj_note_strref    = RESOLVE_STR_REF(@200105)    // Portal hacia el pantano
+      STR_VAR
+      fj_structure_type = note
+    END
+
+COPY_EXISTING ~p_f11b.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 727
+      fj_box_top        = 192
+      fj_box_right      = 911
+      fj_box_bottom     = 333
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200086)    // No logras ver más que oscuridad a través del velo del portal. La negrura se entremezcla entre relámpagos violetas y estruendos de furiosos truenos.
+      fj_vertex_0       = 727 + (230 << 16)
+      fj_vertex_1       = 886 + (333 << 16)
+      fj_vertex_2       = 911 + (268 << 16)
+      fj_vertex_3       = 745 + (192 << 16)
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf11b001
+    END	
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 199
+      fj_loc_y          = 751
+      fj_note_strref    = RESOLVE_STR_REF(@200103)    // Hacia los pasajes norestes
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 789
+      fj_loc_y          = 352
+      fj_note_strref    = RESOLVE_STR_REF(@200105)    // Portal hacia el pantano
+      STR_VAR
+      fj_structure_type = note
+    END
+
+COPY_EXISTING ~p_fa13.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_type           = 1       // info trigger
+      fj_box_left       = 298
+      fj_box_top        = 254
+      fj_box_right      = 386
+      fj_box_bottom     = 322
+      fj_cursor_idx     = 22      // info cursor
+      fj_info_point_strref  = RESOLVE_STR_REF(@200087)    // El terrible trono de Tisiphone está compuesto por una variedad de huesos de razas que no logras indentificar. Muy probablemente un monumento adecuado a su demoníaco reinado.
+      fj_vertex_0       = 298 + (288 << 16)
+      fj_vertex_1       = 328 + (322 << 16)
+      fj_vertex_2       = 386 + (291 << 16)
+      fj_vertex_3       = 364 + (254 << 16)
+      STR_VAR
+      fj_structure_type = region
+      fj_name           = p_infopf13001
+    END	
+
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1008
+      fj_loc_y          = 323
+      fj_note_strref    = RESOLVE_STR_REF(@200109)    // Hacia el pantano
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 367
+      fj_loc_y          = 331
+      fj_note_strref    = RESOLVE_STR_REF(@200110)    // Trono de Tisiphone
+      STR_VAR
+      fj_structure_type = note
+    END
+
+COPY_EXISTING ~p_far9.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 246
+      fj_loc_y          = 326
+      fj_note_strref    = RESOLVE_STR_REF(@200100)    // Parajes australes de Dreach-naga
+      STR_VAR
+      fj_structure_type = note
+    END
+
+COPY_EXISTING ~p_fa14.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 703
+      fj_loc_y          = 264
+      fj_note_strref    = RESOLVE_STR_REF(@200098)    // Cuevas arácnidas
+      STR_VAR
+      fj_structure_type = note
+    END
+
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1696
+      fj_loc_y          = 2570
+      fj_note_strref    = RESOLVE_STR_REF(@200111)    // Hacia el cubil de Skel'tharant
+      STR_VAR
+      fj_structure_type = note
+    END
+
+COPY_EXISTING ~p_fa15.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 2057
+      fj_loc_y          = 205
+      fj_note_strref    = RESOLVE_STR_REF(@200112)    // Túneles arácnidos
+      STR_VAR
+      fj_structure_type = note
+    END
+
+COPY_EXISTING ~p_fa10.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 219
+      fj_loc_y          = 654
+      fj_note_strref    = RESOLVE_STR_REF(@200100)    // Parajes australes de Dreach-naga
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 789
+      fj_loc_y          = 326
+      fj_note_strref    = RESOLVE_STR_REF(@200104)    // Parajes septentrionales de Dreach-naga
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+COPY_EXISTING ~p_f10b.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 219
+      fj_loc_y          = 654
+      fj_note_strref    = RESOLVE_STR_REF(@200100)    // Parajes australes de Dreach-naga
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 789
+      fj_loc_y          = 326
+      fj_note_strref    = RESOLVE_STR_REF(@200104)    // Parajes septentrionales de Dreach-naga
+      STR_VAR
+      fj_structure_type = note
+    END	
+	
+COPY_EXISTING ~p_fa12.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 2185
+      fj_loc_y          = 1772
+      fj_note_strref    = RESOLVE_STR_REF(@200106)    // De vuelta a los parajes septentrionales
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1508
+      fj_loc_y          = 1111
+      fj_note_strref    = RESOLVE_STR_REF(@200107)    // Guarida de Rask'tar Krathiss
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 713
+      fj_loc_y          = 1940
+      fj_note_strref    = RESOLVE_STR_REF(@200108)    // Hacia el trono real
+      STR_VAR
+      fj_structure_type = note
+    END
+
+COPY_EXISTING ~p_f12b.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 2185
+      fj_loc_y          = 1772
+      fj_note_strref    = RESOLVE_STR_REF(@200106)    // De vuelta a los parajes septentrionales
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1508
+      fj_loc_y          = 1111
+      fj_note_strref    = RESOLVE_STR_REF(@200107)    // Guarida de Rask'tar Krathiss
+      STR_VAR
+      fj_structure_type = note
+    END
+	
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 713
+      fj_loc_y          = 1940
+      fj_note_strref    = RESOLVE_STR_REF(@200108)    // Hacia el trono real
+      STR_VAR
+      fj_structure_type = note
+    END

@@ -1,5 +1,5 @@
 			Autumns Twilight Mod for Baldur's Gate II
-				          Version 1.3.0
+				          Version 1.4.5
 
 CONTENTS
 

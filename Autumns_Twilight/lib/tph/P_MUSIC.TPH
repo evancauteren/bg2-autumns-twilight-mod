@@ -1,0 +1,118 @@
+// P_MUSIC
+
+MKDIR ~Autumns_Twilight/Music~ COPY ~Autumns_Twilight/Music/p_f2~ ~music/p_f2~ 
+  ADD_MUSIC ~P_F2~ ~Autumns_Twilight/Music/p_f2.mus~
+
+COPY ~Autumns_Twilight/Music/p_d2~ ~music/p_d2~ 
+  ADD_MUSIC ~P_D2~ ~Autumns_Twilight/Music/p_d2.mus~
+
+COPY ~Autumns_Twilight/Music/p_d3~ ~music/p_d3~ 
+  ADD_MUSIC ~P_D3~ ~Autumns_Twilight/Music/p_d3.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_d1~ ~music/p_d1~ 
+  ADD_MUSIC ~P_D1~ ~Autumns_Twilight/Music/p_d1.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_d4~ ~music/p_d4~ 
+  ADD_MUSIC ~P_D4~ ~Autumns_Twilight/Music/p_d4.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_d5~ ~music/p_d5~ 
+  ADD_MUSIC ~P_D5~ ~Autumns_Twilight/Music/p_d5.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_d6~ ~music/p_d6~ 
+  ADD_MUSIC ~P_D6~ ~Autumns_Twilight/Music/p_d6.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_d7~ ~music/p_d7~ 
+  ADD_MUSIC ~P_D7~ ~Autumns_Twilight/Music/p_d7.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_d8~ ~music/p_d8~ 
+  ADD_MUSIC ~P_D8~ ~Autumns_Twilight/Music/p_d8.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_f3~ ~music/p_f3~ 
+  ADD_MUSIC ~P_F3~ ~Autumns_Twilight/Music/p_f3.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_f4~ ~music/p_f4~ 
+  ADD_MUSIC ~P_F4~ ~Autumns_Twilight/Music/p_f4.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_f5~ ~music/p_f5~ 
+  ADD_MUSIC ~P_F5~ ~Autumns_Twilight/Music/p_f5.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_f6~ ~music/p_f6~ 
+  ADD_MUSIC ~P_F6~ ~Autumns_Twilight/Music/p_f6.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_f7~ ~music/p_f7~ 
+  ADD_MUSIC ~P_F7~ ~Autumns_Twilight/Music/p_f7.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_f8~ ~music/p_f8~ 
+  ADD_MUSIC ~P_F8~ ~Autumns_Twilight/Music/p_f8.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_f9~ ~music/p_f9~ 
+  ADD_MUSIC ~P_F9~ ~Autumns_Twilight/Music/p_f9.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_10~ ~music/p_10~ 
+  ADD_MUSIC ~P_10~ ~Autumns_Twilight/Music/p_10.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_11~ ~music/p_11~ 
+  ADD_MUSIC ~P_11~ ~Autumns_Twilight/Music/p_11.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_12~ ~music/p_12~ 
+  ADD_MUSIC ~P_12~ ~Autumns_Twilight/Music/p_12.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_13~ ~music/p_13~ 
+  ADD_MUSIC ~P_13~ ~Autumns_Twilight/Music/p_13.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_14~ ~music/p_14~ 
+  ADD_MUSIC ~P_14~ ~Autumns_Twilight/Music/p_14.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_15~ ~music/p_15~ 
+  ADD_MUSIC ~P_15~ ~Autumns_Twilight/Music/p_15.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_16~ ~music/p_16~ 
+  ADD_MUSIC ~P_16~ ~Autumns_Twilight/Music/p_16.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_17~ ~music/p_17~ 
+  ADD_MUSIC ~P_17~ ~Autumns_Twilight/Music/p_17.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_18~ ~music/p_18~ 
+  ADD_MUSIC ~P_18~ ~Autumns_Twilight/Music/p_18.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_19~ ~music/p_19~ 
+  ADD_MUSIC ~P_19~ ~Autumns_Twilight/Music/p_19.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_20~ ~music/p_20~ 
+  ADD_MUSIC ~P_20~ ~Autumns_Twilight/Music/p_20.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_21~ ~music/p_21~ 
+  ADD_MUSIC ~P_21~ ~Autumns_Twilight/Music/p_21.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_22~ ~music/p_22~ 
+  ADD_MUSIC ~P_22~ ~Autumns_Twilight/Music/p_22.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_23~ ~music/p_23~ 
+  ADD_MUSIC ~P_23~ ~Autumns_Twilight/Music/p_23.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_24~ ~music/p_24~ 
+  ADD_MUSIC ~P_24~ ~Autumns_Twilight/Music/p_24.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_25~ ~music/p_25~ 
+  ADD_MUSIC ~P_25~ ~Autumns_Twilight/Music/p_25.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_26~ ~music/p_26~ 
+  ADD_MUSIC ~P_26~ ~Autumns_Twilight/Music/p_26.mus~ 
+  
+COPY ~Autumns_Twilight/Music/p_27~ ~music/p_27~ 
+  ADD_MUSIC ~P_27~ ~Autumns_Twilight/Music/p_27.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_b1~ ~music/p_b1~ 
+  ADD_MUSIC ~P_B1~ ~Autumns_Twilight/Music/p_b1.mus~ 
+
+COPY ~Autumns_Twilight/Music/p_f1~ ~music/p_f1~ 
+  ADD_MUSIC ~P_F1~ ~Autumns_Twilight/Music/p_f1.mus~
+
+COPY ~Autumns_Twilight/Music/p_g1~ ~music/p_g1~ 
+  ADD_MUSIC ~P_G1~ ~Autumns_Twilight/Music/p_g1.mus~
+
+COPY ~Autumns_Twilight/Music/p_g2~ ~music/p_g2~ 
+  ADD_MUSIC ~P_G2~ ~Autumns_Twilight/Music/p_g2.mus~
+
+COPY ~Autumns_Twilight/Music/p_g3~ ~music/p_g3~ 
+  ADD_MUSIC ~P_G3~ ~Autumns_Twilight/Music/p_g3.mus~

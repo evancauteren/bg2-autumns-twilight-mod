@@ -1,0 +1,679 @@
+// P_TPH_HARD_DIFFICULTY
+
+
+COPY ~Autumns_Twilight/Characters/hard_mode~ ~override~
+// Falon, la Cacique Orco
+COPY_EXISTING ~p_falon.cre~ ~override~
+SAY NAME1 @400322 /* Falon, la cacique orco */
+SAY NAME2 @400322 /* Falon, la cacique orco */
+WRITE_ASCII 0x2cc ~p_falon~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_falon~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_falon~ #8  // OVERRIDE SCRIPT
+// Cufa-Tima, el Ettin
+COPY_EXISTING ~p_cufati.cre~ ~override~
+SAY NAME1 @400323 /* Cufa-Tima, el Ettin */
+SAY NAME2 @400323 /* Cufa-Tima, el Ettin */
+WRITE_ASCII 0x2cc ~p_cufati~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_cufati~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_cufati~ #8  // OVERRIDE SCRIPT
+// Ziben, la gnoll
+COPY_EXISTING ~p_ziben.cre~ ~override~
+SAY NAME1 @400324 /* Ziben, la gnoll */
+SAY NAME2 @400324 /* Ziben, la gnoll */
+WRITE_ASCII 0x2cc ~p_ziben~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_ziben~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_ziben~ #8  // OVERRIDE SCRIPT
+// Coco, la cham�n trasgo
+COPY_EXISTING ~p_coco.cre~ ~override~
+SAY NAME1 @400325 /* Coco, la cham�n trasgo */
+SAY NAME2 @400325 /* Coco, la cham�n trasgo */
+WRITE_ASCII 0x2cc ~p_coco~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_coco~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_coco~ #8  // OVERRIDE SCRIPT
+// Sornhil, el Encantador
+COPY_EXISTING ~p_sornhi.cre~ ~override~
+SAY NAME1 @400326 /* Sornhil, el Encantador */
+SAY NAME2 @400326 /* Sornhil, el Encantador */
+WRITE_ASCII 0x2cc ~p_sornhi~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_sornhi~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_sornhi~ #8  // OVERRIDE SCRIPT
+//Alabarza
+COPY_EXISTING ~p_alabar.cre~ ~override~
+SAY NAME1 @400359 /* Alabarza, el Mutilador */
+SAY NAME2 @400359 /* Alabarza, el Mutilador */
+WRITE_ASCII 0x2cc ~p_alabar~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_alabar~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_alabar~ #8  // OVERRIDE SCRIPT
+COPY_EXISTING ~p_bob.cre~ ~override~
+SAY NAME1 @400360 /* Bob */
+SAY NAME2 @400360 /* Bob */
+WRITE_ASCII 0x2cc ~p_bob~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_bob~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_bob~ #8  // OVERRIDE SCRIPT
+
+COPY_EXISTING ~p_kocha.cre~ ~override~
+SAY NAME1 @400361 /* Kocha, el bers�rker */
+SAY NAME2 @400361 /* Kocha, el bers�rker */
+WRITE_ASCII 0x2cc ~p_kocha~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_kocha~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_kocha~ #8  // OVERRIDE SCRIPT
+
+COPY_EXISTING ~p_komar.cre~ ~override~
+SAY NAME1 @400362 /* Komar, el ogro */
+SAY NAME2 @400362 /* Komar, el ogro */
+WRITE_ASCII 0x2cc ~p_komar~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_komar~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_komar~ #8  // OVERRIDE SCRIPT
+
+COPY_EXISTING ~p_mike.cre~ ~override~
+SAY NAME1 @400363 /* Mike */
+SAY NAME2 @400363 /* Mike */
+WRITE_ASCII 0x2cc ~p_mike~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_mike~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_mike~ #8  // OVERRIDE SCRIPT
+
+COPY_EXISTING ~p_serra.cre~ ~override~
+SAY NAME1 @400364 /* Serrano, el carnicero */
+SAY NAME2 @400364 /* Serrano, el carnicero */
+WRITE_ASCII 0x2cc ~p_serra~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_serra~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_serra~ #8  // OVERRIDE SCRIPT
+
+COPY_EXISTING ~p_tongas.cre~ ~override~
+SAY NAME1 @400365 /* Tongas, el hechicero */
+SAY NAME2 @400365 /* Tongas, el hechicero */
+WRITE_ASCII 0x2cc ~p_tongas~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_tongas~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_tongas~ #8  // OVERRIDE SCRIPT
+
+COPY_EXISTING ~p_toxsan.cre~ ~override~
+SAY NAME1 @400366 /* Toxsan-Chimi, el ettin */
+SAY NAME2 @400366 /* Toxsan-Chimi, el ettin */
+WRITE_ASCII 0x2cc ~p_toxsan~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_toxsan~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_toxsan~ #8  // OVERRIDE SCRIPT
+
+COPY_EXISTING ~p_xeb.cre~ ~override~
+SAY NAME1 @400367 /* Xeb'Tian, el torturador */
+SAY NAME2 @400367 /* Xeb'Tian, el torturador */
+WRITE_ASCII 0x2cc ~p_xeb~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_xeb~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_xeb~ #8  // OVERRIDE SCRIPT
+
+// Valatar, el Conjurador
+COPY_EXISTING ~p_valata.cre~ ~override~
+SAY NAME1 @400373 /* Valatar, el Conjurador */
+SAY NAME2 @400373 /* Valatar, el Conjurador */
+WRITE_ASCII 0x2cc ~p_valata~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_valata~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_valata~ #8  // OVERRIDE SCRIPT
+// Puki, el demonio abisal de Valatar
+COPY_EXISTING ~p_dempit.cre~ ~override~
+SAY NAME1 @400392 /* Puki */
+SAY NAME2 @400392 /* Puki */
+// Kalanda, el Transmutador
+COPY_EXISTING ~p_kaland.cre~ ~override~
+SAY NAME1 @400423 /* Kalanda, el Transmutador */
+SAY NAME2 @400423 /* Kalanda, el Transmutador */
+WRITE_ASCII 0x2cc ~p_kaland~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_kaland~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_kaland~ #8  // OVERRIDE SCRIPT
+COPY ~Autumns_Twilight/Items/p_kasum1.itm~ ~override~
+COPY ~Autumns_Twilight/Items/p_kasum2.itm~ ~override~
+
+// Kalanda, el Transmutador2
+COPY_EXISTING ~p_kalan2.cre~ ~override~
+SAY NAME1 @400423 /* Kalanda, el Transmutador */
+SAY NAME2 @400423 /* Kalanda, el Transmutador */
+WRITE_ASCII 0x2cc ~p_kaland~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_kaland~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_kaland~ #8  // OVERRIDE SCRIPT
+// Anthagar, el Nigromante
+COPY_EXISTING ~p_anthag.cre~ ~override~
+SAY NAME1 @400426 /* Anthagar, el Nigromante */
+SAY NAME2 @400426 /* Anthagar, el Nigromante */
+WRITE_ASCII 0x2cc ~p_anthag~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_anthag~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_anthag~ #8  // OVERRIDE SCRIPT
+
+// Anthagar, el Nigromante
+COPY_EXISTING ~p_antha2.cre~ ~override~
+SAY NAME1 @400426 /* Anthagar, el Nigromante */
+SAY NAME2 @400426 /* Anthagar, el Nigromante */
+WRITE_ASCII 0x2cc ~p_anthag~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_anthag~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_anthag~ #8  // OVERRIDE SCRIPT
+
+
+// Nombre de las convocaciones: Veneno, Muerte y Destrucci�n
+COPY_EXISTING ~p_muerte.cre~ ~override~
+SAY NAME1 @400427 /* Muerte */
+SAY NAME2 @400427 /* Muerte */
+COPY ~Autumns_Twilight/Items/p_muerte.itm~ ~override~
+
+COPY_EXISTING ~p_veneno.cre~ ~override~
+SAY NAME1 @400428 /* Veneno */
+SAY NAME2 @400428 /* Veneno */
+COPY ~Autumns_Twilight/Items/p_veneno.itm~ ~override~
+
+COPY_EXISTING ~p_destru.cre~ ~override~
+SAY NAME1 @400429 /* Destrucci�n */
+SAY NAME2 @400429 /* Destrucci�n */
+COPY ~Autumns_Twilight/Items/p_destru.itm~ ~override~
+// Convocaciones de Valatar
+COPY_EXISTING ~p_dempi2.cre~ ~override~
+SAY NAME1 @400435 /* Glabrezu de Valatar */
+SAY NAME2 @400435 /* Glabrezu de Valatar */
+
+COPY_EXISTING ~p_dempi3.cre~ ~override~
+SAY NAME1 @400436 /* Tanar'ri de Valatar */
+SAY NAME2 @400436 /* Tanar'ri de Valatar */
+
+COPY_EXISTING ~p_muert2.cre~ ~override~
+SAY NAME1 @400427 /* Muerte */
+SAY NAME2 @400427 /* Muerte */
+
+// Puki, el demonio abisal de Valatar
+COPY_EXISTING ~p_dempid.cre~ ~override~
+SAY NAME1 @400392 /* Puki */
+SAY NAME2 @400392 /* Puki */
+WRITE_ASCII 0x2cc ~p_dempid~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_dempid~ #8  // small portrait
+// Alendir
+COPY_EXISTING ~p_alendi.cre~ ~override~
+SAY NAME1 @200018 /* Alendir */
+SAY NAME2 @200018 /* Alendir */
+SAY BATTLE_CRY1 @700006
+SAY BATTLE_CRY3 @700008
+SAY BATTLE_CRY4 @700009
+SAY BATTLE_CRY5 @700010
+SAY DYING @700039
+SAY SELECT_COMMON1 @700017
+SAY SELECT_COMMON2 @700018
+SAY SELECT_COMMON3 @700019
+SAY SELECT_COMMON4 @700020
+SAY SELECT_COMMON5 @700021
+SAY SELECT_COMMON6 @700022
+WRITE_ASCII 0x2cc ~p_alendi~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_alendi~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_alendi~ #8  // OVERRIDE SCRIPT
+// Kakuto
+COPY_EXISTING ~P_kakuto.cre~ ~override~
+SAY NAME1 @200041 /* Kitochi */
+SAY NAME2 @200041 /* Kitochi */
+WRITE_ASCII 0x2cc ~p_kakuto~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_kakuto~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_kakut~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_kakuto~ #8
+
+// Kakuto (SUMMONING)
+COPY_EXISTING ~P_kakut2.cre~ ~override~
+SAY NAME1 @200041 /* Kakuto */
+SAY NAME2 @200041 /* Kakuto */
+WRITE_ASCII 0x2cc ~p_kakut2~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_kakuto~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_kakut2~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_kakuto~ #8  // Death Script
+// Gorm
+COPY_EXISTING ~p_gorm.cre~ ~override~
+SAY NAME1 @200044 /* Gorm */
+SAY NAME2 @200044 /* Gorm */
+WRITE_ASCII 0x2cc ~P_GORM~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_GORM~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_GORM~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_GORM~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_GREEN_REMORHAZ~))
+COPY_EXISTING ~p_gorm2.cre~ ~override~
+SAY NAME1 @200044 /* Gorm */
+SAY NAME2 @200044 /* Gorm */
+WRITE_ASCII 0x2cc ~P_GORM~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_GORM~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_GORM~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_GORM~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_GREEN_REMORHAZ~))
+// Icelock
+COPY_EXISTING ~P_ICELOC.cre~ ~override~
+SAY NAME1 @200045 /* Icelock */
+SAY NAME2 @200045 /* Icelock */
+SAY SELECT_COMMON1 ~~ [p_icel00]
+WRITE_ASCII 0x2cc ~P_ICELOC~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_ICELOC~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_ICELOC~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_ICELOC~ #8  // Death Script
+
+// Troll Snow
+COPY_EXISTING ~p_ftrlsn.cre~ ~override~
+SAY NAME1 @200059 /* Troll de las nieves anciano */
+SAY NAME2 @200059 /* Troll de las nieves anciano */
+// Mesothel - 1st Encounter
+COPY_EXISTING ~p_mes0.cre~ ~override~
+SAY NAME1 @200147 /* Mesothel */
+SAY NAME2 @200147 /* Mesothel */
+WRITE_ASCII 0x2cc ~P_MESO~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_MESO~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_MESO~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_MESO~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_SPIDER_EYE~))
+// Tamika
+COPY_EXISTING ~p_tamika.cre~ ~override~
+SAY NAME1 @200166 /* Tamika */
+SAY NAME2 @200166 /* Tamika */
+//WRITE_ASCII 0x2cc ~p_tamika~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_tamika~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_tamika~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_tamika~ #8  // Death Script
+
+// Nimbus
+COPY_EXISTING ~p_nimbus.cre~ ~override~
+SAY NAME1 @200167 /* Nimbus */
+SAY NAME2 @200167 /* Nimbus */
+//WRITE_ASCII 0x2cc ~p_nimbus~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_nimbus~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_nimbus~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_nimbus~ #8  // Death Script
+
+// Xsi
+COPY_EXISTING ~p_xsi.cre~ ~override~
+SAY NAME1 @200168 /* Xsi */
+SAY NAME2 @200168 /* Xsi */
+//WRITE_ASCII 0x2cc ~p_xsi~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_xsi~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_xsi~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_xsi~ #8  // Death Script
+
+// Guerrero Espectral
+COPY_EXISTING ~p_fugua1.cre~ ~override~
+SAY NAME1 @200169 /* Guerrero Espectral */
+SAY NAME2 @200169 /* Guerrero Espectral */
+//WRITE_ASCII 0x2cc ~p_xsi~ #8 // dialog file
+WRITE_ASCII 0x280 ~p_fugua1~ #8  // Death Script
+
+// Arquero Espectral
+COPY_EXISTING ~p_fugua2.cre~ ~override~
+SAY NAME1 @200170 /* Arquero Espectral */
+SAY NAME2 @200170 /* Arquero Espectral */
+//WRITE_ASCII 0x2cc ~p_xsi~ #8 // dialog file
+WRITE_ASCII 0x280 ~p_fugua2~ #8  // Death Script
+// Sumo Chamán lagarto
+COPY_EXISTING ~p_flizc2.cre~ ~override~
+SAY NAME1 @200173 /* Sumo Chamán lagarto */
+SAY NAME2 @200173 /* Sumo Chamán lagarto */
+
+// Combatiente lagarto de élite
+COPY_EXISTING ~p_flizc3.cre~ ~override~
+SAY NAME1 @200174 /* Combatiente lagarto de élite */
+SAY NAME2 @200174 /* Combatiente lagarto de élite */
+
+// Cho'Nuja
+COPY_EXISTING ~p_cho.cre~ ~override~
+SAY NAME1 @200175 /* Cho'Nuja */
+SAY NAME2 @200175 /* Cho'Nuja */
+SAY BATTLE_CRY1 @600006
+SAY BATTLE_CRY2 @600007
+SAY BATTLE_CRY3 @600008
+SAY BATTLE_CRY4 @600009
+SAY BATTLE_CRY5 @600010
+SAY SELECT_COMMON3 @600019
+SAY SELECT_COMMON4 @600020
+SAY SELECT_COMMON6 @600022
+SAY SELECT_ACTION1 @600023
+SAY SELECT_ACTION2 @600024
+SAY SELECT_ACTION3 @600025
+SAY SELECT_ACTION4 @600026
+SAY SELECT_ACTION6 @600028
+WRITE_ASCII 0x2cc ~p_cho~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_cho~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_cho~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_cho~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_REPTILE~))
+
+
+// Qyl'tar
+COPY_EXISTING ~p_qyl.cre~ ~override~
+SAY NAME1 @200176 /* Qyl'tar */
+SAY NAME2 @200176 /* Qyl'tar */
+WRITE_ASCII 0x2cc ~p_qyl~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_qyl~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_qyl~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_qyl~ #8  // Death Script
+
+// Jaculi
+COPY_EXISTING ~p_fbas1.cre~ ~override~
+COPY_EXISTING ~p_fboa1.cre~ ~override~
+COPY_EXISTING ~p_fser1.cre~ ~override~
+SAY NAME1 @200183 /* Jaculi */
+SAY NAME2 @200183 /* Jaculi */
+WRITE_ASCII 0x280 ~p_fser1~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_SERPENT_JACULI~))
+// Hechicero Yuan-ti de élite
+COPY_EXISTING ~p_fyuac1.cre~ ~override~
+COPY_EXISTING ~p_fyuac2.cre~ ~override~
+SAY NAME1 @200184 /* Hechicero Yuan-ti de élite */
+SAY NAME2 @200184 /* Hechicero Yuan-ti de élite */
+// Rask'tar Krathiss
+COPY_EXISTING ~p_rask.cre~ ~override~
+SAY NAME1 @200190 /* Rask'tar Krathiss */
+SAY NAME2 @200190 /* Rask'tar Krathiss */
+WRITE_ASCII 0x248 ~p_rask~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_rask~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_RED_HYDRA~))
+// Tisiphone
+COPY_EXISTING ~p_tisiph.cre~ ~override~
+SAY NAME1 @200265 /* Tisiphone */
+SAY NAME2 @200265 /* Tisiphone */
+SAY BATTLE_CRY1 @91038
+SAY BATTLE_CRY2 ~~ [p_tisi11]
+SAY DAMAGE ~~ [p_tisi10]
+SAY SELECT_COMMON1 @91038
+WRITE_ASCII 0x248 ~p_tisiph~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x2cc ~p_tisiph~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_tisiph~ #8  // small portrait
+WRITE_ASCII 0x280 ~p_tisiph~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_MEDUSA~))
+
+
+// Capitán Gassthon
+COPY_EXISTING ~p_gass.cre~ ~override~
+SAY NAME1 @200266 /* Capitán Gassthon */
+SAY NAME2 @200266 /* Capitán Gassthon */
+WRITE_ASCII 0x248 ~p_gass~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_gass~ #8  // Death Script
+WRITE_ASCII 0x2cc ~p_gass~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_gass~ #8  // small portrait
+// Las 4 Tejedoras
+COPY ~Autumns_Twilight/Characters/weavers/p_weavfr.itm~ ~override~
+COPY_EXISTING ~p_weavfr.cre~ ~override~
+SAY NAME1 @200267 /* Tejedora de la Muerte Ardiente */
+SAY NAME2 @200267 /* Tejedora de la Muerte Ardiente */
+WRITE_ASCII 0x248 ~p_weavfr~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_weavfr~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_RED_WEAVER~))
+//WRITE_ASCII 0x2cc ~P_MESO~ #8 // dialog file
+//WRITE_ASCII 0X34  ~P_MESO~ #8  // small portrait
+
+COPY ~Autumns_Twilight/Characters/weavers/p_weavcd.itm~ ~override~
+COPY_EXISTING ~p_weavcd.cre~ ~override~
+SAY NAME1 @200268 /* Tejedora de la Escarcha */
+SAY NAME2 @200268 /* Tejedora de la Escarcha */
+WRITE_ASCII 0x248 ~p_weavcd~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_weavcd~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_ICE_WEAVER~))
+//WRITE_ASCII 0x2cc ~P_MESO~ #8 // dialog file
+//WRITE_ASCII 0X34  ~P_MESO~ #8  // small portrait
+
+COPY ~Autumns_Twilight/Characters/weavers/p_weavth.itm~ ~override~
+COPY_EXISTING ~p_weavth.cre~ ~override~
+SAY NAME1 @200269 /* Tejedora de Relámpagos */
+SAY NAME2 @200269 /* Tejedora de Relámpagos */
+WRITE_ASCII 0x248 ~p_weavth~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_weavth~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_WHITE_WEAVER~))
+//WRITE_ASCII 0x2cc ~P_MESO~ #8 // dialog file
+//WRITE_ASCII 0X34  ~P_MESO~ #8  // small portrait
+
+COPY ~Autumns_Twilight/Characters/weavers/p_weavac.itm~ ~override~
+COPY_EXISTING ~p_weavac.cre~ ~override~
+SAY NAME1 @200270 /* Tejedora de Acerbo */
+SAY NAME2 @200270 /* Tejedora de Acerbo */
+WRITE_ASCII 0x248 ~p_weavac~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_weavac~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_GREEN_WEAVER~))
+//WRITE_ASCII 0x2cc ~P_MESO~ #8 // dialog file
+//WRITE_ASCII 0X34  ~P_MESO~ #8  // small portrait
+COPY ~Autumns_Twilight/Characters/spider_army/p_spidat.itm~ ~override~
+COPY_EXISTING ~p_etter1.cre~ ~override~
+SAY NAME1 @200271 /* Cazador Ettercap */
+SAY NAME2 @200271 /* Cazador Ettercap */
+WRITE_ASCII 0x280 ~p_etter1~ #8  // Death Script
+
+COPY_EXISTING ~p_spgi1.cre~ ~override~
+SAY NAME1 @200272 /* Araña Gigante de Élite */
+SAY NAME2 @200272 /* Araña Gigante de Élite */
+WRITE_ASCII 0x280 ~p_spgi1~ #8  // Death Script
+
+COPY_EXISTING ~p_sphu1.cre~ ~override~
+SAY NAME1 @200273 /* Araña Enorme de Élite */
+SAY NAME2 @200273 /* Araña Enorme de Élite */
+WRITE_ASCII 0x280 ~p_sphu1~ #8  // Death Script
+
+COPY_EXISTING ~p_spph1.cre~ ~override~
+SAY NAME1 @200274 /* Araña Fase Asesina */
+SAY NAME2 @200274 /* Araña Fase Asesina */
+WRITE_ASCII 0x280 ~p_spph1~ #8  // Death Script
+
+COPY_EXISTING ~p_spsw1.cre~ ~override~
+SAY NAME1 @200275 /* Araña Espada Bersérker */
+SAY NAME2 @200275 /* Araña Espada Bersérker */
+WRITE_ASCII 0x248 ~p_spsw1~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_spsw1~ #8  // Death Script
+
+COPY_EXISTING ~p_spwr1.cre~ ~override~
+SAY NAME1 @200276 /* Araña del Terror */
+SAY NAME2 @200276 /* Araña del Terror */
+WRITE_ASCII 0x280 ~p_spwr1~ #8  // Death Script
+
+// Megalocentipede
+COPY ~Autumns_Twilight/Characters/spider_army/p_centat.itm~ ~override~
+COPY_EXISTING ~p_centip.cre~ ~override~
+SAY NAME1 @200277 /* Megacienpiés */
+SAY NAME2 @200277 /* Megacienpiés */
+WRITE_ASCII 0x280 ~p_centip~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_MEGACENTIPEDE~))
+
+// Cho'Nuja Ally
+COPY_EXISTING ~p_choc.cre~ ~override~
+SAY NAME1 @200175 /* Cho'Nuja */
+SAY NAME2 @200175 /* Cho'Nuja */
+SAY BATTLE_CRY1 @600006
+SAY BATTLE_CRY2 @600007
+SAY BATTLE_CRY3 @600008
+SAY BATTLE_CRY4 @600009
+SAY BATTLE_CRY5 @600010
+SAY SELECT_COMMON3 @600019
+SAY SELECT_COMMON4 @600020
+//SAY SELECT_COMMON5 @600021
+SAY SELECT_COMMON6 @600022
+SAY SELECT_ACTION1 @600023
+SAY SELECT_ACTION2 @600024
+SAY SELECT_ACTION3 @600025
+SAY SELECT_ACTION4 @600026
+SAY SELECT_ACTION6 @600028
+WRITE_ASCII 0x2cc ~p_cho~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_cho~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_choc~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_cho~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_REPTILE~))
+
+
+// Cho'Nuja Neutral
+COPY_EXISTING ~p_choc2.cre~ ~override~
+SAY NAME1 @200175 /* Cho'Nuja */
+SAY NAME2 @200175 /* Cho'Nuja */
+SAY BATTLE_CRY1 @600006
+SAY BATTLE_CRY2 @600007
+SAY BATTLE_CRY3 @600008
+SAY BATTLE_CRY4 @600009
+SAY BATTLE_CRY5 @600010
+SAY SELECT_COMMON3 @600019
+SAY SELECT_COMMON4 @600020
+//SAY SELECT_COMMON5 @600021
+SAY SELECT_COMMON6 @600022
+SAY SELECT_ACTION1 @600023
+SAY SELECT_ACTION2 @600024
+SAY SELECT_ACTION3 @600025
+SAY SELECT_ACTION4 @600026
+SAY SELECT_ACTION6 @600028
+WRITE_ASCII 0x2cc ~p_cho~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_cho~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_choc2~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_cho~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_REPTILE~))
+
+// Cho'Nuja Ally - Final Battle
+COPY_EXISTING ~p_choc3.cre~ ~override~
+SAY NAME1 @200175 /* Cho'Nuja */
+SAY NAME2 @200175 /* Cho'Nuja */
+SAY BATTLE_CRY1 @600006
+SAY BATTLE_CRY2 @600007
+SAY BATTLE_CRY3 @600008
+SAY BATTLE_CRY4 @600009
+SAY BATTLE_CRY5 @600010
+SAY SELECT_COMMON3 @600019
+SAY SELECT_COMMON4 @600020
+//SAY SELECT_COMMON5 @600021
+SAY SELECT_COMMON6 @600022
+SAY SELECT_ACTION1 @600023
+SAY SELECT_ACTION2 @600024
+SAY SELECT_ACTION3 @600025
+SAY SELECT_ACTION4 @600026
+SAY SELECT_ACTION6 @600028
+WRITE_ASCII 0x2cc ~p_cho~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_cho~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_choc3~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_cho~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_REPTILE~))
+
+// Mesothel - 2nd Encounter
+COPY_EXISTING ~p_mes1.cre~ ~override~
+SAY NAME1 @200147 /* Mesothel */
+SAY NAME2 @200147 /* Mesothel */
+WRITE_ASCII 0x2cc ~P_MESO~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_MESO~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_MESO~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_MESO~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_SPIDER_EYE~))
+
+
+// Mesothel - 3rd Encounter
+COPY_EXISTING ~p_mes2.cre~ ~override~
+SAY NAME1 @200147 /* Mesothel */
+SAY NAME2 @200147 /* Mesothel */
+WRITE_ASCII 0x2cc ~P_MESO~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_MESO~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_MESO2~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_MESO~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_SPIDER_EYE~))
+
+
+// Mesothel - Final Encounter
+COPY_EXISTING ~p_mes3.cre~ ~override~
+SAY NAME1 @200147 /* Mesothel */
+SAY NAME2 @200147 /* Mesothel */
+WRITE_ASCII 0x2cc ~P_MESO~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_MESO~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_MESO2~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_MESO~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_SPIDER_EYE~))
+
+// Liphix
+COPY_EXISTING ~p_liphix.cre~ ~override~
+SAY NAME1 @200278 /* Liphix */
+SAY NAME2 @200278 /* Liphix */
+WRITE_ASCII 0x2cc ~P_LIPHIX~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_LIPHIX~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_LIPHIX~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_LIPHIX~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_MAGENTA_SPIDER~))
+
+// Liphix
+COPY_EXISTING ~p_liphi2.cre~ ~override~
+SAY NAME1 @200278 /* Liphix */
+SAY NAME2 @200278 /* Liphix */
+WRITE_ASCII 0x2cc ~P_LIPHIX~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_LIPHIX~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_LIPHIX~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_LIPHIX~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_MAGENTA_SPIDER~))
+
+
+// Arthrom
+COPY_EXISTING ~p_arthro.cre~ ~override~
+SAY NAME1 @200279 /* Arthrom */
+SAY NAME2 @200279 /* Arthrom */
+WRITE_ASCII 0x2cc ~P_ARTHRO~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_ARTHRO~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_ARTHRO~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_ARTHRO~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_SPIDER_BLUE~))
+
+// Arthrom
+COPY_EXISTING ~p_arthr2.cre~ ~override~
+SAY NAME1 @200279 /* Arthrom */
+SAY NAME2 @200279 /* Arthrom */
+WRITE_ASCII 0x2cc ~P_ARTHRO~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_ARTHRO~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_ARTHRO~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_ARTHRO~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_SPIDER_BLUE~))
+
+
+// Kankra
+COPY_EXISTING ~p_kankra.cre~ ~override~
+SAY NAME1 @200280 /* Kankra */
+SAY NAME2 @200280 /* Kankra */
+WRITE_ASCII 0x2cc ~P_KANKRA~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_KANKRA~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_KANKRA~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_KANKRA~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_SPIDER_YELLOW~))
+
+
+// Kankra
+COPY_EXISTING ~p_kankr2.cre~ ~override~
+SAY NAME1 @200280 /* Kankra */
+SAY NAME2 @200280 /* Kankra */
+WRITE_ASCII 0x2cc ~P_KANKRA~ #8 // dialog file
+WRITE_ASCII 0X34  ~P_KANKRA~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_KANKRA~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_KANKRA~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_SPIDER_YELLOW~))
+
+
+
+// Morgrath 1st encounter
+COPY_EXISTING ~p_morgra.cre~ ~override~
+SAY NAME1 @200282 /* Morgrath */
+SAY NAME2 @200282 /* Morgrath */
+SAY SELECT_COMMON1 @91044
+SAY SELECT_COMMON2 @91045
+SAY SELECT_COMMON3 @91046
+WRITE_ASCII 0x248 ~p_morgra~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x2cc ~p_morgra~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_morgra~ #8  // small portrait
+WRITE_ASCII 0x280 ~p_morgra~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_SPIDER_QUEEN~))
+
+
+// Morgrath Final encounter
+COPY_EXISTING ~p_morgr2.cre~ ~override~
+SAY NAME1 @200282 /* Morgrath */
+SAY NAME2 @200282 /* Morgrath */
+SAY SELECT_COMMON1 @91044
+SAY SELECT_COMMON2 @91045
+SAY SELECT_COMMON3 @91046
+WRITE_ASCII 0x248 ~p_morgr2~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x2cc ~p_morgra~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_morgra~ #8  // small portrait
+WRITE_ASCII 0x280 ~p_morgra~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_SPIDER_QUEEN~))
+
+// Skel'Tharant - Cubil
+COPY_EXISTING ~p_skel.cre~ ~override~
+SAY NAME1 @200309 /* Skel'Tharant */
+SAY NAME2 @200309 /* Skel'Tharant */
+WRITE_ASCII 0x248 ~p_skel~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x2cc ~p_skel~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_skel~ #8  // small portrait
+WRITE_ASCII 0x280 ~p_skel~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_BEBILITH_NWN~))
+
+
+// Skel'Tharant - Final Battle
+COPY_EXISTING ~p_skel2.cre~ ~override~
+SAY NAME1 @200309 /* Skel'Tharant */
+SAY NAME2 @200309 /* Skel'Tharant */
+WRITE_ASCII 0x248 ~p_skel~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x2cc ~p_skel~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_skel~ #8  // small portrait
+WRITE_ASCII 0x280 ~p_skel~ #32  // Death Script
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_BEBILITH_NWN~))

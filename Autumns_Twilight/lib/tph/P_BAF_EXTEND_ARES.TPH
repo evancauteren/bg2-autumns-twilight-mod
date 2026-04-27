@@ -1,0 +1,19 @@
+// P_BAF_EXTEND_ARES
+
+EXTEND_TOP ~AR0700.bcs~ ~Autumns_Twilight/Scripts/AR0700.baf~
+EXTEND_TOP ~AR0511.bcs~ ~Autumns_Twilight/Scripts/AR0511.baf~
+EXTEND_TOP ~AR1106.bcs~ ~Autumns_Twilight/Scripts/AR1106.baf~
+EXTEND_TOP ~AR0406.bcs~ ~Autumns_Twilight/Scripts/AR0406.baf~
+EXTEND_TOP ~AR1900.bcs~ ~Autumns_Twilight/Scripts/AR1900.baf~
+EXTEND_TOP ~AR1514.bcs~ ~Autumns_Twilight/Scripts/AR1514.baf~
+EXTEND_TOP ~AR0300.bcs~ ~Autumns_Twilight/Scripts/AR0300.baf~
+EXTEND_TOP ~AR0500.bcs~ ~Autumns_Twilight/Scripts/AR0500.baf~
+EXTEND_TOP ~AR1200.bcs~ ~Autumns_Twilight/Scripts/AR1200.baf~
+EXTEND_TOP ~AR0903.bcs~ ~Autumns_Twilight/Scripts/AR0903.baf~
+EXTEND_TOP ~AR1904.bcs~ ~Autumns_Twilight/Scripts/AR1904.baf~
+EXTEND_TOP ~AR1600.bcs~ ~Autumns_Twilight/Scripts/AR1600.baf~
+EXTEND_TOP ~AR2100.bcs~ ~Autumns_Twilight/Scripts/AR2100.baf~
+EXTEND_TOP ~AR1506.bcs~ ~Autumns_Twilight/Scripts/AR1506.baf~
+EXTEND_TOP ~AR2601.bcs~ ~Autumns_Twilight/Scripts/AR2601.baf~
+EXTEND_TOP ~AR1509.bcs~ ~Autumns_Twilight/Scripts/AR1509.baf~
+EXTEND_TOP ~BALDUR.bcs~ ~Autumns_Twilight/Scripts/BALDUR.baf~

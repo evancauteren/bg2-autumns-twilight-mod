@@ -1,56 +1,6 @@
 BEGIN P_AlenJ
 
 
-
-// El Ojo Ciego: CHARNAME regresa con el artefacto
-I_C_T RIFTM01 28 P_AlenRIFTM0128
-== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @93113 /* ~Tantos sentimientos cobardes me abruman, <CHARNAME>. Quizás uno de mis Conos de Frío le hagan cambiar de parecer...~ */
-END
-
-// Firkraag: Se posterga el combate
-I_C_T FIRKRA02 21 P_AlenFIRKRA21
-== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @93114 /* Una decisión inteligente, <CHARNAME>. La verdad no estaba de humor de tener que esquivar bolas de fuego de un dragón rojo anciano. Quizás la próxima. */
-END
-
-// Firfraag: combate
-// I_C_T FIRKRA02 25 P_AlenFIRKRA25
-//== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ //THEN @93115 /* <CHARNAME>, procura que ninguno de sus ataques de fuego me toque, ¿sí? No estoy //de humor para ser calcinado. */ DO ~ActionOverride("firmag01",Enemy()) //ActionOverride("FIRKRA02",Enemy())~
-//END
-
-// Bodhi: Enfrentamiento final
-I_C_T C6BODHI 0 P_AlenC6BODHI15_GOOD
-== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @93116 /* Estas inmundicias son inmunes a los conjuros de frío. Sin embargo, tengo otros hechizos bajo la manga. */
-END
-
-// Árbol de la vida. Irenicus es derrotado.
-I_C_T PLAYER1 16 P_AlenIrenicusIsDead1
-== P_AlenJ IF ~InParty("P_Alen") Range("P_Alen",15) !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @93117 /* El Exiliado no ha sido derrotado del todo, <CHARNAME>. Hazme caso, no te confíes aún. */
-END
-
-// Infierno
-I_C_T PLAYER1 25 P_AlenEnteringHell1
-== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @93118 /* Un plano divino, similar al Abismo. Posiblemente un dominio de Bhaal. Esto no me gusta nada, <CHARNAME>. */
-END
-
-
-// Combatiendo contra Irenicus en el Infierno (Son 4 ICT)
-I_C_T HELLJON 7 P_AlenThirdBattleWithIrenicus1
-== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @93119 /* ¡Exiliado! Estos son tus momento finales. ¡El frío de mi poder vengará a aquellos que mataste en Suldanessellar! */
-END
-
-I_C_T HELLJON 8 P_AlenThirdBattleWithIrenicus2
-== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @93119 /* ¡Exiliado! Estos son tus momento finales. ¡El frío de mi poder vengará a aquellos que mataste en Suldanessellar! */
-END
-
-I_C_T HELLJON 9 P_AlenThirdBattleWithIrenicus3
-== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @93119 /* ¡Exiliado! Estos son tus momento finales. ¡El frío de mi poder vengará a aquellos que mataste en Suldanessellar! */
-END
-
-I_C_T HELLJON 10 P_AlenThirdBattleWithIrenicus4
-== P_AlenJ IF ~InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID)~ THEN @93119 /* ¡Exiliado! Estos son tus momento finales. ¡El frío de mi poder vengará a aquellos que mataste en Suldanessellar! */
-END
-
-
 ////////////////////////////////////////
 
 // Gitana
