@@ -264,7 +264,7 @@ Global("P_DuskMatMission1","GLOBAL",5)
 Global("P_Dusk_T2","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) // TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) // TTT 3600
 SetGlobal("P_Dusk_T2","GLOBAL",1)  
 END
 
@@ -275,7 +275,7 @@ InParty(Myself)
 Global("P_Dusk_T3","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T3","GLOBAL",1)  
 END	
 
@@ -286,7 +286,7 @@ InParty(Myself)
 Global("P_Dusk_T3","GLOBAL",3)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 900
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",900) //TTT 900
 SetGlobal("P_Dusk_Demole","GLOBAL",1)
 SetGlobal("P_Dusk_T3","GLOBAL",4)
 END	
@@ -299,7 +299,7 @@ Global("P_DuskMatMission2","GLOBAL",8)
 Global("P_Dusk_T4","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T4","GLOBAL",1)  
 END	
 
@@ -311,7 +311,7 @@ Global("P_Dusk_T4","GLOBAL",3)
 Global("P_Dusk_T5","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T5","GLOBAL",1)  
 END	
 
@@ -323,7 +323,7 @@ Global("P_Dusk_T5","GLOBAL",3)
 Global("P_Dusk_T6","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T6","GLOBAL",1)  
 END	
 
@@ -337,7 +337,7 @@ Global("P_DuskMatMission3","GLOBAL",0)
 Global("P_DuskDemoleApp2","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 900
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",900) //TTT 900
 SetGlobal("P_DuskMatMission3","GLOBAL",1)
 SetGlobal("P_DuskDemoleApp2","GLOBAL",1)
 END
@@ -349,7 +349,7 @@ Global("P_Dusk_T6","GLOBAL",3)
 Global("P_Dusk_T7","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T7","GLOBAL",1)  
 END	
 
@@ -361,7 +361,7 @@ Global("P_Dusk_T7","GLOBAL",3)
 Global("P_Dusk_T8","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T8","GLOBAL",1)  
 END	
 
@@ -375,7 +375,7 @@ Global("P_Dusk_T8","GLOBAL",3)
 Global("P_Dusk_T9","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T9","GLOBAL",1)  
 END	
 
@@ -387,7 +387,7 @@ Global("P_Dusk_T9","GLOBAL",3)
 Global("P_Dusk_T10","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T10","GLOBAL",1)  
 END	
 
@@ -399,7 +399,7 @@ Global("P_Dusk_T10","GLOBAL",3)
 Global("P_Dusk_T11","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T11","GLOBAL",1)  
 END	
 
@@ -411,7 +411,7 @@ Global("P_Dusk_T11","GLOBAL",3)
 Global("P_Dusk_T12","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 3600
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 3600
 SetGlobal("P_Dusk_T12","GLOBAL",1)  
 END	
 
@@ -423,7 +423,7 @@ Global("P_Dusk_T12","GLOBAL",3)
 Global("P_Dusk_T13","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) //TTT 1500
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",1500) //TTT 1500
 SetGlobal("P_Dusk_T13","GLOBAL",1)  
 END	
 

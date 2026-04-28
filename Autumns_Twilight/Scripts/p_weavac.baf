@@ -92,16 +92,6 @@ THEN
     AttackReevaluate(NearestEnemyOf(Myself),15)
 END
 
-/*IF
-  AttackedBy([GOODCUTOFF],DEFAULT)
-  Global ("P_FallMesothelNearestDead1","GLOBAL",0)
-  !Allegiance(Myself,ENEMY)
-THEN
-  RESPONSE #100
-    Enemy()
-END
-*/
-
 IF
   ActionListEmpty()
   Global ("P_WeaverAcidNearestDead1","GLOBAL",0)

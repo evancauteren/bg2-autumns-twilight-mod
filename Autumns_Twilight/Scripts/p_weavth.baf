@@ -97,16 +97,6 @@ THEN
     SetGlobal("P_SpiderThunder003","LOCALS",1)
 END
 
-/*IF
-  AttackedBy([GOODCUTOFF],DEFAULT)
-  Global ("P_FallMesothelNearestDead1","GLOBAL",0)
-  !Allegiance(Myself,ENEMY)
-THEN
-  RESPONSE #100
-    Enemy()
-END
-*/
-
 IF
   ActionListEmpty()
   See(NearestEnemyOf(Myself))
