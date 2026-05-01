@@ -1,0 +1,87 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200280)
+END
+
+IF
+AreaCheck("P_F10B")
+Global("P_KankraTalk1","GLOBAL",0)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),7)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_CHAIN_LIGHTNING)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #10
+    ForceSpell(Player1,WIZARD_WEB)
+    ForceSpell(Player1,TRAP_CALL_LIGHTNING)
+  RESPONSE #10
+    ForceSpell(Player2,WIZARD_WEB)
+    ForceSpell(Player2,MEPHIT_LIGHTNING_BOLT)
+  RESPONSE #10
+    ForceSpell(Player3,WIZARD_WEB)
+    ForceSpell(Player3,WIZARD_SYMBOL_STUN)
+  RESPONSE #10
+    ForceSpell(Player4,WIZARD_WEB)
+    ForceSpell(Player4,WIZARD_TELEPORT_FIELD)
+  RESPONSE #10
+    ForceSpell(Player5,WIZARD_WEB)
+    ForceSpell(Player5,WIZARD_SKULL_TRAP)
+  RESPONSE #10
+    ForceSpell(Player6,WIZARD_WEB)
+    ForceSpell(Player6,WIZARD_LIGHTNING_BOLT)
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #10
+    ForceSpell(NearestEnemyOf(Myself),TRAP_CALL_LIGHTNING)
+  RESPONSE #10
+    ForceSpell(SecondNearestEnemyOf(Myself),MEPHIT_LIGHTNING_BOLT)
+  RESPONSE #10
+    ForceSpell(ThirdNearestEnemyOf(Myself),WIZARD_SYMBOL_STUN)
+  RESPONSE #10
+    ForceSpell(FourthNearestEnemyOf(Myself),WIZARD_TELEPORT_FIELD)
+  RESPONSE #10
+    ForceSpell(FifthNearestEnemyOf(Myself),WIZARD_SKULL_TRAP)
+  RESPONSE #10
+    ForceSpell(SixthNearestEnemyOf(Myself),WIZARD_LIGHTNING_BOLT)
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  ActionListEmpty()
+  Global ("P_KankraNearestDead1","GLOBAL",0)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  ActionListEmpty()
+  Global ("P_KankraNearestDead1","GLOBAL",0)
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END

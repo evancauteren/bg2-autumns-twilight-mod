@@ -14092,7 +14092,145 @@ Potężny elf shilmistowy."~
 @11000199=~Aeris! Zemściłem się na tobie... zemściliśmy się na tobie... <CHARNAME>, Fall: Dziękuję... wrócę do Astralnego Wymiaru... muszę być przez chwilę sam.~
 @11000200=~Będę...~
 
+// V1.5
 
+// Fang of Loyalty: Keldorn/Jack
+@11100000 = ~*Jack's gaze seems to almost exhale a halo of cold. He looks intently at Keldorn who returns the stare.*~
+@11100001 = ~*Jack pants and wags his tail, excited by his paladin friend's words.*~
+@11100002 = ~I understand your intentions, faithful Jack. It is time to bring your training into the realm of combat.~
+@11100003 = ~*Jack approaches Keldorn and allows him to pet his back.*~
+@11100004 = ~"Fang of Loyalty" seems like a fitting name to me, don't you agree? We will put it into practice when we fight together.~
+@11100005 = ~Onward, Jack! Fang of Loyalty!~
+@11100006 = ~*Jack executes Fang of Loyalty*~
+
+// Shar's Toll (Diezmo de Shar) Viconia / Uma -- 1
+@11100007 = ~*Uma pants as she is stroked by Viconia's glaucous hands.*~
+@11100008 = ~The darkness of your fur is beautiful, kal'daka. I could admire it for hours on end.~
+@11100009 = ~*Uma shivers with pleasure at the drow's smile.*~
+@11100010 = ~It is good to see Uma enjoy the praise and affection of a Prime Material dweller, priestess of Shar. I believe you could awaken a hidden power within her, though it may well be a mutual endeavor.~
+@11100011 = ~You are mysterious, narikia. I do not mean that as an insult. Strange as it may seem, your presence does not disgust me.~
+@11100012 = ~You should spend more time with Uma. It seems to do you both good.~
+@11100013 = ~*smiles* As much as I might want to, it seems she has no desire to leave my side. I will keep your words about power in mind. It is not something I would lightly dismiss.~
+@11100014 = ~Come, Uma. I will teach you something of Shar, and perhaps we shall both be companions of the dark.~
+@11100015 = ~*Uma seems to perfectly understand Viconia's words as she lightly wags her tail.*~
+
+// Shar's Toll (Diezmo de Shar) Viconia / Uma -- 2
+@11100016 = ~*Uma's ears look like frozen winter leaves as she admires Viconia.*~
+@11100017 = ~You are a fine disciple of the Dark, my little kal'daka. I believe we are ready to put our strategy into motion.~
+@11100018 = ~*Uma pants, and the gleam in her eyes stands out against her black fur.*~
+@11100019 = ~"Shar's Toll" it shall be, then. When you are near me and enemies approach, we will execute it, yes?~
+@11100020 = ~*Uma lets out a timid but no less chilling howl.*~
+
+@11100021 = ~My little kal'daka, it is time to deliver our Toll to Shar!~
+@11100022 = ~*Uma executes Shar's Toll*~
+
+// Galvanic Execution (Ejecución Galvánica) Imoen / Sayang -- 1 
+@11100023 = ~*Sayang stands on her two hind legs to reach Imoen.*~
+@11100024 = ~Hey! You're no little pup to be doing that. You're heavy, you know?~
+@11100025 = ~You must forgive Sayang, child. It is her way of greeting. It is also her way of asking for food.~
+@11100026 = ~Well, she's a bit too chubby to be asking for food, don't you think?~
+@11100027 = ~What do they eat in the Astral Plane anyway? Seems to me you're fattening her up too much, Bellfame.~
+@11100028 = ~Sayang is free to eat whatever she finds. She did so when we lived in the Forest of Mir, and she continues to do so now that we are in the Astral Plane.~
+@11100029 = ~*Sayang's eyes gleam, and she lets out a soft whine of pity toward Imoen.*~
+@11100030 = ~Argh! Fine, fine. I'll see if I have something in my pack to give you, Sayang. But stop jumping on me!~
+@11100031 = ~*Sayang emits a howl of approval and waits attentively for whatever snack Imoen might offer.*~
+
+// Galvanic Execution (Ejecución Galvánica) Imoen / Sayang -- 2
+@11100032 = ~*Sayang sits attentively, listening to the whispers Imoen seems to be feeding her.*~
+@11100033 = ~So, basically, Sayang, we can do that, right?~
+@11100034 = ~*The worg slightly tilts her head at Imoen's words.*~
+@11100035 = ~You know, I think you're capable of stopping men's hearts if you let out a piercing enough howl.~
+@11100036 = ~You do that, and at the same time, I'll cast a spell against our enemies.~
+@11100037 = ~In the next battle, stay close to me and you'll see!~
+@11100038 = ~*A short howl of excitement escapes Sayang's snout in approval of Imoen's request.*~
+
+@11100039 = ~Sayang, now's the time: Galvanic Execution!~
+@11100040 = ~*Sayang performs Galvanic Execution.*~
+
+// Divine Squeak (Chirrido Divino) Mazzy / Baba
+@11100041 = ~*Baba watches Mazzy, utterly spellbound.*~
+@11100042 = ~Pay attention, Baba! It will not work if you are constantly distracted.~
+@11100043 = ~*Baba, as was his habit, is about to complain and squeak, but seeing that it is Mazzy speaking, surprisingly obeys.*~ [P_Baba01]
+@11100044 = ~If you use your ability against our opponents, I can channel my divine power to charge into battle.~
+@11100045 = ~*The mouse nods slowly as you watch his tiny eyes shine brighter and brighter.*~
+@11100046 = ~When enemies are near, stay close to me, and when I shout 'Divine Squeak,' that is when you must act, understood?~
+@11100047 = ~*Baba looks determined and seems to make strange noises of approval.*~ [P_Baba02]
+
+@11100048 = ~Now is the time, great Baba! It is time for the Divine Squeak!~
+@11100049 = ~*Baba executes Divine Squeak.*~
+
+// Twin Meteors (Meteoros Gemelos) Thiago / Wilson
+@11100050 = ~*Thiago and Wilson stand looking at each other in silence. After a few seconds, they begin to emit strange snorts.*~ [BBEAR04]
+@11100051 = ~Snort.~ [BBEAR09]
+@11100052 = ~Twin Meteors? What are you two plotting?~
+@11100053 = ~Lament.~ [BBEAR02]
+@11100054 = ~I believe they are planning to combine their abilities the next time they find themselves in combat. They have been silently communicating while we weren't looking, <CHARNAME>.~
+@11100055 = ~Just what I needed, a bear conspiracy.~
+@11100056 = ~And what is that supposed to mean?~
+@11100057 = ~I do not think it is a matter for concern, good <CHARNAME>. However, if you wish to see--...~
+@11100058 = ~Yes, Thiago: "Twin Meteors." If you want to see what it is about, when those two are close to each other in the next fight, you might just find out.~
+@11100059 = ~Alright, Wilson. Don't make me look bad.~
+@11100060 = ~Don't lead Thiago astray, Wilson.~
+@11100061 = ~*Thiago lets out an exaggerated whimper and returns to his secret activities with Wilson.*~ [BBEAR02]
+
+@11100062 = ~*Wilson executes Twin Meteors alongside Thiago!*~ [BBEAR04]
+@11100063 = ~*Thiago executes Twin Meteors alongside Wilson!*~ [BBEAR02]
+
+// Sylvan Judgment (Juicio Silvano) Bellfame / Good Dusk -- 1
+@11100064 = ~The revenge of the First Sword has been exacted.~
+@11100065 = ~What do you mean, Bellfame?~
+@11100066 = ~Alabarza has been defeated. Your comrades from Cormyr have been avenged. Am I correct? It seems my words confuse you.~
+@11100067 = ~I-I... Yes, I suppose they have been avenged. But... It wasn't what I expected.~
+@11100068 = ~I know, Dusk. I can see your heart, and I know it is troubled by these events.~
+@11100069 = ~Alabarza did not turn out to be the monster you dreamed he was for so many years.~
+@11100070 = ~The mercy at your hands was a reflection of that.~
+@11100071 = ~It is strange. As you say, I dreamed of that battle for years. And now that we have won... it does not feel like a sweet victory.~
+@11100072 = ~Violent death by steel is an unnatural thing that rarely brings happiness with it.~
+@11100073 = ~But we had no other choice.~
+@11100074 = ~I know you did not, my dear Dusk. Some destinies are intimately bound to the path of violence.~
+@11100075 = ~No matter how hard one tries to fight it, they inevitably return to that path.~
+@11100076 = ~It's like... trying to fight the tide, isn't it?~
+@11100077 = ~But everything has an end. Do not despair, Dusk. Peace will come, sooner or later.~
+
+// Sylvan Judgment (Juicio Silvano) Bellfame / Good Dusk -- 2
+@11100078 = ~Dusk, I would like to converse with you again, if I may?~
+@11100079 = ~I am here, Bellfame. Tell me, please, how can I serve you?~
+@11100080 = ~We have spoken of... sorrowful things before, wouldn't you agree?~
+@11100081 = ~Erm... I suppose so. It is never easy to speak of past traumas, or resolutions, especially if they have been violent and recent.~
+@11100082 = ~Um... You seem a bit hesitant, Bellfame. It is strange to see you like this.~
+@11100083 = ~I wanted... to apologize. It is easy for me to interact with mortals. But with you... I do not know why it is more complex than I expected.~
+@11100084 = ~I feel things I cannot identify.~
+@11100085 = ~Is something wrong?~
+@11100086 = ~No, I do not believe it is something bad. I think of you and your destiny more than I should.~
+@11100087 = ~I don't want... I don't want to complicate your path more than it already is, Dusk.~
+@11100088 = ~Although it's not as if I could go anywhere else while the Ring of Mir is near you.~
+@11100089 = ~If it is of any comfort to you, Bellfame, I think of you as well. Your words have been a breath of fresh air to my heart.~
+@11100090 = ~You are the calm I so desperately need. I... I may feel guilty thinking about it, considering... Celine.~
+@11100091 = ~But I see no harm in us being friends while events unfold, for better or for worse.~
+@11100092 = ~I understand. Your words have helped me, yes. I believe I like that you think of me, Dusk.~
+@11100093 = ~And I understand what you say about Celine. I respect that you must follow your path to the end.~
+@11100094 = ~But until the decision arrives, having your friendship is something I can enjoy.~
+@11100095 = ~That way, thinking of you so much no longer feels like a strange sensation. But something warm and serene.~
+@11100096 = ~I feel the same way, Bell.~
+@11100097 = ~"Bell." I like that.~
+@11100098 = ~It is the first time I have seen you smile. I am glad to witness it.~
+@11100099 = ~*blushes* Uhm. Th-thank you, Dusk.~
+
+// Sylvan Judgment (Juicio Silvano) Bellfame / Good Dusk -- 3
+@11100100 = ~So, Sylvan Judgment, am I correct?~
+@11100101 = ~Yes, Bell. I can keep myself free from paralysis spells long enough for you to execute your magic.~
+@11100102 = ~I understand. You charge, and I cover you with my words.~
+@11100103 = ~That's the idea.~
+@11100104 = ~And why give it a name?~
+@11100105 = ~It's how we identify what we must do.~
+@11100106 = ~Ah, but a look from you is enough. If I know you, I will know what you mean.~
+@11100107 = ~*clears throat* Yes, I know, Bell. But <CHARNAME> and the others do not. So they know, whenever we call out our attack, they'll know what's coming.~
+@11100108 = ~Now I understand. Then I shall say it. Sylvan Juiceness.~
+@11100109 = ~Judgment.~
+@11100110 = ~Noted.~
+
+@11100111 = ~Now, Bell! It's time for the Sylvan Judgment.~
+@11100112 = ~Yes, Dusk. Sylvan Juiceness!~
 
 
 // JOURNAL

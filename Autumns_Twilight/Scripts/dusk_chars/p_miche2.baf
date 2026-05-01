@@ -1,0 +1,25 @@
+IF
+  Global("P_DuskDUSKDIEDFinalMission","GLOBAL",1)
+THEN
+  RESPONSE #100
+	StartCutSceneMode()
+	//FadeToColor([20.0],0)
+	CreateVisualEffect("SPHEALIN",[1076.861])
+	CreateVisualEffect("SPHEALIN",[869.868])
+	CreateVisualEffect("SPHEALIN",[994.941])
+	CreateVisualEffect("SPHEALIN",[988.740])
+	Wait(1)
+    //FadeFromColor([20.0],0)
+	Wait(4)
+	SetGlobal("P_DuskDUSKDIEDFinalMission","GLOBAL",2)
+	EndCutSceneMode()
+END
+
+IF
+Global("P_Dusk_Mich2_TalkBegin","GLOBAL",0)
+THEN
+  RESPONSE #100
+  Wait(1)
+  SetGlobal("P_Dusk_Mich2_TalkBegin","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END

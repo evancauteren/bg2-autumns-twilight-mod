@@ -1,0 +1,22 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200185)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("P_FHasteVresh","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("P_FHasteVresh","LOCALS",1)
+    ForceSpell(Myself,WIZARD_IMPROVED_HASTE)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END

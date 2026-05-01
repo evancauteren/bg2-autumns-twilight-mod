@@ -1,0 +1,65 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200282)
+END
+
+IF
+AreaCheck("P_F11B")
+//CombatCounter(0)
+Global("P_MorgrathSpeak1","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Face(SW)
+Wait(2)
+SetGlobal ("P_MorgrathSpeak1","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+StartDialogueNoSet(Player1)
+END
+
+IF
+AreaCheck("P_F10B")
+//CombatCounter(0)
+Global("P_MorgrathSpeak2","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+FaceObject(Player1)
+Wait(2)
+SetGlobal ("P_MorgrathSpeak2","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+StartDialogueNoSet(Player1)
+END
+
+IF
+AreaCheck("P_FA8B")
+//CombatCounter(0)
+Global("P_MorgrathSpeak3","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Face(SE)
+Wait(2)
+SetGlobal ("P_MorgrathSpeak3","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+StartDialogueNoSet(Player1)
+END
+
+IF
+  HPLT(Myself,200)
+  Global ("P_FallMorgrathHurt1","GLOBAL",0)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(1)
+  ApplySpell(Myself,HEAL_NO_VISUAL)
+  SetGlobal ("P_FallMorgrathHurt1","GLOBAL",1)
+  EndCutSceneMode()
+  Continue()
+  StartDialogueNoSet(Player1)
+END

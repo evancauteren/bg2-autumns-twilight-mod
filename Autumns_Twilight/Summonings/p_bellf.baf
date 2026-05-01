@@ -1,4 +1,47 @@
 IF
+  !CombatCounter(0)
+  See([ENEMY])
+  Range("P_Dusk",15)
+  Global("P_BellfameDusk_CA_001","GLOBAL",3)
+  Global("P_BellfameDusk_COMBOAT01_TRIGGER","GLOBAL",0)
+  InParty("P_Dusk")
+  InMyArea("P_Dusk")
+  !Dead("P_Dusk")
+THEN
+  RESPONSE #100
+	ActionOverride("P_Dusk", DisplayStringHead(Myself, @11100111))
+	//Wait(1)
+    DisplayStringHead(Myself,@11100112)
+	ReallyForceSpellRES("SPWI816", NearestEnemyOf(Myself)) // Stun
+	// Dusk
+	ActionOverride("P_Dusk", ReallyForceSpellRES("SPPR403",Myself) // Free Action
+	SetGlobal("P_BellfameDusk_COMBOAT01_TRIGGER","GLOBAL",1)
+END
+
+// BLOQUE 2: Iniciar el Cooldown (Cuando termina el combate)
+IF
+  CombatCounter(0)
+  Global("P_BellfameDusk_COMBOAT01_TRIGGER","GLOBAL",1) 
+THEN
+  RESPONSE #100
+    // IMPORTANTE: Pasamos a estado 2 para que este bloque no se repita
+    SetGlobal("P_BellfameDusk_COMBOAT01_TRIGGER","GLOBAL",2) 
+    RealSetGlobalTimer("P_BellfameCombo01Timer","GLOBAL",1200)
+END 
+
+// BLOQUE 3: Resetear después de 20 minutos
+IF
+  Global("P_BellfameDusk_COMBOAT01_TRIGGER","GLOBAL",2)
+  RealGlobalTimerExpired("P_BellfameCombo01Timer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("P_BellfameDusk_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
+END
+
+
+
+
+IF
   HaveSpell(CLERIC_BARKSKIN)
   See(NearestEnemyOf(Myself))
   Global("prep","LOCALS",0)

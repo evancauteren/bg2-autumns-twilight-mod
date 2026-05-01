@@ -1,0 +1,76 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@400322)
+END
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_DuskMatMission2","GLOBAL",3)
+THEN
+  RESPONSE #100
+  SetGlobal ("P_DuskMatMission2","GLOBAL",4)
+  StartDialogueNoSet(Player1)
+END
+
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+  OR (4)
+  Global ("P_DuskMatMission2","GLOBAL",4)
+  Global ("P_DuskMatMission2","GLOBAL",5)
+  Global ("P_DuskMatMission2","GLOBAL",6)
+  Global ("P_DuskMatMission2","GLOBAL",7)
+THEN
+  RESPONSE #100
+  SetGlobal ("P_DuskEvil","GLOBAL",1)
+  SetGlobal ("P_DuskMatMission2","GLOBAL",7)
+  Enemy()
+END
+
+
+
+//IF
+//InParty("P_Dusk")
+//See("P_Dusk")
+//Global ("P_DuskMatMission2","GLOBAL",6)
+//THEN
+//  RESPONSE #100
+//  Wait (10)
+//  StartDialogueNoSet(Player1)
+//END
+
+IF
+  Heard([ANYONE],111)
+THEN
+  RESPONSE #100
+    MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  ActionListEmpty()
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  ActionListEmpty()
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END
+

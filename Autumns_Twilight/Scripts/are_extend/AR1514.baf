@@ -1,0 +1,12 @@
+// Script de Fall cuando la conocemos
+IF
+//InParty("P_Fall")
+Global("P_MesothelSpawnWiz","GLOBAL",0)
+//Global ("P_FallMission2","GLOBAL",8)
+THEN
+RESPONSE #100
+CreateCreature("P_Mes0",[679.689],NW)
+SetGlobal("P_MesothelSpawnWiz","GLOBAL",1)
+Continue()
+END
+

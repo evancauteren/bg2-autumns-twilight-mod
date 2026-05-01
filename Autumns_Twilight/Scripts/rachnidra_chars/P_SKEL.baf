@@ -1,0 +1,286 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200309)
+END
+
+IF
+AreaCheck("P_FA15")
+Global("P_SKELEncounter","GLOBAL",0)
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(1)
+EndCutSceneMode()
+Continue()
+SetGlobal ("P_SKELEncounter","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+// CON PHILLIPE
+// DE CERO a UNO
+IF
+  AreaCheck("P_FA15")
+  HPLT(Myself,21)
+  Global ("P_FallSkelNearestDead2","GLOBAL",0)
+  Global ("P_PhillipeWillSpawn","GLOBAL",1)
+THEN
+  RESPONSE #100
+	StartCutSceneMode()
+	Wait(1)
+	ChangeEnemyAlly(Myself,NEUTRAL)
+	ApplySpell(Myself,HEAL_NO_VISUAL)
+	Wait(1)
+	ActionOverride(Player1,JumpToPoint([776.811]))
+	ActionOverride(Player1,Wait(1))
+	ActionOverride(Player1,Face(E))
+	ActionOverride(Player2,JumpToPoint([765.867]))
+	ActionOverride(Player2,Wait(1))
+	ActionOverride(Player2,Face(NE))
+	ActionOverride(Player3,JumpToPoint([777.935]))
+	ActionOverride(Player3,Wait(1))
+	ActionOverride(Player3,Face(E))
+	ActionOverride(Player4,JumpToPoint([816.979]))
+	ActionOverride(Player4,Wait(1))
+	ActionOverride(Player4,Face(N))
+	ActionOverride(Player5,JumpToPoint([857.1008]))
+	ActionOverride(Player5,Wait(1))
+	ActionOverride(Player5,Face(N))
+	ActionOverride(Player6,JumpToPoint([937.1026]))
+	ActionOverride(Player6,Wait(1))
+	ActionOverride(Player6,Face(N))
+	ActionOverride("P_CHO",JumpToPoint([692.967]))
+	ActionOverride("P_CHO",Wait(1))
+	ActionOverride("P_CHO",Face(NE))
+	MoveViewPoint([944.896],INSTANT)
+	JumpToPoint([944.896])
+	Wait(1)
+	Face(SW)
+	SetGlobal ("P_FallSkelNearestDead2","GLOBAL",1)
+	EndCutSceneMode()
+	Continue()
+	StartDialogueNoSet(Player1)
+END
+
+
+IF
+   AreaCheck("P_FA15")
+   Global ("P_PhillipeBravery","GLOBAL",6)
+   Global ("P_SkelTalkInjury","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+	StartCutSceneMode()
+	ChangeEnemyAlly(Myself,NEUTRAL)
+	MoveViewPoint([944.896],INSTANT)
+	Wait(1)
+	Face(SW)
+	SetGlobal ("P_SkelTalkInjury","GLOBAL",1)
+	EndCutSceneMode()
+	Continue()
+	StartDialogueNoSet(Player1)
+END
+
+IF
+AreaCheck("P_FA15")
+!Allegiance(Myself, ENEMY)
+Global ("P_PhillipeBravery","GLOBAL",7)
+Global ("P_SkelPatchEnemy","GLOBAL",0)
+THEN
+  RESPONSE #100
+	Enemy()
+	SetGlobal ("P_SkelPatchEnemy","GLOBAL",1)
+	Continue()
+END
+
+// SIN PHILLIPE
+// DE CERO a UNO - P_FA15
+IF
+  AreaCheck("P_FA15")
+  HPLT(Myself,21)
+  Global ("P_FallSkelNearestDead1","GLOBAL",0)
+  Global ("P_PhillipeWillSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(1)
+  ChangeEnemyAlly(Myself,NEUTRAL)
+  ApplySpell(Myself,HEAL_NO_VISUAL)
+  SetGlobal ("P_FallSkelNearestDead1","GLOBAL",1)
+  EndCutSceneMode()
+  Continue()
+  StartDialogueNoSet(Player1)
+END
+
+// DE CERO a UNO - P_FA16
+IF
+  AreaCheck("P_FA16")
+  HPLT(Myself,21)
+  Global ("P_FallSkelNearestDead1","GLOBAL",0)
+  Global ("P_PhillipeWillSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+  ApplySpell(Myself,HEAL_NO_VISUAL)
+  DisplayStringHead(Myself, @200319)
+  SetGlobal ("P_FallSkelNearestDead1","GLOBAL",1)
+  Continue()
+END
+
+// DisplayStringHead(Myself, @200281)
+
+
+// DE DOS a TRES - P_FA15
+IF
+  AreaCheck("P_FA15")
+  HPLT(Myself,21)
+  Global ("P_FallSkelNearestDead1","GLOBAL",2)
+  Global ("P_PhillipeWillSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(1)
+  ChangeEnemyAlly(Myself,NEUTRAL)
+  ApplySpell(Myself,HEAL_NO_VISUAL)
+  SetGlobal ("P_FallSkelNearestDead1","GLOBAL",3)
+  EndCutSceneMode()
+  Continue()
+  StartDialogueNoSet(Player1)
+END
+
+// DE DOS a TRES - P_FA16
+IF
+  AreaCheck("P_FA16")
+  HPLT(Myself,21)
+  Global ("P_FallSkelNearestDead1","GLOBAL",1)
+  Global ("P_PhillipeWillSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+  ApplySpell(Myself,HEAL_NO_VISUAL)
+  DisplayStringHead(Myself, @200320)
+  SetGlobal ("P_FallSkelNearestDead1","GLOBAL",2)
+  Continue()
+END
+
+// DE CUATRO A CINCO - P_FA15
+IF
+  AreaCheck("P_FA15")
+  HPLT(Myself,21)
+  Global ("P_FallSkelNearestDead1","GLOBAL",4)
+  Global ("P_PhillipeWillSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(1)
+  ChangeEnemyAlly(Myself,NEUTRAL)
+  ApplySpell(Myself,HEAL_NO_VISUAL)
+  SetGlobal ("P_FallSkelNearestDead1","GLOBAL",5)
+  DestroyItem("MINHP1")
+  EndCutSceneMode()
+  Continue()
+  StartDialogueNoSet(Player1)
+END
+
+// DE CUATRO A CINCO - P_FA16
+IF
+  AreaCheck("P_FA16")
+  HPLT(Myself,21)
+  Global ("P_FallSkelNearestDead1","GLOBAL",2)
+  Global ("P_PhillipeWillSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+  ApplySpell(Myself,HEAL_NO_VISUAL)
+  DisplayStringHead(Myself, @200321)
+  SetGlobal ("P_FallSkelNearestDead1","GLOBAL",3)
+  DestroyItem("MINHP1")
+  Continue()
+END
+
+IF
+  AreaCheck("P_FA15")
+  See(NearestEnemyOf(Myself))
+  Global ("P_Skel1stAttack","GLOBAL",0)
+OR(2)
+  Global ("P_FallSkelNearestDead1","GLOBAL",0)
+  Global ("P_FallSkelNearestDead2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_CREEPING_DOOM)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_EARTHQUAKE)
+	AttackReevaluate(NearestEnemyOf(Myself),15)
+	SetGlobal ("P_Skel1stAttack","GLOBAL",1)
+END
+
+IF
+  AreaCheck("P_FA15")
+  See(NearestEnemyOf(Myself))
+  Global ("P_Skel2ndAttack","GLOBAL",0)
+  Global ("P_FallSkelNearestDead1","GLOBAL",2)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_CREEPING_DOOM)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_EARTHQUAKE)
+	AttackReevaluate(NearestEnemyOf(Myself),15)
+	SetGlobal ("P_Skel2ndAttack","GLOBAL",2)
+END
+
+IF
+  AreaCheck("P_FA15")
+  See(NearestEnemyOf(Myself))
+  Global ("P_Skel3rdAttack","GLOBAL",0)
+  Global ("P_FallSkelNearestDead1","GLOBAL",4)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_CREEPING_DOOM)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_EARTHQUAKE)
+	AttackReevaluate(NearestEnemyOf(Myself),15)
+	SetGlobal ("P_Skel3rdAttack","GLOBAL",2)
+END
+
+IF
+  AreaCheck("P_FA15")
+  See(NearestEnemyOf(Myself))
+  Global ("P_SkelLastAttack","GLOBAL",0)
+  Global ("P_FallSkelNearestDead1","GLOBAL",6)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_CREEPING_DOOM)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_EARTHQUAKE)
+	AttackReevaluate(NearestEnemyOf(Myself),15)
+	SetGlobal ("P_SkelLastAttack","GLOBAL",2)
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  ActionListEmpty()
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  ActionListEmpty()
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END

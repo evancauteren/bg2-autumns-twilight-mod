@@ -1,0 +1,51 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200176)
+END
+
+IF
+Global("P_Fall_Qyl_Talk_PF8","LOCALS",0)
+Global("P_FMeetingCho","GLOBAL",1)
+AreaCheck("P_FAR8")
+OR(6)
+See(Player1)
+See(Player2)
+See(Player3)
+See(Player4)
+See(Player5)
+See(Player6)
+THEN
+  RESPONSE #100
+  //Wait (4)
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Qyl_Talk_PF8","LOCALS",1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Enraged","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Enraged","LOCALS",1)
+    SpellNoDec(Myself,BARBARIAN_RAGE)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+// Revival
+IF
+AreaCheck("P_FAR7")
+Global("P_ChocRevivalFriends","GLOBAL",3)
+THEN
+  RESPONSE #100
+  Wait(1)
+  SetGlobal("P_ChocRevivalFriends","GLOBAL",4)
+  StartDialogueNoSet(Player1)
+END

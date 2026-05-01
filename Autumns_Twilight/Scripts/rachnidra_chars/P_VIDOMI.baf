@@ -1,0 +1,131 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200171)
+END
+
+IF
+Global("P_Fall_Vidomi_Talk_PF3B","LOCALS",0)
+AreaCheck("P_FA3B")
+THEN
+  RESPONSE #100
+  Wait (3)
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Vidomi_Talk_PF3B","LOCALS",1)
+END
+
+IF
+Global("P_Fall_Vidomi_Talk_PF7","LOCALS",0)
+AreaCheck("P_FAR7")
+THEN
+  RESPONSE #100
+  Wait (3)
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Vidomi_Talk_PF7","LOCALS",1)
+END
+
+IF
+AreaCheck("P_FA16")
+Global("P_MorgrathSpawnPF16","GLOBAL",7)
+Global("P_VidTalkF16_01","GLOBAL",0)
+THEN
+RESPONSE #100
+ClearAllActions()
+StartCutSceneMode()
+StartDialogueNoSet(Player1)
+SetGlobal ("P_VidTalkF16_01","GLOBAL",1)
+ClearAllActions()
+EndCutSceneMode()
+Continue()
+END
+
+IF
+PartyHasItem("P_FCORA1")
+AreaCheck("P_FAR7")
+Global("P_Fall_Vidomi_Talk_PF7","LOCALS",1)
+THEN
+  RESPONSE #100
+  Wait (2)
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Vidomi_Talk_PF7","LOCALS",2)
+END
+
+
+// Timer para la creación de la Linterna de Dreach-Naga - TOMAR TIEMPO EN TESTING
+IF 
+Global ("P_FDreach_Mission1","GLOBAL",3)
+Global("P_FLantern_DN_Timer","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_LanternTimer","GLOBAL",300) // TTT 300
+SetGlobal("P_FLantern_DN_Timer","GLOBAL",1)  
+END
+
+// ExpiredTimer
+IF
+RealGlobalTimerExpired("P_LanternTimer","GLOBAL")
+Global ("P_FDreach_Mission1","GLOBAL",3)
+See(Player1)								
+THEN
+RESPONSE #100
+  Wait (3)
+  SetGlobal("P_FDreach_Mission1","GLOBAL",4)
+  StartDialogueNoSet(Player1)  
+END
+
+
+// Timer para enseñar a Fall habilidad de Kakuto
+IF
+See("P_Fall")
+Global("P_FallKakuto_Timer","GLOBAL",0)
+OR (3)
+Global ("P_FDreach_Mission1","GLOBAL",3)
+Global ("P_FDreach_Mission1","GLOBAL",4)
+Global ("P_FDreach_Mission1","GLOBAL",5)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_FallKakutoTimer","GLOBAL",60) // TTT 100 --- 60 está bien?
+SetGlobal("P_FallKakuto_Timer","GLOBAL",1)  
+END
+
+// ExpiredTimer
+IF
+See("P_Fall")
+RealGlobalTimerExpired("P_FallKakutoTimer","GLOBAL")
+Global ("P_FallKakuto_Timer","GLOBAL",1)
+THEN
+RESPONSE #100
+  SetGlobal("P_FallKakuto_Timer","GLOBAL",2)
+END
+
+// Fall aprende habilidad para convocar a Kakuto
+IF
+Global("P_FallKakuto_Timer","GLOBAL",2)
+Global("P_Fall_Kakuto_Rescued","GLOBAL",1)
+Global("P_Fall_KakutoSummoningIA","GLOBAL",0)
+See("P_Fall")
+!StateCheck("P_Fall",CD_STATE_NOTVALID)
+OR (3)
+Global ("P_FDreach_Mission1","GLOBAL",3)
+Global ("P_FDreach_Mission1","GLOBAL",4)
+Global ("P_FDreach_Mission1","GLOBAL",5)
+THEN
+  RESPONSE #100
+  PlaySong (4442)  
+  SetGlobal("P_Fall_KakutoSummoningIA","GLOBAL",1)
+  StartDialogueNoSet("P_Fall")
+END
+
+// Skel'Tharant is dead
+IF
+AreaCheck("P_FAR7")
+Global("P_SkelIsDead","GLOBAL",1)
+See(Player1)
+THEN
+  RESPONSE #100
+  Wait (2)
+  SetGlobal("P_SkelIsDead","GLOBAL",2)
+  StartDialogueNoSet(Player1)
+END
+

@@ -1,0 +1,48 @@
+IF
+  !CombatCounter(0)
+  See([ENEMY])
+  Range("Viconia",15)
+  Global("P_UmaViconia_CA_001","GLOBAL",1)
+  Global("P_UmaViconia_COMBOAT01_TRIGGER","GLOBAL",0)
+  InParty("Viconia")
+  InMyArea("Viconia")
+  !Dead("Viconia")
+THEN
+  RESPONSE #100
+	ActionOverride("Viconia", DisplayStringHead(Myself, @11100021))
+	//Wait(1)
+    DisplayStringHead(Myself,@11100022)
+	ReallyForceSpellRES("SPPR513", Myself)
+	// Viconia
+	ActionOverride("Viconia", ReallyForceSpellRES("SPDM108",NearestEnemyOf(Myself)))
+	SetGlobal("P_UmaViconia_COMBOAT01_TRIGGER","GLOBAL",1)
+END
+
+// BLOQUE 2: Iniciar el Cooldown (Cuando termina el combate)
+IF
+  CombatCounter(0)
+  Global("P_UmaViconia_COMBOAT01_TRIGGER","GLOBAL",1) 
+THEN
+  RESPONSE #100
+    // IMPORTANTE: Pasamos a estado 2 para que este bloque no se repita
+    SetGlobal("P_UmaViconia_COMBOAT01_TRIGGER","GLOBAL",2) 
+    RealSetGlobalTimer("P_UmaCombo01Timer","GLOBAL",1200)
+END 
+
+// BLOQUE 3: Resetear después de 20 minutos
+IF
+  Global("P_UmaViconia_COMBOAT01_TRIGGER","GLOBAL",2)
+  RealGlobalTimerExpired("P_UmaCombo01Timer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("P_UmaViconia_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
+END
+
+  
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END

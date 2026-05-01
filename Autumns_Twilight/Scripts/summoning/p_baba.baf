@@ -1,0 +1,49 @@
+IF
+  !CombatCounter(0)
+  See([ENEMY])
+  Range("Mazzy",15)
+  Global("P_BabaMazzy_CA_001","GLOBAL",1)
+  Global("P_BabaMazzy_COMBOAT01_TRIGGER","GLOBAL",0)
+  InParty("Mazzy")
+  InMyArea("Mazzy")
+  !Dead("Mazzy")
+THEN
+  RESPONSE #100
+	ActionOverride("Mazzy", DisplayStringHead(Myself, @11100048))
+	//Wait(1)
+    DisplayStringHead(Myself,@11100049)
+	ReallyForceSpellRES("SPWI223", NearestEnemyOf(Myself)) // Deafness
+	// Mazzy
+	ActionOverride("Mazzy", ReallyForceSpellRES("SPIN103",Myself) // Sacred Power
+	SetGlobal("P_BabaMazzy_COMBOAT01_TRIGGER","GLOBAL",1)
+END
+
+// BLOQUE 2: Iniciar el Cooldown (Cuando termina el combate)
+IF
+  CombatCounter(0)
+  Global("P_BabaMazzy_COMBOAT01_TRIGGER","GLOBAL",1) 
+THEN
+  RESPONSE #100
+    // IMPORTANTE: Pasamos a estado 2 para que este bloque no se repita
+    SetGlobal("P_BabaMazzy_COMBOAT01_TRIGGER","GLOBAL",2) 
+    RealSetGlobalTimer("P_BabaCombo01Timer","GLOBAL",1200)
+END 
+
+// BLOQUE 3: Resetear después de 20 minutos
+IF
+  Global("P_BabaMazzy_COMBOAT01_TRIGGER","GLOBAL",2)
+  RealGlobalTimerExpired("P_BabaCombo01Timer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("P_BabaMazzy_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
+END
+
+  
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+

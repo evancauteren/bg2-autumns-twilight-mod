@@ -1,0 +1,19 @@
+// Demoledor primer encuentro con Dusk y el grupo	
+//IF
+//  Global ("P_Dusk_1stTDemole","GLOBAL",1)
+//  Global ("P_Dusk_Demole_Enc1","GLOBAL",1)
+//THEN
+//  RESPONSE #100
+//    StartDialogNoSet(LastSummonerOf(Myself))
+//END
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_Dusk_Celine_Ghost_TalkBegin","GLOBAL",0)
+THEN
+  RESPONSE #100
+  Wait (3)
+  SetGlobal("P_Dusk_Celine_Ghost_TalkBegin","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END

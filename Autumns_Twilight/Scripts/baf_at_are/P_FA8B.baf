@@ -1,0 +1,123 @@
+//Cho Spawn
+IF
+Global("P_ChoAwake","GLOBAL",3)
+Global("P_AttackedCho","GLOBAL",0)
+Global("P_ChoSpawnPA8B","GLOBAL",0)
+!Dead("p_cho")
+THEN
+RESPONSE #100
+CreateCreature("p_choc",[1610.469],SW)
+SetGlobal("P_ChoSpawnPA8B","GLOBAL",1)
+END
+
+//Liphix Spawn
+IF
+Global("p_LiphixFA8BSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+// Liphix
+Wait(2)
+CreateCreature("p_liphix",[995.737],SE)
+Continue()
+SetGlobal("p_LiphixFA8BSpawn","GLOBAL",1)
+END
+
+// Spiders
+IF
+Global ("P_M4FA8B_SpawnEnemies","GLOBAL",0)
+OR(1)
+Allegiance ("p_liphix",ENEMY)
+THEN
+RESPONSE #100
+ActionOverride("p_liphix",DestroyItem("INVULNER"))
+ActionOverride("p_liphix",DestroyItem("IMMUNE10"))
+ActionOverride("p_liphix",DestroyItem("MINHP1"))
+SmallWait (1)
+CreateVisualEffect("SPCLOUD3",[800.583])
+CreateVisualEffect("SPCLOUD3",[549.416])
+CreateVisualEffect("SPCLOUD3",[996.408])  
+CreateVisualEffect("SPCLOUD3",[549.695])
+CreateVisualEffect("SPCLOUD3",[769.871]) 
+CreateVisualEffect("SPCLOUD3",[1211.515])  
+CreateVisualEffect("SPCLOUD3",[1097.989]) 
+CreateVisualEffect("SPCLOUD3",[1003.932])
+//centipedes
+CreateVisualEffect("SPCLOUD3",[951.836])
+CreateVisualEffect("SPCLOUD3",[758.712])
+CreateVisualEffect("SPCLOUD3",[561.585])  
+CreateVisualEffect("SPCLOUD3",[779.456])
+CreateVisualEffect("SPCLOUD3",[976.585]) 
+CreateVisualEffect("SPCLOUD3",[1167.710])  
+
+// CreateVisualEffect("SPCLOUD3",[954.316]) 
+Wait (1)
+CreateCreature("p_weavac",[800.583],4)
+CreateCreature("p_weavac",[549.416],4)
+CreateCreature("p_spgi1",[996.408],4)  
+CreateCreature("p_sphu1",[549.695],4)
+CreateCreature("p_etter1",[769.871],4) 
+CreateCreature("p_etter1",[1211.515],4)  
+CreateCreature("p_spwr1",[1097.989],4) 
+CreateCreature("p_spph1",[1003.932],4)
+// Centipedes
+CreateCreature("p_centip",[951.836],4)
+CreateCreature("p_centip",[758.712],4)
+CreateCreature("p_centip",[561.585],4)  
+CreateCreature("p_centip",[779.456],4)
+CreateCreature("p_centip",[976.585],4) 
+CreateCreature("p_centip",[1167.710],4)  
+
+SetGlobal("P_M4FA8B_SpawnEnemies","GLOBAL",1)
+Continue()
+END
+
+// The Queen
+IF
+Global ("P_MorgrathSpawnPFA8B","GLOBAL",0)
+PartyHasItem("P_FTALI2")
+CombatCounter(0)
+THEN
+RESPONSE #100
+Wait (1)
+StartCutSceneMode()
+ActionOverride(Player1,MoveToPoint([1127.661]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player1,Face(NE))
+ActionOverride(Player2,MoveToPoint([887.815]))
+ActionOverride(Player2,Wait(1))
+ActionOverride(Player3,MoveToPoint([813.777]))
+ActionOverride(Player3,Wait(1))
+ActionOverride(Player4,MoveToPoint([1117.557]))
+ActionOverride(Player4,Wait(1))
+ActionOverride(Player5,MoveToPoint([1204.550]))
+ActionOverride(Player5,Wait(1))
+ActionOverride(Player6,MoveToPoint([810.890]))
+ActionOverride(Player6,Wait(1))
+ActionOverride("P_CHO",MoveToPoint([1004.884]))
+ActionOverride("P_CHO",Wait(1))
+ActionOverride("P_CHO",Face(N))
+Wait(4)
+ScreenShake([20.20],10)
+Wait(4)
+MoveViewPoint([946.698],INSTANT)
+CreateVisualEffect ("SPGENHLA",[946.698])
+PlaySound ("CAS_P06")
+ScreenShake([20.20],10)
+//ActionOverride(Player1,CreateItem("p_morrng",1,2,1))
+PlaySound ("CAS_P06")
+ActionOverride(Player1,UseItemPoint("p_morrng",[946.698],1))
+CreateVisualEffect ("SPGENHLA",[946.698])
+ActionOverride(Player1,DestroyItem("p_morrng"))
+ActionOverride(Player1,DisplayStringHead(Myself, @600108))
+Wait(3)
+ActionOverride("P_MORGRA", Face(W))
+ActionOverride(Player2, FaceObject("P_MORGRA"))
+ActionOverride(Player3, FaceObject("P_MORGRA"))
+ActionOverride(Player4, FaceObject("P_MORGRA"))
+ActionOverride(Player5, FaceObject("P_MORGRA"))
+ActionOverride(Player6, FaceObject("P_MORGRA"))
+Wait(3)
+SetGlobal("P_MorgrathSpawnPFA8B","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END

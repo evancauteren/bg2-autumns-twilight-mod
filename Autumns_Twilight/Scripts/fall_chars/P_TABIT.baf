@@ -1,0 +1,20 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200058)
+END
+
+IF
+See("P_Fall")
+InParty("P_Fall")
+See("P_KAKUTO")
+!StateCheck("P_Fall",STATE_SLEEPING)
+AreaCheck("P_FAR2")
+Global ("P_FallMission3","GLOBAL",4)
+Global ("P_FallTabitToKakut","GLOBAL",0)
+THEN
+  RESPONSE #100
+  Wait (3)
+  StartDialogueNoSet(Player1)
+END

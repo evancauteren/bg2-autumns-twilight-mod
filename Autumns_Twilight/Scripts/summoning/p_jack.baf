@@ -1,0 +1,48 @@
+IF
+  !CombatCounter(0)
+  See([ENEMY])
+  Range("Keldorn",15)
+  Global("P_JackKeldorn_COMBOAT01","GLOBAL",1)
+  Global("P_JackKeldorn_COMBOAT01_TRIGGER","GLOBAL",0)
+  InParty("Keldorn")
+  InMyArea("Keldorn")
+  !Dead("Keldorn")
+THEN
+  RESPONSE #100
+	ActionOverride("Keldorn", DisplayStringHead(Myself, @11100005))
+	//Wait(1)
+    DisplayStringHead(Myself,@11100006)
+	ReallyForceSpell(NearestEnemyOf(Myself),TRAP_FROST)
+	// KELDORN
+	ActionOverride("Keldorn", ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_FIRE_SHIELD_BLUE))
+	SetGlobal("P_JackKeldorn_COMBOAT01_TRIGGER","GLOBAL",1)
+END
+
+// BLOQUE 2: Iniciar el Cooldown (Cuando termina el combate)
+IF
+  CombatCounter(0)
+  Global("P_JackKeldorn_COMBOAT01_TRIGGER","GLOBAL",1) 
+THEN
+  RESPONSE #100
+    // IMPORTANTE: Pasamos a estado 2 para que este bloque no se repita
+    SetGlobal("P_JackKeldorn_COMBOAT01_TRIGGER","GLOBAL",2) 
+    RealSetGlobalTimer("P_JackCombo01Timer","GLOBAL",1200)
+END 
+
+// BLOQUE 3: Resetear después de 20 minutos
+IF
+  Global("P_JackKeldorn_COMBOAT01_TRIGGER","GLOBAL",2)
+  RealGlobalTimerExpired("P_JackCombo01Timer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("P_JackKeldorn_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
+END
+
+  
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END

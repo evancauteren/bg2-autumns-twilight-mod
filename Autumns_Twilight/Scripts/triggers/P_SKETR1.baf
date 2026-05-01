@@ -1,0 +1,9 @@
+IF
+IsOverMe([ANYONE])
+PartyHasItem("P_FGEMA1")
+Global("P_Skel_Appear","GLOBAL",0)
+!Exists("P_SKEL")
+THEN
+RESPONSE #100
+SetGlobal("P_Skel_Appear","GLOBAL",1)
+END

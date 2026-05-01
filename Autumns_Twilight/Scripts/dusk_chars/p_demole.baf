@@ -1,0 +1,45 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@400321)
+END
+
+// Demoledor primer encuentro con Dusk y el grupo
+//IF
+//  Global ("P_Dusk_1stTDemole","GLOBAL",1)
+//  Global ("P_Dusk_Demole_Enc1","GLOBAL",1)
+//THEN
+//  RESPONSE #100
+//    StartDialogNoSet(LastSummonerOf(Myself))
+//END
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global ("P_Dusk_Demole_Enc1","GLOBAL",1)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global ("P_Dusk_Demole_Enc2","GLOBAL",1)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global ("P_Dusk_3rdTDemole","GLOBAL",1)
+Global("P_DuskDemoleMISSION","GLOBAL",0)
+THEN
+  RESPONSE #100
+  SetGlobal ("P_Dusk_3rdTDemole","GLOBAL",2)
+  StartDialogueNoSet(Player1)
+END

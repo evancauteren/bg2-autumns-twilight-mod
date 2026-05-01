@@ -1,0 +1,114 @@
+// Vidomina Spawn
+IF
+Global("P_Vid2601Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("p_vidomi",[500.296],15)  
+SetGlobal("P_Vid2601Spawn","GLOBAL",1)
+END
+
+// Gem Spawn
+IF
+Global("P_FallFinalSceneSoA1","GLOBAL",3)
+Global("P_Gem2601Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+ActionOverride("P_Fall",MoveToPoint([698.326]))
+Wait(5)
+CreateVisualEffect("SPBASEWT",[729.205])
+Wait(1)
+MoveViewObject ("P_Fall",INSTANT)
+CreateCreature("p_gem",[729.205],15)
+SetGlobal("P_Gem2601Spawn","GLOBAL",1)
+Wait(4)
+Wait(4)
+EndCutSceneMode()
+Continue()
+END
+
+// Gerwulf Spawn
+IF
+Global("P_FallGemAR2601","GLOBAL",1)
+Global("P_Gerwulf2601Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait(3)
+CreateVisualEffect("SPBASEWT",[831.221])
+Wait(1)
+CreateCreature("p_gerwul",[831.221],SW)
+SetGlobal("P_Gerwulf2601Spawn","GLOBAL",1)
+Wait(3)
+ActionOverride("p_fall",FaceObject("p_gerwul"))
+ActionOverride("p_gem",FaceObject("p_gerwul"))
+Wait(4)
+EndCutSceneMode()
+Continue()
+END
+
+
+// Gem and Gerwulf gone
+IF
+Global("P_FallGemAR2601","GLOBAL",2)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(2)
+  CreateVisualEffectObject("SPBASEWT","p_gerwul")
+  CreateVisualEffectObject("SPBASEWT","p_gem")
+  Wait(1)
+  CreateVisualEffectObject("SPHEALIN","p_gerwul")
+  CreateVisualEffectObject("SPHEALIN","p_gem")
+  ActionOverride("p_gerwul",DestroySelf())
+  ActionOverride("p_gem",DestroySelf())
+  Wait(2)
+  SetGlobal("P_FallGemAR2601","GLOBAL",3)
+  EndCutSceneMode()
+  Continue()
+END
+
+
+IF
+  Global ("P_FallGemAR2601","GLOBAL",5)
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+	SetGlobal("P_FallGemAR2601","GLOBAL",6)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    FadeToColor([20.0],0)
+	CreateVisualEffectObject("SPHEALIN",Player1)
+	CreateVisualEffectObject("SPHEALIN",Player2)
+	CreateVisualEffectObject("SPHEALIN",Player3)
+	CreateVisualEffectObject("SPHEALIN",Player4)
+	CreateVisualEffectObject("SPHEALIN",Player5)
+	CreateVisualEffectObject("SPHEALIN",Player6)
+	Wait(1)
+    ActionOverride("p_vidomi",DestroySelf())
+    Wait(1)
+   // LeaveAreaLUAPanic("AR0020","",[585.608],NW)
+   // LeaveAreaLUA("AR0020","",[585.608],NW)
+	ActionOverride(Player1,LeaveAreaLUA("P_FA3B","",[783.382],NE))
+    ActionOverride(Player2,LeaveAreaLUA("P_FA3B","",[716.381],NE))
+    ActionOverride(Player3,LeaveAreaLUA("P_FA3B","",[809.411],NE))
+    ActionOverride(Player4,LeaveAreaLUA("P_FA3B","",[859.427],NE))
+    ActionOverride(Player5,LeaveAreaLUA("P_FA3B","",[660.380],NE))
+    ActionOverride(Player6,LeaveAreaLUA("P_FA3B","",[728.430],NE))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ActionOverride(Player2,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player3,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player4,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player5,CreateVisualEffectObject("SPDIMNDR",Myself))
+    ActionOverride(Player6,CreateVisualEffectObject("SPDIMNDR",Myself))
+    Wait(5)
+    EndCutSceneMode()
+END
+

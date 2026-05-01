@@ -1,0 +1,15 @@
+IF
+Global("P_VoragorSpawn","GLOBAL",0)
+Global("P_FallMission2","GLOBAL",3)
+PartyHasItem("p_orgem1")
+Dead("JUGMIM01")
+THEN
+RESPONSE #100
+  StartCutSceneMode()
+  Wait(2) 
+CreateCreature("P_vorag",[1318.670],7)
+TakePartyItem("p_orgem1")
+SetGlobal("P_VoragorSpawn","GLOBAL",1)
+  EndCutSceneMode()
+Continue()
+END

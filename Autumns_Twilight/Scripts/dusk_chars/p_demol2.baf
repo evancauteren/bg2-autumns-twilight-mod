@@ -1,0 +1,40 @@
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_Dusk_Mat2_hypno","GLOBAL",1)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(MOON_DOG_HOWL)
+THEN
+  RESPONSE #100
+    Spell(Myself,MOON_DOG_HOWL)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(MAZZY_HASTE)
+THEN
+  RESPONSE #100
+    Spell(Myself,MAZZY_HASTE)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WARRIOR_GREATER_WHIRLWIND)
+THEN
+  RESPONSE #100
+    Spell(Myself,WARRIOR_GREATER_WHIRLWIND)
+END
+
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),1)
+END

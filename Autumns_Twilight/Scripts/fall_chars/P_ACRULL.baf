@@ -1,0 +1,32 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200073)
+END
+
+IF
+InParty("P_Fall")
+See("P_Fall")
+Global("P_Fall_Acrull_Talk_Grove","LOCALS",0)
+Global("P_Fall_Kitoch_Charname","GLOBAL",6)
+AreaCheck("AR1900")
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Acrull_Talk_Grove","LOCALS",1)
+END
+
+
+IF
+InParty("P_Fall")
+See("P_Fall")
+AreaCheck("AR1900")
+OR (2)
+Global("P_FallAboutGormsDeath_KitAlive","GLOBAL",3)
+PartyHasItem("p_hgormu")
+THEN
+  RESPONSE #100
+  SetGlobal("P_FallAboutGormsDeath_KitAlive","GLOBAL",4)
+  StartDialogueNoSet(Player1)  
+END

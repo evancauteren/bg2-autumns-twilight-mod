@@ -1,0 +1,27 @@
+IF
+Global("P_FallTabitha1st","GLOBAL",1)
+THEN
+RESPONSE #100
+ActionOverride("GIBMUT01",DestroySelf())
+ActionOverride("ICMIN01",DestroySelf())
+ActionOverride("BEARGR",DestroySelf())
+ActionOverride("CATLEO01",DestroySelf())
+ActionOverride("CATJAG01",DestroySelf())
+ActionOverride("GLBEAR2",DestroySelf())
+ActionOverride("OGRE",DestroySelf())
+ActionOverride("GIBMUT01",DestroySelf())
+ActionOverride("TABITHA",EscapeArea())
+ActionOverride("BEAST",EscapeArea())
+ActionOverride("GIBMUT01",EscapeArea())
+SetGlobal ("P_FallTabitha1st","GLOBAL",2)
+Continue()
+END
+
+IF
+Global("P_FallBeastNoForceTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("BEAST",SetNumTimesTalkedTo(2))
+SetGlobal ("P_FallBeastNoForceTalk","GLOBAL",1)
+Continue()
+END

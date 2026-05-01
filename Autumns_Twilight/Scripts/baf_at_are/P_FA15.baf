@@ -1,0 +1,150 @@
+//Cho Spawn
+IF
+Global("P_ChoAwake","GLOBAL",3)
+Global("P_AttackedCho","GLOBAL",0)
+Global("P_ChoSpawnPF15","GLOBAL",0)
+!Dead("p_cho")
+THEN
+RESPONSE #100
+CreateCreature("p_choc",[2081.185],SW)
+SetGlobal("P_ChoSpawnPF15","GLOBAL",1)
+END
+
+IF
+Exists("p_cho")
+Global("P_ChoccDestroyPatchPFA15","GLOBAL",0)
+OR(2)
+Global("P_ChoccStay","GLOBAL",1)
+Dead("p_cho")
+THEN
+RESPONSE #100
+ActionOverride("p_cho",DestroySelf())
+SetGlobal("P_ChoccDestroyPatchPFA15","GLOBAL",1)
+END
+
+
+// The Champion
+IF
+Global ("P_SkelSpawnPF15","GLOBAL",0)
+Global("P_Skel_Appear","GLOBAL",1)
+CombatCounter(0)
+THEN
+RESPONSE #100
+Wait (1)
+StartCutSceneMode()
+ActionOverride(Player1,MoveToPoint([776.811]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player1,Face(E))
+ActionOverride(Player2,MoveToPoint([765.867]))
+ActionOverride(Player2,Wait(1))
+ActionOverride(Player2,Face(NE))
+ActionOverride(Player3,MoveToPoint([777.935]))
+ActionOverride(Player3,Wait(1))
+ActionOverride(Player3,Face(E))
+ActionOverride(Player4,MoveToPoint([816.979]))
+ActionOverride(Player4,Wait(1))
+ActionOverride(Player4,Face(N))
+ActionOverride(Player5,MoveToPoint([857.1008]))
+ActionOverride(Player5,Wait(1))
+ActionOverride(Player5,Face(N))
+ActionOverride(Player6,MoveToPoint([937.1026]))
+ActionOverride(Player6,Wait(1))
+ActionOverride(Player6,Face(N))
+ActionOverride("P_CHO",MoveToPoint([692.967]))
+ActionOverride("P_CHO",Wait(1))
+ActionOverride("P_CHO",Face(NE))
+Wait(4)
+ScreenShake([20.20],10)
+Wait(4)
+MoveViewPoint([944.896],INSTANT)
+CreateVisualEffect ("SPGENHLA",[944.896])
+PlaySound ("CAS_P06")
+ScreenShake([20.20],10)
+PlaySound ("CAS_P06")
+Wait(1)
+CreateVisualEffect ("SPSUMGTE",[944.896])
+Wait(6)
+ScreenShake([20.20],10)
+CreateCreature("p_skel",[944.896],SW)
+Wait(3)
+ActionOverride("p_skel", Face(SW))
+Wait(3)
+SetGlobal("P_SkelSpawnPF15","GLOBAL",1)
+EndCutSceneMode()
+Continue()
+END
+
+
+// Dialog para el FLAG + de PHILLIPE
+IF
+Global("P_PhilliSpawnPF15","GLOBAL",0)
+Global("P_PhillipeBravery","GLOBAL",3)
+Global("P_FallSkelNearestDead2","GLOBAL",2)
+THEN
+RESPONSE #100
+ClearAllActions()
+StartCutSceneMode()
+CreateCreature("p_philli",[1462.582],SW)
+Wait(1)
+ActionOverride("p_philli",MoveToPoint([1059.839]))
+Wait(6)
+SetGlobal ("P_PhilliSpawnPF15","GLOBAL",1)
+SetGlobal ("P_PhillipeBravery","GLOBAL",4)
+EndCutSceneMode()
+Continue()
+END
+// IR AL BAF DE PHILLI PARA QUE EMPIECE LA CONVERSACIÓN
+
+IF
+   Global ("P_PhillipeBravery","GLOBAL",5)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+	StartCutSceneMode()
+	ChangeEnemyAlly("P_SKEL",NEUTRAL)
+	MoveViewPoint([944.896],INSTANT)
+	Wait(1)
+	ActionOverride("P_PHILLI",MoveToPoint([999.874]))
+	ActionOverride("P_PHILLI",Wait(1))
+	CreateVisualEffectObject("SPFLSRIN","P_PHILLI")
+	DisplayStringHead("P_PHILLI", @200312)
+    Wait(3)
+    Kill("P_PHILLI") 
+	Wait(2)
+	PlaySound("CAS_P06")
+	CreateVisualEffectObject("SPFLAST2","P_SKEL")
+	CreateVisualEffectObject("SPFLSRIN","P_SKEL")
+	DisplayStringHead("P_SKEL", @200310)
+	Wait(3)
+	CreateVisualEffectObject("SPFLSRIN","P_SKEL")
+	DisplayStringHead("P_SKEL", @200311)
+	Wait(1)
+	Face(SW)
+	SetGlobal ("P_PhillipeBravery","GLOBAL",6)
+	EndCutSceneMode()
+	Continue()
+	StartDialogueNoSet(Player1)
+END
+
+IF
+Global("P_FallSkelNearestDead2","GLOBAL",2)
+Global("P_ClearActionsPatch1PFA15","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+	SetGlobal("P_ClearActionsPatch1PFA15","GLOBAL",1)
+    Continue()
+END
+
+IF
+Global("P_SkelIsDead","GLOBAL",0)
+OR (3)
+Dead ("P_SKEL")
+PartyHasItem ("p_skelgl")
+PartyHasItem ("p_skelht")
+THEN
+  RESPONSE #100
+	SetGlobal("P_SkelIsDead","GLOBAL",1)
+	DisplayStringHead("P_CHO", @700041)
+	ActionOverride("P_CHO",EscapeArea())
+END

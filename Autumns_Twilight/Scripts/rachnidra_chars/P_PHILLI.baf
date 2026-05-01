@@ -1,0 +1,51 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200151)
+END
+
+IF
+Global("P_Fall_Philli_Talk_PF5","LOCALS",0)
+AreaCheck("P_FAR5")
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Philli_Talk_PF5","LOCALS",1)
+END
+
+IF
+Global("P_Fall_Philli_Talk_PF15","LOCALS",0)
+AreaCheck("P_FA15")
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+  SetGlobal("P_Fall_Philli_Talk_PF15","LOCALS",1)
+END
+
+//////////////////////////////
+
+// Timer para misión Phillipe / Skel'Tharant
+IF
+See("p_vidomi")
+AreaCheck("P_FAR7")
+Global ("P_SkelTharantQuest","GLOBAL",1)
+Global ("P_PhillipeBravery","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_PhillipeSkelTimer","GLOBAL",3) // TTT 3
+SetGlobal("P_PhillipeBravery","GLOBAL",1)  
+END
+
+// ExpiredTimer
+IF
+RealGlobalTimerExpired("P_PhillipeSkelTimer","GLOBAL")
+Global ("P_PhillipeBravery","GLOBAL",1)
+See("p_vidomi")
+See(Player1)								
+THEN
+RESPONSE #100
+  Wait (3)
+  SetGlobal("P_PhillipeBravery","GLOBAL",2)
+  StartDialogueNoSet(Player1)  
+END

@@ -1,0 +1,11 @@
+IF
+  Global ("P_Dusk_Kalanda_Summon","GLOBAL",2)
+  Global ("P_Dusk_Kalanda_SummonACT1","GLOBAL",0)
+THEN
+  RESPONSE #100
+	Wait(1)
+    EquipItem("p_kasum2")
+	SetGlobal ("P_Dusk_Kalanda_SummonACT1","GLOBAL",1)
+	Enemy()
+	Continue()
+END

@@ -1,2 +1,0 @@
-BEGIN p_kocha
-

@@ -1,0 +1,43 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@400389)
+END
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+CombatCounter(0) 
+!See([ENEMY])
+Global("P_DuskMatMission3","GLOBAL",3)
+THEN
+  RESPONSE #100
+  SetGlobal ("P_DuskMatMission2","GLOBAL",4)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+Global("P_DuskMatMission3","GLOBAL",4)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+Wait (3)
+ActionOverride(Myself,MoveToPoint([925.601]))
+ActionOverride(Myself,Wait(1))
+ActionOverride(Player1,MoveToPoint([936.781]))
+ActionOverride(Player1,Wait(1))
+ActionOverride(Player2,MoveToPoint([999.785]))
+ActionOverride(Player2,Wait(1))
+ActionOverride(Player3,MoveToPoint([911.820]))
+ActionOverride(Player3,Wait(1))
+ActionOverride(Player4,MoveToPoint([1020.818]))
+ActionOverride(Player4,Wait(1))
+ActionOverride(Player5,MoveToPoint([926.859]))
+ActionOverride(Player5,Wait(1))
+ActionOverride(Player6,MoveToPoint([992.857]))
+ActionOverride(Player6,Wait(1))
+ActionOverride(Myself,StartDialogNoSet(Player1))
+SetGlobal("P_DuskMatMission3","GLOBAL",5)
+//Wait (1)
+END

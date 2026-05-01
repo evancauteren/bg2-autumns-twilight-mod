@@ -14683,6 +14683,156 @@ Anthagar."~
 @11000200 = ~Lo estaré...~
 
 
+// V1.5
+// Colmillo de la Lealtad: Keldorn/Jack
+@11100000 = ~*La mirada de Jack parece casi exhalar un halo de frío. Mira atentamente a Keldorn quien le devuelve la mirada.*~
+@11100001 = ~*Jack jadea y mueve la cola, emocionado por las palabras de su amigo paladín.*~
+@11100002 = ~Comprendo, fiel Jack, tus intenciones. Es hora de llevar el entrenamiento al ámbito del combate.~
+@11100003 = ~*Jack se acerca a Keldorn y permite que éste le acaricie el lomo.*~
+@11100004 = ~Colmillo de la Lealtad me parece un buen nombre, ¿te parece? Lo pondremos a práctica cuando luchemos juntos.~
+@11100005 = ~¡Adelante, Jack! ¡Colmillo de la Lealtad!~
+@11100006 = ~*Jack ejecuta Colmillo de la Lealtad*~
+
+// Shar's Toll (Diezmo de Shar) Viconia / Uma -- 1
+@11100007 = ~*Uma jadea mientras es acariciada por las glaucas manos de Viconia.*~
+@11100008 = ~La oscuridad de tu pelaje es hermosa, kal'daka. Podría admirarla por horas y horas.~
+@11100009 = ~*Uma se estremece de placer ante la sonrisa de la drow.*~
+@11100010 = ~Es bueno ver disfrutar a Uma de halagos y cariños de un habitante primario, sacerdotisa de Shar. Creo que podrías despertar en ella un poder oculto, aunque puede ser algo mutuo.~
+@11100011 = ~Eres misteriosa, narikia. No lo digo como algo malo. Por extraño que parezca, tu presencia no me aborrece.~
+@11100012 = ~Deberías pasar más tiempo con Uma. Parece ser que es algo que les hace bien a ambas.~
+@11100013 = ~*sonríe* Por más que quisiera, parece que no quiere alejarse de mí. Tendré en cuenta lo que me has dicho sobre el poder. No es algo que pueda despreciar a la ligera.~
+@11100014 = ~Ven, Uma. Te enseñaré algo sobre Shar y quizás ambas seamos compañeras de la oscuridad.~
+@11100015 = ~*Uma parece comprender a la perfección las palabras de Viconia mientras mueve ligeramente la cola.*~
+
+// Shar's Toll (Diezmo de Shar) Viconia / Uma -- 2
+@11100016 = ~*Las orejas de Uma parecen hojas congeladas de invierno mientras admira a Viconia.*~
+@11100017 = ~Eres una buena discípula de la Oscuridad, mi pequeña kal'daka. Creo que estamos listas para llevar a cabo nuestra estrategia.~
+@11100018 = ~*Uma jadea y el brillo en sus ojos resalta en su pelaje negruzco.*~
+@11100019 = ~El 'Diezmo de Shar' será entonces. Cuando estés cerca mío y haya enemigos cerca, lo haremos, ¿sí?~
+@11100020 = ~*Uma deja escapar un tímido pero no menos escalofriante aullido.*~
+
+@11100021 = ~Mi pequeña kal'daka, ¡es hora de entregar nuestro Diezmo a Shar!~
+@11100022 = ~*Uma ejecuta Diezmo de Shar*~
+
+
+// Galvanic Execution (Ejecución Galvánica) Imoen / Sayang -- 1 
+@11100023 = ~*Sayang se para sobre sus dos patas traseras para alcanzar a Imoen.*~
+@11100024 = ~¡Oye! No eres una cachorra de tamaño pequeño para hacer eso. Eres pesada, ¿sabes?~
+@11100025 = ~Debes disculpar a Sayang, niña. Es su manera de saludar. También es su manera de pedir comida.~
+@11100026 = ~Pues, está un poco gordita como para pedir comida, ¿no lo crees?~
+@11100027 = ~¿Qué comen en el Plano Astral? Se me hace que la engordas demasiado, Bellfame.~
+@11100028 = ~Sayang es libre de comer lo que encuentre. Ya lo hacía cuando convivíamos en el Bosque de Mir. Y ahora lo sigue haciendo que estamos en el Plano Astral.~
+@11100029 = ~*Los ojos de Sayang brillan y emite un ligero gemido de lástima hacia Imoen.*~
+@11100030 = ~¡Arsh! Está bien, está bien. Veré si tengo algo en mi mochila para darte, Sayang. ¡Pero ya no me saltes encima!~
+@11100031 = ~*Sayang emite un aullido de aprobación y espera atenta al bocadillo que le vaya a ofrecer Imoen.*~
+
+// Galvanic Execution (Ejecución Galvánica) Imoen / Sayang -- 2
+@11100032 = ~*Sayang se encuentra sentada, atenta a los susurros que parece brindarle Imoen.*~
+@11100033 = ~Entonces, en definitiva, Sayang, podemos hacer eso, ¿sí?~
+@11100034 = ~*La worg gira ligeramente su cabeza ante las palabras de Imoen.*~
+@11100035 = ~Ya sabes, creo que eres capaz de paralizar el corazón de los hombres si emites un aullido lo suficientemente penetrante.~
+@11100036 = ~Hazlo y yo haré, al mismo tiempo, un conjuro contra nuestros enemigos.~
+@11100037 = ~¡En el próximo combate, quédate cerca de mí y verás!~
+@11100038 = ~*Un corto aullido de emoción se escapa del hocico de Sayang en aprobación a la petición de Imoen.*~
+
+@11100039 = ~¡Sayang, ahora es el momento: Ejecución Galvánica!~
+@11100040 = ~*Sayang realiza el movimiento Ejecución Galvánica.*~
+
+
+// Divine Squeak (Chirrido Divino) Mazzy / Baba
+@11100041 = ~*Baba observa a Mazzy embelesado.*~
+@11100042 = ~¡Presta atención, Baba! No va a salir bien si estás todo distraído.~
+@11100043 = ~*Baba, como era su costumbre, estaba a punto de quejarse y gruñir, pero viendo que es Mazzy quien le habla, sorprendentemente le hace caso.*~ [P_Baba01]
+@11100044 = ~Si utilizas tu habilidad contra nuestros oponentes, puedo utilizar mi poder divino para ir a la carga en la batalla.~
+@11100045 = ~*El ratón asiente lentamente mientras ves cómo sus ojitos brillan más y más.*~
+@11100046 = ~Cuando haya enemigos, quédate cerca de mí y cuando grite 'Chirrido Divino' ahí es cuando debes actuar, ¿sí?~
+@11100047 = ~*Baba parece determinado y parece hacer ruidos extraños de aprobación.*~ [P_Baba02]
+
+@11100048 = ~¡Ahora es el momento, gran Baba! ¡Es la hora del Chirrido Divino!~
+@11100049 = ~*Baba ejecuta Chirrido Divino.*~
+
+// Twin Meteors (Meteoros Gemelos) Thiago / Wilson
+@11100050 = ~*Thiago y Wilson se encuentran observándose en silencio. Al cabo de unos segundos, comienzan a emitir extraños bufidos.*~ [BBEAR04]
+@11100051 = ~Bufido.~ [BBEAR09]
+@11100052 = ~¿Meteoros Gemelos? ¿Qué están planeando ustedes dos?~
+@11100053 = ~Lamento.~ [BBEAR02]
+@11100054 = ~Me parece que planean combinar sus habilidades la próxima vez que se encuentren en combate. Han estado comunicándose en silencio mientras no los vemos, <CHARNAME>.~
+@11100055 = ~Lo que me faltaba, un complot de osos.~
+@11100056 = ~¿Y qué se supone que significa esto?~
+@11100057 = ~No creo que sea una cuestión para preocuparse, buen <CHARNAME>. Sin embargo, si quieres ver en acción esto que están preparando...~
+@11100058 = ~Sí, Thiago: "Meteoros Gemelos". Si quieres ver de qué se trata, cuando ellos dos estén cerca entre sí en el próximo combate, puede que lo descubras.~
+@11100059 = ~De acuerdo, Wilson. No me hagas quedar mal.~
+@11100060 = ~No lleves por mal camino a Thiago, Wilson.~
+@11100061 = ~*Thiago emite un lamento exagerado y vuelve a sus actividades secretas con Wilson.*~ [BBEAR02]
+
+@11100062 = ~*¡Wilson ejecuta Meteoros Gemelos junto a Thiago!*~ [BBEAR04]
+@11100063 = ~*¡Thiago ejecuta Meteoros Gemelos junto a Wilson!*~ [BBEAR02]
+
+// Sylvan Judgment (Juicio Silvano) Bellfame / Good Dusk -- 1
+@11100064 = ~La venganza de la Primera Espada ha sido llevada a cabo.~
+@11100065 = ~¿A qué te refieres, Bellfame?~
+@11100066 = ~Alabarza ha sido derrotado. Tus camaradas de Cormyr han sido vengados. ¿Estoy en lo correcto? Parece que mis palabras te confunden.~
+@11100067 = ~Y-yo... Sí, supongo que han sido vengados. Pero... No fue lo que esperaba.~
+@11100068 = ~Lo sé, Dusk. Puedo ver tu corazón y sé que está inquieto por dichos acontecimientos.~
+@11100069 = ~Alabarza no resultó ser el monstruo que durante tantos años soñaste que era.~
+@11100070 = ~La misericordia en tus manos han sido un reflejo de ello.~
+@11100071 = ~Es curioso. Como dices, soñé durante años con ese combate. Y ahora que hemos vencido... no se siente como una victoria dulce.~
+@11100072 = ~La muerte violenta por el acero es una antinaturalidad que rara vez trae felicidad consigo.~
+@11100073 = ~Pero no tuvimos otra opción.~
+@11100074 = ~Sé que no la has tenido, mi querido Dusk. Algunos destinos están íntimamente conectados por el camino de la violencia.~
+@11100075 = ~Por más que traten de luchar contra ello, inevitablemente vuelven a dicho sendero.~
+@11100076 = ~Es como... intentar luchar contra la marea, ¿no?~
+@11100077 = ~Pero todo tiene un fin. No os desesperéis, Dusk. La paz llegará, tarde o temprano.~
+
+// Sylvan Judgment (Juicio Silvano) Bellfame / Good Dusk -- 2
+@11100078 = ~Dusk, me gustaría volver a platicar contigo, ¿puede ser?~
+@11100079 = ~Estoy aquí, Bellfame. Dime, por favor, ¿en qué puedo servirte?~
+@11100080 = ~Antes hemos hablado de cosas... apesadumbradas, ¿no lo crees?~
+@11100081 = ~Ehrm... supongo que sí. Nunca es fácil hablar de traumas pasados, ni de resoluciones, en especial si han sido violentas y recientes.~
+@11100082 = ~Esto... Te noto un poco dubitativa, Bellfame. Es extraño verte así.~
+@11100083 = ~Quería... disculparme. Es fácil para mí interactuar con mortales. Pero contigo... no sé por qué es más complejo de lo que esperaba.~
+@11100084 = ~Siento cosas que no logro identificar.~
+@11100085 = ~¿Sucede algo malo?~
+@11100086 = ~No, no creo que sea algo malo. Pienso en ti y en tu destino más de lo que debería.~
+@11100087 = ~No quiero... no quiero complicar tu camino más de lo que ya está, Dusk.~
+@11100088 = ~Aunque no es como si pudiera irme a cualquier lado mientras el anillo de Mir esté cerca de ti.~
+@11100089 = ~Si de algo te sirve, Bellfame, también pienso en ti. Tus palabras han sido un hálito de frescura a mi corazón.~
+@11100090 = ~Eres la calma que tanto necesito. Yo... puede que me sienta culpable por pensar en eso, teniendo en cuenta a... Celine.~
+@11100091 = ~Pero no veo nada de malo en que seamos amigos mientras los sucesos se desenvuelven, para bien o para mal.~
+@11100092 = ~Entiendo. Tus palabras me han servido, sí. Creo que me gusta que pienses en mí, Dusk.~
+@11100093 = ~Y comprendo lo que dices sobre Celine. Respeto que debas seguir tu camino hasta el final.~
+@11100094 = ~Pero mientras la decisión llega, tener tu amistad es algo que puedo disfrutar.~
+@11100095 = ~De esa manera, pensar en ti tanto ya no se vuelve una extraña sensación. Sino en algo cálido y sereno.~
+@11100096 = ~Siento lo mismo, Bell.~
+@11100097 = ~"Bell". Eso me gusta.~
+@11100098 = ~Es la primera vez que te veo sonreír. Me alegra presenciar eso.~
+@11100099 = ~*se sonroja* Uhm. G-gracias, Dusk.~
+
+// Sylvan Judgment (Juicio Silvano) Bellfame / Good Dusk -- 3
+@11100100 = ~Entonces, Juicio Silvano, ¿estoy en lo correcto?~
+@11100101 = ~Sí, Bell. Puedo mantenerme libre de hechizos de parálisis el tiempo suficiente para que tú ejecutes tu magia.~
+@11100102 = ~Comprendo. Tú cargas y yo te cubro con mis palabras.~
+@11100103 = ~Esa es la idea.~
+@11100104 = ~¿Y por qué ponerle un nombre?~
+@11100105 = ~Es la forma en que identificamos qué es lo que debemos hacer.~
+@11100106 = ~Ah, pero con una mirada tuya es suficiente. Si te conozco, sé lo que querrás decir.~
+@11100107 = ~*carraspeo* Sí, lo sé, Bell. Pero <CHARNAME> y los demás no. Para que ellos lo sepan, cada vez que pronunciemos nuestro ataque, ellos sabrán qué es lo que se viene.~
+@11100108 = ~Ahora comprendo. Entonces lo diré. Jugo Silvano.~
+@11100109 = ~Juicio.~
+@11100110 = ~Enterada.~
+
+@11100111 = ~¡Ahora, Bell! Es la hora del Juicio Silvano.~
+@11100112 = ~Sí, Dusk. ¡Jugo Silvano!~
+
+
+
+
+
+
+
+
+
+
 // PARA MAS ADELANTE (SOLO ESTA AQUI EN SPANISH)
 // P_BAle25 VER DLG FILE
 
@@ -14746,34 +14896,7 @@ Anthagar."~
 @980050    = ~Gólem, ¿tienes alguna otra utilidad para mí además de servir como recipiente interplanar?~
 @980051    = ~Por ahora no necesito nada, Arconti. Adiós.~
 @980052    = ~Adiós, mortal.~
-@980053    = ~Adiós, mortal.~
-@980054    = ~Adiós, mortal.~
 
-@980055    = ~~
-@980056    = ~~
-@980057    = ~~
-@980058    = ~~
-@980059    = ~~
-@980060    = ~~
-@980061    = ~~
-@980062    = ~~
-@980063    = ~~
-@980064    = ~~
-@980065    = ~~
-@980066    = ~~
-@980067    = ~~
-@980068    = ~~
-@980069    = ~~
-@980070    = ~~
-@980071    = ~~
-@980072    = ~~
-@980073    = ~~
-@980074    = ~~
-@980075    = ~~
-@980076    = ~~
-@980077    = ~~
-@980078    = ~~
-@980079    = ~~
 
 
 

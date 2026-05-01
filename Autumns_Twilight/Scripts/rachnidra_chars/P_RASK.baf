@@ -1,0 +1,15 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200190)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HasItem("P_RAFIRC",Myself)
+THEN
+  RESPONSE #100
+    UseItem("P_RAFIRC",Myself)
+    DestroyItem("P_RAFIRC")
+END

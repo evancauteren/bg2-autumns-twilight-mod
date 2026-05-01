@@ -734,7 +734,11 @@ SAY SELECT_ACTION6 ~~ [P_Baba04]
 SAY SELECT_ACTION7 ~~ [P_Baba05]
 SAY SELECT_RARE1 ~~ [P_Baba01]
 SAY SELECT_RARE2 ~~ [P_Baba02]
+WRITE_ASCII 0x2cc ~P_BABA~  #8  // dialogue file
 WRITE_ASCII 0X34  ~P_BABAS~ #8  // small portrait
+WRITE_ASCII 0x248 ~P_BABA~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~P_BABA~  #32 // DEATH VARIABLE
+
 //ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
 //COPY ~Autumns_Twilight/Characters/cre_and_portraits/P_BABAS.bmp~ ~override/P_BABAS.bmp~ 
 //END
@@ -755,8 +759,10 @@ SAY 80 @400291 /*  */
 COPY ~Autumns_Twilight/Summonings/p_jack.cre~ ~override~
 SAY NAME1 @400278 /* Jack, el Lobo de Invierno */
 SAY NAME2 @400278 /* Jack, el Lobo de Invierno */
-WRITE_ASCII 0x2cc ~p_jack~  #8  // dialogue file
 WRITE_ASCII 0X34  ~p_jack~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_jack~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_jack~  #32 // DEATH VARIABLE
+
 
 
 // Cono de fr�o de JACK
@@ -768,6 +774,8 @@ SAY NAME1 @400279 /* Sayang, la Loba Worg */
 SAY NAME2 @400279 /* Sayang, la Loba Worg */
 WRITE_ASCII 0x2cc ~p_sayang~  #8  // dialogue file
 WRITE_ASCII 0X34  ~p_sayang~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_sayang~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_sayang~  #32 // DEATH VARIABLE
 
 
 // Uma la loba de las sombras
@@ -776,6 +784,8 @@ SAY NAME1 @400281 /* Uma, la Loba de las Sombras */
 SAY NAME2 @400281 /* Uma, la Loba de las Sombras */
 WRITE_ASCII 0x2cc ~p_uma~  #8  // dialogue file
 WRITE_ASCII 0X34  ~p_uma~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_uma~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_uma~  #32 // DEATH VARIABLE
 
 
 // Thiago el oso
@@ -784,6 +794,9 @@ SAY NAME1 @400280 /* Thiago, el Oso Pardo */
 SAY NAME2 @400280 /* Thiago, el Oso Pardo */
 WRITE_ASCII 0x2cc ~p_thiago~  #8  // dialogue file
 WRITE_ASCII 0X34  ~p_thiago~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_thiago~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x280 ~p_thiago~  #32 // DEATH VARIABLE
+
 
 // BEAR: Innate Spell: Valentía del oso
 COPY ~Autumns_Twilight/Summonings/p_thisp1.spl~ ~override~         
@@ -2154,13 +2167,13 @@ WRITE_ASCII 0X34  ~p_tamika~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_tamika~ #8  // OVERRIDE SCRIPT
 WRITE_ASCII 0x280 ~p_tamika~ #8  // Death Script
 
-COPY ~Autumns_Twilight/Dialogue/p_tamika.sto~ ~override~
+COPY ~Autumns_Twilight/Dialogue/stores/p_tamika.sto~ ~override~
 SAY 0xC @200166
 
-COPY ~Autumns_Twilight/Dialogue/P_xsi.sto~ ~override~
+COPY ~Autumns_Twilight/Dialogue/stores/P_xsi.sto~ ~override~
 SAY 0xC @200168
 
-COPY ~Autumns_Twilight/Dialogue/p_nimbus.sto~ ~override~
+COPY ~Autumns_Twilight/Dialogue/stores/p_nimbus.sto~ ~override~
 SAY 0xC @200167
 
 // Xsi Enclave
@@ -3222,7 +3235,7 @@ WRITE_ASCII 0x2cc ~p_hakam~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_hakam~ #8  // small portrait
 WRITE_ASCII 0x280 ~p_hakam~ #8  // Death Script
 
-COPY ~Autumns_Twilight/Dialogue/p_hakam.sto~ ~override~
+COPY ~Autumns_Twilight/Dialogue/stores/p_hakam.sto~ ~override~
 SAY 0xC @600043
 
 

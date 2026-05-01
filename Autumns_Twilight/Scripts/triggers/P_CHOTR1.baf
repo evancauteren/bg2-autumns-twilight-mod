@@ -1,0 +1,9 @@
+IF
+IsOverMe([ANYONE])
+PartyHasItem("P_FTALI5")
+Global("P_ChoccTalk1","GLOBAL",2)
+Exists("P_CHO")
+THEN
+RESPONSE #100
+SetGlobal("P_ChoccTalk1","GLOBAL",3)
+END

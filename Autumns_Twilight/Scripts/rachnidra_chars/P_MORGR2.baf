@@ -1,0 +1,126 @@
+IF
+Global("P_Fall_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200282)
+END
+
+// Morgrath Talk
+IF
+Global("P_MorgrathSpawnPF16","GLOBAL",1)
+AreaCheck("P_FA16")
+THEN
+RESPONSE #100
+SetGlobal("P_MorgrathSpawnPF16","GLOBAL",2)
+StartDialogNoSet(Player1)
+END
+
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global ("P_Morgr1stAttack","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_STORM_OF_VENGEANCE)
+	AttackReevaluate(NearestEnemyOf(Myself),15)
+	SetGlobal ("P_Morgr1stAttack","GLOBAL",1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("P_SPIDERFEAR","LOCALS",0) // DRAGONFEAR
+THEN
+  RESPONSE #100
+    ReallyForceSpell(NearestEnemyOf(Myself),DRAGON_FEAR)
+    ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_WEB)
+    SetGlobal("P_SPIDERFEAR","LOCALS",1) // DRAGONFEAR
+    SetGlobalTimer("P_MORGRATH_POWERATTACK","GLOBAL",1) // REDDRAGONBREATH
+    ForceSpell(LastSeenBy(Myself),DRAGON_WING_BUFFET)
+END
+
+IF
+  GlobalTimerExpired("P_MORGRATH_POWERATTACK","GLOBAL")
+  See(NearestEnemyOf(Myself))
+  Range(LastSeenBy(Myself),11)
+  Global("P_Spider_Power","LOCALS",0) // WingBuffet
+THEN
+  RESPONSE #100
+    ForceSpell(LastSeenBy(Myself),DRAGON_WING_BUFFET)
+    Wait(1)
+    SetGlobal("P_Spider_Power","LOCALS",1) // WingBuffet
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(LastSeenBy(Myself),10)
+  GlobalTimerExpired("P_MORGRATH_POWERATTACK","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("P_Spider_Power","LOCALS",0)
+    ForceSpell(LastSeenBy(Myself),WIZARD_WEB)
+    ReallyForceSpell(LastSeenBy(Myself),WIZARD_ENERGY_DRAIN)
+    SetGlobalTimer("P_MORGRATH_POWERATTACK","GLOBAL",THREE_ROUNDS)
+END
+
+IF
+  Global("P_Spider_Power","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+  Range(LastSeenBy(Myself),11)
+THEN
+  RESPONSE #100
+    SetGlobal("P_Spider_Power","LOCALS",0)
+    SetGlobalTimer("P_MORGRATH_POWERATTACK","GLOBAL",THREE_ROUNDS)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Haste","LOCALS",0)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,WIZARD_HASTE)
+    SetGlobal("Haste","LOCALS",1)
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),7)
+THEN
+  RESPONSE #100
+    EquipRanged()
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Range(NearestEnemyOf(Myself),7)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+  ActionListEmpty()
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  ActionListEmpty()
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END

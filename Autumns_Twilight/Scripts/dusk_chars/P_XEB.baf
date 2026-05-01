@@ -1,0 +1,51 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@400367)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global ("P_Xeb1stAttack","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,WARRIOR_GREATER_WHIRLWIND)
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+	SetGlobal ("P_Xeb1stAttack","GLOBAL",1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+!Allegiance(Myself, ENEMY)
+OR(8)
+Allegiance("p_alabar", ENEMY)
+Allegiance("p_bob", ENEMY)
+Allegiance("p_kocha", ENEMY)
+Allegiance("p_komar", ENEMY)
+Allegiance("p_mike", ENEMY)
+Allegiance("p_serra", ENEMY)
+Allegiance("p_tongas", ENEMY)
+Allegiance("p_toxsan", ENEMY)
+THEN
+RESPONSE #100
+  Enemy()
+END
+
+IF
+  !Allegiance(Myself, ENEMY)
+  ActionListEmpty()
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Enemy()
+	AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+

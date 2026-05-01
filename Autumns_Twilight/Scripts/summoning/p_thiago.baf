@@ -1,0 +1,49 @@
+IF
+  !CombatCounter(0)
+  See([ENEMY])
+  Range("Wilson",15)
+  Global("P_ThiagoWilson_CA_001","GLOBAL",1)
+  Global("P_ThiagoWilson_COMBOAT01_TRIGGER","GLOBAL",0)
+  InParty("Wilson")
+  InMyArea("Wilson")
+  !Dead("Wilson")
+THEN
+  RESPONSE #100
+	ActionOverride("Wilson", DisplayStringHead(Myself, @11100062))
+	//Wait(1)
+    DisplayStringHead(Myself,@11100063)
+	ReallyForceSpellRES("P_BEARP1", Myself) // Ice
+	// Wilson
+	ActionOverride("Wilson", ReallyForceSpellRES("SPWI325",Myself) // Fire
+	SetGlobal("P_ThiagoWilson_COMBOAT01_TRIGGER","GLOBAL",1)
+END
+
+// BLOQUE 2: Iniciar el Cooldown (Cuando termina el combate)
+IF
+  CombatCounter(0)
+  Global("P_ThiagoWilson_COMBOAT01_TRIGGER","GLOBAL",1) 
+THEN
+  RESPONSE #100
+    // IMPORTANTE: Pasamos a estado 2 para que este bloque no se repita
+    SetGlobal("P_ThiagoWilson_COMBOAT01_TRIGGER","GLOBAL",2) 
+    RealSetGlobalTimer("P_ThiagoCombo01Timer","GLOBAL",1200)
+END 
+
+// BLOQUE 3: Resetear después de 20 minutos
+IF
+  Global("P_ThiagoWilson_COMBOAT01_TRIGGER","GLOBAL",2)
+  RealGlobalTimerExpired("P_ThiagoCombo01Timer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("P_ThiagoWilson_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
+END
+
+  
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+

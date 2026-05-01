@@ -114,6 +114,7 @@ COPY ~Autumns_Twilight/Sounds~ ~override~
 PRINT ~Installing Area Files and Supplemental Scripts...~
 COPY ~Autumns_Twilight/Items~ ~override~ 
 COPY ~Autumns_Twilight/Spells~ ~override~ 
+COPY ~Autumns_Twilight/Spells/ComboSpells~ ~override~ 
 COPY ~Autumns_Twilight/Summonings~ ~override~ 
 COPY ~Autumns_Twilight/Scripts/are~ ~override~
 COPY ~Autumns_Twilight/Scripts/are/P_FAR~ ~override~
@@ -362,49 +363,49 @@ WRITE_SHORT 0x246 (IDS_OF_SYMBOL (~kit~ ~P_FMAS~))
 // 1. MultiCrossmod 04: Pai'Na + Sirene + Hubelpot
 ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Pai'Na, Sirene (Artisan's mod) and Hubelpot (The Vegetable Farmer)~
-    INCLUDE ~Autumns_Twilight/lib/tph/P_DLG_BAF_ARE_MULTI04.tph~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI04.tph~
 END
 
 // 2. MultiCrossmod 03: Sirene y Hubelpot (AQUÍ EMPIEZA EL ELSE)
 ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Sirene (Artisan's mod) and Hubelpot~
-    INCLUDE ~Autumns_Twilight/lib/tph/P_DLG_BAF_ARE_MULTI03.tph~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI03.tph~
 END
 
 // 3. MultiCrossmod 02: Pai'Na y Hubelpot
 ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Pai'Na (Artisan's mod) and Hubelpot (The Vegetable Farmer)~
-    INCLUDE ~Autumns_Twilight/lib/tph/P_DLG_BAF_ARE_MULTI02.tph~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI02.tph~
 END
 
 // 4. MultiCrossmod 01: Pai'Na y Sirene
 ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Sirene and Pai'Na (Artisan's mod)~
-    INCLUDE ~Autumns_Twilight/lib/tph/P_DLG_BAF_ARE_MULTI01.tph~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI01.tph~
 END
 
 // 5. SOLO Hubelpot
 ELSE ACTION_IF FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Hubelpot (The Vegetable Farmer)~
-    INCLUDE ~Autumns_Twilight/lib/tph/P_DLG_BAF_ARE_HUBELPOT.tph~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_HUBELPOT.tph~
 END
 
 // 6. SOLO Sirene
 ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Sirene (Artisan's mod)~
-    INCLUDE ~Autumns_Twilight/lib/tph/P_DLG_BAF_ARE_SIRENE.tph~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_SIRENE.tph~
 END
 
 // 7. SOLO Paina
 ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Pai'Na (Artisan's mod)~
-    INCLUDE ~Autumns_Twilight/lib/tph/P_DLG_BAF_ARE_PAINA.tph~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_PAINA.tph~
 END
 
 // 8. FINAL: Si no entró en NINGUNO de los anteriores
 ELSE BEGIN
     PRINT ~Installing Dialogues and Scripts~
-    INCLUDE ~Autumns_Twilight/lib/tph/P_DLG_BAF_ARE_BASE.tph~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_BASE.tph~
 END
 
 
@@ -448,7 +449,9 @@ PRINT ~Processing Music and Soundtracks...~
 
 // Music
 ACTION_IF NOT FILE_EXISTS ~music/p_f2/p_f2a.acm~ THEN BEGIN
-    PRINT ~Music files not found. Copying audio assets (this may take a while)...~
+PRINT ~ ~
+PRINT ~Establishing Music and Soundtracks to New Areas and Events~
+PRINT ~This process may take a couple of minutes, please wait.~
 END ELSE BEGIN
     PRINT ~Music assets detected. Skipping copy...~
 END
@@ -456,9 +459,7 @@ INCLUDE ~Autumns_Twilight/lib/tph/P_MUSIC.tph~
 PRINT ~ ~
 
 
-PRINT ~ ~
-PRINT ~Establishing Music and Soundtracks to New Areas and Events~
-PRINT ~This process may take a couple of minutes, please wait.~
+PRINT ~Music files not found. Copying audio assets (this may take a while)...~
 PRINT ~ ~
 INCLUDE ~Autumns_Twilight/lib/tph/P_ESTABLISHING_MUSIC.tph~ 
 
@@ -715,13 +716,11 @@ COMPILE EVALUATE_BUFFER ~Autumns_Twilight/Dialogue/P_BDus25.d~
     ~Autumns_Twilight/Dialogue/P_alen25.d~
     ~Autumns_Twilight/Dialogue/p_ale25J.d~
     ~Autumns_Twilight/Dialogue/p_ale25P.d~
-	~Autumns_Twilight/Dialogue/p_belld.d~
-
 	
 	~Autumns_Twilight/Scripts/P_Fal25S.baf~ 
 	~Autumns_Twilight/Scripts/p_cho25S.baf~ 
 	~Autumns_Twilight/Scripts/p_ale25S.baf~ 
-	~Autumns_Twilight/Scripts/P_SHUNSU.baf~	
+	~Autumns_Twilight/Scripts/kits/P_SHUNSU.baf~	
 
   COPY_EXISTING ~P_Dus25S.bcs~ ~override/P_Dus25S.bcs~
   REPLACE_TEXTUALLY 2220 ~%P_D1%~

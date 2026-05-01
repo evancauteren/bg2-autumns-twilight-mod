@@ -1,0 +1,126 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@400303)
+END
+
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_Michel_Forge","GLOBAL",2)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  CreateItem ("p_mat2mi",1,1,0)   
+  UseItem ("p_mat2mi", Myself)
+  DestroyItem ("p_mat2mi")
+  CreateItem ("p_michhm",1,1,0)   
+  UseItem ("p_michhm", Myself)
+  DestroyItem ("p_michhm")
+  //CreateVisualEffect("spcrtwpn",[669.439])
+  Swing()
+  Wait (3)  
+  CreateItem ("p_mat2mi",1,1,0)   
+  UseItem ("p_mat2mi", Myself)
+  DestroyItem ("p_mat2mi")
+  CreateVisualEffect("spcrtwpn",[669.439])
+  Swing()
+  Wait (3)
+  DestroyItem ("shammr")
+  StartDialogueNoSet(Player1)
+  EndCutSceneMode()
+END
+
+IF
+InParty("P_Dusk")
+!See("P_Dusk")
+Global("P_Michel_Forge","GLOBAL",2)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  CreateItem ("p_mat2mi",1,1,0)   
+  UseItem ("p_mat2mi", Myself)
+  DestroyItem ("p_mat2mi")
+  CreateItem ("p_michhm",1,1,0)   
+  UseItem ("p_michhm", Myself)
+  DestroyItem ("p_michhm")
+  //CreateVisualEffect("spcrtwpn",[669.439])
+  Swing()
+  Wait (3)  
+  CreateItem ("p_mat2mi",1,1,0)   
+  UseItem ("p_mat2mi", Myself)
+  DestroyItem ("p_mat2mi")
+  CreateVisualEffect("spcrtwpn",[669.439])
+  Swing()
+  Wait (3)
+  DestroyItem ("shammr")
+  StartDialogueNoSet(Player1)
+  EndCutSceneMode()
+END
+
+IF
+!InParty("P_Dusk")
+!See("P_Dusk")
+Global("P_Michel_Forge","GLOBAL",2)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  CreateItem ("p_mat2mi",1,1,0)   
+  UseItem ("p_mat2mi", Myself)
+  DestroyItem ("p_mat2mi")
+  CreateItem ("p_michhm",1,1,0)   
+  UseItem ("p_michhm", Myself)
+  DestroyItem ("p_michhm")
+  //CreateVisualEffect("spcrtwpn",[669.439])
+  Swing()
+  Wait (3)  
+  CreateItem ("p_mat2mi",1,1,0)   
+  UseItem ("p_mat2mi", Myself)
+  DestroyItem ("p_mat2mi")
+  CreateVisualEffect("spcrtwpn",[669.439])
+  Swing()
+  Wait (3)
+  DestroyItem ("shammr")
+  StartDialogueNoSet(Player1)
+  EndCutSceneMode()
+END
+
+//MISSION 3
+// Invocación de Sir Ryan Espinel
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_Michel_ConvocM3","GLOBAL",2)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait(2) 
+  CreateCreatureObjectDoor("kayl2",Myself,0,0,0)
+  CreateCreatureObjectDoor("p_falon",Myself,0,0,0)   
+  Wait(5)
+  PlaySong (2225)
+  //PlaySound ("P_DuskT")
+  EndCutSceneMode()
+  StartDialogueNoSet(Player1)
+END
+
+// P_DuskM3LLAMA_ORBET
+IF
+Global("P_DuskM3LLAMA_ORBET","GLOBAL",4)
+AreaCheck("AR1904")
+THEN
+RESPONSE #100
+Wait(2)
+StartDialogueNoSet(Player1)
+END
+
+IF
+Global("P_DuskM3LLAMA_ORBET","GLOBAL",6)
+AreaCheck("AR1904")
+THEN
+RESPONSE #100
+Wait(1)
+DestroySelf()
+END
+

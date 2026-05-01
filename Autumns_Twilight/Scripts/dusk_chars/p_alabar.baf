@@ -1,0 +1,87 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@400359)
+END
+
+IF
+Global("P_DuskMatMission3","GLOBAL",6)
+THEN
+  RESPONSE #100
+  SetGlobal("P_DuskMatMission3","GLOBAL",7)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+  !Allegiance(Myself, ENEMY)
+  ActionListEmpty()
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Enemy()
+	AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+!Allegiance(Myself, ENEMY)
+OR(8)
+Allegiance("p_kocha", ENEMY)
+Allegiance("p_bob", ENEMY)
+Allegiance("p_komar", ENEMY)
+Allegiance("p_mike", ENEMY)
+Allegiance("p_serra", ENEMY)
+Allegiance("p_tongas", ENEMY)
+Allegiance("p_toxsan", ENEMY)
+Allegiance("p_xeb", ENEMY)
+THEN
+RESPONSE #100
+  Enemy()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global ("P_Alabarza1stAttack","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,WARRIOR_GREATER_WHIRLWIND)
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+	SetGlobal ("P_Alabarza1stAttack","GLOBAL",1)
+END
+
+IF
+Global("P_DuskMatMission3","GLOBAL",8)
+Global("p_OrcGroupSpawn","GLOBAL",1)
+Global("P_DuskAlabarzaBeforeAtt","GLOBAL",0)
+THEN
+  RESPONSE #100
+  StartCutSceneMode()
+  Wait (3)
+  SetGlobal("P_DuskAlabarzaBeforeAtt","GLOBAL",1)
+  EndCutSceneMode()
+  StartDialogueNoSet(Player1)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See("P_Dusk")
+THEN
+  RESPONSE #100
+    AttackReevaluate("P_Dusk",30)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See("P_Dusk")
+THEN
+  RESPONSE #100
+    AttackReevaluate("P_Dusk",30)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  !See("P_Dusk")
+THEN
+  RESPONSE #100
+	AttackReevaluate(NearestEnemyOf(Myself),30)
+END

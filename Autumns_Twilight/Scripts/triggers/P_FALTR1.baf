@@ -1,0 +1,8 @@
+IF
+IsOverMe([ANYONE])
+Global("P_FallInFinalBattle_PA16","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("P_FallInFinalBattle_PA16","GLOBAL",2)
+END
+

@@ -1,0 +1,48 @@
+IF
+  !CombatCounter(0)
+  See([ENEMY])
+  Range("Imoen2",15)
+  Global("P_SayangImoen_CA_001","GLOBAL",1)
+  Global("P_SayangImoen_COMBOAT01_TRIGGER","GLOBAL",0)
+  InParty("Imoen2")
+  InMyArea("Imoen2")
+  !Dead("Imoen2")
+THEN
+  RESPONSE #100
+	ActionOverride("Imoen2", DisplayStringHead(Myself, @11100039))
+	//Wait(1)
+    DisplayStringHead(Myself,@11100040)
+	ReallyForceSpellRES("SPWI306", NearestEnemyOf(Myself)) // Hold Person
+	// Imoen
+	ActionOverride("Imoen2", ReallyForceSpellRES("CDSTAF12",NearestEnemyOf(Myself))) // Lighting attack
+	SetGlobal("P_SayangImoen_COMBOAT01_TRIGGER","GLOBAL",1)
+END
+
+// BLOQUE 2: Iniciar el Cooldown (Cuando termina el combate)
+IF
+  CombatCounter(0)
+  Global("P_SayangImoen_COMBOAT01_TRIGGER","GLOBAL",1) 
+THEN
+  RESPONSE #100
+    // IMPORTANTE: Pasamos a estado 2 para que este bloque no se repita
+    SetGlobal("P_SayangImoen_COMBOAT01_TRIGGER","GLOBAL",2) 
+    RealSetGlobalTimer("P_SayangCombo01Timer","GLOBAL",1200)
+END 
+
+// BLOQUE 3: Resetear después de 20 minutos
+IF
+  Global("P_SayangImoen_COMBOAT01_TRIGGER","GLOBAL",2)
+  RealGlobalTimerExpired("P_SayangCombo01Timer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("P_SayangImoen_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
+END
+
+  
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
