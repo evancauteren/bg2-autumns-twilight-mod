@@ -22,6 +22,7 @@ InParty("Imoen2")
 //RandomNum(4,1)
 Global("P_Sayang_ITC_Imoen1","GLOBAL",1)
 Global("P_SayangImoen_CA_001","GLOBAL",0)
+Global("P_SayangImoen2_CombatCount","GLOBAL",2)
 ~ THEN BEGIN CA_IMO_03 // from:
   SAY @11100032 /* ~*Sayang se encuentra sentada, atenta a los susurros que parece brindarle Imoen.*~ */
   IF ~~ THEN DO ~SetGlobal("P_SayangImoen_CA_001","GLOBAL",1)~ GOTO CA_IMO_04

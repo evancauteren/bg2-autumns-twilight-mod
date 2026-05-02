@@ -5,6 +5,48 @@ RESPONSE #100
 SetName(@200036)
 END
 
+// CA
+IF
+  !CombatCounter(0)
+  See([ENEMY])
+  Range("CHARNAME",15)
+  Global("P_KitochiCHARNAME_CA_001","GLOBAL",1)
+  Global("P_KitochiCHARNAME_COMBOAT01_TRIGGER","GLOBAL",0)
+  InParty("CHARNAME")
+  InMyArea("CHARNAME")
+  !Dead("CHARNAME")
+THEN
+  RESPONSE #100
+	ActionOverride(Player1, DisplayStringHead(Myself, @11100176))
+	//Wait(1)
+    DisplayStringHead(Myself,@11100177)
+	ReallyForceSpellRES("SPWI920", Myself) // Energy Blades
+	// CHARNAME
+	ActionOverride(Player1, ReallyForceSpellRES("OHBWI405",Myself) // Invisibility
+	SetGlobal("P_KitochiCHARNAME_COMBOAT01_TRIGGER","GLOBAL",1)
+END
+
+// BLOQUE 2: Iniciar el Cooldown (Cuando termina el combate)
+IF
+  CombatCounter(0)
+  Global("P_KitochiCHARNAME_COMBOAT01_TRIGGER","GLOBAL",1) 
+THEN
+  RESPONSE #100
+    // IMPORTANTE: Pasamos a estado 2 para que este bloque no se repita
+    SetGlobal("P_KitochiCHARNAME_COMBOAT01_TRIGGER","GLOBAL",2) 
+    RealSetGlobalTimer("P_KitochiCombo01Timer","GLOBAL",1200)
+END 
+
+// BLOQUE 3: Resetear después de 20 minutos
+IF
+  Global("P_KitochiCHARNAME_COMBOAT01_TRIGGER","GLOBAL",2)
+  RealGlobalTimerExpired("P_KitochiCombo01Timer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("P_KitochiCHARNAME_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
+END
+
+  
 IF
 InParty("P_Fall")
 See("P_Fall")
@@ -105,10 +147,11 @@ See(Player1)
 CombatCounter(0)
 !See([ENEMY])
 //AreaType(DUNGEON)
-OR(3)
+OR(4)
 Global("P_Fall_Kitoch_Charname","GLOBAL",1)
 Global("P_Fall_Kitoch_Charname","GLOBAL",3)
 Global("P_Fall_Kitoch_Charname","GLOBAL",5)
+Global("P_FallAboutGormsDeath_KitAlive","GLOBAL",4)
 THEN
 RESPONSE #100
 PlaySong (4444)
@@ -142,3 +185,21 @@ THEN
   SetGlobal ("P_FallAboutGormsDeath_KitAlive","GLOBAL",1)
   StartDialogNoSet(Player1)
 END
+
+IF
+InParty("P_Fall")
+See("P_Fall")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("P_FallAboutGormsDeath_KitAlive","GLOBAL",3)
+!AreaCheck("P_FAR4")
+THEN
+  RESPONSE #100
+  SmallWait (1)
+  SetGlobal("P_FallAboutGormsDeath_KitAlive","GLOBAL",4)
+END
+
+

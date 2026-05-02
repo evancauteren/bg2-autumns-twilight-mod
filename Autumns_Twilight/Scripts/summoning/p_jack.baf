@@ -1,3 +1,29 @@
+// -------------------------------------------------------------------
+// TRACKER DE COMBATES JUNTOS: Jack Y Keldorn
+// -------------------------------------------------------------------
+
+// BLOQUE A: SJackr +1 al contador cuando empieza un combate
+IF
+  See("Keldorn")
+  !CombatCounter(0) // Están en combate
+  Global("P_JackKeldorn_InCombatCheck","GLOBAL",0)
+  GlobalLT("P_JackKeldorn_CombatCount","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_JackKeldorn_InCombatCheck","GLOBAL",1)
+    IncrementGlobal("P_JackKeldorn_CombatCount","GLOBAL",1)
+END
+
+// BLOQUE B: Resetear el interruptor cuando el combate termina
+IF
+  CombatCounter(0)
+  Global("P_JackKeldorn_InCombatCheck","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_JackKeldorn_InCombatCheck","GLOBAL",0)
+END
+
+// CA
 IF
   !CombatCounter(0)
   See([ENEMY])

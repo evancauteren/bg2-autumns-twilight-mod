@@ -439,6 +439,51 @@ IF
   IF ~~ THEN EXIT
 END
 
+// Phantom Assassin CA
+IF ~InParty("P_Fall")
+See("P_Fall")
+Global("P_FallAboutGormsDeath_KitAlive","GLOBAL",4)~ THEN BEGIN 73 // from:
+  SAY @11100162 /* *ronroneo* He estado pensando, <CHARNAME>...~ */
+  IF ~~ THEN DO ~SetGlobal("P_FallAboutGormsDeath_KitAlive","GLOBAL",5)~ GOTO 74
+END
+
+IF ~~ THEN BEGIN 74 // from:
+  SAY @11100163 /* La muerte de Gorm ha significado mucho para mí. He logrado mi venganza contra Aeris. Pero también me ha hecho más fuerte. */
+    IF ~~ THEN REPLY @11100164 /* ~Pues yo te veo igual.~ */  GOTO 75
+    IF ~~ THEN REPLY @11100165 /* ~¿A qué te refieres, Kitochi?~ */  GOTO 76
+END
+
+IF ~~ THEN BEGIN 75 // from:
+  SAY @11100166 /* *maullido agudo* Puede que no lo aparente, pero me siento más fuerte. */
+  IF ~~ THEN GOTO 76
+END
+
+IF ~~ THEN BEGIN 76 // from:
+  SAY @11100167 /* He estado practicando algunos conjuros en el Plano Astral. Con tu influencia en combate, podría ponerlo en práctica. */
+    IF ~~ THEN REPLY @11100168 /* ~¿Qué necesitas?~ */  GOTO 78
+    IF ~~ THEN REPLY @11100169 /* ~No quiero nada raro con tus entreveros gatunos, Kitochi.~ */  GOTO 77
+END
+
+IF ~~ THEN BEGIN 77 // from:
+  SAY @11100170 /* ~Hmpf. De acuerdo. Tú te lo pierdes.~ */
+  IF ~~ THEN DO ~SetGlobal("P_FallAboutGormsDeath_KitAlive","GLOBAL",5)~ EXIT
+END
+
+IF ~~ THEN BEGIN 78 // from:
+  SAY @11100171 /* *maullido* La próxima vez que nos encontremos en un combate, puedo poner sobre ti un manto de invisibilidad mejorada. Es decir, podrás combatir aún estando invisible. */
+  IF ~~ THEN GOTO 79
+END
+
+IF ~~ THEN BEGIN 79 // from:
+  SAY @11100172 /* Mientras que yo y gracias a tu influencia divina, podré conjurar algunas armas hechas de energía pura que lanzaré contra nuestros oponentes. A esta técnica la he llamado Asesino Fantasma. */
+    IF ~~ THEN REPLY @11100173 /* ~Me gusta la idea, Kitochi. Cuando estemos juntos en combate, lo pondremos en práctica.~ */  GOTO 80
+    IF ~~ THEN REPLY @11100174 /* ~No, gracias. No quiero arriesgarme a que lances una de esas cosas energéticas contra mí por error, gato loco.~ */  GOTO 77
+END
+
+IF ~~ THEN BEGIN 80 // from:
+  SAY @11100175 /* ~*maullido* Así será, <CHARNAME>.~ */
+  IF ~~ THEN DO ~SetGlobal("P_FallAboutGormsDeath_KitAlive","GLOBAL",5) SetGlobal("P_KitochiCHARNAME_CA_001","GLOBAL",1)~ EXIT
+END
 
 //EXTEND
 

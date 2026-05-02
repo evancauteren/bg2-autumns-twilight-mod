@@ -14342,6 +14342,90 @@ Der mächtige shilmist Elf."~
 @11100111 = ~Now, Bell! It's time for the Sylvan Judgment.~
 @11100112 = ~Yes, Dusk. Sylvan Juiceness!~
 
+// V1.5.1
+// Alabaster Judgment (Juicio del Abalastro) Daren / Anomen -- 1
+@11100113 = ~*Daren observes Anomen closely.*~
+@11100114 = ~Good boy, Daren. You are a great warrior, aren't you?~
+@11100115 = ~*Daren sits up and approaches Anomen, allowing him to pet his back.*~
+@11100116 = ~*sigh* I doubt father would have been pleased with me having a pet like you, even if it is someone as formidable as you.~
+@11100117 = ~Daren likes you, Anomen. I'm sorry your father wouldn't let you have animal companions.~
+@11100118 = ~In some campaigns with the Order, we had the opportunity to fight alongside rangers and druids. Some had wolves as companions.~
+@11100119 = ~Loyalty is priceless, Fall of Imnescar. Your wolves are proof of that. You must be proud of them.~
+@11100120 = ~I am. They have been my family for as long as I can remember. Well, I'll leave you to keep playing with Daren.~
+@11100121 = ~Ehrm. Hmpf. I have no need for games. It is time to return. Next time we will train a little, good Daren, yes?~
+@11100122 = ~*With a howl, Daren accepts Anomen's words.*~
+
+// Alabaster Judgment (Juicio del Abalastro) Daren / Anomen -- 2
+@11100123 = ~*Daren exhales a small icy breath at Anomen's instructions.*~
+@11100124 = ~Very well, Daren. Remember our training, yes?~
+@11100125 = ~*Daren's eyes lock onto the warrior's face.*~
+@11100126 = ~Our Alabaster Judgment will make our enemies tremble. Let evil beware of us!~
+@11100127 = ~*Daren closes his eyes at Anomen's petting as he smiles.*~
+
+@11100128 = ~The time has come, Daren. Alabaster Judgment!~
+@11100129 = ~*Daren executes Alabaster Judgment*~
+
+// Tempest Howl (Aullido de la Tempestad) Sinna / Aerie -- 1
+@11100130 = ~*Sinna scampers happily and at great speed around Aerie.*~
+@11100131 = ~Sinna, stop! W-wow, I get dizzy just watching you.~
+@11100132 = ~*Sinna stops at the avariel's command.*~
+@11100133 = ~W-wow, I didn't expect you to listen to me.~
+@11100134 = ~Every now and then Sinna obeys, especially if there's food involved. But it seems she likes you a lot, Aerie.~
+@11100135 = ~R-really? I like her too, Fall. She's very beautiful and her joy gladdens my soul.~
+@11100136 = ~Come, Sinna. I want to pet you for a few minutes before we set off again.~
+@11100137 = ~*Sinna obeys Aerie and enjoys the elf's petting on her back.*~
+
+// Tempest Howl (Aullido de la Tempestad) Sinna / Aerie -- 2
+@11100138 = ~*You watch how Sinna seems to restrain herself from moving or scampering just to stay and listen to Aerie.*~
+@11100139 = ~So, Sinna, I'll use my arcane powers to attack our enemies while you do your part, okay?~
+@11100140 = ~*Sinna has her ears pricked up and her eyes focused on Aerie's.*~
+@11100141 = ~When I say "Tempest Howl" we'll use our lightning attacks. D-do you like the name I chose?~
+@11100142 = ~*Sinna howls in affirmation and then starts scampering around Aerie.*~
+
+@11100143 = ~Come on, Sinna, it's time for our Tempest Howl!~
+@11100144 = ~*Sinna executes Tempest Howl*~
+
+// Hunter's Paradox (Paradoja del Cazador) Tabitha / Fall -- 1
+@11100145 = ~*Tabitha swishes her tail slightly while staring intently at Fall.*~
+@11100146 = ~*sigh* I know, I know, Tabitha. You miss Ivor, don't you?~
+@11100147 = ~Come here.~
+@11100148 = ~*Tabitha obeys as she allows Fall to rest her hand on her head.*~
+@11100149 = ~You'll have to stay with me for a while until you can see Ivor again, alright?~
+@11100150 = ~*Tabitha narrows her eyes as she lets out a deep, loud purr.*~
+
+// Hunter's Paradox (Paradoja del Cazador) Tabitha / Fall -- 2
+@11100151 = ~*Tabitha bares her claws at Fall's request.*~
+@11100152 = ~Very well, Tabitha. We've fought together enough to know each other a little, haven't we?~
+@11100153 = ~*Tabitha watches her in silence.*~
+@11100154 = ~I can use my skills to combine an attack against our opponents.~
+@11100155 = ~I suppose it's something Malar would do. We must become predators and hunt our prey.~
+@11100156 = ~Only in this case, the 'prey' will be those who want to kill us.~
+@11100157 = ~With your speed and my expertise, we will execute what I call the Hunter's Paradox.~
+@11100158 = ~When you are near me in the next battle, we will put it into practice, Tabitha.~
+@11100159 = ~*Tabitha licks her paws while Fall continues speaking.*~
+
+@11100160 = ~Attack, Tabitha. Use the Hunter's Paradox!~
+@11100161 = ~*Tabitha executes Hunter's Paradox*~
+
+// Phantom Assassin (Asesino Fantasma) Kitochi / CHARNAME -- 1
+@11100162 = ~*purr* I've been thinking, <CHARNAME>...~
+@11100163 = ~Gorm's death meant a lot to me. I achieved my revenge against Aeris. But it has also made me stronger.~
+@11100164 = ~Well, you look the same to me.~
+@11100165 = ~What do you mean, Kitochi?~
+@11100166 = ~*high-pitched meow* I may not look it, but I feel stronger.~ [p_kito02]
+@11100167 = ~I've been practicing some spells in the Astral Plane. With your influence in combat, I could put them into practice.~
+@11100168 = ~What do you need?~
+@11100169 = ~I don't want anything weird with your feline schemes, Kitochi.~
+@11100170 = ~Hmph. Alright. Your loss.~
+@11100171 = ~*meow* The next time we find ourselves in combat, I can place a cloak of improved invisibility over you. Meaning, you'll be able to fight even while invisible.~ [p_kito03]
+@11100172 = ~Meanwhile, thanks to your divine influence, I will be able to conjure some weapons made of pure energy that I'll hurl at our opponents. I've called this technique Phantom Assassin.~
+@11100173 = ~I like the idea, Kitochi. When we are together in combat, we'll put it into practice.~
+@11100174 = ~No thanks. I don't want to risk you throwing one of those energy things at me by mistake, you crazy cat.~
+@11100175 = ~*meow* It shall be done, <CHARNAME>.~ [p_kito01]
+
+@11100176 = ~*Kitochi casts Improved Invisibility on <CHARNAME>*~
+@11100177 = ~*growl* Let's go, <CHARNAME>! Phantom Assassin!~
+
 // JOURNAL
 // JOURNAL ENTRIES DUSK
 ////////////////////////////////

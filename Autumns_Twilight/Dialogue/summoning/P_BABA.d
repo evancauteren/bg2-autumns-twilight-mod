@@ -22,6 +22,7 @@ InParty("Mazzy")
 //RandomNum(3,3)
 Global("P_baba_ITC_Mazzy1","GLOBAL",1)
 Global("P_BabaMazzy_CA_001","GLOBAL",0)
+Global("P_BabaMazzy_CombatCount","GLOBAL",1)
 ~ THEN BEGIN CA_MAZ_03 // from:
   SAY @11100041 /* ~*Baba observa a Mazzy embelesado.*~ */
   IF ~~ THEN DO ~SetGlobal("P_BabaMazzy_CA_001","GLOBAL",1)~ GOTO CA_MAZ_04
@@ -32,9 +33,6 @@ IF
   SAY @11100047 /* ~*Baba parece determinado y parece hacer ruidos extraños de aprobación.*~ */
   IF ~~ THEN EXIT
 END
-
-
-
 
 IF ~See("Minsc")
 InParty("Minsc")

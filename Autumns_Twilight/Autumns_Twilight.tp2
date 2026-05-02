@@ -453,13 +453,15 @@ PRINT ~ ~
 PRINT ~Establishing Music and Soundtracks to New Areas and Events~
 PRINT ~This process may take a couple of minutes, please wait.~
 END ELSE BEGIN
-    PRINT ~Music assets detected. Skipping copy...~
+	PRINT ~ ~
+	PRINT ~Establishing Music and Soundtracks to New Areas and Events~
+	PRINT ~This process may take a couple of minutes, please wait.~
 END
 INCLUDE ~Autumns_Twilight/lib/tph/P_MUSIC.tph~
 PRINT ~ ~
 
 
-PRINT ~Music files not found. Copying audio assets (this may take a while)...~
+PRINT ~Copying audio assets...~
 PRINT ~ ~
 INCLUDE ~Autumns_Twilight/lib/tph/P_ESTABLISHING_MUSIC.tph~ 
 

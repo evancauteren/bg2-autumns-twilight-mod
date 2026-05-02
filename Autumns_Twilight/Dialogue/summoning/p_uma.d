@@ -20,6 +20,7 @@ IF ~See("Viconia")
 InParty("Viconia")
 !StateCheck("Viconia",STATE_SLEEPING)
 Global("P_uma_ITC_Viconia1","GLOBAL",1)
+Global("P_UmaViconia_CombatCount","GLOBAL",2)
 Global("P_UmaViconia_CA_001","GLOBAL",0)
 ~ THEN BEGIN CA_VIC_03 // from:
   SAY @11100016 /* ~*Las orejas de Uma parecen hojas congeladas de invierno mientras admira a Viconia.*~ */

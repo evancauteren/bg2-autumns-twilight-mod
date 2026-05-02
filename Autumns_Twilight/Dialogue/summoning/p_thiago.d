@@ -6,6 +6,7 @@ InParty("Wilson")
 //RandomNum(5,5)
 Global("P_Bellfame_Wilson1","GLOBAL",1)
 Global("P_Thiago_ITC_Wilson1","GLOBAL",0)
+Global("P_ThiagoWilson_CombatCount","GLOBAL",1)
 ~ THEN BEGIN 13 // from:
   SAY @91633 /* ~*Thiago se acerca a Wilson y ambos se ponen a lamentarse.*~ */
   IF ~~ THEN DO ~SetGlobal("P_Thiago_ITC_Wilson1","GLOBAL",1)~ GOTO 14

@@ -1,0 +1,75 @@
+// -------------------------------------------------------------------
+// TRACKER DE COMBATES JUNTOS: Sinna Y Aerie
+// -------------------------------------------------------------------
+
+// BLOQUE A: Sumar +1 al contador cuando empieza un combate
+IF
+  See("Aerie")
+  !CombatCounter(0) // Están en combate
+  Global("P_SinnaAerie_InCombatCheck","GLOBAL",0)
+  GlobalLT("P_SinnaAerie_CombatCount","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("P_SinnaAerie_InCombatCheck","GLOBAL",1)
+    IncrementGlobal("P_SinnaAerie_CombatCount","GLOBAL",1)
+END
+
+// BLOQUE B: Resetear el interruptor cuando el combate termina
+IF
+  CombatCounter(0)
+  Global("P_SinnaAerie_InCombatCheck","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_SinnaAerie_InCombatCheck","GLOBAL",0)
+END
+
+// CA
+IF
+  !CombatCounter(0)
+  See([ENEMY])
+  Range("Aerie",15)
+  Global("P_SinnaAerie_CA_001","GLOBAL",1)
+  Global("P_SinnaAerie_COMBOAT01_TRIGGER","GLOBAL",0)
+  InParty("Aerie")
+  InMyArea("Aerie")
+  !Dead("Aerie")
+THEN
+  RESPONSE #100
+	ActionOverride("Aerie", DisplayStringHead(Myself, @11100143))
+	//Wait(1)
+    DisplayStringHead(Myself,@11100144)
+	ReallyForceSpellRES("SPIN597", NearestEnemyOf(Myself)) // Ice
+	// Aerie
+	ActionOverride("Aerie", ReallyForceSpellRES("P_PR001",NearestEnemyOf(Myself)) // Skin
+	SetGlobal("P_SinnaAerie_COMBOAT01_TRIGGER","GLOBAL",1)
+END
+
+// BLOQUE 2: Iniciar el Cooldown (Cuando termina el combate)
+IF
+  CombatCounter(0)
+  Global("P_SinnaAerie_COMBOAT01_TRIGGER","GLOBAL",1) 
+THEN
+  RESPONSE #100
+    // IMPORTANTE: Pasamos a estado 2 para que este bloque no se repita
+    SetGlobal("P_SinnaAerie_COMBOAT01_TRIGGER","GLOBAL",2) 
+    RealSetGlobalTimer("P_SinnaCombo01Timer","GLOBAL",1200)
+END 
+
+// BLOQUE 3: Resetear después de 20 minutos
+IF
+  Global("P_SinnaAerie_COMBOAT01_TRIGGER","GLOBAL",2)
+  RealGlobalTimerExpired("P_SinnaCombo01Timer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("P_SinnaAerie_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
+END
+
+  
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+

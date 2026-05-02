@@ -5,6 +5,7 @@ InParty("Keldorn")
 !StateCheck("Keldorn",STATE_SLEEPING)
 Global("P_Jack_ITC_Keldorn1","GLOBAL",1)
 Global("P_JackKeldorn_COMBOAT01","GLOBAL",0)
+Global("P_JackKeldorn_CombatCount","GLOBAL",1)
 ~ THEN BEGIN P_JACK_KELDORN_001 // from:
   SAY @11100000 /* ~*La mirada de Jack parece casi exhalar un halo de frío. Mira atentamente a Keldorn quien le devuelve la mirada.*~ */
   IF ~~ THEN DO ~SetGlobal("P_JackKeldorn_COMBOAT01","GLOBAL",1)~ GOTO P_JACK_KELDORN_002
