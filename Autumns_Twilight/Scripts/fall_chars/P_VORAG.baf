@@ -18,3 +18,53 @@ THEN
   Wait (4)
   StartDialogueNoSet(Player1)
 END
+
+IF
+  !CombatCounter(0)
+  Global ("P_VoragSawChoCombat","GLOBAL",0)
+  See("P_CHO")
+THEN
+  RESPONSE #100
+  SetGlobal ("P_VoragSawChoCombat","GLOBAL",1)
+END
+
+// CA
+IF
+  !CombatCounter(0)
+  See([ENEMY])
+  Range("P_Chon",15)
+  Global("P_VoragorChon_CA_001","GLOBAL",1)
+  Global("P_VoragorP_Chon_COMBOAT01_TRIGGER","GLOBAL",0)
+  InParty("P_Chon")
+  InMyArea("P_Chon")
+  !Dead("P_Chon")
+THEN
+  RESPONSE #100
+	ActionOverride("P_Chon", DisplayStringHead(Myself, @11100176))
+	//Wait(1)
+    DisplayStringHead(Myself,@11100177)
+	ReallyForceSpellRES("OHDMASK", NearestEnemyOf(Myself)) // Acid Attack
+	// P_Chon
+	ActionOverride("P_Chon", ReallyForceSpellRES("BALTH04",Myself) // Sacred Power
+	SetGlobal("P_VoragorP_Chon_COMBOAT01_TRIGGER","GLOBAL",1)
+END
+
+// BLOQUE 2: Iniciar el Cooldown (Cuando termina el combate)
+IF
+  CombatCounter(0)
+  Global("P_VoragorP_Chon_COMBOAT01_TRIGGER","GLOBAL",1) 
+THEN
+  RESPONSE #100
+    // IMPORTANTE: Pasamos a estado 2 para que este bloque no se repita
+    SetGlobal("P_VoragorP_Chon_COMBOAT01_TRIGGER","GLOBAL",2) 
+    RealSetGlobalTimer("P_VoragorCombo01Timer","GLOBAL",1200)
+END 
+
+// BLOQUE 3: Resetear después de 20 minutos
+IF
+  Global("P_VoragorP_Chon_COMBOAT01_TRIGGER","GLOBAL",2)
+  RealGlobalTimerExpired("P_VoragorCombo01Timer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("P_VoragorP_Chon_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
+END

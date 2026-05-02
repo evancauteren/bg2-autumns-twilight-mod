@@ -4,7 +4,7 @@
 
 // BLOQUE A: Sumar +1 al contador cuando empieza un combate
 IF
-  See("Fall")
+  See("P_Fall")
   !CombatCounter(0) // Están en combate
   Global("P_TabithaFall_InCombatCheck","GLOBAL",0)
   GlobalLT("P_TabithaFall_CombatCount","GLOBAL",3)
@@ -27,20 +27,20 @@ END
 IF
   !CombatCounter(0)
   See([ENEMY])
-  Range("Fall",15)
+  Range("P_Fall",15)
   Global("P_TabithaFall_CA_001","GLOBAL",1)
   Global("P_TabithaFall_COMBOAT01_TRIGGER","GLOBAL",0)
-  InParty("Fall")
-  InMyArea("Fall")
-  !Dead("Fall")
+  InParty("P_Fall")
+  InMyArea("P_Fall")
+  !Dead("P_Fall")
 THEN
   RESPONSE #100
-	ActionOverride("Fall", DisplayStringHead(Myself, @11100160))
+	ActionOverride("P_Fall", DisplayStringHead(Myself, @11100160))
 	//Wait(1)
     DisplayStringHead(Myself,@11100161)
 	ReallyForceSpellRES("P_IN655", Myself) // Speed
 	// Fall
-	ActionOverride("Fall", ReallyForceSpellRES("SPIN983",NearestEnemyOf(Myself)) // Slow
+	ActionOverride("P_Fall", ReallyForceSpellRES("SPIN983",NearestEnemyOf(Myself)) // Slow
 	SetGlobal("P_TabithaFall_COMBOAT01_TRIGGER","GLOBAL",1)
 END
 

@@ -14440,7 +14440,7 @@ Special Abilities:
 
 // Tempest Howl (Aullido de la Tempestad) Sinna / Aerie -- 2
 @11100138 = ~*You watch how Sinna seems to restrain herself from moving or scampering just to stay and listen to Aerie.*~
-@11100139 = ~So, Sinna, I'll use my arcane powers to attack our enemies while you do your part, okay?~
+@11100139 = ~So, Sinna, I'll use my arcane powers to attack our enemies while you do your part, yes?~
 @11100140 = ~*Sinna has her ears pricked up and her eyes focused on Aerie's.*~
 @11100141 = ~When I say "Tempest Howl" we'll use our lightning attacks. D-do you like the name I chose?~
 @11100142 = ~*Sinna howls in affirmation and then starts scampering around Aerie.*~
@@ -14488,6 +14488,27 @@ Special Abilities:
 
 @11100176 = ~*Kitochi casts Improved Invisibility on <CHARNAME>*~
 @11100177 = ~*growl* Let's go, <CHARNAME>! Phantom Assassin!~
+
+// V1.5.2
+
+// Saurian Wrath (Ira Sauria) Voragor / Cho'Nuja
+@11100178 = ~I am slower due to my age, General. I am not sure I can do what you ask of me.~
+@11100179 = ~Tilabil Voragor, I have seen you in combat when we were in the Abyss. You are more than capable of executing what I tell you.~
+@11100180 = ~Perhaps. I have never been very fond of spewing acid. It leaves me with an upset stomach, you know?~
+@11100181 = ~At least let me choose the name, alright?~
+@11100182 = ~A name?~
+@11100183 = ~If we are going to execute a joint technique, we must call it out so we know what to do.~
+@11100184 = ~It makes sense. What do you have in mind, tilabil?~
+@11100185 = ~Saurian Wrath. Considering what we are, it seems fitting.~
+@11100186 = ~Saurian? What is that?~
+@11100187 = ~It is us, General. The scaled ones.~
+@11100188 = ~I understand. Saurian Wrath it shall be.~
+@11100189 = ~So be it, General.~
+
+@11100190 = ~Let our enemies feel our Saurian Wrath, tilabil!~
+@11100191 = ~Yes, General! Saurian Wrath!~
+
+// V1.5.3
 
 
 // JOURNAL

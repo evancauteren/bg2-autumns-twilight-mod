@@ -38,13 +38,13 @@ IF ~See("P_Dusk")
 InParty("P_Dusk")
 !StateCheck("P_Dusk",STATE_SLEEPING)
 Global("P_BellfameDusk_CA_001","GLOBAL",2)
-~ THEN BEGIN CA_BELLFAME_DUSK_04 // from:
+~ THEN BEGIN CA_BELLFAME_DUSK_05 // from:
   SAY @11100100 /* ~Entonces, Juicio Silvano, ¿estoy en lo correcto?~ */
-  IF ~~ THEN DO ~SetGlobal("P_BellfameDusk_CA_001","GLOBAL",3)~ GOTO CA_BELLFAME_DUSK_05
+  IF ~~ THEN DO ~SetGlobal("P_BellfameDusk_CA_001","GLOBAL",3)~ GOTO CA_BELLFAME_DUSK_06
 END
 
 IF 
-~~ THEN BEGIN CA_BELLFAME_DUSK_05 // from:
+~~ THEN BEGIN CA_BELLFAME_DUSK_06 // from:
   SAY @11100110 /* ~Enterada.~ */
   IF ~~ THEN EXIT
 END
@@ -302,7 +302,7 @@ IF WEIGHT #19 ~RandomNum(12,12)~ THEN BEGIN 15 // from:
 END
 
 // ICTs
-I_C_T P_BELLD CA_BELLFAME_DUSK_04 P_CA_BELLFAME_DUSK_04
+I_C_T P_BELLD CA_BELLFAME_DUSK_05 P_CA_BELLFAME_DUSK_05
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100101 /* Sí, Bell. Puedo mantenerme libre de hechizos de parálisis el tiempo suficiente para que tú ejecutes tu magia. */
 == P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100102 /* Comprendo. Tú cargas y yo te cubro con mis palabras. */
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100103 /* Esa es la idea. */

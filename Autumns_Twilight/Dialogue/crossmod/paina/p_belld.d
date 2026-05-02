@@ -1,5 +1,55 @@
 BEGIN ~p_belld~
 
+// Sylvan Judgment -- 1
+IF ~See("P_Dusk")
+InParty("P_Dusk")
+!StateCheck("P_Dusk",STATE_SLEEPING)
+Global ("P_DuskM3GOOD_OT_RING","GLOBAL",5)
+Global("P_BellfameDusk_CA_001","GLOBAL",0)
+~ THEN BEGIN CA_BELLFAME_DUSK_01 // from:
+  SAY @11100064 /* ~La venganza de la Primera Espada ha sido llevada a cabo.~ */
+  IF ~~ THEN DO ~SetGlobal("P_BellfameDusk_CA_001","GLOBAL",1)~ GOTO CA_BELLFAME_DUSK_02
+END
+
+IF 
+~~ THEN BEGIN CA_BELLFAME_DUSK_02 // from:
+  SAY @11100077 /* ~Pero todo tiene un fin. No os desesperéis, Dusk. La paz llegará, tarde o temprano.~ */
+  IF ~~ THEN EXIT
+END
+
+// Sylvan Judgment -- 2
+IF ~See("P_Dusk")
+InParty("P_Dusk")
+!StateCheck("P_Dusk",STATE_SLEEPING)
+Global("P_BellfameDusk_CA_001","GLOBAL",1)
+~ THEN BEGIN CA_BELLFAME_DUSK_03 // from:
+  SAY @11100078 /* ~Dusk, me gustaría volver a platicar contigo, ¿puede ser?~ */
+  IF ~~ THEN DO ~SetGlobal("P_BellfameDusk_CA_001","GLOBAL",2)~ GOTO CA_BELLFAME_DUSK_04
+END
+
+IF 
+~~ THEN BEGIN CA_BELLFAME_DUSK_04 // from:
+  SAY @11100099 /* ~*se sonroja* Uhm. G-gracias, Dusk.~ */
+  IF ~~ THEN EXIT
+END
+
+// Sylvan Judgment -- 3
+IF ~See("P_Dusk")
+InParty("P_Dusk")
+!StateCheck("P_Dusk",STATE_SLEEPING)
+Global("P_BellfameDusk_CA_001","GLOBAL",2)
+~ THEN BEGIN CA_BELLFAME_DUSK_05 // from:
+  SAY @11100100 /* ~Entonces, Juicio Silvano, ¿estoy en lo correcto?~ */
+  IF ~~ THEN DO ~SetGlobal("P_BellfameDusk_CA_001","GLOBAL",3)~ GOTO CA_BELLFAME_DUSK_06
+END
+
+IF 
+~~ THEN BEGIN CA_BELLFAME_DUSK_06 // from:
+  SAY @11100110 /* ~Enterada.~ */
+  IF ~~ THEN EXIT
+END
+
+
 // Interacción con NPCs
 IF WEIGHT #0~See("P_Dusk")
 InParty("P_Dusk")
@@ -268,6 +318,57 @@ IF
   SAY @10000039 /* ~El poder divino se puede enseñar también, Pai'Na. Maestra del Enjambre, que el Plano Etéro te sirva de aliado para siempre.~ */
   IF ~~ THEN EXIT
 END 
+
+// ICTs
+I_C_T P_BELLD CA_BELLFAME_DUSK_05 P_CA_BELLFAME_DUSK_05
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100101 /* Sí, Bell. Puedo mantenerme libre de hechizos de parálisis el tiempo suficiente para que tú ejecutes tu magia. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100102 /* Comprendo. Tú cargas y yo te cubro con mis palabras. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100103 /* Esa es la idea. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100104 /* ¿Y por qué ponerle un nombre? */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100105 /* Es la forma en que identificamos qué es lo que debemos hacer. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100106 /* Ah, pero con una mirada tuya es suficiente. Si te conozco, sé lo que querrás decir. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100107 /* *carraspeo* Sí, lo sé, Bell. Pero <CHARNAME> y los demás no. Para que ellos lo sepan, cada vez que pronunciemos nuestro ataque, ellos sabrán qué es lo que se viene. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100108 /* Ahora comprendo. Entonces lo diré. Jugo Silvano. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100109 /* Juicio. */
+END
+
+I_C_T P_BELLD CA_BELLFAME_DUSK_03 P_CA_BELLFAME_DUSK_03
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100079 /* Estoy aquí, Bellfame. Dime, por favor, ¿en qué puedo servirte? */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100080 /* Antes hemos hablado de cosas... apesadumbradas, ¿no lo crees? */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100081 /* Ehrm... supongo que sí. Nunca es fácil hablar de traumas pasados, ni de resoluciones, en especial si han sido violentas, recientes. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100082 /* Esto... Te noto un poco dubitativa, Bellfame. Es extraño verte así. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100083 /* Quería... disculparme. Es fácil para mí interactuar con mortales. Pero contigo... no sé por qué es más complejo de lo que esperaba. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100084 /* Siento cosas que no logro identificar. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100085 /* ¿Sucede algo malo? */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100086 /* No, no creo que sea algo malo. Pienso en ti y en tu destino más de lo que debería. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100087 /* No quiero... no quiero complicar tu camino más de lo que ya está, Dusk. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100088 /* Aunque no es como si pudiera irme a cualquier lado mientras el anillo de Mir esté cerca de ti. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100089 /* Si de algo te sirve, Bellfame, también pienso en ti. Tus palabras han sido un hálito de frescura a mi corazón. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100090 /* Eres la calma que tanto necesito. Yo... puede que me sienta culpable por pensar en eso, teniendo en cuenta a... Celine. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100091 /* Pero no veo nada de malo en que seamos amigos mientras los sucesos se desenvuelven, para bien o para mal. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100092 /* Entiendo. Tus palabras me han servido, sí. Creo que me gusta que pienses en mí, Dusk. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100093 /* Y comprendo lo que dices sobre Celine. Respeto que debas seguir tu camino hasta el final. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100094 /* Pero mientras la decisión llega, tener tu amistad es algo que puedo disfrutar. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100095 /* De esa manera, pensar en ti tanto ya no se vuelve una extraña sensación. Sino en algo cálido y sereno. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100096 /* Siento lo mismo, Bell. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100097 /* "Bell". Eso me gusta. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100098 /* Es la primera vez que te veo sonreír. Me alegra presenciar eso. */
+END
+
+I_C_T P_BELLD CA_BELLFAME_DUSK_01 P_CA_BELLFAME_DUSK_01
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100065 /* ¿A qué te refieres, Bellfame? */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100066 /* Alabarza ha sido derrotado. Tus camaradas de Cormyr han sido vengados. ¿Estoy en lo correcto? Parece que mis palabras te confunden. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100067 /* Y-yo... Sí, supongo que han sido vengados. Pero... No fue lo que esperaba. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100068 /* Lo sé, Dusk. Puedo ver tu corazón y sé que está inquieto por dichos acontecimientos. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100069 /* Alabarza no resultó ser el monstruo que durante tantos años soñaste que era. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100070 /* La misericordia en tus manos han sido un reflejo de ello. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100071 /* Es curioso. Como dices, soñé durante años con ese combate. Y ahora que hemos vencido... no se siente como una victoria dulce. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100072 /* La muerte violenta por el acero es una antinaturalidad que rara vez trae felicidad consigo. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100073 /* Pero no tuvimos otra opción. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100074 /* Sé que no la has tenido, mi querido Dusk. Algunos destinos están íntimamente conectados por el camino de la violencia. */
+== P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100075 /* Por más que traten de luchar contra ello, inevitablemente vuelven a dicho sendero.*/
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @11100076 /* Es como... intentar luchar contra la marea, ¿no? */
+END
 
 // INTERACCION NPC pt2
 

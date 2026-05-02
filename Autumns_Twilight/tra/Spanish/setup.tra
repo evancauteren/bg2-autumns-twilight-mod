@@ -14908,6 +14908,26 @@ Anthagar."~
 @11100176 = ~*Kitochi lanza Invisibilidad Mejorada sobre <CHARNAME>*~
 @11100177 = ~*gruñido* ¡Vamos, <CHARNAME>! ¡Asesino Fantasma!~
 
+// V1.5.2
+
+// Saurian Wrath (Ira Sauria) Voragor / Cho'Nuja
+@11100178 = ~Soy más lento por mi edad, General. No estoy seguro de que pueda hacer lo que me pides.~
+@11100179 = ~Tilabil Voragor, te he visto en combate cuando estábamos en el Abismo. Eres más que capaz de ejecutar lo que os digo.~
+@11100180 = ~Puede ser. Nunca me ha gustado mucho lanzar ácido. Me deja un malestar en el estómago, ¿sabes?~
+@11100181 = ~Al menos déjame elegir el nombre, ¿sí?~
+@11100182 = ~¿Nombre?~
+@11100183 = ~Si vamos a ejecutar una técnica en conjunto, debemos exclamarla para que sepamos qué hacer.~
+@11100184 = ~Tiene sentido. ¿Qué tienes en mente, tilabil?~
+@11100185 = ~Ira Sauria. Teniendo en cuenta lo que somos, me parece lo indicado.~
+@11100186 = ~¿Sauria? ¿Qué es eso?~
+@11100187 = ~Somos nosotros, General. Los escamosos.~
+@11100188 = ~Comprendo. Ira Sauria será.~
+@11100189 = ~Que así sea, General.~
+
+@11100190 = ~¡Que nuestros enemigos sientan nuestra Ira Sauria, tilabil!~
+@11100191 = ~¡Sí, General! ¡Ira Sauria!~
+
+// V1.5.3
 
 
 
