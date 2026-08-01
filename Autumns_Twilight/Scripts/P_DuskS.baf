@@ -15,6 +15,47 @@ Wait (6)
 SetGlobal("P_Dusk_UpdateK","GLOBAL",0)
 END
 
+// Parche GOOD Dusk si tiene las 2 espadas ESMERALDA
+IF
+  InParty(Myself)
+  PartyHasItem("p_swgoo2")
+  Global ("P_DuskPatchGoodp_swgoo1Dual","GLOBAL",0)
+  PartyHasItem("p_swgoo1")
+THEN
+  RESPONSE #100
+  Wait(1)
+  TakePartyItem ("p_swgoo1")
+  DestroyItem ("p_swgoo1")
+  SetGlobal ("P_DuskPatchGoodp_swgoo1Dual","GLOBAL",1)
+END
+
+// Parche EVIL Dusk si tiene las 2 espadas CARMESÍ
+IF
+  InParty(Myself)
+  PartyHasItem("p_swevi2")
+  Global ("P_DuskPatchEvilp_swevi1Dual","GLOBAL",0)
+  PartyHasItem("p_swevi1")
+THEN
+  RESPONSE #100
+  Wait(1)
+  TakePartyItem ("p_swevi1")
+  DestroyItem ("p_swevi1")
+  SetGlobal ("P_DuskPatchEvilp_swevi1Dual","GLOBAL",1)
+END
+
+// Parche Dusk tiene 2 Corazones de Demonio Puki
+IF
+  InParty(Myself)
+  Global ("P_DuskPatchDemonHeart","GLOBAL",0)
+  Global ("P_Dusk_Valata_Demon_FORGE","GLOBAL",2)
+  PartyHasItem("p_demhe")
+THEN
+  RESPONSE #100  
+  TakePartyItem("p_demhe")
+  DestroyItem ("p_demhe")
+  SetGlobal ("P_DuskPatchDemonHeart","GLOBAL",1)
+END
+
 // Parche EVIL Dusk si tiene las 2 espadas IRA
 IF
   InParty(Myself)
@@ -34,7 +75,7 @@ END
 IF
   InParty(Myself)
   PartyHasItem("p_swevi4")
-  Global ("P_DuskPatchEvilSwordDuplicatedORB","GLOBAL",0)
+  Global ("P_DuskPatchEvilSwordDupliORB","GLOBAL",0)
   PartyHasItem("p_orbef")
 THEN
   RESPONSE #100
@@ -42,14 +83,14 @@ THEN
   TakePartyItem ("p_orbef")
   UseItem ("p_orbef", Myself)
   DestroyItem ("p_orbef")
-  SetGlobal ("P_DuskPatchEvilSwordDuplicatedORB","GLOBAL",1)
+  SetGlobal ("P_DuskPatchEvilSwordDupliORB","GLOBAL",1)
 END
 
-// Parche GOOD Dusk si tiene las 2 espadas IRA
+// Parche GOOD Dusk si tiene las 2 espadas LUX
 IF
   InParty(Myself)
   PartyHasItem("p_swgoo4")
-  Global ("P_DuskPatchGoodSwordDuplicated","GLOBAL",0)
+  Global ("P_DuskPatchGoodSwordDupli","GLOBAL",0)
   //PartyHasItem("p_orbef")
   PartyHasItem("p_swgoo3")
 THEN
@@ -57,14 +98,14 @@ THEN
   Wait(1)
   TakePartyItem ("p_swgoo3")
   DestroyItem ("p_swgoo3")
-  SetGlobal ("P_DuskPatchGoodSwordDuplicated","GLOBAL",1)
+  SetGlobal ("P_DuskPatchGoodSwordDupli","GLOBAL",1)
 END
 
 // Parche GOOD Dusk si tiene las 2 espadas ESMERALDA
 IF
   InParty(Myself)
   PartyHasItem("p_swgoo4")
-  Global ("P_DuskPatchGoodSwordDuplicated","GLOBAL",0)
+  Global ("P_DuskPatchGSwordDup","GLOBAL",0)
   //PartyHasItem("p_orbef")
   PartyHasItem("p_swgoo3")
 THEN
@@ -72,14 +113,14 @@ THEN
   Wait(1)
   TakePartyItem ("p_swgoo3")
   DestroyItem ("p_swgoo3")
-  SetGlobal ("P_DuskPatchGoodSwordDuplicated","GLOBAL",1)
+  SetGlobal ("P_DuskPatchGSwordDup","GLOBAL",1)
 END
 
-// Parche GOOD Dusk si tiene las 2 espadas IRA y el ORBE
+// Parche GOOD Dusk si tiene las 2 espadas LUX y el ORBE
 IF
   InParty(Myself)
   PartyHasItem("p_swgoo4")
-  Global ("P_DuskPatchGoodSwordDuplicatedORB","GLOBAL",0)
+  Global ("P_DuskPatchGoodSwordDupliORB","GLOBAL",0)
   PartyHasItem("p_orbef")
 THEN
   RESPONSE #100
@@ -87,7 +128,7 @@ THEN
   TakePartyItem ("p_orbef")
   UseItem ("p_orbef", Myself)
   DestroyItem ("p_orbef")
-  SetGlobal ("P_DuskPatchGoodSwordDuplicatedORB","GLOBAL",1)
+  SetGlobal ("P_DuskPatchGoodSwordDupliORB","GLOBAL",1)
 END
 
 

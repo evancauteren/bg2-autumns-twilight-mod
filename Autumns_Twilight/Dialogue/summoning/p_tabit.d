@@ -19,7 +19,7 @@ InParty("P_Fall")
 Global("P_Tabitha_ITC_Fall1","GLOBAL",0)
 ~ THEN BEGIN P_TABITHA_FALL_001 // from:
   SAY @11100145 /* ~*Tabitha mueve la cola ligeramente mientras observam fijamente a Fall.*~ */
-  IF ~~ THEN DO ~SetGlobal("P_Sinna_ITC_Fall1","GLOBAL",1)~ GOTO P_TABITHA_FALL_002
+  IF ~~ THEN DO ~SetGlobal("P_Tabitha_ITC_Fall1","GLOBAL",1)~ GOTO P_TABITHA_FALL_002
 END
 
 IF 

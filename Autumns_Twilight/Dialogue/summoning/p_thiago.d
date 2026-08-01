@@ -6,7 +6,6 @@ InParty("Wilson")
 //RandomNum(5,5)
 Global("P_Bellfame_Wilson1","GLOBAL",1)
 Global("P_Thiago_ITC_Wilson1","GLOBAL",0)
-Global("P_ThiagoWilson_CombatCount","GLOBAL",1)
 ~ THEN BEGIN 13 // from:
   SAY @91633 /* ~*Thiago se acerca a Wilson y ambos se ponen a lamentarse.*~ */
   IF ~~ THEN DO ~SetGlobal("P_Thiago_ITC_Wilson1","GLOBAL",1)~ GOTO 14
@@ -162,22 +161,26 @@ END
 // Abrimos el archivo de Thiago para el primer nodo
 APPEND P_THIAGO
 
-// 1. Bloque inicial modificado para desviar la charla
-IF ~~ THEN BEGIN CA_WIL_03 
+// 1. Bloque inicial con tus condiciones exactas
+IF WEIGHT #-1 ~See("Wilson")
+See(Player1)
+InParty("Wilson")
+!StateCheck("Wilson",STATE_SLEEPING)
+Global("P_Thiago_ITC_Wilson1","GLOBAL",1)
+Global("P_ThiagoWilson_CombatCount","GLOBAL",1)
+Global("P_ThiagoWilson_CA_001","GLOBAL",0)~ THEN BEGIN CA_WIL_03 
   SAY @11100050 /* ~*Thiago y Wilson se encuentran observándose en silencio. Al cabo de unos segundos, comienzan a emitir extraños bufidos.*~ */
   
-  // Condición: Si Wilson y Bellfame están presentes y conscientes
-  IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)
-      InParty("Bellfame") InMyArea("Bellfame") !StateCheck("Bellfame",CD_STATE_NOTVALID)~ 
+  // Condición: Si Wilson está apto (Party) y Bellfame está a la vista y consciente (Invocación)
+  IF ~IsValidForPartyDialogue("Wilson")~ 
   THEN DO ~SetGlobal("P_ThiagoWilson_CA_001","GLOBAL",1)~ EXTERN WilsonJ WilThiago_Combo_01
   
-  // Fallback: Si no están, sigue el curso normal
-  IF ~OR(6) !InParty("Wilson") !InMyArea("Wilson") StateCheck("Wilson",CD_STATE_NOTVALID)
-            !InParty("Bellfame") !InMyArea("Bellfame") StateCheck("Bellfame",CD_STATE_NOTVALID)~ 
+  // Fallback: Si Wilson no está apto, o Bellfame no está invocado/consciente
+  IF ~OR(1) !IsValidForPartyDialogue("Wilson")~ 
   THEN DO ~SetGlobal("P_ThiagoWilson_CA_001","GLOBAL",1)~ GOTO CA_WIL_04
 END
 
-END // <-- MUY IMPORTANTE: Cerramos el APPEND de Thiago aquí.
+END // <-- Cerramos el APPEND de Thiago
 
 // Los CHAIN van sueltos en el archivo principal
 // 2. Primera interacción

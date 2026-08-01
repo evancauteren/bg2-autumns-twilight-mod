@@ -20,6 +20,16 @@ RESPONSE #100
   StartDialogueNoSet(Player1)
 END
 
+// Parche WS Sash
+IF
+Global ("P_WSSashPatch","GLOBAL",0)
+PartyHasItem("p_wsash")
+AreaCheck("AR1506")
+THEN
+RESPONSE #100
+  CreateItem ("p_wsash",1,1,0)   
+  SetGlobal ("P_WSSashPatch","GLOBAL",1)
+END
 
 IF
 !StateCheck(Myself,CD_STATE_NOTVALID)

@@ -68,7 +68,7 @@ END
 
 
 
-IF WEIGHT #0 ~RandomNum(3,1)~ 
+IF ~RandomNum(3,1)~ 
 THEN BEGIN 0 
   SAY @9711 /* El pequeño Baba te mira con sus grandes ojos cuando te acercas. Comienza a mover la cola, no sabes muy bien si eso significa que está feliz o molesto. Mueve su diminuto hocico y emite algo que parece ser una especie de ladrido, lo que te deja confundido ya que estás interactuando con un roedor. */
   IF ~HPGT(Myself,9)~ THEN REPLY @9712 /* ¡Salve, gran Baba! Sé que no soy digno de dirigirme a ti, pero con el debido respeto, me atrevo a hacer solicitud de tus servicios. Si tienes algún ítem de valor para mí, ¿sería el gran Baba tan magnánimo de entregármelos y así aligerar su carga? */ GOTO 20
@@ -94,7 +94,7 @@ END
 
 // Bloque 2 (TFF)
 
-IF WEIGHT #1 ~ RandomNum(3,2)
+IF ~RandomNum(3,2)
 ~ THEN BEGIN 1 // from:
  SAY @9718 /* El pequeño Baba te mira con sus grandes ojos cuando te acercas. Comienza a saltar como un desquiciado y no sabes si eso significa que está feliz de verte o quizás planea atacarte. Mueve sus manitos y emite sonidos que, inconfundiblemente, parecen los de un cachorro canino, lo que te deja confundido ya que estás interactuando con un roedor. */
   IF ~HPGT(Myself,9)~ THEN REPLY @9719 /* ¡Salve, gran Baba! Sé que no soy digno de dirigirme a ti, pero con el debido respeto, me atrevo a hacer solicitud de tus servicios. Si tienes algún ítem de valor para mí, ¿sería el gran Baba tan magnánimo de entregármelos y así aligerar su carga? */ GOTO 23
@@ -121,7 +121,7 @@ END
 
 // Bloque 3 (FFT)
 
-IF WEIGHT #2 ~ RandomNum(3,3)
+IF ~RandomNum(3,3)
 ~ THEN BEGIN 2 // from:
  SAY @97115 /* El pequeño Baba te mira con sus grandes ojos cuando te acercas. Comienza a correr alrededor tuyo sin razón aparente y no sabes si lo hace porque está feliz de verte o porque planea robarte alguna joya de valor que puedas poseer. Se te sube por tus ropas, trepando por una de tus piernas. Intentas sacártelo de encima pero es difícil. Mientras, emite sonido de jadeo, similares a los de un perro, lo que te deja extrañado, porque sabes que interactúas con un roedor. */
   IF ~HPGT(Myself,9)~ THEN REPLY @97116 /* ¡Salve, gran Baba! Sé que no soy digno de dirigirme a ti, pero con el debido respeto, me atrevo a hacer solicitud de tus servicios. Si tienes algún ítem de valor para mí, ¿sería el gran Baba tan magnánimo de entregármelos y así aligerar su carga? */ GOTO 26

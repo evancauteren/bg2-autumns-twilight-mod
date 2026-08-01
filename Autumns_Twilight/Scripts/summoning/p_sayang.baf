@@ -40,7 +40,7 @@ THEN
     DisplayStringHead(Myself,@11100040)
 	ReallyForceSpellRES("SPWI306", NearestEnemyOf(Myself)) // Hold Person
 	// Imoen
-	ActionOverride("Imoen2", ReallyForceSpellRES("CDSTAF12",NearestEnemyOf(Myself))) // Lighting attack
+	ActionOverride("Imoen2", ReallyForceSpellRES("SPBLUN29",NearestEnemyOf(Myself))) // Lighting attack
 	SetGlobal("P_SayangImoen_COMBOAT01_TRIGGER","GLOBAL",1)
 END
 

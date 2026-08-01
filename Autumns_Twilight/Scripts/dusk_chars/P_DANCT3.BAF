@@ -1,0 +1,108 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@400416)
+END
+
+IF
+   PartyHasItem ("p_swevi4")
+   Global("P_DuskHaveIraTenax","GLOBAL",0)
+THEN
+  RESPONSE #100
+	SetGlobal("P_DuskHaveIraTenax","GLOBAL",1)
+END
+
+
+// CA
+IF
+  !CombatCounter(0)
+  See([ENEMY])
+  Range("P_Dusk",15)
+  Global("P_DanctianDusk_CA_001","GLOBAL",1)
+  Global("P_DanctDusk_COMBOAT01_TRIGGER","GLOBAL",0)
+  InParty("P_Dusk")
+  InMyArea("P_Dusk")
+  !Dead("P_Dusk")
+THEN
+  RESPONSE #100
+	SetGlobal("P_DanctDusk_COMBOAT01_TRIGGER","GLOBAL",1)
+	ActionOverride("P_Dusk", DisplayStringHead(Myself, @11100208))
+	//Wait(1)
+    DisplayStringHead(Myself,@11100209)
+	ReallyForceSpellRES("P_SP3D", Myself) // Acid Attack
+	AttackReevaluate(LastSeenBy(Myself),15)
+	// P_Dusk
+	ActionOverride("P_Dusk", ReallyForceSpellRES("SPCL103",Myself) // Sacred Power
+	ActionOverride("P_Dusk", AttackReevaluate(LastSeenBy(Myself),15))
+END
+
+// BLOQUE 2: Iniciar el Cooldown (Cuando termina el combate)
+IF
+  CombatCounter(0)
+  Global("P_DanctDusk_COMBOAT01_TRIGGER","GLOBAL",1) 
+THEN
+  RESPONSE #100
+    // IMPORTANTE: Pasamos a estado 2 para que este bloque no se repita
+    SetGlobal("P_DanctDusk_COMBOAT01_TRIGGER","GLOBAL",2) 
+    RealSetGlobalTimer("P_DanctianCombo01Timer","GLOBAL",1200)
+END 
+
+// BLOQUE 3: Resetear después de 20 minutos
+IF
+  Global("P_DanctDusk_COMBOAT01_TRIGGER","GLOBAL",2)
+  RealGlobalTimerExpired("P_DanctianCombo01Timer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("P_DanctDusk_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
+END
+
+// BLOQUE 1: DEFENSA
+// Lanza Mirror Image si no lo lanzó antes Y si el temporizador general no está activo.
+IF
+  See(NearestEnemyOf(Myself))
+  Global("DanctianMirror","LOCALS",0)
+  !GlobalTimerNotExpired("DanctianCastTimer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobal("DanctianMirror","LOCALS",1)
+    SetGlobalTimer("DanctianCastTimer","LOCALS",15) // Inicia el cooldown de 15 segundos
+    ForceSpell(Myself,WIZARD_MIRROR_IMAGE)
+END
+
+// BLOQUE 2: CONTROL
+// Lanza Chaos si pasaron 15 segundos desde el hechizo anterior.
+IF
+  See(NearestEnemyOf(Myself))
+  Global("DanctianChaos","LOCALS",0)
+  !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+  !GlobalTimerNotExpired("DanctianCastTimer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobal("DanctianChaos","LOCALS",1)
+    SetGlobalTimer("DanctianCastTimer","LOCALS",15) // Reinicia el cooldown por otros 15 segundos
+    ForceSpell(LastSeenBy(Myself),WIZARD_CHAOS)
+END
+
+// BLOQUE 3: DAÑO MÁGICO
+// Lanza Magic Missile una vez que terminaron los 15 segundos de Chaos.
+IF
+  See(NearestEnemyOf(Myself))
+  Global("DanctianMissile","LOCALS",0)
+  !GlobalTimerNotExpired("DanctianCastTimer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobal("DanctianMissile","LOCALS",1)
+    SetGlobalTimer("DanctianCastTimer","LOCALS",15) 
+    ForceSpell(LastSeenBy(Myself),WIZARD_MAGIC_MISSILE)
+END
+
+// BLOQUE 4: ATAQUE FÍSICO
+// Mientras el temporizador esté corriendo (esos 15 segundos), la IA salta hasta acá y ataca.
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),15)
+END
+

@@ -66,24 +66,6 @@ Name("P_Chon",LastTalkedToBy)
 == P_ChonJ @9307 /* Creo que no soy yo quien espanta a los tuyos, hembra. */
 EXIT
 
-// Diálogo por el Árbol de la Vida
-EXTEND_BOTTOM PLAYER1 33
-IF ~ InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID) Global("P_ChonTreeOfLife","GLOBAL",0)~ EXTERN PLAYER1 pl3
-END
-
-CHAIN PLAYER1 pl3
-@9308 /* Cho'Nuja, General de Dreach-naga. Sientes que has sido responsable del fin de su mundo y sin embargo se encuentra a tu lado, listo para ayudarte a recuperar tu alma.
-Fall, la Dama de las Bestias. Su viaje ha significado un crecimiento en su persona y yace lista a tu lado. */
-DO ~SetGlobal("P_ChonTreeOfLife","GLOBAL",1)~
-END
-++ @9309 /* Cho, esta no es tu pelea. Puedes quedarte aquí si así lo deseas. */ EXTERN P_ChonJ pl3.1
-++ @93010 /* Hemos pasado por muchas batallas, Cho. Puedes volver y experimentar el mundo como realmente lo desees. */ EXTERN P_ChonJ pl3.1
-++ @93011 /* ¿Estás listo para seguirme, Cho? Te necesito a mi lado para vencer. */ EXTERN P_ChonJ pl3.1
-
-CHAIN P_ChonJ pl3.1
-@93012 /* ¡Soldado! La duda es el enemigo. Nunca dudes de mi fidelidad a ti. En Dreach-naga nos enseñaron a morir como guerreros. Con honor. Con gloria. Si hoy fuese ese día, entonces será a tu lado. */
-END
-COPY_TRANS PLAYER1 33 
 
 
 

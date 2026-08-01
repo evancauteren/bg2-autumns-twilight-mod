@@ -2,11 +2,9 @@ BACKUP ~Autumns_Twilight/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v1.4.5~
+VERSION ~v1.5.3~
 
 README ~Autumns_Twilight/Readme-Autumns_Twilight.txt~
-
-//PRINT ~AUTO_TRA~ ERROR
 
 AUTO_TRA ~Autumns_Twilight/tra/%s~ 
 ALWAYS
@@ -53,7 +51,7 @@ LANGUAGE ~Polish (Not fully accurate)~ ~Polish~ ~Autumns_Twilight/tra/Polish/set
 LANGUAGE ~French (Not fully accurate)~ ~French~ ~Autumns_Twilight/tra/French/setup.tra~
 LANGUAGE ~Russian (Not fully accurate)~ ~Russian~ ~Autumns_Twilight/tra/Russian/setup.tra~
 LANGUAGE ~Simplified Chinese by ghostcat~ ~schinese~ ~Autumns_Twilight/tra/schinese/setup.tra~
-
+LANGUAGE ~Brazilian Portuguese by Darth Nihilus~ ~bportuguese~ ~Autumns_Twilight/tra/bportuguese/setup.tra~
 
 
 
@@ -65,24 +63,6 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME ~P_WGUACL.2da~ THEN BEGIN
     PRINT ~Installing New Animations~
     INCLUDE ~%MOD_FOLDER%/lib/wildguard.tpa~    
     INCLUDE ~%MOD_FOLDER%/lib/frostmast.tpa~
-    
-    PRINT ~Installing Kits: Twilight Blade...~
-    INCLUDE ~%MOD_FOLDER%/lib/twilightblade.tpa~
-    
-    PRINT ~Installing Kits: Shadow Slinger...~
-    INCLUDE ~%MOD_FOLDER%/lib/shadowslinger.tpa~
-    
-    PRINT ~Installing Kits: Hybrid Agent...~
-    INCLUDE ~%MOD_FOLDER%/lib/hybridagent.tpa~
-    
-    PRINT ~Installing Kits: Mistweaver...~
-    INCLUDE ~%MOD_FOLDER%/lib/dreamwalker.tpa~
-    
-    PRINT ~Installing Kits: Mirror Blade...~
-    INCLUDE ~%MOD_FOLDER%/lib/mirrorblade.tpa~
-    
-    PRINT ~Installing Kits: Dwarven Artificer...~
-    INCLUDE ~%MOD_FOLDER%/lib/dwarvenartificer.tpa~
 END
 
 
@@ -360,55 +340,125 @@ WRITE_SHORT 0x246 (IDS_OF_SYMBOL (~kit~ ~P_FMAS~))
 //WRITE_SHORT 0x272 @200333
 
 
-// 1. MultiCrossmod 04: Pai'Na + Sirene + Hubelpot
-ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
+// ============================================================================
+// NIVEL 4: COMBINACIÓN DE LOS 4 MODS
+// ============================================================================
+
+// 1. MultiCrossmod (Todos los 4 mods): Pai'Na + Sirene + Hubelpot + Skitia
+ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~BX3Emi.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
+    PRINT ~Adding crossmod for Pai'Na, Sirene, Hubelpot and Skitia's NPC's for BG2~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI11.tph~
+END
+
+// ============================================================================
+// NIVEL 3: COMBINACIONES DE A 3 MODS
+// ============================================================================
+// 2. Tu MultiCrossmod 04 original: Pai'Na + Sirene + Hubelpot (SIN Skitia)
+ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Pai'Na, Sirene (Artisan's mod) and Hubelpot (The Vegetable Farmer)~
     INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI04.tph~
 END
 
-// 2. MultiCrossmod 03: Sirene y Hubelpot (AQUÍ EMPIEZA EL ELSE)
+// 3. NUEVO: Pai'Na + Sirene + Skitia
+ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~BX3Emi.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
+    PRINT ~Adding crossmod for Pai'Na, Sirene and Skitia's NPC's for BG2~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI10.tph~
+END
+
+// 4. NUEVO: Pai'Na + Hubelpot + Skitia
+ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~BX3Emi.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
+    PRINT ~Adding crossmod for Pai'Na, Hubelpot and Skitia's NPC's for BG2~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI09.tph~
+END
+
+// 5. NUEVO: Sirene + Hubelpot + Skitia
+ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~BX3Emi.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
+    PRINT ~Adding crossmod for Sirene, Hubelpot and Skitia's NPC's for BG2~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI08.tph~
+END
+
+// ============================================================================
+// NIVEL 2: COMBINACIONES DE A 2 MODS
+// ============================================================================
+// 6. Tu MultiCrossmod 03 original: Sirene y Hubelpot
 ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Sirene (Artisan's mod) and Hubelpot~
     INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI03.tph~
 END
 
-// 3. MultiCrossmod 02: Pai'Na y Hubelpot
+// 7. Tu MultiCrossmod 02 original: Pai'Na y Hubelpot
 ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Pai'Na (Artisan's mod) and Hubelpot (The Vegetable Farmer)~
     INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI02.tph~
 END
 
-// 4. MultiCrossmod 01: Pai'Na y Sirene
+// 8. Tu MultiCrossmod 01 original: Pai'Na y Sirene
 ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Sirene and Pai'Na (Artisan's mod)~
     INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI01.tph~
 END
 
-// 5. SOLO Hubelpot
+
+// 9. NUEVO: Pai'Na + Skitia
+ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~BX3Emi.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
+    PRINT ~Adding crossmod for Pai'Na and Skitia's NPC's for BG2~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI07.tph~
+END
+
+// 10. NUEVO: Sirene + Skitia
+ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~BX3Emi.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
+    PRINT ~Adding crossmod for Sirene and Skitia's NPC's for BG2~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI06.tph~
+END
+
+// 11. NUEVO: Hubelpot + Skitia
+ELSE ACTION_IF FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~BX3Emi.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
+    PRINT ~Adding crossmod for Hubelpot and Skitia's NPC's for BG2~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_MULTI05.tph~
+END
+
+// ============================================================================
+// NIVEL 1: MODS INDIVIDUALES
+// ============================================================================
+// 12. Tu SOLO Hubelpot original
 ELSE ACTION_IF FILE_EXISTS_IN_GAME ~SC#HUB.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Hubelpot (The Vegetable Farmer)~
     INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_HUBELPOT.tph~
 END
 
-// 6. SOLO Sirene
+// 13. Tu SOLO Sirene original
 ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Sire2.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Sirene (Artisan's mod)~
     INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_SIRENE.tph~
 END
 
-// 7. SOLO Paina
+// 14. Tu SOLO Pai'Na original
 ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BC0Paina.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
     PRINT ~Adding crossmod for Pai'Na (Artisan's mod)~
     INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_PAINA.tph~
 END
 
-// 8. FINAL: Si no entró en NINGUNO de los anteriores
+// 15. NUEVO: SOLO Skitia
+ELSE ACTION_IF FILE_EXISTS_IN_GAME ~BX3Emi.dlg~ AND FILE_EXISTS_IN_GAME ~P_Dusk.cre~ THEN BEGIN
+    PRINT ~Adding crossmod for Skitia's NPC's for BG2~
+    INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_SKITIA.tph~
+END
+
+// ============================================================================
+// NIVEL 0: NINGUN MOD INSTALADO
+// ============================================================================
+// 16. Tu FINAL BASE original
 ELSE BEGIN
     PRINT ~Installing Dialogues and Scripts~
     INCLUDE ~Autumns_Twilight/lib/tph/dlg_baf/P_DLG_BAF_ARE_BASE.tph~
 END
 
-
+PRINT ~Installing NPC Interjections and Reactivity~
+    INCLUDE ~%MOD_FOLDER%/Dialogue/tpa/p_edusktol.tpa~    
+    INCLUDE ~%MOD_FOLDER%/Dialogue/tpa/p_falltol.tpa~	
+    INCLUDE ~%MOD_FOLDER%/Dialogue/tpa/p_gdusktol.tpa~		
+    INCLUDE ~%MOD_FOLDER%/Dialogue/tpa/p_alentol.tpa~		
+    INCLUDE ~%MOD_FOLDER%/Dialogue/tpa/p_chontol.tpa~		
 
 // Crossmods
 // Wilson
@@ -1126,6 +1176,35 @@ END ELSE BEGIN
   COMPILE ~Autumns_Twilight/Dialogue/FATESP.d~
 END
 
-BEGIN ~Enemy Difficulty: Hard~
-    INCLUDE ~Autumns_Twilight/lib/tph/P_TPH_HARD_DIFFICULTY.TPH~
+// ---------------------------------------------------
+// COMPONENTE OPCIONAL: KITS ADICIONALES
+// ---------------------------------------------------
+BEGIN ~Install Optional Kits for Autumn's Twilight~ 
+REQUIRE_COMPONENT ~Autumns_Twilight/Autumns_Twilight.tp2~ ~0~ ~Autumn's Twilight Core component is required.~
 
+    PRINT ~Installing Kits: Twilight Blade...~
+    INCLUDE ~%MOD_FOLDER%/lib/twilightblade.tpa~
+    
+    PRINT ~Installing Kits: Shadow Slinger...~
+    INCLUDE ~%MOD_FOLDER%/lib/shadowslinger.tpa~
+    
+    PRINT ~Installing Kits: Hybrid Agent...~
+    INCLUDE ~%MOD_FOLDER%/lib/hybridagent.tpa~
+    
+    PRINT ~Installing Kits: Mistweaver...~
+    INCLUDE ~%MOD_FOLDER%/lib/dreamwalker.tpa~
+    
+    PRINT ~Installing Kits: Mirror Blade...~
+    INCLUDE ~%MOD_FOLDER%/lib/mirrorblade.tpa~
+    
+    PRINT ~Installing Kits: Dwarven Artificer...~
+    INCLUDE ~%MOD_FOLDER%/lib/dwarvenartificer.tpa~
+
+
+// ---------------------------------------------------
+// COMPONENTE OPCIONAL: DIFICULTAD
+// ---------------------------------------------------
+BEGIN ~Enemy Difficulty: Hard~
+REQUIRE_COMPONENT ~Autumns_Twilight/Autumns_Twilight.tp2~ ~0~ ~Autumn's Twilight Core component is required.~
+
+    INCLUDE ~Autumns_Twilight/lib/tph/P_TPH_HARD_DIFFICULTY.TPH~

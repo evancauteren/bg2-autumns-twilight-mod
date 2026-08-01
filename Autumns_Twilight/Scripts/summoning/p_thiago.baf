@@ -41,7 +41,7 @@ THEN
     DisplayStringHead(Myself,@11100063)
 	ReallyForceSpellRES("P_BEARP1", Myself) // Ice
 	// Wilson
-	ActionOverride("Wilson", ReallyForceSpellRES("SPWI325",Myself) // Fire
+	ActionOverride("Wilson", ReallyForceSpellRES("P_BEARP1",Myself)) // Ice
 	SetGlobal("P_ThiagoWilson_COMBOAT01_TRIGGER","GLOBAL",1)
 END
 

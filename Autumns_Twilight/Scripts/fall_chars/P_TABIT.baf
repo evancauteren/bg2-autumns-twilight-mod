@@ -18,3 +18,79 @@ THEN
   Wait (3)
   StartDialogueNoSet(Player1)
 END
+
+// -------------------------------------------------------------------
+// TRACKER DE COMBATES JUNTOS: Tabitha Y Fall
+// -------------------------------------------------------------------
+
+// BLOQUE A: Sumar +1 al contador cuando empieza un combate
+IF
+  See("P_Fall")
+  !CombatCounter(0) // Están en combate
+  Global("P_TabithaFall_InCombatCheck","GLOBAL",0)
+  GlobalLT("P_TabithaFall_CombatCount","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("P_TabithaFall_InCombatCheck","GLOBAL",1)
+    IncrementGlobal("P_TabithaFall_CombatCount","GLOBAL",1)
+END
+
+// BLOQUE B: Resetear el interruptor cuando el combate termina
+IF
+  CombatCounter(0)
+  Global("P_TabithaFall_InCombatCheck","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("P_TabithaFall_InCombatCheck","GLOBAL",0)
+END
+
+// CA
+IF
+  !CombatCounter(0)
+  See([ENEMY])
+  Range("P_Fall",15)
+  Global("P_TabithaFall_CA_001","GLOBAL",1)
+  Global("P_TabithaFall_COMBOAT01_TRIGGER","GLOBAL",0)
+  InParty("P_Fall")
+  InMyArea("P_Fall")
+  !Dead("P_Fall")
+THEN
+  RESPONSE #100
+	ActionOverride("P_Fall", DisplayStringHead(Myself, @11100160))
+	//Wait(1)
+    DisplayStringHead(Myself,@11100161)
+	ReallyForceSpellRES("P_IN655", Myself) // Speed
+	// Fall
+	ActionOverride("P_Fall", ReallyForceSpellRES("SPIN983",NearestEnemyOf(Myself)) // Slow
+	SetGlobal("P_TabithaFall_COMBOAT01_TRIGGER","GLOBAL",1)
+END
+
+// BLOQUE 2: Iniciar el Cooldown (Cuando termina el combate)
+IF
+  CombatCounter(0)
+  Global("P_TabithaFall_COMBOAT01_TRIGGER","GLOBAL",1) 
+THEN
+  RESPONSE #100
+    // IMPORTANTE: Pasamos a estado 2 para que este bloque no se repita
+    SetGlobal("P_TabithaFall_COMBOAT01_TRIGGER","GLOBAL",2) 
+    RealSetGlobalTimer("P_TabithaCombo01Timer","GLOBAL",1200)
+END 
+
+// BLOQUE 3: Resetear después de 20 minutos
+IF
+  Global("P_TabithaFall_COMBOAT01_TRIGGER","GLOBAL",2)
+  RealGlobalTimerExpired("P_TabithaCombo01Timer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("P_TabithaFall_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
+END
+
+  
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,GOODCUTOFF)
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+

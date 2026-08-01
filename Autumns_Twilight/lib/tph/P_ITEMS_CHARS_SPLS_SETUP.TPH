@@ -694,15 +694,15 @@ SAY NAME1 @400276 /* Bellfame */
 SAY NAME2 @400276 /* Bellfame */
 WRITE_ASCII 0x248 ~P_BELLF~  #8  // override script
 WRITE_ASCII 0x2cc ~P_BELLD~  #8  // dialogue file
-WRITE_ASCII 0x280 ~P_BELLF~  #32 // death variable
+WRITE_ASCII 0x280 ~P_BELL~  #32 // death variable
 WRITE_ASCII 0X34  ~P_BELLS~ #8  // small portrait
 //cre for quest 3
 COPY ~Autumns_Twilight/Summonings/p_bell2.cre~ ~override~
 SAY NAME1 @400276 /* Bellfame */
 SAY NAME2 @400276 /* Bellfame */
-WRITE_ASCII 0x248 ~NYMPH~  #8  // override script
+WRITE_ASCII 0x248 ~P_BELLF~  #8  // override script
 WRITE_ASCII 0x2cc ~P_BELL2~  #8  // dialogue file
-WRITE_ASCII 0x280 ~NYMPHSU~  #32 // death variable
+WRITE_ASCII 0x280 ~P_BELL~  #32 // death variable
 WRITE_ASCII 0X34  ~P_BELLS~ #8  // small portrait
 // Bellfame Spell
 COPY ~Autumns_Twilight/Summonings/p_forest.spl~ ~override~         
@@ -1714,8 +1714,8 @@ SAY 318 @200040 /* Habilidad innata obtenida: Llamar a Kitochi */
 // Kakuto (QUEST)
 COPY ~Autumns_Twilight/Characters/kakuto/P_kakuto.bmp~ ~override~
 COPY_EXISTING ~P_kakuto.cre~ ~override~
-SAY NAME1 @200041 /* Kitochi */
-SAY NAME2 @200041 /* Kitochi */
+SAY NAME1 @200041 /* Kakuto */
+SAY NAME2 @200041 /* Kakuto */
 WRITE_ASCII 0x2cc ~p_kakuto~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_kakuto~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_kakut~ #8  // OVERRIDE SCRIPT
@@ -3461,6 +3461,22 @@ SAY NAME1 @9079211 /* Venomous Scolopendra */
 SAY NAME2 @9079211 /* Venomous Scolopendra */
 WRITE_ASCII 0x280 ~p_c1sum~ #32  // Death Script
     WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~P_VENOM_SCOLOPENDRA~))
+
+
+// v1.5
+// Danctian Invocación
+// Danctian Replicas Guerreras
+COPY ~Autumns_Twilight/Summonings/p_danct4.cre~ ~override~
+SAY NAME1 @400416 /* Danctian */
+SAY NAME2 @400416 /* Danctian */
+SAY BATTLE_CRY1 @91039
+SAY BATTLE_CRY2 @91040
+SAY SELECT_COMMON1 @91041
+SAY SELECT_COMMON2 @91042
+SAY SELECT_COMMON3 @91043
+WRITE_ASCII 0x248 ~p_danct3~ #8  // OVERRIDE SCRIPT
+WRITE_ASCII 0x2cc ~p_danct3~ #8 // dialog file
+WRITE_ASCII 0x280 ~p_danct3~ #8  // Death Script
 
 
 

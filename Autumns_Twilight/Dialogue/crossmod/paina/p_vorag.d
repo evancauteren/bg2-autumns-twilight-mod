@@ -117,6 +117,65 @@ IF ~~ THEN BEGIN 24 // from:
   IF ~~ THEN EXTERN ~P_KAKUTO~ 5
 END
 
+IF ~See("P_Chon")
+InParty("P_Chon")
+!StateCheck("P_Chon",STATE_SLEEPING)
+Global ("P_VoragSawChoCombat","GLOBAL",1)
+Global("P_VoragorChon_CA_001","GLOBAL",0)
+~ THEN BEGIN P_VORAGOR_CHON_001 // from:
+  SAY @11100178 /* ~Soy más lento por mi edad, General. No estoy seguro de que pueda hacer lo que me pides.~ */
+  IF ~~ THEN DO ~SetGlobal("P_VoragorChon_CA_001","GLOBAL",1)~ GOTO P_VORAGOR_CHON_002
+END
+
+IF ~~ THEN BEGIN P_VORAGOR_CHON_002 // from:
+  SAY @11100189 /* ~Que así sea, General.~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,1)~ THEN BEGIN 25 // from:
+  SAY @10000023 /* ~Estoy listo para ayudar a mis amigos.~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,2)~ THEN BEGIN 26 // from:
+  SAY @10000024 /* ~Lo que pidas lo haré. Después de todo, para eso están los amigos, ¿verdad?~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,3)~ THEN BEGIN 27 // from:
+  SAY @10000025 /* ~Puede que esté viejo, pero mis energías están renovadas por esta aventura de <CHARNAME> y Fall.~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,4)~ THEN BEGIN 28 // from:
+  SAY @10000026 /* ~De acuerdo, de acuerdo. Trataré de no verte fijamente, sé que temes a que te convierta en piedra. *siseo*~ */
+  IF ~~ THEN EXIT
+END
+
+IF
+~RandomNum(5,5)~ THEN BEGIN 29 // from:
+  SAY @10000027 /* ~*bostezo* No, no tengo sueño. Simplemente, estoy reacomodando mis viejos huesos.~ */
+  IF ~~ THEN EXIT
+END
+
+I_C_T P_VORAG P_VORAGOR_CHON_001 P_VORAGOR_CHON_001
+== P_ChonJ IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @11100179 /* Tilabil Voragor, te he visto en combate cuando estábamos en el Abismo. Eres más que capaz de ejecutar lo que os digo. */
+== P_VORAG IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @11100180 /* Puede ser. Nunca me ha gustado mucho lanzar ácido. Me deja un malestar en el estómago, ¿sabes? */
+== P_VORAG IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @11100181 /* Al menos déjame elegir el nombre, ¿sí? */
+== P_ChonJ IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @11100182 /* ¿Nombre? */
+== P_VORAG IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @11100183 /* Si vamos a ejecutar una técnica en conjunto, debemos exclamarla para que sepamos qué hacer. */
+== P_ChonJ IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @11100184 /* Tiene sentido. ¿Qué tienes en mente, tilabil? */
+== P_VORAG IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @11100185 /* Ira Sauria. Teniendo en cuenta lo que somos, me parece lo indicado. */
+== P_ChonJ IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @11100186 /* ¿Sauria? ¿Qué es eso? */
+== P_VORAG IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @11100187 /* Somos nosotros, General. Los escamosos. */
+== P_ChonJ IF ~InParty("P_Chon") InMyArea("P_Chon") !StateCheck("P_Chon",CD_STATE_NOTVALID)~ THEN @11100188 /* Comprendo. Ira Sauria será. */
+END
+
+
 I_C_T P_VORAG 24 P_Fall_VORAG_KAKUT2
 == P_VORAG IF ~~ THEN @97070 /* A que es muy útil, ¿no lo crees? */
 == CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @97071 /* ~Laborioso como las hormigas es el buen Verthan. Su influjo recorre hasta estas mismas tierras subterráneas.~ */

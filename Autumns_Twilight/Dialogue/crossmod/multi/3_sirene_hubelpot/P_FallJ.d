@@ -796,93 +796,6 @@ END
 
 
 /////////////////////////////////////////
-
-// Gitana
-EXTEND_BOTTOM TRGYP02 2
-IF ~!InPartySlot(LastTalkedToBy,0) Name("P_Fall",LastTalkedToBy)~ EXTERN TRGYP02 g1
-END
-
-CHAIN TRGYP02 g1
-@10010055 /* Tu amor por tu familia es incondicional, mi joven semielfa. Pero cuidado, una misteriosa sombra, amenazante y tenebrosa, os rodea a todos. Tu amor puede ser tu perdición y está en ti decidir si arriesgar tu alma por ello. */
-== P_FallJ @10010056 /* Si hay algo por lo que vale la pena morir, mi dama, es por amor. Aceptaré mi destino, sea cual sea. */ 
-EXIT
-
-// Celvan el Loco
-CHAIN IF WEIGHT #-1 
-~InParty("P_Fall")
-See("P_Fall")
-!StateCheck("P_Fall",CD_STATE_NOTVALID)
-Global("P_FallReactionCelvan","AR0300",0)~ THEN CELVAN c1
-@10010000 /* Hubo una vez una ballestera aplicada.
-Su padre cayó en la frontera de su hogar
-cuando un monstruo de ocho patas atacó sin cesar.
-Ella su legado tomó y sus virotes letales
-vuelan como el veneno de sus rivales fatales.
-Ahora debe terminar lo que sus enemigos empezaron,
-y llevar a su familia a la paz que siempre buscaron.
-
-Once there was a skilled crossbow half-elf with grace,
-Whose father fell defending their home,
-Against monsters with eight legs and chrome.
-She took up his legacy and aims with precision,
-Her bolts as deadly as poison with a fateful decision.
-Now she must finish what her enemies began,
-And bring her family the peace of their land. */
-DO ~SetGlobal("P_FallReactionCelvan","AR0300",1)~
-== P_FallJ @10010001 /* ¿C-cómo... cómo sabes eso? ¡Gnomo! Habla... */
-END CELVAN 1
-
-// Belmin
-CHAIN IF WEIGHT #-1 
-~InParty("P_Fall")
-See("P_Fall")
-!StateCheck("P_Fall",CD_STATE_NOTVALID)
-RandomNum(4,1)
-Global("P_FallBelmin","AR0700",0)~ THEN BELMIN belmin1
-@10013317 /* ¡Tú! Te he visto rondando por aquí. No eres bienvenida a nuestra civilización, demonio. ¡Fuera! ¡Fuera de aquí! */
-DO ~SetGlobal("P_FallBelmin","AR0700",1)~
-== P_FallJ @10013318 /* *suspiro* Otra vez este tipejo. Vámonos, <CHARNAME>, simplemente ignorémosle. */
-EXIT
-
-
-// Madame Nin
-CHAIN IF WEIGHT #-1
-~NumTimesTalkedTo(0) 
-Name("P_Fall",LastTalkedToBy)
-!Global("MadamUpset","GLOBAL",1)~ THEN MADAM P_FallReactionMadam1
-@10010002 /* Saludos, mi señora. Soy la Madame Nin, y estoy aquí para asegurar que su compañía sea placentera. ¿Estás interesada? */
-== P_FallJ @10010003 /* ¿Compañía? ¿De qué habla, señora? M-mejor, aléjese de mí. */
-EXIT
-
-CHAIN IF WEIGHT #-1
-~!NumTimesTalkedTo(0)
-Name("P_Fall",LastTalkedToBy)
-!Global("MadamUpset","GLOBAL",1)~ THEN MADAM P_FallReactionMadam2
-@10010004 /* Entonces... ¿deseas compañía para esta noche? */
-== P_FallJ @10010005 /* ¡Ya le dije que no! */
-EXIT
-
-// Diálogo por el Árbol de la Vida
-EXTEND_BOTTOM PLAYER1 33
-IF ~ InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID) Global("P_FallTreeOfLife","GLOBAL",0)~ EXTERN PLAYER1 pl2
-END
-
-CHAIN PLAYER1 pl2
-@10010006 /* Fall, la Dama de las Bestias. Su viaje ha significado un crecimiento en su persona y yace lista a tu lado. */
-DO ~SetGlobal("P_FallTreeOfLife","GLOBAL",1)~
-END
-++ @10010007 /* Fall, esta no es tu pelea. Puedes quedarte aquí si así lo deseas. */ EXTERN P_FallJ pl2.1
-++ @10010008 /* Hemos pasado por mucho, Fall. Puedes volver a los bosques si así lo deseas. */ EXTERN P_FallJ pl2.1
-++ @10010009 /* ¿Estás lista para seguirme? Te necesito a mi lado para vencer. */ EXTERN P_FallJ pl2.1
-
-CHAIN P_FallJ pl2.1
-@10010010 /* Nunca creí ver las cosas que vi durante nuestro viaje juntos, <CHARNAME>. Es el momento de recuperar tu alma. ¡A por Irenicus! */
-END
-COPY_TRANS PLAYER1 33 
-
-
-
-
 // DUSK
 I_C_T P_DUSKJ 295 P_Fall_EVIL_Dusk_Kills1
 == P_FallJ IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @10013302 /* ¡¿Dusk?! No... no entiendo... ¡¿Qué has hecho?! */
@@ -911,18 +824,6 @@ I_C_T P_DEMOLE 19 P_Fall_Demole004
 == P_FallJ IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @10013307 /* ¡Demoledor! ¿Cómo has estado? Se te ve bien alimentado. Hasta creo que has engordado. */
 == p_demole IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @10013308 /* (Demole gira sobre su propio eje, demostrando felicidad ante la presencia de Fall) */
 END
-
-// Ataque a los esclavistas en la calle de los Slums
-I_C_T SLSLAVE 3 P_FallJ_SLSLAVEHELP
-== P_DuskJ IF ~InParty("P_DuskJ") InMyArea("P_DuskJ") !StateCheck("P_DuskJ",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL","GLOBAL",0)~ THEN @10013314 /* <CHARNAME>, esto no quedará impune. ¿Tráfico de esclavos tan libremente en las calles? Es hora de hacer pagar a estos sucios esclavistas. */ DO ~Attack("SLUMSSLAVER2")~
-== P_FallJ IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @10013315 /* No dejaré que os lleven, señor. ¡Por Imnescar que atacaré a estos esclavistas! Espero que me ayudes, <CHARNAME>. */ DO ~Attack("SLUMSSLAVER3")~
-END
-
-I_C_T SLSLAVE 3 P_FallJ_SLSLAVEHELP2
-== P_FallJ IF ~InParty("P_Fall") InMyArea("P_Fall") !StateCheck("P_Fall",CD_STATE_NOTVALID)~ THEN @10013315 /* No... ¡<CHARNAME>! ¿Cómo has podido? En honor... en honor a mis principios, debo derrotarte por lo que has hecho. ¡Pagarás por lo que has hecho! */ DO ~Attack("SLUMSSLAVER3")~
-== P_DuskJ IF ~InParty("P_DuskJ") InMyArea("P_DuskJ") !StateCheck("P_DuskJ",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL","GLOBAL",0)~ THEN @10013314 /* ¡¿Qué has hecho?! Nunca en mi vida había estado tan equivocado en una persona. ¡Mereces morir por lo que has hecho! */ DO ~Attack("SLUMSSLAVER2")~
-END
-
 
 APPEND P_FallJ
 

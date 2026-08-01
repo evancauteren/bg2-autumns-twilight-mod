@@ -15,6 +15,7 @@ THEN
 	ReallyForceSpellRES("SPWI816", NearestEnemyOf(Myself)) // Stun
 	// Dusk
 	ActionOverride("P_Dusk", ReallyForceSpellRES("SPPR403",Myself) // Free Action
+	ActionOverride("P_Dusk",AttackReevaluate(NearestEnemyOf(Myself),15))
 	SetGlobal("P_BellfameDusk_COMBOAT01_TRIGGER","GLOBAL",1)
 END
 

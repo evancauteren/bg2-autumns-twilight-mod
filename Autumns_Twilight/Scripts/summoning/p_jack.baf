@@ -7,7 +7,7 @@ IF
   See("Keldorn")
   !CombatCounter(0) // Están en combate
   Global("P_JackKeldorn_InCombatCheck","GLOBAL",0)
-  GlobalLT("P_JackKeldorn_CombatCount","GLOBAL",1)
+  GlobalLT("P_JackKeldorn_CombatCount","GLOBAL",2)
 THEN
   RESPONSE #100
     SetGlobal("P_JackKeldorn_InCombatCheck","GLOBAL",1)

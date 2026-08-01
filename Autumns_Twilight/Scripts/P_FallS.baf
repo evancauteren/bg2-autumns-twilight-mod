@@ -28,6 +28,20 @@ DestroyItem("p_hgormu")
 SetGlobal ("P_FallPatchGormHead","GLOBAL",1)
 END
 
+//Patch Voragor Gem
+IF
+InParty(Myself)
+Global ("P_FallPatchVoragorGem","GLOBAL",0)
+Global ("P_Fall_SP1_2","GLOBAL",3)
+PartyHasItem("p_basgem")
+THEN
+RESPONSE #100
+Wait(6)
+UseItem("p_basgem", Myself)
+DestroyItem("p_basgem")
+SetGlobal ("P_FallPatchVoragorGem","GLOBAL",1)
+END
+
 //P_AR14
 IF
 InParty(Myself)

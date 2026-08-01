@@ -24,3 +24,44 @@ THEN
     DestroyItem("DEMOGORG")
 	SetGlobal("P_Kakut_INVULNERABLE","GLOBAL",1)
 END
+
+
+// V2.0
+/*
+// 1st Talk - Alendir
+IF
+InParty("P_Fall")
+InParty("P_Alen")
+See("P_Alen")
+See("P_Fall")
+See(Player1)
+!StateCheck("P_Alen",CD_STATE_NOTVALID) 
+!StateCheck("P_Fall",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("P_Kakuto_Alendir_Encounter","GLOBAL",0)
+THEN
+  RESPONSE #100
+  SmallWait (1)
+  SetGlobal("P_Kakuto_Alendir_Encounter","GLOBAL",1)
+END
+
+// Kakuto Music
+IF
+InParty("P_Alen")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+OR(1)
+Global("P_Kakuto_Alendir_Encounter","GLOBAL",1)
+THEN
+RESPONSE #100
+FaceObject("P_Alen")
+SmallWait (1)
+PlaySong (4444)
+StartDialogueNoSet(Player1)
+END
+*/

@@ -1003,6 +1003,10 @@ I_C_T P_DANCTI 104 P_Dusk_Danc_IRA1
 == P_DANCTI IF ~~ THEN @10500209 /* Ira... */
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @10500210 /* ~¿Ira?~ */ 
 == P_DANCTI IF ~~ THEN @10500211 /* Es el nombre verdadero del arma, Ardusk. Y destinada a estar en tus manos. */
+
+// 1.5.3 Danctian Summoning
+== P_DANCTI IF ~~ THEN @11100192 /* También podrás invocarme en combate. Puedo generar réplicas de mí mismo y te serviré durante el tiempo en que el Pandemónium me lo permita. */
+
 == P_DANCTI IF ~~ THEN @10500212 /* Que vuestros enemigos tiemblen... y mata en nombre de las sombras. */
 END
 

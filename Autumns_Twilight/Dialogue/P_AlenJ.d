@@ -65,21 +65,3 @@ Name("P_Alen",LastTalkedToBy)
 @9316 /* Saludos, buen señor. ¿Está seguro de que no quiere pasar un buen rato? */
 == P_AlenJ @9317 /* *susurro* Si no fuera porque estoy contigo, <CHARNAME>, habría acabado con este lugar en un abrir y cerrar de ojos. */
 EXIT
-
-// Diálogo por el Árbol de la Vida
-EXTEND_BOTTOM PLAYER1 33
-IF ~ InParty("P_Alen") InMyArea("P_Alen") !StateCheck("P_Alen",CD_STATE_NOTVALID) Global("P_AlenTreeOfLife","GLOBAL",0)~ EXTERN PLAYER1 pl4
-END
-
-CHAIN PLAYER1 pl4
-@9318 /* Alendir, el Maestro de la Escarcha. Hace poco tiempo ha vuelto a la vida y recuperado su juventud. Que esté a tu lado significa que está dispuesto a arriesgarlo todo por tu empresa. */
-DO ~SetGlobal("P_AlenTreeOfLife","GLOBAL",1)~
-END
-++ @9319 /* Alendir, acabas de recuperar tu vida. Puedes irte de aquí si lo deseas. */ EXTERN P_AlenJ pl4.1
-++ @93110 /* Entendería a la perfección que decidas no arriesgar tu vida en esto, Alendir. Será muy peligroso. */ EXTERN P_AlenJ pl4.1
-++ @93111 /* Necesito tu poder para vencer, Alendir. ¿Estás listo? */ EXTERN P_AlenJ pl4.1
-
-CHAIN P_AlenJ pl4.1
-@93112 /* <CHARNAME>, hemos llegado hasta aquí. ¿Y tu primera reacción es ponerte sentimental? Avancemos. Necesito lanzar mis conjuros contra ese malnacido Exiliado. */
-END
-COPY_TRANS PLAYER1 33 

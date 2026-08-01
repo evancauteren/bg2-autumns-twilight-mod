@@ -1,9 +1,3 @@
-IF
-Global("P_Dusk_UpdateK","GLOBAL",1)
-THEN
-RESPONSE #100
-SetName(@400416)
-END
 
 IF
 See("P_Dusk")

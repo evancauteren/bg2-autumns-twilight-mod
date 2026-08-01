@@ -6,3 +6,134 @@ THEN
         ApplySpellRES("CDHLYSY2","P_Dusk")  // No. Los djinn estamos subyugados por un geas perpetuo, magia poderosa que nos impide desobedecerle. De no ser así, lo habríamos matado hace mucho tiempo.
         ActionOverride("P_Dusk",TransformItem("CDHLYSYM","p_gdring"))  // No such index
 END
+
+// Ira's Talking Sword (Evil Dusk) NO COMBAT
+IF
+    Delay(625)
+    CombatCounter(0)
+    OR(1)
+        HasItemEquipedReal("sw2h14","P_Dusk")
+THEN
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",20580)  // "Quizá sea una espada inteligente, pero no he recibido una educación formal".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",20779)  // "¿Podemos matar algo?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",20780)  // "¿Por qué no ahora?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",20956)  // "¿Podemos matar algo ya?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",24939)  // "Mmmm... ¿Ahora?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",25349)  // "¿Por qué no ahora mismo?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31258)  // "¿Ya? Por favor, venga...".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31259)  // "No sé qué pensaréis pero, como espada que soy, mis gustos resultan muy predecibles".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31260)  // "¿Podemos zurrarle a alguna cosa?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31638)  // "¡Zurrémosle a algo malvadoooo!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31639)  // "¿Por qué no matamos a eso de ahí?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31640)  // "¿Sabíais que en su día fui una espada lunar?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31641)  // "Tenéis que limpiarme. Me gusta estar reluciente".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31646)  // "Vamos a matar algo, ¿eh?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31649)  // "Mi último dueño decía que yo era muy agudo y de rasgos afilados. Era un imbécil".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31651)  // "Yo no corto leña, no soy un hacha".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31652)  // "¡Vamos, vamos! ¡Matemos algo!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31654)  // "¡Me abuuurro!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31655)  // (Suspira).
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31656)  // (Suspira exageradamente).
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",6433)  // "¿No queréis matar a ese de ahí? ¡Venga, matemos algo!".
+END
+
+// Ira's Talking Sword (Evil Dusk) COMBAT
+IF
+    Delay(125)
+    !CombatCounter(0)
+    OR(6)
+        HasItemEquipedReal("sw2h14",Player1)  // Lilarcor
+        HasItemEquipedReal("sw2h14",Player2)  // Lilarcor
+        HasItemEquipedReal("sw2h14",Player3)  // Lilarcor
+        HasItemEquipedReal("sw2h14",Player4)  // Lilarcor
+        HasItemEquipedReal("sw2h14",Player5)  // Lilarcor
+        HasItemEquipedReal("sw2h14",Player6)  // Lilarcor
+THEN
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",839)  // "¡Vos repartís y yo corto!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",844)  // "¡Veamos qué tiene por dentro! ¡Sí!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",849)  // "¡Venid a por vuestra medicina! ¡Buh!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",869)  // "¡Mastuerzo, agarradme bien!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",2308)  // "¡Manos arriba, nenes! ¿Alguien quiere morir?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",2389)  // "Mmmm... ¡Sabe a pollo!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",4393)  // "¡Seréis nenaza! ¡Con vos no hago más que rasguños!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31659)  // "¡¡Muajajajá!!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31660)  // "No hablaréis en serio".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",7908)  // "¡Vaya, eso dejará cicatriz!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",8480)  // "¡Matar! ¡Matar! ¡Matar!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",9687)  // "¿Y vos de quién sois?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",9800)  // "¡Menudo surtidor!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",10725)  // "¿Me hablabais a mí?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",11255)  // "Uno de mis mejores golpes".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",12671)  // "¡Soy el mejor en lo que hago, y lo que hago no es nada bonito!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31662)  // "¡Sí! ¡Tomad y tomad!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31663)  // "¡Soy invencible! ¡Invencible os digo!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",32426)  // "¿No sería mejor que me blandierais con una compañera?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",19304)  // "¡Ahí va su nariz!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",19441)  // "Mi hermano es un tajador +12".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",19638)  // "¡Adoro la fragancia matutina de las margaritas!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",20059)  // "¡Dadle más fuerte! ¡Dadle más fuerte!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",20396)  // "¡Tumbadlos! ¡Aún no he terminado!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",20457)  // "¡Sí! ¡Sí!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",31658)  // "¿Os apetece un baile?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",34689)  // "¡Matadlo! ¡Matadlo antes de que se marchen todos!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",36145)  // "¡Matar, matar, matar! ¡Sí, me encanta!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",41815)  // "¡Y esta es para la abuela, que me dijo que no pasaría de cuchillo para la mantequilla!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",6434)  // "¡Manteca caliente!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",6435)  // "¿Os creéis afortunado, gamberro?".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",6441)  // "¡Oh, estoy temblando!".
+    RESPONSE #10
+        DisplayStringHeadOwner("sw2h14",6442)  // "Oíd, ¡ni en vuestros sueños!".
+END

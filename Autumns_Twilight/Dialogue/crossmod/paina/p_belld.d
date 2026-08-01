@@ -51,7 +51,7 @@ END
 
 
 // Interacción con NPCs
-IF WEIGHT #0~See("P_Dusk")
+IF~See("P_Dusk")
 InParty("P_Dusk")
 !StateCheck("P_Dusk",STATE_SLEEPING)
 //RandomNum(3,1)
@@ -62,7 +62,7 @@ Global("P_DUSKESTABLISHINGPARTYIN","GLOBAL",0)
   IF ~~ THEN DO ~SetGlobal("P_Bellfame_Dusk1","GLOBAL",1)~ GOTO 6
 END
 
-IF WEIGHT #1~See("P_Fall")
+IF~See("P_Fall")
 InParty("P_Fall")
 !StateCheck("P_Fall",STATE_SLEEPING)
 //RandomNum(1,1)
@@ -73,7 +73,7 @@ Global("P_FALLESTABLISHINGPARTYIN","GLOBAL",0)
   IF ~~ THEN DO ~SetGlobal("P_Bellfame_P_Fall1","GLOBAL",2)~ GOTO 27
 END
 
-IF WEIGHT #2~See("Cernd")
+IF~See("Cernd")
 InParty("Cernd")
 !StateCheck("Cernd",STATE_SLEEPING)
 RandomNum(3,2)
@@ -83,7 +83,7 @@ Global("P_Bellfame_Cernd1","GLOBAL",0)
   IF ~~ THEN DO ~SetGlobal("P_Bellfame_Cernd1","GLOBAL",1)~ GOTO 8
 END
 
-IF WEIGHT #3~See("P_Dusk")
+IF~See("P_Dusk")
 InParty("P_Dusk")
 !StateCheck("P_Dusk",STATE_SLEEPING)
 //RandomNum(3,3)
@@ -94,7 +94,7 @@ Global("P_DUSKESTABLISHINGPARTYIN","GLOBAL",0)
   IF ~~ THEN DO ~SetGlobal("P_Bellfame_Dusk1","GLOBAL",2)~ GOTO 17
 END
 
-IF WEIGHT #4~See("Wilson")
+IF~See("Wilson")
 InParty("Wilson")
 !StateCheck("Wilson",STATE_SLEEPING)
 RandomNum(5,5)
@@ -110,7 +110,7 @@ IF
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #5~See("HaerDalis")
+IF~See("HaerDalis")
 InParty("HaerDalis")
 !StateCheck("HaerDalis",STATE_SLEEPING)
 RandomNum(1,1)
@@ -121,7 +121,7 @@ Global("P_Bellfame_HaerDalis1","GLOBAL",0)
 END
 
 
-IF WEIGHT #6~See("Anomen")
+IF~See("Anomen")
 InParty("Anomen")
 !StateCheck("Anomen",STATE_SLEEPING)
 RandomNum(1,1)
@@ -138,7 +138,7 @@ IF
 END
 
 
-IF WEIGHT #7~See("P_Fall")
+IF~See("P_Fall")
 InParty("P_Fall")
 !StateCheck("P_Fall",STATE_SLEEPING)
 //RandomNum(1,1)
@@ -149,7 +149,7 @@ Global("P_Bellfame_P_Fall1","GLOBAL",0)
   IF ~~ THEN DO ~SetGlobal("P_Bellfame_P_Fall1","GLOBAL",1)~ GOTO 25
 END
 
-IF WEIGHT #8 ~See("P_Alen")
+IF~See("P_Alen")
 InParty("P_Alen")
 !StateCheck("P_Alen",STATE_SLEEPING)
 //RandomNum(3,1)
@@ -167,7 +167,7 @@ IF
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #9 ~See("P_Alen")
+IF ~See("P_Alen")
 InParty("P_Alen")
 !StateCheck("P_Alen",STATE_SLEEPING)
 //RandomNum(3,1)
@@ -202,31 +202,31 @@ IF
 END
 
 
-IF WEIGHT #20
+IF
 ~RandomNum(12,1)~ THEN BEGIN 0 // from:
   SAY @9720 /* ~Mis criaturas y yo fuimos arrojados al Plano Etéreo. Allí, no existe material sólido, sólo un infinito mar de neblinas...~ */
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #21
+IF
 ~RandomNum(12,2)~ THEN BEGIN 1 // from:
   SAY @9721 /* ~En el Plano Etéreo sobrevivimos, vagando por los aires, hasta que un misterioso ser creó una isla, la cual existe entre medio de la infinitud de neblina.~ */
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #10
+IF
 ~RandomNum(12,3)~ THEN BEGIN 2 // from:
   SAY @9722 /* ~Antes de que nos convoques al Plano Material, mortal, mis animales y yo venimos del Plano Etéreo. Cuando activas mi anillo, se abre un portal y podemos venir aquí.~ */
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #11
+IF
 ~RandomNum(12,4)~ THEN BEGIN 3 // from:
   SAY @9723 /* ~Aún si caemos en combate, mis animales y yo aparecemos nuevamente en el Plano Etéreo, esperando, nuevamente, el llamado del Anillo...~ */
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #12
+IF
 ~RandomNum(12,5)~ THEN BEGIN 4 // from:
   SAY @9724 /* ~La isla material en la que vivimos está llena de plantas, ríos y lagos. Me recuerda a mi querido Bosque de Mir...~ */
   IF ~~ THEN EXIT
@@ -256,39 +256,39 @@ END
 
 // FIN INTERACCION NPCs
 
-IF WEIGHT #13 ~RandomNum(12,6)~ THEN BEGIN 9 // from:
+IF~RandomNum(12,6)~ THEN BEGIN 9 // from:
   SAY @9729 /* ~La criatura que creó la isla es pequeña, viste ropa verde y su cabello es rojo como el fuego. Está siempre feliz y lo expresa mediante bailes y risas incesantes.~ */
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #14 ~RandomNum(12,7)~ THEN BEGIN 10 // from:
+IF~RandomNum(12,7)~ THEN BEGIN 10 // from:
   SAY @97210 /* ~El anillo sólo puede ser empleado por aquellos que son afines a la naturaleza, tales como druidas o exploradores. Cuando sea llamada, lucharé a su lado. Ten en cuenta que mi habilidad especial es llamar a mis fieles amigos, los animales guardianes del Bosque de Mir.~ */
   IF ~~ THEN EXIT
 END
 
 // COMENTARIO sobre convocaciones
 
-IF WEIGHT #15 ~RandomNum(12,8)~ THEN BEGIN 11 // from:
+IF~RandomNum(12,8)~ THEN BEGIN 11 // from:
   SAY @97211 /* ~Baba es un ratón del bosque. Parece un ratón normal, pero pronto verás que es algo... particular. No suele estar siempre de buen humor, pero si está sano, hay mejores chances de que te obedezca. Por ende, si lo ves herido, cúralo y puede que tengas mejor suerte en convencerlo de que trabaje para ti.~ */
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #16 ~RandomNum(12,9)~ THEN BEGIN 12 // from:
+IF~RandomNum(12,9)~ THEN BEGIN 12 // from:
   SAY @97212 /* ~Jack es un orgulloso lobo de invierno. Es más poderoso que la mayoría de su clase. Posee una habilidad especial, capaz de congelar a sus enemigos. Es el alfa de la manada, así que siempre estará dispuesto en ir al frente de batalla.~ */
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #17 ~RandomNum(12,10)~ THEN BEGIN 13 // from:
+IF~RandomNum(12,10)~ THEN BEGIN 13 // from:
   SAY @97213 /* ~Sayang es una de las más jóvenes de la manada. Es dulce, aunque enérgica. Pronto verás la velocidad con la que se mueve. Es muy entusiasta y le gusta jugar.~ */
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #18 ~RandomNum(12,11)~ THEN BEGIN 14 // from:
+IF ~RandomNum(12,11)~ THEN BEGIN 14 // from:
   SAY @97214 /* ~Thiago es un poderoso oso pardo. Admito que está más gordo de lo que debería. Le gusta mucho comer miel. En la isla en la que nos encontramos, hay de sobra, por lo que puede que... no sea muy veloz que digamos. Pero te aseguro que a la hora de la verdad, es duro como una roca.~ */
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #19 ~RandomNum(12,12)~ THEN BEGIN 15 // from:
+IF~RandomNum(12,12)~ THEN BEGIN 15 // from:
   SAY @97215 /* ~Uma es más vieja de lo que parece. De hecho, por su pelaje (y otras... cualidades) notarás que no es una loba común y corriente. Es una loba de las penumbras, y tiene muchas características de un espíritu sombrío del bosque. Es inmune al frío, pero vulnerable al fuego. Puede hacerse invisible, así que puedes enviarla a explorar si lo deseas.~ */
   IF ~~ THEN EXIT
 END
@@ -303,7 +303,7 @@ END
 
 
 // PaiNa crossmod
-IF WEIGHT #10 ~See("C0Paina")
+IF ~See("C0Paina")
 InParty("C0Paina")
 !StateCheck("C0Paina",STATE_SLEEPING)
 Global("P_Bellfame_C0Paina1","GLOBAL",0)

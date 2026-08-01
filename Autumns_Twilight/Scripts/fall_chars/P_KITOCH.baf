@@ -9,41 +9,41 @@ END
 IF
   !CombatCounter(0)
   See([ENEMY])
-  Range("CHARNAME",15)
+  Range(Player1,15)
   Global("P_KitochiCHARNAME_CA_001","GLOBAL",1)
-  Global("P_KitochiCHARNAME_COMBOAT01_TRIGGER","GLOBAL",0)
-  InParty("CHARNAME")
-  InMyArea("CHARNAME")
-  !Dead("CHARNAME")
+  Global("P_KitochP1_COMBOAT01_TRIGGER","GLOBAL",0)
+  InParty(Player1)
+  InMyArea(Player1)
 THEN
   RESPONSE #100
+	SetGlobal("P_KitochP1_COMBOAT01_TRIGGER","GLOBAL",1)
 	ActionOverride(Player1, DisplayStringHead(Myself, @11100176))
 	//Wait(1)
     DisplayStringHead(Myself,@11100177)
 	ReallyForceSpellRES("SPWI920", Myself) // Energy Blades
 	// CHARNAME
 	ActionOverride(Player1, ReallyForceSpellRES("OHBWI405",Myself) // Invisibility
-	SetGlobal("P_KitochiCHARNAME_COMBOAT01_TRIGGER","GLOBAL",1)
+	AttackReevaluate(LastSeenBy(Myself),15)
 END
 
 // BLOQUE 2: Iniciar el Cooldown (Cuando termina el combate)
 IF
   CombatCounter(0)
-  Global("P_KitochiCHARNAME_COMBOAT01_TRIGGER","GLOBAL",1) 
+  Global("P_KitochP1_COMBOAT01_TRIGGER","GLOBAL",1) 
 THEN
   RESPONSE #100
     // IMPORTANTE: Pasamos a estado 2 para que este bloque no se repita
-    SetGlobal("P_KitochiCHARNAME_COMBOAT01_TRIGGER","GLOBAL",2) 
+    SetGlobal("P_KitochP1_COMBOAT01_TRIGGER","GLOBAL",2) 
     RealSetGlobalTimer("P_KitochiCombo01Timer","GLOBAL",1200)
 END 
 
 // BLOQUE 3: Resetear después de 20 minutos
 IF
-  Global("P_KitochiCHARNAME_COMBOAT01_TRIGGER","GLOBAL",2)
+  Global("P_KitochP1_COMBOAT01_TRIGGER","GLOBAL",2)
   RealGlobalTimerExpired("P_KitochiCombo01Timer","GLOBAL")
 THEN
   RESPONSE #100
-    SetGlobal("P_KitochiCHARNAME_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
+    SetGlobal("P_KitochP1_COMBOAT01_TRIGGER","GLOBAL",0) // ¡Listo para volver a usarse!
 END
 
   
@@ -203,3 +203,9 @@ THEN
 END
 
 
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),15)
+END

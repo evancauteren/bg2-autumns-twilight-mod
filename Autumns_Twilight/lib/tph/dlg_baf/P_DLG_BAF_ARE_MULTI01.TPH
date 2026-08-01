@@ -48,7 +48,7 @@ COMPILE EVALUATE_BUFFER
 		~Autumns_Twilight/Dialogue/summoning/p_sayang.d~
 		~Autumns_Twilight/Dialogue/summoning/p_uma.d~
 		~Autumns_Twilight/Dialogue/summoning/p_baba.d~
-		~Autumns_Twilight/Dialogue/summoning/p_thiago.d~
+		~Autumns_Twilight/Dialogue/summoning/p_thiago.d~		~Autumns_Twilight/Dialogue/summoning/p_danct3.d~
 		~Autumns_Twilight/Dialogue/dusk_quests/p_michel.d~
 		~Autumns_Twilight/Dialogue/dusk_quests/p_demole.d~
 		~Autumns_Twilight/Dialogue/dusk_quests/p_falon.d~
@@ -163,7 +163,7 @@ COMPILE EVALUATE_BUFFER
 	~Autumns_Twilight/Scripts/dusk_chars/p_demol2.baf~
 	~Autumns_Twilight/Scripts/dusk_chars/p_miche2.baf~
 	~Autumns_Twilight/Scripts/dusk_chars/p_Celin.baf~
-	~Autumns_Twilight/Scripts/dusk_chars/p_danct2.baf~
+	~Autumns_Twilight/Scripts/dusk_chars/p_danct2.baf~	~Autumns_Twilight/Scripts/dusk_chars/p_danct3.baf~
 	~Autumns_Twilight/Scripts/are/P_AR14.baf~
 	~Autumns_Twilight/Scripts/P_FallS.baf~ 
 	~Autumns_Twilight/Scripts/P_FallF.baf~
@@ -244,6 +244,7 @@ COMPILE EVALUATE_BUFFER
 	~Autumns_Twilight/Scripts/summoning/p_uma.baf~
 	~Autumns_Twilight/Scripts/summoning/p_baba.baf~
 	~Autumns_Twilight/Scripts/summoning/p_thiago.baf~
+	~Autumns_Twilight/Scripts/summoning/p_sayang.baf~
 
 	
 	//NEW AREAS
