@@ -14959,613 +14959,613 @@ O poderoso elfo shilmista."~
 
 // V1.5.3
 
-@11100192 = ~You can also summon me in combat. I can create replicas of myself and I shall serve you for as long as the Pandemonium allows.~
+@11100192 = ~Você também pode me invocar em combate. Posso criar réplicas de mim mesmo e servirei a você enquanto o Pandemônio permitir.~
 
-@11100193 = ~I am ready for your command, <CHARNAME>.~
-@11100194 = ~Is there something you desire?~
-@11100195 = ~Do not waste time speaking with me, mortal. My time to aid you is limited.~
-@11100196 = ~Let our enemies tremble before our power.~
-@11100197 = ~I shall do your bidding, for now.~
+@11100193 = ~Estou pronto para o seu comando, <CHARNAME>.~
+@11100194 = ~Há algo que deseja?~
+@11100195 = ~Não desperdice tempo falando comigo, mortal. Meu tempo para ajudá-lo é limitado.~
+@11100196 = ~Que nossos inimigos tremam diante do nosso poder.~
+@11100197 = ~Farei sua vontade... por enquanto.~
 
-// Terror's Twilight (Ocaso del Terror) Danctian / Evil Dusk
-@11100198 = ~I see you have grown accustomed to Ira, Ardusk.~
-@11100199 = ~The bastard sword feels right in my hands, Danctian. It is always a pleasure to wield it against our enemies.~
-@11100200 = ~There is no more fitting instrument for vengeance than Ira Tenax.~
-@11100201 = ~That is why I believe we should employ the power the Pandemonium has granted us.~
-@11100202 = ~What do you mean?~
-@11100203 = ~Let us use the innate energy of my plane to strike terror into the hearts of those who oppose us.~
-@11100204 = ~Terror's Twilight is a fitting technique for us both.~
-@11100205 = ~When you summon me in combat, we shall use it and our enemies will tremble.~
-@11100206 = ~Very well, Danctian. Lend me your power when you fight by my side. You will not regret it.~
-@11100207 = ~I know, Ardusk. I know.~
+// Terror's Twilight (Ocaso do Terror) Danctian / Dusk Mau
+@11100198 = ~Vejo que você já se acostumou com Ira, Ardusk.~
+@11100199 = ~A espada bastarda parece perfeita em minhas mãos, Danctian. É sempre um prazer empunhá-la contra nossos inimigos.~
+@11100200 = ~Não existe instrumento mais apropriado para a vingança do que Ira Tenax.~
+@11100201 = ~É por isso que acredito que devemos utilizar o poder que o Pandemônio nos concedeu.~
+@11100202 = ~O que você quer dizer?~
+@11100203 = ~Vamos usar a energia inata do meu plano para espalhar terror nos corações daqueles que se opõem a nós.~
+@11100204 = ~Ocaso do Terror é uma técnica digna de nós dois.~
+@11100205 = ~Quando me invocar em combate, nós a utilizaremos... e nossos inimigos tremerão.~
+@11100206 = ~Muito bem, Danctian. Conceda-me seu poder quando lutar ao meu lado. Você não se arrependerá.~
+@11100207 = ~Eu sei, Ardusk. Eu sei.~
 
-@11100208 = ~Feel my wrath! Terror's Twilight!~
-@11100209 = ~Now, Ardusk! Tremble before our Terror's Twilight...~
+@11100208 = ~Sintam minha ira! Ocaso do Terror!~
+@11100209 = ~Agora, Ardusk! Tremam diante do nosso Ocaso do Terror...~
 
-// v1.5.3
+
 // Skitia Crossmod
 
 // EMILY
 
-// Emily / Dusk (Neutral/Good/Evil) 1
-/* Dusk */ @11100210 = ~So, Emily. I've heard whispers that you come from a noble family, is that so?~
-/* Emily */ @11100211 = ~Dusk, yes. Well, I suppose you could say that. Despite being 'illegitimate', I was raised in a noble environment.~
-/* Dusk */ @11100212 = ~An environment that demands strictly proper behavior.~
-/* Emily */ @11100213 = ~Indeed. Even more so in my case due to my... background. But enough about that. You sound like you speak from experience, Dusk.~
-/* Dusk */ @11100214 = ~Of course. I also come from a noble family. Though, I don't know if I was under a control as fierce as the one you endured, Emily.~
-/* Dusk */ @11100215 = ~My relationship with my parents is also... complex, but not due to secrets or racial issues.~
-/* Dusk */ @11100216 = ~While the Aldants were once a powerful and respected family in Cormyr, of late, decay has loomed over our house.~
-/* Emily */ @11100217 = ~Why? You were First Sword in the Purple Dragons. Isn't that a matter of family pride?~
-/* Dusk */ @11100218 = ~*spits* Pride... Truth be told, I did it to get away from them.~
-/* Dusk */ @11100219 = ~My parents loathe each other. Father is a useless sort, an amoeba dependent on his servants, while Mother does nothing but complain about everything and everyone, all the time.~
-/* Dusk */ @11100220 = ~The army was an escape for me.~
-/* Dusk */ @11100221 = ~Truth is... it's strange for me to talk about this, Emily. I suppose it's easier to speak with someone who might actually understand me.~
-/* Emily */ @11100222 = ~I understand. Though I... don't feel aversion toward my parents. Over time, I've managed to understand some of their decisions, even if I don't fully agree with them. But I understand them.~
-/* Dusk */ @11100223 = ~Oh, Emily... I... don't feel aversion or hatred for my parents. Maybe it's anger. I don't know.~
-/* Dusk */ @11100224 = ~Now that I look back at the past with some perspective, I'm beginning to accept, like you, certain aspects of their ways.~
-/* Dusk */ @11100225 = ~Life doesn't always turn out the way you expect. Hard knocks can shape a person's character. For better or for worse.~
-/* Emily */ @11100226 = ~On that we agree, Dusk. On that we agree.~
+// Emily / Dusk (Neutro/Bom/Mau) 1
+/* Dusk */ @11100210 = ~Então, Emily. Ouvi rumores de que você vem de uma família nobre. É verdade?~
+/* Emily */ @11100211 = ~Dusk, sim. Bem... acho que pode-se dizer isso. Apesar de ser "ilegítima", fui criada em um ambiente nobre.~
+/* Dusk */ @11100212 = ~Um ambiente que exige um comportamento rigorosamente adequado.~
+/* Emily */ @11100213 = ~Exatamente. Ainda mais no meu caso, por causa da minha... origem. Mas chega de falar de mim. Você parece falar por experiência própria, Dusk.~
+/* Dusk */ @11100214 = ~Claro. Eu também venho de uma família nobre. Embora eu não saiba se estive sob um controle tão severo quanto o que você suportou, Emily.~
+/* Dusk */ @11100215 = ~Minha relação com meus pais também é... complicada. Mas não por causa de segredos ou questões raciais.~
+/* Dusk */ @11100216 = ~Embora os Aldant já tenham sido uma família poderosa e respeitada em Cormyr, nos últimos tempos a decadência pairou sobre nossa casa.~
+/* Emily */ @11100217 = ~Por quê? Você foi Primeiro Espadachim dos Dragões Púrpura. Isso não é motivo de orgulho para sua família?~
+/* Dusk */ @11100218 = ~*cospe* Orgulho... Na verdade, fiz isso para fugir deles.~
+/* Dusk */ @11100219 = ~Meus pais se detestam. Meu pai é um inútil, uma ameba dependente de seus criados, enquanto minha mãe não faz outra coisa além de reclamar de tudo e de todos, o tempo todo.~
+/* Dusk */ @11100220 = ~O exército foi uma forma de escapar.~
+/* Dusk */ @11100221 = ~A verdade é que... é estranho para mim falar sobre isso, Emily. Acho que é mais fácil conversar com alguém que talvez realmente consiga me entender.~
+/* Emily */ @11100222 = ~Eu entendo. Embora eu... não sinta aversão pelos meus pais. Com o tempo, consegui compreender algumas de suas decisões, mesmo sem concordar plenamente com elas. Mas eu as compreendo.~
+/* Dusk */ @11100223 = ~Ah, Emily... eu... também não sinto aversão nem ódio pelos meus pais. Talvez seja apenas raiva. Não sei.~
+/* Dusk */ @11100224 = ~Agora que olho para o passado com um pouco mais de perspectiva, começo, como você, a aceitar certos aspectos da maneira deles de agir.~
+/* Dusk */ @11100225 = ~A vida nem sempre acontece da forma que esperamos. Os golpes duros podem moldar o caráter de uma pessoa. Para melhor... ou para pior.~
+/* Emily */ @11100226 = ~Nisso nós concordamos, Dusk. Nisso nós concordamos.~
 
-// Emily / Dusk (Neutral/Good) 2
-/* Dusk */ @11100227 = ~How are you, Emily?~
-/* Emily */ @11100228 = ~Dusk! I am doing well, thank you for asking. And you?~
-/* Dusk */ @11100229 = ~I can't complain. I've been thinking about our last conversation.~
-/* Emily */ @11100230 = ~Oh, really? I'm all ears.~
-/* Dusk */ @11100231 = ~When our journey with <CHARNAME> comes to an end, what will you do? I can't picture you returning to the nobility just like that.~
-/* Emily */ @11100232 = ~Perhaps I can't either, but I wouldn't shirk my responsibility if the time came. Though it's not my intention to be a noble lady who issues commands from a fine linen seat. I am a woman of action.~
-/* Dusk */ @11100233 = ~You can say that again.~
-/* Emily */ @11100234 = ~What about you? What will you do?~
-/* Dusk */ @11100235 = ~It's a bit too soon to tell. My initial plan isn't to return to the nobility. The army might be a good place, though I doubt they'd accept me given the circumstances of my past.~
-/* Dusk */ @11100236 = ~Being a merchant is something that has motivated me for a while. It's something I must ponder during my watches.~
-/* Emily */ @11100237 = ~For now, I think it's not a bad idea to join forces to fight against certain monstrosities, don't you think?~
-/* Dusk */ @11100238 = ~I couldn't agree more, Emily.~
+// Emily / Dusk (Neutro/Bom) 2
+/* Dusk */ @11100227 = ~Como você está, Emily?~
+/* Emily */ @11100228 = ~Dusk! Estou bem, obrigada por perguntar. E você?~
+/* Dusk */ @11100229 = ~Não posso reclamar. Tenho pensado na nossa última conversa.~
+/* Emily */ @11100230 = ~Ah, é mesmo? Estou ouvindo.~
+/* Dusk */ @11100231 = ~Quando nossa jornada com <CHARNAME> chegar ao fim, o que pretende fazer? Não consigo imaginar você simplesmente voltando para a nobreza.~
+/* Emily */ @11100232 = ~Talvez eu também não consiga. Mas não fugiria das minhas responsabilidades se esse momento chegasse. Ainda assim, não pretendo ser uma dama da nobreza que dá ordens sentada em uma cadeira de linho fino. Sou uma mulher de ação.~
+/* Dusk */ @11100233 = ~Disso eu não tenho dúvidas.~
+/* Emily */ @11100234 = ~E você? O que pretende fazer?~
+/* Dusk */ @11100235 = ~Ainda é cedo para dizer. Meu plano inicial não é voltar para a nobreza. O exército talvez seja um bom lugar, embora eu duvide que me aceitem, dadas as circunstâncias do meu passado.~
+/* Dusk */ @11100236 = ~Ser mercador é algo que tem me motivado há algum tempo. É algo sobre o qual preciso refletir durante minhas vigílias.~
+/* Emily */ @11100237 = ~Por enquanto, acho que não é uma má ideia unirmos forças para combater certas monstruosidades, não acha?~
+/* Dusk */ @11100238 = ~Não poderia concordar mais, Emily.~
 
-// Emily / Dusk (Evil) 3
-/* Dusk */ @11100239 = ~I'm still the same, Emily. Don't overthink it.~
-/* Emily */ @11100240 = ~Ehm. Why do you say that, Dusk? I didn't mean to stare.~
-/* Dusk */ @11100241 = ~It doesn't bother me. You don't seem to imply anything insolent.~
-/* Emily */ @11100242 = ~Forgive me for saying so, but you do seem greatly changed.~
-/* Emily */ @11100243 = ~Older... even.~
-/* Dusk */ @11100244 = ~Really? Not that appearances matter to me, but at least I don't feel that way.~
-/* Dusk */ @11100245 = ~Never before have I felt so powerful. The scarlet orb awakened my true potential within me.~
-/* Emily */ @11100246 = ~I am not so sure about that. The aura you emanate might be more noticeable than before, but the Dusk you were before the orb was just as valuable as the one you are now.~
-/* Dusk */ @11100247 = ~Value and power are not the same thing. The latter is all that matters. Our journey alongside <CHARNAME> will prove me right, you'll see.~
-/* Emily */ @11100248 = ~I'm not so sure I want to witness such a thing...~
+// Emily / Dusk (Mau) 3
+/* Dusk */ @11100239 = ~Continuo sendo o mesmo, Emily. Não pense demais nisso.~
+/* Emily */ @11100240 = ~Hmm... Por que diz isso, Dusk? Eu não queria ficar encarando você.~
+/* Dusk */ @11100241 = ~Isso não me incomoda. Você não parece insinuar nada ofensivo.~
+/* Emily */ @11100242 = ~Perdoe-me por dizer isso, mas você realmente parece muito diferente.~
+/* Emily */ @11100243 = ~Mais velho... até.~
+/* Dusk */ @11100244 = ~Sério? Não que aparências importem para mim, mas pelo menos eu não me sinto assim.~
+/* Dusk */ @11100245 = ~Nunca antes me senti tão poderoso. A orbe escarlate despertou meu verdadeiro potencial.~
+/* Emily */ @11100246 = ~Não tenho tanta certeza disso. A aura que você emana talvez seja mais intensa do que antes, mas o Dusk que existia antes da orbe era tão valioso quanto o que existe agora.~
+/* Dusk */ @11100247 = ~Valor e poder não são a mesma coisa. O segundo é tudo o que importa. Nossa jornada ao lado de <CHARNAME> provará que estou certo. Você verá.~
+/* Emily */ @11100248 = ~Não sei se quero testemunhar isso...~
 
 // Emily / Fall 1
-/* Fall */ @11100249 = ~Next time I will win, Emily. Just you wait and see.~
-/* Emily */ @11100250 = ~You can try as many times as you like, redhead. I'll still keep getting a higher score than you.~
-/* Fall */ @11100251 = ~Hmpf. Easy for you to say. It's simpler to draw a bow than a crossbow.~
-/* Emily */ @11100252 = ~Are you sure about that? With a crossbow, you only have to pull the trigger, Fall. Nothing simpler than that.~
-/* Fall */ @11100253 = ~Ah, but a crossbow is heavier than a bow. Feeling the arrow between your fingers gives you a better idea of where the projectile is going to go.~
-/* Emily */ @11100254 = ~Now you're going to say you're stronger than I am.~
-/* Fall */ @11100255 = ~I'm not just saying it, I'm stating it as a fact.~
-/* Emily */ @11100256 = ~Want to find out?~
+/* Fall */ @11100249 = ~Da próxima vez eu vou vencer, Emily. Pode esperar.~
+/* Emily */ @11100250 = ~Pode tentar quantas vezes quiser, ruivinha. Ainda vou fazer uma pontuação maior que a sua.~
+/* Fall */ @11100251 = ~Hmpf. Assim é fácil. É mais simples atirar com um arco do que com uma besta.~
+/* Emily */ @11100252 = ~Tem certeza disso? Com uma besta você só precisa apertar o gatilho, Fall. Nada mais simples.~
+/* Fall */ @11100253 = ~Ah, mas a besta é mais pesada que um arco. Sentir o virote entre os dedos dá uma noção melhor de para onde o projétil vai.~
+/* Emily */ @11100254 = ~Agora você vai dizer que é mais forte do que eu.~
+/* Fall */ @11100255 = ~Não estou apenas dizendo. Estou afirmando um fato.~
+/* Emily */ @11100256 = ~Quer descobrir?~
 /* Fall */ @11100257 = ~...~
 /* Emily */ @11100258 = ~...~
-/* Fall */ @11100259 = ~*laughter*~
-/* Emily */ @11100260 = ~*laughter*~
-/* Emily */ @11100261 = ~*whispering* We almost got <CHARNAME> to intervene.~
-/* Fall */ @11100262 = ~*whispering* Yeah, did you see his face? Hilarious.~ ~*whispering* Yeah, did you see her face? Hilarious.~
-/* Emily */ @11100263 = ~Well, shall we keep practicing?~
-/* Fall */ @11100264 = ~Whenever you're ready, my friend.~
+/* Fall */ @11100259 = ~*risos*~
+/* Emily */ @11100260 = ~*risos*~
+/* Emily */ @11100261 = ~*sussurrando* Quase fizemos <CHARNAME> intervir.~
+/* Fall */ @11100262 = ~*sussurrando* Pois é. Você viu a cara dele? Hilária.~ ~*sussurrando* Pois é. Você viu a cara dela? Hilária.~
+/* Emily */ @11100263 = ~Bem, vamos continuar treinando?~
+/* Fall */ @11100264 = ~Quando estiver pronta, minha amiga.~
 
 // Emily / Fall 2
-/* Emily */ @11100265 = ~So, when are you going to summon your furry brothers, Fall? I feel like playing with them again.~
-/* Fall */ @11100266 = ~In due time, Emily. <CHARNAME> usually handles those strategies. And since I can only summon them once a day, we have to be cautious when calling them.~
-/* Emily */ @11100267 = ~You're right. Though it wouldn't hurt to just call them so we can pet them a little, don't you think?~
-/* Fall */ @11100268 = ~Yeah, I think we could convince <CHARNAME> to take a day off so we can have a snack out in the open field alongside our summons.~
-/* Emily */ @11100269 = ~Yes! That's a great idea.~
+/* Emily */ @11100265 = ~Então, quando você vai invocar seus irmãos peludos, Fall? Estou com vontade de brincar com eles de novo.~
+/* Fall */ @11100266 = ~Na hora certa, Emily. Normalmente é <CHARNAME> quem cuida dessas estratégias. E como só posso invocá-los uma vez por dia, precisamos ser cautelosas ao chamá-los.~
+/* Emily */ @11100267 = ~Você tem razão. Mas não faria mal invocá-los só para fazermos um carinho neles, não acha?~
+/* Fall */ @11100268 = ~É... acho que poderíamos convencer <CHARNAME> a tirar um dia de folga para fazermos um piquenique ao ar livre junto com nossas invocações.~
+/* Emily */ @11100269 = ~Sim! Essa é uma ótima ideia.~
 
-// Emily / Fall 3 (Combo Attack)
-/* Emily */ @11100270 = ~To tell you the truth, Fall, it doesn't seem like a bad idea to me.~
-/* Fall */ @11100271 = ~Right? Sometimes I come up with great plans, you know?~
-/* Emily */ @11100272 = ~I suppose I can execute an ability similar to a Called Shot. Maximizing damage and speed for a short period.~
-/* Fall */ @11100273 = ~I can teach you a few tricks my father taught me. We can apply them in the next battle, as long as we are close to each other.~
-/* Emily */ @11100274 = ~Agreed. If <CHARNAME> commands us to stay together in our upcoming combats, a single glance will be enough to launch our attack.~
-/* Fall */ @11100275 = ~In the process, we can see who shoots more or deals more damage. It will be interesting.~
-/* Emily */ @11100276 = ~Get ready to lose, redhead.~
-/* Fall */ @11100277 = ~You wish...~
+// Emily / Fall 3 (Ataque Combinado)
+/* Emily */ @11100270 = ~Para falar a verdade, Fall, essa não me parece uma má ideia.~
+/* Fall */ @11100271 = ~Viu só? Às vezes eu tenho grandes ideias, sabia?~
+/* Emily */ @11100272 = ~Acho que consigo executar uma habilidade parecida com um Disparo Preciso. Maximizando dano e velocidade por um curto período.~
+/* Fall */ @11100273 = ~Posso lhe ensinar alguns truques que meu pai me ensinou. Podemos aplicá-los na próxima batalha, desde que estejamos próximas uma da outra.~
+/* Emily */ @11100274 = ~Combinado. Se <CHARNAME> nos mandar permanecer juntas nos próximos combates, um simples olhar será suficiente para iniciarmos nosso ataque.~
+/* Fall */ @11100275 = ~E, de quebra, podemos descobrir quem acerta mais disparos... ou causa mais dano. Vai ser interessante.~
+/* Emily */ @11100276 = ~Prepare-se para perder, ruivinha.~
+/* Fall */ @11100277 = ~Nos seus sonhos...~
 
 // Emily / Alendir
-/* Alendir */ @11100278 = ~You are an Aasimar, are you not, child?~
-/* Emily */ @11100279 = ~That is correct, Alendir. Why do you ask?~
-/* Alendir */ @11100280 = ~Your appearance, however, is elven. But I must admit you are exceptional. What of your parents? At least one of them must have been a celestial creature or had some kind of planar influence from the Upper Planes.~
-/* Alendir */ @11100281 = ~If I am not mistaken, your father was a human, yes?~
-/* Emily */ @11100282 = ~Yes. A nobleman from Tethyr.~
-/* Alendir */ @11100283 = ~I see. Growing up under his yoke must have been complex.~
-/* Emily */ @11100284 = ~What do you mean?~
-/* Alendir */ @11100285 = ~Human nobles are purists. I doubt he would have allowed you to be seen just like that in the Tethyrian lands. It is understandable. Humans can be creatures highly prone to taking extreme measures out of fear.~
-/* Emily */ @11100286 = ~He might have been driven by fear at first, Alendir. But I am certain the real motive behind his decision was love for his daughter.~
-/* Alendir */ @11100287 = ~Hm. It makes sense that you would think that. After all, his blood runs through your veins.~
-/* Alendir */ @11100288 = ~In the past, I might have dismissed your comment. But I have come to be surprised by humans. If you, Emily Castilla, say your father was an honorable human, I must simply yield to believing your words.~
-/* Emily */ @11100289 = ~Thank you, Alendir. What about you? I imagine you had parents.~
-/* Alendir */ @11100290 = ~Hmpf. Do not overstep, child. I will not speak of that here. It is neither the time nor the place.~
-/* Emily */ @11100291 = ~Oh... all right.~
+/* Alendir */ @11100278 = ~Você é uma Aasimar, não é, criança?~
+/* Emily */ @11100279 = ~Isso mesmo, Alendir. Por que pergunta?~
+/* Alendir */ @11100280 = ~Sua aparência, no entanto, é élfica. Mas devo admitir que você é excepcional. E quanto aos seus pais? Pelo menos um deles deve ter sido uma criatura celestial ou ter sofrido algum tipo de influência planar dos Planos Superiores.~
+/* Alendir */ @11100281 = ~Se não me engano, seu pai era humano, correto?~
+/* Emily */ @11100282 = ~Sim. Um nobre de Tethyr.~
+/* Alendir */ @11100283 = ~Entendo. Crescer sob sua tutela deve ter sido algo complexo.~
+/* Emily */ @11100284 = ~O que quer dizer?~
+/* Alendir */ @11100285 = ~Os nobres humanos são puristas. Duvido que ele permitisse que você fosse vista assim nas terras de Tethyr. É compreensível. Os humanos são criaturas muito propensas a tomar medidas extremas por medo.~
+/* Emily */ @11100286 = ~Talvez ele tenha sido movido pelo medo no início, Alendir. Mas tenho certeza de que o verdadeiro motivo por trás de sua decisão foi o amor por sua filha.~
+/* Alendir */ @11100287 = ~Hm. Faz sentido que pense assim. Afinal, o sangue dele corre em suas veias.~
+/* Alendir */ @11100288 = ~No passado, eu teria ignorado seu comentário. Mas aprendi a me surpreender com os humanos. Se você, Emily Castilla, diz que seu pai era um humano honrado, resta-me apenas acreditar em suas palavras.~
+/* Emily */ @11100289 = ~Obrigada, Alendir. E você? Imagino que também tenha tido pais.~
+/* Alendir */ @11100290 = ~Hmpf. Não ultrapasse os limites, criança. Não falarei sobre isso aqui. Este não é o momento, nem o lugar.~
+/* Emily */ @11100291 = ~Oh... tudo bem.~
 
 // Emily / Cho'Nuja
-/* Cho'Nuja */ @11100292 = ~*hiss* A what?~
-/* Emily */ @11100293 = ~Aasimar.~
-/* Cho'Nuja */ @11100294 = ~You are making up words, little female.~
-/* Emily */ @11100295 = ~I am not! *sigh* I understand it is a bit complicated to grasp, Cho, but I am an Aasimar. I have celestial blood.~
-/* Cho'Nuja */ @11100296 = ~And is that a bad thing? You say it as if it were something terrible, archer.~
-/* Emily */ @11100297 = ~Well... it hasn't been easy to carry that burden. Tethyr would not look kindly upon someone like me holding a noble title, you know?~
-/* Cho'Nuja */ @11100298 = ~Ah, of noble matters I understand. Serving a Queen for years has taught me the countless betrayals and inner workings of power. It can make the bravest hearts turn petty and bitter.~
-/* Emily */ @11100299 = ~On that I agree, Cho. You know, you are not so ignorant of our ways after all.~
-/* Cho'Nuja */ @11100300 = ~Thank you, little female archer. If you want, I can share with you a dish of dragonflies with toad slime. They are my specialty.~
-/* Emily */ @11100301 = ~Erh... I think I'll pass, Cho.~
-/* Cho'Nuja */ @11100302 = ~Your loss.~
+/* Cho'Nuja */ @11100292 = ~*sibilo* Uma o quê?~
+/* Emily */ @11100293 = ~Uma Aasimar.~
+/* Cho'Nuja */ @11100294 = ~Você está inventando palavras, pequena fêmea.~
+/* Emily */ @11100295 = ~Não estou! *suspiro* Eu entendo que seja um pouco complicado de compreender, Cho, mas eu sou uma Aasimar. Tenho sangue celestial.~
+/* Cho'Nuja */ @11100296 = ~E isso é uma coisa ruim? Você fala como se fosse algo terrível, arqueira.~
+/* Emily */ @11100297 = ~Bem... não foi fácil carregar esse fardo. Tethyr não veria com bons olhos alguém como eu ocupando um título de nobreza, sabe?~
+/* Cho'Nuja */ @11100298 = ~Ah, de assuntos da nobreza eu entendo. Servir uma Rainha por tantos anos me ensinou sobre as incontáveis traições e os bastidores do poder. Isso pode tornar até os corações mais corajosos mesquinhos e amargos.~
+/* Emily */ @11100299 = ~Nisso eu concordo, Cho. Sabe, você não é tão ignorante sobre nossos costumes quanto parece.~
+/* Cho'Nuja */ @11100300 = ~Obrigado, pequena arqueira. Se quiser, posso dividir com você um prato de libélulas com lodo de sapo. É minha especialidade.~
+/* Emily */ @11100301 = ~Er... acho que vou passar, Cho.~
+/* Cho'Nuja */ @11100302 = ~Você que perde.~
 
 // HELGA
 
 // Helga / Dusk (Neutral/Good/Evil) 1
-/* Dusk */ @11100303 = ~My lady, you shouldn't charge so hastily into the front lines. At least allow me to cover you. I wouldn't want you to—~
-/* Helga */ @11100304 = ~Ah, boy, do you dare order me around? Don't make me teach you a lesson.~
-/* Dusk */ @11100305 = ~Oh, it was not my intention, I only—~
-/* Helga */ @11100306 = ~Aye, aye, Dusk. I'm just teasing you. You have my respect for how you wield your weapons. Seeing your sword dyed in the enemy's blood is worthy of my respect.~
-/* Dusk */ @11100307 = ~T-thank you, I suppose.~
-/* Helga */ @11100308 = ~And don't call me 'lady'! Helga is my name.~
-/* Dusk */ @11100529 = ~As you wish, la— Er, I mean, Helga.~
+/* Dusk */ @11100303 = ~Minha senhora, você não deveria avançar tão imprudentemente para a linha de frente. Pelo menos permita que eu lhe dê cobertura. Eu não gostaria que a senhora...~
+/* Helga */ @11100304 = ~Ah, rapaz, ousa me dar ordens? Não me obrigue a lhe dar uma lição.~
+/* Dusk */ @11100305 = ~Oh, não era minha intenção, eu apenas...~
+/* Helga */ @11100306 = ~Sim, sim, Dusk. Estou só brincando com você. Você tem meu respeito pela forma como empunha suas armas. Ver sua espada tingida com o sangue dos inimigos é digno da minha admiração.~
+/* Dusk */ @11100307 = ~O-obrigado, eu acho.~
+/* Helga */ @11100308 = ~E pare de me chamar de "senhora"! Meu nome é Helga.~
+/* Dusk */ @11100529 = ~Como desejar, senh— Er, quero dizer, Helga.~
 
 
 // Helga / Dusk (Good) 2
-/* Dusk */ @11100309 = ~Why are you narrowing your eyes, Helga? Is something wrong?~
-/* Helga */ @11100310 = ~Hm. You can't fool me, Dusk.~
-/* Dusk */ @11100311 = ~What do you mean?~
-/* Helga */ @11100312 = ~All that change, those lights you emanate from time to time. You try to make it seem like you are a kind-hearted creature, but you are still the same warrior you've always been.~
-/* Dusk */ @11100313 = ~Well, it's not that I'm trying to trick anyone. In essence, I remain the same as always.~
-/* Helga */ @11100314 = ~Ah, so you admit you are the same Wizard Slayer you've always been.~
-/* Helga */ @11100315 = ~I can see how much you enjoy it when you wield your weapons, lad.~
-/* Dusk */ @11100316 = ~Ehm. I admit that sometimes I enjoy fighting, but I do it to protect those I hold dear. That includes you, Helga.~
-/* Helga */ @11100318 = ~Hmpf. You can keep saying you fight for the virtue of goodness, but I know that deep down you do it for the pleasure that comes from the glory of a good battle.~
-/* Dusk */ @11100317 = ~*smiles* Perhaps. I hadn't thought about it that way.~
+/* Dusk */ @11100309 = ~Por que está me olhando desse jeito, Helga? Aconteceu alguma coisa?~
+/* Helga */ @11100310 = ~Hm. Você não me engana, Dusk.~
+/* Dusk */ @11100311 = ~O que quer dizer?~
+/* Helga */ @11100312 = ~Toda essa mudança, essas luzes que você emana de vez em quando. Você tenta parecer uma criatura bondosa, mas continua sendo o mesmo guerreiro de sempre.~
+/* Dusk */ @11100313 = ~Bem, não é que eu esteja tentando enganar alguém. No fundo, continuo sendo o mesmo de sempre.~
+/* Helga */ @11100314 = ~Ah, então admite que continua sendo o mesmo Destruidor de Magos de sempre.~
+/* Helga */ @11100315 = ~Consigo ver o quanto você gosta quando empunha suas armas, rapaz.~
+/* Dusk */ @11100316 = ~Ehm. Admito que às vezes gosto de lutar, mas faço isso para proteger aqueles que me são queridos. Isso inclui você, Helga.~
+/* Helga */ @11100318 = ~Hmpf. Pode continuar dizendo que luta pela virtude do bem, mas eu sei que, no fundo, faz isso pelo prazer que a glória de uma boa batalha proporciona.~
+/* Dusk */ @11100317 = ~*sorri* Talvez. Nunca tinha pensado por esse lado.~
 
 // Helga / Dusk (Evil) 3
-/* Helga */ @11100319 = ~Aye, scarlet suits you well, Dusk.~
-/* Dusk */ @11100320 = ~What are you saying?~
-/* Helga */ @11100321 = ~Nothing. Just thinking out loud. Whatever you did with that scarlet orb you sometimes mention, it has resulted in a glorious change.~
-/* Dusk */ @11100322 = ~Not many would agree with your thinking.~
-/* Helga */ @11100323 = ~The glory of battle is all that matters. Have you sacrificed a few years of your life for what you are now? It has been well worth it.~
-/* Dusk */ @11100324 = ~Really? I'm not sure what the 'deal' I made with Pandemonium is like, but perhaps, after all, those years don't matter.~
-/* Dusk */ @11100325 = ~Maybe at the end of all things, I will end up like Danctian.~
-/* Helga */ @11100326 = ~Who? Do you mean that shadowy thing in Aran's warehouses?~
-/* Dusk */ @11100327 = ~Yes. What would you do if it came to that, Helga?~
-/* Helga */ @11100328 = ~Shadow demons are not to my liking, that's for sure. But if you force me to fight you under those circumstances, I would do so to the death.~
-/* Dusk */ @11100329 = ~I could expect nothing less from you, Helga.~
+/* Helga */ @11100319 = ~Sim, o escarlate lhe cai muito bem, Dusk.~
+/* Dusk */ @11100320 = ~Do que está falando?~
+/* Helga */ @11100321 = ~De nada. Só pensando em voz alta. Seja lá o que você fez com aquela orbe escarlate de que às vezes fala, o resultado foi uma mudança gloriosa.~
+/* Dusk */ @11100322 = ~Poucos concordariam com sua maneira de pensar.~
+/* Helga */ @11100323 = ~A glória da batalha é tudo o que importa. Você sacrificou alguns anos de vida para se tornar o que é agora? Valeu muito a pena.~
+/* Dusk */ @11100324 = ~Mesmo? Não sei como é exatamente o "acordo" que fiz com Pandemônio, mas talvez, no fim das contas, esses anos realmente não importem.~
+/* Dusk */ @11100325 = ~Talvez, quando tudo terminar, eu acabe como Danctian.~
+/* Helga */ @11100326 = ~Quem? Aquela coisa sombria dos armazéns de Aran?~
+/* Dusk */ @11100327 = ~Sim. O que faria se isso acontecesse, Helga?~
+/* Helga */ @11100328 = ~Demônios das sombras não são do meu agrado, isso é certo. Mas se me obrigar a enfrentá-lo nessas circunstâncias, lutarei até a morte.~
+/* Dusk */ @11100329 = ~Eu não esperaria menos de você, Helga.~
 
 // Helga / Fall
-/* Helga */ @11100330 = ~Girl Fall, how have you trained your wolves? I must admit they are good combatants.~
-/* Fall */ @11100331 = ~Train them? Well, the truth is that whenever I could, I would summon them from the Astral Plane.~
-/* Fall */ @11100332 = ~Mostly just to play or greet them, but I admit that sometimes they partook in my travels through the dangerous forests surrounding Brost.~
-/* Helga */ @11100333 = ~I am no great lover of furry things, but I can make an exception for your creatures. Fighting by their side is a fine advantage on the battlefield.~
-/* Fall */ @11100334 = ~I think they enjoy your company too.~
-/* Helga */ @11100335 = ~They enjoy fighting by my side, of that I am certain.~
+/* Helga */ @11100330 = ~Garota Fall, como você treinou seus lobos? Devo admitir que eles são bons combatentes.~
+/* Fall */ @11100331 = ~Treiná-los? Bem, a verdade é que, sempre que podia, eu os invocava do Plano Astral.~
+/* Fall */ @11100332 = ~Na maior parte do tempo apenas para brincar ou cumprimentá-los, mas admito que, às vezes, eles participavam das minhas viagens pelas perigosas florestas ao redor de Brost.~
+/* Helga */ @11100333 = ~Não sou grande fã de criaturas peludas, mas posso abrir uma exceção para os seus. Lutar ao lado deles é uma grande vantagem no campo de batalha.~
+/* Fall */ @11100334 = ~Acho que eles também gostam da sua companhia.~
+/* Helga */ @11100335 = ~Eles gostam de lutar ao meu lado, disso tenho certeza.~
 
 // Helga / Alendir
-/* Helga */ @11100336 = ~You looked better before, snowy. Aye, definitely.~
-/* Alendir */ @11100337 = ~What did you say, dwarf?~
-/* Helga */ @11100338 = ~I mean back when you had wrinkles. You might be rejuvenated by that witch in fine clothes, but you were better off before.~
-/* Alendir */ @11100339 = ~I can somewhat understand your words. In the past, I wielded greater power.~
-/* Helga */ @11100340 = ~I don't mean that. You were more... pleasing to the eyes before. Old, wise, and confident.~
-/* Alendir */ @11100341 = ~T-that... I did not expect.~
-/* Helga */ @11100342 = ~Are you blushing? And here I thought only ice ran through your veins, old man.~
+/* Helga */ @11100336 = ~Você era mais bonito antes, branquelão. Ah, sem dúvida nenhuma.~
+/* Alendir */ @11100337 = ~O que foi que disse, anã?~
+/* Helga */ @11100338 = ~Quero dizer quando você tinha rugas. Você pode ter rejuvenescido graças àquela bruxa de roupas elegantes, mas antes estava melhor.~
+/* Alendir */ @11100339 = ~Posso compreender um pouco suas palavras. No passado, eu possuía um poder maior.~
+/* Helga */ @11100340 = ~Não foi isso que quis dizer. Você era mais... agradável aos olhos. Velho, sábio e confiante.~
+/* Alendir */ @11100341 = ~I-isso... eu não esperava.~
+/* Helga */ @11100342 = ~Está corando? E eu que pensava que só gelo corria pelas suas veias, velho.~
 
 // Helga / Cho'Nuja
-/* Helga */ @11100343 = ~You are a formidable creature, scaly. Seldom have I seen a warrior use his own body to dismember his opponents.~
-/* Cho'Nuja */ @11100344 = ~Thank you, my lady. Being a high-class warrior has been my privilege as a member of the Jon draconic clan.~
-/* Helga */ @11100345 = ~Aye, I have no idea what you're talking about.~
-/* Cho'Nuja */ @11100346 = ~Only the strongest soldiers rise to the very top in Dreach-naga.~
-/* Helga */ @11100347 = ~I think I understand. And I believe you understand the glory of fighting against strong enemies.~
-/* Cho'Nuja */ @11100348 = ~Indeed, my lady. I have seen you fight, and it is no exaggeration to declare that you would have been a useful member in the ranks of the draconic champions.~
-/* Helga */ @11100349 = ~Aye, I suppose I can drink to that.~
+/* Helga */ @11100343 = ~Você é uma criatura formidável, escamoso. Raramente vi um guerreiro usar o próprio corpo para despedaçar seus adversários.~
+/* Cho'Nuja */ @11100344 = ~Obrigado, minha senhora. Ser um guerreiro de alta classe foi meu privilégio como membro do clã dracônico Jon.~
+/* Helga */ @11100345 = ~Ah, não faço ideia do que está falando.~
+/* Cho'Nuja */ @11100346 = ~Apenas os soldados mais fortes alcançam o topo em Dreach-naga.~
+/* Helga */ @11100347 = ~Acho que entendi. E acredito que você compreende a glória de lutar contra inimigos poderosos.~
+/* Cho'Nuja */ @11100348 = ~De fato, minha senhora. Eu a vi lutar, e não é exagero dizer que teria sido um membro valioso entre os campeões dracônicos.~
+/* Helga */ @11100349 = ~Ah, acho que posso brindar a isso.~
 
 // KALE
 // Kale / Dusk (Neutral) 1
-/* Dusk */ @11100350 = ~How many times must I apologize, Kale? I've told you, it was an accident.~
-/* Kale */ @11100351 = ~Why don't you admit that you don't even consider halflings, Dusk? It's not the first time a long-legs ignores my presence, you know?~
-/* Dusk */ @11100352 = ~Well, that might be due to your stealth, my good friend.~
-/* Kale */ @11100353 = ~Don't try to sweet-talk me, boy. I'm still waiting for you to make up for your clumsiness.~
-/* Dusk */ @11100354 = ~*sigh* All right, Kale. Perhaps we can work something out at the tavern next time we visit.~
-/* Kale */ @11100355 = ~Now that sounds good to me.~
+/* Dusk */ @11100350 = ~Quantas vezes preciso me desculpar, Kale? Já lhe disse, foi um acidente.~
+/* Kale */ @11100351 = ~Por que você simplesmente não admite que nem considera os halflings, Dusk? Não é a primeira vez que um pernudo ignora minha presença, sabia?~
+/* Dusk */ @11100352 = ~Bem, isso talvez seja por causa da sua furtividade, meu bom amigo.~
+/* Kale */ @11100353 = ~Não tente me bajular, garoto. Ainda estou esperando você compensar sua falta de jeito.~
+/* Dusk */ @11100354 = ~*suspiro* Está bem, Kale. Talvez possamos resolver isso na taverna da próxima vez que passarmos por uma.~
+/* Kale */ @11100355 = ~Agora sim você está falando minha língua.~
 
 // Kale / Dusk (Good)
-/* Kale */ @11100356 = ~So... Dusk, you don't drink ale anymore? I must say, that is a disappointment.~
-/* Dusk */ @11100357 = ~Why do you say that? I still drink.~
-/* Kale */ @11100358 = ~Come on, it's obvious you've changed drastically. Your love for trees has made you more... self-righteous.~
-/* Dusk */ @11100359 = ~Well, I might not drink as much as I used to. I try to keep my body as healthy as possible.~
-/* Kale */ @11100360 = ~You were more fun before, you know?~
-/* Dusk */ @11100361 = ~You only say that because you want me to keep paying for your ale.~
-/* Kale */ @11100362 = ~You caught me.~
+/* Kale */ @11100356 = ~Então... Dusk, você não bebe mais cerveja? Devo dizer que isso é uma decepção.~
+/* Dusk */ @11100357 = ~Por que diz isso? Eu ainda bebo.~
+/* Kale */ @11100358 = ~Vamos, é óbvio que você mudou bastante. Esse seu amor pelas árvores deixou você mais... certinho.~
+/* Dusk */ @11100359 = ~Bem, talvez eu não beba tanto quanto antes. Tento manter meu corpo o mais saudável possível.~
+/* Kale */ @11100360 = ~Você era mais divertido antes, sabia?~
+/* Dusk */ @11100361 = ~Você só diz isso porque quer que eu continue pagando sua cerveja.~
+/* Kale */ @11100362 = ~Você me pegou.~
 
 // Kale / Dusk (Evil)
-/* Kale */ @11100363 = ~So... Dusk, you don't drink ale anymore? I must say, that is a disappointment.~
-/* Dusk */ @11100364 = ~I am not going to pay for your vices, halfling.~
-/* Kale */ @11100365 = ~Hey, that's offensive. Not even one last time?~
-/* Dusk */ @11100366 = ~Stop pestering me.~
-/* Kale */ @11100367 = ~Fine, fine.~
+/* Kale */ @11100363 = ~Então... Dusk, você não bebe mais cerveja? Devo dizer que isso é uma decepção.~
+/* Dusk */ @11100364 = ~Não vou sustentar seus vícios, halfling.~
+/* Kale */ @11100365 = ~Ei, isso foi ofensivo. Nem uma última vez?~
+/* Dusk */ @11100366 = ~Pare de me importunar.~
+/* Kale */ @11100367 = ~Tá bom, tá bom.~
 
 // Kale / Fall
-/* Kale */ @11100368 = ~By Tymora, girl, keep your wolves under control.~
-/* Fall */ @11100369 = ~What's wrong, Kale? You have no reason to fear my siblings.~
-/* Kale */ @11100370 = ~Your "siblings" are looking at me with a deep craving for tasty halfling meat.~
-/* Fall */ @11100371 = ~How do you know your own flesh is tasty, Kale?~
-/* Kale */ @11100372 = ~Good point. I assume your furry friends have good taste, and the fact that they watch me so closely is proof of it.~
-/* Fall */ @11100373 = ~I can assure you, Kale. Neither Daren nor Sinna has any interest in eating you.~
-/* Kale */ @11100374 = ~They'd better not. I wouldn't want to have to slap them across the muzzle, you know?~
-/* Fall */ @11100375 = ~Nobody wants that.~
+/* Kale */ @11100368 = ~Pela Tymora, garota, mantenha seus lobos sob controle.~
+/* Fall */ @11100369 = ~O que houve, Kale? Você não tem motivo para temer meus irmãos.~
+/* Kale */ @11100370 = ~Seus "irmãos" estão me olhando com uma vontade enorme de comer uma deliciosa carne de halfling.~
+/* Fall */ @11100371 = ~Como você sabe que sua própria carne é saborosa, Kale?~
+/* Kale */ @11100372 = ~Boa pergunta. Presumo que seus amigos peludos tenham bom gosto, e o fato de ficarem me encarando é a prova disso.~
+/* Fall */ @11100373 = ~Posso lhe garantir, Kale. Nem Daren nem Sinna têm qualquer interesse em devorá-lo.~
+/* Kale */ @11100374 = ~É bom que não tenham. Não gostaria de ter que dar um tapa no focinho deles, sabe?~
+/* Fall */ @11100375 = ~Ninguém gostaria disso.~
 
 // Kale / Cho'Nuja
-/* Kale */ @11100376 = ~So... what's it like going through life naked, Cho?~
+/* Kale */ @11100376 = ~Então... como é passar a vida pelado, Cho?~
 /* Cho'Nuja */ @11100377 = ~...~
-/* Kale */ @11100378 = ~Hey, I'm talking to you.~
-/* Cho'Nuja */ @11100379 = ~Hm? Oh, I am sorry, little one. *bends down*~
-/* Kale */ @11100380 = ~Were you saying something?~
-/* Kale */ @11100381 = ~*sigh* Never mind. What you do is highly offensive.~
-/* Cho'Nuja */ @11100382 = ~Offensive? I long for a good combat. Do not worry, little furry one. I shall take the front line.~
-/* Kale */ @11100383 = ~Nobody denies that, General.~
+/* Kale */ @11100378 = ~Ei, estou falando com você.~
+/* Cho'Nuja */ @11100379 = ~Hm? Ah, desculpe, pequenino. *abaixa-se*~
+/* Cho'Nuja */ @11100380 = ~Você estava dizendo alguma coisa?~
+/* Kale */ @11100381 = ~*suspiro* Deixa pra lá. O que você faz é profundamente ofensivo.~
+/* Cho'Nuja */ @11100382 = ~Ofensivo? Eu anseio por um bom combate. Não se preocupe, pequeno peludo. Eu assumirei a linha de frente.~
+/* Kale */ @11100383 = ~Ninguém duvida disso, General.~
 
 // Kale / Alendir
-/* Kale */ @11100384 = ~So... why do you admire ice so much, Alendir? It's boring, I don't see the appeal.~
-/* Alendir */ @11100385 = ~I have no time for your foolishness, halfling.~
-/* Kale */ @11100386 = ~Really? But you've reclaimed many years of life. I'd say time is the one thing you have plenty of.~
-/* Alendir */ @11100387 = ~*sigh* Well, I may have time, but I do not wish to waste it on nonsense.~
-/* Kale */ @11100388 = ~Oh, my bad. I guess having a shrine to a giant snowman makes perfect sense, doesn't it?~
-/* Alendir */ @11100389 = ~My former self would have frozen your tongue for your insolence, but I must admit that shrines and temples are no longer to my liking.~
-/* Kale */ @11100390 = ~My, and here I was hoping to exasperate you a little.~
-/* Alendir */ @11100391 = ~What makes you think you have failed in your endeavor?~
+/* Kale */ @11100384 = ~Então... por que você admira tanto o gelo, Alendir? É tão sem graça, não vejo a menor graça nisso.~
+/* Alendir */ @11100385 = ~Não tenho tempo para suas tolices, halfling.~
+/* Kale */ @11100386 = ~É mesmo? Mas você recuperou muitos anos de vida. Eu diria que tempo é justamente o que mais tem de sobra.~
+/* Alendir */ @11100387 = ~*suspiro* Bem, talvez eu tenha tempo, mas não desejo desperdiçá-lo com bobagens.~
+/* Kale */ @11100388 = ~Ah, foi mal. Achei que fazer um santuário para um boneco de neve gigante fazia todo sentido, não é?~
+/* Alendir */ @11100389 = ~Meu antigo eu teria congelado sua língua por tamanha insolência, mas devo admitir que santuários e templos já não me agradam mais.~
+/* Kale */ @11100390 = ~Ora, e eu que esperava irritá-lo um pouquinho.~
+/* Alendir */ @11100391 = ~O que o faz pensar que você fracassou em sua tentativa?~
 
 // RECORDER
 // Recorder / Dusk (Neutral)
-/* Dusk */ @11100392 = ~You have very nice handwriting, Recorder.~
-/* Recorder */ @11100393 = ~Oh, thank you, Dusk. I suppose practice makes perfect.~
-/* Dusk */ @11100394 = ~Yes. Well, I cannot say the same for myself. Sometimes I cannot even understand my own scrawl.~
-/* Recorder */ @11100395 = ~Yes, I have noticed that you write. Especially when <CHARNAME> needs to interact with vendors and merchants. Why? I don't picture you as a mere merchant.~
-/* Dusk */ @11100396 = ~Why not? It doesn't seem that complicated.~
-/* Recorder */ @11100397 = ~That is not what I meant. Your combat skills are exceptional. While your trading skills... well, to be fair, I have yet to see them.~
-/* Dusk */ @11100398 = ~*clears throat* Well, I have thought about selling magical artifacts. Perhaps scrolls. I have knowledge of magic despite not using it, you know? I just need to practice my lines and pitches.~
-/* Recorder */ @11100399 = ~Have you come up with anything? You can practice with me, if you like.~
-/* Dusk */ @11100400 = ~That is very kind of you. Look, how does this sound for a start?~
-/* Recorder */ @11100401 = ~Hm. Perhaps we should work on your handwriting first. It is barely legible what you have written there.~
-/* Dusk */ @11100402 = ~*scratches head* All right, all right. We will do it your way.~
+/* Dusk */ @11100392 = ~Você tem uma caligrafia muito bonita, Recorder.~
+/* Recorder */ @11100393 = ~Ah, obrigada, Dusk. Acho que a prática leva à perfeição.~
+/* Dusk */ @11100394 = ~Sim. Bem, não posso dizer o mesmo sobre mim. Às vezes nem eu consigo entender minha própria letra.~
+/* Recorder */ @11100395 = ~Sim, eu percebi que você escreve. Principalmente quando <CHARNAME> precisa negociar com vendedores e mercadores. Mas por quê? Não consigo imaginá-lo como um simples comerciante.~
+/* Dusk */ @11100396 = ~Por que não? Não parece tão complicado.~
+/* Recorder */ @11100397 = ~Não foi isso que quis dizer. Suas habilidades em combate são excepcionais. Já suas habilidades comerciais... bem, para ser sincera, ainda não tive a oportunidade de vê-las.~
+/* Dusk */ @11100398 = ~*coça a garganta* Bem, pensei em vender artefatos mágicos. Talvez pergaminhos. Eu tenho conhecimento de magia, apesar de não utilizá-la, sabia? Só preciso praticar meus discursos de venda.~
+/* Recorder */ @11100399 = ~Já pensou em alguma coisa? Se quiser, pode treinar comigo.~
+/* Dusk */ @11100400 = ~Muito gentil da sua parte. Veja, o que acha disso para começar?~
+/* Recorder */ @11100401 = ~Hm. Acho melhor trabalharmos primeiro na sua caligrafia. Mal consigo ler o que você escreveu aí.~
+/* Dusk */ @11100402 = ~*coça a cabeça* Está bem, está bem. Faremos do seu jeito.~
 
 // Recorder / Dusk (Good)
-/* Recorder */ @11100403 = ~Dusk, may I ask you something personal?~
-/* Dusk */ @11100404 = ~Of course, my friend. Feel free to ask whatever you wish.~
-/* Recorder */ @11100405 = ~What did you feel when you took the power of Sornhil's orb? It seemed like a dangerous moment.~
-/* Dusk */ @11100406 = ~Perhaps it was dangerous. Truth is, Michelson facilitated the process thanks to the purification he achieved on the orb.~
-/* Dusk */ @11100407 = ~Sornhil intended to set a trap with the object since it appeared to be cursed. Though I am not so sure about the latter.~
-/* Dusk */ @11100408 = ~But you ask me what I felt. It is a bit complicated to put into words, but I will try.~
-/* Dusk */ @11100409 = ~Many memories rushed back to me when my eyes rested upon the emerald light. I remember walking through the forest of Elbereth and the zephyr on my cheeks.~
-/* Dusk */ @11100410 = ~The crisp air in my hair and the scent of wet earth filling my chest. I also remember Cormyr, and I saw myself as a child again, running through my father's meadows.~
-/* Dusk */ @11100411 = ~But most importantly... my thirst for vengeance slowly dissipating, and my mind clearing because of it.~
-/* Dusk */ @11100412 = ~By the time the process ended, with my perception of time already somewhat hazy, I ended up becoming who I am now.~
-/* Dusk */ @11100413 = ~I hope I've made myself clear, Recorder. And I hope I have answered your question.~
-/* Recorder */ @11100414 = ~Thank you, Dusk. I truly appreciate you sharing that moment with me.~
+/* Recorder */ @11100403 = ~Dusk, posso lhe fazer uma pergunta pessoal?~
+/* Dusk */ @11100404 = ~Claro, minha amiga. Sinta-se à vontade para perguntar o que desejar.~
+/* Recorder */ @11100405 = ~O que você sentiu ao absorver o poder do orbe de Sornhil? Pareceu ser um momento perigoso.~
+/* Dusk */ @11100406 = ~Talvez tenha sido perigoso. A verdade é que Michelson facilitou o processo graças à purificação que realizou no orbe.~
+/* Dusk */ @11100407 = ~Sornhil pretendia fazer daquele objeto uma armadilha, já que ele parecia estar amaldiçoado. Embora eu não tenha tanta certeza quanto a isso.~
+/* Dusk */ @11100408 = ~Mas você perguntou o que eu senti. É um pouco complicado colocar isso em palavras, mas vou tentar.~
+/* Dusk */ @11100409 = ~Muitas lembranças voltaram quando meus olhos repousaram sobre a luz esmeralda. Lembro-me de caminhar pela floresta de Elbereth e sentir o zéfiro acariciar meu rosto.~
+/* Dusk */ @11100410 = ~O ar fresco em meus cabelos e o cheiro da terra molhada preenchendo meu peito. Também me lembrei de Cormyr, e me vi novamente como uma criança correndo pelos campos do meu pai.~
+/* Dusk */ @11100411 = ~Mas, acima de tudo... minha sede de vingança foi lentamente se dissipando, e minha mente se clareando por causa disso.~
+/* Dusk */ @11100412 = ~Quando o processo terminou, com minha percepção do tempo já um tanto nebulosa, acabei me tornando quem sou agora.~
+/* Dusk */ @11100413 = ~Espero ter conseguido me explicar, Recorder. E espero ter respondido à sua pergunta.~
+/* Recorder */ @11100414 = ~Obrigada, Dusk. Eu realmente agradeço por compartilhar esse momento comigo.~
 
 // Recorder / Dusk (Evil)
-/* Recorder */ @11100415 = ~Dusk, may I ask you something personal?~
-/* Dusk */ @11100416 = ~Speak.~
-/* Recorder */ @11100417 = ~What did you feel when you took the power of Sornhil's orb? It seemed like a dangerous moment.~
-/* Dusk */ @11100418 = ~Why the blazes do you want to know that?~
-/* Recorder */ @11100419 = ~I would like to know. None of us knows what you saw or experienced at that moment.~
-/* Dusk */ @11100420 = ~I saw Pandemonium and everything that comes with it. I saw power, and I grasped it in my hands.~
-/* Dusk */ @11100421 = ~As a result, you see the man before you now. An agent of vengeance who will strike with the full weight of his sword wherever my heart or <CHARNAME> command.~
-/* Recorder */ @11100422 = ~W-well, it looked like it was something more complex than that. You seemed frightened.~
-/* Dusk */ @11100423 = ~Perhaps the man I once was. Before, I was weak, and the weak let fear invade their body and mind.~
-/* Dusk */ @11100424 = ~That ended when my years in Pandemonium came to a close.~
-/* Recorder */ @11100425 = ~Years? But you were only focused on the Scarlet Orb for a brief moment.~
-/* Dusk */ @11100426 = ~Ha. This bores me. Let us move on. I am tired of talking.~
+/* Recorder */ @11100415 = ~Dusk, posso lhe fazer uma pergunta pessoal?~
+/* Dusk */ @11100416 = ~Fale.~
+/* Recorder */ @11100417 = ~O que você sentiu ao absorver o poder do orbe de Sornhil? Pareceu ser um momento perigoso.~
+/* Dusk */ @11100418 = ~Por que diabos você quer saber disso?~
+/* Recorder */ @11100419 = ~Porque eu gostaria de saber. Nenhum de nós sabe o que você viu ou experimentou naquele momento.~
+/* Dusk */ @11100420 = ~Eu vi o Pandemônio e tudo o que ele traz consigo. Eu vi o poder, e o tomei em minhas mãos.~
+/* Dusk */ @11100421 = ~Como resultado, você vê o homem que está diante de você agora. Um agente da vingança que golpeará com todo o peso de sua espada onde quer que meu coração ou <CHARNAME> ordenem.~
+/* Recorder */ @11100422 = ~B-bem, parecia ser algo mais complexo do que isso. Você parecia assustado.~
+/* Dusk */ @11100423 = ~Talvez o homem que eu costumava ser. Antes eu era fraco, e os fracos permitem que o medo invada seus corpos e suas mentes.~
+/* Dusk */ @11100424 = ~Isso terminou quando meus anos no Pandemônio chegaram ao fim.~
+/* Recorder */ @11100425 = ~Anos? Mas você ficou olhando para o Orbe Escarlate apenas por um breve instante.~
+/* Dusk */ @11100426 = ~Ha. Isso me entedia. Vamos em frente. Estou cansado de conversar.~
 
 // Recorder / Fall
-/* Recorder */ @11100427 = ~I must say, Fall, that Gustav does not feel comfortable at all around Daren or Sinna. Especially Daren. Well, definitely not Sinna either.~
-/* Fall */ @11100428 = ~Why? My furry siblings won't do anything to Gustav.~
-/* Recorder */ @11100429 = ~I am not so sure about that. I have seen when a predator is hungry, Fall!~
-/* Fall */ @11100430 = ~To be fair, Daren and Sinna are always hungry. But they don't eat their friends!~
-/* Recorder */ @11100431 = ~Do you honestly believe your wolves consider Gustav a friend?~
-/* Fall */ @11100432 = ~Of course, Recorder. Why wouldn't they?~
-/* Recorder */ @11100433 = ~Did you not listen to my point about a predator's hunger?~
-/* Recorder */ @11100434 = ~Well, never mind. I trust your commands will be more than enough for them to remain good and friendly toward Gustav, yes?~
-/* Fall */ @11100435 = ~Naturally. After all, you are speaking to the Beast Mistress.~
+/* Recorder */ @11100427 = ~Devo dizer, Fall, que Gustav não se sente nem um pouco confortável perto de Daren ou Sinna. Principalmente de Daren. Bem... definitivamente nem de Sinna.~
+/* Fall */ @11100428 = ~Por quê? Meus irmãos peludos não fariam nada ao Gustav.~
+/* Recorder */ @11100429 = ~Disso eu não tenho tanta certeza. Já vi como um predador se comporta quando está com fome, Fall!~
+/* Fall */ @11100430 = ~Para ser sincera, Daren e Sinna estão sempre com fome. Mas eles não comem seus amigos!~
+/* Recorder */ @11100431 = ~Você realmente acredita que seus lobos consideram Gustav um amigo?~
+/* Fall */ @11100432 = ~Claro, Recorder. Por que não considerariam?~
+/* Recorder */ @11100433 = ~Você não ouviu o que eu disse sobre a fome de um predador?~
+/* Recorder */ @11100434 = ~Bem, deixa pra lá. Confio que seus comandos serão mais do que suficientes para que eles continuem sendo gentis e amigáveis com Gustav, certo?~
+/* Fall */ @11100435 = ~Naturalmente. Afinal, você está falando com a Senhora das Feras.~
 /* Recorder */ @11100436 = ~...~
 
 // Recorder / Alendir
-/* Recorder */ @11100437 = ~Alendir, may I ask you something?~
-/* Alendir */ @11100438 = ~*sigh* Tell me, child. What is it you want to know?~
-/* Recorder */ @11100439 = ~What was it like to die?~
+/* Recorder */ @11100437 = ~Alendir, posso lhe perguntar uma coisa?~
+/* Alendir */ @11100438 = ~*suspiro* Diga-me, criança. O que deseja saber?~
+/* Recorder */ @11100439 = ~Como foi morrer?~
 /* Alendir */ @11100440 = ~...~
-/* Recorder */ @11100441 = ~Oh, I am sorry if I was too blunt about it. I did not mean to—~
-/* Alendir */ @11100442 = ~Why do you want to know something so macabre? Gnomes, one never knows what they will come up with.~
-/* Recorder */ @11100443 = ~I want to write about it. It strikes me as a story worthy of being told.~
-/* Alendir */ @11100444 = ~The part where I am crushed by a golem? It did not seem very worthy to me.~
-/* Recorder */ @11100445 = ~You may try to act cynical, Alendir, but I know you sacrificed your life to help <CHARNAME> and Fall in the clash against Icelock.~
-/* Recorder */ @11100446 = ~Whether you like it or not, your death was heroic.~
-/* Alendir */ @11100447 = ~I have no interest in being a hero, little one. What I would be interested in right now is a good campfire and a comfortable chair to read one of my books from Frostfell.~
-/* Recorder */ @11100448 = ~All right...~
-/* Alendir */ @11100449 = ~But... we shall speak another time about whatever you wish. Now go bother someone else.~
-/* Recorder */ @11100450 = ~I'll hold you to your word, old man.~
+/* Recorder */ @11100441 = ~Ah, me desculpe se fui direta demais. Eu não queria...~
+/* Alendir */ @11100442 = ~Por que deseja saber algo tão macabro? Gnomos... nunca se sabe o que vai passar pela cabeça de vocês.~
+/* Recorder */ @11100443 = ~Quero escrever sobre isso. Parece-me uma história digna de ser contada.~
+/* Alendir */ @11100444 = ~A parte em que sou esmagado por um golem? Isso não me pareceu muito digno.~
+/* Recorder */ @11100445 = ~Você pode tentar agir com cinismo, Alendir, mas eu sei que sacrificou sua vida para ajudar <CHARNAME> e Fall no confronto contra Icelock.~
+/* Recorder */ @11100446 = ~Queira você ou não, sua morte foi heroica.~
+/* Alendir */ @11100447 = ~Não tenho interesse em ser um herói, pequena. O que realmente me interessaria agora seria uma boa fogueira e uma cadeira confortável para ler um dos meus livros de Frostfell.~
+/* Recorder */ @11100448 = ~Tudo bem...~
+/* Alendir */ @11100449 = ~Mas... conversaremos outra hora sobre o que você quiser. Agora vá importunar outra pessoa.~
+/* Recorder */ @11100450 = ~Vou cobrar sua palavra, velho.~
 
 // Recorder / Cho'Nuja
-/* Recorder */ @11100451 = ~Cho! Gustav is not here to satisfy your strange voracity, you know?~
-/* Cho'Nuja */ @11100452 = ~Hm? What is a Gustav?~
-/* Recorder */ @11100453 = ~My ferret! I have seen how you look at him.~
-/* Cho'Nuja */ @11100454 = ~Ah, the furry rodent. I have no interest in eating him, little elf.~
-/* Recorder */ @11100455 = ~I am not an elf! I am a gnome.~
-/* Cho'Nuja */ @11100456 = ~I ask your forgiveness, honestly all of you look alike to me. I will get used to it.~
-/* Cho'Nuja */ @11100457 = ~But rest assured, my gnome friend, that I do not intend to feed on your Gustav.~
-/* Recorder */ @11100458 = ~Well, I suppose I will take your word for it.~
+/* Recorder */ @11100451 = ~Cho! Gustav não está aqui para satisfazer seu estranho apetite, ouviu?~
+/* Cho'Nuja */ @11100452 = ~Hm? O que é um Gustav?~
+/* Recorder */ @11100453 = ~Meu furão! Eu vi o jeito como você olha para ele.~
+/* Cho'Nuja */ @11100454 = ~Ah, o roedor peludo. Não tenho interesse em comê-lo, pequena elfa.~
+/* Recorder */ @11100455 = ~Eu não sou uma elfa! Sou uma gnoma.~
+/* Cho'Nuja */ @11100456 = ~Peço-lhe perdão. Honestamente, todos vocês parecem iguais para mim. Vou me acostumar.~
+/* Cho'Nuja */ @11100457 = ~Mas fique tranquila, minha amiga gnoma. Não pretendo me alimentar do seu Gustav.~
+/* Recorder */ @11100458 = ~Bem, suponho que vou acreditar na sua palavra.~
 
 // VIENXAY
 // Vienxay / Dusk (Neutral)
-/* Vienxay */ @11100459 = ~Ugh, I do not understand why <CHARNAME> would ever bring a Wizard Slayer into the group. It is so irritating.~
-/* Dusk */ @11100460 = ~You know I can hear you, Vienxay, right?~
-/* Vienxay */ @11100461 = ~That was my intention. I do not like you. I do not trust you.~
-/* Dusk */ @11100462 = ~You have no reason to fear me, I have nothing against you. My strength is here to protect <CHARNAME> and his own.~
-/* Vienxay */ @11100463 = ~I do not need your protection, human.~
-/* Dusk */ @11100464 = ~I know you don't. You are an elf of great skill, why would you need me? Even so, if anyone comes trying to hurt you, I will be there to prevent it.~
-/* Vienxay */ @11100465 = ~Hrmph. At least you are capable of recognizing my talent. Perhaps you are not so irritating after all.~
+/* Vienxay */ @11100459 = ~Ugh, não entendo por que <CHARNAME> traria um Caçador de Magos para o grupo. Isso é tão irritante.~
+/* Dusk */ @11100460 = ~Você sabe que eu consigo ouvi-la, Vienxay, não sabe?~
+/* Vienxay */ @11100461 = ~Essa era justamente a intenção. Eu não gosto de você. Não confio em você.~
+/* Dusk */ @11100462 = ~Você não tem motivos para me temer. Não tenho nada contra você. Minha força está aqui para proteger <CHARNAME> e aqueles que lhe são queridos.~
+/* Vienxay */ @11100463 = ~Eu não preciso da sua proteção, humano.~
+/* Dusk */ @11100464 = ~Eu sei que não. Você é uma elfa de grande habilidade, por que precisaria de mim? Ainda assim, se alguém tentar machucá-la, estarei lá para impedir.~
+/* Vienxay */ @11100465 = ~Hrmph. Pelo menos você é capaz de reconhecer meu talento. Talvez você não seja tão irritante assim.~
 
 // Vienxay / Dusk (Good) 1
-/* Vienxay */ @11100466 = ~If you were irritating before, you are even more so now. At least you wield greater power after absorbing the strength of the orb.~
-/* Dusk */ @11100467 = ~I do not know whether to take that as a compliment. Truth is, I have never felt better, Vienxay.~
-/* Vienxay */ @11100468 = ~You strive to imitate the elves, but you will never be like them, human. It matters not if you have adopted greater power from Mielikki or whoever it was.~
-/* Dusk */ @11100469 = ~I am not trying to be an elf, Vienxay. But my respect for them is deep, even for you. You have the capacity to be better, and I know you know it. When the opportunity arises, I know you will do the right thing.~
-/* Vienxay */ @11100470 = ~Hrmph. Get away from me, will you? This conversation is over.~
+/* Vienxay */ @11100466 = ~Se você já era irritante antes, agora é ainda mais. Pelo menos ficou mais poderoso depois de absorver a força do orbe.~
+/* Dusk */ @11100467 = ~Não sei se devo considerar isso um elogio. A verdade é que nunca me senti melhor, Vienxay.~
+/* Vienxay */ @11100468 = ~Você se esforça para imitar os elfos, mas jamais será como eles, humano. Não importa se adquiriu um poder maior de Mielikki ou de quem quer que tenha sido.~
+/* Dusk */ @11100469 = ~Não estou tentando ser um elfo, Vienxay. Mas meu respeito por eles é profundo, inclusive por você. Você tem capacidade para ser melhor, e sei que também sabe disso. Quando surgir a oportunidade, sei que fará a coisa certa.~
+/* Vienxay */ @11100470 = ~Hrmph. Afaste-se de mim, sim? Esta conversa acabou.~
 
 // Vienxay (Neutral) / Dusk (Good) 2
-/* Vienxay */ @11100471 = ~Stop smiling at me, Dusk. It is already uncomfortable.~
-/* Dusk */ @11100472 = ~Oh, my apologies, my friend. But you must admit that you have changed.~
-/* Vienxay */ @11100473 = ~What do you mean by that?~
-/* Dusk */ @11100474 = ~You did the right thing for your people, even without expecting anything in return. That is a display of true character. I knew you had it in you.~
-/* Vienxay */ @11100475 = ~I suppose you were right, is that what you wanted to hear, Dusk?~
-/* Dusk */ @11100476 = ~No, no. I only wanted to tell you that I am proud of you. I do not know if your conflict with your people will ever be fully resolved, but if we are speaking of families, <CHARNAME> and the rest of us count among your own now.~
-/* Vienxay */ @11100477 = ~Hrmph. Fine comfort that is. But... thank you, Dusk.~
+/* Vienxay */ @11100471 = ~Pare de sorrir para mim, Dusk. Isso já está ficando desconfortável.~
+/* Dusk */ @11100472 = ~Oh, minhas desculpas, minha amiga. Mas você deve admitir que mudou.~
+/* Vienxay */ @11100473 = ~O que quer dizer com isso?~
+/* Dusk */ @11100474 = ~Você fez a coisa certa pelo seu povo, sem esperar nada em troca. Isso é demonstração de verdadeiro caráter. Eu sabia que isso existia dentro de você.~
+/* Vienxay */ @11100475 = ~Acho que você estava certo. Era isso que queria ouvir, Dusk?~
+/* Dusk */ @11100476 = ~Não, não. Eu só queria lhe dizer que tenho orgulho de você. Não sei se seu conflito com seu povo algum dia será completamente resolvido, mas, quando falamos de família, <CHARNAME> e todos nós agora também fazemos parte da sua.~
+/* Vienxay */ @11100477 = ~Hrmph. Belo consolo esse. Mas... obrigada, Dusk.~
 
 // Vienxay / Dusk (Evil)
-/* Vienxay */ @11100478 = ~You have made the right choice, Dusk. Seizing the power that was offered to you is something few would dare to do, and you have been successful in your endeavor.~
-/* Dusk */ @11100479 = ~I know, Vienxay. With this power, our path to victory will be easier.~
-/* Vienxay */ @11100480 = ~Our?~
-/* Dusk */ @11100481 = ~*smirks* Do you not have a goal in mind, sorceress? I will help you achieve it. Just tell me who your enemies are, and I shall pierce them with my sword.~
-/* Vienxay */ @11100482 = ~I do not need you to face my enemies, human. Though your offer, I must say, sounds tempting.~
-/* Dusk */ @11100483 = ~I am an agent of vengeance, Vienxay. When <CHARNAME> no longer needs me, do not hesitate to turn to me if you have something in mind.~
-/* Vienxay */ @11100484 = ~I shall think about it.~
+/* Vienxay */ @11100478 = ~Você fez a escolha certa, Dusk. Tomar para si o poder que lhe foi oferecido é algo que poucos ousariam fazer, e você foi bem-sucedido em seu intento.~
+/* Dusk */ @11100479 = ~Eu sei, Vienxay. Com esse poder, nosso caminho até a vitória será mais fácil.~
+/* Vienxay */ @11100480 = ~Nosso?~
+/* Dusk */ @11100481 = ~*sorri de canto* Você não tem um objetivo em mente, feiticeira? Eu a ajudarei a alcançá-lo. Basta me dizer quem são seus inimigos, e eu os trespassarei com minha espada.~
+/* Vienxay */ @11100482 = ~Eu não preciso de você para enfrentar meus inimigos, humano. Embora sua oferta, devo admitir, seja tentadora.~
+/* Dusk */ @11100483 = ~Sou um agente da vingança, Vienxay. Quando <CHARNAME> não precisar mais de mim, não hesite em recorrer a mim caso tenha algo em mente.~
+/* Vienxay */ @11100484 = ~Pensarei no assunto.~
 
 // Vienxay / Fall
-/* Vienxay */ @11100485 = ~Your dress is of a sublime quality, half-blood. I cannot fathom how it fell into your hands. Certainly, some are lucky because chance is blind, deaf, and evidently, has very poor taste when choosing whom to favor.~
-/* Fall */ @11100486 = ~I have no intention of feeding your hatred or your ego, Vienxay. Aim your words elsewhere.~
-/* Vienxay */ @11100487 = ~Hrmph. As expected: A pretty wrapping that perfectly camouflages a dull, predictable essence completely devoid of nuance.~
-/* Fall */ @11100488 = ~Whatever.~
+/* Vienxay */ @11100485 = ~Seu vestido é de uma qualidade sublime, mestiça. Não consigo imaginar como ele foi parar em suas mãos. Certamente, alguns têm sorte porque o acaso é cego, surdo e, evidentemente, tem um péssimo gosto ao escolher seus favorecidos.~
+/* Fall */ @11100486 = ~Não tenho intenção de alimentar seu ódio nem seu ego, Vienxay. Direcione suas palavras a outra pessoa.~
+/* Vienxay */ @11100487 = ~Hrmph. Como esperado: uma bela embalagem que camufla perfeitamente uma essência sem graça, previsível e completamente desprovida de qualquer nuance.~
+/* Fall */ @11100488 = ~Tanto faz.~
 
 // Vienxay / Alendir
-/* Vienxay */ @11100489 = ~Do you not miss your home, old man? I know Evereska is not remotely as glorious as Evermeet, but it is still far better than these dusty human lands.~
-/* Alendir */ @11100490 = ~Evereska is already part of my past, child. My memories of it are just that—memories.~
-/* Vienxay */ @11100491 = ~And what is your purpose then? Why be an elf of Cormanthyr in a world as wretched as this?~
-/* Alendir */ @11100492 = ~That I have yet to discover. Mystra brought me back to life, but she has given me no clues as to why.~
-/* Vienxay */ @11100493 = ~Hrmph. That must be a nuisance.~
-/* Alendir */ @11100494 = ~I am not so sure. As the days pass, uncertainties are eased by the expectation of tomorrow. I suppose... I am a bit more optimistic than before.~
-/* Alendir */ @11100495 = ~But do not tell anyone.~
-/* Vienxay */ @11100496 = ~Ugh, why would I? Your affairs are your own business.~
+/* Vienxay */ @11100489 = ~Você não sente falta do seu lar, velho? Sei que Evereska não chega nem perto da glória de Evermeet, mas ainda assim é muito melhor do que estas terras humanas cobertas de poeira.~
+/* Alendir */ @11100490 = ~Evereska já faz parte do meu passado, criança. Minhas lembranças dela são apenas isso... lembranças.~
+/* Vienxay */ @11100491 = ~E qual é o seu propósito, então? Por que ser um elfo de Cormanthyr em um mundo tão miserável quanto este?~
+/* Alendir */ @11100492 = ~Isso ainda está por ser descoberto. Mystra trouxe-me de volta à vida, mas não me deu nenhuma pista do motivo.~
+/* Vienxay */ @11100493 = ~Hrmph. Isso deve ser um incômodo.~
+/* Alendir */ @11100494 = ~Não tenho tanta certeza. À medida que os dias passam, as incertezas são amenizadas pela expectativa do amanhã. Suponho que... estou um pouco mais otimista do que antes.~
+/* Alendir */ @11100495 = ~Mas não conte isso a ninguém.~
+/* Vienxay */ @11100496 = ~Ugh, e por que eu contaria? Os seus assuntos dizem respeito apenas a você.~
 
 // Vienxay / Cho'Nuja
-/* Vienxay */ @11100497 = ~Ugh, have you ever considered using soap, lizardman? Your swamp stench is unbearable.~
-/* Cho'Nuja */ @11100498 = ~Soap? Sounds delicious. Do you have some of that, female?~
-/* Vienxay */ @11100499 = ~I do, but it is not for eating! It is used for bathing.~
-/* Cho'Nuja */ @11100500 = ~We have no need for baths. Being submerged in the depths of a lagoon or even a river is more than enough. We enjoy water very much.~
-/* Vienxay */ @11100501 = ~Well, it certainly doesn't show, because you reek.~
-/* Cho'Nuja */ @11100502 = ~My natural scent is my pride. I was respected in Dreach-naga both militarily and prolifically. Regrettably, the war against the spiders did not allow me the mating ritual to extend my lineage. But it is never too late.~
-/* Vienxay */ @11100503 = ~How did we end up talking about this? Please, get away from me.~
-/* Cho'Nuja */ @11100504 = ~Did I say something wrong?~
+/* Vienxay */ @11100497 = ~Ugh, você já pensou em usar sabão, homem-lagarto? O fedor do seu pântano é insuportável.~
+/* Cho'Nuja */ @11100498 = ~Sabão? Parece delicioso. Você tem um pouco disso, fêmea?~
+/* Vienxay */ @11100499 = ~Tenho, mas não é para comer! É para tomar banho.~
+/* Cho'Nuja */ @11100500 = ~Não temos necessidade de banhos. Mergulhar nas profundezas de uma lagoa ou mesmo de um rio é mais do que suficiente. Gostamos muito da água.~
+/* Vienxay */ @11100501 = ~Pois não parece, porque você fede.~
+/* Cho'Nuja */ @11100502 = ~Meu odor natural é meu orgulho. Eu era respeitado em Dreach-naga tanto militarmente quanto por minha capacidade reprodutiva. Infelizmente, a guerra contra as aranhas não me permitiu realizar o ritual de acasalamento para dar continuidade à minha linhagem. Mas nunca é tarde demais.~
+/* Vienxay */ @11100503 = ~Como foi que acabamos falando sobre isso? Por favor, afaste-se de mim.~
+/* Cho'Nuja */ @11100504 = ~Eu disse algo errado?~
 
 // Items personalizados
 @11100505 = ~Emily~
-@11100506 = ~Tome of Arcane Ammunition Crafting~
-@11100507 = ~This tome contains the necessary instructions for an archer to create a certain amount of magical ammunition for bows and crossbows. Crossbow bolts carry an acidic property, while bow arrows possess magical damage properties. Someone like Emily could learn this ability.
+@11100506 = ~Tomo de Criação de Munição Arcana~
+@11100507 = ~Este tomo contém as instruções necessárias para que um arqueiro possa criar uma certa quantidade de munição mágica para arcos e bestas. Os virotes de besta carregam propriedades ácidas, enquanto as flechas de arco possuem propriedades de dano mágico. Alguém como Emily poderia aprender esta habilidade.
 
-STATISTICS:
+ESTATÍSTICAS:
 
-Special Ability: Permanently learn "Arcane Ammunition Crafting" (1/day)
-Weight: 5 lbs.~
-@11100508 = ~Tome of Arcane Ammunition Crafting: "Arcane Ammunition Crafting" learned as an innate ability (1/day).~
-@11100509 = ~Acid Bolt +4~
-@11100510 = ~This bolt is infused with acid and will inflict an extra 1d4 points of acid damage.
+Habilidade Especial: Aprende permanentemente "Criação de Munição Arcana" (1 vez por dia)
+Peso: 5 libras.~
+@11100508 = ~Tomo de Criação de Munição Arcana: "Criação de Munição Arcana" aprendida como habilidade inata (1 vez por dia).~
+@11100509 = ~Virote Ácido +4~
+@11100510 = ~Este virote está imbuído com ácido e causará 1d4 pontos adicionais de dano por ácido.
 
-STATISTICS:
+ESTATÍSTICAS:
 
-Damage: 1d8+4, +1d4 acid damage
-Damage type: Missile
-Weight: 0 lbs
-Weapon Type: Crossbow~
-@11100511 = ~Magical Arrow +4~
-@11100512 = ~This arrow contains an arcane charge that will inflict an extra 1d4 points of magical damage.
+Dano: 1d8+4, +1d4 de dano por ácido
+Tipo de dano: Projétil
+Peso: 0 libras
+Tipo de arma: Besta~
+@11100511 = ~Flecha Mágica +4~
+@11100512 = ~Esta flecha contém uma carga arcana que causará 1d4 pontos adicionais de dano mágico.
 
-STATISTICS:
+ESTATÍSTICAS:
 
-Damage: 1d6+4, +1d4 magic damage
-Damage type: Missile
-Weight: 0 lbs
-Weapon Type: Bow~
-@11100513 = ~Craft Arcane Ammunition~
-@11100514 = ~Craft Arcane Ammunition
-(Innate)
+Dano: 1d6+4, +1d4 de dano mágico
+Tipo de dano: Projétil
+Peso: 0 libras
+Tipo de arma: Arco~
+@11100513 = ~Criar Munição Arcana~
+@11100514 = ~Criar Munição Arcana
+(Inata)
 
-Level: Innate
-Range: 0
-Duration: Special
-Casting Time: 6
-Area of Effect: The ranger
-Saving Throw: None
+Nível: Inata
+Alcance: 0
+Duração: Especial
+Tempo de Conjuração: 6
+Área de Efeito: O patrulheiro
+Teste de Resistência: Nenhum
 
-DESCRIPTION:
+DESCRIÇÃO:
 
-Through this ability, the archer is capable of creating bolts and arrows for their ranged weapons once a day. It will create 5 acid bolts and 5 arcane arrows, which will not expire until they are used.
+Por meio desta habilidade, o arqueiro é capaz de criar virotes e flechas para suas armas de longo alcance uma vez por dia. Serão criados 5 Virotes Ácidos e 5 Flechas Arcanas, que não desaparecerão até serem utilizados.
 
-Acid Bolts +4: 5 bolts
-Magical Arrows +4: 5 arrows~
+Virotes Ácidos +4: 5 virotes
+Flechas Mágicas +4: 5 flechas~
 
 @11100515 = ~Helga~
-@11100516 = ~Holy Potion of Haela's Fortitude~
-@11100517 = ~This thick beverage contains a liquid blessed by the high clerics of Haela and grants the bearer a great physical constitution permanently.
+@11100516 = ~Poção Sagrada da Fortaleza de Haela~
+@11100517 = ~Esta bebida espessa contém um líquido abençoado pelos altos clérigos de Haela e concede permanentemente ao portador uma grande resistência física.
 
-STATISTICS:
+ESTATÍSTICAS:
 
-Special Ability: +4 bonus to Constitution
-Weight: 1 lb.~
-@11100518 = ~Holy Potion of Haela's Fortitude: +4 bonus to Constitution~
+Habilidade Especial: Bônus de +4 em Constituição
+Peso: 1 libra.~
+@11100518 = ~Poção Sagrada da Fortaleza de Haela: bônus de +4 em Constituição~
 
 @11100519 = ~Kale~
-@11100520 = ~Potion of Super Halfling Fortune~
-@11100521 = ~This beverage possesses a sweet scent that fills the lungs of anyone who smells it. However, according to pre-established instructions, only a halfling named Kale may drink it, almost as if it had been brewed specifically for him.
+@11100520 = ~Poção da Super Sorte Halfling~
+@11100521 = ~Esta bebida possui um aroma adocicado que preenche os pulmões de qualquer um que a cheire. No entanto, de acordo com instruções previamente estabelecidas, apenas um halfling chamado Kale pode bebê-la, quase como se tivesse sido preparada especialmente para ele.
 
-STATISTICS:
+ESTATÍSTICAS:
 
-Special Ability: Permanently learn "Sling Champion" (1/day)
-Weight: 1 lb.~
-@11100522 = ~Potion of Super Halfling Fortune: "Sling Champion" learned as an innate ability (1/day).~
+Habilidade Especial: Aprende permanentemente "Campeão da Funda" (1 vez por dia)
+Peso: 1 libra.~
+@11100522 = ~Poção da Super Sorte Halfling: "Campeão da Funda" aprendido como habilidade inata (1 vez por dia).~
 
 @11100523 = ~Recorder~
-@11100524 = ~Harp of the Blizzard~
-@11100525 = ~This harp is icy to the touch and unbearable to hold for even a few minutes. While it is a bard's instrument, it is specifically designed so that the gnome known as Recorder may utilize it.
+@11100524 = ~Harpa da Nevasca~
+@11100525 = ~Esta harpa é gélida ao toque e insuportável de segurar por mais do que alguns minutos. Embora seja um instrumento de bardo, ela foi criada especificamente para que a gnoma conhecida como Recorder possa utilizá-la.
 
-STATISTICS:
+ESTATÍSTICAS:
 
-Equipped abilities:
-– Cold resistance: +90%
+Habilidades enquanto equipada:
+– Resistência ao frio: +90%
 
-Charge abilities:
-– Pure Ice Explosion (1/day)
+Habilidades por carga:
+– Explosão de Gelo Puro (1 vez por dia)
 
-Weight: 6 lbs.~
+Peso: 6 libras.~
 
 @11100526 = ~Vienxay~
-@11100527 = ~Arcane Dagger of the Shadows~
-@11100528 = ~This dagger, simple in appearance, rejects anyone who is not a Shadowmage. Notably, this weapon is tailored for the elf Vienxay and has the capacity to enhance magical capabilities while wielded, as well as returning to the user when thrown at an enemy.
+@11100527 = ~Adaga Arcana das Sombras~
+@11100528 = ~Esta adaga, de aparência simples, rejeita qualquer pessoa que não seja um Mago das Sombras. Notavelmente, esta arma foi criada sob medida para a elfa Vienxay e possui a capacidade de ampliar suas habilidades mágicas enquanto empunhada, além de retornar à sua mão quando arremessada contra um inimigo.
 
-STATISTICS:
+ESTATÍSTICAS:
 
-Combat abilities:
-– Returns to the wielder's hand when thrown
-– Range as a missile weapon: 100
+Habilidades de combate:
+– Retorna à mão da usuária quando arremessada
+– Alcance como arma de projétil: 100
 
-Equipped abilities:
-– Grants bonus arcane spell slots:
-  * Level 2: +3 slots
-  * Level 3: +2 slots
-  * Level 4: +1 slot
+Habilidades enquanto equipada:
+– Concede espaços adicionais para magias arcanas:
+  * Nível 2: +3 espaços
+  * Nível 3: +2 espaços
+  * Nível 4: +1 espaço
 
-THAC0: +4 bonus
-Damage: 2d4+4 (slashing)
-Speed Factor: 1
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength~
+THAC0: Bônus de +4
+Dano: 2d4+4 (cortante)
+Fator de Velocidade: 1
+Tipo de Proficiência: Adaga
+Tipo: Uma mão
+Requer:
+ 3 de Força~
  
- // P_DANCT2/P_DEMOL2 (Battle against the Order of Mages)
+// P_DANCT2/P_DEMOL2 (Batalha contra a Ordem dos Magos)
 // Emily
-@11100530 = ~Dusk, I will do everything in my power to give my best in this fight. The necromancers must not prevail!~
+@11100530 = ~Dusk, farei tudo ao meu alcance para dar o meu melhor nesta batalha. Os necromantes não podem prevalecer!~
 // Helga
-@11100531 = ~Alright, Wizard Slayer. It's time for war! Do not hold back, and unleash your fury in the glory of the battle to come.~
+@11100531 = ~Muito bem, Caçador de Magos. Chegou a hora da guerra! Não se contenha e liberte toda a sua fúria na glória da batalha que se aproxima.~
 // Kale
-@11100532 = ~So... is this the end of your vengeful journey, Dusk? If we make it out of this in one piece, remember that celebrating in a tavern is fully allowed, and the round of brews is on your tab, deal?~
+@11100532 = ~Então... este é o fim da sua jornada de vingança, Dusk? Se sairmos desta inteiros, lembre-se de que comemorar numa taverna é totalmente permitido, e a rodada será por sua conta, combinado?~
 // Recorder
-@11100533 = ~The final chapter of your struggle against the Order of Mages is within our reach, Dusk. It is an honor to be part of this. Now, to battle!~
+@11100533 = ~O capítulo final da sua luta contra a Ordem dos Magos está ao nosso alcance, Dusk. É uma honra fazer parte disto. Agora, à batalha!~
 // Vienxay
-@11100534 = ~Hrmph. Is this band of little men supposed to be the epitome of magic? I shall prove to them just how wrong they are...~
+@11100534 = ~Hmpf. Então este bando de homenzinhos é o ápice da magia? Vou mostrar a eles o quanto estão errados...~
 
-// P_DANCTI Danctian custom items
+// P_DANCTI Itens personalizados de Danctian
 // Emily
-@11100535 = ~Aasimar, fear not my presence. I harbor nothing but good intentions for the allies of Ardusk and <CHARNAME>. So much so, that this tome was crafted especially for you. Harness the power it will grant you, and you shall become an even more formidable ally to the Wizard Slayer's cause.~
-@11100536 = ~I-I... I don't know if I should. But since <CHARNAME> and Dusk believe you are trustworthy, I will take it. However, I will only read it if <CHARNAME> bids me to do so.~
+@11100535 = ~Aasimar, não tema minha presença. Não nutro nada além de boas intenções para com os aliados de Ardusk e <CHARNAME>. Tanto é que este tomo foi criado especialmente para você. Domine o poder que ele lhe concederá e se tornará uma aliada ainda mais formidável para a causa do Caçador de Magos.~
+@11100536 = ~E-eu... não sei se deveria. Mas, já que <CHARNAME> e Dusk acreditam que você é digno de confiança, vou aceitá-lo. No entanto, só o lerei se <CHARNAME> me pedir para isso.~
 // Helga
-@11100537 = ~Herald of Haela, formidable warrior, this potion shall make you more resilient in the arduous battles ahead. May your strength serve as a guide to the young mortals who surround you.~
-@11100538 = ~Hmm. I do not trust you, monster. But even though this comes from you, I can feel Haela's influence upon it. I will accept it, and I shall see whether I make use of it or not. Now, get away from me.~
+@11100537 = ~Arauta de Haela, guerreira formidável, esta poção a tornará mais resistente para as árduas batalhas que estão por vir. Que sua força sirva de guia aos jovens mortais que a cercam.~
+@11100538 = ~Hm. Não confio em você, monstro. Mas, mesmo vindo de suas mãos, consigo sentir a influência de Haela nela. Vou aceitá-la e decidirei depois se farei uso dela ou não. Agora, saia da minha frente.~
 // Kale
-@11100539 = ~Young halfling, this is for you. You will find that its effects will enhance your combat prowess. Its flavor, as well, should be to your liking.~
-@11100540 = ~*sniffs it* Aye... I admit its aroma is intoxicating. You certainly know how to brew your potions, mate.~
+@11100539 = ~Jovem halfling, isto é para você. Descobrirá que seus efeitos ampliarão sua destreza em combate. Seu sabor também deverá agradá-lo.~
+@11100540 = ~*cheira a poção* É... admito que o aroma é inebriante. Você realmente sabe preparar boas poções, camarada.~
 // Recorder
-@11100541 = ~Child, this is for you. The music you draw from it shall mark a chilly farewell for your enemies.~
-@11100542 = ~I don't like the way you say that, but I must admit this harp is beautiful. T-thank you, I suppose.~
+@11100541 = ~Criança, isto é para você. A música que extrair dela marcará uma despedida gélida para seus inimigos.~
+@11100542 = ~Não gosto do jeito que você diz isso, mas devo admitir que esta harpa é belíssima. O-obrigada... eu acho.~
 // Vienxay
-@11100543 = ~Ah, Vienxay, the Shadow Mage. This dagger is for you. Let not the simplicity of its design deceive you, for it shall grant you greater power when you wield it.~
-@11100544 = ~Ugh, indeed. It is hardly a beauty, but I can already feel the power in its hilt. You have done well in giving me this, fiend. My enemies won't stand a chance.~
+@11100543 = ~Ah, Vienxay, a Maga das Sombras. Esta adaga é para você. Não deixe que sua aparência simples a engane, pois ela lhe concederá maior poder enquanto a empunhar.~
+@11100544 = ~Ugh, de fato. Está longe de ser bela, mas já consigo sentir o poder em seu cabo. Fez bem em me entregar isto, demônio. Meus inimigos não terão a menor chance.~
 
-// P_DUSKJ Alabarza battle
+// P_DUSKJ Batalha de Alabarza
 // Emily
-@11100545 = ~It matters not if we fell into a trap. Dusk, take the lead, and I will cover you with ranged attacks. In the end, we shall prevail!~
+@11100545 = ~Não importa se caímos numa armadilha. Dusk, tome a dianteira, e eu lhe darei cobertura com meus ataques à distância. No fim, venceremos!~
 // Helga
-@11100546 = ~Now this I like! Facing numerical disadvantage has never discouraged me—quite the opposite, it will only make the battle more glorious!~
+@11100546 = ~Agora sim eu gosto disto! Enfrentar uma desvantagem numérica nunca me desanimou; pelo contrário, só tornará esta batalha ainda mais gloriosa!~
 // Kale
-@11100547 = ~So... it was obvious that ferret was a trap, mate.~
-@11100548 = ~Kale, you fell for the trap as much as I did.~
-@11100549 = ~Hey, I was merely making an observation. Well, I suppose there's nothing left but to get our hands dirty. Come on, Dusk. To battle!~
+@11100547 = ~Então... era óbvio que aquele furão era uma armadilha, camarada.~
+@11100548 = ~Kale, você caiu na armadilha tanto quanto eu.~
+@11100549 = ~Ei, eu só estava fazendo uma observação. Bem, acho que não resta outra opção além de sujar as mãos. Vamos, Dusk. À batalha!~
 // Recorder
-@11100550 = ~The tale of the Purple Dragon Knights is but a few pages away from its end. Dusk, let us give your fallen comrades a worthy ending.~
-// Vienxay
-@11100551 = ~Ugh, not only have you dragged us into a hideous cave, but it was straight into a trap filled with foul creatures. I expect you to make it up to us, Dusk... assuming we survive this.~
+@11100550 = ~A história dos Cavaleiros Dragão Púrpura está a poucas páginas de seu desfecho. Dusk, vamos dar aos seus companheiros caídos um final digno.~
+ // Vienxay
+@11100551 = ~Ugh, além de nos arrastar para uma caverna horrível, você nos conduziu direto para uma armadilha repleta de criaturas repugnantes. Espero que nos compense por isso, Dusk... supondo que sobrevivamos.~
 
-// P_DUSKJ Sothillis decision
+// P_DUSKJ Decisão sobre Sothillis
 // Emily
-@11100552 = ~The Windspear Hills are full of monsters that have tried to attack us on sight. These ones haven't, Dusk.~
+@11100552 = ~As Colinas de Ventobravo estão repletas de monstros que tentaram nos atacar assim que nos viram. Estes, porém, não fizeram isso, Dusk.~
 // Helga
-@11100553 = ~Are you truly considering believing the words of this half-orc? Do as you wish, boy. But keep in mind that I am always ready to give battle to Sothillis's warriors.~
-// Kale
-@11100554 = ~So... if avoiding a fight is an option, perhaps we ought to take it, mate.~
+@11100553 = ~Está realmente considerando acreditar nas palavras desse meio-orc? Faça como quiser, rapaz. Mas lembre-se de que estou sempre pronta para enfrentar os guerreiros de Sothillis.~
+ // Kale
+@11100554 = ~Então... se evitar uma luta é uma opção, talvez devêssemos aproveitá-la, camarada.~
 // Recorder
-@11100555 = ~Something tells me they are speaking the truth, Dusk. Perhaps we should hear them out.~
-// Vienxay
-@11100556 = ~Ugh, do you truly believe this hideous creature doesn't want to tear us apart? She is merely waiting for the slightest opportunity to have her monsters crush us. We must strike before they do.~
+@11100555 = ~Algo me diz que eles estão dizendo a verdade, Dusk. Talvez devêssemos ouvi-los.~
+ // Vienxay
+@11100556 = ~Ugh, você realmente acredita que essa criatura hedionda não quer nos despedaçar? Ela apenas espera a menor oportunidade para mandar seus monstros nos esmagarem. Devemos atacar antes que façam isso.~
 
-// P_FALLJ Icelock Battle
+// P_FALLJ Batalha contra Icelock
 // Emily
-@11100557 = ~A few good fire arrows will make you rethink your choices, monster. Charge!~
+@11100557 = ~Algumas boas flechas flamejantes farão você repensar suas escolhas, monstro. Avancem!~
 // Helga
-@11100558 = ~You think you have the upper hand here, golem? We dwarves were built for fighting underground. Come on, I'll prove it to you!~
+@11100558 = ~Acha que leva vantagem aqui, golem? Nós, anões, fomos feitos para lutar no subterrâneo. Venha, vou provar isso a você!~
 // Kale
-@11100559 = ~An underground temple for a giant snow man? I hope you realize how little sense this makes, mate.~
+@11100559 = ~Um templo subterrâneo para um boneco de neve gigante? Espero que perceba o quão pouco sentido isso faz, camarada.~
 // Recorder
-@11100560 = ~I have read about Frostfell, <CHARNAME>. All attacks from these monsters will deal cold damage. Keep that in mind.~
+@11100560 = ~Li sobre Frostfell, <CHARNAME>. Todos os ataques desses monstros causam dano de frio. Tenha isso em mente.~
 // Vienxay
-@11100561 = ~Nothing a good fireball cannot solve, <CHARNAME>. Cover me while I eradicate these vermin with my magic.~
+@11100561 = ~Nada que uma boa bola de fogo não resolva, <CHARNAME>. Cubra-me enquanto extermino essa escória com minha magia.~
 
-// P_MORGRA Final battle against Morgrath
+// P_MORGRA Batalha final contra Morgrath
 // Emily
-@11100562 = ~We are close to leaving this Abyss, and to do so, we must slay you, Morgrath. So be it!~
+@11100562 = ~Estamos perto de deixar este Abismo e, para isso, precisamos matar você, Morgrath. Que assim seja!~
 // Helga
-@11100563 = ~Haela shall grant me the strength to crush these insects. Luck in steel, glory in blood!~
+@11100563 = ~Haela me concederá a força para esmagar esses insetos. Sorte no aço, glória no sangue!~
 // Kale
-@11100564 = ~Oi, spiders! I didn't come all this way just to be devoured by the likes of you. Now you shall feel the wrath of a halfling. Death!~
+@11100564 = ~Ei, aranhas! Não vim até aqui só para ser devorado por criaturas como vocês. Agora sentirão a fúria de um halfling. Morram!~
 // Recorder
-@11100565 = ~I long to return to the surface, and this fiend is the only thing standing in our way. It is time to give everything in this battle. We will not lose!~
+@11100565 = ~Anseio voltar à superfície, e este demônio é a única coisa em nosso caminho. É hora de dar tudo nesta batalha. Não perderemos!~
 // Vienxay
-@11100566 = ~You have lived longer than I care to reckon, Morgrath. All to be destroyed by us! You are no Queen. You are vermin. Prepare to be destroyed!~
+@11100566 = ~Você viveu mais tempo do que me importa contar, Morgrath. Tudo isso apenas para ser destruída por nós! Você não é uma Rainha. É apenas uma praga. Prepare-se para ser destruída!~
 
-// P_VORAG Great basilisk decision
+// P_VORAG Decisão do Grande Basilisco
 // Emily
-@11100567 = ~It doesn't seem like a bloodthirsty creature, <CHARNAME>. I believe we should spare its life.~
+@11100567 = ~Não parece ser uma criatura sedenta de sangue, <CHARNAME>. Acho que deveríamos poupar sua vida.~
 // Helga
-@11100568 = ~I have never seen an ancient basilisk refrain from attacking its prey. However, I admit it would be glorious to join battle against one. Think about it, <CHARNAME>.~
+@11100568 = ~Nunca vi um basilisco ancestral deixar de atacar sua presa. Ainda assim, admito que seria glorioso enfrentá-lo em batalha. Pense bem, <CHARNAME>.~
 // Kale
-@11100569 = ~So... is everyone just going to ignore the fact that this basilisk speaks? If we can avoid an unnecessary fight, it's the sensible thing to do.~
+@11100569 = ~Então... todo mundo vai simplesmente ignorar o fato de que este basilisco fala? Se podemos evitar uma luta desnecessária, essa parece ser a decisão mais sensata.~
 // Recorder
-@11100570 = ~<CHARNAME>, we shouldn't attack it. It is a creature intelligent enough to reason. I think we should listen to it a bit longer.~
+@11100570 = ~<CHARNAME>, não deveríamos atacá-lo. É uma criatura inteligente o bastante para raciocinar. Acho que deveríamos ouvi-lo um pouco mais.~
 // Vienxay
-@11100571 = ~Ugh, is sparing this monster's life truly up for debate? Just because it speaks doesn't mean it stops being a monster we can profit from. It's as the old elf said. I say we kill it.~
+@11100571 = ~Ugh, poupar a vida deste monstro está realmente em discussão? Só porque fala não deixa de ser uma criatura da qual podemos tirar proveito. Como disse aquele velho elfo. Eu digo que devemos matá-lo.~
 
-// P_MATUT Michelson custom items
+// P_MATUT Itens personalizados de Michelson
 // Emily
-@11100572 = ~(From the cargo, Michelson extracts a dusty book, shakes it, and, hopping along, approaches Emily to hand it to her with solemnity.)~
-@11100573 = ~And what is this? The book, for some reason, looks familiar to me. Thank you, Michelson.~
+@11100572 = ~(Da carga, Michelson retira um livro empoeirado, sacode-o e, saltitando, aproxima-se solenemente de Emily para lhe entregá-lo.)~
+@11100573 = ~E o que é isto? Por algum motivo, este livro me parece familiar. Obrigada, Michelson.~
 // Helga
-@11100574 = ~(Michelson pulls out a bottle containing a liquid that appears thick at first glance. Cautiously, he approaches Helga to hand it over.)~
-@11100575 = ~Hmm. I don't trust you, little one. How do I know this isn't some trick of yours? Regardless, I see it bears the symbol of Haela. For now, I shall take it. But you had better watch out if this turns out to be a deception!~
+@11100574 = ~(Michelson retira uma garrafa contendo um líquido que parece espesso à primeira vista. Com cautela, aproxima-se de Helga para entregá-la.)~
+@11100575 = ~Hm. Não confio em você, pequenino. Como sei que isto não é um truque seu? Ainda assim, vejo que carrega o símbolo de Haela. Por enquanto, vou aceitá-la. Mas é melhor torcer para que isto não seja um engano!~
 // Kale
-@11100576 = ~(A glowing potion appears in Michelson's hands, and he quickly scurries over to Kale to hand it to him with an ear-to-ear grin on his face.)~
-@11100577 = ~Aye, aye. I don't know why you're so excited, goblin. Hey, wait, it has a rather decent aroma. Thanks, mate.~
+@11100576 = ~(Uma poção brilhante surge nas mãos de Michelson, e ele rapidamente corre até Kale para entregá-la com um enorme sorriso estampado no rosto.)~
+@11100577 = ~É... não sei por que está tão animado, goblin. Ei, espere, ela tem um aroma bem agradável. Valeu, camarada.~
 // Recorder
-@11100578 = ~(From the cargo, Michelson extracts what appears to be a harp. Swiftly, he hands it over to Recorder.)~
-@11100579 = ~My, it feels cold to the touch. I hope I can draw a few fitting notes from it, Michelson. Thank you.~
+@11100578 = ~(Da carga, Michelson retira o que parece ser uma harpa. Rapidamente, ele a entrega a Recorder.)~
+@11100579 = ~Nossa, ela é fria ao toque. Espero conseguir tirar algumas belas notas dela, Michelson. Obrigada.~
 // Vienxay
-@11100580 = ~(A glow emerges from the cargo, and Michelson extracts what appears to be a dagger. Swiftly, he approaches Vienxay to hand it to her.)~
-@11100581 = ~Ugh, didn't you have something more beautiful for me, tadpole? Hm, though I can feel the power within this dagger. I suppose I'll try using it for a while to see if it pleases me. Now, begone.~
+@11100580 = ~(Um brilho emerge da carga, e Michelson retira o que parece ser uma adaga. Rapidamente, aproxima-se de Vienxay para entregá-la.)~
+@11100581 = ~Ugh, você não tinha algo mais bonito para mim, girino? Hm, embora eu possa sentir o poder contido nesta adaga. Acho que a utilizarei por algum tempo para ver se me agrada. Agora, suma da minha frente.~
 
 // JOURNAL
 // JOURNAL ENTRIES DUSK
