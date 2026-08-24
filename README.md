@@ -1,4 +1,5 @@
 # Autumns Twilight Mod for Baldur's Gate II
+[![Become a Patron](https://img.shields.io/badge/Patreon-Support%20this%20mod-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/BG2EE_AutumnsTwilight)
 
 **Autumns Twilight Mod** features several new NPC joining to the party, new enemies and a plethora of items.
 
