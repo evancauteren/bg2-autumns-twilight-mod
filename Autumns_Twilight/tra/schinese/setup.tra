@@ -14894,28 +14894,28 @@ PS：如果你收集齐了这八件装备，带上达斯克。我有种感觉，
 
 // V1.5.3
 
-@11100192 = ~You can also summon me in combat. I can create replicas of myself and I shall serve you for as long as the Pandemonium allows.~
+@11100192 = ~你也可以在战斗中召唤我。只要喧嚣空隧允许，我就能创造自己的分身，为你效劳。~
 
-@11100193 = ~I am ready for your command, <CHARNAME>.~
-@11100194 = ~Is there something you desire?~
-@11100195 = ~Do not waste time speaking with me, mortal. My time to aid you is limited.~
-@11100196 = ~Let our enemies tremble before our power.~
-@11100197 = ~I shall do your bidding, for now.~
+@11100193 = ~我已经准备好听从你的命令，<CHARNAME>。~
+@11100194 = ~你有什么愿望吗？~
+@11100195 = ~凡人，不要浪费时间与我交谈。我能帮助你的时间有限。~
+@11100196 = ~让我们的敌人在我们的力量面前颤抖吧。~
+@11100197 = ~我暂且听命于你。~
 
 // Terror's Twilight (Ocaso del Terror) Danctian / Evil Dusk
-@11100198 = ~I see you have grown accustomed to Ira, Ardusk.~
-@11100199 = ~The bastard sword feels right in my hands, Danctian. It is always a pleasure to wield it against our enemies.~
-@11100200 = ~There is no more fitting instrument for vengeance than Ira Tenax.~
-@11100201 = ~That is why I believe we should employ the power the Pandemonium has granted us.~
-@11100202 = ~What do you mean?~
-@11100203 = ~Let us use the innate energy of my plane to strike terror into the hearts of those who oppose us.~
-@11100204 = ~Terror's Twilight is a fitting technique for us both.~
-@11100205 = ~When you summon me in combat, we shall use it and our enemies will tremble.~
-@11100206 = ~Very well, Danctian. Lend me your power when you fight by my side. You will not regret it.~
-@11100207 = ~I know, Ardusk. I know.~
+@11100198 = ~我看你已经习惯了伊拉，阿尔杜斯。~
+@11100199 = ~这把巨剑在我手中很称手，丹克蒂安。用它来对付我们的敌人总是一种享受。~
+@11100200 = ~没有比永恒之怒更适合复仇的武器了。~
+@11100201 = ~这就是为什么我认为我们应该利用喧嚣空隧赐予我们的力量。~
+@11100202 = ~你什么意思？~
+@11100203 = ~让我们用我位面的本源能量，让那些反对我们的人心生恐惧。~
+@11100204 = ~恐怖暮光对我们两个来说都是一项合适的技术。~
+@11100205 = ~当你在战斗中召唤我时，我们就会使用它，我们的敌人将会颤抖。~
+@11100206 = ~很好，丹克蒂安。当你在我身边作战时，借给我你的力量。你不会后悔的。~
+@11100207 = ~我知道，阿尔杜斯。我知道。~
 
-@11100208 = ~Feel my wrath! Terror's Twilight!~
-@11100209 = ~Now, Ardusk! Tremble before our Terror's Twilight...~
+@11100208 = ~感受我的愤怒吧！恐怖暮光！~
+@11100209 = ~就是现在，阿尔杜斯！在我们的恐怖暮光面前颤抖吧……~
 
 
 // Skitia Crossmod
@@ -14923,584 +14923,585 @@ PS：如果你收集齐了这八件装备，带上达斯克。我有种感觉，
 // EMILY
 
 // Emily / Dusk (Neutral/Good/Evil) 1
-/* Dusk */ @11100210 = ~So, Emily. I've heard whispers that you come from a noble family, is that so?~
-/* Emily */ @11100211 = ~Dusk, yes. Well, I suppose you could say that. Despite being 'illegitimate', I was raised in a noble environment.~
-/* Dusk */ @11100212 = ~An environment that demands strictly proper behavior.~
-/* Emily */ @11100213 = ~Indeed. Even more so in my case due to my... background. But enough about that. You sound like you speak from experience, Dusk.~
-/* Dusk */ @11100214 = ~Of course. I also come from a noble family. Though, I don't know if I was under a control as fierce as the one you endured, Emily.~
-/* Dusk */ @11100215 = ~My relationship with my parents is also... complex, but not due to secrets or racial issues.~
-/* Dusk */ @11100216 = ~While the Aldants were once a powerful and respected family in Cormyr, of late, decay has loomed over our house.~
-/* Emily */ @11100217 = ~Why? You were First Sword in the Purple Dragons. Isn't that a matter of family pride?~
-/* Dusk */ @11100218 = ~*spits* Pride... Truth be told, I did it to get away from them.~
-/* Dusk */ @11100219 = ~My parents loathe each other. Father is a useless sort, an amoeba dependent on his servants, while Mother does nothing but complain about everything and everyone, all the time.~
-/* Dusk */ @11100220 = ~The army was an escape for me.~
-/* Dusk */ @11100221 = ~Truth is... it's strange for me to talk about this, Emily. I suppose it's easier to speak with someone who might actually understand me.~
-/* Emily */ @11100222 = ~I understand. Though I... don't feel aversion toward my parents. Over time, I've managed to understand some of their decisions, even if I don't fully agree with them. But I understand them.~
-/* Dusk */ @11100223 = ~Oh, Emily... I... don't feel aversion or hatred for my parents. Maybe it's anger. I don't know.~
-/* Dusk */ @11100224 = ~Now that I look back at the past with some perspective, I'm beginning to accept, like you, certain aspects of their ways.~
-/* Dusk */ @11100225 = ~Life doesn't always turn out the way you expect. Hard knocks can shape a person's character. For better or for worse.~
-/* Emily */ @11100226 = ~On that we agree, Dusk. On that we agree.~
+/* Dusk */ @11100210 = ~那么，艾米丽。我听说你出身贵族家庭，是这样吗？~
+/* Emily */ @11100211 = ~达斯克，是的。嗯，我想你可以这么说。尽管是'私生子'，但我确实在贵族环境中长大。~
+/* Dusk */ @11100212 = ~一个要求严格得体举止的环境。~
+/* Emily */ @11100213 = ~确实。对我来说更是如此，因为我的...背景。不过不说这个了。你听起来像是深有体会，达斯克。~
+/* Dusk */ @11100214 = ~当然。我也出身贵族家庭。不过，我不知道我是否遭受过像你那样严苛的管束，艾米丽。~
+/* Dusk */ @11100215 = ~我和父母的关系也很……复杂，但不是因为秘密或种族问题。~
+/* Dusk */ @11100216 = ~虽然阿尔丹特家族曾经是科米尔一个强大而受人尊敬的家族，但近来，衰败已笼罩着我们的家族。~
+/* Emily */ @11100217 = ~为什么？你曾是紫龙军团的首席剑士。那难道不是家族的骄傲吗？~
+/* Dusk */ @11100218 = ~*啐* 骄傲……实话实说，我这么做是为了远离他们。~
+/* Dusk */ @11100219 = ~我的父母彼此憎恨。父亲是个没用的家伙，像变形虫一样依赖仆人，而母亲除了无休止地抱怨一切人和事之外什么也不做。~
+/* Dusk */ @11100220 = ~参军对我来说是一种逃避。~
+/* Dusk */ @11100221 = ~事实是……对我来说谈这些很奇怪，艾米丽。我想和一个可能真正理解我的人说话更容易些。~
+/* Emily */ @11100222 = ~我理解。尽管我……对父母没有厌恶感。随着时间的推移，我设法理解了他们的一些决定，即使我不完全赞同。但我理解他们。~
+/* Dusk */ @11100223 = ~哦，艾米丽……我……对我的父母没有厌恶或憎恨。也许是愤怒。我不知道。~
+/* Dusk */ @11100224 = ~现在回过头来看过去，有了不同的视角，我开始像你一样接受他们某些方面的做法。~
+/* Dusk */ @11100225 = ~生活并不总是如你所愿。艰难困苦可以塑造一个人的性格。无论好坏，皆是如此。~
+/* Emily */ @11100226 = ~这一点我同意，达斯克。这一点我同意。~
 
 // Emily / Dusk (Neutral/Good) 2
-/* Dusk */ @11100227 = ~How are you, Emily?~
-/* Emily */ @11100228 = ~Dusk! I am doing well, thank you for asking. And you?~
-/* Dusk */ @11100229 = ~I can't complain. I've been thinking about our last conversation.~
-/* Emily */ @11100230 = ~Oh, really? I'm all ears.~
-/* Dusk */ @11100231 = ~When our journey with <CHARNAME> comes to an end, what will you do? I can't picture you returning to the nobility just like that.~
-/* Emily */ @11100232 = ~Perhaps I can't either, but I wouldn't shirk my responsibility if the time came. Though it's not my intention to be a noble lady who issues commands from a fine linen seat. I am a woman of action.~
-/* Dusk */ @11100233 = ~You can say that again.~
-/* Emily */ @11100234 = ~What about you? What will you do?~
-/* Dusk */ @11100235 = ~It's a bit too soon to tell. My initial plan isn't to return to the nobility. The army might be a good place, though I doubt they'd accept me given the circumstances of my past.~
-/* Dusk */ @11100236 = ~Being a merchant is something that has motivated me for a while. It's something I must ponder during my watches.~
-/* Emily */ @11100237 = ~For now, I think it's not a bad idea to join forces to fight against certain monstrosities, don't you think?~
-/* Dusk */ @11100238 = ~I couldn't agree more, Emily.~
+/* Dusk */ @11100227 = ~你怎么样，艾米丽？~
+/* Emily */ @11100228 = ~达斯克！我很好，谢谢关心。你呢？~
+/* Dusk */ @11100229 = ~没什么可抱怨的。我一直在想我们上次的谈话。~
+/* Emily */ @11100230 = ~哦，真的吗？我洗耳恭听。~
+/* Dusk */ @11100231 = ~当我们的旅程与<CHARNAME>结束时，你打算做什么？我无法想象你会就这样回到贵族圈。~
+/* Emily */ @11100232 = ~也许我也不能，但如果时机到来，我不会逃避我的责任。虽然我不打算成为一位坐在精致亚麻椅上发号施令的贵族小姐。我是一个行动派。~
+/* Dusk */ @11100233 = ~你说得没错。~
+/* Emily */ @11100234 = ~那你呢？你打算做什么？~
+/* Dusk */ @11100235 = ~现在说还有点太早。我最初的计划不是回到贵族圈。军队可能是个好去处，不过考虑到我过去的经历，我怀疑他们是否会接受我。~
+/* Dusk */ @11100236 = ~做商人已经激励我一段时间了。这是我守夜时必须思考的事情。~
+/* Emily */ @11100237 = ~目前，我认为联手对抗某些怪物是个不错的主意，你不觉得吗？~
+/* Dusk */ @11100238 = ~我完全同意，艾米丽。~
 
 // Emily / Dusk (Evil) 3
-/* Dusk */ @11100239 = ~I'm still the same, Emily. Don't overthink it.~
-/* Emily */ @11100240 = ~Ehm. Why do you say that, Dusk? I didn't mean to stare.~
-/* Dusk */ @11100241 = ~It doesn't bother me. You don't seem to imply anything insolent.~
-/* Emily */ @11100242 = ~Forgive me for saying so, but you do seem greatly changed.~
-/* Emily */ @11100243 = ~Older... even.~
-/* Dusk */ @11100244 = ~Really? Not that appearances matter to me, but at least I don't feel that way.~
-/* Dusk */ @11100245 = ~Never before have I felt so powerful. The scarlet orb awakened my true potential within me.~
-/* Emily */ @11100246 = ~I am not so sure about that. The aura you emanate might be more noticeable than before, but the Dusk you were before the orb was just as valuable as the one you are now.~
-/* Dusk */ @11100247 = ~Value and power are not the same thing. The latter is all that matters. Our journey alongside <CHARNAME> will prove me right, you'll see.~
-/* Emily */ @11100248 = ~I'm not so sure I want to witness such a thing...~
+/* Dusk */ @11100239 = ~我还是老样子，艾米丽。别想太多。~
+/* Emily */ @11100240 = ~呃。你为什么这么说，达斯克？我不是故意盯着你看的。~
+/* Dusk */ @11100241 = ~我不介意。你看起来并无恶意。~
+/* Emily */ @11100242 = ~请原谅我这么说，但你看起来确实变了很多。~
+/* Emily */ @11100243 = ~甚至……更老了。~
+/* Dusk */ @11100244 = ~真的吗？虽然我不在乎外表，但至少我自己不这么觉得。~
+/* Dusk */ @11100245 = ~我从未感到如此强大。猩红宝珠唤醒了我内心的真正潜能。~
+/* Emily */ @11100246 = ~我不太确定。你散发的气息可能比之前更引人注目，但得到宝珠之前的你与现在的你同样珍贵。~
+/* Dusk */ @11100247 = ~价值与力量并非同一回事。后者才是关键。我们与<CHARNAME>的旅程将证明我是对的，你等着瞧吧。~
+/* Emily */ @11100248 = ~我不太想见证这种事……~
 
 // Emily / Fall 1
-/* Fall */ @11100249 = ~Next time I will win, Emily. Just you wait and see.~
-/* Emily */ @11100250 = ~You can try as many times as you like, redhead. I'll still keep getting a higher score than you.~
-/* Fall */ @11100251 = ~Hmpf. Easy for you to say. It's simpler to draw a bow than a crossbow.~
-/* Emily */ @11100252 = ~Are you sure about that? With a crossbow, you only have to pull the trigger, Fall. Nothing simpler than that.~
-/* Fall */ @11100253 = ~Ah, but a crossbow is heavier than a bow. Feeling the arrow between your fingers gives you a better idea of where the projectile is going to go.~
-/* Emily */ @11100254 = ~Now you're going to say you're stronger than I am.~
-/* Fall */ @11100255 = ~I'm not just saying it, I'm stating it as a fact.~
-/* Emily */ @11100256 = ~Want to find out?~
-/* Fall */ @11100257 = ~...~
-/* Emily */ @11100258 = ~...~
-/* Fall */ @11100259 = ~*laughter*~
-/* Emily */ @11100260 = ~*laughter*~
-/* Emily */ @11100261 = ~*whispering* We almost got <CHARNAME> to intervene.~
-/* Fall */ @11100262 = ~*whispering* Yeah, did you see his face? Hilarious.~ ~*whispering* Yeah, did you see her face? Hilarious.~
-/* Emily */ @11100263 = ~Well, shall we keep practicing?~
-/* Fall */ @11100264 = ~Whenever you're ready, my friend.~
+/* Fall */ @11100249 = ~下次我会赢的，艾米丽。你等着瞧。~
+/* Emily */ @11100250 = ~你尽管试多少次都行，红发女。我的分数还是会比你高。~
+/* Fall */ @11100251 = ~哼。你说得倒轻松。拉弓比射弩简单多了。~
+/* Emily */ @11100252 = ~你确定吗？用弩的话，你只需要扣动扳机，法尔。没有比这更简单的了。~
+/* Fall */ @11100253 = ~啊，但是弩比弓重。指尖感受到箭矢能让你更好地判断弹道。~
+/* Emily */ @11100254 = ~现在你又要说你比我强壮了。~
+/* Fall */ @11100255 = ~我不只是说说而已，我是在陈述事实。~
+/* Emily */ @11100256 = ~想试试吗？~
+/* Fall */ @11100257 = ~……~
+/* Emily */ @11100258 = ~……~
+/* Fall */ @11100259 = ~*笑声*~
+/* Emily */ @11100260 = ~*笑声*~
+/* Emily */ @11100261 = ~*低语* 我们差点让<CHARNAME>插手了。~
+/* Fall */ @11100262 = ~*低语* 是啊，你看到他的表情了吗？笑死人了。~~*低语* 是啊，你看到她的表情了吗？笑死人了。~
+/* Emily */ @11100263 = ~那么，我们继续练习吗？~
+/* Fall */ @11100264 = ~随时奉陪，我的朋友。~
 
 // Emily / Fall 2
-/* Emily */ @11100265 = ~So, when are you going to summon your furry brothers, Fall? I feel like playing with them again.~
-/* Fall */ @11100266 = ~In due time, Emily. <CHARNAME> usually handles those strategies. And since I can only summon them once a day, we have to be cautious when calling them.~
-/* Emily */ @11100267 = ~You're right. Though it wouldn't hurt to just call them so we can pet them a little, don't you think?~
-/* Fall */ @11100268 = ~Yeah, I think we could convince <CHARNAME> to take a day off so we can have a snack out in the open field alongside our summons.~
-/* Emily */ @11100269 = ~Yes! That's a great idea.~
+/* Emily */ @11100265 = ~那么，你什么时候召唤你那毛茸茸的兄弟们，法尔？我想再和它们玩玩了。~
+/* Fall */ @11100266 = ~时机合适的时候，艾米丽。<CHARNAME>通常负责这些策略。而且因为我一天只能召唤它们一次，我们必须谨慎召唤。~
+/* Emily */ @11100267 = ~你说得对。不过叫它们出来让我们摸摸也无妨，你不觉得吗？~
+/* Fall */ @11100268 = ~是啊，我想我们可以说服<CHARNAME>休息一天，这样我们就可以和我们的召唤物一起在开阔的野外吃顿便餐了。~
+/* Emily */ @11100269 = ~好主意！~
 
 // Emily / Fall 3 (Combo Attack)
-/* Emily */ @11100270 = ~To tell you the truth, Fall, it doesn't seem like a bad idea to me.~
-/* Fall */ @11100271 = ~Right? Sometimes I come up with great plans, you know?~
-/* Emily */ @11100272 = ~I suppose I can execute an ability similar to a Called Shot. Maximizing damage and speed for a short period.~
-/* Fall */ @11100273 = ~I can teach you a few tricks my father taught me. We can apply them in the next battle, as long as we are close to each other.~
-/* Emily */ @11100274 = ~Agreed. If <CHARNAME> commands us to stay together in our upcoming combats, a single glance will be enough to launch our attack.~
-/* Fall */ @11100275 = ~In the process, we can see who shoots more or deals more damage. It will be interesting.~
-/* Emily */ @11100276 = ~Get ready to lose, redhead.~
-/* Fall */ @11100277 = ~You wish...~
+/* Emily */ @11100270 = ~说实话，法尔，我觉得这主意不错。~
+/* Fall */ @11100271 = ~对吧？有时候我会有很棒的计划，你知道吗？~
+/* Emily */ @11100272 = ~我想我可以施展类似于“精准射击”的能力。在短时间内最大化伤害和速度。~
+/* Fall */ @11100273 = ~我可以教你一些我父亲教我的技巧。我们可以在下次战斗中应用它们，只要我们彼此靠近。~
+/* Emily */ @11100274 = ~同意。如果<CHARNAME>命令我们在接下来的战斗中保持在一起，只需一个眼神就足以发动攻击。~
+/* Fall */ @11100275 = ~过程中，我们可以看看谁射得更多或造成更多伤害。会很有趣的。~
+/* Emily */ @11100276 = ~准备好认输吧，红发。~
+/* Fall */ @11100277 = ~你想得美……~
 
 // Emily / Alendir
-/* Alendir */ @11100278 = ~You are an Aasimar, are you not, child?~
-/* Emily */ @11100279 = ~That is correct, Alendir. Why do you ask?~
-/* Alendir */ @11100280 = ~Your appearance, however, is elven. But I must admit you are exceptional. What of your parents? At least one of them must have been a celestial creature or had some kind of planar influence from the Upper Planes.~
-/* Alendir */ @11100281 = ~If I am not mistaken, your father was a human, yes?~
-/* Emily */ @11100282 = ~Yes. A nobleman from Tethyr.~
-/* Alendir */ @11100283 = ~I see. Growing up under his yoke must have been complex.~
-/* Emily */ @11100284 = ~What do you mean?~
-/* Alendir */ @11100285 = ~Human nobles are purists. I doubt he would have allowed you to be seen just like that in the Tethyrian lands. It is understandable. Humans can be creatures highly prone to taking extreme measures out of fear.~
-/* Emily */ @11100286 = ~He might have been driven by fear at first, Alendir. But I am certain the real motive behind his decision was love for his daughter.~
-/* Alendir */ @11100287 = ~Hm. It makes sense that you would think that. After all, his blood runs through your veins.~
-/* Alendir */ @11100288 = ~In the past, I might have dismissed your comment. But I have come to be surprised by humans. If you, Emily Castilla, say your father was an honorable human, I must simply yield to believing your words.~
-/* Emily */ @11100289 = ~Thank you, Alendir. What about you? I imagine you had parents.~
-/* Alendir */ @11100290 = ~Hmpf. Do not overstep, child. I will not speak of that here. It is neither the time nor the place.~
-/* Emily */ @11100291 = ~Oh... all right.~
+/* Alendir */ @11100278 = ~你是个阿斯莫，对吧，孩子？~
+/* Emily */ @11100279 = ~没错，阿伦迪尔。你为什么这么问？~
+/* Alendir */ @11100280 = ~不过你的外表是精灵。但我必须承认你很优秀。你的父母呢？他们中至少有一个一定是天界生物，或者受到了上层位面的某种位面影响。~
+/* Alendir */ @11100281 = ~如果我没记错的话，你父亲是人类，对吧？~
+/* Emily */ @11100282 = ~是的。泰斯尔的一位贵族。~
+/* Alendir */ @11100283 = ~我明白了。在他的约束下成长一定很复杂。~
+/* Emily */ @11100284 = ~你什么意思？~
+/* Alendir */ @11100285 = ~人类贵族都是纯粹主义者。我怀疑他会允许你就这样出现在泰斯尔的土地上。这是可以理解的。人类是很容易因恐惧而采取极端措施的生物。~
+/* Emily */ @11100286 = ~起初他可能是出于恐惧，阿伦迪尔。但我确信他决定背后的真正动机是对女儿的爱。~
+/* Alendir */ @11100287 = ~哼。你会这么想也合理。毕竟，他的血脉在你体内流淌。~
+/* Alendir */ @11100288 = ~过去，我可能会对你的评论不以为然。但我逐渐对人类感到惊讶。如果你，艾米丽·卡斯蒂利亚，说你的父亲是一位可敬的人类，我也只能相信你的话。~
+/* Emily */ @11100289 = ~谢谢你，阿伦迪尔。那你呢？我想你也有父母。~
+/* Alendir */ @11100290 = ~哼。别太过分了，孩子。我不会在这里谈论这个。现在不是时候，也不是地方。~
+/* Emily */ @11100291 = ~哦……好吧。~
 
 // Emily / Cho'Nuja
-/* Cho'Nuja */ @11100292 = ~*hiss* A what?~
-/* Emily */ @11100293 = ~Aasimar.~
-/* Cho'Nuja */ @11100294 = ~You are making up words, little female.~
-/* Emily */ @11100295 = ~I am not! *sigh* I understand it is a bit complicated to grasp, Cho, but I am an Aasimar. I have celestial blood.~
-/* Cho'Nuja */ @11100296 = ~And is that a bad thing? You say it as if it were something terrible, archer.~
-/* Emily */ @11100297 = ~Well... it hasn't been easy to carry that burden. Tethyr would not look kindly upon someone like me holding a noble title, you know?~
-/* Cho'Nuja */ @11100298 = ~Ah, of noble matters I understand. Serving a Queen for years has taught me the countless betrayals and inner workings of power. It can make the bravest hearts turn petty and bitter.~
-/* Emily */ @11100299 = ~On that I agree, Cho. You know, you are not so ignorant of our ways after all.~
-/* Cho'Nuja */ @11100300 = ~Thank you, little female archer. If you want, I can share with you a dish of dragonflies with toad slime. They are my specialty.~
-/* Emily */ @11100301 = ~Erh... I think I'll pass, Cho.~
-/* Cho'Nuja */ @11100302 = ~Your loss.~
+/* Cho'Nuja */ @11100292 = ~*嘶嘶* 一个什么？~
+/* Emily */ @11100293 = ~阿斯莫。~
+/* Cho'Nuja */ @11100294 = ~你在编造词儿，小雌性。~
+/* Emily */ @11100295 = ~我没有！*叹气* 我知道这有点难以理解，乔，但我是一个阿斯莫。我有天界血统。~
+/* Cho'Nuja */ @11100296 = ~那是什么坏事吗？你说得好像是什么可怕的事情一样，弓箭手。~
+/* Emily */ @11100297 = ~嗯……背负这个负担并不容易。你知道，泰斯尔不会对我这样的人拥有贵族头衔有好感的。~
+/* Cho'Nuja */ @11100298 = ~啊，贵族事务我懂。为女王服务多年让我见识了无数的背叛和权力的内幕。这些足以让最勇敢的心变得狭隘和痛苦。~
+/* Emily */ @11100299 = ~这点我同意，乔。你知道吗，你其实并不像我想的那样对我们的事一无所知。~
+/* Cho'Nuja */ @11100300 = ~谢谢你，小雌性弓箭手。如果你愿意，我可以和你分享一道蜻蜓配蟾蜍黏液的美食。这是我的拿手菜。~
+/* Emily */ @11100301 = ~呃……我想我还是算了，乔。~
+/* Cho'Nuja */ @11100302 = ~是你的损失。~
 
 // HELGA
 
 // Helga / Dusk (Neutral/Good/Evil) 1
-/* Dusk */ @11100303 = ~My lady, you shouldn't charge so hastily into the front lines. At least allow me to cover you. I wouldn't want you to—~
-/* Helga */ @11100304 = ~Ah, boy, do you dare order me around? Don't make me teach you a lesson.~
-/* Dusk */ @11100305 = ~Oh, it was not my intention, I only—~
-/* Helga */ @11100306 = ~Aye, aye, Dusk. I'm just teasing you. You have my respect for how you wield your weapons. Seeing your sword dyed in the enemy's blood is worthy of my respect.~
-/* Dusk */ @11100307 = ~T-thank you, I suppose.~
-/* Helga */ @11100308 = ~And don't call me 'lady'! Helga is my name.~
-/* Dusk */ @11100529 = ~As you wish, la— Er, I mean, Helga.~
+/* Dusk */ @11100303 = ~我的女士，你不应该如此仓促地冲上前线。至少让我掩护你。我不想让你——~
+/* Helga */ @11100304 = ~啊，小子，你敢命令我？别逼我教训你。~
+/* Dusk */ @11100305 = ~哦，我不是那个意思，我只是——~
+/* Helga */ @11100306 = ~好了好了，达斯克。我只是在逗你玩。你挥舞武器的方式赢得了我的尊重。看到你的剑染上敌人的鲜血值得我尊敬。~
+/* Dusk */ @11100307 = ~谢……谢谢，我想是吧。~
+/* Helga */ @11100308 = ~还有，别叫我女士！我叫赫尔加。~
+/* Dusk */ @11100529 = ~如你所愿，女——呃，我是说，赫尔加。~
 
 
 // Helga / Dusk (Good) 2
-/* Dusk */ @11100309 = ~Why are you narrowing your eyes, Helga? Is something wrong?~
-/* Helga */ @11100310 = ~Hm. You can't fool me, Dusk.~
-/* Dusk */ @11100311 = ~What do you mean?~
-/* Helga */ @11100312 = ~All that change, those lights you emanate from time to time. You try to make it seem like you are a kind-hearted creature, but you are still the same warrior you've always been.~
-/* Dusk */ @11100313 = ~Well, it's not that I'm trying to trick anyone. In essence, I remain the same as always.~
-/* Helga */ @11100314 = ~Ah, so you admit you are the same Wizard Slayer you've always been.~
-/* Helga */ @11100315 = ~I can see how much you enjoy it when you wield your weapons, lad.~
-/* Dusk */ @11100316 = ~Ehm. I admit that sometimes I enjoy fighting, but I do it to protect those I hold dear. That includes you, Helga.~
-/* Helga */ @11100318 = ~Hmpf. You can keep saying you fight for the virtue of goodness, but I know that deep down you do it for the pleasure that comes from the glory of a good battle.~
-/* Dusk */ @11100317 = ~*smiles* Perhaps. I hadn't thought about it that way.~
+/* Dusk */ @11100309 = ~你为什么眯着眼睛，赫尔加？有什么不对吗？~
+/* Helga */ @11100310 = ~哼。你骗不了我，达斯克。~
+/* Dusk */ @11100311 = ~你什么意思？~
+/* Helga */ @11100312 = ~所有的那些改变，那些你时不时散发出的光芒。你试图让自己看起来像是善良的生物，但你依然是那个始终如一的战士。~
+/* Dusk */ @11100313 = ~嗯，倒不是说我试图欺骗谁。本质上，我始终如一。~
+/* Helga */ @11100314 = ~啊，所以你承认你仍然是那个一直以来的法师杀手。~
+/* Helga */ @11100315 = ~我能看出你挥舞武器时有多享受，小子。~
+/* Dusk */ @11100316 = ~呃。我承认有时我享受战斗，但我是为了守护我所珍视的人而战。这其中也包括你，赫尔加。~
+/* Helga */ @11100318 = ~哼。你可以继续说你是为了善良的美德而战，但我知道你内心深处是为了精彩战斗带来的荣耀和快感。~
+/* Dusk */ @11100317 = ~*微笑* 也许吧。我之前没这么想过。~
 
 // Helga / Dusk (Evil) 3
-/* Helga */ @11100319 = ~Aye, scarlet suits you well, Dusk.~
-/* Dusk */ @11100320 = ~What are you saying?~
-/* Helga */ @11100321 = ~Nothing. Just thinking out loud. Whatever you did with that scarlet orb you sometimes mention, it has resulted in a glorious change.~
-/* Dusk */ @11100322 = ~Not many would agree with your thinking.~
-/* Helga */ @11100323 = ~The glory of battle is all that matters. Have you sacrificed a few years of your life for what you are now? It has been well worth it.~
-/* Dusk */ @11100324 = ~Really? I'm not sure what the 'deal' I made with Pandemonium is like, but perhaps, after all, those years don't matter.~
-/* Dusk */ @11100325 = ~Maybe at the end of all things, I will end up like Danctian.~
-/* Helga */ @11100326 = ~Who? Do you mean that shadowy thing in Aran's warehouses?~
-/* Dusk */ @11100327 = ~Yes. What would you do if it came to that, Helga?~
-/* Helga */ @11100328 = ~Shadow demons are not to my liking, that's for sure. But if you force me to fight you under those circumstances, I would do so to the death.~
-/* Dusk */ @11100329 = ~I could expect nothing less from you, Helga.~
+/* Helga */ @11100319 = ~啊，红色很适合你，达斯克。~
+/* Dusk */ @11100320 = ~你在说什么？~
+/* Helga */ @11100321 = ~没什么，只是自言自语。你偶尔提到的那颗猩红宝珠，不管你对它做了什么，都带来了绝妙的变化。~
+/* Dusk */ @11100322 = ~没多少人会同意你的想法。~
+/* Helga */ @11100323 = ~战斗的荣耀才是一切。你为了成为现在的自己，牺牲了几年的生命吗？这最好值得。~
+/* Dusk */ @11100324 = ~真的吗？我不确定我和喧嚣空隧做的交易是什么样的，但也许，说到底，那些生命并不重要。~
+/* Dusk */ @11100325 = ~也许在一切结束时，我最终会变得像丹克蒂安一样。~
+/* Helga */ @11100326 = ~谁？你是说艾兰仓库里那个阴影般的东西？~
+/* Dusk */ @11100327 = ~是的。如果真的到了那一步，你会怎么做，赫尔加？~
+/* Helga */ @11100328 = ~影魔肯定不是我的菜。但如果你逼我在那种情况下与你战斗，我会战斗到底。~
+/* Dusk */ @11100329 = ~我对你的期望也正是如此，赫尔加。~
 
 // Helga / Fall
-/* Helga */ @11100330 = ~Girl Fall, how have you trained your wolves? I must admit they are good combatants.~
-/* Fall */ @11100331 = ~Train them? Well, the truth is that whenever I could, I would summon them from the Astral Plane.~
-/* Fall */ @11100332 = ~Mostly just to play or greet them, but I admit that sometimes they partook in my travels through the dangerous forests surrounding Brost.~
-/* Helga */ @11100333 = ~I am no great lover of furry things, but I can make an exception for your creatures. Fighting by their side is a fine advantage on the battlefield.~
-/* Fall */ @11100334 = ~I think they enjoy your company too.~
-/* Helga */ @11100335 = ~They enjoy fighting by my side, of that I am certain.~
+/* Helga */ @11100330 = ~法尔姑娘，你是怎么训练你的狼的？我必须承认它们是好战士。~
+/* Fall */ @11100331 = ~训练它们？嗯，事实是，只要有空，我就会从星界召唤它们。~
+/* Fall */ @11100332 = ~大多只是为了玩耍或打个招呼，但我承认有时它们会和我一起在布罗斯特周围危险森林中的旅行。~
+/* Helga */ @11100333 = ~我并不是特别喜欢毛茸茸的东西，但我可以为你的生物破例。与它们并肩作战在战场上是一个巨大的优势。~
+/* Fall */ @11100334 = ~我想它们也喜欢你的陪伴。~
+/* Helga */ @11100335 = ~它们喜欢和我并肩作战，这点我很确定。~
 
 // Helga / Alendir
-/* Helga */ @11100336 = ~You looked better before, snowy. Aye, definitely.~
-/* Alendir */ @11100337 = ~What did you say, dwarf?~
-/* Helga */ @11100338 = ~I mean back when you had wrinkles. You might be rejuvenated by that witch in fine clothes, but you were better off before.~
-/* Alendir */ @11100339 = ~I can somewhat understand your words. In the past, I wielded greater power.~
-/* Helga */ @11100340 = ~I don't mean that. You were more... pleasing to the eyes before. Old, wise, and confident.~
-/* Alendir */ @11100341 = ~T-that... I did not expect.~
-/* Helga */ @11100342 = ~Are you blushing? And here I thought only ice ran through your veins, old man.~
+/* Helga */ @11100336 = ~你以前看起来更好，雪人。啊，确实如此。~
+/* Alendir */ @11100337 = ~你说什么，矮人？~
+/* Helga */ @11100338 = ~我是说以前你有皱纹的时候。你也许被那个穿着漂亮衣服的女巫恢复了青春，但你以前更好。~
+/* Alendir */ @11100339 = ~我有点明白你的话。过去，我拥有更强大的力量。~
+/* Helga */ @11100340 = ~我不是那个意思。你以前更……赏心悦目。苍老、睿智而自信。~
+/* Alendir */ @11100341 = ~那……那是我没想到的。~
+/* Helga */ @11100342 = ~你在脸红吗？我还以为只有冰霜在你的血管里流淌呢，老家伙。~
 
 // Helga / Cho'Nuja
-/* Helga */ @11100343 = ~You are a formidable creature, scaly. Seldom have I seen a warrior use his own body to dismember his opponents.~
-/* Cho'Nuja */ @11100344 = ~Thank you, my lady. Being a high-class warrior has been my privilege as a member of the Jon draconic clan.~
-/* Helga */ @11100345 = ~Aye, I have no idea what you're talking about.~
-/* Cho'Nuja */ @11100346 = ~Only the strongest soldiers rise to the very top in Dreach-naga.~
-/* Helga */ @11100347 = ~I think I understand. And I believe you understand the glory of fighting against strong enemies.~
-/* Cho'Nuja */ @11100348 = ~Indeed, my lady. I have seen you fight, and it is no exaggeration to declare that you would have been a useful member in the ranks of the draconic champions.~
-/* Helga */ @11100349 = ~Aye, I suppose I can drink to that.~
+/* Helga */ @11100343 = ~你这身披鳞甲的强悍生物。我极少见到战士会用自己的躯体将对手撕成碎~
+/* Cho'Nuja */ @11100344 = ~谢谢你，我的女士。身为乔龙裔的一员，能成为一名精锐战士是我的莫大荣幸~
+/* Helga */ @11100345 = ~啊，我完全不知道你在说什么。~
+/* Cho'Nuja */ @11100346 = ~只有最强大的战士才能晋升到德雷奇·娜迦的最顶层。~
+/* Helga */ @11100347 = ~我想我明白了。而且我相信你理解与强敌作战的荣耀。~
+/* Cho'Nuja */ @11100348 = ~确实如此，我的女士。我见过你战斗，毫不夸张地说，您完全可以成为龙族勇士队伍中一员得力干将。~
+/* Helga */ @11100349 = ~是啊，我想我可以为此干杯。~
 
 // KALE
 // Kale / Dusk (Neutral) 1
-/* Dusk */ @11100350 = ~How many times must I apologize, Kale? I've told you, it was an accident.~
-/* Kale */ @11100351 = ~Why don't you admit that you don't even consider halflings, Dusk? It's not the first time a long-legs ignores my presence, you know?~
-/* Dusk */ @11100352 = ~Well, that might be due to your stealth, my good friend.~
-/* Kale */ @11100353 = ~Don't try to sweet-talk me, boy. I'm still waiting for you to make up for your clumsiness.~
-/* Dusk */ @11100354 = ~*sigh* All right, Kale. Perhaps we can work something out at the tavern next time we visit.~
-/* Kale */ @11100355 = ~Now that sounds good to me.~
+/* Dusk */ @11100350 = ~我要道歉多少次，凯尔？我告诉过你，那是个意外。~
+/* Kale */ @11100351 = ~你为什么不肯承认你根本不把半身人当回事，达斯克？这已经不是长腿人第一次无视我的存在了，你知道吗？~
+/* Dusk */ @11100352 = ~嗯，那可能是因为你的潜行术，我的好朋友。~
+/* Kale */ @11100353 = ~别想用甜言蜜语哄我，小子。我还在等你为你的粗心大意做出补偿呢。~
+/* Dusk */ @11100354 = ~*叹气* 好吧，凯尔。也许下次我们去酒馆的时候可以商量点什么。~
+/* Kale */ @11100355 = ~这还差不多。~
 
 // Kale / Dusk (Good)
-/* Kale */ @11100356 = ~So... Dusk, you don't drink ale anymore? I must say, that is a disappointment.~
-/* Dusk */ @11100357 = ~Why do you say that? I still drink.~
-/* Kale */ @11100358 = ~Come on, it's obvious you've changed drastically. Your love for trees has made you more... self-righteous.~
-/* Dusk */ @11100359 = ~Well, I might not drink as much as I used to. I try to keep my body as healthy as possible.~
-/* Kale */ @11100360 = ~You were more fun before, you know?~
-/* Dusk */ @11100361 = ~You only say that because you want me to keep paying for your ale.~
-/* Kale */ @11100362 = ~You caught me.~
+/* Kale */ @11100356 = ~那么……达斯克，你不再喝麦芽酒了？我得说，这真令人失望。~
+/* Dusk */ @11100357 = ~你为什么这么说？我还在喝啊。~
+/* Kale */ @11100358 = ~得了吧，你明显变了很多。你对树木的热爱让你变得更……自以为是了。~
+/* Dusk */ @11100359 = ~嗯，我可能不像以前喝得那么多了。我尽量保持身体健康。~
+/* Kale */ @11100360 = ~你知道吗，你以前更有趣多了。~
+/* Dusk */ @11100361 = ~你这么说，无非是想让我继续为你的麦芽酒付钱。~
+/* Kale */ @11100362 = ~被你发现了。~
 
 // Kale / Dusk (Evil)
-/* Kale */ @11100363 = ~So... Dusk, you don't drink ale anymore? I must say, that is a disappointment.~
-/* Dusk */ @11100364 = ~I am not going to pay for your vices, halfling.~
-/* Kale */ @11100365 = ~Hey, that's offensive. Not even one last time?~
-/* Dusk */ @11100366 = ~Stop pestering me.~
-/* Kale */ @11100367 = ~Fine, fine.~
+/* Kale */ @11100363 = ~那么……达斯克，你不再喝麦芽酒了？我得说，这真令人失望。~
+/* Dusk */ @11100364 = ~我不会为你的恶习买单，半身人。~
+/* Kale */ @11100365 = ~嘿，这可真伤人。最后一次也不行吗？~
+/* Dusk */ @11100366 = ~别烦我了。~
+/* Kale */ @11100367 = ~好吧，好吧。~
 
 // Kale / Fall
-/* Kale */ @11100368 = ~By Tymora, girl, keep your wolves under control.~
-/* Fall */ @11100369 = ~What's wrong, Kale? You have no reason to fear my siblings.~
-/* Kale */ @11100370 = ~Your "siblings" are looking at me with a deep craving for tasty halfling meat.~
-/* Fall */ @11100371 = ~How do you know your own flesh is tasty, Kale?~
-/* Kale */ @11100372 = ~Good point. I assume your furry friends have good taste, and the fact that they watch me so closely is proof of it.~
-/* Fall */ @11100373 = ~I can assure you, Kale. Neither Daren nor Sinna has any interest in eating you.~
-/* Kale */ @11100374 = ~They'd better not. I wouldn't want to have to slap them across the muzzle, you know?~
-/* Fall */ @11100375 = ~Nobody wants that.~
+/* Kale */ @11100368 = ~太摩拉在上，姑娘，管好你的狼。~
+/* Fall */ @11100369 = ~怎么了，凯尔？你没有理由害怕我的兄弟姐妹们。~
+/* Kale */ @11100370 = ~你的“兄弟姐妹们”正用渴望品尝美味半身人肉的眼神看着我。~
+/* Fall */ @11100371 = ~你怎么知道自己的肉很好吃，凯尔？~
+/* Kale */ @11100372 = ~说得好。我猜你那些毛茸茸的朋友品味不错，它们这么紧盯着我就是证明。~
+/* Fall */ @11100373 = ~我可以向你保证，凯尔。达伦和辛娜对你都没兴趣。~
+/* Kale */ @11100374 = ~它们最好别有兴趣。我可不想扇它们的嘴巴子，明白吗？~
+/* Fall */ @11100375 = ~没人想那样。~
 
 // Kale / Cho'Nuja
-/* Kale */ @11100376 = ~So... what's it like going through life naked, Cho?~
-/* Cho'Nuja */ @11100377 = ~...~
-/* Kale */ @11100378 = ~Hey, I'm talking to you.~
-/* Cho'Nuja */ @11100379 = ~Hm? Oh, I am sorry, little one. *bends down*~
-/* Kale */ @11100380 = ~Were you saying something?~
-/* Kale */ @11100381 = ~*sigh* Never mind. What you do is highly offensive.~
-/* Cho'Nuja */ @11100382 = ~Offensive? I long for a good combat. Do not worry, little furry one. I shall take the front line.~
-/* Kale */ @11100383 = ~Nobody denies that, General.~
+/* Kale */ @11100376 = ~那么……乔，一辈子光着身子生活是什么感觉？~
+/* Cho'Nuja */ @11100377 = ~……~
+/* Kale */ @11100378 = ~嘿，我在跟你说话呢。~
+/* Cho'Nuja */ @11100379 = ~嗯？哦，抱歉，小家伙。*弯下腰*~
+/* Kale */ @11100380 = ~你刚才在说什么吗？~
+/* Kale */ @11100381 = ~*叹气* 算了。你的所作所为非常无礼。~
+/* Cho'Nuja */ @11100382 = ~冒犯？我渴望一场酣畅淋漓的战斗。别担心，小毛球。我会打头阵的。~
+/* Kale */ @11100383 = ~没人否认这点，将军。~
 
 // Kale / Alendir
-/* Kale */ @11100384 = ~So... why do you admire ice so much, Alendir? It's boring, I don't see the appeal.~
-/* Alendir */ @11100385 = ~I have no time for your foolishness, halfling.~
-/* Kale */ @11100386 = ~Really? But you've reclaimed many years of life. I'd say time is the one thing you have plenty of.~
-/* Alendir */ @11100387 = ~*sigh* Well, I may have time, but I do not wish to waste it on nonsense.~
-/* Kale */ @11100388 = ~Oh, my bad. I guess having a shrine to a giant snowman makes perfect sense, doesn't it?~
-/* Alendir */ @11100389 = ~My former self would have frozen your tongue for your insolence, but I must admit that shrines and temples are no longer to my liking.~
-/* Kale */ @11100390 = ~My, and here I was hoping to exasperate you a little.~
-/* Alendir */ @11100391 = ~What makes you think you have failed in your endeavor?~
+/* Kale */ @11100384 = ~那么……你为什么如此崇拜冰，阿伦迪尔？它很无聊，我看不出有什么吸引力。~
+/* Alendir */ @11100385 = ~我没时间陪你胡闹，半身人。~
+/* Kale */ @11100386 = ~真的吗？但你可是重获了许多年寿命。要我说，时间是你最不缺的东西。~
+/* Alendir */ @11100387 = ~*叹气* 好吧，我确实有时间，但我不想浪费在无聊的事情上。~
+/* Kale */ @11100388 = ~哦，我的错。我猜给一个巨大的雪人建个神龛完全说得通，对吧？~
+/* Alendir */ @11100389 = ~过去的我本会因为你的无礼而冻住你的舌头，但我必须承认，神龛和神殿已经不再合我胃口了。~
+/* Kale */ @11100390 = ~哎呀，我还指望能让你气急败坏一下呢。~
+/* Alendir */ @11100391 = ~是什么让你觉得自己没做到呢？~
 
 // RECORDER
 // Recorder / Dusk (Neutral)
-/* Dusk */ @11100392 = ~You have very nice handwriting, Recorder.~
-/* Recorder */ @11100393 = ~Oh, thank you, Dusk. I suppose practice makes perfect.~
-/* Dusk */ @11100394 = ~Yes. Well, I cannot say the same for myself. Sometimes I cannot even understand my own scrawl.~
-/* Recorder */ @11100395 = ~Yes, I have noticed that you write. Especially when <CHARNAME> needs to interact with vendors and merchants. Why? I don't picture you as a mere merchant.~
-/* Dusk */ @11100396 = ~Why not? It doesn't seem that complicated.~
-/* Recorder */ @11100397 = ~That is not what I meant. Your combat skills are exceptional. While your trading skills... well, to be fair, I have yet to see them.~
-/* Dusk */ @11100398 = ~*clears throat* Well, I have thought about selling magical artifacts. Perhaps scrolls. I have knowledge of magic despite not using it, you know? I just need to practice my lines and pitches.~
-/* Recorder */ @11100399 = ~Have you come up with anything? You can practice with me, if you like.~
-/* Dusk */ @11100400 = ~That is very kind of you. Look, how does this sound for a start?~
-/* Recorder */ @11100401 = ~Hm. Perhaps we should work on your handwriting first. It is barely legible what you have written there.~
-/* Dusk */ @11100402 = ~*scratches head* All right, all right. We will do it your way.~
+/* Dusk */ @11100392 = ~你的字写得真好看，瑞科德。~
+/* Recorder */ @11100393 = ~哦，谢谢你，达斯克。我想熟能生巧吧。~
+/* Dusk */ @11100394 = ~是啊。嗯，我可不敢这么说。有时候我连自己写的潦草字都认不出来。~
+/* Recorder */ @11100395 = ~是的，我注意到你经常写字。尤其是当<CHARNAME>需要跟商贩和商人打交道的时候。为什么？我不觉得你只是个普通的商人。~
+/* Dusk */ @11100396 = ~为什么不行？这看起来没那么复杂吧。~
+/* Recorder */ @11100397 = ~我不是那个意思。你的战斗技巧出类拔萃。而你的交易技巧……好吧，公平地说，我还没见识过。~
+/* Dusk */ @11100398 = ~*清了清嗓子* 嗯，我确实想过出售魔法物品。也许是卷轴。我虽然不使用魔法，但对魔法有所了解，你明白吗？我只需要练习一下我的台词和推销技巧。~
+/* Recorder */ @11100399 = ~你有什么想法吗？如果你愿意，可以和我一起练习。~
+/* Dusk */ @11100400 = ~你真是太好了。听着，这样开头怎么样？~
+/* Recorder */ @11100401 = ~嗯。也许我们应该先练练你的字。你写的这些几乎看不清。~
+/* Dusk */ @11100402 = ~*挠头* 好吧，好吧。就按你说的来。~
 
 // Recorder / Dusk (Good)
-/* Recorder */ @11100403 = ~Dusk, may I ask you something personal?~
-/* Dusk */ @11100404 = ~Of course, my friend. Feel free to ask whatever you wish.~
-/* Recorder */ @11100405 = ~What did you feel when you took the power of Sornhil's orb? It seemed like a dangerous moment.~
-/* Dusk */ @11100406 = ~Perhaps it was dangerous. Truth is, Michelson facilitated the process thanks to the purification he achieved on the orb.~
-/* Dusk */ @11100407 = ~Sornhil intended to set a trap with the object since it appeared to be cursed. Though I am not so sure about the latter.~
-/* Dusk */ @11100408 = ~But you ask me what I felt. It is a bit complicated to put into words, but I will try.~
-/* Dusk */ @11100409 = ~Many memories rushed back to me when my eyes rested upon the emerald light. I remember walking through the forest of Elbereth and the zephyr on my cheeks.~
-/* Dusk */ @11100410 = ~The crisp air in my hair and the scent of wet earth filling my chest. I also remember Cormyr, and I saw myself as a child again, running through my father's meadows.~
-/* Dusk */ @11100411 = ~But most importantly... my thirst for vengeance slowly dissipating, and my mind clearing because of it.~
-/* Dusk */ @11100412 = ~By the time the process ended, with my perception of time already somewhat hazy, I ended up becoming who I am now.~
-/* Dusk */ @11100413 = ~I hope I've made myself clear, Recorder. And I hope I have answered your question.~
-/* Recorder */ @11100414 = ~Thank you, Dusk. I truly appreciate you sharing that moment with me.~
+/* Recorder */ @11100403 = ~达斯克，我能问你一个私人问题吗？~
+/* Dusk */ @11100404 = ~当然，我的朋友。想问什么尽管问。~
+/* Recorder */ @11100405 = ~当你拿走索恩希尔宝珠的力量时，你是什么感觉？那看起来是个危险的时刻。~
+/* Dusk */ @11100406 = ~也许确实危险。事实上，米切尔森对宝珠进行了净化，才促成了这个过程。~
+/* Dusk */ @11100407 = ~索恩希尔本想用这个物品设下陷阱，因为它似乎被诅咒了。不过后者我不太确定。~
+/* Dusk */ @11100408 = ~但你问我的感受。这有点难以用言语表达，但我会试试。~
+/* Dusk */ @11100409 = ~当我的目光落在翠绿的光芒上时，许多记忆涌回脑海。我记得漫步在艾贝雷斯森林，微风拂过我的脸颊。~
+/* Dusk */ @11100410 = ~清新的空气穿过我的发丝，湿润泥土的气息充盈胸膛。我还记得科米尔，我看到了儿时的自己，在父亲的草地上奔跑。~
+/* Dusk */ @11100411 = ~但最重要的是……我的复仇渴望渐渐消散，而我的思绪也因此变得清晰。~
+/* Dusk */ @11100412 = ~当这个过程结束时，我对时间的感知已经有些模糊，我最终成为了现在的自己。~
+/* Dusk */ @11100413 = ~希望我说清楚了，瑞科德。也希望我回答了你的问题。~
+/* Recorder */ @11100414 = ~谢谢你，达斯克。我真的很感激你愿意与我分享那个时刻。~
 
 // Recorder / Dusk (Evil)
-/* Recorder */ @11100415 = ~Dusk, may I ask you something personal?~
-/* Dusk */ @11100416 = ~Speak.~
-/* Recorder */ @11100417 = ~What did you feel when you took the power of Sornhil's orb? It seemed like a dangerous moment.~
-/* Dusk */ @11100418 = ~Why the blazes do you want to know that?~
-/* Recorder */ @11100419 = ~I would like to know. None of us knows what you saw or experienced at that moment.~
-/* Dusk */ @11100420 = ~I saw Pandemonium and everything that comes with it. I saw power, and I grasped it in my hands.~
-/* Dusk */ @11100421 = ~As a result, you see the man before you now. An agent of vengeance who will strike with the full weight of his sword wherever my heart or <CHARNAME> command.~
-/* Recorder */ @11100422 = ~W-well, it looked like it was something more complex than that. You seemed frightened.~
-/* Dusk */ @11100423 = ~Perhaps the man I once was. Before, I was weak, and the weak let fear invade their body and mind.~
-/* Dusk */ @11100424 = ~That ended when my years in Pandemonium came to a close.~
-/* Recorder */ @11100425 = ~Years? But you were only focused on the Scarlet Orb for a brief moment.~
-/* Dusk */ @11100426 = ~Ha. This bores me. Let us move on. I am tired of talking.~
+/* Recorder */ @11100415 = ~达斯克，我能问你一个私人问题吗？~
+/* Dusk */ @11100416 = ~说。~
+/* Recorder */ @11100417 = ~当你吸收索恩希尔宝珠的力量时，是什么感觉？那看起来是个危险的时刻。~
+/* Dusk */ @11100418 = ~你到底为什么要知道这个？~
+/* Recorder */ @11100419 = ~我想知道。我们当中没人知道你在那一刻看到了什么，经历了什么。~
+/* Dusk */ @11100420 = ~我看到了喧嚣空隧，以及随之而来的一切。我看到了力量，并将其握在了手中。~
+/* Dusk */ @11100421 = ~结果，你看到了眼前这个人。一个复仇的使者，无论我的心或是<CHARNAME>指向何处，我都会全力用剑挥砍。~
+/* Recorder */ @11100422 = ~呃，看起来那比你说得要复杂得多。你似乎很害怕。~
+/* Dusk */ @11100423 = ~也许是我曾经的那个自己。以前，我很软弱，软弱的人会让恐惧侵入他们的身体和心灵。~
+/* Dusk */ @11100424 = ~当我在喧嚣空隧的岁月结束时，那一切也就结束了。~
+/* Recorder */ @11100425 = ~岁月？但你只是专注于猩红宝珠片刻而已。~
+/* Dusk */ @11100426 = ~哈。这真无聊。我们继续走吧。我厌倦了谈话。~
 
 // Recorder / Fall
-/* Recorder */ @11100427 = ~I must say, Fall, that Gustav does not feel comfortable at all around Daren or Sinna. Especially Daren. Well, definitely not Sinna either.~
-/* Fall */ @11100428 = ~Why? My furry siblings won't do anything to Gustav.~
-/* Recorder */ @11100429 = ~I am not so sure about that. I have seen when a predator is hungry, Fall!~
-/* Fall */ @11100430 = ~To be fair, Daren and Sinna are always hungry. But they don't eat their friends!~
-/* Recorder */ @11100431 = ~Do you honestly believe your wolves consider Gustav a friend?~
-/* Fall */ @11100432 = ~Of course, Recorder. Why wouldn't they?~
-/* Recorder */ @11100433 = ~Did you not listen to my point about a predator's hunger?~
-/* Recorder */ @11100434 = ~Well, never mind. I trust your commands will be more than enough for them to remain good and friendly toward Gustav, yes?~
-/* Fall */ @11100435 = ~Naturally. After all, you are speaking to the Beast Mistress.~
-/* Recorder */ @11100436 = ~...~
+/* Recorder */ @11100427 = ~我得说，法尔，古斯塔夫在达伦或辛娜身边感到非常不自在。尤其是达伦。嗯，辛娜肯定也不行。~
+/* Fall */ @11100428 = ~为什么？我毛茸茸的兄弟姐妹们不会对古斯塔夫怎么样的。~
+/* Recorder */ @11100429 = ~我不太确定。我见过掠食者饥饿时的样子，法尔！~
+/* Fall */ @11100430 = ~说实在的，达伦和辛娜总是很饿。但它们不吃朋友！~
+/* Recorder */ @11100431 = ~你真的相信你的狼把古斯塔夫当朋友吗？~
+/* Fall */ @11100432 = ~当然，瑞科德。它们为什么不呢？~
+/* Recorder */ @11100433 = ~你没听到我关于捕食者饥饿的观点吗？~
+/* Recorder */ @11100434 = ~嗯，算了。我相信你的命令足以让它们对古斯塔夫保持友好，对吧？~
+/* Fall */ @11100435 = ~那当然。毕竟，你是在跟野兽女主说话。~
+/* Recorder */ @11100436 = ~……~
 
 // Recorder / Alendir
-/* Recorder */ @11100437 = ~Alendir, may I ask you something?~
-/* Alendir */ @11100438 = ~*sigh* Tell me, child. What is it you want to know?~
-/* Recorder */ @11100439 = ~What was it like to die?~
-/* Alendir */ @11100440 = ~...~
-/* Recorder */ @11100441 = ~Oh, I am sorry if I was too blunt about it. I did not mean to—~
-/* Alendir */ @11100442 = ~Why do you want to know something so macabre? Gnomes, one never knows what they will come up with.~
-/* Recorder */ @11100443 = ~I want to write about it. It strikes me as a story worthy of being told.~
-/* Alendir */ @11100444 = ~The part where I am crushed by a golem? It did not seem very worthy to me.~
-/* Recorder */ @11100445 = ~You may try to act cynical, Alendir, but I know you sacrificed your life to help <CHARNAME> and Fall in the clash against Icelock.~
-/* Recorder */ @11100446 = ~Whether you like it or not, your death was heroic.~
-/* Alendir */ @11100447 = ~I have no interest in being a hero, little one. What I would be interested in right now is a good campfire and a comfortable chair to read one of my books from Frostfell.~
-/* Recorder */ @11100448 = ~All right...~
-/* Alendir */ @11100449 = ~But... we shall speak another time about whatever you wish. Now go bother someone else.~
-/* Recorder */ @11100450 = ~I'll hold you to your word, old man.~
+/* Recorder */ @11100437 = ~阿伦迪尔，我能问你点事吗？~
+/* Alendir */ @11100438 = ~*叹气* 说吧，孩子。你想知道什么？~
+/* Recorder */ @11100439 = ~死亡是什么感觉？~
+/* Alendir */ @11100440 = ~……~
+/* Recorder */ @11100441 = ~哦，如果我太直白了，我很抱歉。我不是故意——~
+/* Alendir */ @11100442 = ~你为什么想知道这么可怕的事？侏儒啊，真不知道他们脑子里会冒出什么来。~
+/* Recorder */ @11100443 = ~我想把它写下来。我觉得这是个值得讲述的故事。~
+/* Alendir */ @11100444 = ~我被魔像压碎的那部分？在我看来可一点都不值得。~
+/* Recorder */ @11100445 = ~你可以试着表现得愤世嫉俗，阿伦迪尔，但我知道你为了帮助<CHARNAME>和法尔对抗霜锁之主而牺牲了自己的生命。~
+/* Recorder */ @11100446 = ~不管你愿不愿意承认，你的死是英勇的。~
+/* Alendir */ @11100447 = ~我对当英雄没兴趣，小家伙。我现在感兴趣的是一个好篝火和一把舒服的椅子，好读一本我从冰霜冻土带来的书。~
+/* Recorder */ @11100448 = ~好吧……~
+/* Alendir */ @11100449 = ~不过……我们改天再聊你想聊的任何事。现在去烦别人吧。~
+/* Recorder */ @11100450 = ~我会记住你说的话的，老家伙。~
 
 // Recorder / Cho'Nuja
-/* Recorder */ @11100451 = ~Cho! Gustav is not here to satisfy your strange voracity, you know?~
-/* Cho'Nuja */ @11100452 = ~Hm? What is a Gustav?~
-/* Recorder */ @11100453 = ~My ferret! I have seen how you look at him.~
-/* Cho'Nuja */ @11100454 = ~Ah, the furry rodent. I have no interest in eating him, little elf.~
-/* Recorder */ @11100455 = ~I am not an elf! I am a gnome.~
-/* Cho'Nuja */ @11100456 = ~I ask your forgiveness, honestly all of you look alike to me. I will get used to it.~
-/* Cho'Nuja */ @11100457 = ~But rest assured, my gnome friend, that I do not intend to feed on your Gustav.~
-/* Recorder */ @11100458 = ~Well, I suppose I will take your word for it.~
+/* Recorder */ @11100451 = ~乔！古斯塔夫可不是用来满足你奇怪食欲的，知道吗？~
+/* Cho'Nuja */ @11100452 = ~嗯？古斯塔夫是什么？~
+/* Recorder */ @11100453 = ~我的雪貂！我看到你怎么盯着它看了。~
+/* Cho'Nuja */ @11100454 = ~啊，那只毛茸茸的啮齿动物。我没兴趣吃它，小精灵。~
+/* Recorder */ @11100455 = ~我不是精灵！我是侏儒。~
+/* Cho'Nuja */ @11100456 = ~我请求你的原谅，说实话你们在我眼里都长一个样。我会慢慢习惯的。~
+/* Cho'Nuja */ @11100457 = ~但请放心，我的侏儒朋友，我没打算吃掉你的古斯塔夫。~
+/* Recorder */ @11100458 = ~好吧，那我就相信你的话。~
 
 // VIENXAY
 // Vienxay / Dusk (Neutral)
-/* Vienxay */ @11100459 = ~Ugh, I do not understand why <CHARNAME> would ever bring a Wizard Slayer into the group. It is so irritating.~
-/* Dusk */ @11100460 = ~You know I can hear you, Vienxay, right?~
-/* Vienxay */ @11100461 = ~That was my intention. I do not like you. I do not trust you.~
-/* Dusk */ @11100462 = ~You have no reason to fear me, I have nothing against you. My strength is here to protect <CHARNAME> and his own.~
-/* Vienxay */ @11100463 = ~I do not need your protection, human.~
-/* Dusk */ @11100464 = ~I know you don't. You are an elf of great skill, why would you need me? Even so, if anyone comes trying to hurt you, I will be there to prevent it.~
-/* Vienxay */ @11100465 = ~Hrmph. At least you are capable of recognizing my talent. Perhaps you are not so irritating after all.~
+/* Vienxay */ @11100459 = ~呃，我不明白为什么<CHARNAME>会把一个法师杀手带进队伍。真烦人。~
+/* Dusk */ @11100460 = ~你知道我能听见你说话吧，维恩克赛？~
+/* Vienxay */ @11100461 = ~我就是故意的。我不喜欢你。我不信任你。~
+/* Dusk */ @11100462 = ~你没有理由怕我，我对你没有恶意。我的力量是用来保护<CHARNAME>和他的人的。~
+/* Vienxay */ @11100463 = ~我不需要你的保护，人类。~
+/* Dusk */ @11100464 = ~我知道你不需要。你是技艺高超的精灵，怎么会需要我呢？即便如此，如果有人胆敢来伤害你，我会阻止他们。~
+/* Vienxay */ @11100465 = ~哼。至少你还能认出我的才华。也许你还没那么烦人。~
 
 // Vienxay / Dusk (Good) 1
-/* Vienxay */ @11100466 = ~If you were irritating before, you are even more so now. At least you wield greater power after absorbing the strength of the orb.~
-/* Dusk */ @11100467 = ~I do not know whether to take that as a compliment. Truth is, I have never felt better, Vienxay.~
-/* Vienxay */ @11100468 = ~You strive to imitate the elves, but you will never be like them, human. It matters not if you have adopted greater power from Mielikki or whoever it was.~
-/* Dusk */ @11100469 = ~I am not trying to be an elf, Vienxay. But my respect for them is deep, even for you. You have the capacity to be better, and I know you know it. When the opportunity arises, I know you will do the right thing.~
-/* Vienxay */ @11100470 = ~Hrmph. Get away from me, will you? This conversation is over.~
+/* Vienxay */ @11100466 = ~如果你以前很烦人，那现在更烦人了。至少你在吸收了法球的力量后变得更加强大了。~
+/* Dusk */ @11100467 = ~我不知道该不该把这当作夸奖。事实上，我感觉从未这么好过，维恩克赛。~
+/* Vienxay */ @11100468 = ~你竭力模仿精灵，但永远无法成为他们，人类。无论你从梅莉凯或其他人那里获得了多么强大的力量，都无关紧要。~
+/* Dusk */ @11100469 = ~我不是想成为精灵，维恩克赛。但我对他们怀有深深的敬意，甚至包括你。你有能力变得更好，我知道你心里明白。当机会来临时，我知道你会做出正确的选择。~
+/* Vienxay */ @11100470 = ~哼。离我远点，行吗？这场谈话结束了。~
 
 // Vienxay (Neutral) / Dusk (Good) 2
-/* Vienxay */ @11100471 = ~Stop smiling at me, Dusk. It is already uncomfortable.~
-/* Dusk */ @11100472 = ~Oh, my apologies, my friend. But you must admit that you have changed.~
-/* Vienxay */ @11100473 = ~What do you mean by that?~
-/* Dusk */ @11100474 = ~You did the right thing for your people, even without expecting anything in return. That is a display of true character. I knew you had it in you.~
-/* Vienxay */ @11100475 = ~I suppose you were right, is that what you wanted to hear, Dusk?~
-/* Dusk */ @11100476 = ~No, no. I only wanted to tell you that I am proud of you. I do not know if your conflict with your people will ever be fully resolved, but if we are speaking of families, <CHARNAME> and the rest of us count among your own now.~
-/* Vienxay */ @11100477 = ~Hrmph. Fine comfort that is. But... thank you, Dusk.~
+/* Vienxay */ @11100471 = ~别冲我笑了，达斯克。这已经让人很不舒服了。~
+/* Dusk */ @11100472 = ~哦，抱歉，我的朋友。但你得承认，你已经变了。~
+/* Vienxay */ @11100473 = ~你这话什么意思？~
+/* Dusk */ @11100474 = ~你为自己的子民做了正确的事，甚至不求回报。这才是真正品格的体现。我早就知道你有这样的品质。~
+/* Vienxay */ @11100475 = ~我想你说得对，这就是你想听到的，对吧，达斯克？~
+/* Dusk */ @11100476 = ~不，不是。我只是想告诉你，我为你感到骄傲。我不知道你与你的人民之间的冲突能否完全化解，但说到家人，<CHARNAME>和我们其他人现在也算是你的家人了。~
+/* Vienxay */ @11100477 = ~哼。这安慰还真不错。但是……谢谢你，达斯克。~
 
 // Vienxay / Dusk (Evil)
-/* Vienxay */ @11100478 = ~You have made the right choice, Dusk. Seizing the power that was offered to you is something few would dare to do, and you have been successful in your endeavor.~
-/* Dusk */ @11100479 = ~I know, Vienxay. With this power, our path to victory will be easier.~
-/* Vienxay */ @11100480 = ~Our?~
-/* Dusk */ @11100481 = ~*smirks* Do you not have a goal in mind, sorceress? I will help you achieve it. Just tell me who your enemies are, and I shall pierce them with my sword.~
-/* Vienxay */ @11100482 = ~I do not need you to face my enemies, human. Though your offer, I must say, sounds tempting.~
-/* Dusk */ @11100483 = ~I am an agent of vengeance, Vienxay. When <CHARNAME> no longer needs me, do not hesitate to turn to me if you have something in mind.~
-/* Vienxay */ @11100484 = ~I shall think about it.~
+/* Vienxay */ @11100478 = ~你做出了正确的选择，达斯克。抓住机会获得力量，这是很少有人敢做的事，而你已经成功了。~
+/* Dusk */ @11100479 = ~我知道，维恩克赛。有了这股力量，我们的胜利之路会更轻松。~
+/* Vienxay */ @11100480 = ~我们？~
+/* Dusk */ @11100481 = ~*得意地笑* 你难道没有目标吗，女巫？我会帮你实现它。只要告诉我你的敌人是谁，我就会用剑刺穿他们。~
+/* Vienxay */ @11100482 = ~我不需要你来面对我的敌人，人类。不过我得说，你的提议听起来很诱人。~
+/* Dusk */ @11100483 = ~我是复仇的使者，维恩克赛。当<CHARNAME>不再需要我时，如果你有什么想法，尽管来找我。~
+/* Vienxay */ @11100484 = ~我会考虑的。~
 
 // Vienxay / Fall
-/* Vienxay */ @11100485 = ~Your dress is of a sublime quality, half-blood. I cannot fathom how it fell into your hands. Certainly, some are lucky because chance is blind, deaf, and evidently, has very poor taste when choosing whom to favor.~
-/* Fall */ @11100486 = ~I have no intention of feeding your hatred or your ego, Vienxay. Aim your words elsewhere.~
-/* Vienxay */ @11100487 = ~Hrmph. As expected: A pretty wrapping that perfectly camouflages a dull, predictable essence completely devoid of nuance.~
-/* Fall */ @11100488 = ~Whatever.~
+/* Vienxay */ @11100485 = ~你的裙子品质卓越，半精灵。我实在想不通它为何会落到你的手里。诚然，有些人就是运气好；命运机遇本就眼盲耳聩，而且很显然，它挑眷顾对象时品味极差。~
+/* Fall */ @11100486 = ~我无意助长你的恨意，也不会纵容你的自负，维恩克赛。把你的口舌留到别处去。~
+/* Vienxay */ @11100487 = ~哼。不出所料：华美的包装完美地掩盖了乏味、可预测、毫无细微差别的本质。~
+/* Fall */ @11100488 = ~随便吧。~
 
 // Vienxay / Alendir
-/* Vienxay */ @11100489 = ~Do you not miss your home, old man? I know Evereska is not remotely as glorious as Evermeet, but it is still far better than these dusty human lands.~
-/* Alendir */ @11100490 = ~Evereska is already part of my past, child. My memories of it are just that—memories.~
-/* Vienxay */ @11100491 = ~And what is your purpose then? Why be an elf of Cormanthyr in a world as wretched as this?~
-/* Alendir */ @11100492 = ~That I have yet to discover. Mystra brought me back to life, but she has given me no clues as to why.~
-/* Vienxay */ @11100493 = ~Hrmph. That must be a nuisance.~
-/* Alendir */ @11100494 = ~I am not so sure. As the days pass, uncertainties are eased by the expectation of tomorrow. I suppose... I am a bit more optimistic than before.~
-/* Alendir */ @11100495 = ~But do not tell anyone.~
-/* Vienxay */ @11100496 = ~Ugh, why would I? Your affairs are your own business.~
+/* Vienxay */ @11100489 = ~你不想家吗，老头？我知道艾弗瑞斯卡远不如永聚岛那么辉煌，但它仍然比这些尘土飞扬的人类领地好得多。~
+/* Alendir */ @11100490 = ~艾弗瑞斯卡已经是我过去的一部分了，孩子。我对它的记忆仅仅是记忆而已。~
+/* Vienxay */ @11100491 = ~那么你的目标是什么？为什么要在这样一个悲惨的世界里做一个科曼索的精灵？~
+/* Alendir */ @11100492 = ~我还没找到答案。密斯特拉让我复活了，但她没有给我任何线索说明原因。~
+/* Vienxay */ @11100493 = ~哼。那一定很烦人。~
+/* Alendir */ @11100494 = ~我不太确定。随着日子一天天过去，不确定性被对明天的期待所缓解。我想……我比以前乐观了一些。~
+/* Alendir */ @11100495 = ~但别告诉任何人。~
+/* Vienxay */ @11100496 = ~呃，我为什么要告诉别人？你的事是你自己的事。~
 
 // Vienxay / Cho'Nuja
-/* Vienxay */ @11100497 = ~Ugh, have you ever considered using soap, lizardman? Your swamp stench is unbearable.~
-/* Cho'Nuja */ @11100498 = ~Soap? Sounds delicious. Do you have some of that, female?~
-/* Vienxay */ @11100499 = ~I do, but it is not for eating! It is used for bathing.~
-/* Cho'Nuja */ @11100500 = ~We have no need for baths. Being submerged in the depths of a lagoon or even a river is more than enough. We enjoy water very much.~
-/* Vienxay */ @11100501 = ~Well, it certainly doesn't show, because you reek.~
-/* Cho'Nuja */ @11100502 = ~My natural scent is my pride. I was respected in Dreach-naga both militarily and prolifically. Regrettably, the war against the spiders did not allow me the mating ritual to extend my lineage. But it is never too late.~
-/* Vienxay */ @11100503 = ~How did we end up talking about this? Please, get away from me.~
-/* Cho'Nuja */ @11100504 = ~Did I say something wrong?~
+/* Vienxay */ @11100497 = ~呃，蜥蜴人，你有没有想过用肥皂？你身上的沼泽臭味简直让人无法忍受。~
+/* Cho'Nuja */ @11100498 = ~肥皂？听起来很好吃。你有那种东西吗，雌性？~
+/* Vienxay */ @11100499 = ~我有，但那不是用来吃的！是用来洗澡的。~
+/* Cho'Nuja */ @11100500 = ~我们不需要洗澡。泡在泻湖深处甚至一条河里就足够了。我们非常喜欢水。~
+/* Vienxay */ @11100501 = ~嗯，这显然看不出来，因为你臭气熏天。~
+/* Cho'Nuja */ @11100502 = ~我的天然体味是我的骄傲。我在德雷奇·娜迦时，无论军事上还是繁衍上都备受尊敬。遗憾的是，与蜘蛛的战争让我无法通过交配仪式来延续血脉。但现在也不晚。~
+/* Vienxay */ @11100503 = ~我们是怎么聊到这个的？请你离我远点。~
+/* Cho'Nuja */ @11100504 = ~我说错什么了吗？~
 
 // Items personalizados
-@11100505 = ~Emily~
-@11100506 = ~Tome of Arcane Ammunition Crafting~
-@11100507 = ~This tome contains the necessary instructions for an archer to create a certain amount of magical ammunition for bows and crossbows. Crossbow bolts carry an acidic property, while bow arrows possess magical damage properties. Someone like Emily could learn this ability.
+@11100505 = ~艾米丽~
+@11100506 = ~奥术弹药制作手册~
+@11100507 = ~这本手册包含弓箭手制作一定数量弓和弩用魔法弹药的必要说明。弩箭带有酸性属性，而弓箭具有魔法伤害属性。像艾米丽这样的人可以学会这种能力。
 
-STATISTICS:
+数据资料：
 
-Special Ability: Permanently learn "Arcane Ammunition Crafting" (1/day)
-Weight: 5 lbs.~
-@11100508 = ~Tome of Arcane Ammunition Crafting: "Arcane Ammunition Crafting" learned as an innate ability (1/day).~
-@11100509 = ~Acid Bolt +4~
-@11100510 = ~This bolt is infused with acid and will inflict an extra 1d4 points of acid damage.
+特殊功能：永久习得"奥术弹药制作"(1/天)
+重量：5~
+@11100508 = ~奥术弹药制作手册："奥术弹药制作"习得为天赋能力(1/天)。~
+@11100509 = ~强酸矢+4~
+@11100510 = ~这支弩矢注入了强酸，将造成额外1d4点强酸伤害。
 
-STATISTICS:
+数据资料：
 
-Damage: 1d8+4, +1d4 acid damage
-Damage type: Missile
-Weight: 0 lbs
-Weapon Type: Crossbow~
-@11100511 = ~Magical Arrow +4~
-@11100512 = ~This arrow contains an arcane charge that will inflict an extra 1d4 points of magical damage.
+伤害：1d8+4, +1d4强酸伤害
+伤害类型：远程
+重量：0
+武器特长类别：弩~
+@11100511 = ~魔法箭+4~
+@11100512 = ~这支箭矢蕴含奥术能量，将造成额外1d4点魔法伤害。
 
-STATISTICS:
+数据资料：
 
-Damage: 1d6+4, +1d4 magic damage
-Damage type: Missile
-Weight: 0 lbs
-Weapon Type: Bow~
-@11100513 = ~Craft Arcane Ammunition~
-@11100514 = ~Craft Arcane Ammunition
-(Innate)
+伤害：1d6+4, +1d4魔法伤害
+伤害类型：远程
+重量：0
+武器特长类别：弓~
+@11100513 = ~制作奥术弹药~
+@11100514 = ~制作奥术弹药
+(天赋)
 
-Level: Innate
-Range: 0
-Duration: Special
-Casting Time: 6
-Area of Effect: The ranger
-Saving Throw: None
+等级：天赋
+有效距离：0
+持续时间：特殊
+施法时间：6
+影响范围：游侠
+豁免检定：无
 
-DESCRIPTION:
+描述：
 
-Through this ability, the archer is capable of creating bolts and arrows for their ranged weapons once a day. It will create 5 acid bolts and 5 arcane arrows, which will not expire until they are used.
+通过此能力，弓箭手每天能够为远程武器制作箭矢和弩矢。将制作5支强酸矢和5支魔法箭，这些箭矢在使用前不会消失。
 
-Acid Bolts +4: 5 bolts
-Magical Arrows +4: 5 arrows~
+强酸矢+4：5支
+魔法箭+4：5支~
 
-@11100515 = ~Helga~
-@11100516 = ~Holy Potion of Haela's Fortitude~
-@11100517 = ~This thick beverage contains a liquid blessed by the high clerics of Haela and grants the bearer a great physical constitution permanently.
+@11100515 = ~赫尔加~
+@11100516 = ~海菈之坚韧圣水~
+@11100517 = ~这种浓稠的饮品含有海菈高阶牧师祝福的圣水，可永久赋予饮用者强健的体魄。
 
-STATISTICS:
+数据资料：
 
-Special Ability: +4 bonus to Constitution
-Weight: 1 lb.~
-@11100518 = ~Holy Potion of Haela's Fortitude: +4 bonus to Constitution~
+特殊功能：体质+4
+重量：1~
+@11100518 = ~海菈之坚韧圣水：体质+4~
 
-@11100519 = ~Kale~
-@11100520 = ~Potion of Super Halfling Fortune~
-@11100521 = ~This beverage possesses a sweet scent that fills the lungs of anyone who smells it. However, according to pre-established instructions, only a halfling named Kale may drink it, almost as if it had been brewed specifically for him.
+@11100519 = ~凯尔~
+@11100520 = ~超级半身人幸运药剂~
+@11100521 = ~这种饮品散发着甜美的香气，闻者无不心旷神怡。但根据预先设定的说明，只有名为凯尔的半身人才能饮用它，仿佛这瓶药剂就是为他量身酿造的。
 
-STATISTICS:
+数据资料：
 
-Special Ability: Permanently learn "Sling Champion" (1/day)
-Weight: 1 lb.~
-@11100522 = ~Potion of Super Halfling Fortune: "Sling Champion" learned as an innate ability (1/day).~
+特殊能力：永久习得“投石索大师”（1次/天）
+重量：1~
+@11100522 = ~超级半身人幸运药水：习得“投石索大师”作为天赋能力（1次/天）。~
 
-@11100523 = ~Recorder~
-@11100524 = ~Harp of the Blizzard~
-@11100525 = ~This harp is icy to the touch and unbearable to hold for even a few minutes. While it is a bard's instrument, it is specifically designed so that the gnome known as Recorder may utilize it.
+@11100523 = ~瑞科德~
+@11100524 = ~暴风雪竖琴~
+@11100525 = ~这把竖琴触感冰冷，令人难以持握哪怕几分钟。虽然它是吟游诗人的乐器，但专为名为瑞科德的侏儒设计使用。
 
-STATISTICS:
+数据资料：
 
-Equipped abilities:
-– Cold resistance: +90%
+装备能力：
+– 寒冷抗性：+90%
 
-Charge abilities:
-– Pure Ice Explosion (1/day)
+充能能力：
+– 纯净冰爆(1/天)
 
-Weight: 6 lbs.~
+重量：6~
 
-@11100526 = ~Vienxay~
-@11100527 = ~Arcane Dagger of the Shadows~
-@11100528 = ~This dagger, simple in appearance, rejects anyone who is not a Shadowmage. Notably, this weapon is tailored for the elf Vienxay and has the capacity to enhance magical capabilities while wielded, as well as returning to the user when thrown at an enemy.
+@11100526 = ~维恩克赛~
+@11100527 = ~暗影奥术匕首~
+@11100528 = ~这把外观朴素的匕首拒绝任何非暗影法师的人使用。值得注意的是，这件武器专为精灵维恩克赛量身打造，持有时可增强魔法能力，并且投掷攻击敌人后会返回使用者手中。
 
-STATISTICS:
+数据资料：
 
-Combat abilities:
-– Returns to the wielder's hand when thrown
-– Range as a missile weapon: 100
+战斗能力：
+– 投掷时返回持用者手中
+– 作为远程武器有效距离：100
 
-Equipped abilities:
-– Grants bonus arcane spell slots:
-  * Level 2: +3 slots
-  * Level 3: +2 slots
-  * Level 4: +1 slot
+装备能力：
+– 获得额外奥术法术位：
+* 2级：+3个法术位
+* 3级：+2个法术位
+* 4级：+1个法术位
 
-THAC0: +4 bonus
-Damage: 2d4+4 (slashing)
-Speed Factor: 1
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength~
- 
+零级命中值：+4加成
+伤害力：2d4+4(挥砍)
+使用速度：1
+武器特长类别：匕首
+类型：单手
+需求：
+力量3~
+
  // P_DANCT2/P_DEMOL2 (Battle against the Order of Mages)
 // Emily
-@11100530 = ~Dusk, I will do everything in my power to give my best in this fight. The necromancers must not prevail!~
+@11100530 = ~达斯克，我会竭尽全力在这场战斗中发挥出最佳水平。死灵师绝不能得逞！~
 // Helga
-@11100531 = ~Alright, Wizard Slayer. It's time for war! Do not hold back, and unleash your fury in the glory of the battle to come.~
+@11100531 = ~好吧，法师杀手。是时候开战了！不要保留，在即将到来的战斗中尽情释放你的怒火吧。~
 // Kale
-@11100532 = ~So... is this the end of your vengeful journey, Dusk? If we make it out of this in one piece, remember that celebrating in a tavern is fully allowed, and the round of brews is on your tab, deal?~
+@11100532 = ~那么……这就是你复仇之旅的终点了吗，达斯克？如果我们能毫发无损地活下来，记得去酒馆庆祝一下，第一轮酒水你请客，成交？~
 // Recorder
-@11100533 = ~The final chapter of your struggle against the Order of Mages is within our reach, Dusk. It is an honor to be part of this. Now, to battle!~
+@11100533 = ~你对法师教团抗争的最终篇章近在咫尺了，达斯克。能参与其中是我的荣幸。现在，战斗吧！~
 // Vienxay
-@11100534 = ~Hrmph. Is this band of little men supposed to be the epitome of magic? I shall prove to them just how wrong they are...~
+@11100534 = ~哼。这群乌合之众就是魔法的巅峰？我要让他们看看自己错得有多离谱……~
 
 // P_DANCTI Danctian custom items
 // Emily
-@11100535 = ~Aasimar, fear not my presence. I harbor nothing but good intentions for the allies of Ardusk and <CHARNAME>. So much so, that this tome was crafted especially for you. Harness the power it will grant you, and you shall become an even more formidable ally to the Wizard Slayer's cause.~
-@11100536 = ~I-I... I don't know if I should. But since <CHARNAME> and Dusk believe you are trustworthy, I will take it. However, I will only read it if <CHARNAME> bids me to do so.~
+@11100535 = ~阿斯莫，不必畏惧我的存在。我对阿尔杜斯和<CHARNAME>的盟友只有善意。这本手册是专门为你制作的。驾驭它将赋予你的力量，你将成为法师杀手事业中更强大的盟友。~
+@11100536 = ~我——我……不知是否该接受。但既然<CHARNAME>与杜斯克都认为你值得信赖，我便收下它。不过，唯有<CHARNAME>授意时我才会翻阅。~
 // Helga
-@11100537 = ~Herald of Haela, formidable warrior, this potion shall make you more resilient in the arduous battles ahead. May your strength serve as a guide to the young mortals who surround you.~
-@11100538 = ~Hmm. I do not trust you, monster. But even though this comes from you, I can feel Haela's influence upon it. I will accept it, and I shall see whether I make use of it or not. Now, get away from me.~
+@11100537 = ~海菈的信使，勇猛的战士，这瓶药剂将使你在艰苦的战斗中更加坚韧。愿你的力量引导你周围的年轻凡人。~
+@11100538 = ~嗯。我不信任你，怪物。但尽管这是你给的，我却能感受到海菈的影响。我接受它，至于是否使用，我再决定。现在，离我远点。~
 // Kale
-@11100539 = ~Young halfling, this is for you. You will find that its effects will enhance your combat prowess. Its flavor, as well, should be to your liking.~
-@11100540 = ~*sniffs it* Aye... I admit its aroma is intoxicating. You certainly know how to brew your potions, mate.~
+@11100539 = ~年轻的半身人，这是给你的。你会发现它的效果能增强你的战斗能力。它的口味，也应该合你的喜好。~
+@11100540 = ~*闻了闻* 嗯……我承认它的香气令人陶醉。你确实知道怎么酿酒，伙计。~
 // Recorder
-@11100541 = ~Child, this is for you. The music you draw from it shall mark a chilly farewell for your enemies.~
-@11100542 = ~I don't like the way you say that, but I must admit this harp is beautiful. T-thank you, I suppose.~
+@11100541 = ~孩子，这是给你的。你从中演奏出的音乐，将为你的敌人奏响奏响寒冷的告别曲。~
+@11100542 = ~我不喜欢你说话的方式，但我必须承认这把竖琴很美。谢……谢谢，我想。~
 // Vienxay
-@11100543 = ~Ah, Vienxay, the Shadow Mage. This dagger is for you. Let not the simplicity of its design deceive you, for it shall grant you greater power when you wield it.~
-@11100544 = ~Ugh, indeed. It is hardly a beauty, but I can already feel the power in its hilt. You have done well in giving me this, fiend. My enemies won't stand a chance.~
+@11100543 = ~啊，维恩克赛，暗影法师。这把匕首是给你的。别被它朴素的设计所欺骗，持有时它将赋予你更强大的力量。~
+@11100544 = ~呃，确实。它算不上美观，但我已经能感受到刀柄中的力量。你给我这东西做得很好，邪魔。我的敌人将毫无胜算。~
 
 // P_DUSKJ Alabarza battle
 // Emily
-@11100545 = ~It matters not if we fell into a trap. Dusk, take the lead, and I will cover you with ranged attacks. In the end, we shall prevail!~
+@11100545 = ~我们是否落入陷阱并不重要。达斯克，你来带头，我用远程攻击掩护你。最终，我们一定会胜利！~
 // Helga
-@11100546 = ~Now this I like! Facing numerical disadvantage has never discouraged me—quite the opposite, it will only make the battle more glorious!~
+@11100546 = ~这个我喜欢！面对人数劣势从未让我气馁——恰恰相反，这只会让战斗更加荣耀！~
 // Kale
-@11100547 = ~So... it was obvious that ferret was a trap, mate.~
-@11100548 = ~Kale, you fell for the trap as much as I did.~
-@11100549 = ~Hey, I was merely making an observation. Well, I suppose there's nothing left but to get our hands dirty. Come on, Dusk. To battle!~
+@11100547 = ~那么……显然那只雪貂是个陷阱，伙计。~
+@11100548 = ~凯尔，你和我一样中了陷阱。~
+@11100549 = ~嘿，我只是在陈述事实。好吧，看来除了动手别无选择了。来吧，达斯克。战斗吧！~
 // Recorder
-@11100550 = ~The tale of the Purple Dragon Knights is but a few pages away from its end. Dusk, let us give your fallen comrades a worthy ending.~
+@11100550 = ~紫龙骑士团的故事，已然行将落幕。达斯克，让我们为你逝去的战友谱写一个无愧于他们的结局。~
 // Vienxay
-@11100551 = ~Ugh, not only have you dragged us into a hideous cave, but it was straight into a trap filled with foul creatures. I expect you to make it up to us, Dusk... assuming we survive this.~
+@11100551 = ~呃，你不仅把我们拖进了一个丑陋的洞穴，而且还直接落入了一个充满肮脏生物的陷阱。我希望你能补偿我们，达斯克……假设我们还能活下来的话。~
 
 // P_DUSKJ Sothillis decision
 // Emily
-@11100552 = ~The Windspear Hills are full of monsters that have tried to attack us on sight. These ones haven't, Dusk.~
+@11100552 = ~风矛丘陵到处都是见到我们就试图攻击的怪物。但这些家伙没有，达斯克。~
 // Helga
-@11100553 = ~Are you truly considering believing the words of this half-orc? Do as you wish, boy. But keep in mind that I am always ready to give battle to Sothillis's warriors.~
+@11100553 = ~你真的打算相信这个半兽人的话吗？随你便吧，小子。但记住，我随时准备与索希利斯的战士战斗。~
 // Kale
-@11100554 = ~So... if avoiding a fight is an option, perhaps we ought to take it, mate.~
-// Recorder
-@11100555 = ~Something tells me they are speaking the truth, Dusk. Perhaps we should hear them out.~
+@11100554 = ~那么……如果避免战斗是一个选项，也许我们应该选择它，伙计。~
+// 瑞科德
+@11100555 = ~直觉告诉我他们在说实话，达斯克。也许我们应该听听他们怎么说。~
 // Vienxay
-@11100556 = ~Ugh, do you truly believe this hideous creature doesn't want to tear us apart? She is merely waiting for the slightest opportunity to have her monsters crush us. We must strike before they do.~
+@11100556 = ~呃，你真的相信这个丑陋的生物不想把我们撕碎吗？她只是在等待最微小的机会，让她的怪物把我们碾碎。我们必须先发制人。~
 
 // P_FALLJ Icelock Battle
 // Emily
-@11100557 = ~A few good fire arrows will make you rethink your choices, monster. Charge!~
+@11100557 = ~几支凌厉的火焰箭矢会让你重新考虑你的选择，怪物。冲锋！~
 // Helga
-@11100558 = ~You think you have the upper hand here, golem? We dwarves were built for fighting underground. Come on, I'll prove it to you!~
+@11100558 = ~你以为你在这里占了上风，魔像？我们矮人天生就是为地下战斗而生的。来吧，我证明给你看！~
 // Kale
-@11100559 = ~An underground temple for a giant snow man? I hope you realize how little sense this makes, mate.~
-// Recorder
-@11100560 = ~I have read about Frostfell, <CHARNAME>. All attacks from these monsters will deal cold damage. Keep that in mind.~
-// Vienxay
-@11100561 = ~Nothing a good fireball cannot solve, <CHARNAME>. Cover me while I eradicate these vermin with my magic.~
+@11100559 = ~一个巨大的雪人的地下神殿？我希望你明白这有多不合逻辑，伙计。~
+// 瑞科德
+@11100560 = ~我读过关于霜冻之地的资料，<CHARNAME>。这些怪物的所有攻击都造成寒冷伤害。记住这一点。~
+// 维恩克赛
+@11100561 = ~没有什么是一个好的火球术解决不了的，<CHARNAME>。掩护我，我用魔法消灭这些害虫。~
 
-// P_MORGRA Final battle against Morgrath
-// Emily
-@11100562 = ~We are close to leaving this Abyss, and to do so, we must slay you, Morgrath. So be it!~
-// Helga
-@11100563 = ~Haela shall grant me the strength to crush these insects. Luck in steel, glory in blood!~
-// Kale
-@11100564 = ~Oi, spiders! I didn't come all this way just to be devoured by the likes of you. Now you shall feel the wrath of a halfling. Death!~
-// Recorder
-@11100565 = ~I long to return to the surface, and this fiend is the only thing standing in our way. It is time to give everything in this battle. We will not lose!~
-// Vienxay
-@11100566 = ~You have lived longer than I care to reckon, Morgrath. All to be destroyed by us! You are no Queen. You are vermin. Prepare to be destroyed!~
+// P_MORGRA 对抗莫格拉斯之最终决战
+// 艾米丽
+@11100562 = ~我们即将离开这个无底深渊，为此我们必须杀死你，莫格拉斯。那就来吧！~
+// 赫尔加
+@11100563 = ~海菈将赐予我力量碾碎这些虫子。钢铁护佑，荣耀血战！~
+// 凯尔
+@11100564 = ~喂，蜘蛛！我走了这么远可不是为了被你们这种家伙吃掉。现在让你们感受半身人的愤怒。去死吧！~
+// 瑞科德
+@11100565 = ~我渴望回到地表，而这邪魔是我们唯一的阻碍。是时候在这场战斗中付出一切了。我们不会输！~
+// 维恩克赛
+@11100566 = ~你活得比我想象的还要久，莫格拉斯。最终却要被我们毁灭！你不是女王。你是害虫。准备被消灭吧！~
 
 // P_VORAG Great basilisk decision
 // Emily
-@11100567 = ~It doesn't seem like a bloodthirsty creature, <CHARNAME>. I believe we should spare its life.~
+@11100567 = ~它看起来不像一个嗜血的生物，<CHARNAME>。我认为我们应该饶它一命。~
 // Helga
-@11100568 = ~I have never seen an ancient basilisk refrain from attacking its prey. However, I admit it would be glorious to join battle against one. Think about it, <CHARNAME>.~
+@11100568 = ~我从未见过远古石化蜥蜴不攻击猎物。不过，我承认与它战斗将是荣耀的。考虑一下吧，<CHARNAME>。~
 // Kale
-@11100569 = ~So... is everyone just going to ignore the fact that this basilisk speaks? If we can avoid an unnecessary fight, it's the sensible thing to do.~
+@11100569 = ~那么……大家是不是都忽略了这只石化蜥蜴会说话的事实？如果我们可以避免不必要的战斗，那才是明智之举。~
 // Recorder
-@11100570 = ~<CHARNAME>, we shouldn't attack it. It is a creature intelligent enough to reason. I think we should listen to it a bit longer.~
+@11100570 = ~<CHARNAME>，我们不应该攻击它。它是有足够智慧进行推理的生物。我认为我们应该多听它说一会儿。~
 // Vienxay
-@11100571 = ~Ugh, is sparing this monster's life truly up for debate? Just because it speaks doesn't mean it stops being a monster we can profit from. It's as the old elf said. I say we kill it.~
+@11100571 = ~呃，饶这个怪物一命真的值得讨论吗？它会说话并不意味着它就不再是可以让我们获利的怪物了。正如那位老精灵所说。我说杀了它。~
 
 // P_MATUT Michelson custom items
 // Emily
-@11100572 = ~(From the cargo, Michelson extracts a dusty book, shakes it, and, hopping along, approaches Emily to hand it to her with solemnity.)~
-@11100573 = ~And what is this? The book, for some reason, looks familiar to me. Thank you, Michelson.~
+@11100572 = ~（米切尔森从货物中取出一本布满灰尘的书，抖了抖，然后蹦蹦跳跳地走向艾米丽，郑重地递给她。）~
+@11100573 = ~这是什么？这本书不知为何，看起来很眼熟。谢谢你，米切尔森。~
 // Helga
-@11100574 = ~(Michelson pulls out a bottle containing a liquid that appears thick at first glance. Cautiously, he approaches Helga to hand it over.)~
-@11100575 = ~Hmm. I don't trust you, little one. How do I know this isn't some trick of yours? Regardless, I see it bears the symbol of Haela. For now, I shall take it. But you had better watch out if this turns out to be a deception!~
+@11100574 = ~（米切尔森掏出一个瓶子，里面装着一看就很浓稠的液体。他小心翼翼地走近赫尔加，递了过去。）~
+@11100575 = ~嗯。我不信任你，小家伙。我怎么知道这不是你的什么把戏？不过，我看到上面有海菈的标志。暂时我先收下。但要是这其中有诈，你最好小心点！~
 // Kale
-@11100576 = ~(A glowing potion appears in Michelson's hands, and he quickly scurries over to Kale to hand it to him with an ear-to-ear grin on his face.)~
-@11100577 = ~Aye, aye. I don't know why you're so excited, goblin. Hey, wait, it has a rather decent aroma. Thanks, mate.~
+@11100576 = ~（米切尔森手中出现了一瓶发光的药剂，他迅速跑到凯尔面前，咧嘴笑着递给他。）~
+@11100577 = ~哎，哎。我不知道你为什么这么兴奋，地精。嘿，等等，这味道还挺不错的。谢了，伙计。~
 // Recorder
-@11100578 = ~(From the cargo, Michelson extracts what appears to be a harp. Swiftly, he hands it over to Recorder.)~
-@11100579 = ~My, it feels cold to the touch. I hope I can draw a few fitting notes from it, Michelson. Thank you.~
+@11100578 = ~（米切尔森从货物中取出一把看似竖琴的东西。他迅速把它递给瑞科德。）~
+@11100579 = ~哎呀，摸起来好凉。希望我能从它上面弹出几个合适的音符，米切尔森。谢谢你。~
 // Vienxay
-@11100580 = ~(A glow emerges from the cargo, and Michelson extracts what appears to be a dagger. Swiftly, he approaches Vienxay to hand it to her.)~
-@11100581 = ~Ugh, didn't you have something more beautiful for me, tadpole? Hm, though I can feel the power within this dagger. I suppose I'll try using it for a while to see if it pleases me. Now, begone.~
+@11100580 = ~（货物中闪出一道光，米切尔森取出一把看似匕首的东西。他迅速走到维恩克赛面前递给她。）~
+@11100581 = ~呃，你就没有更漂亮的东西给我吗，小矮灵？嗯，虽然我能感觉到这把匕首中的力量。我想我会先用一段时间，看看它是否合我心意。现在，退下吧。~
+
 
 
 //JOURNAL
